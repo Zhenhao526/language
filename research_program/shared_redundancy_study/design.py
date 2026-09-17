@@ -8,7 +8,7 @@ HORIZON = 6
 ACTION_START = 2
 SUBTASKS = 2
 STEPS_PER_SUBTASK = 2
-TASK = "factorized"
+TASK = "shared_parity"
 PARTNER_MODE = "rotating"
 PARTNER_VISIBILITY = "hidden"
 FORMS = ("dual2", "triple2", "atomic8")
@@ -16,12 +16,12 @@ ALPHABET_SIZES = {"dual2": 2, "triple2": 2, "atomic8": 8}
 MESSAGE_LENGTHS = {"dual2": 2, "triple2": 3, "atomic8": 1}
 # All message forms are delivered simultaneously immediately before the first
 # action.  This removes timing as a confound in the redundancy comparison.
-ARRIVAL_TIMES = {"dual2": (2, 2), "triple2": (2, 2, 2), "atomic8": (2,)}
+ARRIVAL_TIMES = {"dual2": (1, 1), "triple2": (1, 1, 1), "atomic8": (1,)}
 CAPACITY = 2
 WORKERS = 4
 NULL_MESSAGE = -1
 ACTION_COUNT = 3
-SEEDS = tuple(range(78101, 78110))
+SEEDS = tuple(range(79101, 79110))
 NOISE_LEVELS = (0.0, 0.10, 0.25)
 NOISE_KEYS = {"p00": 0.0, "p10": 0.10, "p25": 0.25}
 ADAPTATIONS = ("scratch", "worker_only", "coadapt")
@@ -80,7 +80,9 @@ def goal_index(goal):
 
 
 def target_bits(goal):
-    return np.asarray(goal, dtype=np.int8).copy()
+    g = np.asarray(goal, dtype=np.int8)
+    parity = np.bitwise_xor(g[..., 0], g[..., 1])
+    return np.repeat(parity[..., None], SUBTASKS, axis=-1)
 
 
 def arrival_times(form):
@@ -134,7 +136,7 @@ def episode_stream(seed, count, form, *, evaluation=False, update=0):
 
 def prepare():
     return {
-        "schema": "error_correcting_signaling_study_v1",
+        "schema": "shared_redundancy_study_v1",
         "horizon": HORIZON,
         "action_start": ACTION_START,
         "subtasks": SUBTASKS,
@@ -158,6 +160,7 @@ def prepare():
         "learning_rate": LEARNING_RATE,
         "checkpoints": list(CHECKPOINTS),
         "pairing": "within each seed/form/adaptation, noise arms share worlds, goals, partners, message uniforms, action uniforms and noise uniforms",
+        "meaning": "both action stages require the same hidden parity of two private binary factors",
         "capacity_control": "triple2 and atomic8 have eight raw message states; dual2 has four",
         "no_teacher_or_language_prior": True,
     }
