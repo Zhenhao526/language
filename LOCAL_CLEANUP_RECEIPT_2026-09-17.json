@@ -1,1050 +1,153 @@
 {
-  "schema": "local_cleanup_receipt_20260917_v1",
-  "timestamp_local": "2026-09-17 17:56:52 +0800",
+  "schema": "local_cleanup_receipt_20260917_v6",
+  "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_before_cleanup": "e140ca78e27403fb9ac95cecce877cefacfd793d",
-  "removed_file_count": 12239,
-  "removed_bytes": 3687981411,
-  "removed_paths": [
-    {
-      "path": "SYNC_INVENTORY.tsv",
-      "files": 1,
-      "bytes": 3805
-    },
-    {
-      "path": "audit_corrected_001",
-      "files": 2,
-      "bytes": 714
-    },
-    {
-      "path": "audit_corrected_002",
-      "files": 2,
-      "bytes": 1629
-    },
-    {
-      "path": "audit_corrected_003",
-      "files": 2,
-      "bytes": 2982
-    },
-    {
-      "path": "audit_corrected_004",
-      "files": 2,
-      "bytes": 4722
-    },
-    {
-      "path": "audit_corrected_005",
-      "files": 2,
-      "bytes": 2143
-    },
-    {
-      "path": "audit_corrected_006",
-      "files": 2,
-      "bytes": 1393
-    },
-    {
-      "path": "audit_corrected_scope_001",
-      "files": 2,
-      "bytes": 2611
-    },
-    {
-      "path": "audit_execution_001",
-      "files": 2,
-      "bytes": 861
-    },
-    {
-      "path": "paper_program",
-      "files": 485,
-      "bytes": 41739933
-    },
-    {
-      "path": "pilot_round1",
-      "files": 20,
-      "bytes": 243464
-    },
-    {
-      "path": "qwen_collect_pilot",
-      "files": 33,
-      "bytes": 210104
-    },
-    {
-      "path": "qwen_language_diagnostics",
-      "files": 83,
-      "bytes": 862729
-    },
-    {
-      "path": "qwen_language_v2",
-      "files": 105,
-      "bytes": 1939278
-    },
-    {
-      "path": "qwen_language_v3",
-      "files": 50,
-      "bytes": 587338
-    },
-    {
-      "path": "redesign_v0.10",
-      "files": 47,
-      "bytes": 431784
-    },
-    {
-      "path": "redesign_v0.11",
-      "files": 63,
-      "bytes": 652767
-    },
-    {
-      "path": "redesign_v0.12",
-      "files": 75,
-      "bytes": 981896
-    },
-    {
-      "path": "redesign_v0.13",
-      "files": 86,
-      "bytes": 1162818
-    },
-    {
-      "path": "redesign_v0.14",
-      "files": 153,
-      "bytes": 1995524
-    },
-    {
-      "path": "redesign_v0.15",
-      "files": 215,
-      "bytes": 3282560
-    },
-    {
-      "path": "redesign_v0.16",
-      "files": 166,
-      "bytes": 2160456
-    },
-    {
-      "path": "redesign_v0.17",
-      "files": 172,
-      "bytes": 2346949
-    },
-    {
-      "path": "redesign_v0.18",
-      "files": 110,
-      "bytes": 1397224
-    },
-    {
-      "path": "redesign_v0.19",
-      "files": 134,
-      "bytes": 1422821
-    },
-    {
-      "path": "redesign_v0.20",
-      "files": 61,
-      "bytes": 626009
-    },
-    {
-      "path": "redesign_v0.21",
-      "files": 69,
-      "bytes": 791076
-    },
-    {
-      "path": "redesign_v0.22",
-      "files": 45,
-      "bytes": 567113
-    },
-    {
-      "path": "redesign_v0.23",
-      "files": 60,
-      "bytes": 695375
-    },
-    {
-      "path": "redesign_v0.24",
-      "files": 73,
-      "bytes": 767906
-    },
-    {
-      "path": "redesign_v0.25",
-      "files": 76,
-      "bytes": 756211
-    },
-    {
-      "path": "redesign_v0.26",
+  "remote_commit_verified_after_sync": "ec79f50388ed97ff3670b330c64108b905d20084",
+  "remote_main_verified": true,
+  "compact_archives_verified": {
+    "research_program/tabular_signaling_study/results/formal_20260917": {
       "files": 12,
-      "bytes": 185531
+      "bytes": 3199452
     },
-    {
-      "path": "redesign_v0.27",
-      "files": 14,
-      "bytes": 329035
+    "research_program/compositional_signaling_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 3359008
     },
-    {
-      "path": "redesign_v0.28",
-      "files": 64,
-      "bytes": 763198
+    "research_program/action_dependent_signaling_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 12574763
     },
-    {
-      "path": "redesign_v0.29",
-      "files": 56,
-      "bytes": 598259
+    "research_program/generation_transmission_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 1500468
     },
-    {
-      "path": "redesign_v0.3",
-      "files": 33,
-      "bytes": 960330
+    "research_program/generation_compositional_transmission_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 566057
     },
-    {
-      "path": "redesign_v0.30",
-      "files": 129,
-      "bytes": 1355286
+    "research_program/heldout_composition_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 1667649
     },
-    {
-      "path": "redesign_v0.31",
-      "files": 78,
-      "bytes": 740415
+    "research_program/receiver_representation_study/results/formal_20260917": {
+      "files": 10,
+      "bytes": 3546655
     },
-    {
-      "path": "redesign_v0.32",
-      "files": 83,
-      "bytes": 816809
-    },
-    {
-      "path": "redesign_v0.33",
-      "files": 58,
-      "bytes": 524563
-    },
-    {
-      "path": "redesign_v0.34",
-      "files": 81,
-      "bytes": 759036
-    },
-    {
-      "path": "redesign_v0.35",
-      "files": 53,
-      "bytes": 511537
-    },
-    {
-      "path": "redesign_v0.36",
-      "files": 39,
-      "bytes": 356663
-    },
-    {
-      "path": "redesign_v0.37",
-      "files": 39,
-      "bytes": 338211
-    },
-    {
-      "path": "redesign_v0.38",
-      "files": 41,
-      "bytes": 384783
-    },
-    {
-      "path": "redesign_v0.39",
-      "files": 27,
-      "bytes": 261574
-    },
-    {
-      "path": "redesign_v0.4",
-      "files": 221,
-      "bytes": 3985809
-    },
-    {
-      "path": "redesign_v0.40",
-      "files": 29,
-      "bytes": 336465
-    },
-    {
-      "path": "redesign_v0.41",
-      "files": 57,
-      "bytes": 757953
-    },
-    {
-      "path": "redesign_v0.42",
-      "files": 13,
-      "bytes": 88096
-    },
-    {
-      "path": "redesign_v0.43",
-      "files": 31,
-      "bytes": 366471
-    },
-    {
-      "path": "redesign_v0.44",
-      "files": 23,
-      "bytes": 223214
-    },
-    {
-      "path": "redesign_v0.45",
-      "files": 31,
-      "bytes": 372179
-    },
-    {
-      "path": "redesign_v0.46",
-      "files": 32,
-      "bytes": 385247
-    },
-    {
-      "path": "redesign_v0.47",
-      "files": 32,
-      "bytes": 379231
-    },
-    {
-      "path": "redesign_v0.48",
-      "files": 65,
-      "bytes": 906034
-    },
-    {
-      "path": "redesign_v0.5",
-      "files": 56,
-      "bytes": 771045
-    },
-    {
-      "path": "redesign_v0.6",
-      "files": 29,
-      "bytes": 429264
-    },
-    {
-      "path": "redesign_v0.7",
-      "files": 33,
-      "bytes": 519793
-    },
-    {
-      "path": "redesign_v0.8",
-      "files": 36,
-      "bytes": 572906
-    },
-    {
-      "path": "redesign_v0.9",
-      "files": 50,
-      "bytes": 4509394
-    },
-    {
-      "path": "v3_能力检查_设计审查建议.md",
-      "files": 1,
-      "bytes": 5463
-    },
-    {
-      "path": "合作任务情景比较_v0.1.md",
-      "files": 1,
-      "bytes": 8288
-    },
-    {
-      "path": "文献调研_2026-09-14",
-      "files": 15,
-      "bytes": 281605
-    },
-    {
-      "path": "语言涌现研究讨论记录_2026-09-14.md",
-      "files": 1,
-      "bytes": 11084
-    },
-    {
-      "path": "项目定位与本地先导方案_v0.2.md",
-      "files": 1,
-      "bytes": 16048
-    },
-    {
-      "path": "research_program/codebook_audit.py",
-      "files": 1,
-      "bytes": 24392
-    },
-    {
-      "path": "research_program/codebook_audit_v06_20260915",
-      "files": 4,
-      "bytes": 23980362
-    },
-    {
-      "path": "research_program/codebook_factor_coverage.py",
-      "files": 1,
-      "bytes": 20604
-    },
-    {
-      "path": "research_program/codebook_factor_coverage_v06_20260915",
-      "files": 3,
-      "bytes": 30504649
-    },
-    {
-      "path": "research_program/ecology_draft_counts.py",
-      "files": 1,
-      "bytes": 5118
-    },
-    {
-      "path": "research_program/ecology_draft_counts_20260915.json",
-      "files": 1,
-      "bytes": 1457
-    },
-    {
-      "path": "research_program/ecology_information_bounds.py",
-      "files": 1,
-      "bytes": 8346
-    },
-    {
-      "path": "research_program/fixed_role_signaling_study",
-      "files": 362,
-      "bytes": 263594443
-    },
-    {
-      "path": "research_program/interaction_ecology_study",
-      "files": 31,
-      "bytes": 351487
-    },
-    {
-      "path": "research_program/literature_audit_2026-09-15",
-      "files": 6,
-      "bytes": 143075
-    },
-    {
-      "path": "research_program/no_communication_20260915",
-      "files": 58,
-      "bytes": 3589879
-    },
-    {
-      "path": "research_program/partner_demand_study",
-      "files": 1009,
-      "bytes": 365810862
-    },
-    {
-      "path": "research_program/policy_gain_design_review.md",
-      "files": 1,
-      "bytes": 8028
-    },
-    {
-      "path": "research_program/policy_gain_study",
-      "files": 79,
-      "bytes": 970489
-    },
-    {
-      "path": "research_program/probability_coverage_study",
-      "files": 24,
-      "bytes": 226313
-    },
-    {
-      "path": "research_program/receiver_coverage_trajectory.py",
-      "files": 1,
-      "bytes": 32034
-    },
-    {
-      "path": "research_program/receiver_coverage_trajectory_v06_20260915",
-      "files": 12,
-      "bytes": 407114
-    },
-    {
-      "path": "research_program/receiver_coverage_trajectory_v06_20260915_py312",
-      "files": 22,
-      "bytes": 1654188
-    },
-    {
-      "path": "research_program/role_signaling_study",
-      "files": 91,
-      "bytes": 37946722
-    },
-    {
-      "path": "research_program/summarize_receiver_trajectory.py",
-      "files": 1,
-      "bytes": 6567
-    },
-    {
-      "path": "research_program/temporal_scarcity_study",
-      "files": 823,
-      "bytes": 750804299
-    },
-    {
-      "path": "research_program/triadic_action_dependency_study",
-      "files": 79,
-      "bytes": 34300236
-    },
-    {
-      "path": "research_program/triadic_compositional_holdout_semantic_transfer_probe",
-      "files": 40,
-      "bytes": 345729
-    },
-    {
-      "path": "research_program/triadic_compositional_matched_control_semantic_transfer_probe",
-      "files": 78,
-      "bytes": 674096
-    },
-    {
-      "path": "research_program/triadic_compositional_slot_transfer_probe",
-      "files": 83,
-      "bytes": 840487
-    },
-    {
-      "path": "research_program/triadic_conflict_penalty_study",
-      "files": 37,
-      "bytes": 772894
-    },
-    {
-      "path": "research_program/triadic_content_response_study",
-      "files": 23,
-      "bytes": 134493
-    },
-    {
-      "path": "research_program/triadic_context_transfer_study",
-      "files": 103,
-      "bytes": 7882808
-    },
-    {
-      "path": "research_program/triadic_coordination_study",
-      "files": 47,
-      "bytes": 642460
-    },
-    {
-      "path": "research_program/triadic_cross_split_confirmation_study",
-      "files": 41,
-      "bytes": 383847
-    },
-    {
-      "path": "research_program/triadic_directed_message_study",
-      "files": 81,
-      "bytes": 764393
-    },
-    {
-      "path": "research_program/triadic_factorial_formation_study",
-      "files": 42,
-      "bytes": 365983
-    },
-    {
-      "path": "research_program/triadic_factorial_payoff_study",
-      "files": 25,
-      "bytes": 217233
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_direction_probe",
-      "files": 92,
-      "bytes": 835132
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_fi_capacity_pilot",
-      "files": 27,
-      "bytes": 204863
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_information_control_study",
-      "files": 43,
-      "bytes": 395005
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_message_locality_probe",
-      "files": 26,
-      "bytes": 131770
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_partner_direction_probe",
-      "files": 93,
-      "bytes": 852195
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe",
-      "files": 43,
-      "bytes": 434975
-    },
-    {
-      "path": "research_program/triadic_factorized_neutral_altpartner_study",
-      "files": 41,
-      "bytes": 371808
-    },
-    {
-      "path": "research_program/triadic_flow_study",
-      "files": 82,
-      "bytes": 766864
-    },
-    {
-      "path": "research_program/triadic_formation_trajectory_study",
-      "files": 86,
-      "bytes": 1006215
-    },
-    {
-      "path": "research_program/triadic_global_reward_control_study",
-      "files": 50,
-      "bytes": 1188808
-    },
-    {
-      "path": "research_program/triadic_identity_mask_codebook_study",
-      "files": 362,
-      "bytes": 726452209
-    },
-    {
-      "path": "research_program/triadic_learning_baseline",
-      "files": 35,
-      "bytes": 1552241
-    },
-    {
-      "path": "research_program/triadic_local_structure_control_study",
-      "files": 20,
-      "bytes": 106525
-    },
-    {
-      "path": "research_program/triadic_message_study",
-      "files": 74,
-      "bytes": 3230048
-    },
-    {
-      "path": "research_program/triadic_multi_legal_coordination_study",
-      "files": 25,
-      "bytes": 189144
-    },
-    {
-      "path": "research_program/triadic_multi_legal_direction_probe",
-      "files": 47,
-      "bytes": 472705
-    },
-    {
-      "path": "research_program/triadic_multi_legal_neutral_action_study",
-      "files": 35,
-      "bytes": 243193
-    },
-    {
-      "path": "research_program/triadic_multi_legal_rematched_confirmation_study",
-      "files": 27,
-      "bytes": 208232
-    },
-    {
-      "path": "research_program/triadic_multi_legal_rematched_direction_probe",
-      "files": 61,
-      "bytes": 578738
-    },
-    {
-      "path": "research_program/triadic_need_response_study",
-      "files": 52,
-      "bytes": 1786210
-    },
-    {
-      "path": "research_program/triadic_new_receiver_compositional_holdout_study",
-      "files": 33,
-      "bytes": 307879
-    },
-    {
-      "path": "research_program/triadic_new_receiver_module_ablation_study",
-      "files": 33,
-      "bytes": 265732
-    },
-    {
-      "path": "research_program/triadic_new_receiver_transmission_study",
-      "files": 44,
-      "bytes": 434577
-    },
-    {
-      "path": "research_program/triadic_packet_identity_control_study",
-      "files": 23,
-      "bytes": 98552
-    },
-    {
-      "path": "research_program/triadic_partial_payoff_study",
-      "files": 52,
-      "bytes": 669437
-    },
-    {
-      "path": "research_program/triadic_partner_ecology_study",
-      "files": 120,
-      "bytes": 9488025
-    },
-    {
-      "path": "research_program/triadic_partner_holdout_confirmation_study",
-      "files": 25,
-      "bytes": 205136
-    },
-    {
-      "path": "research_program/triadic_partner_switch_study",
+    "research_program/population_signaling_study/results/formal_20260917": {
       "files": 11,
-      "bytes": 61095
-    },
-    {
-      "path": "research_program/triadic_position_reuse_study",
-      "files": 66,
-      "bytes": 676693
-    },
-    {
-      "path": "research_program/triadic_private_partner_study",
-      "files": 61,
-      "bytes": 538217
-    },
-    {
-      "path": "research_program/triadic_protocol_chain_study",
-      "files": 33,
-      "bytes": 286979
-    },
-    {
-      "path": "research_program/triadic_public_codebook_study",
-      "files": 36,
-      "bytes": 394776
-    },
-    {
-      "path": "research_program/triadic_random_symbol_ensemble_study",
-      "files": 20,
-      "bytes": 110001
-    },
-    {
-      "path": "research_program/triadic_receiver_role_crossover_confirmatory_semantic_transfer_probe",
-      "files": 31,
-      "bytes": 292118
-    },
-    {
-      "path": "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe",
-      "files": 45,
-      "bytes": 538149
-    },
-    {
-      "path": "research_program/triadic_receiver_role_crossover_confirmatory_study",
-      "files": 27,
-      "bytes": 233937
-    },
-    {
-      "path": "research_program/triadic_receiver_role_crossover_semantic_transfer_probe",
-      "files": 28,
-      "bytes": 280548
-    },
-    {
-      "path": "research_program/triadic_receiver_role_crossover_study",
-      "files": 57,
-      "bytes": 576081
-    },
-    {
-      "path": "research_program/triadic_reciprocal_execution_study",
-      "files": 74,
-      "bytes": 1172180
-    },
-    {
-      "path": "research_program/triadic_rematched_partner_confirmation_study",
-      "files": 42,
-      "bytes": 360030
-    },
-    {
-      "path": "research_program/triadic_role_decoder_study",
-      "files": 38,
-      "bytes": 406077
-    },
-    {
-      "path": "research_program/triadic_role_expression_study",
-      "files": 7,
-      "bytes": 46133
-    },
-    {
-      "path": "research_program/triadic_rule_communication_study",
-      "files": 24,
-      "bytes": 265722
-    },
-    {
-      "path": "research_program/triadic_rule_formation_study",
-      "files": 82,
-      "bytes": 693347
-    },
-    {
-      "path": "research_program/triadic_semantic_formation_confirmation_study",
-      "files": 15,
-      "bytes": 115972
-    },
-    {
-      "path": "research_program/triadic_semantic_probe_study",
-      "files": 68,
-      "bytes": 11605418
-    },
-    {
-      "path": "research_program/triadic_symbol_recode_study",
-      "files": 20,
-      "bytes": 98167
-    },
-    {
-      "path": "research_program/triadic_task",
-      "files": 49,
-      "bytes": 543011
-    },
-    {
-      "path": "research_program/v07_evidence_readonly.py",
-      "files": 1,
-      "bytes": 11439
-    },
-    {
-      "path": "research_program/v07新增证据与主张修订.md",
-      "files": 1,
-      "bytes": 15260
-    },
-    {
-      "path": "research_program/v07新增证据核查.json",
-      "files": 1,
-      "bytes": 26093
-    },
-    {
-      "path": "research_program/v08_coverage_comparison_001.json",
-      "files": 1,
-      "bytes": 1987
-    },
-    {
-      "path": "research_program/v08_formation_trajectory.py",
-      "files": 1,
-      "bytes": 31508
-    },
-    {
-      "path": "research_program/v08_formation_trajectory_001",
-      "files": 975,
-      "bytes": 53188337
-    },
-    {
-      "path": "research_program/v08_formation_trajectory_preflight.json",
-      "files": 1,
-      "bytes": 852
-    },
-    {
-      "path": "research_program/v08_formation_trajectory_tests.py",
-      "files": 1,
-      "bytes": 8822
-    },
-    {
-      "path": "research_program/v08_formation_trajectory_预审.md",
-      "files": 1,
-      "bytes": 4309
-    },
-    {
-      "path": "research_program/v08_plot_coverage.py",
-      "files": 1,
-      "bytes": 4754
-    },
-    {
-      "path": "research_program/v08_plot_formation.py",
-      "files": 1,
-      "bytes": 4675
-    },
-    {
-      "path": "research_program/v08_receiver_coverage.py",
-      "files": 1,
-      "bytes": 27770
-    },
-    {
-      "path": "research_program/v08_receiver_coverage_001.json",
-      "files": 1,
-      "bytes": 2925719
-    },
-    {
-      "path": "research_program/v08_receiver_coverage_001.md",
-      "files": 1,
-      "bytes": 3854
-    },
-    {
-      "path": "research_program/v08_互补收益的数学含义与近邻定位.md",
-      "files": 1,
-      "bytes": 6995
-    },
-    {
-      "path": "research_program/v08_只读分解准备说明.md",
-      "files": 1,
-      "bytes": 5709
-    },
-    {
-      "path": "research_program/v08_形成轨迹独立核验.json",
-      "files": 1,
-      "bytes": 3231
-    },
-    {
-      "path": "research_program/v08_形成轨迹独立核验.md",
-      "files": 1,
-      "bytes": 2224
-    },
-    {
-      "path": "research_program/v08_形成轨迹独立核验.py",
-      "files": 1,
-      "bytes": 13378
-    },
-    {
-      "path": "research_program/v08_形成轨迹独立核验_真实.json",
-      "files": 1,
-      "bytes": 655412
-    },
-    {
-      "path": "research_program/v08_形成轨迹独立核验_真实.md",
-      "files": 1,
-      "bytes": 2605
-    },
-    {
-      "path": "research_program/v08_形成轨迹真实重算.py",
-      "files": 1,
-      "bytes": 14149
-    },
-    {
-      "path": "research_program/v08_终点分解解读.md",
-      "files": 1,
-      "bytes": 4313
-    },
-    {
-      "path": "research_program/v08_结果与下一步.md",
-      "files": 1,
-      "bytes": 8169
-    },
-    {
-      "path": "research_program/v08_覆盖分析独立核验.json",
-      "files": 1,
-      "bytes": 2499
-    },
-    {
-      "path": "research_program/v08_覆盖分析独立核验.md",
-      "files": 1,
-      "bytes": 2488
-    },
-    {
-      "path": "research_program/v08_覆盖分析独立核验.py",
-      "files": 1,
-      "bytes": 21879
-    },
-    {
-      "path": "research_program/v08_覆盖分析独立核验_真实.json",
-      "files": 1,
-      "bytes": 105815
-    },
-    {
-      "path": "research_program/v08_覆盖分析独立核验_真实.md",
-      "files": 1,
-      "bytes": 1923
-    },
-    {
-      "path": "research_program/v08执行状态核对.json",
-      "files": 1,
-      "bytes": 18155
-    },
-    {
-      "path": "research_program/v08执行状态核对.md",
-      "files": 1,
-      "bytes": 3119
-    },
-    {
-      "path": "research_program/v08正在执行的设计核对.md",
-      "files": 1,
-      "bytes": 10967
-    },
-    {
-      "path": "research_program/visual_confirmation_frame",
-      "files": 293,
-      "bytes": 23645170
-    },
-    {
-      "path": "research_program/下一轮生态操纵草案.md",
-      "files": 1,
-      "bytes": 16534
-    },
-    {
-      "path": "research_program/论文证据与创新性审计_2026-09-15.md",
-      "files": 1,
-      "bytes": 28364
-    },
-    {
-      "path": "research_program/进展账本.md",
-      "files": 1,
-      "bytes": 213482
-    },
-    {
-      "path": "research_program/阶段结论与下一轮_2026-09-15.md",
-      "files": 1,
-      "bytes": 8187
-    },
-    {
-      "path": "research_program/tabular_signaling_study/__pycache__",
-      "files": 7,
-      "bytes": 68546
-    },
-    {
-      "path": "research_program/tabular_signaling_study/results/tabular_001",
-      "files": 17,
-      "bytes": 87293
-    },
-    {
-      "path": "research_program/tabular_signaling_study/results/tabular_002_confirmatory",
-      "files": 17,
-      "bytes": 87371
-    },
-    {
-      "path": "research_program/tabular_signaling_study/results/tabular_002_confirmatory_exec",
-      "files": 98,
-      "bytes": 95770123
-    },
-    {
-      "path": "research_program/tabular_signaling_study/results/tabular_003_switching_confirmatory",
-      "files": 17,
-      "bytes": 87775
-    },
-    {
-      "path": "research_program/tabular_signaling_study/results/tabular_003_switching_confirmatory_exec",
-      "files": 98,
-      "bytes": 95690135
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tabular_001_longprobe_analysis.json",
-      "files": 1,
-      "bytes": 4057
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tabular_002_confirmatory_audit.json",
-      "files": 1,
-      "bytes": 5560
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tabular_002_confirmatory_结果与下一步.md",
-      "files": 1,
-      "bytes": 3381
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tabular_003_switching_audit.json",
-      "files": 1,
-      "bytes": 5615
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tabular_003_switching_结果与下一步.md",
-      "files": 1,
-      "bytes": 2725
-    },
-    {
-      "path": "research_program/tabular_signaling_study/tests/__pycache__",
-      "files": 2,
-      "bytes": 4137
-    },
-    {
-      "path": "research_program/population_signaling_study/__pycache__",
-      "files": 7,
-      "bytes": 76542
-    },
-    {
-      "path": "research_program/population_signaling_study/population_formal_aggregate.json",
-      "files": 1,
-      "bytes": 428466
-    },
-    {
-      "path": "research_program/population_signaling_study/population_formal_aggregate.md",
-      "files": 1,
-      "bytes": 2618
-    },
-    {
-      "path": "research_program/population_signaling_study/population_formal_audit.json",
-      "files": 1,
-      "bytes": 71453
-    },
-    {
-      "path": "research_program/population_signaling_study/population_formal_结果与下一步.md",
-      "files": 1,
-      "bytes": 4765
-    },
-    {
-      "path": "research_program/population_signaling_study/results/population_001",
-      "files": 17,
-      "bytes": 91105
-    },
-    {
-      "path": "research_program/population_signaling_study/results/population_001_exec",
-      "files": 89,
-      "bytes": 58471101
-    },
-    {
-      "path": "research_program/population_signaling_study/results/population_formal_final",
-      "files": 898,
-      "bytes": 967327350
-    },
-    {
-      "path": "research_program/population_signaling_study/tests/__pycache__",
-      "files": 2,
-      "bytes": 2177
+      "bytes": 4219273
     }
+  },
+  "raw_execution_trees_removed": {
+    "research_program/tabular_signaling_study/results/tabular_002_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/tabular_signaling_study/results/tabular_003_switching_confirmatory_exec": {
+      "present": false
+    },
+    "research_program/temporal_scarcity_study/results/temporal_003_formal_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_001_exec": {
+      "present": false
+    },
+    "research_program/population_signaling_study/results/population_formal_final": {
+      "present": false
+    },
+    "research_program/compositional_signaling_study/results/compositional_formal_exec": {
+      "present": false
+    },
+    "research_program/action_dependent_signaling_study/results/action_dep_formal_exec": {
+      "present": false
+    },
+    "research_program/generation_transmission_study/results/generation_formal_exec": {
+      "present": false
+    },
+    "research_program/generation_compositional_transmission_study/results/gct_formal_exec": {
+      "present": false
+    },
+    "research_program/heldout_composition_study/results/heldout_formal_exec": {
+      "present": false
+    },
+    "research_program/receiver_representation_study/results/receiver_formal_exec": {
+      "present": false
+    }
+  },
+  "temporary_raw_trees_removed": [
+    "/tmp/action_dep_rebuilt",
+    "/tmp/gct_formal_full",
+    "/tmp/heldout_formal_full",
+    "/tmp/rr_formal_full",
+    "/tmp/action_dep_parent_repr",
+    "/tmp/heldout_prepared_full_v3",
+    "/tmp/action_dep_rebuilt_prepared",
+    "/tmp/rr_prepared_full"
   ],
-  "retained_file_count": 1265,
-  "retained_bytes": 110190738,
-  "retained_paths": [
-    ".exp_venv/",
-    ".git/",
-    "research_program/tabular_signaling_study/",
-    "research_program/population_signaling_study/",
-    "研究报告_共同符号形成机制_2026-09-17.md",
-    "SYNC_2026-09-17.md",
-    "README.md",
-    "STORAGE_MANIFEST.json",
-    "STORAGE_POLICY.md"
-  ],
-  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; historical raw process trees are remote-only"
+  "tracked_paths_pruned_in_commit": 8338,
+  "git_history_preserved": true,
+  "historical_cleanup_estimate_bytes": 3687981411,
+  "retained_paths": {
+    "research_program/tabular_signaling_study": {
+      "files": 23,
+      "bytes": 3243758
+    },
+    "research_program/temporal_scarcity_study": {
+      "files": 11,
+      "bytes": 51394
+    },
+    "research_program/compositional_signaling_study": {
+      "files": 20,
+      "bytes": 3406709
+    },
+    "research_program/action_dependent_signaling_study": {
+      "files": 23,
+      "bytes": 12626766
+    },
+    "research_program/generation_transmission_study": {
+      "files": 19,
+      "bytes": 1549912
+    },
+    "research_program/generation_compositional_transmission_study": {
+      "files": 23,
+      "bytes": 600595
+    },
+    "research_program/heldout_composition_study": {
+      "files": 22,
+      "bytes": 1706609
+    },
+    "research_program/receiver_representation_study": {
+      "files": 22,
+      "bytes": 3589982
+    },
+    "research_program/population_signaling_study": {
+      "files": 22,
+      "bytes": 4266351
+    },
+    "研究报告_共同符号形成机制_2026-09-17.md": {
+      "files": 1,
+      "bytes": 26619
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 1076
+    },
+    "research_program/README.md": {
+      "files": 1,
+      "bytes": 1826
+    },
+    "SYNC_2026-09-17.md": {
+      "files": 1,
+      "bytes": 5981
+    },
+    "STORAGE_POLICY.md": {
+      "files": 1,
+      "bytes": 1436
+    }
+  },
+  "local_environment": {
+    "files": 1591,
+    "bytes": 134367803
+  },
+  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw process trees and literature caches are not kept in the working tree"
 }
