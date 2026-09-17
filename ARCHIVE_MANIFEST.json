@@ -42,6 +42,12 @@
       }
     },
     "raw_process_files_omitted": true,
-    "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained."
+    "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained.",
+    "local_cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-17.json",
+    "storage_manifest": "STORAGE_MANIFEST_2026-09-17.json",
+    "local_removed_file_count": 12239,
+    "local_removed_bytes": 3687981411,
+    "local_retained_bytes": 110190738,
+    "cleanup_verified_after_remote_commit": "e140ca78e27403fb9ac95cecce877cefacfd793d"
   }
 }

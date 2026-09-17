@@ -1,5 +1,33 @@
 # 持续研究记录
 
+- **2026-09-17 表格机制确认：** [tabular signaling](tabular_signaling_study/README.md) 完成 144 个正式 run（8 个 seed；PI/FI、记忆、容量、任务和 live/silent 因子），并通过独立回放。held-out 中 recurrent＋abundant＋PI＋persistent 的 live−silent 为 **+25.95 pp**（t(7) CI [+24.87,+27.03]），natural−permuted 为 **+26.28 pp**（[+24.85,+27.72]）；FI 和 stateless 的 from-scratch silent 对照接近零，switching 未见稳定留出泛化。完整紧凑汇总在 `tabular_signaling_study/results/formal_20260917/`。
+
+- **2026-09-17 共同 token 伙伴生态：** [population signaling](population_signaling_study/README.md) 固定/轮换伙伴、sender 身份可见性、容量与 live/silent 共 128 个 run，地点排列修正后使用跨条件配对随机流。轮换 hidden＋abundant 的 held-out natural 回报为 **0.800**，from-scratch silent 为 **0.299**，live−silent **+50.05 pp**（t(7) CI [+49.94,+50.17]），natural−permuted **+50.04 pp**（[+49.58,+50.49]），四个独立 worker 的 sender token 一致率和语义成功率均为 **1.000**。visible＋abundant 仍有 **+45.60 pp** live−silent，但 token 一致率降为 **0.516**（[0.412,0.619]）；scarce hidden 的 live−silent 为 **+0.74 pp**（区间跨零），scarce visible 为 0。最终数值、codebook readout 和审计收据在 `population_signaling_study/results/formal_20260917/`。
+
+- **身份歧义 × 公私码本 pilot（最新）：**[完整报告](triadic_identity_mask_codebook_study/结果与下一步.md)在随机置换发送者槽位的条件下，比较共享公共八符号双射与三套发送者私有双射，共 4 个 seed × 6 条件、24 次训练、1,200 次更新。联合留出终点的预注册主交互为 **−0.940 个百分点**，近似 t(3) 区间 **[−5.988,+4.108]**，4 个 seed 中 2 个为正；公共 live 增益 **+3.406 pp**，私有 live 增益 **+4.346 pp**。独立审计 24 个 run、28,800 条训练日志、160 个评价文件，非有限数组 0，消息重编码和槽位置换检查通过。该结果不支持身份歧义下的公共码本优势；通信增益不能直接称为词义或语言形成。下一步冻结一代策略后替换新成员，测试约定能否被接入和传播。
+
+- **私有需求先导网格（最新）：**[结果与下一步](partner_demand_study/partner_005_结果与下一步.md)在 `partner_005` 冻结源快照上完成 2 个 seed × 32 条件、64 个 run、200 次更新。live held-out 的自然−closed 平均为 **−0.667 pp**，自然−permuted 为 **−0.175 pp**；PI＋switching 分别 **−0.824/−0.039 pp**，PI＋scarce＋switching 小子集 **+0.241/+0.231 pp**。消息互信息仍约 **0.360 bit**，说明状态相关 token 没有转化为自然配对的伙伴收益；独立审计 64 个 run、12,800 条日志、384 个评价块通过。下一步先冻结改进后的消息信用分配，再做 2,000 更新确认批次。
+
+- **私有需求改进信用分配 longprobe：**[结果与下一步](partner_demand_study/partner_006_longprobe_结果与下一步.md)在 `partner_006` 源快照上完成 1 个 seed、4 个代表条件、2,000 更新。recurrent＋scarce＋PI 的 live−silent 为 **−1.95 pp**，natural、closed、permuted 相同；其余代表条件也未见稳定自然通信增益。独立审计 4 个 run、8,000 条日志、24 个评价块通过。该批是信用分配预检，不作为正式零结果；下一步对私有需求×稀缺度做 4 seed 确认。
+
+- **私有需求 PI＋scarce 确认批次：**[结果与下一步](partner_demand_study/partner_007_confirmatory_结果与下一步.md)完成 4 个 seed × `recurrent_scarce_PI_{persistent,switching}_{live,silent}`、16 个 run、2,000 更新。所有 held-out live 条件的 natural、closed、permuted 回报逐行相同；persistent token 互信息约 **0.077–0.125 bit**，switching 为 0。独立审计 16 个 run、32,000 条日志、96 个评价块通过。当前任务没有形成可操作的伙伴信号；下一步先做显式共同计划的能力对照，再决定是否继续符号实验。
+
+- **固定分工 signaling 确认批次：**[结果与下一步](fixed_role_signaling_study/fixed_002_confirmatory_结果与下一步.md)把 agent 0 固定为 scout、agent 1 固定为唯一 worker，完成 4 个 seed × 4 个 PI＋scarce 条件、16 个 run、2,000 更新。live held-out natural−closed 为 **+0.387 pp**，但 natural−permuted 仅 **+0.0006 pp**；PI＋switching 四个 live cell 两个差值均为 0。消息互信息约 **0.332 bit**，没有置换损失。独立审计 16 个 run、32,000 条日志、96 个评价块通过；下一步先做显式需求标签的能力对照。
+
+- **固定分工 FI 能力对照：**[结果与下一步](fixed_role_signaling_study/fixed_004_fi_control_结果与下一步.md)完成 4 个 seed × FI silent/live、8 个 run、2,000 更新。live held-out natural−closed 为 **−2.475 pp**，natural−permuted 为 **−0.352 pp**；直接给 worker 需求仍没有稳定正收益。独立审计 8 个 run、16,000 条日志、48 个评价块通过。该自博弈批次未通过能力门槛，随后加入了显式规则和同架构监督控制。
+
+- **固定分工显式需求能力门槛：**[结果与下一步](fixed_role_signaling_study/fixed_ability_gate_结果与下一步.md)让 worker 直接读取需求、两个站点类型和库存，不训练、不发消息；4 个 seed × persistent/switching × training-support/held-out 共 16 个块，直接规则逐块与有限期 oracle 完全一致（`direct−oracle=0`，非负回合率 1）。它排除了环境不可解，随后用同架构 FI 监督控制继续区分网络表达能力与自博弈信用分配。
+
+- **表格策略固定分工正对照：**[结果与下一步](tabular_signaling_study/tabular_002_confirmatory_结果与下一步.md)在同一任务接口完成 4 个 seed × abundant/scarce PI persistent live/silent、16 个 run、2,000 更新。abundant live 的 natural−closed 为 **+28.284 pp**、natural−permuted 为 **+21.854 pp**，4/4 seed 均为正；scarce live 虽 natural−closed **+11.132 pp**，但 permutation loss 为 0，因此单独保留。独立回放审计 32,000 条日志、16 个 checkpoint，最大误差 0。该正对照把后续问题收窄为神经动作学习/信用分配与消息形成的区分。
+
+- **固定分工同架构 FI 监督动作控制：**[结果与下一步](fixed_role_signaling_study/fi_supervised_control_结果与下一步.md)在 4 个 seed、1,000 次监督更新后，worker 的 held-out team return 逐 seed 与有限期 oracle 完全一致，平均 regret 为 0。网络表达能力通过；此前 FI/PI 自博弈低回报应先归因于探索/信用分配诊断，而不是环境不可解或模型容量不足。该控制不计入语言形成主量。
+
+- **表格策略 switching 未见模式确认：**[结果与下一步](tabular_signaling_study/tabular_003_switching_结果与下一步.md)在 4 个 seed × abundant/scarce PI switching live/silent、16 个 run、2,000 更新中，training-support 的 natural−permuted 为 **+13.620/+2.576 pp**，held-out 降为 **+2.191/−1.267 pp**；held-out natural−closed 仍为 **+11.701/+5.548 pp**。独立回放 32,000 条日志、16 个 checkpoint，最大误差 0。token MI 仍高但置换损失消失，支持“任务级编码可形成，未见组合泛化不足”的边界结论。
+
+- **Temporal scarcity 八 seed 正式矩阵：**[结果与下一步](temporal_scarcity_study/temporal_003_formal_结果与下一步.md)完成 `stateless/recurrent × scarce/abundant × PI/FI × silent/live` 共 128 个 run、256,000 条训练日志。held-out 的 natural−permuted 在所有 live 条件均接近 0（最大均值约 **+0.156 pp**），而 token MI 仍为 **0.162–0.377 bit**；独立重放 512 个 checkpoint、最大误差 0。持久库存和 recurrent memory 没有自动产生可操作公共约定，下一步转向 self-play 优化与动作能力的 warm-start 对照。
+
+- **人口层共同码对照：**[结果与下一步](population_signaling_study/population_formal_结果与下一步.md)完成 `fixed/rotating × hidden/visible × live/silent × abundant/scarce` 的 8-seed、128-run 矩阵。rotating-hidden abundant 中四个 worker 的 natural−permuted 均值约 **+50.04 pp**，sender token agreement **1.000**；rotating-visible 回报仍高但 agreement 约 **0.516**，显示 partner-specific code control。scarce 将 rotating-hidden permutation loss 降至 **+9.49 pp**。独立重放 384,000 条日志、128 个 checkpoint，最大误差 0；这是人口共同码的正对照，不是词义或语言起源证据。
+
 - **训练期公共／私有码本 pilot（最新）：**[完整报告](triadic_public_codebook_study/结果与下一步.md)在 8 个配对初始化上比较 `silent`、`identity_live`、共享公共八符号双射和三套发送者私有双射，共 32 个训练 run、192 个 checkpoint、288 个紧凑评价文件；独立逐文件回放 `max_abs_error=0`。实时通信相对静默的目标 Q 终点增益为 identity **+5.33 pp**、public **+6.41 pp**、private **+4.71 pp**；public−private **+1.70 pp**（t(7) 区间 [−0.50,+3.90]）。跨发送者四选一内容替换中，public−private margin 为跨 listener **−0.38 pp**、跨 third **−1.56 pp**，区间均跨零。当前结果支持任务协调依赖通信机会，但不支持公共码本已经形成；下一步屏蔽／随机置换发送者身份线索并测试新发送者迁移，仍不能称词义、组合语法或语言起源。
 
 - **接收者角色 C−A 单槽与符号重编码确认探针（最新）：**[完整报告](triadic_receiver_role_crossover_confirmatory_slot_recode_probe/单槽重编码_结果与下一步.md)在独立确认终点的 A/C、8 个种子、64 个策略块中，整包 aligned−placebo 计划转移为 A **+8.221/+6.891 pp**、C **+3.329/+1.984 pp**；四个单槽仅约 **+0.30–+1.86 pp**，固定 `add1/xor4` 重编码的 A/C 点估计均为负。C−A 整包 **−4.899 pp**，单槽缩小，重编码约 **+0.81 pp** 且区间跨零。独立审计4,866,048行、`max_abs_error=0`；这是冻结接口机制探针，不是词义、组合语法或语言起源证据。
