@@ -2,7 +2,7 @@
   "created_from": "/Users/xia/Documents/ChatGPT/语言",
   "created_at": "2026-09-17",
   "file_count": 11428,
-  "copied_bytes": 348803810,
+  "copied_bytes": 348824488,
   "omitted_count": 419325,
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
@@ -337,17 +337,23 @@
     "local_removed_file_count": 39,
     "local_removed_bytes": 8261481457,
     "local_retained_bytes": 117467360,
-    "cleanup_verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
+    "cleanup_verified_after_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
     "pending_designs": {},
     "invalid_design_records": {
       "research_program/error_correcting_signaling_study/results/invalid_20260917": {
         "status": "rejected_before_analysis",
         "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
         "data_retained": false
+      },
+      "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917": {
+        "status": "stopped_before_analysis",
+        "reason": "unbalanced unique4 fourth meaning a&b had 25% target-one rate; replaced by balanced 1-(a xor b)",
+        "data_retained": "compact receipt only"
       }
     },
     "post_sync_cleanup_verified": true,
-    "post_sync_cleanup_bytes": 8261481457
+    "post_sync_cleanup_bytes": 8261481457,
+    "latest_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60"
   },
   "latest_sync_2026-09-17": {
     "packages": {
@@ -532,8 +538,8 @@
         "invalid_pilot_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917/receipt.json"
       }
     },
-    "latest_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
-    "cleanup_verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
+    "latest_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
+    "cleanup_verified_after_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
     "post_sync_cleanup_bytes": 8261481457,
     "post_sync_cleanup_verified": true,
     "pending_designs": {},
@@ -542,6 +548,11 @@
         "status": "rejected_before_analysis",
         "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
         "data_retained": false
+      },
+      "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917": {
+        "status": "stopped_before_analysis",
+        "reason": "unbalanced unique4 fourth meaning a&b had 25% target-one rate; replaced by balanced 1-(a xor b)",
+        "data_retained": "compact receipt only"
       }
     },
     "local_removed_file_count": 39,
