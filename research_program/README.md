@@ -11,6 +11,7 @@
 - [multi_generation_chain_study](multi_generation_chain_study/README.md)：32 个 seed、三代替换链和严格 leave-one-out 组合留出，检验协议在连续替换后的稳定性。
 - [noise_repair_study](noise_repair_study/plan.md)：可组合 parent 上的 0–40% 信道噪声、worker-only/coadapt 和两种接收表示，检验旧协议的维持与协同修复。
 - [ternary_composition_study](ternary_composition_study/plan.md)：三值属性、等容量 `mono9`/`tri3`、任务耦合和行动时序矩阵，检验组合结构随容量扩展的边界。
+- [error_correcting_signaling_study](error_correcting_signaling_study/README.md)：错误校正和协议修复的设计草案；尚无正式结果，不进入当前证据统计。
 - [population_signaling_study](population_signaling_study/README.md)：128 个 run 的固定/轮换伙伴与公共 token 对照。
 
 三个 signaling 包的 `results/formal_20260917/` 只保留紧凑汇总、冻结 JSON、审计和哈希收据；temporal 包保留源码、冻结方案、紧凑审计和结果报告，不保留原始日志或 checkpoint。完整阶段历史仍可从 Git 历史中的旧提交恢复；当前工作树只展开继续实验所需的代码和记录。

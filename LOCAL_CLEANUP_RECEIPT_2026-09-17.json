@@ -156,8 +156,8 @@
       "bytes": 3406709
     },
     "research_program/error_correcting_signaling_study": {
-      "files": 4,
-      "bytes": 12769
+      "files": 11,
+      "bytes": 49732
     },
     "research_program/generation_compositional_transmission_study": {
       "files": 23,
@@ -467,6 +467,16 @@
           "bytes": 4744
         }
       ]
+    }
+  },
+  "pending_designs": {
+    "error_correcting_signaling_study": {
+      "source": "research_program/error_correcting_signaling_study",
+      "status": "design_only",
+      "formal_results": false,
+      "source_files": 11,
+      "source_bytes": 49732,
+      "description": "capacity-matched redundancy and protocol-repair scaffold; no execution or result claimed"
     }
   }
 }
