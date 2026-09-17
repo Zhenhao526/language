@@ -1,0 +1,30 @@
+{
+  "schema": "slot_local_composition_receipt_v1",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/slot_local_composition_study/results/formal_20260917",
+  "prepared_sha256": "d00832f4a7b17fed00e433205ca8885fb6986e9b978babff0441e77349c5ecef",
+  "plan_sha256": "a0e643f6879528c2a3886e3cdce1c487c04df2cdd0e2ef0e33f79856f010515b",
+  "freeze_sha256": "c6e6e8561fe045b425ccc2e34e3df18802f1a8c0d24e58124745c94481b189b6",
+  "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+  "parent_rebuild_verification_sha256": "0aa5edc5b76c238e90b584c69d35823dc235592316fdc24c521b3fdcf5ad85e5",
+  "aggregate_sha256": "2c285d4d802f6d0f99d84fb43d1db5138f5bab45d828d02e190bc10982010085",
+  "compact_results_sha256": "fdf124e5e5b29a05d9befdf18744909ba29df84f9774d933d396b69906508bb8",
+  "audit_sha256": "5a1befec34f43a38c3725789e0d7a35da860e0227b5a2c71c3522effd04ebecf",
+  "raw_results_sha256": "81d66c55f3afc0faef3845a4cafc92305dcf278b79a48a40d1331c62f53eedb7",
+  "runs": 128,
+  "seeds": 32,
+  "conditions": 4,
+  "updates_per_run": 3000,
+  "sparse_trajectory_updates": [
+    1,
+    100,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "raw_process_files_omitted": true,
+  "parent_checkpoint_arrays_omitted": true,
+  "audit_status": "passed",
+  "max_abs_replay_error": 0.0
+}

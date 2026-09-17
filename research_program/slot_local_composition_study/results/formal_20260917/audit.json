@@ -1,0 +1,1035 @@
+{
+  "schema": "slot_local_composition_audit_v1",
+  "status": "passed",
+  "runs": 128,
+  "training_log_rows": 384000,
+  "final_checkpoints": 512,
+  "max_abs_replay_error": 0.0,
+  "paired_channel_trajectory_rows": 192000,
+  "rows": [
+    {
+      "seed": 76101,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76101,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76101,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76101,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.04698833175654368
+    },
+    {
+      "seed": 76102,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76102,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76102,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76102,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76103,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76103,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04723936899862826
+    },
+    {
+      "seed": 76103,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76103,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04723936899862826
+    },
+    {
+      "seed": 76104,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76104,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76104,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76104,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76105,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76105,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.13837153772683858
+    },
+    {
+      "seed": 76105,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76105,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.13837153772683858
+    },
+    {
+      "seed": 76106,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76106,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76106,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76106,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76107,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76107,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.05985135989879824
+    },
+    {
+      "seed": 76107,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76107,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.05985135989879824
+    },
+    {
+      "seed": 76108,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76108,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76108,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76108,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76109,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76109,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76109,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76109,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06270917001338687
+    },
+    {
+      "seed": 76110,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76110,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76110,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76110,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76111,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76111,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04166666666666666
+    },
+    {
+      "seed": 76111,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76111,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04166666666666666
+    },
+    {
+      "seed": 76112,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.2707525839793281
+    },
+    {
+      "seed": 76112,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76112,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76112,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76113,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76113,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.14961139896373057
+    },
+    {
+      "seed": 76113,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.6666666666666666
+    },
+    {
+      "seed": 76113,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76114,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76114,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76114,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76114,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76115,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76115,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": -0.06599552572706935
+    },
+    {
+      "seed": 76115,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76115,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": -0.06599552572706935
+    },
+    {
+      "seed": 76116,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76116,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76116,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76116,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76117,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76117,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.04924968071519796
+    },
+    {
+      "seed": 76117,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76117,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.04924968071519796
+    },
+    {
+      "seed": 76118,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76118,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76118,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76118,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76119,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76119,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.030251141552511424
+    },
+    {
+      "seed": 76119,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76119,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.030251141552511424
+    },
+    {
+      "seed": 76120,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.3504428341384863
+    },
+    {
+      "seed": 76120,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76120,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.6666666666666665
+    },
+    {
+      "seed": 76120,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76121,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76121,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76121,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76121,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06501125040180006
+    },
+    {
+      "seed": 76122,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76122,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76122,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.6666666666666666
+    },
+    {
+      "seed": 76122,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76123,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76123,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04166666666666666
+    },
+    {
+      "seed": 76123,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76123,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.04166666666666666
+    },
+    {
+      "seed": 76124,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76124,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76124,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76124,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76125,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76125,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.14190451919809718
+    },
+    {
+      "seed": 76125,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76125,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": 0.14190451919809718
+    },
+    {
+      "seed": 76126,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76126,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76126,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76126,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76127,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76127,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76127,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76127,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76128,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76128,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76128,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76128,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76129,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76129,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06420068027210885
+    },
+    {
+      "seed": 76129,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 0,
+      "heldout_natural": 0.6666666666666666
+    },
+    {
+      "seed": 76129,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 0,
+      "heldout_natural": -0.06420068027210885
+    },
+    {
+      "seed": 76130,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76130,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76130,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 1,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76130,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 1,
+      "heldout_natural": -0.16666666666666666
+    },
+    {
+      "seed": 76131,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76131,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76131,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76131,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 2,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76132,
+      "condition": "history_live",
+      "representation": "history",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76132,
+      "condition": "history_silent",
+      "representation": "history",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    },
+    {
+      "seed": 76132,
+      "condition": "slot_local_live",
+      "representation": "slot_local",
+      "channel": "live",
+      "heldout_goal": 3,
+      "heldout_natural": 0.25
+    },
+    {
+      "seed": 76132,
+      "condition": "slot_local_silent",
+      "representation": "slot_local",
+      "channel": "silent",
+      "heldout_goal": 3,
+      "heldout_natural": -0.16666666666666663
+    }
+  ]
+}
