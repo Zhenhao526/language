@@ -147,7 +147,9 @@
         "parent_checkpoint_arrays_omitted": true
       }
     },
-    "latest_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497",
-    "cleanup_verified_after_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497"
+    "latest_remote_commit": "9ce96c026aea69444c899f053b3aac08ede941e9",
+    "cleanup_verified_after_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497",
+    "post_sync_cleanup_bytes": 4408627848,
+    "post_sync_cleanup_verified": true
   }
 }
