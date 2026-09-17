@@ -2,7 +2,7 @@
   "created_from": "/Users/xia/Documents/ChatGPT/语言",
   "created_at": "2026-09-17",
   "file_count": 11407,
-  "copied_bytes": 342073427,
+  "copied_bytes": 342081632,
   "omitted_count": 419325,
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
@@ -303,10 +303,10 @@
     "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained.",
     "local_cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-17.json",
     "storage_manifest": "STORAGE_MANIFEST.json",
-    "local_removed_file_count": 2847,
-    "local_removed_bytes": 1522439761,
-    "local_retained_bytes": 36194332,
-    "cleanup_verified_after_remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674",
+    "local_removed_file_count": 39,
+    "local_removed_bytes": 8261481457,
+    "local_retained_bytes": 117467360,
+    "cleanup_verified_after_remote_commit": "4ecfa7d00da14be1e6fb05245ad1fe4a238a8cd9",
     "pending_designs": {},
     "invalid_design_records": {
       "research_program/error_correcting_signaling_study/results/invalid_20260917": {
@@ -314,7 +314,9 @@
         "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
         "data_retained": false
       }
-    }
+    },
+    "post_sync_cleanup_verified": true,
+    "post_sync_cleanup_bytes": 8261481457
   },
   "latest_sync_2026-09-17": {
     "packages": {
@@ -469,9 +471,9 @@
       }
     },
     "latest_remote_commit": "PENDING_FINAL_SYNC",
-    "cleanup_verified_after_remote_commit": "PENDING_FINAL_SYNC",
-    "post_sync_cleanup_bytes": 1522439761,
-    "post_sync_cleanup_verified": false,
+    "cleanup_verified_after_remote_commit": "4ecfa7d00da14be1e6fb05245ad1fe4a238a8cd9",
+    "post_sync_cleanup_bytes": 8261481457,
+    "post_sync_cleanup_verified": true,
     "pending_designs": {},
     "invalid_design_records": {
       "research_program/error_correcting_signaling_study/results/invalid_20260917": {
@@ -479,6 +481,9 @@
         "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
         "data_retained": false
       }
-    }
+    },
+    "local_removed_file_count": 39,
+    "local_removed_bytes": 8261481457,
+    "local_retained_bytes": 117467360
   }
 }

@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674",
+  "remote_commit": "4ecfa7d00da14be1e6fb05245ad1fe4a238a8cd9",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -15,8 +15,8 @@
       "bytes": 3406709
     },
     "research_program/error_correcting_signaling_study": {
-      "files": 11,
-      "bytes": 49732
+      "files": 22,
+      "bytes": 3724063
     },
     "research_program/generation_compositional_transmission_study": {
       "files": 23,
@@ -81,6 +81,10 @@
     "研究报告_共同符号形成机制_2026-09-17.md": {
       "files": 0,
       "bytes": 0
+    },
+    "research_program/shared_redundancy_study": {
+      "files": 21,
+      "bytes": 2215455
     }
   },
   "compact_archives": {
@@ -131,6 +135,14 @@
     "research_program/ternary_composition_study/results/formal_20260917": {
       "files": 8,
       "bytes": 749112
+    },
+    "research_program/error_correcting_signaling_study/results/formal_20260917": {
+      "files": 9,
+      "bytes": 3671148
+    },
+    "research_program/shared_redundancy_study/results/formal_20260917": {
+      "files": 8,
+      "bytes": 2161284
     }
   },
   "raw_execution_trees": {
@@ -178,6 +190,24 @@
     },
     "research_program/ternary_composition_study/results/ternary_formal_exec": {
       "present": false
+    },
+    "/tmp/ecs_corrected_formal_out": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_formal_prepared": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_archive": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_audit.json": {
+      "present": false
+    },
+    "/tmp/ecs_compact_corrected.py": {
+      "present": false
+    },
+    "/tmp/ecs_corrected_runner.log": {
+      "present": false
     }
   },
   "temporary_raw_trees_removed": [
@@ -219,18 +249,26 @@
     "/private/tmp/noise_prepared_formal_v2",
     "/private/tmp/noise_prepared_smoke",
     "/private/tmp/noise_prepared_smoke2",
-    "/private/tmp/noise_smoke"
+    "/private/tmp/noise_smoke",
+    "/private/tmp/ecs_corrected_formal_out",
+    "/private/tmp/ecs_corrected_formal_prepared",
+    "/private/tmp/ecs_corrected_archive",
+    "/private/tmp/ecs_corrected_audit.json",
+    "/private/tmp/ecs_compact_corrected.py",
+    "/private/tmp/ecs_corrected_runner.log",
+    "research_program/shared_redundancy_study/__pycache__",
+    "research_program/error_correcting_signaling_study/__pycache__"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
   "local_environment": {
-    "files": 895,
-    "bytes": 73154917
+    "files": 1295,
+    "bytes": 117467360
   },
   "policy": "raw training logs, checkpoints, model assets, literature caches and historical generated trees are not kept locally; Git history retains prior source snapshots",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 31,
-    "removed_bytes": 5931072353,
+    "removed_file_or_tree_count": 39,
+    "removed_bytes": 8261481457,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -355,127 +393,134 @@
       {
         "path": "/Users/xia/Documents/ChatGPT/语言/.exp_venv/lib/python3.12/site-packages/__pycache__",
         "bytes": 4744
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_formal_out",
+        "present": false,
+        "files": 1894,
+        "bytes": 2326514287,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_formal_prepared",
+        "present": false,
+        "files": 12,
+        "bytes": 56234,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_archive",
+        "present": false,
+        "files": 9,
+        "bytes": 3671148,
+        "kind": "tree"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_audit.json",
+        "present": false,
+        "files": 1,
+        "bytes": 315,
+        "kind": "file"
+      },
+      {
+        "path": "/private/tmp/ecs_compact_corrected.py",
+        "present": false,
+        "files": 1,
+        "bytes": 3380,
+        "kind": "file"
+      },
+      {
+        "path": "/private/tmp/ecs_corrected_runner.log",
+        "present": false,
+        "files": 1,
+        "bytes": 0,
+        "kind": "file"
+      },
+      {
+        "path": "research_program/shared_redundancy_study/__pycache__",
+        "present": false,
+        "files": 7,
+        "bytes": 83038,
+        "kind": "tree"
+      },
+      {
+        "path": "research_program/error_correcting_signaling_study/__pycache__",
+        "present": false,
+        "files": 7,
+        "bytes": 80702,
+        "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674",
+    "verified_after_remote_commit": "4ecfa7d00da14be1e6fb05245ad1fe4a238a8cd9",
     "current_batch": {
-      "removed_file_count": 2848,
-      "removed_bytes": 1522444505,
+      "removed_file_count": 1932,
+      "removed_bytes": 2330409104,
       "paths": [
         {
-          "path": "/private/tmp/mgc_parent",
-          "present": true,
-          "files": 226,
-          "bytes": 278992276,
+          "path": "/private/tmp/ecs_corrected_formal_out",
+          "present": false,
+          "files": 1894,
+          "bytes": 2326514287,
           "kind": "tree"
         },
         {
-          "path": "/private/tmp/mgc_parent_prepared",
-          "present": true,
-          "files": 13,
-          "bytes": 50456,
+          "path": "/private/tmp/ecs_corrected_formal_prepared",
+          "present": false,
+          "files": 12,
+          "bytes": 56234,
           "kind": "tree"
         },
         {
-          "path": "/private/tmp/mgc_chain_formal",
-          "present": true,
-          "files": 2186,
-          "bytes": 1029346951,
+          "path": "/private/tmp/ecs_corrected_archive",
+          "present": false,
+          "files": 9,
+          "bytes": 3671148,
           "kind": "tree"
         },
         {
-          "path": "/private/tmp/mgc_chain_prepared_formal",
-          "present": true,
-          "files": 17,
-          "bytes": 155756,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/mgc_chain_prepared_formal_v2",
-          "present": true,
-          "files": 17,
-          "bytes": 155639,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/mgc_chain_audit_parts",
-          "present": true,
-          "files": 8,
-          "bytes": 116644,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/mgc_chain_smoke",
-          "present": true,
-          "files": 37,
-          "bytes": 1031817,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/mgc_chain_prepared_smoke",
-          "present": true,
-          "files": 17,
-          "bytes": 155189,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_formal",
-          "present": true,
-          "files": 245,
-          "bytes": 211290248,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_prepared_formal",
-          "present": true,
-          "files": 15,
-          "bytes": 141828,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_prepared_formal_v2",
-          "present": true,
-          "files": 15,
-          "bytes": 141828,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_prepared_smoke",
-          "present": true,
-          "files": 15,
-          "bytes": 141585,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_prepared_smoke2",
-          "present": true,
-          "files": 15,
-          "bytes": 141828,
-          "kind": "tree"
-        },
-        {
-          "path": "/private/tmp/noise_smoke",
-          "present": true,
-          "files": 21,
-          "bytes": 577716,
-          "kind": "tree"
-        },
-        {
-          "path": "/Users/xia/Documents/ChatGPT/语言/.exp_venv/lib/python3.12/site-packages/__pycache__",
+          "path": "/private/tmp/ecs_corrected_audit.json",
+          "present": false,
           "files": 1,
-          "bytes": 4744
+          "bytes": 315,
+          "kind": "file"
+        },
+        {
+          "path": "/private/tmp/ecs_compact_corrected.py",
+          "present": false,
+          "files": 1,
+          "bytes": 3380,
+          "kind": "file"
+        },
+        {
+          "path": "/private/tmp/ecs_corrected_runner.log",
+          "present": false,
+          "files": 1,
+          "bytes": 0,
+          "kind": "file"
+        },
+        {
+          "path": "research_program/shared_redundancy_study/__pycache__",
+          "present": false,
+          "files": 7,
+          "bytes": 83038,
+          "kind": "tree"
+        },
+        {
+          "path": "research_program/error_correcting_signaling_study/__pycache__",
+          "present": false,
+          "files": 7,
+          "bytes": 80702,
+          "kind": "tree"
         }
       ]
     }
   },
-  "pending_designs": {
-    "error_correcting_signaling_study": {
-      "source": "research_program/error_correcting_signaling_study",
-      "status": "design_only",
-      "formal_results": false,
-      "source_files": 11,
-      "source_bytes": 49732,
-      "description": "capacity-matched redundancy and protocol-repair scaffold; no execution or result claimed"
+  "pending_designs": {},
+  "invalid_design_records": {
+    "research_program/error_correcting_signaling_study/results/invalid_20260917": {
+      "status": "rejected_before_analysis",
+      "reason": "theoretical maximum return 4/7 = 0.5714 was below functional threshold 0.60",
+      "data_retained": false
     }
   }
 }
