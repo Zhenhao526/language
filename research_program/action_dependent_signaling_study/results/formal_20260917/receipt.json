@@ -1,0 +1,25 @@
+{
+  "schema": "action_dependent_signaling_receipt_v2",
+  "status": "compact_archive_created_after_passed_audit",
+  "archive": "research_program/action_dependent_signaling_study/results/formal_20260917",
+  "prepared_sha256": "aecfdc5d09c5f4b3cf51f98ee682b1f8aed93df46d823e9a38e67cf52cedcb1c",
+  "plan_sha256": "2062107fff65c0155d57ad5cfdd8cd4e521bc83b0090b88f67a02f23b802a699",
+  "freeze_sha256": "08917a120d2832f53fa66568898f590ff4b9f4c486928c8c920a04b104b8d7cc",
+  "aggregate_sha256": "91a5726df1c1a2f4825e7af45b8b170555210359c1ef59992c63934d59139521",
+  "compact_results_sha256": "a8976450e64caa83c1434fc12fefcaf14aa6136abee1b9208df04dabe540b213",
+  "audit_sha256": "72b22b115756c91bf2d774ae5223e8530881cb1b86c9dd6f6605c6146fa82d84",
+  "raw_results_sha256": "ae3494c32706afa3a5bc62fb3fdabd288474962039ff4b42f3da4b7532878846",
+  "runs": 256,
+  "seeds": 32,
+  "conditions": 8,
+  "updates_per_run": 3000,
+  "sparse_trajectory_updates": [
+    1,
+    100,
+    500,
+    1000,
+    2000,
+    3000
+  ],
+  "raw_process_files_omitted": true
+}
