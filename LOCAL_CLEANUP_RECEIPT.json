@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-17",
+  "remote_repository": "https://github.com/Zhenhao526/language.git",
+  "remote_ref": "refs/heads/main",
+  "parent_archive_commit": "f96bb40bd90ad9d8b9c77a9d7a1188db282921b6",
+  "archive_scope": "source, designs, reports, lightweight aggregate results, independent receipts and selected figures",
+  "omitted_from_archive": "raw seed directories, checkpoint arrays, training JSONL, model weights, raw visual data, PDFs and generated detail files; see OMISSION_SUMMARY.json",
+  "local_cleanup": {
+    "removed_entry_count": 210,
+    "removed_bytes": 726045311559,
+    "removed_gib": 676.1823888486251,
+    "by_reason": {
+      "current_round_raw_execution": {
+        "entries": 3,
+        "bytes": 3475032304
+      },
+      "dependency_generated_binary": {
+        "entries": 2,
+        "bytes": 2742041
+      },
+      "dependency_generated_subtree": {
+        "entries": 35,
+        "bytes": 23118231720
+      },
+      "desktop_auto_git_metadata": {
+        "entries": 1,
+        "bytes": 38166419
+      },
+      "non_current_paper_artifact": {
+        "entries": 14,
+        "bytes": 38499197
+      },
+      "old_experiment_or_literature_cache": {
+        "entries": 47,
+        "bytes": 42734045050
+      },
+      "old_experiment_package": {
+        "entries": 106,
+        "bytes": 649691614300
+      },
+      "previous_round_raw_execution": {
+        "entries": 1,
+        "bytes": 6946976723
+      },
+      "superseded_sync_metadata": {
+        "entries": 1,
+        "bytes": 3805
+      }
+    },
+    "source": "cleanup completed after archive verification"
+  },
+  "retained": [
+    "research_program/triadic_global_reward_control_study source and global_002 lightweight records",
+    "research_program/triadic_conflict_penalty_study source/report and selected receipts/figures",
+    "runtime source: triadic_action_dependency_study, triadic_reciprocal_execution_study, triadic_message_study, triadic_learning_baseline, triadic_coordination_study, triadic_task, triadic_rule_communication_study",
+    "research_program README and progress ledger",
+    "paper_program literature notes",
+    "local .venv symlink reuses /Users/xia/Documents/ChatGPT/vasp/.venv"
+  ],
+  "verification": {
+    "test": "triadic_global_reward_control_study tests passed",
+    "report_sha256": "104da396d98f421e1792409a7fb45094fd697ce7a2ee83b757082fc45d941da5",
+    "workspace_regular_bytes_after_cleanup": 324781340
+  }
+}
