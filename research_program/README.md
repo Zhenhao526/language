@@ -1,3 +1,7 @@
+- **最新完成[组合协议的跨主体传递](generation_compositional_transmission_study/README.md)：**以行动依赖实验的 staged、dual2、factorized parent 为起点，32 个 parent 分层后进行 worker/sender 替换，live/silent/permuted 共 192 个 child run。9 个可组合 parent 的两种替换方向均 9/9 恢复组合平衡；23 个非可组合 parent 均 0/23。独立审计通过 576,000 条日志、192 个终点 checkpoint、384,000 行配对轨迹，最大回放误差为 0；这是条件化协议传递，不是总体形成概率。
+
+- **最新完成[未见目标组合留出](heldout_composition_study/README.md)：**冻结 staged dual2 parent sender、替换 worker 0，在 full 与 leave-one-goal-out 支持下完成 128 个 child run。leave-one-out 的缺失组合 held-out live 回报为 0.254，32/32 个 seed 未达到 0.60；live−silent 为 +31.9 pp（95% t CI [+26.8,+37.1]）。独立审计通过 384,000 条日志、512 个 checkpoint、192,000 行配对轨迹，最大回放误差为 0；该结果拒绝当前接收者的零样本组合恢复。
+
 - **最新完成[行动依赖消息时机与组合性](action_dependent_signaling_study/README.md)：**在 dual2 双槽、rotating-hidden、32 个 seed × simultaneous/staged × factorized/entangled × live/silent 的 256 个正式 run 中，staged 的可组合平衡率为 factorized 9/32、entangled 10/32，simultaneous 分别为 3/32、0/32；staged−simultaneous natural 回报为 +2.2 pp（factorized，95% t CI [−1.6,+6.0]）和 +5.2 pp（entangled，[+1.6,+8.8]）。独立审计通过 768,000 条训练日志、256 个终点 checkpoint、384,000 对 live/silent 轨迹，最大回放误差为 0；staged 仍未在所有运行中形成可重组词法，结果支持行动后果分解会改变组合性平衡，而不是证明语言已经产生。
 
 - **最新完成[新成员加入与协议传递](generation_transmission_study/README.md)：**8 个 rotating-hidden parent、48 个替换 child run（worker/sender × live/silent/scrambled），每个 run 3000 次更新；新 worker 的 live−silent 为 +59.8 pp（95% t CI [+54.0,+65.6]），新 sender 为 +48.4 pp（[+32.9,+63.9]），两类 live 子代均恢复 parent 的 0.800 回报。独立审计通过 168,000 条日志、56 个终点 checkpoint、48,000 行三通道配对轨迹，`max_abs_replay_error=0`；只能解释为离散协议传递，不等于自然语言。

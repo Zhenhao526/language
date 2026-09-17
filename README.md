@@ -5,6 +5,8 @@
 - [population signaling 伙伴生态](research_program/population_signaling_study/README.md)
 - [compositional signaling 组合性筛查](research_program/compositional_signaling_study/README.md)
 - [generation transmission 代际传递](research_program/generation_transmission_study/README.md)
+- [generation compositional transmission 跨主体组合协议传递](research_program/generation_compositional_transmission_study/README.md)
+- [held-out goal-combination recovery 未见组合留出](research_program/heldout_composition_study/README.md)
 - [action-dependent signaling 行动时机与组合性](research_program/action_dependent_signaling_study/README.md)
 - [同步与本地清理说明](SYNC_2026-09-17.md)
 
