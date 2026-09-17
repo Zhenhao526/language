@@ -3,68 +3,12 @@
   "timestamp_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_after_sync": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
+  "remote_commit_verified_after_sync": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56",
   "remote_main_verified": true,
   "compact_archives_verified": {
-    "research_program/action_dependent_signaling_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 12574763
-    },
-    "research_program/compositional_signaling_study/results/formal_20260917": {
+    "research_program/meaning_capacity_study/results/formal_20260918": {
       "files": 8,
-      "bytes": 3359008
-    },
-    "research_program/generation_compositional_transmission_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 566057
-    },
-    "research_program/generation_transmission_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 1500468
-    },
-    "research_program/heldout_composition_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 1667649
-    },
-    "research_program/multi_generation_chain_study/results/formal_20260917": {
-      "files": 11,
-      "bytes": 3303018
-    },
-    "research_program/multi_generation_transmission_study/results/formal_20260917": {
-      "files": 11,
-      "bytes": 429349
-    },
-    "research_program/noise_repair_study/results/formal_20260917": {
-      "files": 9,
-      "bytes": 480182
-    },
-    "research_program/population_signaling_study/results/formal_20260917": {
-      "files": 11,
-      "bytes": 4219273
-    },
-    "research_program/receiver_representation_study/results/formal_20260917": {
-      "files": 10,
-      "bytes": 3546655
-    },
-    "research_program/tabular_signaling_study/results/formal_20260917": {
-      "files": 12,
-      "bytes": 3199452
-    },
-    "research_program/ternary_composition_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 749112
-    },
-    "research_program/error_correcting_signaling_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 2142015
-    },
-    "research_program/shared_redundancy_study/results/formal_20260917": {
-      "files": 8,
-      "bytes": 2161275
-    },
-    "research_program/repetition_pressure_study/results/formal_20260918": {
-      "files": 8,
-      "bytes": 6660206
+      "bytes": 7011461
     }
   },
   "raw_execution_trees_removed": {
@@ -302,6 +246,136 @@
     "/private/tmp/repetition_archive": {
       "present": false,
       "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_capacity_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_debug_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_formal_part1.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_formal_part2.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_formal_part3.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_merge": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_smoke_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_capacity_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/mcs_capacity_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
+    },
+    "/private/tmp/language_sync_20260918": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "size_bytes_before_deletion": null
     }
   },
   "temporary_raw_trees_removed": [
@@ -382,7 +456,32 @@
     "/private/tmp/rps_part3_audit.json",
     "/private/tmp/merge_repetition.py",
     "/private/tmp/build_repetition_archive.py",
-    "/private/tmp/repetition_archive"
+    "/private/tmp/repetition_archive",
+    "/private/tmp/mcs_analysis.json",
+    "/private/tmp/mcs_analysis.md",
+    "/private/tmp/mcs_capacity_aggregate.json",
+    "/private/tmp/mcs_capacity_aggregate.md",
+    "/private/tmp/mcs_debug_part1",
+    "/private/tmp/mcs_formal_merged",
+    "/private/tmp/mcs_formal_part1",
+    "/private/tmp/mcs_formal_part1.log",
+    "/private/tmp/mcs_formal_part1.pid",
+    "/private/tmp/mcs_formal_part2",
+    "/private/tmp/mcs_formal_part2.log",
+    "/private/tmp/mcs_formal_part2.pid",
+    "/private/tmp/mcs_formal_part3",
+    "/private/tmp/mcs_formal_part3.log",
+    "/private/tmp/mcs_formal_part3.pid",
+    "/private/tmp/mcs_formal_prepared",
+    "/private/tmp/mcs_merge",
+    "/private/tmp/mcs_part1_audit.json",
+    "/private/tmp/mcs_part2_audit.json",
+    "/private/tmp/mcs_part3_audit.json",
+    "/private/tmp/mcs_smoke_analysis.json",
+    "/private/tmp/mcs_smoke_analysis.md",
+    "/private/tmp/mcs_smoke_audit.json",
+    "/private/tmp/mcs_smoke_out",
+    "/private/tmp/mcs_smoke_prepared"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "git_history_preserved": true,
@@ -397,8 +496,8 @@
       "bytes": 3406709
     },
     "research_program/error_correcting_signaling_study": {
-      "files": 22,
-      "bytes": 3724063
+      "files": 21,
+      "bytes": 2194930
     },
     "research_program/generation_compositional_transmission_study": {
       "files": 23,
@@ -432,6 +531,10 @@
       "files": 22,
       "bytes": 3589982
     },
+    "research_program/shared_redundancy_study": {
+      "files": 19,
+      "bytes": 2214414
+    },
     "research_program/tabular_signaling_study": {
       "files": 23,
       "bytes": 3243758
@@ -464,19 +567,19 @@
       "files": 0,
       "bytes": 0
     },
-    "research_program/shared_redundancy_study": {
-      "files": 21,
-      "bytes": 2215455
+    "research_program/meaning_capacity_study": {
+      "files": 20,
+      "bytes": 7067868
     }
   },
   "local_environment": {
-    "files": 1295,
-    "bytes": 117467360
+    "files": 1333,
+    "bytes": 129774459
   },
-  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw training logs, checkpoints, formal execution trees and temporary compaction scripts are not kept locally",
+  "retention_policy": "source code, frozen plans, compact results, audit receipts, final report and local runtime only; raw training logs, checkpoints, formal execution trees and temporary sync clones are not kept locally",
   "additional_cleanup": {
-    "removed_file_or_tree_count": 39,
-    "removed_bytes": 8261481457,
+    "removed_file_or_tree_count": 78,
+    "removed_bytes": 13251248224,
     "removed_paths": [
       {
         "path": "/private/tmp/tabular_PI_stateless_silent",
@@ -657,12 +760,119 @@
         "files": 7,
         "bytes": 80702,
         "kind": "tree"
+      },
+      {
+        "path": "research_program/repetition_pressure_study",
+        "present": false,
+        "files": 11,
+        "bytes": 53853,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 4744,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 70087,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 14249,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 129547,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 919591,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 35625,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 889077,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 10473,
+        "kind": "tree"
+      },
+      {
+        "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+        "present": false,
+        "files": null,
+        "bytes": 36451,
+        "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
+    "verified_after_remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
     "current_batch": {
-      "removed_file_count": 1932,
-      "removed_bytes": 2330409104,
+      "removed_file_or_tree_count": 25,
+      "removed_bytes": 4987434931,
+      "paths": [
+        "/private/tmp/mcs_analysis.json",
+        "/private/tmp/mcs_analysis.md",
+        "/private/tmp/mcs_capacity_aggregate.json",
+        "/private/tmp/mcs_capacity_aggregate.md",
+        "/private/tmp/mcs_debug_part1",
+        "/private/tmp/mcs_formal_merged",
+        "/private/tmp/mcs_formal_part1",
+        "/private/tmp/mcs_formal_part1.log",
+        "/private/tmp/mcs_formal_part1.pid",
+        "/private/tmp/mcs_formal_part2",
+        "/private/tmp/mcs_formal_part2.log",
+        "/private/tmp/mcs_formal_part2.pid",
+        "/private/tmp/mcs_formal_part3",
+        "/private/tmp/mcs_formal_part3.log",
+        "/private/tmp/mcs_formal_part3.pid",
+        "/private/tmp/mcs_formal_prepared",
+        "/private/tmp/mcs_merge",
+        "/private/tmp/mcs_part1_audit.json",
+        "/private/tmp/mcs_part2_audit.json",
+        "/private/tmp/mcs_part3_audit.json",
+        "/private/tmp/mcs_smoke_analysis.json",
+        "/private/tmp/mcs_smoke_analysis.md",
+        "/private/tmp/mcs_smoke_audit.json",
+        "/private/tmp/mcs_smoke_out",
+        "/private/tmp/mcs_smoke_prepared"
+      ],
+      "verified_after_remote_commit": "693208d84d3a8ed4b01aa7e59e0f9ae51795a61e",
+      "archive": "research_program/meaning_capacity_study/results/formal_20260918",
+      "archive_stats": {
+        "files": 8,
+        "bytes": 7011461
+      }
+    },
+    "previous_batch": {
+      "removed_file_count": 1944,
+      "removed_bytes": 2332736190,
       "paths": [
         {
           "path": "/private/tmp/ecs_corrected_formal_out",
@@ -719,8 +929,79 @@
           "files": 7,
           "bytes": 80702,
           "kind": "tree"
+        },
+        {
+          "path": "research_program/repetition_pressure_study",
+          "present": false,
+          "files": 11,
+          "bytes": 53853,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 4744,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 70087,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 14249,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 129547,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 919591,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 35625,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 889077,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 10473,
+          "kind": "tree"
+        },
+        {
+          "path": ".exp_venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+          "present": false,
+          "files": null,
+          "bytes": 36451,
+          "kind": "tree"
         }
-      ]
+      ],
+      "verified_after_remote_commit": "e690a23"
     }
   },
   "pending_designs": {},
@@ -737,6 +1018,197 @@
     }
   },
   "current_batch": {
+    "removed_file_or_tree_count": 39,
+    "removed_bytes": 4987434931,
+    "removed_bytes_exact": false,
+    "removed_bytes_note": "Meaning-capacity raw trees were deleted by the post-archive cleaner before byte accounting; no raw data is retained.",
+    "paths": [
+      "/private/tmp/mcs_analysis.json",
+      "/private/tmp/mcs_analysis.md",
+      "/private/tmp/mcs_capacity_aggregate.json",
+      "/private/tmp/mcs_capacity_aggregate.md",
+      "/private/tmp/mcs_debug_part1",
+      "/private/tmp/mcs_formal_merged",
+      "/private/tmp/mcs_formal_part1",
+      "/private/tmp/mcs_formal_part1.log",
+      "/private/tmp/mcs_formal_part1.pid",
+      "/private/tmp/mcs_formal_part2",
+      "/private/tmp/mcs_formal_part2.log",
+      "/private/tmp/mcs_formal_part2.pid",
+      "/private/tmp/mcs_formal_part3",
+      "/private/tmp/mcs_formal_part3.log",
+      "/private/tmp/mcs_formal_part3.pid",
+      "/private/tmp/mcs_formal_prepared",
+      "/private/tmp/mcs_merge",
+      "/private/tmp/mcs_part1_audit.json",
+      "/private/tmp/mcs_part2_audit.json",
+      "/private/tmp/mcs_part3_audit.json",
+      "/private/tmp/mcs_smoke_analysis.json",
+      "/private/tmp/mcs_smoke_analysis.md",
+      "/private/tmp/mcs_smoke_audit.json",
+      "/private/tmp/mcs_smoke_out",
+      "/private/tmp/mcs_smoke_prepared",
+      "/private/tmp/mcs_formal_part1",
+      "/private/tmp/mcs_formal_part2",
+      "/private/tmp/mcs_formal_part3",
+      "/private/tmp/mcs_formal_prepared",
+      "/private/tmp/mcs_formal_merged",
+      "/private/tmp/mcs_part1_audit.json",
+      "/private/tmp/mcs_part2_audit.json",
+      "/private/tmp/mcs_part3_audit.json",
+      "/private/tmp/mcs_capacity_aggregate.json",
+      "/private/tmp/mcs_capacity_aggregate.md",
+      "/private/tmp/mcs_capacity_audit_part1.json",
+      "/private/tmp/mcs_capacity_audit_part2.json",
+      "/private/tmp/mcs_capacity_audit_part3.json",
+      "/private/tmp/language_sync_20260918"
+    ],
+    "verified_after_remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56",
+    "archive": "research_program/meaning_capacity_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 8,
+      "bytes": 7011461
+    },
+    "audit": "research_program/meaning_capacity_study/results/formal_20260918/audit.json",
+    "audit_status": "passed",
+    "raw_execution_retained": false,
+    "remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56"
+  },
+  "scope": ", eight-meaning capacity-pressure formal matrix",
+  "compact_archives": {
+    "research_program/meaning_capacity_study/results/formal_20260918": {
+      "files": 8,
+      "bytes": 7011461
+    }
+  },
+  "raw_execution_trees": {
+    "/private/tmp/mcs_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
+    },
+    "/private/tmp/mcs_capacity_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
+    },
+    "/private/tmp/mcs_debug_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
+    },
+    "/private/tmp/mcs_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_formal_part1.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part1.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_formal_part2.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part2.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_formal_part3.log": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_part3.pid": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal archive verified"
+    },
+    "/private/tmp/mcs_merge": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_smoke_analysis.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_analysis.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_out": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_smoke_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18"
+    },
+    "/private/tmp/mcs_capacity_audit_part1.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_capacity_audit_part2.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    },
+    "/private/tmp/mcs_capacity_audit_part3.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "passed"
+    }
+  },
+  "previous_current_batch": {
     "removed_file_or_tree_count": 31,
     "removed_bytes": 4705257564,
     "paths": [
@@ -772,21 +1244,12 @@
       "/private/tmp/build_repetition_archive.py",
       "/private/tmp/repetition_archive"
     ],
-    "verified_after_remote_commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
+    "verified_after_remote_commit": "3ac403c6896e35ae3b02bc63cdadc2c3f06e125d",
     "archive": "research_program/repetition_pressure_study/results/formal_20260918",
     "archive_stats": {
       "files": 8,
       "bytes": 6660206
     },
     "retained_invalid_record": "research_program/repetition_pressure_study/results/invalid_20260917/unbalanced_unique4_partial_20260917"
-  },
-  "sync_history": [
-    {
-      "date": "2026-09-18",
-      "commit": "8ff9f2422ade290b06b1806a7fe67dffb40bba60",
-      "repository": "git@github.com:Zhenhao526/language.git",
-      "archive": "research_program/repetition_pressure_study/results/formal_20260918",
-      "status": "verified"
-    }
-  ]
+  }
 }
