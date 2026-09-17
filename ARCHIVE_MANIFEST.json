@@ -7,10 +7,10 @@
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
   "current_experiment": {
-    "package": "research_program/slot_local_composition_study",
-    "prepared": "research_program/slot_local_composition_study/results/formal_20260917/prepared.json",
-    "audit": "research_program/slot_local_composition_study/results/formal_20260917/audit.json",
-    "aggregate": "research_program/slot_local_composition_study/results/formal_20260917/aggregate.json",
+    "package": "研究报告_共同符号形成机制_2026-09-17.md",
+    "prepared": "研究报告_共同符号形成机制_2026-09-17.md/results/formal_20260917/prepared.json",
+    "audit": "研究报告_共同符号形成机制_2026-09-17.md/results/formal_20260917/audit.json",
+    "aggregate": "研究报告_共同符号形成机制_2026-09-17.md/results/formal_20260917/aggregate.json",
     "summary": "研究报告_共同符号形成机制_2026-09-17.md"
   },
   "omission_policy": [
@@ -139,6 +139,32 @@
         "compact_results_sha256": "fdf124e5e5b29a05d9befdf18744909ba29df84f9774d933d396b69906508bb8",
         "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
         "parent_rebuild_verification_sha256": "0aa5edc5b76c238e90b584c69d35823dc235592316fdc24c521b3fdcf5ad85e5",
+        "raw_process_files_omitted": true,
+        "parent_checkpoint_arrays_omitted": true
+      },
+      "研究报告_共同符号形成机制_2026-09-17.md": {
+        "source": "研究报告_共同符号形成机制_2026-09-17.md",
+        "compact_results": "研究报告_共同符号形成机制_2026-09-17.md/results/formal_20260917",
+        "runs": 256,
+        "seeds": 32,
+        "conditions": 8,
+        "updates_per_run": 3000,
+        "representations": [
+          "joint_history",
+          "slot_local"
+        ],
+        "supports": [
+          "full",
+          "leave_one_out"
+        ],
+        "prepared_sha256": "88b4ba9b5990c8ac41b1878e47ffe49362ef8ea56cf56c77c2903ae48f651ea7",
+        "plan_sha256": "f698d72df799c8c8b339e9446a49a18e3ca0ba86cc1444cea447230e689db235",
+        "audit_sha256": "ea5782a91c8ab324979ed7a1b072bc10411faba85771a762be13b12cfab31c3f",
+        "aggregate_sha256": "d4e1486bb002848cb8b499b3267423bce87467ac07809c41a6b2bba2d07a5c99",
+        "compact_results_sha256": "299cc47f5ee4fc700cf9bd4f22df4ccb6b223f81a1e4ad28092f928a733c38e5",
+        "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+        "parent_rebuild_verification_sha256": "2c767f251b1e61d8b24652b8ac6f7ae5f11973ead05791ad5105217c886f5d85",
+        "full_support_control": true,
         "raw_process_files_omitted": true,
         "parent_checkpoint_arrays_omitted": true
       }

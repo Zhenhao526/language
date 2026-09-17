@@ -9,6 +9,8 @@
 - [generation compositional transmission 完整结果](research_program/generation_compositional_transmission_study/)
 - [held-out goal-combination recovery 完整结果](research_program/heldout_composition_study/)
 - [slot-local receiver representation 完整结果](research_program/slot_local_composition_study/)
+- [receiver representation expanded controls 完整结果](research_program/receiver_representation_study/)
+- [receiver representation full-support 对照](research_program/receiver_representation_study/)
 - [population signaling 源代码与紧凑结果](research_program/population_signaling_study/)
 - [本轮同步与清理说明](SYNC_2026-09-17.md)
 
