@@ -1,0 +1,1285 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-14T14:41:19.184959+00:00",
+  "run_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914",
+  "metadata": {
+    "manifest": {
+      "schema_version": 1,
+      "phase": "pilot",
+      "conditions": [
+        "immediate",
+        "delayed"
+      ],
+      "groups": [
+        17
+      ],
+      "episodes_per_group": 2,
+      "scenarios": [
+        {
+          "episode": 1,
+          "seed": 6101,
+          "variant": 0
+        },
+        {
+          "episode": 2,
+          "seed": 7558,
+          "variant": 31
+        }
+      ],
+      "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+      "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+      "alphabet": "@#%&*+=~",
+      "max_message_symbols": 32,
+      "per_agent_step_symbols": 64,
+      "windows": 4,
+      "private_analysis_max_tokens": 256,
+      "private_analysis_temperature": 0,
+      "message_temperature": 0.7,
+      "action_temperature": 0,
+      "natural_message_max_tokens": 96,
+      "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+      "controls": "independent histories; natural language is not bandwidth matched",
+      "created": "2026-09-14T20:55:30.674174",
+      "preregistered_order": "group then episode then alternating condition order",
+      "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+    },
+    "status": {
+      "status": "completed",
+      "backend": {
+        "calls": 1440,
+        "load_seconds": 1.9740996659966186,
+        "inference_seconds": 6344.544948088995,
+        "generation_tokens_by_mode": {
+          "private_analysis": 79176,
+          "message": 3671,
+          "action": 289
+        },
+        "max_prompt_tokens": 12648,
+        "peak_mlx_memory_gb": 10.928763528
+      }
+    },
+    "backend_stats": {
+      "calls": 1440,
+      "load_seconds": 1.9740996659966186,
+      "inference_seconds": 6344.544948088995,
+      "generation_tokens_by_mode": {
+        "private_analysis": 79176,
+        "message": 3671,
+        "action": 289
+      },
+      "max_prompt_tokens": 12648,
+      "peak_mlx_memory_gb": 10.928763528
+    }
+  },
+  "data_quality": {
+    "episode_rows": 4,
+    "malformed_jsonl_lines": 0,
+    "invalid_message_rows": 0,
+    "duplicate_episode_keys": [],
+    "warnings": []
+  },
+  "groups": [
+    {
+      "condition": "delayed",
+      "group": "17",
+      "seeds": [
+        "6101",
+        "7558"
+      ],
+      "overall": {
+        "episode_rows": 2,
+        "score": {
+          "n": 2,
+          "mean": 0.5833333333333333,
+          "min": 0.5,
+          "max": 0.6666666666666666
+        },
+        "steps_all_episodes": {
+          "n": 2,
+          "mean": 12.0,
+          "min": 12.0,
+          "max": 12.0
+        },
+        "success_recorded": 2,
+        "success_count": 0,
+        "success_rate": 0,
+        "steps_successful_episodes_only": {
+          "n": 0,
+          "mean": null,
+          "min": null,
+          "max": null
+        }
+      },
+      "messages": {
+        "channel_type": "symbolic",
+        "message_rows": 288,
+        "nonempty_count": 288,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 288,
+          "mean": 5.246527777777778,
+          "min": 1.0,
+          "max": 12.0
+        },
+        "length_nonempty": {
+          "n": 288,
+          "mean": 5.246527777777778,
+          "min": 1.0,
+          "max": 12.0
+        },
+        "length_histogram": {
+          "1": 9,
+          "2": 3,
+          "5": 183,
+          "6": 76,
+          "7": 15,
+          "8": 1,
+          "12": 1
+        },
+        "at_32_count": 0,
+        "at_32_ratio_all": 0.0,
+        "at_32_ratio_nonempty": 0.0,
+        "over_32_count": 0,
+        "total_characters": 1511,
+        "alphabet_counts": {
+          "@": 255,
+          "#": 277,
+          "%": 277,
+          "&": 304,
+          "*": 308,
+          "+": 79,
+          "=": 0,
+          "~": 11
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": 0.1687624090006618,
+          "#": 0.18332230311052283,
+          "%": 0.18332230311052283,
+          "&": 0.20119126406353408,
+          "*": 0.20383851753805426,
+          "+": 0.05228325612177366,
+          "=": 0.0,
+          "~": 0.00727994705493051
+        },
+        "invalid_character_counts": {},
+        "unique_nonempty_strings": 12,
+        "repeated_nonempty_occurrences": 276,
+        "repeated_nonempty_occurrence_ratio": 0.9583333333333334,
+        "top_nonempty_strings": [
+          {
+            "text": "@#%&*",
+            "count": 181
+          },
+          {
+            "text": "@#%&*+",
+            "count": 56
+          },
+          {
+            "text": "&*#%&*",
+            "count": 20
+          },
+          {
+            "text": "@#%&*+~",
+            "count": 10
+          },
+          {
+            "text": "@",
+            "count": 7
+          },
+          {
+            "text": "&*#%&*+",
+            "count": 5
+          },
+          {
+            "text": "*+",
+            "count": 3
+          },
+          {
+            "text": "%+&*#",
+            "count": 2
+          },
+          {
+            "text": "*",
+            "count": 1
+          },
+          {
+            "text": "&*#%&*+@#%&*",
+            "count": 1
+          },
+          {
+            "text": "&*#%&*+~",
+            "count": 1
+          },
+          {
+            "text": "+",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 72,
+          "mean": 20.98611111111111,
+          "min": 7,
+          "max": 29
+        },
+        "agent_steps_over_64": 0,
+        "complete_four_window_agent_steps": 72,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 72,
+          "mean": 20.98611111111111,
+          "min": 7,
+          "max": 29
+        },
+        "adjacent_windows": {
+          "pair_count": 216,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 113,
+            "changed_nonempty": 103
+          },
+          "both_nonempty_pair_count": 216,
+          "same_string_ratio_when_both_nonempty": 0.5231481481481481,
+          "character_edit_distance": {
+            "n": 216,
+            "mean": 0.9675925925925926,
+            "min": 0.0,
+            "max": 7.0
+          },
+          "signed_length_change": {
+            "n": 216,
+            "mean": -0.041666666666666664,
+            "min": -6.0,
+            "max": 6.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      },
+      "phases": {
+        "pilot": {
+          "episodes": {
+            "episode_rows": 2,
+            "score": {
+              "n": 2,
+              "mean": 0.5833333333333333,
+              "min": 0.5,
+              "max": 0.6666666666666666
+            },
+            "steps_all_episodes": {
+              "n": 2,
+              "mean": 12.0,
+              "min": 12.0,
+              "max": 12.0
+            },
+            "success_recorded": 2,
+            "success_count": 0,
+            "success_rate": 0,
+            "steps_successful_episodes_only": {
+              "n": 0,
+              "mean": null,
+              "min": null,
+              "max": null
+            }
+          },
+          "messages": {
+            "channel_type": "symbolic",
+            "message_rows": 288,
+            "nonempty_count": 288,
+            "nonempty_ratio": 1.0,
+            "length_all": {
+              "n": 288,
+              "mean": 5.246527777777778,
+              "min": 1.0,
+              "max": 12.0
+            },
+            "length_nonempty": {
+              "n": 288,
+              "mean": 5.246527777777778,
+              "min": 1.0,
+              "max": 12.0
+            },
+            "length_histogram": {
+              "1": 9,
+              "2": 3,
+              "5": 183,
+              "6": 76,
+              "7": 15,
+              "8": 1,
+              "12": 1
+            },
+            "at_32_count": 0,
+            "at_32_ratio_all": 0.0,
+            "at_32_ratio_nonempty": 0.0,
+            "over_32_count": 0,
+            "total_characters": 1511,
+            "alphabet_counts": {
+              "@": 255,
+              "#": 277,
+              "%": 277,
+              "&": 304,
+              "*": 308,
+              "+": 79,
+              "=": 0,
+              "~": 11
+            },
+            "alphabet_frequencies_among_legal_characters": {
+              "@": 0.1687624090006618,
+              "#": 0.18332230311052283,
+              "%": 0.18332230311052283,
+              "&": 0.20119126406353408,
+              "*": 0.20383851753805426,
+              "+": 0.05228325612177366,
+              "=": 0.0,
+              "~": 0.00727994705493051
+            },
+            "invalid_character_counts": {},
+            "unique_nonempty_strings": 12,
+            "repeated_nonempty_occurrences": 276,
+            "repeated_nonempty_occurrence_ratio": 0.9583333333333334,
+            "top_nonempty_strings": [
+              {
+                "text": "@#%&*",
+                "count": 181
+              },
+              {
+                "text": "@#%&*+",
+                "count": 56
+              },
+              {
+                "text": "&*#%&*",
+                "count": 20
+              },
+              {
+                "text": "@#%&*+~",
+                "count": 10
+              },
+              {
+                "text": "@",
+                "count": 7
+              },
+              {
+                "text": "&*#%&*+",
+                "count": 5
+              },
+              {
+                "text": "*+",
+                "count": 3
+              },
+              {
+                "text": "%+&*#",
+                "count": 2
+              },
+              {
+                "text": "*",
+                "count": 1
+              },
+              {
+                "text": "&*#%&*+@#%&*",
+                "count": 1
+              },
+              {
+                "text": "&*#%&*+~",
+                "count": 1
+              },
+              {
+                "text": "+",
+                "count": 1
+              }
+            ],
+            "agent_step_character_totals_observed": {
+              "n": 72,
+              "mean": 20.98611111111111,
+              "min": 7,
+              "max": 29
+            },
+            "agent_steps_over_64": 0,
+            "complete_four_window_agent_steps": 72,
+            "complete_four_window_agent_step_character_totals": {
+              "n": 72,
+              "mean": 20.98611111111111,
+              "min": 7,
+              "max": 29
+            },
+            "adjacent_windows": {
+              "pair_count": 216,
+              "transition_counts": {
+                "both_empty": 0,
+                "empty_to_nonempty": 0,
+                "nonempty_to_empty": 0,
+                "same_nonempty": 113,
+                "changed_nonempty": 103
+              },
+              "both_nonempty_pair_count": 216,
+              "same_string_ratio_when_both_nonempty": 0.5231481481481481,
+              "character_edit_distance": {
+                "n": 216,
+                "mean": 0.9675925925925926,
+                "min": 0.0,
+                "max": 7.0
+              },
+              "signed_length_change": {
+                "n": 216,
+                "mean": -0.041666666666666664,
+                "min": -6.0,
+                "max": 6.0
+              },
+              "duplicate_window_rows_excluded_from_pairs": 0,
+              "rows_without_usable_agent_step_window": 0
+            }
+          }
+        }
+      },
+      "episode_results": [
+        {
+          "condition": "delayed",
+          "group": 17,
+          "phase": "pilot",
+          "episode": 1,
+          "seed": 6101,
+          "score": 0.5,
+          "steps": 12,
+          "success": false
+        },
+        {
+          "condition": "delayed",
+          "group": 17,
+          "phase": "pilot",
+          "episode": 2,
+          "seed": 7558,
+          "score": 0.6666666666666666,
+          "steps": 12,
+          "success": false
+        }
+      ]
+    },
+    {
+      "condition": "immediate",
+      "group": "17",
+      "seeds": [
+        "6101",
+        "7558"
+      ],
+      "overall": {
+        "episode_rows": 2,
+        "score": {
+          "n": 2,
+          "mean": 0.5833333333333333,
+          "min": 0.5,
+          "max": 0.6666666666666666
+        },
+        "steps_all_episodes": {
+          "n": 2,
+          "mean": 12.0,
+          "min": 12.0,
+          "max": 12.0
+        },
+        "success_recorded": 2,
+        "success_count": 0,
+        "success_rate": 0,
+        "steps_successful_episodes_only": {
+          "n": 0,
+          "mean": null,
+          "min": null,
+          "max": null
+        }
+      },
+      "messages": {
+        "channel_type": "symbolic",
+        "message_rows": 288,
+        "nonempty_count": 288,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 288,
+          "mean": 5.5,
+          "min": 1.0,
+          "max": 11.0
+        },
+        "length_nonempty": {
+          "n": 288,
+          "mean": 5.5,
+          "min": 1.0,
+          "max": 11.0
+        },
+        "length_histogram": {
+          "1": 2,
+          "2": 10,
+          "3": 1,
+          "4": 2,
+          "5": 109,
+          "6": 151,
+          "7": 10,
+          "8": 1,
+          "11": 2
+        },
+        "at_32_count": 0,
+        "at_32_ratio_all": 0.0,
+        "at_32_ratio_nonempty": 0.0,
+        "over_32_count": 0,
+        "total_characters": 1584,
+        "alphabet_counts": {
+          "@": 290,
+          "#": 272,
+          "%": 270,
+          "&": 293,
+          "*": 279,
+          "+": 180,
+          "=": 0,
+          "~": 0
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": 0.1830808080808081,
+          "#": 0.1717171717171717,
+          "%": 0.17045454545454544,
+          "&": 0.1849747474747475,
+          "*": 0.17613636363636365,
+          "+": 0.11363636363636363,
+          "=": 0.0,
+          "~": 0.0
+        },
+        "invalid_character_counts": {},
+        "unique_nonempty_strings": 21,
+        "repeated_nonempty_occurrences": 267,
+        "repeated_nonempty_occurrence_ratio": 0.9270833333333334,
+        "top_nonempty_strings": [
+          {
+            "text": "@#%&*",
+            "count": 105
+          },
+          {
+            "text": "&+@#%*",
+            "count": 97
+          },
+          {
+            "text": "@#%&*+",
+            "count": 54
+          },
+          {
+            "text": "&+",
+            "count": 9
+          },
+          {
+            "text": "@#%&*+@",
+            "count": 3
+          },
+          {
+            "text": "&+@#%&*",
+            "count": 2
+          },
+          {
+            "text": "@#%&*+@&*+@",
+            "count": 2
+          },
+          {
+            "text": "&@#%*",
+            "count": 2
+          },
+          {
+            "text": "@&+@#%*",
+            "count": 2
+          },
+          {
+            "text": "&",
+            "count": 1
+          },
+          {
+            "text": "@+&*",
+            "count": 1
+          },
+          {
+            "text": "&*+@#%&",
+            "count": 1
+          },
+          {
+            "text": "@",
+            "count": 1
+          },
+          {
+            "text": "@&*+@",
+            "count": 1
+          },
+          {
+            "text": "&*",
+            "count": 1
+          },
+          {
+            "text": "&+@#%*+@",
+            "count": 1
+          },
+          {
+            "text": "&+@&*+@",
+            "count": 1
+          },
+          {
+            "text": "@&*",
+            "count": 1
+          },
+          {
+            "text": "@#&*+",
+            "count": 1
+          },
+          {
+            "text": "@#&*",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 72,
+          "mean": 22,
+          "min": 12,
+          "max": 28
+        },
+        "agent_steps_over_64": 0,
+        "complete_four_window_agent_steps": 72,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 72,
+          "mean": 22,
+          "min": 12,
+          "max": 28
+        },
+        "adjacent_windows": {
+          "pair_count": 216,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 84,
+            "changed_nonempty": 132
+          },
+          "both_nonempty_pair_count": 216,
+          "same_string_ratio_when_both_nonempty": 0.3888888888888889,
+          "character_edit_distance": {
+            "n": 216,
+            "mean": 1.8518518518518519,
+            "min": 0.0,
+            "max": 8.0
+          },
+          "signed_length_change": {
+            "n": 216,
+            "mean": 0.037037037037037035,
+            "min": -6.0,
+            "max": 6.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      },
+      "phases": {
+        "pilot": {
+          "episodes": {
+            "episode_rows": 2,
+            "score": {
+              "n": 2,
+              "mean": 0.5833333333333333,
+              "min": 0.5,
+              "max": 0.6666666666666666
+            },
+            "steps_all_episodes": {
+              "n": 2,
+              "mean": 12.0,
+              "min": 12.0,
+              "max": 12.0
+            },
+            "success_recorded": 2,
+            "success_count": 0,
+            "success_rate": 0,
+            "steps_successful_episodes_only": {
+              "n": 0,
+              "mean": null,
+              "min": null,
+              "max": null
+            }
+          },
+          "messages": {
+            "channel_type": "symbolic",
+            "message_rows": 288,
+            "nonempty_count": 288,
+            "nonempty_ratio": 1.0,
+            "length_all": {
+              "n": 288,
+              "mean": 5.5,
+              "min": 1.0,
+              "max": 11.0
+            },
+            "length_nonempty": {
+              "n": 288,
+              "mean": 5.5,
+              "min": 1.0,
+              "max": 11.0
+            },
+            "length_histogram": {
+              "1": 2,
+              "2": 10,
+              "3": 1,
+              "4": 2,
+              "5": 109,
+              "6": 151,
+              "7": 10,
+              "8": 1,
+              "11": 2
+            },
+            "at_32_count": 0,
+            "at_32_ratio_all": 0.0,
+            "at_32_ratio_nonempty": 0.0,
+            "over_32_count": 0,
+            "total_characters": 1584,
+            "alphabet_counts": {
+              "@": 290,
+              "#": 272,
+              "%": 270,
+              "&": 293,
+              "*": 279,
+              "+": 180,
+              "=": 0,
+              "~": 0
+            },
+            "alphabet_frequencies_among_legal_characters": {
+              "@": 0.1830808080808081,
+              "#": 0.1717171717171717,
+              "%": 0.17045454545454544,
+              "&": 0.1849747474747475,
+              "*": 0.17613636363636365,
+              "+": 0.11363636363636363,
+              "=": 0.0,
+              "~": 0.0
+            },
+            "invalid_character_counts": {},
+            "unique_nonempty_strings": 21,
+            "repeated_nonempty_occurrences": 267,
+            "repeated_nonempty_occurrence_ratio": 0.9270833333333334,
+            "top_nonempty_strings": [
+              {
+                "text": "@#%&*",
+                "count": 105
+              },
+              {
+                "text": "&+@#%*",
+                "count": 97
+              },
+              {
+                "text": "@#%&*+",
+                "count": 54
+              },
+              {
+                "text": "&+",
+                "count": 9
+              },
+              {
+                "text": "@#%&*+@",
+                "count": 3
+              },
+              {
+                "text": "&+@#%&*",
+                "count": 2
+              },
+              {
+                "text": "@#%&*+@&*+@",
+                "count": 2
+              },
+              {
+                "text": "&@#%*",
+                "count": 2
+              },
+              {
+                "text": "@&+@#%*",
+                "count": 2
+              },
+              {
+                "text": "&",
+                "count": 1
+              },
+              {
+                "text": "@+&*",
+                "count": 1
+              },
+              {
+                "text": "&*+@#%&",
+                "count": 1
+              },
+              {
+                "text": "@",
+                "count": 1
+              },
+              {
+                "text": "@&*+@",
+                "count": 1
+              },
+              {
+                "text": "&*",
+                "count": 1
+              },
+              {
+                "text": "&+@#%*+@",
+                "count": 1
+              },
+              {
+                "text": "&+@&*+@",
+                "count": 1
+              },
+              {
+                "text": "@&*",
+                "count": 1
+              },
+              {
+                "text": "@#&*+",
+                "count": 1
+              },
+              {
+                "text": "@#&*",
+                "count": 1
+              }
+            ],
+            "agent_step_character_totals_observed": {
+              "n": 72,
+              "mean": 22,
+              "min": 12,
+              "max": 28
+            },
+            "agent_steps_over_64": 0,
+            "complete_four_window_agent_steps": 72,
+            "complete_four_window_agent_step_character_totals": {
+              "n": 72,
+              "mean": 22,
+              "min": 12,
+              "max": 28
+            },
+            "adjacent_windows": {
+              "pair_count": 216,
+              "transition_counts": {
+                "both_empty": 0,
+                "empty_to_nonempty": 0,
+                "nonempty_to_empty": 0,
+                "same_nonempty": 84,
+                "changed_nonempty": 132
+              },
+              "both_nonempty_pair_count": 216,
+              "same_string_ratio_when_both_nonempty": 0.3888888888888889,
+              "character_edit_distance": {
+                "n": 216,
+                "mean": 1.8518518518518519,
+                "min": 0.0,
+                "max": 8.0
+              },
+              "signed_length_change": {
+                "n": 216,
+                "mean": 0.037037037037037035,
+                "min": -6.0,
+                "max": 6.0
+              },
+              "duplicate_window_rows_excluded_from_pairs": 0,
+              "rows_without_usable_agent_step_window": 0
+            }
+          }
+        }
+      },
+      "episode_results": [
+        {
+          "condition": "immediate",
+          "group": 17,
+          "phase": "pilot",
+          "episode": 1,
+          "seed": 6101,
+          "score": 0.5,
+          "steps": 12,
+          "success": false
+        },
+        {
+          "condition": "immediate",
+          "group": 17,
+          "phase": "pilot",
+          "episode": 2,
+          "seed": 7558,
+          "score": 0.6666666666666666,
+          "steps": 12,
+          "success": false
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "delayed",
+      "groups_observed": 1,
+      "group_ids": [
+        "17"
+      ],
+      "phases": {
+        "pilot": {
+          "groups_observed": 1,
+          "group_mean_score": {
+            "n": 1,
+            "mean": 0.5833333333333333,
+            "min": 0.5833333333333333,
+            "max": 0.5833333333333333
+          },
+          "group_success_rate": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "episode_rows": 2
+        }
+      },
+      "messages_pooled_descriptive_only": {
+        "channel_type": "symbolic",
+        "message_rows": 288,
+        "nonempty_count": 288,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 288,
+          "mean": 5.246527777777778,
+          "min": 1.0,
+          "max": 12.0
+        },
+        "length_nonempty": {
+          "n": 288,
+          "mean": 5.246527777777778,
+          "min": 1.0,
+          "max": 12.0
+        },
+        "length_histogram": {
+          "1": 9,
+          "2": 3,
+          "5": 183,
+          "6": 76,
+          "7": 15,
+          "8": 1,
+          "12": 1
+        },
+        "at_32_count": 0,
+        "at_32_ratio_all": 0.0,
+        "at_32_ratio_nonempty": 0.0,
+        "over_32_count": 0,
+        "total_characters": 1511,
+        "alphabet_counts": {
+          "@": 255,
+          "#": 277,
+          "%": 277,
+          "&": 304,
+          "*": 308,
+          "+": 79,
+          "=": 0,
+          "~": 11
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": 0.1687624090006618,
+          "#": 0.18332230311052283,
+          "%": 0.18332230311052283,
+          "&": 0.20119126406353408,
+          "*": 0.20383851753805426,
+          "+": 0.05228325612177366,
+          "=": 0.0,
+          "~": 0.00727994705493051
+        },
+        "invalid_character_counts": {},
+        "unique_nonempty_strings": 12,
+        "repeated_nonempty_occurrences": 276,
+        "repeated_nonempty_occurrence_ratio": 0.9583333333333334,
+        "top_nonempty_strings": [
+          {
+            "text": "@#%&*",
+            "count": 181
+          },
+          {
+            "text": "@#%&*+",
+            "count": 56
+          },
+          {
+            "text": "&*#%&*",
+            "count": 20
+          },
+          {
+            "text": "@#%&*+~",
+            "count": 10
+          },
+          {
+            "text": "@",
+            "count": 7
+          },
+          {
+            "text": "&*#%&*+",
+            "count": 5
+          },
+          {
+            "text": "*+",
+            "count": 3
+          },
+          {
+            "text": "%+&*#",
+            "count": 2
+          },
+          {
+            "text": "*",
+            "count": 1
+          },
+          {
+            "text": "&*#%&*+@#%&*",
+            "count": 1
+          },
+          {
+            "text": "&*#%&*+~",
+            "count": 1
+          },
+          {
+            "text": "+",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 72,
+          "mean": 20.98611111111111,
+          "min": 7,
+          "max": 29
+        },
+        "agent_steps_over_64": 0,
+        "complete_four_window_agent_steps": 72,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 72,
+          "mean": 20.98611111111111,
+          "min": 7,
+          "max": 29
+        },
+        "adjacent_windows": {
+          "pair_count": 216,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 113,
+            "changed_nonempty": 103
+          },
+          "both_nonempty_pair_count": 216,
+          "same_string_ratio_when_both_nonempty": 0.5231481481481481,
+          "character_edit_distance": {
+            "n": 216,
+            "mean": 0.9675925925925926,
+            "min": 0.0,
+            "max": 7.0
+          },
+          "signed_length_change": {
+            "n": 216,
+            "mean": -0.041666666666666664,
+            "min": -6.0,
+            "max": 6.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      }
+    },
+    {
+      "condition": "immediate",
+      "groups_observed": 1,
+      "group_ids": [
+        "17"
+      ],
+      "phases": {
+        "pilot": {
+          "groups_observed": 1,
+          "group_mean_score": {
+            "n": 1,
+            "mean": 0.5833333333333333,
+            "min": 0.5833333333333333,
+            "max": 0.5833333333333333
+          },
+          "group_success_rate": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "episode_rows": 2
+        }
+      },
+      "messages_pooled_descriptive_only": {
+        "channel_type": "symbolic",
+        "message_rows": 288,
+        "nonempty_count": 288,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 288,
+          "mean": 5.5,
+          "min": 1.0,
+          "max": 11.0
+        },
+        "length_nonempty": {
+          "n": 288,
+          "mean": 5.5,
+          "min": 1.0,
+          "max": 11.0
+        },
+        "length_histogram": {
+          "1": 2,
+          "2": 10,
+          "3": 1,
+          "4": 2,
+          "5": 109,
+          "6": 151,
+          "7": 10,
+          "8": 1,
+          "11": 2
+        },
+        "at_32_count": 0,
+        "at_32_ratio_all": 0.0,
+        "at_32_ratio_nonempty": 0.0,
+        "over_32_count": 0,
+        "total_characters": 1584,
+        "alphabet_counts": {
+          "@": 290,
+          "#": 272,
+          "%": 270,
+          "&": 293,
+          "*": 279,
+          "+": 180,
+          "=": 0,
+          "~": 0
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": 0.1830808080808081,
+          "#": 0.1717171717171717,
+          "%": 0.17045454545454544,
+          "&": 0.1849747474747475,
+          "*": 0.17613636363636365,
+          "+": 0.11363636363636363,
+          "=": 0.0,
+          "~": 0.0
+        },
+        "invalid_character_counts": {},
+        "unique_nonempty_strings": 21,
+        "repeated_nonempty_occurrences": 267,
+        "repeated_nonempty_occurrence_ratio": 0.9270833333333334,
+        "top_nonempty_strings": [
+          {
+            "text": "@#%&*",
+            "count": 105
+          },
+          {
+            "text": "&+@#%*",
+            "count": 97
+          },
+          {
+            "text": "@#%&*+",
+            "count": 54
+          },
+          {
+            "text": "&+",
+            "count": 9
+          },
+          {
+            "text": "@#%&*+@",
+            "count": 3
+          },
+          {
+            "text": "&+@#%&*",
+            "count": 2
+          },
+          {
+            "text": "@#%&*+@&*+@",
+            "count": 2
+          },
+          {
+            "text": "&@#%*",
+            "count": 2
+          },
+          {
+            "text": "@&+@#%*",
+            "count": 2
+          },
+          {
+            "text": "&",
+            "count": 1
+          },
+          {
+            "text": "@+&*",
+            "count": 1
+          },
+          {
+            "text": "&*+@#%&",
+            "count": 1
+          },
+          {
+            "text": "@",
+            "count": 1
+          },
+          {
+            "text": "@&*+@",
+            "count": 1
+          },
+          {
+            "text": "&*",
+            "count": 1
+          },
+          {
+            "text": "&+@#%*+@",
+            "count": 1
+          },
+          {
+            "text": "&+@&*+@",
+            "count": 1
+          },
+          {
+            "text": "@&*",
+            "count": 1
+          },
+          {
+            "text": "@#&*+",
+            "count": 1
+          },
+          {
+            "text": "@#&*",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 72,
+          "mean": 22,
+          "min": 12,
+          "max": 28
+        },
+        "agent_steps_over_64": 0,
+        "complete_four_window_agent_steps": 72,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 72,
+          "mean": 22,
+          "min": 12,
+          "max": 28
+        },
+        "adjacent_windows": {
+          "pair_count": 216,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 84,
+            "changed_nonempty": 132
+          },
+          "both_nonempty_pair_count": 216,
+          "same_string_ratio_when_both_nonempty": 0.3888888888888889,
+          "character_edit_distance": {
+            "n": 216,
+            "mean": 1.8518518518518519,
+            "min": 0.0,
+            "max": 8.0
+          },
+          "signed_length_change": {
+            "n": 216,
+            "mean": 0.037037037037037035,
+            "min": -6.0,
+            "max": 6.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "独立实验单位是群体，任务段和消息不作为独立重复；本报告不做显著性检验。",
+    "条件成绩按阶段分别汇总各群体均值，群体等权；消息汇总仅描述已记录字符串。",
+    "成功、重复、变长或相邻窗口改变不能证明共同意义、澄清、组合性或语法。",
+    "相邻窗口仅比较同一任务段、主体、物理动作步内编号连续的窗口；不比较跨段相邻文本。",
+    "尚未出现、丢失或损坏的任务段不算失败，缺失消息不算沉默；运行中报告可能不完整。",
+    "同时报告所有任务段步数与成功段步数；不据不同完成度的平均步数直接判断效率。"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "pending",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_rematched_confirmation_study/results/confirm_001",
+  "figures": [
+    "conditional_q_endpoint.png",
+    "conditional_q_interaction_forest.png",
+    "conditional_q_interaction_trajectories.png"
+  ]
+}

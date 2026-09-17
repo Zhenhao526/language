@@ -1,0 +1,15 @@
+{
+  "checkpoint_hashes_checked": 64,
+  "independent_replay": "Producer probe.py was not imported; natural message banks, variant packet transforms, aligned/placebo routing, second-window rollout, factorized actions, legal plans, partner transfer and strict settlement were reconstructed independently",
+  "live_rows_replayed": 2433024,
+  "max_abs_error": 0.0,
+  "model_forward_samples": 238786560,
+  "optimizer_updates": 0,
+  "placebo_mapping_checks": 76032,
+  "policy_blocks": 64,
+  "probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/results/slot_recode_confirm_002",
+  "rows_replayed": 4866048,
+  "status": "passed",
+  "variants": 7,
+  "worlds_per_policy": 56160
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "output_sha256": "0c7a7909625718b15e185c40eb23e960e8137343012ad580af9e01d3044a5379",
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "no_model_calls": true
+}

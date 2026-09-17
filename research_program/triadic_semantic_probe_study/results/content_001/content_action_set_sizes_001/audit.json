@@ -1,0 +1,192 @@
+{
+  "status": "passed_dataset_only_exhaustive_content_set_size_audit",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/manifest.json": "da9f6916227ac8f4ff199c68dddbceb0ade9b93c1dbb763280c7a20dceb05454",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/cases.json": "92b650bdd6513dc74c8f3a354124144471312e2bed0234605a42fb4d1c9500e3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/train.npz": "7d315cd1a217f0e186ae332b2a7d8a51d7fe5f3cc231a943d58cc87a404388b0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/heldout_layouts.npz": "4c17b0672c4754cf19785f870d9780a801cf30c375c4cde9cf4937de42c56cc7"
+  },
+  "audit_source_sha256": "8b08cbab5fbab0350db3a4c80446bc3037e44170117f21795968415cb50f06cc",
+  "canonical": {
+    "0": {
+      "axis": "kind_wood_fiber",
+      "case_count": 24,
+      "pair_size_distribution": {
+        "1,1": 24
+      },
+      "weighted_endpoint_means_fraction": [
+        "1",
+        "1"
+      ]
+    },
+    "1": {
+      "axis": "length_short_long",
+      "case_count": 24,
+      "pair_size_distribution": {
+        "1,1": 24
+      },
+      "weighted_endpoint_means_fraction": [
+        "1",
+        "1"
+      ]
+    },
+    "2": {
+      "axis": "destination_L_R",
+      "case_count": 72,
+      "pair_size_distribution": {
+        "2,2": 72
+      },
+      "weighted_endpoint_means_fraction": [
+        "2",
+        "2"
+      ]
+    }
+  },
+  "partitions": {
+    "train": {
+      "0": {
+        "axis": "kind_wood_fiber",
+        "rows": 2592,
+        "pair_size_distribution": {
+          "1,1": 2592
+        },
+        "endpoint_size_distributions": [
+          {
+            "1": 2592
+          },
+          {
+            "1": 2592
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "1",
+          "1"
+        ],
+        "weighted_two_endpoint_mean_fraction": "1",
+        "weighted_two_endpoint_mean": 1.0
+      },
+      "1": {
+        "axis": "length_short_long",
+        "rows": 2592,
+        "pair_size_distribution": {
+          "1,1": 2592
+        },
+        "endpoint_size_distributions": [
+          {
+            "1": 2592
+          },
+          {
+            "1": 2592
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "1",
+          "1"
+        ],
+        "weighted_two_endpoint_mean_fraction": "1",
+        "weighted_two_endpoint_mean": 1.0
+      },
+      "2": {
+        "axis": "destination_L_R",
+        "rows": 7776,
+        "pair_size_distribution": {
+          "2,2": 7776
+        },
+        "endpoint_size_distributions": [
+          {
+            "2": 7776
+          },
+          {
+            "2": 7776
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "2",
+          "2"
+        ],
+        "weighted_two_endpoint_mean_fraction": "2",
+        "weighted_two_endpoint_mean": 2.0
+      }
+    },
+    "heldout_layouts": {
+      "0": {
+        "axis": "kind_wood_fiber",
+        "rows": 864,
+        "pair_size_distribution": {
+          "1,1": 864
+        },
+        "endpoint_size_distributions": [
+          {
+            "1": 864
+          },
+          {
+            "1": 864
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "1",
+          "1"
+        ],
+        "weighted_two_endpoint_mean_fraction": "1",
+        "weighted_two_endpoint_mean": 1.0
+      },
+      "1": {
+        "axis": "length_short_long",
+        "rows": 864,
+        "pair_size_distribution": {
+          "1,1": 864
+        },
+        "endpoint_size_distributions": [
+          {
+            "1": 864
+          },
+          {
+            "1": 864
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "1",
+          "1"
+        ],
+        "weighted_two_endpoint_mean_fraction": "1",
+        "weighted_two_endpoint_mean": 1.0
+      },
+      "2": {
+        "axis": "destination_L_R",
+        "rows": 2592,
+        "pair_size_distribution": {
+          "2,2": 2592
+        },
+        "endpoint_size_distributions": [
+          {
+            "2": 2592
+          },
+          {
+            "2": 2592
+          }
+        ],
+        "axis_weight_sum_fraction": "1",
+        "weighted_endpoint_means_fraction": [
+          "2",
+          "2"
+        ],
+        "weighted_two_endpoint_mean_fraction": "2",
+        "weighted_two_endpoint_mean": 2.0
+      }
+    }
+  },
+  "legal_set": "Projection of all team-full-success joint plans onto the listener action; not the whole 17-action menu.",
+  "action_decoding": "For action a>0: site=(a-1)//4, destination=((a-1)%4)//2, partner slot=(a-1)%2.",
+  "every_content_endpoint_has_single_destination_and_partner": true,
+  "action_count_equals_distinct_valid_site_count": true,
+  "weights": "Frozen per-axis weights; six ordered sender/listener strata equal, then cases/layouts/owners uniform; two endpoints averaged equally.",
+  "policy_results_read": false,
+  "policy_success_selection": false,
+  "neural_forward_calls": 0,
+  "scope": "Static support difference only; set cardinality alone neither identifies learning preference nor measures total task difficulty."
+}

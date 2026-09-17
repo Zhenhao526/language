@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "created_at": "2026-09-15T16:47:37.823994+00:00",
+  "script_sha256": "a3580f719f217375d63fecda00ad4e6ba0fd548300e5d4e61f52956c0c64901e",
+  "input_files": 967,
+  "outputs": {
+    "summary.json": "912cf4a9cc9db988176a351b9419956ada0ed9de974d6e4112a943074346cf47",
+    "complete_endpoints.csv": "dac185ae9d328113ae00ef108eff4708d0103f070bb313ab53fe607491e574a5",
+    "完整结果表.md": "c20d07d118797c2e640ff645a3826fe9d793a5c82f0a5e3f8e187f2b87061f62"
+  },
+  "neural_forwards": 0,
+  "training_updates": 0
+}

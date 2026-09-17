@@ -1,0 +1,47 @@
+{
+  "actual_decoder_runs": 42,
+  "additional_model_forward_samples": 0,
+  "figure_data_sha256": "ee4e706cd77725628a1ef3454a78cb1dec7b5105877fdd4f0872f2b15fcad59a",
+  "generated_at": "2026-09-16T03:20:08.170870+00:00",
+  "independent_protocol_seed_blocks": 4,
+  "logical_decoder_entries": 96,
+  "outputs": {
+    "01_initial_final_joint_accuracy.pdf": {
+      "bytes": 27947,
+      "sha256": "4fb0591ed7ea0335740a5fc2b014957008b211ca9b1579e544a3b877c19b2b5a"
+    },
+    "01_initial_final_joint_accuracy.png": {
+      "bytes": 220586,
+      "sha256": "33c3789ca969b5045bc54d50f696bcc1260962f6ac33bf8c5be3a8735efe910e"
+    },
+    "02_final_minus_initial_contrasts.pdf": {
+      "bytes": 27073,
+      "sha256": "a107fb3b5c48a2e16f692a55042ed6babde1ba25d5fc116c701cb2349f05d615"
+    },
+    "02_final_minus_initial_contrasts.png": {
+      "bytes": 149610,
+      "sha256": "8413b33166b220a73d3302459f4b38efedb9105d31bcf24ee7c7bb25290707e0"
+    },
+    "03_decoder_monitor_trajectories.pdf": {
+      "bytes": 31718,
+      "sha256": "d2fb5f28fa05571a6e65b47055120be2f2c1242c4b65e0689c435b753020ebbc"
+    },
+    "03_decoder_monitor_trajectories.png": {
+      "bytes": 291787,
+      "sha256": "e877ee978693985c7fcce3509e87d3a7a2718c7adb1036d6bd61977d54e19ed4"
+    }
+  },
+  "plan_sha256": "9cf2995a75acb9cd5d69d36897019299bb9123095b684922345b3ae41ddc9f41",
+  "plot_source_sha256": "d68208ff4541c52d5e9e9a9b581692d420f476711e0fd9633b7c8b8a17f03d93",
+  "runtime": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_result_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/execution/results.json",
+  "source_result_sha256": "3091280846d9dfe812bd92e856cde30f8d9891ce3159e9463a2f5c047ecc95e6",
+  "source_scope": "Only completed aggregate results.json; no model files, training logs, per-run outputs or execution-audit files read.",
+  "status": "generated_visual_inspection_pending",
+  "training_updates": 0,
+  "visual_inspection_performed": false
+}

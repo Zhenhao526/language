@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-16T05:09:15.108204+00:00",
+  "status": "two_optional_review_wording_changes_applied",
+  "reviewed_report_sha256": "bb2df502b45837aa51eeaa96146b245a1e06edee41886424f0e0c40f497adc00",
+  "final_report_sha256": "27e80f34f1f1510aa547a46d408b272d21ec7d14d35bd2f9032b03aecbbdf6e5",
+  "changes": [
+    "平均方向改善→平均兼容差为正",
+    "不重复计费→不重复计入新增前向"
+  ],
+  "scientific_values_changed": false,
+  "source_code_changed": false,
+  "additional_model_calls": 0
+}

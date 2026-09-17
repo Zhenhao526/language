@@ -1,0 +1,37 @@
+{
+  "status": "rendered_pending_visual_review",
+  "created_at": "2026-09-15T16:05:16.742740+00:00",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/formation_summary_001/summary.json",
+  "summary_sha256": "07af4b627f95ba308c2720992c92abcdd40585106a8a4f93b31741a5cfe0f678",
+  "script_sha256": "2457b0c5e72fab010b40d83fb354076095dac0a264005028684cfd81c05bb2e6",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "matplotlib_version": "3.11.2",
+  "figures_sha256": {
+    "complete_endpoints.png": "9f075ce71eb9603b742a411bc891e617bcfe92498a70cad03b315123767b13d2",
+    "complete_endpoints.svg": "d0acb34ac76c76195999cbf19505489dc217ecd7839af5417a671a012c45de5f",
+    "paired_primary.png": "37dfcb1a88f6a54de383ccedd9f1d546a42e99d74bd286e00b13b6ec692da288",
+    "paired_primary.svg": "80241eb14fd107785b34ed900876c2b6d55e55462a8ac987e3a357c30b9def5f",
+    "fixed_monitor_curves.png": "0f21bdac28b396c65b2acbb3cd2ba6aecd348f4acc39fb9a46717dd4c6d1b9a6",
+    "fixed_monitor_curves.svg": "def9c404fffb38cb36be05c3ad5a86e1253f741e3d12840f1182e45f4977c011"
+  },
+  "endpoint_records": 64,
+  "monitor_records": 384,
+  "paired_seeds": [
+    47101,
+    47102,
+    47103,
+    47104
+  ],
+  "rate_axis_limits_percent": [
+    0,
+    100
+  ],
+  "difference_axis_limits_pp": [
+    -100,
+    100
+  ],
+  "best_seed_or_checkpoint_selection": false,
+  "neural_forward_calls": 0,
+  "training_updates": 0
+}

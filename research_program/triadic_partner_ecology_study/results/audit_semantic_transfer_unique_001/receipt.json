@@ -1,0 +1,7 @@
+{
+  "max_abs_error": 0.0,
+  "model_forward_samples": 207360,
+  "optimizer_updates": 0,
+  "status": "passed",
+  "verification_sha256": "7360c4501016ef434438ab3e5f2213387819fc456dbb1edfdfd6bacc5aa8d68d"
+}

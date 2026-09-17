@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "results": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_direction_probe/results/probe_001/aggregation_001/results.json",
+  "figures": [
+    "direction_seed_trajectories.png",
+    "direction_sender_forest.png"
+  ],
+  "visual_review": "passed",
+  "visual_review_note": "PNG figures inspected at high detail; the first plotting attempt failed only on an error-bar scaling bug and was rerun after correction. Data and analysis JSON were unchanged."
+}

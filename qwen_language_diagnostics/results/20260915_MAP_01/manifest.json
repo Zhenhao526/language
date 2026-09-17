@@ -1,0 +1,89 @@
+{
+  "prepared_at": "2026-09-15T17:06:15.154086+08:00",
+  "source_run": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information",
+  "prior_M_run": "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01",
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "cases_sha256": "a6c9e70b9d7ad06dcb9b2a41a4b4ffb058914a21b245b0cebcb2205c8473aa86",
+  "source_sha256": {
+    "qwen_language_diagnostics/__init__.py": "beb606ac2d6ab7dfa26cd78407562f505e1afb6af3110bd3f3b2c34da6dbfc7c",
+    "qwen_language_diagnostics/experiment.py": "38f571a3716d4e2096425ee4643d3cfcf9a3e490d181d5e8d0f4f312670db790",
+    "qwen_language_diagnostics/history_cases.py": "5531999fbf53983ec512b45b2abfcee761dd6612dee55e5d825d50776640c27e",
+    "qwen_language_v3/environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+    "qwen_language_v3/agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+    "qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "qwen_language_v3/protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+    "qwen_language_v3/run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+    "qwen_language_v3/probe.py": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+    "qwen_language_v3/execute_locked_pipeline.py": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f",
+    "qwen_language_diagnostics/action_semantics.py": "2d29d3d250f78ed16c1b608c6ebfe344d9d6cacae53377a56552da3c34607f3e",
+    "qwen_language_diagnostics/semantic_cases.py": "efde2195edba09700441feffb4ca2b95e02bd03c7953123f48757ec81e1d8520",
+    "qwen_language_diagnostics/map_cases.py": "59cf93d6fcdc9cf0bd9595d70ef0077c9e3ddebb22c9e01d0e8bc923bcbcb8b3",
+    "qwen_language_diagnostics/map_presentation.py": "2d0b0c3f9349afb95023d40e93ec704a46e26be10825c727ded65832a7ee1c3c"
+  },
+  "source_records_sha256": {
+    "manifest.json": "dbfe29cbf6acaeceed27f96fe6a1873f34179283e2d5d740f7cdc69c10e43b17",
+    "steps.jsonl": "886a07e79c3c4be49cea30aa7e29637d161d9bdd2f85bf84492cfdadf5cb7f85",
+    "inference.jsonl": "22f15341f6d0a885cdd9c5a129a205ff91c1e930b25bc0e1a7e6b432e1d5be5a",
+    "episodes.jsonl": "e27fdd1a5ef684b6bfb354b082705343460b9d7f61a4ee71571effe89c4f49a0"
+  },
+  "prior_result_files_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/manifest.json": "edbd668c2458ceac298bcc1b6bd71f8e626e0d5f83e0edf197b4d8829be105ec",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/prepared_cases.json": "ea80329e1a14293b1921781a397dcd8f28cf02d9dd88cbb3aecfbe7184e1e60f",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/results.json": "504f26c17aaef73bd68aa75e06303e889d747094608b317e75b775d8de10d48d",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/inference.jsonl": "246df7513c5fd122261f0894a78e6a2a70fd6132f8d95174e870fe5583934a4e",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/manifest.json": "90dde72404c5c70117a22ea06106a05145b3992d2dc4cf129ba79dba9242df48",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/prepared_cases.json": "fc1d544567d726e2705c2419044bf340d19a56b610b2b6fdeae1145839bc0c2e",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/results.json": "ed4ac3aeaea83947c4b87dffb2b28e13b36d678c14dd10249c0b7b5e438a7d2d",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/inference.jsonl": "abbe6218468d6c0ad1888adebd64eaf3847c3f8a8f3ab8a5860ddc5d60103843"
+  },
+  "sequence": [
+    "G1_original",
+    "G1_explicit_edges",
+    "G2_original",
+    "G2_explicit_edges",
+    "J1_original",
+    "J1_explicit_edges",
+    "J2_original",
+    "J2_explicit_edges"
+  ],
+  "formal_judgments": 8,
+  "model_calls": 16,
+  "max_backend_calls": 16,
+  "paired_seed": 20260916,
+  "answer_order": "affirm_first_in_both_representations",
+  "presentation_change": {
+    "original": "营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。",
+    "explicit_edges": "道路如下：营地—林地、营地—河滩、林地—河滩。这三条道路永久双向开放，沿每条道路移动均占一个物理动作步。",
+    "replacement_count": 1,
+    "changed_field": "prompt[0].content",
+    "observation_map_changed": false
+  },
+  "model_parameters": {
+    "private_analysis_max_tokens": 256,
+    "private_analysis_temperature": 0,
+    "formal_temperature": 0,
+    "native_thinking": false,
+    "fresh_cache_every_call": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "packages": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "no_retries_or_adaptive_questions": true,
+  "updates_source_histories": false,
+  "unlocks_symbolic_experiment": false,
+  "interpretation_limits": [
+    "Each pair only replaces the map sentence in the system message; length and salience also change.",
+    "Four statements in one selected source state do not estimate general model performance.",
+    "J1 original is an exact input/seed anchor to M1 affirm-first; reproduction must be reported.",
+    "Specified hypothetical actions test judgment, not independent selection or renewed coordination.",
+    "There is no new symbolic communication, training, memory reset in a group, or automatic capability unlock.",
+    "Private analysis is recorded output; it does not prove a hidden mechanism."
+  ]
+}

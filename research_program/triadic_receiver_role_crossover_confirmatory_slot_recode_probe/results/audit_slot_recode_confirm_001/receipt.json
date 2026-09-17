@@ -1,0 +1,9 @@
+{
+  "live_rows_replayed": 2433024,
+  "max_abs_error": 0.0,
+  "optimizer_updates": 0,
+  "rows_replayed": 4866048,
+  "status": "passed",
+  "variants": 7,
+  "verification_sha256": "ef4213ff43e4903cab4b32bee6c6fd0747793b11d58d2cb3d61c8e52a0b318ba"
+}

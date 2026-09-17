@@ -1,0 +1,1916 @@
+{
+  "status": "passed_saved_array_identity",
+  "completed_at": "2026-09-15T17:36:35.597023+00:00",
+  "posthoc": true,
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/audit_endpoint_exchange.py": "18f9ce75310d1001cb76d268eb7c5cdcfdc91bb65c84ab52b35a289ad59baf68",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/results.json": "afee9c15f82112a76b9ce86852cf8c1cffa969c0ed1eef5477cea214a273af12",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/manifest.json": "da9f6916227ac8f4ff199c68dddbceb0ade9b93c1dbb763280c7a20dceb05454",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/endpoint_index_spaces.json": "21b6b230090edf3f89ea9b63bc6d6aa427210d0fc183e41cc063146eca9376f5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/train.npz": "7d315cd1a217f0e186ae332b2a7d8a51d7fe5f3cc231a943d58cc87a404388b0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/dataset_001/heldout_layouts.npz": "4c17b0672c4754cf19785f870d9780a801cf30c375c4cde9cf4937de42c56cc7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_same_both_train_d0.npz": "205addfc0265715c5aa61b8d1d806434b53e056aa514ceef42cd9b743010a46f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_same_both_train_d1.npz": "bf156d154ff3bae8655b12cbc07c6154a3a251fadb42e84f85265e186536c27e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_opposite_both_train_d0.npz": "55f47b35210650e0a340ac43db7dd4d49d9f270def458bcc338b624f48782c6d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_opposite_both_train_d1.npz": "3e729bf0fdba7a10033817effa1cf18b0a03b949e0625595a72bd6a141c8196b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_same_both_heldout_layouts_d0.npz": "ec613173fd1bb91b391094c049ea47ea0298bd8dabd1ced2abcfed6d8b98df6a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_same_both_heldout_layouts_d1.npz": "cb0cc522418e199765b21c2cf4748ee3b34772be62bf6a4cfd1c214114504a13",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_opposite_both_heldout_layouts_d0.npz": "284d3dab5f7be67aa55ed533473edb5f951a62074579ce30c5b1c9fcfab08245",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_silent/remote_opposite_both_heldout_layouts_d1.npz": "15692a38475334ad4d871f6b7564b6ad312e22234e2a749a26acea62565497a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_same_both_train_d0.npz": "b7370e8397eacad77abc91955412d6dbcbc0d28d68c8e1035e5c5df7bc62845b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_same_both_train_d1.npz": "e1fc1a7b520debed5e0c55f1c75c0ae7dc883d09dc05d21c555755d456c057b2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_opposite_both_train_d0.npz": "d60f9f6ebd537178f163384ce280a47eaba21f96a40b66f59b8039ae4e72610c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_opposite_both_train_d1.npz": "c142277df287caf016fbc7eb82b270424f9eedb353995e76714ee2e3c9145c1c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_same_both_heldout_layouts_d0.npz": "bace525e9e2b01c3958354ae85a5db58688bc128d528536e523e3c7f24597372",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_same_both_heldout_layouts_d1.npz": "efafb05eb99ed11e75b13f9a22f55750886ce4a350964be9d7f2a62cf708065b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_opposite_both_heldout_layouts_d0.npz": "a0c7993ba8559367178b5cb4c377c88395bc9eef807c8130d5af05b026387d8b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49101_PI_live/remote_opposite_both_heldout_layouts_d1.npz": "9a0f8042c0bd801c23955ab0f9d94332a9944dc429346b49640b8237dbf19833",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_same_both_train_d0.npz": "2ddbcf04b349af9d774e1e09e465902c74b19ed7f76004919633f6b7652671ca",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_same_both_train_d1.npz": "7df4a2f0db7b396c763a0b6707f162a716e32bf29906a1915918d371e79623af",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_opposite_both_train_d0.npz": "f69444478e14b8f68014a35b604c2d5f74347c67b50a1d32b6c6445a21cdc1d0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_opposite_both_train_d1.npz": "652706428e2ffa8747f5f94929bf9b483fbda64ff0f3468ca09ae685052c1e7a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_same_both_heldout_layouts_d0.npz": "4b3b1b748178cc9e851490c47c7600320d3f386101227f3d49b1538bcfecde37",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_same_both_heldout_layouts_d1.npz": "cb336d3c95106d4fc45a61eade9ac235305cb31046375d764f1138bae20769ff",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_opposite_both_heldout_layouts_d0.npz": "5748c66bce5bd217af6172bd0f493356ec00ed914808ed0e7f99c2f382cfb2af",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_silent/remote_opposite_both_heldout_layouts_d1.npz": "1eff91ce6305f2e3e713eb0d6e135bbc1995d22c00f21d6d3ea640abf158bc4a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_same_both_train_d0.npz": "6d5c67ada660174b4ac1359270c5c44c00c61f307122f031d52a831404994cbd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_same_both_train_d1.npz": "34bf3ce182028eda86cc5371d693d213acb43428eb469993b61e9742ad88ac4f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_opposite_both_train_d0.npz": "1dad37e068d554f6c67fd342870d8adbdbff4529fd10f34767af4e03ad9d7be2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_opposite_both_train_d1.npz": "4aefc549584ac3d98d89b5517464e4b83ff580c8849fbd4196ea6d2e61fc6b58",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_same_both_heldout_layouts_d0.npz": "803945dc7b45c7536cd45dbd1b08099ad5ecc142e021b9e63444ed020c7750cc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_same_both_heldout_layouts_d1.npz": "481bc1d60a12beba88127383fc757e5a925ad168298acee328e9d3e70531745b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_opposite_both_heldout_layouts_d0.npz": "a74ddfc427f8ba62b2c7b5e7f7c28414fb8523c65407dd3fde877c49c27b8d27",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49102_PI_live/remote_opposite_both_heldout_layouts_d1.npz": "5bc9d3a7b0557b078a105cff6ab043a1be305c4792c8a47022c8cf78053e4869",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_same_both_train_d0.npz": "abb678525c731c1cd08c18bd2b4ac1a8c919cf4e3326a824a1b43db5637ad190",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_same_both_train_d1.npz": "5e7decd84c7016c562bca1d895aab74853bf4334197e7f335ca64ef96c3dc3c5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_opposite_both_train_d0.npz": "1c9cbbc5ad6ec494b31d2d36834acf3055d52deb1cfa5ffb83c3a48dfa7da402",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_opposite_both_train_d1.npz": "58fbfdd5dbe450f5f072540fc988b8bc5bf23fec266de2342fe29b735b573828",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_same_both_heldout_layouts_d0.npz": "a23016bca8bc30addbf3d922499dd91e390732bf648d5b6b0a7701b39925dde3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_same_both_heldout_layouts_d1.npz": "2a300026fd67c0c95d6695a3472857252f60d9f87d2d2135dffc569318716f36",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_opposite_both_heldout_layouts_d0.npz": "c886a9d9ccedcdb1c6aa968082016df1061767eba0ce63de8842316fe7281460",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_silent/remote_opposite_both_heldout_layouts_d1.npz": "c22ca34b91448bd085c83f73986cb2645e5306ffe61339e8cfdd07d2c2153682",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_same_both_train_d0.npz": "fd1eafa29f69c4b62975a76d23bc73646dc95b3c6c7a484b0085020a41ba286d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_same_both_train_d1.npz": "381b02cbd9124de0d1f03f47d607d3380d04e30530e1525c3be4b747c9593c2e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_opposite_both_train_d0.npz": "fb659fdd91a9820b24c54fe58d899628a357744c7054888c2a794649088d17d0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_opposite_both_train_d1.npz": "316d820d9c034d3b2148af4d21ad2fc8324650a23f3f1b2da3ae844b5ecfa141",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_same_both_heldout_layouts_d0.npz": "62bbf8de489bdf3a7426c0a7fabeef5ed48dee0ad0e066f4c0876de5aa192034",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_same_both_heldout_layouts_d1.npz": "9e5cc437f0e03d685c88534ff445db02f1b97695b22418e0d22228ec594235ff",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_opposite_both_heldout_layouts_d0.npz": "58544f784ec8b3e0783ae405c91db2f23c58bc424dc94db537ab0e420b148bfa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49103_PI_live/remote_opposite_both_heldout_layouts_d1.npz": "5c6ac5f8fa31fd8984aa197b9f48a73cac22fb46a0116b657765ba5d7953b3e8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_same_both_train_d0.npz": "3a9ccf0f3b8044da91ced94cb2f6e7792116a978ed4bec672c8004a6d8dc4f4b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_same_both_train_d1.npz": "3175aee68e832f05810cb76b613dc7a97709c10c144e79e1ae8b4cfe07e927f0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_opposite_both_train_d0.npz": "38ad09f2d60f92f84cd5fecc7e480997ab4d14afc1f1d4b9b161275b428cb3dc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_opposite_both_train_d1.npz": "02332f723845f7083c4ebd0a18792c1882ec3e0ee23740e0a93147d011824611",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_same_both_heldout_layouts_d0.npz": "c3fd61ad5ce29608317f2c74f139a2d32e3f7db1aa85832730c903dfe6938cf0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_same_both_heldout_layouts_d1.npz": "c6c4fa5efdb006eadc08b45c92f915c2ecc5014ec5bd5c0772479ab25a03c9f6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_opposite_both_heldout_layouts_d0.npz": "17d57e3e1593be810cfedc430c3b1286eea7e187eb711562d39caf1308cf9a92",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_silent/remote_opposite_both_heldout_layouts_d1.npz": "1df283365242bba5cd2c066fa706161c2c03cdcf7b2007496b601d85304027da",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_same_both_train_d0.npz": "b591d9d2328bcd34115247eebccddaedb2b2c81b3372c49d2f12a0caaf366ef7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_same_both_train_d1.npz": "2cd6ee01844adaa914dcde3b5868494eddbc9318707a2eeb76445e3293994d35",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_opposite_both_train_d0.npz": "f004ec383a5c75dfad1b411f4289e200c504164e76a2dc772f73e1418b3f05d8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_opposite_both_train_d1.npz": "a4f17fa081c2ba78f324ad108632eb31498c8f031be0aafea256fd44442c4b90",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_same_both_heldout_layouts_d0.npz": "364ccbf11e0d301186d3c6cf9ef4bf35fe278ea0e5025802e40f9043702cba70",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_same_both_heldout_layouts_d1.npz": "87e873cee982a61fb0f33c6429bf57befef2ae16a518042e88f94cddda732927",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_opposite_both_heldout_layouts_d0.npz": "d5d9c4f29725aa10a201b398788bea1253e3893dd6c2e5543d6d1921fba4a9c9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/execution/seed_49104_PI_live/remote_opposite_both_heldout_layouts_d1.npz": "b59a0b8a7629a594b6be1704eb37626ddb6bbb430158cced87f914979a162eba"
+  },
+  "saved_intervention_files": 64,
+  "paired_direction_checks": 32,
+  "paired_case_worlds": 276480,
+  "paired_nonsender_inputs": 552960,
+  "full_producer_batch_input_hashes_checked": 576,
+  "max_nonsender_probability_error": 0.0,
+  "checks": [
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4816,
+      "recipient_reward_difference_count": 5121
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4816,
+      "recipient_reward_difference_count": 5121
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1644,
+      "recipient_reward_difference_count": 1617
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1644,
+      "recipient_reward_difference_count": 1617
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4108,
+      "recipient_reward_difference_count": 6920
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4154,
+      "recipient_reward_difference_count": 6995
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1451,
+      "recipient_reward_difference_count": 1782
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1487,
+      "recipient_reward_difference_count": 1671
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4880,
+      "recipient_reward_difference_count": 5044
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4880,
+      "recipient_reward_difference_count": 5044
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1656,
+      "recipient_reward_difference_count": 1596
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1656,
+      "recipient_reward_difference_count": 1596
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6731,
+      "recipient_reward_difference_count": 6248
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6748,
+      "recipient_reward_difference_count": 7023
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 2177,
+      "recipient_reward_difference_count": 1188
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 2172,
+      "recipient_reward_difference_count": 1798
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 5046,
+      "recipient_reward_difference_count": 5296
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 5046,
+      "recipient_reward_difference_count": 5296
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1694,
+      "recipient_reward_difference_count": 1558
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1694,
+      "recipient_reward_difference_count": 1558
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6072,
+      "recipient_reward_difference_count": 6801
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6096,
+      "recipient_reward_difference_count": 6336
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1979,
+      "recipient_reward_difference_count": 1645
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1993,
+      "recipient_reward_difference_count": 1679
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4840,
+      "recipient_reward_difference_count": 5111
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 4840,
+      "recipient_reward_difference_count": 5111
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1632,
+      "recipient_reward_difference_count": 1650
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 1632,
+      "recipient_reward_difference_count": 1650
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6609,
+      "recipient_reward_difference_count": 7367
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "train",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 12960,
+      "nonsender_agents": 25920,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 6707,
+      "recipient_reward_difference_count": 7397
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 0,
+      "same_recipient_direction": 1,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 2232,
+      "recipient_reward_difference_count": 2073
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "opposite_recipient_direction": 1,
+      "same_recipient_direction": 0,
+      "case_worlds": 4320,
+      "nonsender_agents": 8640,
+      "full_input_exact": true,
+      "saved_actions_exact": true,
+      "saved_probability_max_error": 0.0,
+      "sender_action_difference_count": 2255,
+      "recipient_reward_difference_count": 2162
+    }
+  ],
+  "statistics": [
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.06462191358024691,
+          0.05825617283950617,
+          0.12287808641975304
+        ],
+        "macro": 0.08191872427983538
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.06462191358024691,
+          0.05825617283950617,
+          0.12287808641975304
+        ],
+        "macro": 0.08191872427983538
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.0605005527490453,
+          0.0596750646023343,
+          0.12017561735137955
+        ],
+        "macro": 0.08011707823425306
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.0605005527490453,
+          0.0596750646023343,
+          0.12017561735137955
+        ],
+        "macro": 0.08011707823425306
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.06462191358024691,
+          0.05825617283950617,
+          0.12287808641975304
+        ],
+        "macro": 0.08191872427983538
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.06462191358024691,
+          0.05825617283950617,
+          0.12287808641975304
+        ],
+        "macro": 0.08191872427983538
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.0605005527490453,
+          0.0596750646023343,
+          0.12017561735137955
+        ],
+        "macro": 0.08011707823425306
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.0605005527490453,
+          0.0596750646023343,
+          0.12017561735137955
+        ],
+        "macro": 0.08011707823425306
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.05844907407407407,
+          0.05787037037037037,
+          0.11631944444444445
+        ],
+        "macro": 0.0775462962962963
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.05844907407407407,
+          0.05787037037037037,
+          0.11631944444444445
+        ],
+        "macro": 0.0775462962962963
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.05550313554491145,
+          0.05515916866693813,
+          0.11066230421184958
+        ],
+        "macro": 0.07377486947456639
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.05550313554491145,
+          0.05515916866693813,
+          0.11066230421184958
+        ],
+        "macro": 0.07377486947456639
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.05844907407407407,
+          0.05787037037037037,
+          0.11631944444444445
+        ],
+        "macro": 0.0775462962962963
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.05844907407407407,
+          0.05787037037037037,
+          0.11631944444444445
+        ],
+        "macro": 0.0775462962962963
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.05550313554491145,
+          0.05515916866693813,
+          0.11066230421184958
+        ],
+        "macro": 0.07377486947456639
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.05550313554491145,
+          0.05515916866693813,
+          0.11066230421184958
+        ],
+        "macro": 0.07377486947456639
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.10474537037037036,
+          0.11304012345679013,
+          0.1619727366255143
+        ],
+        "macro": 0.12658607681755826
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.06770833333333333,
+          0.05922067901234568,
+          0.16261574074074064
+        ],
+        "macro": 0.09651491769547321
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.10581197388398861,
+          0.11144546455170097,
+          0.1608546854059247
+        ],
+        "macro": 0.12603737461387143
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.06652452647538966,
+          0.05943338453892009,
+          0.16210722729796462
+        ],
+        "macro": 0.09602171277075812
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.06770833333333333,
+          0.05922067901234568,
+          0.16261574074074064
+        ],
+        "macro": 0.09651491769547321
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.10474537037037036,
+          0.11304012345679013,
+          0.1619727366255143
+        ],
+        "macro": 0.12658607681755826
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.06652452647538966,
+          0.05943338453892009,
+          0.16210722729796462
+        ],
+        "macro": 0.09602171277075812
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.10581197388398861,
+          0.11144546455170097,
+          0.1608546854059247
+        ],
+        "macro": 0.12603737461387143
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.037037037037037035,
+          0.05381944444444445,
+          -0.0006430041152263372
+        ],
+        "macro": 0.03007115912208505
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.037037037037037035,
+          0.05381944444444445,
+          -0.0006430041152263372
+        ],
+        "macro": 0.03007115912208505
+      }
+    },
+    {
+      "seed": 49101,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.06944444444444443,
+          0.06307870370370369,
+          0.10879629629629628
+        ],
+        "macro": 0.08043981481481481
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.07175925925925924,
+          0.054976851851851846,
+          0.11516203703703703
+        ],
+        "macro": 0.08063271604938271
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.06965242424900667,
+          0.06509095053085717,
+          0.10896630557087598
+        ],
+        "macro": 0.08123656011691327
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.07206336516344194,
+          0.0548005435789323,
+          0.11309528119100651
+        ],
+        "macro": 0.07998639664446025
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.07175925925925924,
+          0.054976851851851846,
+          0.11516203703703703
+        ],
+        "macro": 0.08063271604938271
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.06944444444444443,
+          0.06307870370370369,
+          0.10879629629629628
+        ],
+        "macro": 0.08043981481481481
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.07206336516344194,
+          0.0548005435789323,
+          0.11309528119100651
+        ],
+        "macro": 0.07998639664446025
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.06965242424900667,
+          0.06509095053085717,
+          0.10896630557087598
+        ],
+        "macro": 0.08123656011691327
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          -0.0023148148148148147,
+          0.008101851851851851,
+          -0.00636574074074074
+        ],
+        "macro": -0.00019290123456790122
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          -0.0023148148148148147,
+          0.008101851851851851,
+          -0.00636574074074074
+        ],
+        "macro": -0.00019290123456790122
+      }
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.0623070987654321,
+          0.0642361111111111,
+          0.12654320987654316
+        ],
+        "macro": 0.08436213991769546
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.0623070987654321,
+          0.0642361111111111,
+          0.12654320987654316
+        ],
+        "macro": 0.08436213991769546
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.060402662193693855,
+          0.060510488516578205,
+          0.12091315071027203
+        ],
+        "macro": 0.08060876714018136
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.060402662193693855,
+          0.060510488516578205,
+          0.12091315071027203
+        ],
+        "macro": 0.08060876714018136
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.0623070987654321,
+          0.0642361111111111,
+          0.12654320987654316
+        ],
+        "macro": 0.08436213991769546
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.0623070987654321,
+          0.0642361111111111,
+          0.12654320987654316
+        ],
+        "macro": 0.08436213991769546
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.060402662193693855,
+          0.060510488516578205,
+          0.12091315071027203
+        ],
+        "macro": 0.08060876714018136
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.060402662193693855,
+          0.060510488516578205,
+          0.12091315071027203
+        ],
+        "macro": 0.08060876714018136
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.05439814814814815,
+          0.06249999999999999,
+          0.11689814814814814
+        ],
+        "macro": 0.0779320987654321
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.05439814814814815,
+          0.06249999999999999,
+          0.11689814814814814
+        ],
+        "macro": 0.0779320987654321
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.056694751872109456,
+          0.05826061952622844,
+          0.11495537139833789
+        ],
+        "macro": 0.07663691426555859
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.056694751872109456,
+          0.05826061952622844,
+          0.11495537139833789
+        ],
+        "macro": 0.07663691426555859
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.05439814814814815,
+          0.06249999999999999,
+          0.11689814814814814
+        ],
+        "macro": 0.0779320987654321
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.05439814814814815,
+          0.06249999999999999,
+          0.11689814814814814
+        ],
+        "macro": 0.0779320987654321
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.056694751872109456,
+          0.05826061952622844,
+          0.11495537139833789
+        ],
+        "macro": 0.07663691426555859
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.056694751872109456,
+          0.05826061952622844,
+          0.11495537139833789
+        ],
+        "macro": 0.07663691426555859
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.13483796296296297,
+          0.13078703703703703,
+          0.30941358024691346
+        ],
+        "macro": 0.19167952674897115
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.09047067901234568,
+          0.10146604938271606,
+          0.0
+        ],
+        "macro": 0.06397890946502058
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.13610298103849972,
+          0.1298446625683724,
+          0.3065871780080343
+        ],
+        "macro": 0.19084494053830214
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.09064841447044976,
+          0.10063559135374453,
+          0.00018980299745305942
+        ],
+        "macro": 0.06382460294054912
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.09047067901234568,
+          0.10146604938271606,
+          0.0
+        ],
+        "macro": 0.06397890946502058
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.13483796296296297,
+          0.13078703703703703,
+          0.30941358024691346
+        ],
+        "macro": 0.19167952674897115
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.09064841447044976,
+          0.10063559135374453,
+          0.00018980299745305942
+        ],
+        "macro": 0.06382460294054912
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.13610298103849972,
+          0.1298446625683724,
+          0.3065871780080343
+        ],
+        "macro": 0.19084494053830214
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.04436728395061728,
+          0.029320987654320986,
+          0.30941358024691346
+        ],
+        "macro": 0.12770061728395057
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.04436728395061728,
+          0.029320987654320986,
+          0.30941358024691346
+        ],
+        "macro": 0.12770061728395057
+      }
+    },
+    {
+      "seed": 49102,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.09374999999999997,
+          0.08506944444444443,
+          0.185570987654321
+        ],
+        "macro": 0.12146347736625514
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.08680555555555554,
+          0.08854166666666664,
+          0.0
+        ],
+        "macro": 0.05844907407407406
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.09463352780176656,
+          0.08480753008371128,
+          0.18679684118119985
+        ],
+        "macro": 0.12207929968889257
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.08562883780153407,
+          0.08949474429818836,
+          0.00015537923939804162
+        ],
+        "macro": 0.0584263204463735
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.08680555555555554,
+          0.08854166666666664,
+          0.0
+        ],
+        "macro": 0.05844907407407406
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.09374999999999997,
+          0.08506944444444443,
+          0.185570987654321
+        ],
+        "macro": 0.12146347736625514
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.08562883780153407,
+          0.08949474429818836,
+          0.00015537923939804162
+        ],
+        "macro": 0.0584263204463735
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.09463352780176656,
+          0.08480753008371128,
+          0.18679684118119985
+        ],
+        "macro": 0.12207929968889257
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.006944444444444444,
+          -0.003472222222222222,
+          0.185570987654321
+        ],
+        "macro": 0.06301440329218107
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.006944444444444444,
+          -0.003472222222222222,
+          0.185570987654321
+        ],
+        "macro": 0.06301440329218107
+      }
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.061921296296296294,
+          0.06307870370370369,
+          0.12499999999999994
+        ],
+        "macro": 0.08333333333333331
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.061921296296296294,
+          0.06307870370370369,
+          0.12499999999999994
+        ],
+        "macro": 0.08333333333333331
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.05584857657214964,
+          0.05578184993613488,
+          0.11163042650828447
+        ],
+        "macro": 0.07442028433885634
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.05584857657214964,
+          0.05578184993613488,
+          0.11163042650828447
+        ],
+        "macro": 0.07442028433885634
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.061921296296296294,
+          0.06307870370370369,
+          0.12499999999999994
+        ],
+        "macro": 0.08333333333333331
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.061921296296296294,
+          0.06307870370370369,
+          0.12499999999999994
+        ],
+        "macro": 0.08333333333333331
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.05584857657214964,
+          0.05578184993613488,
+          0.11163042650828447
+        ],
+        "macro": 0.07442028433885634
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.05584857657214964,
+          0.05578184993613488,
+          0.11163042650828447
+        ],
+        "macro": 0.07442028433885634
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.039351851851851846,
+          0.03993055555555555,
+          0.07928240740740741
+        ],
+        "macro": 0.052854938271604944
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.039351851851851846,
+          0.03993055555555555,
+          0.07928240740740741
+        ],
+        "macro": 0.052854938271604944
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.041430334645604056,
+          0.04177544252214391,
+          0.08320577716774796
+        ],
+        "macro": 0.05547051811183198
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.041430334645604056,
+          0.04177544252214391,
+          0.08320577716774796
+        ],
+        "macro": 0.05547051811183198
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.039351851851851846,
+          0.03993055555555555,
+          0.07928240740740741
+        ],
+        "macro": 0.052854938271604944
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.039351851851851846,
+          0.03993055555555555,
+          0.07928240740740741
+        ],
+        "macro": 0.052854938271604944
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.041430334645604056,
+          0.04177544252214391,
+          0.08320577716774796
+        ],
+        "macro": 0.05547051811183198
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.041430334645604056,
+          0.04177544252214391,
+          0.08320577716774796
+        ],
+        "macro": 0.05547051811183198
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.13040123456790123,
+          0.12172067901234568,
+          0.28491512345679004
+        ],
+        "macro": 0.17901234567901234
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.10050154320987653,
+          0.0954861111111111,
+          0.020833333333333325
+        ],
+        "macro": 0.07227366255144031
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.12881493659536883,
+          0.1205510383711928,
+          0.281863276826973
+        ],
+        "macro": 0.17707641726451154
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.0990278873099566,
+          0.09460897952252897,
+          0.021041644776416964
+        ],
+        "macro": 0.07155950386963418
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.10050154320987653,
+          0.0954861111111111,
+          0.020833333333333325
+        ],
+        "macro": 0.07227366255144031
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.13040123456790123,
+          0.12172067901234568,
+          0.28491512345679004
+        ],
+        "macro": 0.17901234567901234
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.0990278873099566,
+          0.09460897952252897,
+          0.021041644776416964
+        ],
+        "macro": 0.07155950386963418
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.12881493659536883,
+          0.1205510383711928,
+          0.281863276826973
+        ],
+        "macro": 0.17707641726451154
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.029899691358024692,
+          0.026234567901234566,
+          0.2640817901234567
+        ],
+        "macro": 0.10673868312757197
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.029899691358024692,
+          0.026234567901234566,
+          0.2640817901234567
+        ],
+        "macro": 0.10673868312757197
+      }
+    },
+    {
+      "seed": 49103,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.08738425925925924,
+          0.08854166666666664,
+          0.1892361111111111
+        ],
+        "macro": 0.12172067901234566
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.07870370370370369,
+          0.07812499999999999,
+          0.020833333333333332
+        ],
+        "macro": 0.05922067901234567
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.08850502669836562,
+          0.08864746632511006,
+          0.19062383336743421
+        ],
+        "macro": 0.12259210879696997
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.0799210818041872,
+          0.07916799002326586,
+          0.020999196442976042
+        ],
+        "macro": 0.0600294227568097
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.07870370370370369,
+          0.07812499999999999,
+          0.020833333333333332
+        ],
+        "macro": 0.05922067901234567
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.08738425925925924,
+          0.08854166666666664,
+          0.1892361111111111
+        ],
+        "macro": 0.12172067901234566
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.0799210818041872,
+          0.07916799002326586,
+          0.020999196442976042
+        ],
+        "macro": 0.0600294227568097
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.08850502669836562,
+          0.08864746632511006,
+          0.19062383336743421
+        ],
+        "macro": 0.12259210879696997
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.008680555555555556,
+          0.010416666666666666,
+          0.1684027777777778
+        ],
+        "macro": 0.0625
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.008680555555555556,
+          0.010416666666666666,
+          0.1684027777777778
+        ],
+        "macro": 0.0625
+      }
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.05652006172839506,
+          0.06288580246913579,
+          0.1194058641975308
+        ],
+        "macro": 0.07960390946502055
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.05652006172839506,
+          0.06288580246913579,
+          0.1194058641975308
+        ],
+        "macro": 0.07960390946502055
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.0591355578034712,
+          0.059733201794366135,
+          0.1188687595978373
+        ],
+        "macro": 0.07924583973189155
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.0591355578034712,
+          0.059733201794366135,
+          0.1188687595978373
+        ],
+        "macro": 0.07924583973189155
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.05652006172839506,
+          0.06288580246913579,
+          0.1194058641975308
+        ],
+        "macro": 0.07960390946502055
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.05652006172839506,
+          0.06288580246913579,
+          0.1194058641975308
+        ],
+        "macro": 0.07960390946502055
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.0591355578034712,
+          0.059733201794366135,
+          0.1188687595978373
+        ],
+        "macro": 0.07924583973189155
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.0591355578034712,
+          0.059733201794366135,
+          0.1188687595978373
+        ],
+        "macro": 0.07924583973189155
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_silent",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.05555555555555555,
+          0.057291666666666664,
+          0.11284722222222221
+        ],
+        "macro": 0.07523148148148147
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.05555555555555555,
+          0.057291666666666664,
+          0.11284722222222221
+        ],
+        "macro": 0.07523148148148147
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.05632210501564056,
+          0.05743510999161716,
+          0.11375721500725774
+        ],
+        "macro": 0.07583814333817182
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.05632210501564056,
+          0.05743510999161716,
+          0.11375721500725774
+        ],
+        "macro": 0.07583814333817182
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.05555555555555555,
+          0.057291666666666664,
+          0.11284722222222221
+        ],
+        "macro": 0.07523148148148147
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.05555555555555555,
+          0.057291666666666664,
+          0.11284722222222221
+        ],
+        "macro": 0.07523148148148147
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.05632210501564056,
+          0.05743510999161716,
+          0.11375721500725774
+        ],
+        "macro": 0.07583814333817182
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.05632210501564056,
+          0.05743510999161716,
+          0.11375721500725774
+        ],
+        "macro": 0.07583814333817182
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "macro": 0.0
+      }
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "train",
+      "same_current_apt": {
+        "by_axis": [
+          0.16994598765432098,
+          0.1720679012345679,
+          0.32992541152263355
+        ],
+        "macro": 0.2239797668038408
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.08680555555555555,
+          0.09143518518518517,
+          0.0
+        ],
+        "macro": 0.059413580246913573
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.16945989961173163,
+          0.1693511481236502,
+          0.3285578243996527
+        ],
+        "macro": 0.2224562907116782
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.08483761705866237,
+          0.09065628648354575,
+          3.703657582210845e-05
+        ],
+        "macro": 0.05851031337267674
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.08680555555555555,
+          0.09143518518518517,
+          0.0
+        ],
+        "macro": 0.059413580246913573
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.16994598765432098,
+          0.1720679012345679,
+          0.32992541152263355
+        ],
+        "macro": 0.2239797668038408
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.08483761705866237,
+          0.09065628648354575,
+          3.703657582210845e-05
+        ],
+        "macro": 0.05851031337267674
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.16945989961173163,
+          0.1693511481236502,
+          0.3285578243996527
+        ],
+        "macro": 0.2224562907116782
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.08314043209876543,
+          0.08063271604938271,
+          0.32992541152263355
+        ],
+        "macro": 0.16456618655692723
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.08314043209876543,
+          0.08063271604938271,
+          0.32992541152263355
+        ],
+        "macro": 0.16456618655692723
+      }
+    },
+    {
+      "seed": 49104,
+      "condition": "PI_live",
+      "partition": "heldout_layouts",
+      "same_current_apt": {
+        "by_axis": [
+          0.15798611111111102,
+          0.14525462962962954,
+          0.2798996913580246
+        ],
+        "macro": 0.19438014403292173
+      },
+      "same_target_apt": {
+        "by_axis": [
+          0.07812499999999999,
+          0.09027777777777775,
+          0.0
+        ],
+        "macro": 0.056134259259259245
+      },
+      "same_current_mass": {
+        "by_axis": [
+          0.15585448601620477,
+          0.14360876907049247,
+          0.27877017725608755
+        ],
+        "macro": 0.19274447744759493
+      },
+      "same_target_mass": {
+        "by_axis": [
+          0.0782453831274755,
+          0.08853872813118494,
+          5.59621400370043e-05
+        ],
+        "macro": 0.05561335779956581
+      },
+      "opposite_current_apt": {
+        "by_axis": [
+          0.07812499999999999,
+          0.09027777777777775,
+          0.0
+        ],
+        "macro": 0.056134259259259245
+      },
+      "opposite_target_apt": {
+        "by_axis": [
+          0.15798611111111102,
+          0.14525462962962954,
+          0.2798996913580246
+        ],
+        "macro": 0.19438014403292173
+      },
+      "opposite_current_mass": {
+        "by_axis": [
+          0.0782453831274755,
+          0.08853872813118494,
+          5.59621400370043e-05
+        ],
+        "macro": 0.05561335779956581
+      },
+      "opposite_target_mass": {
+        "by_axis": [
+          0.15585448601620477,
+          0.14360876907049247,
+          0.27877017725608755
+        ],
+        "macro": 0.19274447744759493
+      },
+      "contrast_target_apt": {
+        "by_axis": [
+          0.0798611111111111,
+          0.054976851851851846,
+          0.2798996913580246
+        ],
+        "macro": 0.13824588477366254
+      },
+      "equivalent_same_current_minus_target": {
+        "by_axis": [
+          0.0798611111111111,
+          0.054976851851851846,
+          0.2798996913580246
+        ],
+        "macro": 0.13824588477366254
+      }
+    }
+  ],
+  "PI_live_heldout_equal_seed_means": {
+    "same_current_apt": 0.12950102880658435,
+    "same_target_apt": 0.06360918209876543,
+    "same_current_mass": 0.1296631115125927,
+    "same_target_mass": 0.06351387441180231,
+    "opposite_current_apt": 0.06360918209876543,
+    "opposite_target_apt": 0.12950102880658435,
+    "opposite_current_mass": 0.06351387441180231,
+    "opposite_target_mass": 0.1296631115125927,
+    "contrast_target_apt": 0.06589184670781892,
+    "equivalent_same_current_minus_target": 0.06589184670781892
+  },
+  "model_parameter_loads": 0,
+  "network_forward_calls": 0,
+  "optimizer_updates": 0,
+  "input_reconstruction": "Independent PI encoding + saved generated messages + saved outbound donor overrides, bound to complete producer batch hashes.",
+  "limits": [
+    "No new generation or natural-remote-donor reproduction claim.",
+    "Equality concerns the two non-senders. Sender action and recipient native R need not exchange.",
+    "The check establishes algebraic redundancy of both-window marginal statistics, not compositionality."
+  ]
+}

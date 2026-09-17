@@ -1,0 +1,173 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-17T01:48:54.379898+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "proposal_count": 16,
+    "intent_count": 2,
+    "actions_per_actor": 17,
+    "action_logits": 18,
+    "evaluation_batch_size": 8192,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704,
+      66705,
+      66706,
+      66707,
+      66708
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "generations": [
+      2,
+      3
+    ],
+    "replacement_roles": {
+      "generation2": "A",
+      "generation3": "B"
+    },
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "generation2_replace_A_static_PL_live",
+      "generation2_replace_A_static_PL_silent",
+      "generation2_replace_A_rematched_PL_live",
+      "generation2_replace_A_rematched_PL_silent",
+      "generation3_replace_B_static_PL_live",
+      "generation3_replace_B_static_PL_silent",
+      "generation3_replace_B_rematched_PL_live",
+      "generation3_replace_B_rematched_PL_silent"
+    ],
+    "task": "two_generation_frozen_partner_protocol_chain",
+    "observation": "PL_own_need_and_public_layout_only",
+    "source_policy": "audited factorized neutral/engage local NumPy tanh MLP",
+    "adaptation": "only the replaced agent's three modules are updated; other agents are frozen",
+    "optimizer": "Adam; exact zero gradients for frozen modules",
+    "pairing": "same parent endpoint, fresh learner initialization, worlds, batches, packet uniforms and rematching assignments within each generation/schedule",
+    "evaluation": "same two-layout monitor and six-layout heldout final evaluation as transmission reference",
+    "no_model_calls": true,
+    "no_external_model": true,
+    "no_llm": true,
+    "no_vision_model": true
+  },
+  "source_code_sha256": {
+    "research_program/triadic_protocol_chain_study/__init__.py": "1f5477f4eeb167202ef83eebb4e3f2578976ab0ffbc04a027c106373b16d86c4",
+    "research_program/triadic_protocol_chain_study/design.py": "664d3e87d14409d2b7688f19268cfe0758bcbdd2a1c4ffb6a7c14584bfdabeaf",
+    "research_program/triadic_protocol_chain_study/runner.py": "69f61275883024e9ff83fc5a94b16a45be8ad875aef45435bae39805fbec8951",
+    "research_program/triadic_protocol_chain_study/plan.md": "4b97a99ae5fe1d51af7fa7d0c3e4cd65c9067ed83fd09bf41012ca36946e51ec",
+    "research_program/triadic_protocol_chain_study/README.md": "e23803f379fd8e561a5640030a37d3fa10ad4ca251dc7e643c96c8ef882e19bb",
+    "research_program/triadic_protocol_chain_study/tests/test_design.py": "aa26a7d457b456315a27755a62eb9662a7c0a9c884dd77952c3bbf4cac50681b",
+    "research_program/triadic_protocol_chain_study/tests/test_runner.py": "d4e957341cff67d2086ad7bc1faa7040824f9b9c326d98cd496677d079902ccb",
+    "research_program/triadic_new_receiver_transmission_study/__init__.py": "38d3d31554437dd626e3ac9d299e0a28c045121bf9319000354bfaeb86f855a6",
+    "research_program/triadic_new_receiver_transmission_study/design.py": "860dff61790b85a3255a6a17ec34eb7fe6e92c85a9c9995f46c0f4c3d7525b4a",
+    "research_program/triadic_new_receiver_transmission_study/runner.py": "561b37e781155a65c7e4f526084000576965c524d17e64a471843e9680e2b049",
+    "research_program/triadic_new_receiver_transmission_study/plan.md": "43c309a1aab2d7c4d36696110d6f9407dbc9d719b231219c6c32f67591285a2f",
+    "research_program/triadic_new_receiver_transmission_study/README.md": "0c138ef7b6dab7f54fdd3e35409932bf43a791f1fa37ee535bfd5e1cb5eaa8ef",
+    "research_program/triadic_new_receiver_transmission_study/tests/test_design.py": "7b040e7749468f3fabc08824018c2d1bda3aaf7c6fbb603b6d6b1fb53ede885a",
+    "research_program/triadic_new_receiver_transmission_study/tests/test_runner.py": "c46139872642f12efec30044e6c2e2148c1eba85ba973c61e995182adecab598",
+    "research_program/triadic_factorized_neutral_altpartner_study/design.py": "9b4284dc2cd2bdd95e65e6ee7787d583e23e55293c46d78e1bf728e41fd2dd16",
+    "research_program/triadic_factorized_neutral_altpartner_study/kernel.py": "7ae7498b46b311277587f0dcc935d0b0e7a6abfb9a83b61fc0e51205e439e9a5",
+    "research_program/triadic_factorized_neutral_altpartner_study/remap.py": "6551b0e72149c31a9a485a4d49b5d67ddbbf05ac45298e8803612633a866e2b6",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "source_artifacts_sha256": {
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/plan.json": "a217533e784dd7e18fbcdefc062b791295a12f6877da78aaf4662a272a55730b",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/prepared.json": "3bd42ea7d734aebeb49711a410d45c0040235e022c8744123e9989eb98781d1e",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/freeze.json": "d0d910c88f98aa77b90ed9a492599f3ea41202ac1799a5b2b81f56e97c16ec79",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/results.json": "e3af7012f2b38006be46b2796e0368a1c8b6103ea5174208641b88237c6cfef2",
+    "research_program/triadic_new_receiver_transmission_study/results/audit_transmission_002/verification.json": "301c019a7a8770c71f4d8c5c3ec48da2caba06ec49a983cc118211ab9673ce45",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66701_static_new_receiver_PL_live/result.json": "af42af49695531dc79486d62afd9c31aa8c80b77f56223a447efba8ac15b34e9",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66701_static_new_receiver_PL_live/checkpoint_6000.npz": "ccadedc035c0e291ed46ea7574b6cc76c0516d7d8712430a69325a72d467c10c",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66701_rematched_new_receiver_PL_live/result.json": "7261e82dfeaebef33a23fc0ef508c114a5fc9a6876da56031bc4b9f1773654cd",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66701_rematched_new_receiver_PL_live/checkpoint_6000.npz": "091edaa7ff2a4b96f714db8e48ac9cd98309a93e69c951300b11cbd2c1f62c47",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66702_static_new_receiver_PL_live/result.json": "c6f5c7e8c550d95f0e3e3fb7c460be2fd6acbe4be3ae81f76de9099e4ea8cab7",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66702_static_new_receiver_PL_live/checkpoint_6000.npz": "b9869b8f75234edf6cb47a45978686c9d239eb3455cb0be583cb03325527fa68",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66702_rematched_new_receiver_PL_live/result.json": "783c3b24fdb3548d79103b8e1f81263dd1b19cbb1d53fb23f17e2338c68b57a2",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66702_rematched_new_receiver_PL_live/checkpoint_6000.npz": "25f19234f9c5547a27eb8e8bb182e03b43a2cc4ee5ba1295d441669c97ab9d87",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66703_static_new_receiver_PL_live/result.json": "85672a200684e7d07d816492613d3b81995f7a0e8cdc9395841846efbc317b71",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66703_static_new_receiver_PL_live/checkpoint_6000.npz": "bc75bd555db7957936a1dd70063a65a2e6da185d5b7888584405684cdfdf0d1a",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66703_rematched_new_receiver_PL_live/result.json": "65a1841ad0f978d67b5d6a9059acce50a7a8e2cbe839982abb2439eb1528f59c",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66703_rematched_new_receiver_PL_live/checkpoint_6000.npz": "c1e2451e79e753c2594d2c3574c75b60a8bd00665a5bb6a700526ad193f11f2b",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66704_static_new_receiver_PL_live/result.json": "a0d5c8b2a44cd8a5c97ff1247a1fc4484cafd05b57220e374caf9c702bad650b",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66704_static_new_receiver_PL_live/checkpoint_6000.npz": "d3119deaa823dff7814a598fc064b9a75bcc438ac6f47d00801c2212cbb1e6e2",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66704_rematched_new_receiver_PL_live/result.json": "be22713baf46bfc7cfbcdad4500175e413ea6bff24b5f7b532f5ee312d9742da",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66704_rematched_new_receiver_PL_live/checkpoint_6000.npz": "b26b25737ca0c51819d60ec3ac5e62052d800f4099a93b4eebb43d920cd9b7ce",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66705_static_new_receiver_PL_live/result.json": "700621ab85b5cba554c49d85f41187a9714eb246db5618bf7ca5175719a762e8",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66705_static_new_receiver_PL_live/checkpoint_6000.npz": "8c2f424c753a0a60f9e14d8ddc4934feaca1d85d9724c0cb05753c027b4135e0",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66705_rematched_new_receiver_PL_live/result.json": "d48addf55de8ed4c083470281a4e75e291d8f07893e1a5a0674422f092b7dfbb",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66705_rematched_new_receiver_PL_live/checkpoint_6000.npz": "2f6c4b7292e8d3db1c171957c72ae2b327c840ddb8a5602c95a29f3becfef93e",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66706_static_new_receiver_PL_live/result.json": "2ea6fc7d4e7d2c8e6532c1692547d8d7b4819e9d81953f92f7cc00a8b964c8c8",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66706_static_new_receiver_PL_live/checkpoint_6000.npz": "30eeaec931c96c5e2c849e108169e6b79ffc9f599c74c2ea2a77936846aa85a4",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66706_rematched_new_receiver_PL_live/result.json": "94f15dd134f7ae3f7ee37f0a423a3eb5f4e136e906282532efac24e5d9240a19",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66706_rematched_new_receiver_PL_live/checkpoint_6000.npz": "dc82375dc05d1fd820d560e78738bb2d0df9ae04534107d54e8c4652e09df608",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66707_static_new_receiver_PL_live/result.json": "dd00a26b0df704c6221c997a1d0a201a54b5685db67c637f9abac5723f886653",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66707_static_new_receiver_PL_live/checkpoint_6000.npz": "05bd5d625531795acb0d80ac594f7a4301d6cfcfef00cb5bf53708b1f6bb1b2f",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66707_rematched_new_receiver_PL_live/result.json": "94752aebba9c44a206033cbf1cf0f4df4f18717693dcdb2bcfa6e1654075644c",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66707_rematched_new_receiver_PL_live/checkpoint_6000.npz": "8dca15a4a102c1242eed54692d30f60020cf62b614a9b0a7925fd00b4074bf57",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66708_static_new_receiver_PL_live/result.json": "2de3eccd30d8c0c222ca4b5bfc93f66bbe8dfe477b0f789cd040fc27d51e4ad7",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66708_static_new_receiver_PL_live/checkpoint_6000.npz": "60b586cd1b36801d53c967ed5e28434ec99234b8d0bfffb854219f959ba62c14",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66708_rematched_new_receiver_PL_live/result.json": "6ee080fcd08276abdbf4f60feae7a09bef1d316674550f019a663dda902707dd",
+    "research_program/triadic_new_receiver_transmission_study/results/transmission_002/execution/seed_66708_rematched_new_receiver_PL_live/checkpoint_6000.npz": "79c8689557676a6cfdf8303064bb4a8070537c17ab9773f0dc4068ebb438f0fb"
+  },
+  "full_reference_prepared_sha256": "3bd42ea7d734aebeb49711a410d45c0040235e022c8744123e9989eb98781d1e",
+  "full_reference_result_sha256": "e3af7012f2b38006be46b2796e0368a1c8b6103ea5174208641b88237c6cfef2",
+  "full_reference_audit_sha256": "301c019a7a8770c71f4d8c5c3ec48da2caba06ec49a983cc118211ab9673ce45",
+  "prepared_sha256": "b7220a60e210e986b9abbc476b05cf5336296d7387c46c10719a167b8109dd58",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true,
+  "scientific_question": "Does a short learner-replacement chain retain a task protocol, and does packet routing change adaptation and intergenerational retention?"
+}

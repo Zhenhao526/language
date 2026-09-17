@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "results_sha256": "5072b4d51682ca76988cfd079c89113ffb52bfe62e9e96c3cc4d71a9f127333d",
+  "runs": 96,
+  "recovered_from": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_study/results/role_crossover_001/execution",
+  "optimizer_updates": 576000
+}

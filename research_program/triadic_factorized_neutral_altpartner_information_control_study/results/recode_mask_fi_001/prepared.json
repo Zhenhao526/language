@@ -1,0 +1,25 @@
+{
+  "endpoint_worlds": 56160,
+  "manifest_sha256": "e0b8d6bc76adade526097e901c75d9c6aee5b4a3beba2bee0fa50c5f68a4fb8f",
+  "no_model_calls": true,
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "policy_grid": "16 seeds × 2 schedules × 2 trained channels × 3 selected senders × 10 transforms",
+  "schema": "triadic_fi_recode_mask_probe_v1",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001",
+  "source_execution_status_sha256": "29f86559fd28586bfb766b13602758cc89a7965e9d00dffca1e8d78fc650b2bb",
+  "source_freeze_sha256": "9eb6719fbc0379f8faa2c2d5edd1bd2e168d8d68648a6e9525d4fef872c8066c",
+  "source_prepared_sha256": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077",
+  "transforms": [
+    "perm_00",
+    "perm_01",
+    "perm_02",
+    "perm_03",
+    "perm_04",
+    "perm_05",
+    "position_rotation",
+    "position_reverse",
+    "cross_payload_zero",
+    "cross_visibility_zero"
+  ]
+}

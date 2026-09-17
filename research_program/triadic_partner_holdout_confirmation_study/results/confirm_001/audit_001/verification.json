@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_holdout_confirmation_study/results/confirm_001",
+  "runs": 128,
+  "checkpoint_evaluations": 768,
+  "compact_worlds": 148635648,
+  "model_forwards": 1337720832,
+  "optimizer_updates": 0,
+  "no_optimizer_updates": true,
+  "trajectory_replayed": true,
+  "pairing_verified": true,
+  "max_abs_error": 0.0,
+  "heldout_pair_rotation": true
+}

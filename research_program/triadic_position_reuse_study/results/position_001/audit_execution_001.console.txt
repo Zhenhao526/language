@@ -1,0 +1,17 @@
+{"audit_stage": "policy_complete", "seed": 51101, "condition": "PL_silent", "independent_worlds": 0, "independent_modules": 0}
+{"audit_stage": "policy_complete", "seed": 51101, "condition": "PL_live", "independent_worlds": 5184, "independent_modules": 23328}
+{"audit_stage": "policy_complete", "seed": 51101, "condition": "LL_silent", "independent_worlds": 5184, "independent_modules": 23328}
+{"audit_stage": "policy_complete", "seed": 51101, "condition": "LL_live", "independent_worlds": 10368, "independent_modules": 46656}
+{"audit_stage": "policy_complete", "seed": 51102, "condition": "PL_silent", "independent_worlds": 10368, "independent_modules": 46656}
+{"audit_stage": "policy_complete", "seed": 51102, "condition": "PL_live", "independent_worlds": 15552, "independent_modules": 69984}
+{"audit_stage": "policy_complete", "seed": 51102, "condition": "LL_silent", "independent_worlds": 15552, "independent_modules": 69984}
+{"audit_stage": "policy_complete", "seed": 51102, "condition": "LL_live", "independent_worlds": 20736, "independent_modules": 93312}
+{"audit_stage": "policy_complete", "seed": 51103, "condition": "PL_silent", "independent_worlds": 20736, "independent_modules": 93312}
+{"audit_stage": "policy_complete", "seed": 51103, "condition": "PL_live", "independent_worlds": 25920, "independent_modules": 116640}
+{"audit_stage": "policy_complete", "seed": 51103, "condition": "LL_silent", "independent_worlds": 25920, "independent_modules": 116640}
+{"audit_stage": "policy_complete", "seed": 51103, "condition": "LL_live", "independent_worlds": 31104, "independent_modules": 139968}
+{"audit_stage": "policy_complete", "seed": 51104, "condition": "PL_silent", "independent_worlds": 31104, "independent_modules": 139968}
+{"audit_stage": "policy_complete", "seed": 51104, "condition": "PL_live", "independent_worlds": 36288, "independent_modules": 163296}
+{"audit_stage": "policy_complete", "seed": 51104, "condition": "LL_silent", "independent_worlds": 36288, "independent_modules": 163296}
+{"audit_stage": "policy_complete", "seed": 51104, "condition": "LL_live", "independent_worlds": 41472, "independent_modules": 186624}
+{"status": "passed", "scope": {"actual_cells": 288, "silent_alias_records": 288, "materialized_reference_npz": 96, "reference_rows": 13824, "independent_forward_worlds": 41472, "independent_module_samples": 186624, "parameter_loads": 8, "full_train_natural_domains_read": 16, "full_train_worlds_per_domain": 419904, "validation_rows": 144, "new_natural_forwards": 0, "training_updates": 0, "optimizer_replays": 0}, "max_probability_error": 0.0, "summary_comparison": {"scalars": 369393, "max_error": 2.220446049250313e-16}}

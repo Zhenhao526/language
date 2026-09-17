@@ -1,0 +1,495 @@
+[
+  {
+    "url": "https://eprints.gla.ac.uk/281184/",
+    "meta": {},
+    "links": [
+      "https://eprints.gla.ac.uk/281184/1/281184.pdf",
+      "https://eprints.gla.ac.uk/281184/1/281184.pdf"
+    ]
+  },
+  {
+    "url": "https://knowledge.uchicago.edu/records/n7btq-6n569",
+    "meta": {
+      "citation_title": [
+        "Linguistic Hybridization in the Emergence of Creoles"
+      ],
+      "citation_author": [
+        "Mufwene, Salikoko S."
+      ],
+      "citation_doi": [
+        "10.6082/n7btq-6n569"
+      ],
+      "citation_keywords": [
+        "hybridity",
+        "hybridization",
+        "population structure",
+        "language contact",
+        "feature pool",
+        "competition",
+        "selection",
+        "feature recombination",
+        "ecology"
+      ],
+      "citation_abstract_html_url": [
+        "https://knowledge.uchicago.edu/records/n7btq-6n569"
+      ],
+      "citation_pdf_url": [
+        "https://knowledge.uchicago.edu/records/n7btq-6n569/files/Linguistic-Hybridization-in-the-Emergence-of-Creoles.pdf"
+      ]
+    },
+    "links": [
+      "https://knowledge.uchicago.edu/records/n7btq-6n569/files/Linguistic-Hybridization-in-the-Emergence-of-Creoles.pdf?download=1",
+      "https://knowledge.uchicago.edu/records/n7btq-6n569/preview/Linguistic-Hybridization-in-the-Emergence-of-Creoles.pdf?include_deleted=0",
+      "https://knowledge.uchicago.edu/records/n7btq-6n569/files/Linguistic-Hybridization-in-the-Emergence-of-Creoles.pdf?download=1"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41467-024-55158-1",
+    "meta": {
+      "citation_pdf_url": [
+        "https://www.nature.com/articles/s41467-024-55158-1.pdf"
+      ],
+      "citation_fulltext_html_url": [
+        "https://www.nature.com/articles/s41467-024-55158-1"
+      ],
+      "citation_journal_title": [
+        "Nature Communications"
+      ],
+      "citation_journal_abbrev": [
+        "Nat Commun"
+      ],
+      "citation_publisher": [
+        "Nature Publishing Group"
+      ],
+      "citation_issn": [
+        "2041-1723"
+      ],
+      "citation_title": [
+        "Deep neural networks and humans both benefit from compositional language structure"
+      ],
+      "citation_volume": [
+        "15"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_online_date": [
+        "2024/12/30"
+      ],
+      "citation_firstpage": [
+        "10816"
+      ],
+      "citation_lastpage": [
+        ""
+      ],
+      "citation_article_type": [
+        "Article"
+      ],
+      "citation_fulltext_world_readable": [
+        ""
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_doi": [
+        "10.1038/s41467-024-55158-1"
+      ],
+      "citation_springer_api_url": [
+        "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41467-024-55158-1&api_key="
+      ],
+      "citation_reference": [
+        "Andreas, J. Measuring compositionality in representation learning. Proc. of ICLR (2019).",
+        "citation_journal_title=Nature; citation_title=Human-like systematic generalization through a meta-learning neural network; citation_author=BM Lake, M Baroni; citation_volume=623; citation_publication_date=2023; citation_pages=115-121; citation_doi=10.1038/s41586-023-06668-3; citation_id=CR2",
+        "Szabó, Z. G. Compositionality. In The Stanford Encyclopedia of Philosophy. (Stanford University, 2022).",
+        "Fodor, J.A. & Lepore, E. The Compositionality Papers. Vol. 212 (Oxford University Press, 2002).",
+        "citation_journal_title=J. Log. Lang. Inf.; citation_title=Frege, contextuality and compositionality; citation_author=TheoMV Janssen; citation_volume=10; citation_publication_date=2001; citation_pages=115-136; citation_doi=10.1023/A:1026542332224; citation_id=CR5",
+        "Dryer, M. S. & Haspelmath, M. The World Atlas of Language Structures Online. \n                  https://www.eva.mpg\n                  \n                 (2013).",
+        "citation_journal_title=Behav. Brain Sci.; citation_title=The myth of language universals: language diversity and its importance for cognitive science; citation_author=N Evans, SC Levinson; citation_volume=32; citation_publication_date=2009; citation_pages=429-448; citation_doi=10.1017/S0140525X0999094X; citation_id=CR7",
+        "citation_journal_title=Language; citation_title=Morphological organization: the low conditional entropy conjecture; citation_author=F Ackerman, R Malouf; citation_volume=89; citation_publication_date=2013; citation_pages=429-464; citation_doi=10.1353/lan.2013.0054; citation_id=CR8",
+        "Bentz, C. & Berdicevskis, A. Learning pressures reduce morphological complexity: Linking corpus, computational and experimental evidence. In Proc. Workshop on Computational Linguistics for Linguistic Complexity (CL4LC), 222–232 (Osaka, Japan, 2016).",
+        "citation_journal_title=Folia Linguistica; citation_title=Transparent and non-transparent languages; citation_author=K Hengeveld, S Leufkens; citation_volume=52; citation_publication_date=2018; citation_pages=139-175; citation_doi=10.1515/flin-2018-0003; citation_id=CR10",
+        "Lewis, M. & Frank, M. C. Linguistic Niches Emerge from Pressures at Multiple Timescales. \n                  https://langcog.stanford.edu\n                  \n                 (2016).",
+        "citation_journal_title=PLoS ONE; citation_title=Language structure is partly determined by social structure; citation_author=G Lupyan, R Dale; citation_volume=5; citation_publication_date=2010; citation_pages=e8559; citation_doi=10.1371/journal.pone.0008559; citation_id=CR12",
+        "citation_journal_title=Psychol. Rev.; citation_title=Language learning as language use: A cross-linguistic model of child language development; citation_author=SM McCauley, MH Christiansen; citation_volume=126; citation_publication_date=2019; citation_pages=1; citation_doi=10.1037/rev0000126; citation_id=CR13",
+        "Wu, S., Cotterell, R. & O’Donnell, T. Morphological irregularity correlates with frequency. In Proc. of ACL, 5117–5126 (Florence, Italy, 2019).",
+        "citation_journal_title=Artif. Life; citation_title=Understanding linguistic evolution by visualizing the emergence of topographic mappings; citation_author=H Brighton, S Kirby; citation_volume=12; citation_publication_date=2006; citation_pages=229-242; citation_doi=10.1162/artl.2006.12.2.229; citation_id=CR15",
+        "Akyurek, E. & Andreas, J. LexSym: Compositionality as lexical symmetry. In Proc. 61st Annual Meeting of the Association for Computational Linguistics (eds. Rogers, A., Graber, J. B. & Okazaki, N.) 639–657 (Toronto, Canada, 2023).",
+        "citation_journal_title=Nat. Mach. Intell.; citation_title=A taxonomy and review of generalization research in NLP; citation_author=D Hupkes; citation_volume=5; citation_publication_date=2023; citation_pages=1161-1174; citation_doi=10.1038/s42256-023-00729-y; citation_id=CR17",
+        "Xu, Z., Niethammer, M. & Raffel, C. A. Compositional generalization in unsupervised compositional representation learning: a study on disentanglement and emergent language. In Advances in Neural Information Processing Systems 35, 25074–25087 (2022).",
+        "citation_journal_title=J. Artif. Intell. Res.; citation_title=Compositionality decomposed: how do neural networks generalise?; citation_author=D Hupkes, V Dankers, M Mul, E Bruni; citation_volume=67; citation_publication_date=2020; citation_pages=757-795; citation_doi=10.1613/jair.1.11674; citation_id=CR19",
+        "Lake, B. M. & Baroni, M. Generalization without systematicity: on the compositional skills of sequence-to-sequence recurrent networks. In Proc. of ICML, 2879–2888 (PMLR, 2018).",
+        "Kim, N. & Linzen, T. COGS: A compositional generalization challenge based on semantic interpretation. In Proc. of EMNLP, 9087–9105 (2020).",
+        "citation_journal_title=Philos. Trans. R. Soc. B; citation_title=Linguistic generalization and compositionality in modern artificial neural networks; citation_author=M Baroni; citation_volume=375; citation_publication_date=2020; citation_pages=20190307; citation_doi=10.1098/rstb.2019.0307; citation_id=CR22",
+        "Resnick, C. Gupta, A., Foerster, J. N., Dai, A. M. & Cho, K. Capacity, bandwidth, and compositionality in emergent language learning. In AAMAS, 1125–1133 (2020).",
+        "Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S. & Dean, J. Distributed representations of words and phrases and their compositionality. In Advances in Neural Information Processing Systems 26, 3111–3119 (2013).",
+        "citation_journal_title=Lang. Learn.; citation_title=What makes learning second-language grammar difficult? a review of issues; citation_author=RM DeKeyser; citation_volume=55; citation_publication_date=2005; citation_pages=1-25; citation_doi=10.1111/j.0023-8333.2005.00294.x; citation_id=CR25",
+        "citation_journal_title=Lang. Learn.; citation_title=Second language learning of complex inflectional systems; citation_author=V Kempe, PJ Brooks; citation_volume=58; citation_publication_date=2008; citation_pages=703-746; citation_doi=10.1111/j.1467-9922.2008.00477.x; citation_id=CR26",
+        "citation_journal_title=Stud. second Lang. Acquis.; citation_title=The acquisition of case marking by adult learners of Russian and German; citation_author=V Kempe, B MacWhinney; citation_volume=20; citation_publication_date=1998; citation_pages=543-587; citation_doi=10.1017/S0272263198004045; citation_id=CR27",
+        "Raviv, L., de Heer Kloots, M. & Meyer, A. What makes a language easy to learn? a preregistered study on how systematic structure and community size affect language learnability. Cognition 210, 104620 (2021).",
+        "Kirby, S. & Tamariz, M. Cumulative cultural evolution, population structure, and the origin of combinatoriality in human language. Philosophical Transactions of the Royal Society B: Biological Sciences, ISSN 0962-8436 (2021).",
+        "citation_journal_title=Cognition; citation_title=Systematicity, but not compositionality: examining the emergence of linguistic structure in children and adults using iterated learning; citation_author=L Raviv, I Arnon; citation_volume=181; citation_publication_date=2018; citation_pages=160-173; citation_doi=10.1016/j.cognition.2018.08.011; citation_id=CR30",
+        "citation_journal_title=PLoS ONE; citation_title=Sequence memory constraints give rise to language-like structure through iterated learning; citation_author=H Cornish, R Dale, S Kirby, MH Christiansen; citation_volume=12; citation_publication_date=2017; citation_pages=e0168532; citation_doi=10.1371/journal.pone.0168532; citation_id=CR31",
+        "citation_journal_title=Proc. Natl Acad. Sci. USA; citation_title=Cumulative cultural evolution in the laboratory: an experimental approach to the origins of structure in human language; citation_author=S Kirby, H Cornish, K Smith; citation_volume=105; citation_publication_date=2008; citation_pages=10681-10686; citation_doi=10.1073/pnas.0707835105; citation_id=CR32",
+        "Kirby, S. Learning, Bottlenecks and the Evolution of Recursive Syntax. (Cambridge University Press, 2002).",
+        "citation_journal_title=Stud. Lang.; citation_title=From UG to universals: linguistic adaptation through iterated learning; citation_author=S Kirby, K Smith, H Brighton; citation_volume=28; citation_publication_date=2004; citation_pages=587-607; citation_doi=10.1075/sl.28.3.09kir; citation_id=CR34",
+        "Zuidema, W. H. How the poverty of the stimulus solves the poverty of the stimulus. In Advances in Neural Information Processing Systems 15, 43–50. (MIT Press, 2002).",
+        "citation_journal_title=Curr. Opin. Psychol.; citation_title=The cultural evolution of language; citation_author=M Tamariz, S Kirby; citation_volume=8; citation_publication_date=2016; citation_pages=37-43; citation_doi=10.1016/j.copsyc.2015.09.003; citation_id=CR36",
+        "citation_journal_title=Cognition; citation_title=Compression and communication in the cultural evolution of linguistic structure; citation_author=S Kirby, M Tamariz, H Cornish, K Smith; citation_volume=141; citation_publication_date=2015; citation_pages=87-102; citation_doi=10.1016/j.cognition.2015.03.016; citation_id=CR37",
+        "citation_journal_title=Cognition; citation_title=Evolving artificial sign languages in the lab: from improvised gesture to systematic sign; citation_author=Y Motamedi, M Schouwstra, K Smith, J Culbertson, S Kirby; citation_volume=192; citation_publication_date=2019; citation_pages=103964; citation_doi=10.1016/j.cognition.2019.05.001; citation_id=CR38",
+        "citation_journal_title=J. Lang. Evolution; citation_title=The emergence of systematic argument distinctions in artificial sign languages; citation_author=Y Motamedi, K Smith, M Schouwstra, J Culbertson, S Kirby; citation_volume=6; citation_publication_date=2021; citation_pages=77-98; citation_doi=10.1093/jole/lzab002; citation_id=CR39",
+        "citation_journal_title=Cognition; citation_title=Simplicity and informativeness in semantic category systems; citation_author=JW Carr, K Smith, J Culbertson, S Kirby; citation_volume=202; citation_publication_date=2020; citation_pages=104289; citation_doi=10.1016/j.cognition.2020.104289; citation_id=CR40",
+        "Tomasello, M. Constructing a language: A usage-based theory of language acquisition. Harvard university press, (2005).",
+        "Li, B. Z., Nye, M. & Andreas, J. Implicit representations of meaning in neural language models. In Proc. of ACL, 1813–1827 (2021).",
+        "Patel, R. & Pavlick, E. Mapping language models to grounded conceptual spaces. In Proc. of ICLR. (2022).",
+        "Li, K. et al. Emergent world representations: exploring a sequence model trained on a synthetic task. In Proc. of ICLR. (2023).",
+        "Abdou, M. et al. Can language models encode perceptual structure without grounding? a case study in color. In Proc. 25th Conference on Computational Natural Language Learning, 109–132 (2021).",
+        "Srikant, S., Lipkin, B., Ivanova, A. A., Fedorenko, E. & O’Reilly, U.-M. Convergent representations of computer programs in human and artificial neural networks. In Advances in Neural Information Processing Systems 35, (2022).",
+        "citation_journal_title=Proc. Natl Acad. Sci. USA; citation_title=The neural architecture of language: Integrative modeling converges on predictive processing; citation_author=M Schrimpf; citation_volume=118; citation_publication_date=2021; citation_pages=e2105646118; citation_doi=10.1073/pnas.2105646118; citation_id=CR47",
+        "Lampinen, A. K. et al. Language models, like humans, show content effects on reasoning tasks. PNAS Nexus 3, 233 (2024).",
+        "Brown, T. B. et al. Language models are few-shot learners. In Advances in Neural Information Processing Systems 33, 1877-1901 (2020).",
+        "Wei, J. et al. Emergent abilities of large language models. Transactions on Machine Learning Research \n                  https://doi.org/10.48550/arXiv.2206.07682\n                  \n                 (2022).",
+        "Bommasani, R. et al. On the opportunities and risks of foundation models. ArXiv \n                  https://doi.org/10.48550/arXiv.2108.07258\n                  \n                 (2021).",
+        "citation_journal_title=OpenAI blog; citation_title=Language models are unsupervised multitask learners; citation_author=A Radford; citation_volume=1; citation_publication_date=2019; citation_pages=9; citation_id=CR52",
+        "Rita, M. et al. Emergent communication: generalization and overfitting in lewis games. In Advances in Neural Information Processing Systems 35, (2022).",
+        "Chaabouni, R., Kharitonov, E., Bouchacourt, D., Dupoux, E. & Baroni, M. Compositionality and generalization in emergent languages. In Proc. of ACL, 4427–4442 (2020).",
+        "Kottur, S., Moura, J., Lee, S. & Batra, D. Natural language does not emerge ‘naturally’ in multi-agent dialog. In Proc. of EMNLP, 2962–2967 (Copenhagen, Denmark, 2017).",
+        "Li, F. & Bowling, M. Ease-of-teaching and language structure from emergent communication. In Advances in Neural Information Processing Systems 32, 15825–15835 (2019).",
+        "Conklin, H. & Smith, K. Compositionality with variation reliably emerges in neural networks. In The Eleventh International Conference on Learning Representations. (2023).",
+        "Galke, L., Ram, Y. & Raviv, L. Emergent communication for understanding human language evolution: what’s missing? In Emergent Communication Workshop at ICLR 2022 (2022).",
+        "Nakkiran, P. et al. Deep double descent: where bigger models and more data hurt. In Proc. of ICLR. (2020).",
+        "Kaplan, J. et al. Scaling laws for neural language models. ArXiv \n                  https://doi.org/10.48550/arXiv.2001.08361\n                  \n                 (2020).",
+        "citation_journal_title=Proc. Natl Acad. Sci. USA.; citation_title=Reconciling modern machine-learning practice and the classical bias–variance trade-off; citation_author=M Belkin, D Hsu, S Ma, S Mandal; citation_volume=116; citation_publication_date=2019; citation_pages=15849-15854; citation_doi=10.1073/pnas.1903070116; citation_id=CR61",
+        "Arora, S., Cohen, N. & Hazan, E. On the optimization of deep networks: Implicit acceleration by overparameterization. In Proc. 35th International Conference on Machine Learning, 244–253 (PMLR, 2018).",
+        "MacKay, D. J.C. Information Theory, Inference and Learning Algorithms. (Cambridge university press, 2003).",
+        "citation_journal_title=Math. Control. Signals Syst.; citation_title=Approximation by superpositions of a sigmoidal function; citation_author=G Cybenko; citation_volume=2; citation_publication_date=1989; citation_pages=303-314; citation_doi=10.1007/BF02551274; citation_id=CR64",
+        "Carlini, N. et al. Quantifying memorization across neural language models. Proc. of ICLR (2023).",
+        "Tirumala, K., Markosyan, A., Zettlemoyer, L. & Aghajanyan, A. Memorization without overfitting: analyzing the training dynamics of large language models. In Advances in Neural Information Processing Systems 35, 38274–38290 (2022).",
+        "citation_journal_title=WORD; citation_title=Distributional Structure; citation_author=ZS Harris; citation_volume=10; citation_publication_date=1954; citation_pages=146-162; citation_doi=10.1080/00437956.1954.11659520; citation_id=CR67",
+        "citation_journal_title=Proc. R. Soc. B; citation_title=Larger communities create more systematic languages; citation_author=L Raviv, A Meyer, S Lev-Ari; citation_volume=286; citation_publication_date=2019; citation_pages=20191262; citation_doi=10.1098/rspb.2019.1262; citation_id=CR68",
+        "Ouyang, L. et al. Training language models to follow instructions with human feedback. In Advances in Neural Information Processing Systems 35, 27730–27744 (2022).",
+        "Vinyals, O., Toshev, A., Bengio, S. & Erhan, D. Show and tell: a neural image caption generator. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015, Boston, MA, USA, June 7-12, 2015, 3156–3164 (IEEE, 2015).",
+        "Lazaridou, A. & Baroni, M. Emergent multi-agent communication in the deep learning era. ArXiv \n                  https://doi.org/10.48550/arXiv.2006.02419\n                  \n                 (2020).",
+        "citation_journal_title=Neural Comput.; citation_title=Long short-term memory; citation_author=S Hochreiter, Jürgen Schmidhuber; citation_volume=9; citation_publication_date=1997; citation_pages=1735-1780; citation_doi=10.1162/neco.1997.9.8.1735; citation_id=CR72",
+        "Chen, T., Kornblith, S., Norouzi, M. & Hinton, G. E. A simple framework for contrastive learning of visual representations. In Proc. of ICML, 1597–1607 (PMLR, 2020).",
+        "citation_journal_title=Science; citation_title=Grounded language acquisition through the eyes and ears of a single child; citation_author=WaiKeen Vong, W Wang, AE Orhan, BM Lake; citation_volume=383; citation_publication_date=2024; citation_pages=504-511; citation_doi=10.1126/science.adi1374; citation_id=CR74",
+        "Piantadosi, S. Modern Language Models Refute Chomsky’s Approach to Language. \n                  https://lingbuzz.net/lingbuzz/007180\n                  \n                 (2023).",
+        "citation_journal_title=J. Lang. Evol.; citation_title=Infinitely productive language can arise from chance under communicative pressure; citation_author=ST Piantadosi, E Fedorenko; citation_volume=2; citation_publication_date=2017; citation_pages=141-147; citation_doi=10.1093/jole/lzw013; citation_id=CR76",
+        "Lammertink, I., Bazioni, M., de Heer Kloots, M. & Raviv, L. Learnability Effects in Children: Are More Structured Languages Easier to Learn? \n                  https://osf.io/w89ju\n                  \n                 (2022).",
+        "Diera, A. et al. GenCodeSearchNet: A benchmark test suite for evaluating generalization in programming language understanding. In Proc. 1st GenBench Workshop on (Benchmarking) Generalisation in NLP, 12–24 (2023).",
+        "Berko, J. The child’s learning of english morphology. WORD 14, 150–177 (1958).",
+        "Meir, I., Israel, A., Sandler, W., Padden, C. A. & Aronoff, M. The influence of community on language structure: evidence from two young sign languages. Linguist. Var. 12, 247–291 (2012).",
+        "Bentz, C., Verkerk, A., Kiela, D., Hill, F. & Buttery, P. Adaptive communication: languages with more non-native speakers tend to have fewer word forms. PLoS ONE 10, e0128254 (2015).",
+        "Aji, A. F. et al. One country, 700+ languages: NLP challenges for underrepresented languages and dialects in Indonesia. In Proc. 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 7226–7249 (Dublin, Ireland, 2022).",
+        "Aryabumi, V. et al. To code, or not to code? exploring impact of code in pre-training. ArXiv \n                  https://arxiv.org/abs/2408.10914\n                  \n                 (2024).",
+        "Lazaridou, A., Peysakhovich, A. & Baroni, M. Multi-agent cooperation and the emergence of (natural) language. In Proc. of ICLR. (2017).",
+        "Lazaridou, A., Hermann, K. M., Tuyls, K. & Clark, S. Emergence of linguistic communication from referential games with symbolic and pixel input. In Proc. of ICLR. (2018).",
+        "Ren, Y., Guo, S., Labeau, M., Cohen, S. B. & Kirby, S. Compositional languages emerge in a neural iterated learning model. In Proc. of ICLR. (2020).",
+        "Mu, J., and Goodman, N. D. Emergent communication of generalizations. In Advances in Neural Information Processing Systems 34, 17994–18007 (2021).",
+        "Rita, M., Strub, F., Grill, J.-B., Pietquin, O. & Dupoux, E. On the role of population heterogeneity in emergent communication. In Proc. of ICLR (2022).",
+        "Chaabouni, R. et al. Emergent communication at scale. In Proc. of ICLR (2022).",
+        "Chaabouni, R., Kharitonov, E., Dupoux, E. & Baroni, M. Anti-efficient encoding in emergent communication. In Advances in Neural Information Processing Systems 32, 6290–6300 (2019).",
+        "Paszke, A. et al. Pytorch: An imperative style, high-performance deep learning library. In Advances in Neural Information Processing Systems 32, 8024–8035 (2019).",
+        "citation_journal_title=Proc. Natl Acad. Sci. USA; citation_title=Performance vs. competence in human–machine comparisons; citation_author=C Firestone; citation_volume=117; citation_publication_date=2020; citation_pages=26562-26571; citation_doi=10.1073/pnas.1905334117; citation_id=CR92",
+        "citation_journal_title=Trends Cogn. Sci.; citation_title=Degrees of algorithmic equivalence between the brain and its DNN models; citation_author=PG Schyns, L Snoek, C Daube; citation_volume=26; citation_publication_date=2022; citation_pages=1090-1102; citation_doi=10.1016/j.tics.2022.09.003; citation_id=CR93",
+        "citation_journal_title=Nature; citation_title=Learning representations by back-propagating errors; citation_author=DE Rumelhart, GE Hinton, RJ Williams; citation_volume=323; citation_publication_date=1986; citation_pages=533-536; citation_doi=10.1038/323533a0; citation_id=CR94",
+        "Goodfellow, I., Bengio, Y. & Courville, A. Deep Learning. (MIT Press, 2016).",
+        "citation_journal_title=Behav. Brain Sci.; citation_title=The magical number 4 in short-term memory: a reconsideration of mental storage capacity; citation_author=N Cowan; citation_volume=24; citation_publication_date=2001; citation_pages=87-114; citation_doi=10.1017/S0140525X01003922; citation_id=CR96",
+        "citation_journal_title=Psychol. Rev.; citation_title=Connectionist models of recognition memory: constraints imposed by learning and forgetting functions; citation_author=R Ratcliff; citation_volume=97; citation_publication_date=1990; citation_pages=285-308; citation_doi=10.1037/0033-295X.97.2.285; citation_id=CR97",
+        "He, K., Zhang, X., Ren, S. & Sun, J. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In Proc. of ICCV, 1026–1034 (IEEE, 2015).",
+        "Kingma, D. P. & Ba, J. Adam: A method for stochastic optimization. In Proc. of ICLR. (2015).",
+        "Seabold, S. & Perktold, J. statsmodels: Econometric and statistical modeling with python. In 9th Python in Science Conference (SCIPY, 2010).",
+        "Raviv, L. & de Heer Kloots, M. What makes a language easy to learn? a preregistered study on how linguistic structure and community size affect language learnability. Cognition 210, 104620 (2020).",
+        "Galke, L., Ram, Y. & Raviv, L. Deep neural networks and humans both benefit from compositional language structure. Zenodo \n                  https://doi.org/10.5281/zenodo.14205452\n                  \n                 (2024).",
+        "Galke, L., Ram, Y. & Raviv, L. Deep neural networks and humans both benefit from compositional language structure. Zenodo \n                  https://doi.org/10.5281/zenodo.13912743\n                  \n                 (2024)."
+      ],
+      "citation_author": [
+        "Galke, Lukas",
+        "Ram, Yoav",
+        "Raviv, Limor"
+      ],
+      "citation_author_institution": [
+        "Department of Mathematics and Computer Science, University of Southern Denmark, Odense, Denmark",
+        "LEADS group, Max Planck Institute for Psycholinguistics, Nijmegen, Netherlands",
+        "School of Zoology, Faculty of Life Sciences, Tel Aviv University, Tel Aviv, Israel",
+        "Sagol School of Neuroscience, Tel Aviv University, Tel Aviv, Israel",
+        "LEADS group, Max Planck Institute for Psycholinguistics, Nijmegen, Netherlands",
+        "cSCAN, University of Glasgow, Glasgow, UK"
+      ]
+    },
+    "links": [
+      "https://www.nature.com/articles/s41467-024-55158-1.pdf",
+      "https://www.nature.com/articles/s41467-024-55158-1.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-55158-1/MediaObjects/41467_2024_55158_MOESM1_ESM.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-55158-1/MediaObjects/41467_2024_55158_MOESM2_ESM.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-024-55158-1/MediaObjects/41467_2024_55158_MOESM3_ESM.pdf",
+      "https://www.nature.com/articles/s41467-024-55158-1.pdf"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41467-025-57025-z",
+    "meta": {
+      "citation_pdf_url": [
+        "https://www.nature.com/articles/s41467-025-57025-z.pdf"
+      ],
+      "citation_fulltext_html_url": [
+        "https://www.nature.com/articles/s41467-025-57025-z"
+      ],
+      "citation_journal_title": [
+        "Nature Communications"
+      ],
+      "citation_journal_abbrev": [
+        "Nat Commun"
+      ],
+      "citation_publisher": [
+        "Nature Publishing Group"
+      ],
+      "citation_issn": [
+        "2041-1723"
+      ],
+      "citation_title": [
+        "Expectation violations signal goals in novel human communication"
+      ],
+      "citation_volume": [
+        "16"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_online_date": [
+        "2025/02/26"
+      ],
+      "citation_firstpage": [
+        "1989"
+      ],
+      "citation_lastpage": [
+        ""
+      ],
+      "citation_article_type": [
+        "Article"
+      ],
+      "citation_fulltext_world_readable": [
+        ""
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_doi": [
+        "10.1038/s41467-025-57025-z"
+      ],
+      "citation_springer_api_url": [
+        "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41467-025-57025-z&api_key="
+      ],
+      "citation_reference": [
+        "citation_journal_title=Trends Cogn. Sci.; citation_title=Prediction during language comprehension: What is next?; citation_author=R Ryskin, MS Nieuwland; citation_volume=27; citation_publication_date=2023; citation_pages=1032-1052; citation_doi=10.1016/j.tics.2023.08.003; citation_id=CR1",
+        "citation_journal_title=Trends Cogn. Sci.; citation_title=Pragmatic language interpretation as probabilistic inference; citation_author=ND Goodman, MC Frank; citation_volume=20; citation_publication_date=2016; citation_pages=818-829; citation_doi=10.1016/j.tics.2016.08.005; citation_id=CR2",
+        "Levy, R. & Jaeger, T. Speakers optimize information density through syntactic reduction. Adv. Neural Inf. Process. Syst. \n                  https://doi.org/10.7551/mitpress/7503.003.0111\n                  \n                 (2006).",
+        "citation_journal_title=Nat. Commun.; citation_title=People infer communicative action through an expectation for efficient communication; citation_author=A Royka, A Chen, R Aboody, T Huanca, J Jara-Ettinger; citation_volume=13; citation_publication_date=2022; citation_doi=10.1038/s41467-022-31716-3; citation_id=CR4",
+        "citation_journal_title=Cognition; citation_title=People can use the placement of objects to infer communicative goals; citation_author=M Lopez-Brau, J Jara-Ettinger; citation_volume=239; citation_publication_date=2023; citation_pages=105524; citation_doi=10.1016/j.cognition.2023.105524; citation_id=CR5",
+        "Verhoef, T., Walker, E. & Marghetis, T. Interaction dynamics affect the emergence of compositional structure in cultural transmission of space-time mappings. Proc. Ann. Meet. Cogn. Sci. Soc. 44, 2133–2139 (2022).",
+        "citation_journal_title=Interact. Stud.; citation_title=Exploring the cognitive infrastructure of communication; citation_author=JPD Ruiter; citation_volume=11; citation_publication_date=2010; citation_pages=51-77; citation_doi=10.1075/is.11.1.05rui; citation_id=CR7",
+        "Haggard, P. et al. On the origin of intentions. In Sensorimotor Foundations of Higher Cognition 601–618 (Oxford University Press, 2012); \n                  https://doi.org/10.1093/acprof:oso/9780199231447.003.0026\n                  \n                .",
+        "citation_journal_title=Front. Hum. Neurosci.; citation_title=Recipient design in human communication: Simple heuristics or perspective taking?; citation_author=M Blokpoel; citation_volume=6; citation_publication_date=2012; citation_pages=253; citation_doi=10.3389/fnhum.2012.00253; citation_id=CR9",
+        "citation_journal_title=Neuropsychologia; citation_title=Communicating without a functioning language system: implications for the role of language in mentalizing; citation_author=RM Willems, Y Benn, P Hagoort, I Toni, R Varley; citation_volume=49; citation_publication_date=2011; citation_pages=3130-3135; citation_doi=10.1016/j.neuropsychologia.2011.07.023; citation_id=CR10",
+        "Stephens, R. C. & Ward, J. J. Motion in a circle. In Applied Mechanics (eds. Stephens, R. C. & Ward, J. J.) 27–39 (Macmillan Education UK, London, 1972); \n                  https://doi.org/10.1007/978-1-349-00870-4_3\n                  \n                .",
+        "citation_journal_title=Curr. Opin. Neurobiol.; citation_title=Multiple signals in anterior cingulate cortex; citation_author=N Kolling, T Behrens, MK Wittmann, M Rushworth; citation_volume=37; citation_publication_date=2016; citation_pages=36-43; citation_doi=10.1016/j.conb.2015.12.007; citation_id=CR12",
+        "citation_journal_title=Nat. Neurosci.; citation_title=Optimal decision making and the anterior cingulate cortex; citation_author=SW Kennerley, ME Walton, TEJ Behrens, MJ Buckley, MFS Rushworth; citation_volume=9; citation_publication_date=2006; citation_pages=940-947; citation_doi=10.1038/nn1724; citation_id=CR13",
+        "citation_journal_title=Front. Neurosci.; citation_title=Pupil dilation signals surprise: evidence for Noradrenaline’s role in decision making; citation_author=K Preuschoff, BM Hart, W Einhäuser; citation_volume=5; citation_publication_date=2011; citation_pages=115; citation_doi=10.3389/fnins.2011.00115; citation_id=CR14",
+        "citation_journal_title=Cereb. Cortex; citation_title=Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence; citation_author=JW Gee, CMC Correa, M Weaver, TH Donner, S Gaal; citation_volume=31; citation_publication_date=2021; citation_pages=3565-3578; citation_doi=10.1093/cercor/bhab032; citation_id=CR15",
+        "citation_journal_title=Neuron; citation_title=Orienting and reorienting: the locus coeruleus mediates cognition through arousal; citation_author=SJ Sara, S Bouret; citation_volume=76; citation_publication_date=2012; citation_pages=130-141; citation_doi=10.1016/j.neuron.2012.09.011; citation_id=CR16",
+        "citation_journal_title=PLoS Comput. Biol.; citation_title=Hierarchical Bayesian inference for concurrent model fitting and comparison for group studies; citation_author=P Piray, A Dezfouli, T Heskes, MJ Frank, ND Daw; citation_volume=15; citation_publication_date=2019; citation_doi=10.1371/journal.pcbi.1007043; citation_id=CR17",
+        "citation_journal_title=Neuroimage; citation_title=Bayesian model selection for group studies; citation_author=KE Stephan, WD Penny, J Daunizeau, RJ Moran, KJ Friston; citation_volume=46; citation_publication_date=2009; citation_pages=1004-1017; citation_doi=10.1016/j.neuroimage.2009.03.025; citation_id=CR18",
+        "citation_journal_title=Psychol. Methods; citation_title=A tutorial on testing hypotheses using the Bayes factor; citation_author=H Hoijtink, J Mulder, C Lissa, X Gu; citation_volume=24; citation_publication_date=2019; citation_pages=539-556; citation_doi=10.1037/met0000201; citation_id=CR19",
+        "citation_journal_title=Behav. Res. Methods; citation_title=Evaluating significance in linear mixed-effects models in R; citation_author=SG Luke; citation_volume=49; citation_publication_date=2017; citation_pages=1494-1502; citation_doi=10.3758/s13428-016-0809-y; citation_id=CR20",
+        "Botvinick, M. M., Braver, T. S., Barch, D. M., Carter, C. S. & Cohen, J. D. Conflict monitoring and cognitive control. Psychol. Rev. \n                  https://doi.org/10.1037//0033-295X.I08.3.624\n                  \n                 (2001).",
+        "citation_journal_title=Psychol. Rev.; citation_title=The neural basis of human error processing: reinforcement learning, dopamine, and the error-related negativity; citation_author=CB Holroyd, MGH Coles; citation_volume=109; citation_publication_date=2002; citation_pages=679-709; citation_doi=10.1037/0033-295X.109.4.679; citation_id=CR22",
+        "citation_journal_title=Cognition; citation_title=Neural signature of hierarchically structured expectations predicts clustering and transfer of rule sets in reinforcement learning; citation_author=AGE Collins, MJ Frank; citation_volume=152; citation_publication_date=2016; citation_pages=160-169; citation_doi=10.1016/j.cognition.2016.04.002; citation_id=CR23",
+        "citation_journal_title=Nat. Commun.; citation_title=Cortical beta power reflects decision dynamics and uncovers multiple facets of post-error adaptation; citation_author=AG Fischer, R Nigbur, TA Klein, C Danielmeier, M Ullsperger; citation_volume=9; citation_publication_date=2018; citation_doi=10.1038/s41467-018-07456-8; citation_id=CR24",
+        "citation_journal_title=Neuroimage; citation_title=Cortical delta activity reflects reward prediction error and related behavioral adjustments, but at different times; citation_author=JF Cavanagh; citation_volume=110; citation_publication_date=2015; citation_pages=205-216; citation_doi=10.1016/j.neuroimage.2015.02.007; citation_id=CR25",
+        "Larsen, T. & O’Doherty, J. P. Uncovering the spatio-temporal dynamics of value-based decision-making in the human brain: a combined fMRI-EEG study. Philos. Trans. R. Soc. Lond. B Biol. Sci. 369, 20130473 (2014).",
+        "citation_journal_title=J. Neurosci. Methods; citation_title=Nonparametric statistical testing of EEG- and MEG-data; citation_author=E Maris, R Oostenveld; citation_volume=164; citation_publication_date=2007; citation_pages=177-190; citation_doi=10.1016/j.jneumeth.2007.03.024; citation_id=CR27",
+        "citation_journal_title=Proc. Natl. Acad. Sci. USA; citation_title=Large-scale evidence for logarithmic effects of word predictability on reading time; citation_author=C Shain, C Meister, T Pimentel, R Cotterell, R Levy; citation_volume=121; citation_publication_date=2024; citation_pages=e2307876121; citation_doi=10.1073/pnas.2307876121; citation_id=CR28",
+        "citation_journal_title=SIGMOBILE Mob. Comput. Commun. Rev.; citation_title=A mathematical theory of communication; citation_author=CE Shannon; citation_volume=5; citation_publication_date=2001; citation_pages=3-55; citation_doi=10.1145/584091.584093; citation_id=CR29",
+        "Horn, L. R. Implicature. in The Handbook of Pragmatics 2–28 (Blackwell Publishing Ltd, Oxford, 2008); \n                  https://doi.org/10.1002/9780470756959.ch1\n                  \n                ",
+        "citation_journal_title=Wiley Interdiscip. Rev. Cogn. Sci.; citation_title=Prosody and language comprehension; citation_author=D Dahan; citation_volume=6; citation_publication_date=2015; citation_pages=441-452; citation_doi=10.1002/wcs.1355; citation_id=CR31",
+        "citation_journal_title=PLoS One; citation_title=Rapid expectation adaptation during syntactic comprehension; citation_author=AB Fine, TF Jaeger, TA Farmer, T Qian; citation_volume=8; citation_publication_date=2013; citation_pages=e77661; citation_doi=10.1371/journal.pone.0077661; citation_id=CR32",
+        "citation_journal_title=Commun. Stud.; citation_title=Expanding language expectancy theory: the suasory effects of lexical complexity and syntactic complexity on effective message design; citation_author=JM Averbeck, C Miller; citation_volume=65; citation_publication_date=2014; citation_pages=72-95; citation_doi=10.1080/10510974.2013.775955; citation_id=CR33",
+        "citation_journal_title=J. Mem. Lang.; citation_title=Color interpretation is guided by informativity expectations, not by world knowledge about colors; citation_author=H Rohde, P Rubio-Fernandez; citation_volume=127; citation_publication_date=2022; citation_pages=104371; citation_doi=10.1016/j.jml.2022.104371; citation_id=CR34",
+        "citation_journal_title=Philos. Compass; citation_title=Philosophy of humor; citation_author=J Shaw; citation_volume=5; citation_publication_date=2010; citation_pages=112-126; citation_doi=10.1111/j.1747-9991.2009.00281.x; citation_id=CR35",
+        "citation_journal_title=Cognition; citation_title=Is it or isn’t it: listeners make rapid use of prosody to infer speaker meanings; citation_author=C Kurumada, M Brown, S Bibyk, DF Pontillo, MK Tanenhaus; citation_volume=133; citation_publication_date=2014; citation_pages=335-342; citation_doi=10.1016/j.cognition.2014.05.017; citation_id=CR36",
+        "Sutton, R. S. & Barto, A. G. Reinforcement Learning, Second Edition: An Introduction (MIT Press, 2018).",
+        "citation_journal_title=Curr. Opin. Neurobiol.; citation_title=With or without you: predictive coding and Bayesian inference in the brain; citation_author=L Aitchison, M Lengyel; citation_volume=46; citation_publication_date=2017; citation_pages=219-227; citation_doi=10.1016/j.conb.2017.08.010; citation_id=CR38",
+        "citation_journal_title=Sci. Rep.; citation_title=Working memory, attention, and salience in active inference; citation_author=T Parr, KJ Friston; citation_volume=7; citation_publication_date=2017; citation_doi=10.1038/s41598-017-15249-0; citation_id=CR39",
+        "citation_journal_title=Neurosci. Biobehav. Rev.; citation_title=Active inference and learning; citation_author=K Friston; citation_volume=68; citation_publication_date=2016; citation_pages=862-879; citation_doi=10.1016/j.neubiorev.2016.06.022; citation_id=CR40",
+        "citation_journal_title=Nature Human Behaviour; citation_title=Rational quantitative attribution of beliefs, desires and percepts in human mentalizing; citation_author=CL Baker, J Jara-Ettinger, R Saxe, JB Tenenbaum; citation_volume=1; citation_publication_date=2017; citation_pages=1-10; citation_doi=10.1038/s41562-017-0064; citation_id=CR41",
+        "Yuan, L., Fu, Z., Zhou, L., Yang, K. & Zhu, S. C. Emergence of theory of mind collaboration in multiagent systems. Preprint at \n                  https://doi.org/10.48550/arXiv.2110.00121\n                  \n                 (2019).",
+        "citation_journal_title=Artif. Intell.; citation_title=How much does it help to know what she knows you know? An agent-based simulation study; citation_author=H Weerd, R Verbrugge, B Verheij; citation_volume=199–200; citation_publication_date=2013; citation_pages=67-92; citation_doi=10.1016/j.artint.2013.05.004; citation_id=CR43",
+        "citation_journal_title=Biol. Inspir. Cogn. Archit.; citation_title=Higher-order theory of mind in the Tacit communication game; citation_author=H Weerd, R Verbrugge, B Verheij; citation_volume=11; citation_publication_date=2015; citation_pages=10-21; citation_id=CR44",
+        "citation_journal_title=Nat. Commun.; citation_title=Pupil-linked arousal is driven by decision uncertainty and alters serial choice bias; citation_author=A Braun, AE Urai, TH Donner; citation_volume=8; citation_publication_date=2017; citation_pages=1-11; citation_id=CR45",
+        "van Kempen, J. et al. Behavioural and neural signatures of perceptual decision-making are modulated by pupil-linked arousal. Elife. \n                  https://doi.org/10.7554/eLife.42541\n                  \n                 (2019).",
+        "citation_journal_title=Psychophysiology; citation_title=The pupil as a measure of emotional arousal and autonomic activation; citation_author=MM Bradley, L Miccoli, MA Escrig, PJ Lang; citation_volume=45; citation_publication_date=2008; citation_pages=602-607; citation_doi=10.1111/j.1469-8986.2008.00654.x; citation_id=CR47",
+        "citation_journal_title=Psychophysiology; citation_title=Pupil size as a measure of within-task learning; citation_author=CK Foroughi, C Sibley, JT Coyne; citation_volume=54; citation_publication_date=2017; citation_pages=1436-1443; citation_doi=10.1111/psyp.12896; citation_id=CR48",
+        "citation_journal_title=Behav. Res. Methods Instrum. Comput.; citation_title=Pupillary dilation as a measure of attention: a quantitative system analysis; citation_author=B Hoeks, WJM Levelt; citation_volume=25; citation_publication_date=1993; citation_pages=16-26; citation_doi=10.3758/BF03204445; citation_id=CR49",
+        "citation_journal_title=bioRxiv; citation_title=Action boosts episodic memory encoding in humans via engagement of a noradrenergic system; citation_author=M Yebra; citation_volume=30; citation_publication_date=2017; citation_pages=71-42; citation_id=CR50",
+        "citation_journal_title=Neuron; citation_title=Relationships between pupil diameter and neuronal activity in the locus coeruleus, colliculi, and cingulate cortex; citation_author=S Joshi, Y Li, RM Kalwani, JI Gold; citation_volume=89; citation_publication_date=2016; citation_pages=221-234; citation_doi=10.1016/j.neuron.2015.11.028; citation_id=CR51",
+        "citation_journal_title=Front. Neural Circuits; citation_title=Neuromodulatory correlates of pupil dilation; citation_author=RS Larsen, J Waters; citation_volume=12; citation_publication_date=2018; citation_pages=21; citation_doi=10.3389/fncir.2018.00021; citation_id=CR52",
+        "citation_journal_title=Nat. Rev. Neurosci.; citation_title=Functional role of the supplementary and pre-supplementary motor areas; citation_author=P Nachev, C Kennard, M Husain; citation_volume=9; citation_publication_date=2008; citation_pages=856-869; citation_doi=10.1038/nrn2478; citation_id=CR53",
+        "citation_journal_title=Curr. Opin. Neurobiol.; citation_title=Valuation and decision-making in frontal cortex: One or many serial or parallel systems?; citation_author=MFS Rushworth, N Kolling, J Sallet, RB Mars; citation_volume=22; citation_publication_date=2012; citation_pages=946-955; citation_doi=10.1016/j.conb.2012.04.011; citation_id=CR54",
+        "citation_journal_title=Trends Cogn. Sci.; citation_title=Action sets and decisions in the medial frontal cortex; citation_author=MFS Rushworth, ME Walton, SW Kennerley, DM Bannerman; citation_volume=8; citation_publication_date=2004; citation_pages=410-417; citation_doi=10.1016/j.tics.2004.07.009; citation_id=CR55",
+        "citation_journal_title=Neuron; citation_title=The anterior cingulate gyrus and social cognition: tracking the motivation of others; citation_author=MAJ Apps, MFS Rushworth, SWC Chang; citation_volume=90; citation_publication_date=2016; citation_pages=692-707; citation_doi=10.1016/j.neuron.2016.04.018; citation_id=CR56",
+        "citation_journal_title=Sci. Adv.; citation_title=A brain network supporting social influences in human decision-making; citation_author=L Zhang, J Gläscher; citation_volume=6; citation_publication_date=2020; citation_pages=eabb4159; citation_doi=10.1126/sciadv.abb4159; citation_id=CR57",
+        "citation_journal_title=Behav. Res. Methods; citation_title=Preprocessing pupil size data: guidelines and code; citation_author=ME Kret, EE Sjak-Shie; citation_volume=51; citation_publication_date=2019; citation_pages=1336-1342; citation_doi=10.3758/s13428-018-1075-y; citation_id=CR58",
+        "citation_journal_title=Comput. Intell. Neurosci.; citation_title=FieldTrip: open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data; citation_author=R Oostenveld, P Fries, E Maris, J-M Schoffelen; citation_volume=2011; citation_publication_date=2011; citation_pages=156869; citation_doi=10.1155/2011/156869; citation_id=CR59",
+        "Kaelbling, L. P., Littman, M. L. & Cassandra, A. R. Planning and acting in partially observable stochastic domains. Artif. Intell. 101, 99–134 (1998)."
+      ],
+      "citation_author": [
+        "Buidze, Tatia",
+        "Sommer, Tobias",
+        "Zhao, Ke",
+        "Fu, Xiaolan",
+        "Gläscher, Jan"
+      ],
+      "citation_author_institution": [
+        "Institute of Systems Neuroscience, University Medical Center Eppendorf, Hamburg University, Hamburg, Germany",
+        "Institute of Systems Neuroscience, University Medical Center Eppendorf, Hamburg University, Hamburg, Germany",
+        "State Key Laboratory of Brain and Cognitive Science, Institute of Psychology, Chinese Academy of Sciences, Beijing, China",
+        "University of Chinese Academy of Sciences, Beijing, China",
+        "State Key Laboratory of Brain and Cognitive Science, Institute of Psychology, Chinese Academy of Sciences, Beijing, China",
+        "University of Chinese Academy of Sciences, Beijing, China",
+        "Institute of Systems Neuroscience, University Medical Center Eppendorf, Hamburg University, Hamburg, Germany"
+      ]
+    },
+    "links": [
+      "https://www.nature.com/articles/s41467-025-57025-z.pdf",
+      "https://www.nature.com/articles/s41467-025-57025-z.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-57025-z/MediaObjects/41467_2025_57025_MOESM1_ESM.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-57025-z/MediaObjects/41467_2025_57025_MOESM2_ESM.pdf",
+      "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-57025-z/MediaObjects/41467_2025_57025_MOESM3_ESM.pdf",
+      "https://www.nature.com/articles/s41467-025-57025-z.pdf"
+    ]
+  },
+  {
+    "url": "https://www.nature.com/articles/s41598-024-56152-9",
+    "meta": {
+      "citation_pdf_url": [
+        "https://www.nature.com/articles/s41598-024-56152-9.pdf"
+      ],
+      "citation_fulltext_html_url": [
+        "https://www.nature.com/articles/s41598-024-56152-9"
+      ],
+      "citation_journal_title": [
+        "Scientific Reports"
+      ],
+      "citation_journal_abbrev": [
+        "Sci Rep"
+      ],
+      "citation_publisher": [
+        "Nature Publishing Group"
+      ],
+      "citation_issn": [
+        "2045-2322"
+      ],
+      "citation_title": [
+        "Cultural evolution creates the statistical structure of language"
+      ],
+      "citation_volume": [
+        "14"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_online_date": [
+        "2024/03/04"
+      ],
+      "citation_firstpage": [
+        "5255"
+      ],
+      "citation_lastpage": [
+        ""
+      ],
+      "citation_article_type": [
+        "Article"
+      ],
+      "citation_fulltext_world_readable": [
+        ""
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_doi": [
+        "10.1038/s41598-024-56152-9"
+      ],
+      "citation_springer_api_url": [
+        "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41598-024-56152-9&api_key="
+      ],
+      "citation_reference": [
+        "citation_title=Human Behavior and the Principle of Least Effort; citation_publication_date=1949; citation_id=CR1; citation_author=G Zipf; citation_publisher=Addison-Wesley",
+        "citation_journal_title=Trends Cogn. Sci.; citation_title=How infants begin to extract words from speech; citation_author=PW Jusczyk; citation_volume=3; citation_issue=9; citation_publication_date=1999; citation_pages=323-328; citation_doi=10.1016/S1364-6613(99)01363-7; citation_id=CR2",
+        "citation_journal_title=Science; citation_title=Statistical learning by 8-month-old infants; citation_author=JR Saffran, RN Aslin, EL Newport; citation_volume=274; citation_issue=5294; citation_publication_date=1996; citation_pages=1926-1928; citation_doi=10.1126/science.274.5294.1926; citation_id=CR3",
+        "citation_journal_title=Dev. Sci.; citation_title=Co-occurrence statistics as a language-dependent cue for speech segmentation; citation_author=A Saksida, A Langus, M Nespor; citation_volume=20; citation_issue=3; citation_publication_date=2017; citation_doi=10.1111/desc.12390; citation_id=CR4",
+        "citation_journal_title=Ann. Rev. Psychol.; citation_title=Infant statistical learning; citation_author=JR Saffran, NZ Kirkham; citation_volume=69; citation_publication_date=2018; citation_pages=181-203; citation_doi=10.1146/annurev-psych-122216-011805; citation_id=CR5",
+        "citation_journal_title=Cognition; citation_title=Visual statistical learning in infancy: Evidence for a domain general learning mechanism; citation_author=NZ Kirkham, JA Slemmer, SP Johnson; citation_volume=83; citation_issue=2; citation_publication_date=2002; citation_pages=B35-B42; citation_doi=10.1016/S0010-0277(02)00004-5; citation_id=CR6",
+        "citation_journal_title=Proc. Natl. Acad. Sci.; citation_title=Cumulative cultural evolution in the laboratory: An experimental approach to the origins of structure in human language; citation_author=S Kirby, H Cornish, K Smith; citation_volume=105; citation_issue=31; citation_publication_date=2008; citation_pages=10681-10686; citation_doi=10.1073/pnas.0707835105; citation_id=CR7",
+        "citation_journal_title=Dev. Sci.; citation_title=Newborns are sensitive to multiple cues for word segmentation in continuous speech; citation_author=A Fló, P Brusini, F Macagno, M Nespor, J Mehler, AL Ferry; citation_volume=22; citation_publication_date=2019; citation_doi=10.1111/desc.12802; citation_id=CR8",
+        "citation_journal_title=Psychon. Bull. Rev.; citation_title=Zipf’s word frequency law in natural language: A critical review and future directions; citation_author=ST Piantadosi; citation_volume=21; citation_publication_date=2014; citation_pages=1112-1130; citation_doi=10.3758/s13423-014-0585-6; citation_id=CR9",
+        "Kimchi, I., Stamps, R., Wolters, L. & Arnon, I. (accepted). Evidence of Zipfian distributions in three sign languages. Gesture, xx-xx.",
+        "citation_journal_title=Phys. Lett. Sect. A Gener. At. Solid State Phys.; citation_title=Variation of Zipf’s exponent in one hundred live languages: A study of the Holy Bible translations; citation_author=A Mehri, M Jamaati; citation_volume=381; citation_issue=31; citation_publication_date=2017; citation_pages=2470-2477; citation_doi=10.1016/j.physleta.2017.05.061; citation_id=CR11",
+        "citation_journal_title=Eur. Phys. J. B; citation_title=The variation of Zipf’s law in human language; citation_author=R Ferrer-i-Cancho; citation_volume=44; citation_issue=2; citation_publication_date=2005; citation_pages=249-257; citation_doi=10.1140/epjb/e2005-00121-8; citation_id=CR12",
+        "citation_journal_title=Open Mind; citation_title=Zipfian Distributions in Child-Directed Speech; citation_author=O Lavi-Rotbain, I Arnon; citation_volume=7; citation_publication_date=2022; citation_pages=1-30; citation_doi=10.1162/opmi_a_00070; citation_id=CR13",
+        "citation_title=Searching and utilizing corpora [review of searching and utilizing corpora]; citation_inbook_title=Signed Language Corpora; citation_publication_date=2022; citation_id=CR14; citation_author=C Borstell; citation_publisher=Gallaudet University Press",
+        "citation_journal_title=J. Quant. Linguist.; citation_title=Optimal coding and the origins of Zipfian laws; citation_author=R Ferrer-i-Cancho, C Bentz, C Seguin; citation_volume=29; citation_issue=2; citation_publication_date=2020; citation_pages=165-194; citation_doi=10.1080/09296174.2020.1778387; citation_id=CR15",
+        "citation_journal_title=Trends Cognit. Sci.; citation_title=How efficiency shapes human language; citation_author=E Gibson, R Futrell, ST Piantadosi, I Dautriche, L Bergen, R Levy; citation_volume=23; citation_issue=5; citation_publication_date=2019; citation_pages=389-407; citation_doi=10.1016/j.tics.2019.02.003; citation_id=CR16",
+        "citation_journal_title=Trends Ecol. Evolut.; citation_title=Linguistic laws in biology; citation_author=S Semple, R Ferrer-i-Cancho, ML Gustison; citation_volume=37; citation_issue=1; citation_publication_date=2022; citation_pages=53-66; citation_doi=10.1016/j.tree.2021.08.012; citation_id=CR17",
+        "citation_journal_title=Cognition; citation_title=Zipfian frequency distributions facilitate word segmentation in context; citation_author=C Kurumada, SC Meylan, MC Frank; citation_volume=127; citation_issue=3; citation_publication_date=2013; citation_pages=439-453; citation_doi=10.1016/j.cognition.2013.02.002; citation_id=CR18",
+        "citation_journal_title=Cognition; citation_title=The learnability consequences of Zipfian distributions in language; citation_author=O Lavi-Rotbain, I Arnon; citation_volume=223; citation_publication_date=2022; citation_doi=10.1016/j.cognition.2022.105038; citation_id=CR19",
+        "citation_journal_title=cognition; citation_title=Visual statistical learning is facilitated in Zipfian Distributions; citation_author=O Lavi-Rotbain, I Arnon; citation_volume=206; citation_publication_date=2021; citation_doi=10.1016/j.cognition.2020.104492; citation_id=CR20",
+        "citation_journal_title=Cognition; citation_title=Cross-situational learning in a Zipfian environment; citation_author=AT Hendrickson, A Perfors; citation_volume=189; citation_publication_date=2019; citation_pages=11-22; citation_doi=10.1016/j.cognition.2019.03.005; citation_id=CR21",
+        "citation_journal_title=Lang. Learn. Dev.; citation_title=The effect of Zipfian frequency variations on category formation in adult artificial language learning; citation_author=KD Schuler, PA Reeder, EL Newport, RN Aslin; citation_volume=13; citation_issue=4; citation_publication_date=2017; citation_pages=357-374; citation_doi=10.1080/15475441.2016.1263571; citation_id=CR22",
+        "citation_journal_title=Mod. Lang. J.; citation_title=Input effects within a constructionist framework; citation_author=JK Boyd, AE Goldberg; citation_volume=93; citation_issue=3; citation_publication_date=2009; citation_pages=418-429; citation_doi=10.1111/j.1540-4781.2009.00899.x; citation_id=CR23",
+        "citation_journal_title=J. Lang. Evolut.; citation_title=A cognitive bias for Zipfian distributions? Uniform distributions become more skewed via cultural transmission; citation_author=A Shufaniya, I Arnon; citation_volume=7; citation_issue=1; citation_publication_date=2022; citation_pages=59-80.7; citation_doi=10.1093/jole/lzac005; citation_id=CR24",
+        "citation_journal_title=J. Phon.; citation_title=Emergence of combinatorial structure and economy through iterated learning with continuous acoustic signals; citation_author=T Verhoef, S Kirby, B Boer; citation_volume=43; citation_publication_date=2014; citation_pages=57-68; citation_doi=10.1016/j.wocn.2014.02.005; citation_id=CR25",
+        "citation_journal_title=Cognition; citation_title=Simplicity and informativeness in semantic category systems; citation_author=JW Carr, K Smith, J Culbertson, S Kirby; citation_volume=202; citation_publication_date=2020; citation_doi=10.1016/j.cognition.2020.104289; citation_id=CR26",
+        "citation_journal_title=Nat. Hum. Behav.; citation_title=Musical evolution in the lab exhibits rhythmic universals; citation_author=A Ravignani, T Delgado, S Kirby; citation_volume=1; citation_issue=1; citation_publication_date=2016; citation_pages=0007; citation_doi=10.1038/s41562-016-0007; citation_id=CR27",
+        "citation_journal_title=J. Lang. Evolut.; citation_title=The emergence of verse templates through iterated learning; citation_author=V deCastro-Arrazola, S Kirby; citation_volume=4; citation_issue=1; citation_publication_date=2019; citation_pages=28-43; citation_doi=10.1093/jole/lzy013; citation_id=CR28",
+        "citation_journal_title=Psychon. Bull. Rev.; citation_title=Iterated learning: Intergenerational knowledge transmission reveals inductive biases; citation_author=ML Kalish, TL Griffiths, S Lewandowsky; citation_volume=14; citation_issue=2; citation_publication_date=2007; citation_pages=288-294; citation_doi=10.3758/BF03194066; citation_id=CR29",
+        "citation_journal_title=Proc. Natl. Acad. Sci.; citation_title=Innateness and culture in the evolution of language; citation_author=S Kirby, M Dowman, TL Griffiths; citation_volume=104; citation_issue=12; citation_publication_date=2007; citation_pages=5241-5245; citation_doi=10.1073/pnas.0608222104; citation_id=CR30",
+        "Arnon, I. Starting Big—The Role of Multi-word Phrases in Language Learning and Use, PhD. Dissertation, Stanford University (2010).",
+        "Corbett, G. G. Gender, grammatical. In Encyclopedia of language & linguistics, 749–756. (2006)",
+        "citation_journal_title=J. Mem. Lang.; citation_title=Digging up the building blocks of language: Age-of-Acquisition effects for multiword phrases; citation_author=I Arnon, SM McCauley, MH Christiansen; citation_volume=92; citation_publication_date=2017; citation_pages=265-280; citation_doi=10.1016/j.jml.2016.07.004; citation_id=CR33",
+        "citation_journal_title=Cognition; citation_title=‘Clap your hands’ or ‘take your hands’? One-year-olds distinguish between frequent and infrequent multiword phrases; citation_author=B Skarabela, M Ota, R O'Connor, I Arnon; citation_volume=211; citation_publication_date=2021; citation_doi=10.1016/j.cognition.2021.104612; citation_id=CR34",
+        "citation_journal_title=Top. Cognit. Sci.; citation_title=Computational investigations of multiword chunks in language learning; citation_author=SM McCauley, MH Christiansen; citation_volume=9; citation_issue=3; citation_publication_date=2017; citation_pages=637-652; citation_doi=10.1111/tops.12258; citation_id=CR35",
+        "citation_journal_title=Appl. Psycholinguist.; citation_title=Reading between the words: The effect of literacy on second language lexical segmentation; citation_author=N Havron, I Arnon; citation_volume=38; citation_publication_date=2017; citation_pages=127-153; citation_doi=10.1017/S0142716416000138; citation_id=CR36",
+        "citation_journal_title=Lang. Learn. Dev.; citation_title=Why brush your teeth is better than teeth—Children’s word production is facilitated in familiar sentence-frames; citation_author=I Arnon, EV Clark; citation_volume=7; citation_publication_date=2011; citation_pages=107-129; citation_doi=10.1080/15475441.2010.505489; citation_id=CR37",
+        "citation_journal_title=Cognition; citation_title=Granularity and the acquisition of grammatical gender: How order-of-acquisition affects what gets learned; citation_author=I Arnon, M Ramscar; citation_volume=122; citation_publication_date=2012; citation_pages=292-305; citation_doi=10.1016/j.cognition.2011.10.009; citation_id=CR38",
+        "citation_journal_title=J. Mem. Lang.; citation_title=The advantage of starting big: Learning from unsegmented input facilitates mastery of grammatical gender in an artificial language; citation_author=N Siegelman, I Arnon; citation_volume=85; citation_publication_date=2015; citation_pages=60-75; citation_doi=10.1016/j.jml.2015.07.003; citation_id=CR39",
+        "citation_journal_title=J. Cult. Cognit. Sci.; citation_title=Literate and pre-literate children show different learning patterns in an artificial language learning task; citation_author=N Havron, L Raviv, I Arnon; citation_volume=2; citation_publication_date=2018; citation_pages=21-33; citation_doi=10.1007/s41809-018-0015-9; citation_id=CR40",
+        "citation_journal_title=Lang. Commun.; citation_title=Protolanguage as a holistic system for social interaction; citation_author=A Wray; citation_volume=18; citation_issue=1; citation_publication_date=1998; citation_pages=47-67; citation_doi=10.1016/S0271-5309(97)00033-5; citation_id=CR41",
+        "citation_title=Syntax without natural selection: How compositionality emerges from vocabulary in a population of learners; citation_inbook_title=The Evolutionary Emergence of Language: Social Function and the Origins of Linguistic Form; citation_publication_date=2000; citation_pages=303-323; citation_id=CR42; citation_author=S Kirby; citation_publisher=Cambridge University Press",
+        "Cornish, H., Smith, K. & Kirby, S. Systems from sequences: An iterated learning account of the emergence of systematic structure in a non-linguistic task. In Proceedings of the annual meeting of the cognitive science society, Vol. 35, No. 35 (2013).",
+        "Kirby, S., Cornish, H. & Smith, K. Systems emerge: The cultural evolution of interdependent sequential behaviours in the lab. In Evolution of Language: Proceedings of the 10th International Conference, 463–464 (2014).",
+        "citation_journal_title=Lang. Speech; citation_title=Whole-word phonology and templates; citation_author=SL Velleman, MM Vihman; citation_volume=32; citation_publication_date=2002; citation_pages=149-170; citation_id=CR45",
+        "citation_journal_title=First Lang.; citation_title=Awareness of linear and nonlinear morphology in Hebrew: a developmental study; citation_author=D Ravid, A Malenky; citation_volume=21; citation_issue=61; citation_publication_date=2001; citation_pages=025-56; citation_doi=10.1177/014272370102106102; citation_id=CR46",
+        "citation_journal_title=J. Child Lang.; citation_title=The Starting Big approach to language learning; citation_author=I Arnon; citation_volume=48; citation_issue=5; citation_publication_date=2021; citation_pages=937-958; citation_doi=10.1017/S0305000921000386; citation_id=CR47",
+        "citation_journal_title=Proc. Natl. Acad. Sci.; citation_title=Potential downside of high initial visual acuity; citation_author=L Vogelsang, S Gilad-Gutnick, E Ehrenberg, A Yonas, S Diamond, R Held, P Sinha; citation_volume=115; citation_issue=44; citation_publication_date=2018; citation_pages=11333-11338; citation_doi=10.1073/pnas.1800901115; citation_id=CR48",
+        "citation_journal_title=Comput. Music J.; citation_title=Zipf's law, music classification, and aesthetics; citation_author=B Manaris, J Romero, P Machado, D Krehbiel, T Hirzel, W Pharr, RB Davis; citation_volume=29; citation_issue=1; citation_publication_date=2005; citation_pages=55-69; citation_doi=10.1162/comj.2005.29.1.55; citation_id=CR49",
+        "citation_journal_title=Science; citation_title=Universality and diversity in human song; citation_author=SA Mehr, M Singh, D Knox, DM Ketter, D Pickens-Jones, S Atwood, C Lucas, N Jacoby, AA Egner, EJ Hopkins, RM Howard; citation_volume=366; citation_issue=6468; citation_publication_date=2019; citation_pages=eaax0868; citation_doi=10.1126/science.aax0868; citation_id=CR50",
+        "citation_journal_title=Anim. Behav.; citation_title=Quantitative tools for comparing animal communication systems: Information theory applied to bottlenose dolphin whistle repertoires; citation_author=B McCowan, SF Hanser, LR Doyle; citation_volume=57; citation_issue=2; citation_publication_date=1999; citation_pages=409-419; citation_doi=10.1006/anbe.1998.1000; citation_id=CR51",
+        "citation_journal_title=Anim. Behav.; citation_title=The use of Zipf's law in animal communication analysis; citation_author=R Suzuki, JR Buck, PL Tyack; citation_volume=69; citation_issue=1; citation_publication_date=2005; citation_pages=F9-F17; citation_doi=10.1016/j.anbehav.2004.08.004; citation_id=CR52",
+        "citation_journal_title=Anim. Behav.; citation_title=Information theory reveals that individual birds do not alter song complexity when varying song length; citation_author=AM Palmero, J Espelosín, P Laiolo, JC Illera; citation_volume=87; citation_publication_date=2014; citation_pages=153-163; citation_doi=10.1016/j.anbehav.2013.10.026; citation_id=CR53",
+        "citation_journal_title=Proc. R. Soc. B; citation_title=Network analysis reveals underlying syntactic features in a vocally learnt mammalian display, humpback whale song; citation_author=JA Allen, EC Garland, RA Dunlop, MJ Noad; citation_volume=286; citation_issue=1917; citation_publication_date=2019; citation_pages=20192014; citation_doi=10.1098/rspb.2019.2014; citation_id=CR54"
+      ],
+      "citation_author": [
+        "Arnon, Inbal",
+        "Kirby, Simon"
+      ],
+      "citation_author_institution": [
+        "Psychology Department, Hebrew University of Jerusalem, Jerusalem, Israel",
+        "School of Philosophy, Psychology and Language Sciences, University of Edinburgh, Edinburgh, UK"
+      ]
+    },
+    "links": [
+      "https://www.nature.com/articles/s41598-024-56152-9.pdf",
+      "https://www.nature.com/articles/s41598-024-56152-9.pdf",
+      "https://www.nature.com/articles/s41598-024-56152-9.pdf"
+    ]
+  }
+]

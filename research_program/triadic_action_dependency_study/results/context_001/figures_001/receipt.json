@@ -1,0 +1,42 @@
+{
+  "status": "plotted_requires_actual_visual_review",
+  "completed_at": "2026-09-15T18:23:33.759702+00:00",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/summary_001/summary.json",
+  "summary_sha256": "95b61d165b43966ac997b77895fea9b081530873874b225336fc5ff911bb6fa8",
+  "plot_source_sha256": "3a1c27acc376c6865d4aebee8c8705f33e56b555dc33876d8ff36fc0ca2f32cc",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "files": [
+    {
+      "path": "full_endpoint_content_all_seeds.png",
+      "sha256": "d6f4436f39342e0067965e71b072e5c9136d55a6a767920e0a514fa8018caf4f"
+    },
+    {
+      "path": "full_endpoint_content_all_seeds.pdf",
+      "sha256": "d1c6d0427138f74ea58f7e2812a4f63e53d6c461aec523faf7fe231f4e9f4fc3"
+    },
+    {
+      "path": "full_endpoint_task_and_closure.png",
+      "sha256": "bff0f433156a656dd9c3c05d583607183c2ffcad66fb0b802f7a5ede30e02a9a"
+    },
+    {
+      "path": "full_endpoint_task_and_closure.pdf",
+      "sha256": "522828cb9388d452dac4877579ea1f15af5d7c68ff28b2c59563ce518552b4cf"
+    },
+    {
+      "path": "two_background_content_trajectory.png",
+      "sha256": "6cda67e55e7dd9283f463e4ddbccf1bace264777755bdacb780232d67ca0f71d"
+    },
+    {
+      "path": "two_background_content_trajectory.pdf",
+      "sha256": "2ac1c339c68b656b2d3acb42a5ef514618895b7647e5d5415e5c3253d0a042b1"
+    }
+  ],
+  "plot_data_sha256": "dba77cace693f03f3f8938e106f8bf4c880906a9316944c7229968303041ec3d",
+  "neural_forward_calls": 0,
+  "training_calls": 0,
+  "complete_endpoint_separate_from_monitor": true
+}

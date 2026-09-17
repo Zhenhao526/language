@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rematched_partner_confirmation_study/results/confirm_002",
+  "figures": [
+    "rematching_seed_forest.png",
+    "rematching_trajectories.png",
+    "rematching_endpoint.png"
+  ],
+  "visual_review_note": "All three PNGs were inspected. English labels, legends, confidence bands, seed points, and reference lines are legible."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "input_runs": 64,
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "output_results_sha256": "83ce01aee085ad10897af9b1b93a0b6d5857f67075a32ea15bd5c0b82ae65d6e"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "optimizer_updates": 0,
+  "model_forward_samples": 0,
+  "input_summary_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_semantic_transfer_probe/results/summary_role_semantic_transfer_001/summary.json": "23a6d04d8378efa46fce8b568eb6335791196b740dd306673d638d7ef407cab8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_confirmatory_semantic_transfer_probe/results/summary_role_semantic_transfer_confirm_001/summary.json": "4dbfd987ec3eba48e5afe8f7dacbb4d09c5847f7f00b3cb1f1d728fc94822e21"
+  },
+  "outputs": {
+    "summary.json": "8a8f328e6cee4601ccfd15b2d432b8314e95f42777ba683d8ea458819e1877e8",
+    "汇总表.md": "be232711fa1d21317a40260c0b519d70d083eea08ac0cd634d1fb086cbb44246"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "at": "2026-09-15T20:10:04.290395+00:00",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001/verification.json": "b5f0b8f2400c8c9208d89d0232d920667956d67a2939d5341dd9954ea70f1e6d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001/核验范围与数值一致性.md": "10c1d3ca3b03221165baad33b21e417ba68d5593c2096573b3d3428273523a4c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001.invocation.json": "e380c88abbe9b57892b2389ce92c06f921493461e8b4035bde2f518da6d3ea50",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001.terminal.json": "3710124e4539eceab37d18333bbec42a2aa2ea6877efd37e67cd3a566d8530a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001.console.txt": "7392fa8d5fc31760d5f3409ace147bb7a2d1117af206a78f9fe5ff80e55a3543"
+  }
+}

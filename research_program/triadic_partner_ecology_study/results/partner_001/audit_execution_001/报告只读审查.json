@@ -1,0 +1,308 @@
+{
+  "status": "two_scope_wording_corrections_requested",
+  "created_at": "2026-09-15T16:56:01.627619+00:00",
+  "reviewed_sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/结果与下一步.md": "c8a1e46ec38411579c5bfb2e73b21f12b419f1b3359a7560a749e1c59aed05c3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/README.md": "1c64c06b1b86c2bb34f986b3a8ef011707b5db83b89fccb69d350933a1f65b68",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/README.md": "4c0cc9e127b2ecdfdfa1443213e5a998c2844d993ad2e8dad0a133a95d32e476"
+  },
+  "evidence_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/partner_001/audit_execution_001/verification.json": "2cfb2c3a2d441e7d64b73cca0a39c4ce4abfe16510407e7603d6081f1566b3f6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/partner_001/audit_execution_001/行为核对.json": "b163cb2052d23d1d59cab4ca1b7ee9cdbaae93e036dc0fede90e8b3b918536a2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/partner_001/audit_execution_001/形成时序补记.json": "f35e13383ba391f0292dc389e1c2c4853d76e3853741216f9fda8d90e32dc9a3"
+  },
+  "checks": {
+    "main_role_DiD_each_seed_zero": true,
+    "full_information_DiD_each_seed_zero": false,
+    "all32_fixed_pair_at_complete_natural_endpoint": true,
+    "complete_joint_action_range_8_33": true,
+    "all32_live_full_partition_scores_drop_when_closed": true,
+    "timing_counts_match": true,
+    "all_saved_500_onwards_pair_matches_endpoint": true,
+    "numerical_tables_match_audited_four_seed_means_and_differences": true,
+    "full_distribution_vs_672_monitor_scope_explicit": true,
+    "oracle_not_claimed_physical_or_native_R_optimum": true,
+    "Qwen_branch_separated_from_random_network_learning": true,
+    "links_exist": true
+  },
+  "local_link_count": 51,
+  "local_links": [
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "plan.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "design_static_001/静态评估.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/summary_001/完整结果表.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/figures_002/complete_weighted_endpoints.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/figures_002/paired_role_and_success.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/figures_002/fixed_monitor_curves.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "role_oracle_001/结果与边界.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/audit_execution_001/形成时序补记.json",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/message_description_001/读取说明.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/audit_execution_001/独立核验.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "results/partner_001/root_completion_receipt.json",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/结果与下一步.md",
+      "target": "literature/直接近邻与贡献界限.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "plan.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "运行说明.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "design_static_001/静态评估.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "role_oracle_001/结果与边界.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "literature/直接近邻与贡献界限.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/plan.json",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/root_launch_receipt.json",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/summary_001/完整结果表.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/audit_execution_001/独立核验.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/message_description_001/读取说明.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/figures_002/complete_weighted_endpoints.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/figures_002/paired_role_and_success.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/triadic_partner_ecology_study/README.md",
+      "target": "results/partner_001/figures_002/fixed_monitor_curves.png",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_partner_ecology_study/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_message_study/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_coordination_study/README.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_learning_baseline/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "visual_confirmation_frame/curation/后续取得准备与跨框重合.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "interaction_ecology_study/results/interface_001/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "visual_confirmation_frame/curation/本轮材料准备结果.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "interaction_ecology_study/互动修复_直接近邻.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "probability_coverage_study/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "policy_gain_study/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "v08_结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "阶段结论与下一轮_2026-09-15.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "receiver_coverage_trajectory_v06_20260915_py312/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "../qwen_language_diagnostics/results/20260915_CONT_01/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "codebook_audit_v06_20260915/码空间审计.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "codebook_factor_coverage_v06_20260915/边际与组合覆盖审计.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "论文证据与创新性审计_2026-09-15.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "literature_audit_2026-09-15/papers/下载索引.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "v07新增证据与主张修订.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "下一轮生态操纵草案.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "no_communication_20260915/无通信边界与实验取舍.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_task/results/20260915_CAP_01/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_task/results/20260915_CAP_01/独立核验.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "triadic_task/results/20260915_EXEC_01/结果与下一步.md",
+      "exists": true
+    },
+    {
+      "file": "research_program/README.md",
+      "target": "进展账本.md",
+      "exists": true
+    }
+  ],
+  "required_corrections": [
+    {
+      "file": "结果与下一步.md",
+      "text": "两个生态中，所有团队始终使用同一对搭档、第三人等待",
+      "reason": "Opening sentence needs complete endpoint qualification; it does not hold at all saved formation times.",
+      "suggested": "在完整终点评估中，每个团队都固定使用一对搭档、第三人等待。"
+    },
+    {
+      "files": [
+        "结果与下一步.md",
+        "README.md",
+        "../README.md"
+      ],
+      "text": "个人观察分布／个人观察边际精确配平",
+      "reason": "Exact marginal matching applies to each agent own needs and PI local observation, not FI observations that include distinct joint-demand supports.",
+      "suggested": "各人自身需求与PI局部观察边际精确配平。"
+    }
+  ],
+  "no_report_edited": true,
+  "new_neural_forwards": 0,
+  "new_training": 0,
+  "next_semantic_static_001_not_reviewed_here": true
+}

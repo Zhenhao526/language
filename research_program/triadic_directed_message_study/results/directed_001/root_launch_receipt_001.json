@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-16T04:59:59.564217+00:00",
+  "status": "sources_frozen_launch_authorized_by_continuing_experiment_request",
+  "plan_sha256": "0e880e120b264a7acebb06ec149eab0dc620810ba33a4939bbeaa842a7b05e1b",
+  "independent_audit_freeze_sha256": "c00abae574e31da36b97bc5bf436a22e01b22e2bc6c196ea576eb0f2c65b3fc0",
+  "independent_audit_frozen_at": "2026-09-16T04:59:32.245177+00:00",
+  "main_execution_existed": false,
+  "new_training_updates": 0,
+  "new_Qwen_calls": 0,
+  "planned_new_main_module_samples": 100528128
+}

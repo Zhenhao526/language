@@ -1,0 +1,35 @@
+{
+  "updated": "2026-09-15T16:04:57.142874",
+  "stage": "completed",
+  "outcome": "full_information_capability_not_passed",
+  "gates": [
+    {
+      "condition": "full_information",
+      "cases": [
+        {
+          "episode": 1,
+          "seed": 92015,
+          "variant": 0,
+          "score": 0.0,
+          "steps": 12,
+          "all_goals_delivered": false,
+          "fresh_histories_verified": true,
+          "passed": false
+        },
+        {
+          "episode": 2,
+          "seed": 92038,
+          "variant": 22,
+          "score": 1.0,
+          "steps": 5,
+          "all_goals_delivered": true,
+          "fresh_histories_verified": true,
+          "passed": true
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "symbolic_started": false,
+  "report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/summary/report.md"
+}

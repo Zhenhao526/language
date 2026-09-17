@@ -1,0 +1,185 @@
+{
+  "smoke": "你好",
+  "calibration": {
+    "n": 16,
+    "A": 16,
+    "B": 16,
+    "overall": 16,
+    "success_rate": 1.0
+  },
+  "zero_interaction": {
+    "codes_by_demand": {
+      "00": "@",
+      "01": "@",
+      "10": "@",
+      "11": "@#"
+    },
+    "distinct_messages": 2,
+    "permutation_changed_message_fraction": 0.5,
+    "conditions": {
+      "original": {
+        "n": 16,
+        "A": 8,
+        "B": 10,
+        "overall": 5,
+        "success_rate": 0.3125
+      },
+      "empty": {
+        "n": 16,
+        "A": 8,
+        "B": 8,
+        "overall": 4,
+        "success_rate": 0.25
+      },
+      "permuted": {
+        "n": 16,
+        "A": 8,
+        "B": 6,
+        "overall": 3,
+        "success_rate": 0.1875
+      }
+    }
+  },
+  "groups": {
+    "17": {
+      "interaction": {
+        "all": {
+          "n": 24,
+          "A": 7,
+          "B": 13,
+          "overall": 3,
+          "success_rate": 0.125
+        },
+        "first_half": {
+          "n": 12,
+          "A": 4,
+          "B": 7,
+          "overall": 2,
+          "success_rate": 0.16666666666666666
+        },
+        "second_half": {
+          "n": 12,
+          "A": 3,
+          "B": 6,
+          "overall": 1,
+          "success_rate": 0.08333333333333333
+        },
+        "messages_observed": [
+          "#",
+          "%",
+          "%#",
+          "&",
+          "@",
+          "@#"
+        ]
+      },
+      "evaluation": {
+        "codes_by_demand": {
+          "00": "%",
+          "01": "%#",
+          "10": "&",
+          "11": "@#"
+        },
+        "distinct_messages": 4,
+        "permutation_changed_message_fraction": 1.0,
+        "conditions": {
+          "original": {
+            "n": 16,
+            "A": 10,
+            "B": 8,
+            "overall": 5,
+            "success_rate": 0.3125
+          },
+          "empty": {
+            "n": 16,
+            "A": 8,
+            "B": 8,
+            "overall": 4,
+            "success_rate": 0.25
+          },
+          "permuted": {
+            "n": 16,
+            "A": 6,
+            "B": 8,
+            "overall": 3,
+            "success_rate": 0.1875
+          }
+        }
+      }
+    },
+    "29": {
+      "interaction": {
+        "all": {
+          "n": 24,
+          "A": 10,
+          "B": 16,
+          "overall": 8,
+          "success_rate": 0.3333333333333333
+        },
+        "first_half": {
+          "n": 12,
+          "A": 2,
+          "B": 7,
+          "overall": 1,
+          "success_rate": 0.08333333333333333
+        },
+        "second_half": {
+          "n": 12,
+          "A": 8,
+          "B": 9,
+          "overall": 7,
+          "success_rate": 0.5833333333333334
+        },
+        "messages_observed": [
+          "#",
+          "#%",
+          "%",
+          "%&",
+          "@"
+        ]
+      },
+      "evaluation": {
+        "codes_by_demand": {
+          "00": "%&",
+          "01": "@",
+          "10": "%&",
+          "11": "%&"
+        },
+        "distinct_messages": 2,
+        "permutation_changed_message_fraction": 0.5,
+        "conditions": {
+          "original": {
+            "n": 16,
+            "A": 8,
+            "B": 12,
+            "overall": 6,
+            "success_rate": 0.375
+          },
+          "empty": {
+            "n": 16,
+            "A": 8,
+            "B": 8,
+            "overall": 4,
+            "success_rate": 0.25
+          },
+          "permuted": {
+            "n": 16,
+            "A": 8,
+            "B": 4,
+            "overall": 2,
+            "success_rate": 0.125
+          }
+        }
+      }
+    }
+  },
+  "backend": {
+    "calls": 433,
+    "load_seconds": 1.5494990830193274,
+    "inference_seconds": 650.4341235776083,
+    "max_prompt_tokens": 2007,
+    "peak_mlx_memory_gb": 10.319121048
+  },
+  "elapsed_seconds": 656.1755111670354,
+  "completed": true
+}

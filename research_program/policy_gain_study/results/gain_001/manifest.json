@@ -1,0 +1,284 @@
+{
+  "seeds": [
+    28101,
+    28102,
+    28103,
+    28104
+  ],
+  "conditions": {
+    "split1_additive_gain1": {
+      "base_condition": "split1_additive",
+      "plan": {
+        "split": 1,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 1
+    },
+    "split1_additive_gain3": {
+      "base_condition": "split1_additive",
+      "plan": {
+        "split": 1,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 3
+    },
+    "split1_joint_gain1": {
+      "base_condition": "split1_joint",
+      "plan": {
+        "split": 1,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 1
+    },
+    "split1_joint_gain3": {
+      "base_condition": "split1_joint",
+      "plan": {
+        "split": 1,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 3
+    },
+    "split2_additive_gain1": {
+      "base_condition": "split2_additive",
+      "plan": {
+        "split": 2,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 1
+    },
+    "split2_additive_gain3": {
+      "base_condition": "split2_additive",
+      "plan": {
+        "split": 2,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 3
+    },
+    "split2_joint_gain1": {
+      "base_condition": "split2_joint",
+      "plan": {
+        "split": 2,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 1
+    },
+    "split2_joint_gain3": {
+      "base_condition": "split2_joint",
+      "plan": {
+        "split": 2,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 3
+    },
+    "split3_additive_gain1": {
+      "base_condition": "split3_additive",
+      "plan": {
+        "split": 3,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 1
+    },
+    "split3_additive_gain3": {
+      "base_condition": "split3_additive",
+      "plan": {
+        "split": 3,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 3
+    },
+    "split3_joint_gain1": {
+      "base_condition": "split3_joint",
+      "plan": {
+        "split": 3,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 1
+    },
+    "split3_joint_gain3": {
+      "base_condition": "split3_joint",
+      "plan": {
+        "split": 3,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 3
+    },
+    "full_additive_gain1": {
+      "base_condition": "full_additive",
+      "plan": {
+        "split": 0,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 1
+    },
+    "full_additive_gain3": {
+      "base_condition": "full_additive",
+      "plan": {
+        "split": 0,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "additive",
+        "complementarity": 0.0
+      },
+      "policy_gain": 3
+    },
+    "full_joint_gain1": {
+      "base_condition": "full_joint",
+      "plan": {
+        "split": 0,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 1
+    },
+    "full_joint_gain3": {
+      "base_condition": "full_joint",
+      "plan": {
+        "split": 0,
+        "representation": "identity",
+        "schedule": "direct",
+        "vocab": 7,
+        "length": 2,
+        "known": false,
+        "blocked": false,
+        "reward_kind": "joint",
+        "complementarity": 1.0
+      },
+      "policy_gain": 3
+    }
+  },
+  "updates": 2400,
+  "batch": 512,
+  "eval_n": 9600,
+  "expected_social_runs": 64,
+  "expected_social_updates": 153600,
+  "expected_social_worlds": 78643200,
+  "expected_social_choices": 157286400,
+  "native_reward_changed_by_gain": false,
+  "source_hashes": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/runner.py": "c97ac875b9f34000679d567cb97e7af064d643789ba38d1b4c5e78df5f13b8c9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/plan.md": "7c6900b3e7e790c5bd98ad918b0db2df4f8b2ed0ccec13abb3f9c124d629e125",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/analysis.py": "5d020fcb22c11eebbcbcccd41b8c227d8c55275ce92478205f17bc185296bd7a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/probe.py": "c841862e4d295e856901e931e47c5e4914a430e3110aa0e408382355a51fda23",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/preflight.py": "1df462771579c1eb95dc9b6837bfb72c3ab7a9ca79750742ac121aaab048ab22",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/v08_formation_trajectory.py": "76b9b72d3cb921a4b71552f8f898aa33220c217b2b88d1d75909a4a4e5714a3c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/v08_receiver_coverage.py": "a9d744656bad7a6986a5ed722244d038a53f08fd141ad9683196a31dfa40eaa8",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_experiment.py": "485221ac4c90f69b88047f380edfaf4922973cff986c8bfa5c47e700cab13d62",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/run_controls.py": "38ef2921e9e57342bd79063af8bd33d0ee35db4b7352672937ac710f7b4ded73",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.8/固定执行方案.md": "cf3d92f5eb9755a83b11dcbd3f1792f5474203ce445624fc7b347ccf499996b4",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/agents.py": "e370825812d7ea81f53d43e13197d44593aacdbbe7048cdcb5307650709e3f40",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/run_pilot.py": "0045c0789884d95e480c79b1827c5caf56e6820036e6ed64c2a0f0da35231134",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/resource_env.py": "8b522678c723f0f89812691487142d0f5292c73acfde569dc9da4a9f0e4a5211",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/manifest.json": "921503bd6e559124aaa85f6c61bf19207c7e6c2dcae37bc0101548eb5b439de6",
+    "/Users/xia/Documents/ChatGPT/语言/redesign_v0.4/data/features.npz": "32e32795c9c5b2ea22e396e36e03c925c2598a77e85e57e06b15e3bc59b66c54"
+  },
+  "preflight_sha256": "0362d05f07c6a18a6c826be383e438196fa90ac3763a20cce1cd6d8f493207e2",
+  "python": "3.12.14",
+  "torch": "2.14.0",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "torch_num_threads": 1,
+  "started_utc": "2026-09-15T12:32:02.224614+00:00",
+  "scope": "Four new initial seeds, old development photos; gain only multiplies REINFORCE terms."
+}

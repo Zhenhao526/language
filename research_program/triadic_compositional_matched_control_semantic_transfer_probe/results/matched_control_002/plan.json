@@ -1,0 +1,26 @@
+{
+  "case_rows": 3456,
+  "created_at": "2026-09-17T03:14:25.888738+00:00",
+  "inputs_sha256": "c238aacb1ce0c6eae5624671e93e2571308ab7bc2cc6471c1669a8922b34c4c1",
+  "no_training": true,
+  "policy_blocks": 64,
+  "prepared_sha256": "73d48b5dc8743b8b7e8292d4870fcbc6ed80e0a2e8fce078d6be1f662389c2fc",
+  "source_sha256": {
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/design.py": "00ae206e5ae03bd4b6a2b6b9bc521a06d70756396d7da32bc2cd60b8d9f745d3",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/README.md": "3a761c03a76cb9176ddc407e592bf4942c9ec0137656400958eed94bf89ab036",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/__init__.py": "76a6fad8ece5e004c50bc924f3b54e0ccc4aaa91b19962d6635f5036b56e26cc",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/aggregate.py": "fd705bc391c8ad1a4159548fbd85230ae7d26769151c68557c71fbfc35c3fae4",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/audit.py": "53937ba7075f72e151ffa1899d29e8990db5f26da85c9615012e3ded048f5ef1",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/design.py": "0f7fe14795df20c8fdff210d0c701c792134c7799bc85c62ab79ae17e2e70e7c",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/plan.md": "00c35ef205f83c59c47a839e6a9d382bfef11ce0adc3e4e42e06cd2703b82b5c",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/plot_results.py": "2927368ae9c3fdd41aad9ecacbc828aa66c5f08eb902d9c260a85ae107a63393",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/probe.py": "5264208121ca16cce3e211978776bc53c26f8eea57c1bc65023eed2334dfc163",
+    "research_program/triadic_compositional_matched_control_semantic_transfer_probe/tests/test_design.py": "25880f4027c33392a82f143e3376f84f8b5ea8da46447ab274e3735588b36f57",
+    "research_program/triadic_factorized_neutral_altpartner_direction_probe/intervention.py": "1969f88a65faedb40ba4d6666526566f7a51cee08030d5d829bf86dcd86722be",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/probe.py": "518fe5b51415c58c57d27ca8830c825d1e1e5202a67ab6f810e5d25227b84fc2",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60"
+  },
+  "status": "prepared_without_probe_forward"
+}

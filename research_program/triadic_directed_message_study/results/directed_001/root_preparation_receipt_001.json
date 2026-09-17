@@ -1,0 +1,13 @@
+{
+  "status": "prepared",
+  "at": "2026-09-16T04:59:46.391545+00:00",
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_directed_message_study.runner prepare --out research_program/triadic_directed_message_study/results/directed_001",
+  "tool_session_id": 96498,
+  "completion_chunk_id": "4d435b",
+  "exit_code": 0,
+  "plan_sha256": "0e880e120b264a7acebb06ec149eab0dc620810ba33a4939bbeaa842a7b05e1b",
+  "prepared_sha256": "9eecde16340e5d14dc02a60bc162435582d7a9c3b3a9be6cc4609727d6602dff",
+  "formal_forward_calls": 0,
+  "formal_training_updates": 0,
+  "execution_pending": "Independent audit fixture completion and source freeze before formal policy intervention."
+}

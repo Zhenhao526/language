@@ -1,0 +1,6 @@
+{
+  "command": "radar.py packet 2012.10776 --config config.toml",
+  "exit_code": 1,
+  "stderr": "Paper 2012.10776 not found in local database. Run `run` first.",
+  "handling": "Explicit official metadata single-paper seeding; no unrequested broad collection."
+}

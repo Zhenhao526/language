@@ -1,0 +1,10 @@
+{
+  "status": "prepared_exact_schema_repair",
+  "created_at": "2026-09-15T12:55:44.400241+00:00",
+  "original_script_sha256": "9d8c990749f3ab495bca6a486e790a8063bd636c97a64c4285f39962b260bc14",
+  "new_script_sha256": "b86c6c02dfc27f1d2929cda05be2dd63fb7285681db59ebf8d526f6e26b75555",
+  "original_failure_sha256": "a76c68f7b2acbde17853509b84021bb589dc648865a77e7b7c527bda10c0e4f0",
+  "difference": "--- audit_results.py\n+++ audit_results_v2.py\n@@ -337,7 +337,7 @@\n                     continue\n                 check(int(mask.sum()) == len(ids)*320, 'Balanced final map support')\n                 endpoints.append(dict(seed=seed,condition=condition,mode=mode,partition=part,\n-                    J=float(success[mask].all(1).mean()),n=int(mask.sum()),joint_correct=int(success[mask].all(1).sum()),\n+                    J=float(success[mask].all(1).mean()),n=int(mask.sum()),single_accuracy=float(success[mask].mean()),joint_correct=int(success[mask].all(1).sum()),\n                     native_reward=float(reward[mask].mean())))\n     equal(analyzed['endpoints'],endpoints,'Independent all-mode J/native endpoint recount')\n     endpoint_seeds = endpoint_seed_rows(endpoints)\n",
+  "purpose": "Independently recount single_accuracy from actual success bits to match the final analysis schema. No source data edits, skipped checks, tolerance changes, model forward, or training.",
+  "output_prefix": "audit_results_002"
+}

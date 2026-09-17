@@ -1,0 +1,354 @@
+{
+  "status": "completed_json_interpretation_review",
+  "at": "2026-09-16T04:28:14.043490+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/execution/status.json": "e26b123afd6932f42b82aa037fe55d0c63e55ebb1d8dd90bda6e5740a3d50a3f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/execution/results.json": "4d80f8395a94a1bedbbbd27a4b287d011db88dbe9cf97ecef4b1e9540fe19f0e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/plan.json": "b5126ca468e16a41db4ee9e96c77f0a7e465c3c2123589d2f423911fc5bf5555",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/prepared.json": "d09ec9dc5d520514fa2bda3aff35118d01e9d23ae288de2a4c54df5c07b44082",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/freeze.json": "b46d1150df4c0bc7262a2c6036fc2f0f1c3d8373ea92b0bae09fd7647f447ff4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/summary_001/summary.json": "4a70b8209904da3bcd4265c3c594f28df72c4ff01f284fc711e5f31f930fc874",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/summary_001/receipt.json": "3765ff35bcf157924e66b41e0e0a886e964ba1da68aab741ed08965779a58adf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/summarize_results.py": "9da12e4a7de7d9c9ee967b5dbe3e24ea674c3a6a4607b85bdf2ef885b86c72bf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/summary_preflight_001.json": "2b9fe12b828a4fcc6b97e4879fab7fc0de9204426f0cf47841a3ead0104f5a8b"
+  },
+  "outputs": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/interpretation_review_001.md": "6d3f56b5ae00da05e0be0361598efde7375e55fa09e6d0361bc94d32d2135052"
+  },
+  "summary_execution": {
+    "session_id": 53329,
+    "first_chunk": "0095f6",
+    "last_chunk": "08e902",
+    "exit_code": 0
+  },
+  "verification": {
+    "actual_runs_exactly_preserved": true,
+    "actual_evaluation_records": 240,
+    "full_response_records": 48,
+    "primary_exact_equals_main": true,
+    "budget_exact_equals_prepared": true
+  },
+  "primary": {
+    "contrast": "PL_live_minus_PL_silent",
+    "independent_paired_seed_blocks": 4,
+    "mean_difference": 0.06149691358024691,
+    "metric": "Q",
+    "paired_seeds": [
+      {
+        "Q_live": 0.0789158950617284,
+        "Q_silent": 0.07384259259259258,
+        "difference": 0.005073302469135815,
+        "seed": 59101
+      },
+      {
+        "Q_live": 0.12883873456790124,
+        "Q_silent": 0.03994984567901235,
+        "difference": 0.08888888888888888,
+        "seed": 59102
+      },
+      {
+        "Q_live": 0.08900462962962963,
+        "Q_silent": 0.049421296296296297,
+        "difference": 0.03958333333333333,
+        "seed": 59103
+      },
+      {
+        "Q_live": 0.15007716049382716,
+        "Q_silent": 0.03763503086419753,
+        "difference": 0.11244212962962963,
+        "seed": 59104
+      }
+    ],
+    "partition": "new_needs_and_layouts"
+  },
+  "domain_comparisons": {
+    "train": {
+      "mean_Q_difference": 0.08148054678878264,
+      "mean_Q_closure_difference": 0.0859101038346896,
+      "Q_seed_signs": {
+        "positive": 4,
+        "negative": 0,
+        "zero": 0
+      },
+      "Q_seed_stratum_signs": {
+        "positive": 25,
+        "negative": 11,
+        "zero": 0
+      },
+      "mean_nine_stratum_Q_differences": [
+        0.05866228070175438,
+        0.0541392543859649,
+        0.11687059082892415,
+        0.09636939571150098,
+        0.11315180311890838,
+        0.03406084656084657,
+        0.08714059454191032,
+        0.07951084307992201,
+        0.09341931216931215
+      ]
+    },
+    "new_needs": {
+      "mean_Q_difference": 0.09269547325102878,
+      "mean_Q_closure_difference": 0.11873874742798352,
+      "Q_seed_signs": {
+        "positive": 4,
+        "negative": 0,
+        "zero": 0
+      },
+      "Q_seed_stratum_signs": {
+        "positive": 23,
+        "negative": 13,
+        "zero": 0
+      },
+      "mean_nine_stratum_Q_differences": [
+        0.07129629629629627,
+        0.06984953703703703,
+        0.13274016203703703,
+        0.10457175925925924,
+        0.1179398148148148,
+        0.06995081018518517,
+        0.07274305555555555,
+        0.08043981481481483,
+        0.11472800925925924
+      ]
+    },
+    "new_layouts": {
+      "mean_Q_difference": 0.055249524273647085,
+      "mean_Q_closure_difference": 0.07149383876357561,
+      "Q_seed_signs": {
+        "positive": 4,
+        "negative": 0,
+        "zero": 0
+      },
+      "Q_seed_stratum_signs": {
+        "positive": 22,
+        "negative": 14,
+        "zero": 0
+      },
+      "mean_nine_stratum_Q_differences": [
+        0.036184210526315805,
+        0.034173976608187134,
+        0.08812830687830686,
+        0.044270833333333315,
+        0.07049524853801169,
+        0.021742724867724873,
+        0.07876461988304095,
+        0.062225877192982476,
+        0.061259920634920605
+      ]
+    },
+    "new_needs_and_layouts": {
+      "mean_Q_difference": 0.06149691358024691,
+      "mean_Q_closure_difference": 0.09250096450617284,
+      "Q_seed_signs": {
+        "positive": 4,
+        "negative": 0,
+        "zero": 0
+      },
+      "Q_seed_stratum_signs": {
+        "positive": 22,
+        "negative": 14,
+        "zero": 0
+      },
+      "mean_nine_stratum_Q_differences": [
+        0.03576388888888888,
+        0.04930555555555556,
+        0.12196180555555555,
+        0.04600694444444444,
+        0.05711805555555555,
+        0.054253472222222224,
+        0.07847222222222223,
+        0.0454861111111111,
+        0.06510416666666667
+      ]
+    }
+  },
+  "double_holdout_strata": [
+    {
+      "changed_person": 0,
+      "axis": "kind",
+      "mean_Q_live": 0.07864583333333333,
+      "mean_Q_silent": 0.04288194444444444,
+      "mean_Q_difference": 0.03576388888888888,
+      "seed_Q_differences": [
+        -0.0611111111111111,
+        -0.028472222222222215,
+        0.19999999999999996,
+        0.03263888888888888
+      ],
+      "mean_live_Q_excess": -0.0016383301837751153,
+      "mean_excess_difference": -0.024832042601993058
+    },
+    {
+      "changed_person": 0,
+      "axis": "length",
+      "mean_Q_live": 0.08611111111111111,
+      "mean_Q_silent": 0.03680555555555555,
+      "mean_Q_difference": 0.04930555555555556,
+      "seed_Q_differences": [
+        -0.046527777777777765,
+        -0.0173611111111111,
+        0.17222222222222222,
+        0.0888888888888889
+      ],
+      "mean_live_Q_excess": 0.00582694759400267,
+      "mean_excess_difference": -0.011290375935326388
+    },
+    {
+      "changed_person": 0,
+      "axis": "destination",
+      "mean_Q_live": 0.1618923611111111,
+      "mean_Q_silent": 0.03993055555555556,
+      "mean_Q_difference": 0.12196180555555555,
+      "seed_Q_differences": [
+        -0.03125,
+        0.1267361111111111,
+        0.1484375,
+        0.24392361111111108
+      ],
+      "mean_live_Q_excess": 0.08160819759400265,
+      "mean_excess_difference": 0.06136587406467359
+    },
+    {
+      "changed_person": 1,
+      "axis": "kind",
+      "mean_Q_live": 0.0953125,
+      "mean_Q_silent": 0.04930555555555555,
+      "mean_Q_difference": 0.04600694444444444,
+      "seed_Q_differences": [
+        0.1618055555555556,
+        0.09305555555555553,
+        -0.04513888888888888,
+        -0.025694444444444436
+      ],
+      "mean_live_Q_excess": 0.019783550478098117,
+      "mean_excess_difference": 0.0022327867001869645
+    },
+    {
+      "changed_person": 1,
+      "axis": "length",
+      "mean_Q_live": 0.10225694444444444,
+      "mean_Q_silent": 0.045138888888888895,
+      "mean_Q_difference": 0.05711805555555555,
+      "seed_Q_differences": [
+        0.21180555555555555,
+        0.07291666666666666,
+        -0.025000000000000005,
+        -0.031250000000000014
+      ],
+      "mean_live_Q_excess": 0.026727994922542558,
+      "mean_excess_difference": 0.013343897811298078
+    },
+    {
+      "changed_person": 1,
+      "axis": "destination",
+      "mean_Q_live": 0.14322916666666669,
+      "mean_Q_silent": 0.08897569444444445,
+      "mean_Q_difference": 0.054253472222222224,
+      "seed_Q_differences": [
+        0.09722222222222224,
+        0.15885416666666666,
+        -0.109375,
+        0.0703125
+      ],
+      "mean_live_Q_excess": 0.06770021714476479,
+      "mean_excess_difference": 0.010479314477964748
+    },
+    {
+      "changed_person": 2,
+      "axis": "kind",
+      "mean_Q_live": 0.1217013888888889,
+      "mean_Q_silent": 0.043229166666666666,
+      "mean_Q_difference": 0.07847222222222223,
+      "seed_Q_differences": [
+        -0.061805555555555544,
+        0.20277777777777783,
+        0.03611111111111111,
+        0.13680555555555557
+      ],
+      "mean_live_Q_excess": 0.05131279883643106,
+      "mean_excess_difference": 0.02656602329206769
+    },
+    {
+      "changed_person": 2,
+      "axis": "length",
+      "mean_Q_live": 0.09340277777777777,
+      "mean_Q_silent": 0.047916666666666656,
+      "mean_Q_difference": 0.0454861111111111,
+      "seed_Q_differences": [
+        -0.0673611111111111,
+        0.0881944444444444,
+        0.01111111111111112,
+        0.15
+      ],
+      "mean_live_Q_excess": 0.023014187725319955,
+      "mean_excess_difference": -0.006420087819043421
+    },
+    {
+      "changed_person": 2,
+      "axis": "destination",
+      "mean_Q_live": 0.1228298611111111,
+      "mean_Q_silent": 0.05772569444444444,
+      "mean_Q_difference": 0.06510416666666667,
+      "seed_Q_differences": [
+        -0.15711805555555555,
+        0.10329861111111112,
+        -0.03211805555555556,
+        0.3463541666666667
+      ],
+      "mean_live_Q_excess": 0.05244127105865328,
+      "mean_excess_difference": 0.013197967736512134
+    }
+  ],
+  "axis_means": {
+    "kind": {
+      "Q_live": 0.09855324074074075,
+      "Q_silent": 0.045138888888888874,
+      "excess_live": 0.023152673043584687,
+      "excess_silent": 0.021830417246830824
+    },
+    "length": {
+      "Q_live": 0.0939236111111111,
+      "Q_silent": 0.043287037037037034,
+      "excess_live": 0.01852304341395506,
+      "excess_silent": 0.019978565394978973
+    },
+    "destination": {
+      "Q_live": 0.14265046296296297,
+      "Q_silent": 0.06221064814814815,
+      "excess_live": 0.06724989526580691,
+      "excess_silent": 0.038902176506090076
+    }
+  },
+  "double_holdout_Q_identity": {
+    "Q": 0.06149691358024691,
+    "Q_shuffle": 0.05209209605509799,
+    "Q_excess": 0.00940481752514893
+  },
+  "double_holdout_seed_excess_differences": [
+    -0.031161753031115007,
+    0.026052825536703746,
+    -0.015706143473089625,
+    0.05843434106809661
+  ],
+  "double_holdout_seed_stratum_Q_signs": {
+    "positive": 22,
+    "negative": 14,
+    "zero": 0
+  },
+  "all16_domain_seed_full_pair_reward_physical_contrasts_positive": true,
+  "all16_domain_seed_live_minus_closed_Q_positive": true,
+  "limits": [
+    "Review source is completed main and frozen JSON-only summary;independent audit was separately dispatched and is not loaded here.",
+    "Q is an executed-partner response statistic,not message content or a language measure.",
+    "RawQ gain and channel closure confound changes in execution/coordination with demand-specific use;shuffle identity is descriptive,not a causal decomposition.",
+    "Four independent paired seeds only;all negative strata and shuffle-excess contrasts retained."
+  ],
+  "own_work": {
+    "npz_files_opened": 0,
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "new_experiments": 0
+  }
+}

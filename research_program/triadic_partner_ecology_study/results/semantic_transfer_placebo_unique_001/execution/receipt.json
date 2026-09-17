@@ -1,0 +1,11 @@
+{
+  "alias_rows": 960,
+  "intervention_rows": 1920,
+  "live_rows": 960,
+  "model_forward_samples": 414720,
+  "optimizer_updates": 0,
+  "policy_blocks": 8,
+  "results_sha256": "b4711a3081024841fe75d986ccb65ef961612d7d66f61a745e516612f252691c",
+  "status": "passed",
+  "worlds": 69120
+}

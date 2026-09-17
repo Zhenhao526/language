@@ -1,0 +1,359 @@
+{
+  "correction": "Only in-memory reducer input was aliased; source run JSON/NPZ/log files were not changed.",
+  "evaluation_audit": {
+    "final_records": 64,
+    "records": 256,
+    "trajectory_records": 192,
+    "unique_paths": 256,
+    "worlds": 61931520
+  },
+  "no_model_calls": true,
+  "no_training_updates": true,
+  "pairing_verified": true,
+  "primary": {
+    "by_seed": [
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.032149057539682536,
+              0.03284143518518518,
+              0.1948991402116402,
+              0.20368820271164023,
+              0.4612061838624339,
+              0.6235325727513228
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.27712419567074514,
+            "centered_interaction": [
+              0.0,
+              -0.010582010582010574,
+              0.012163111772486773,
+              0.10666749338624337,
+              0.356465980489418,
+              0.4809957837301587
+            ],
+            "endpoint_interaction": 0.4809957837301587,
+            "interaction": [
+              0.0,
+              -0.010582010582010574,
+              0.012163111772486773,
+              0.10666749338624337,
+              0.356465980489418,
+              0.4809957837301587
+            ],
+            "partial_live_minus_silent": [
+              -0.032149057539682536,
+              0.043423445767195756,
+              0.18273602843915343,
+              0.09702070932539686,
+              0.10474020337301584,
+              0.14253678902116404
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.00024801587301587306,
+              0.0,
+              0.1531394675925926,
+              0.1031281001984127,
+              0.17249503968253968,
+              0.2445539847883598
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.04788308118386243,
+            "centered_interaction": [
+              0.0,
+              -0.046564980158730174,
+              0.06726397156084657,
+              0.0009817294973544777,
+              0.0417700066137566,
+              0.10443018353174607
+            ],
+            "endpoint_interaction": 0.10443018353174607,
+            "interaction": [
+              0.0,
+              -0.046564980158730174,
+              0.06726397156084657,
+              0.0009817294973544777,
+              0.0417700066137566,
+              0.10443018353174607
+            ],
+            "partial_live_minus_silent": [
+              0.00024801587301587306,
+              0.046564980158730174,
+              0.08587549603174602,
+              0.10214637070105823,
+              0.13072503306878308,
+              0.14012380125661372
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          }
+        },
+        "rule_mean_centered_AUC": 0.16250363842730378,
+        "seed": 63101
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.04156332671957672,
+              0.0583922371031746,
+              0.15049913194444445,
+              0.17213851686507936,
+              0.4287471064814815,
+              0.6308180390211641
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.34575337404927253,
+            "centered_interaction": [
+              0.0,
+              0.0949280753968254,
+              0.06571387235449735,
+              0.19010933366402116,
+              0.4026227678571429,
+              0.5741670800264551
+            ],
+            "endpoint_interaction": 0.5741670800264551,
+            "interaction": [
+              0.0,
+              0.0949280753968254,
+              0.06571387235449735,
+              0.19010933366402116,
+              0.4026227678571429,
+              0.5741670800264551
+            ],
+            "partial_live_minus_silent": [
+              0.04156332671957672,
+              -0.03653583829365081,
+              0.08478525958994709,
+              -0.017970816798941802,
+              0.026124338624338633,
+              0.05665095899470901
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              5.166997354497354e-05,
+              0.0,
+              0.10893063822751323,
+              0.07602719907407407,
+              0.14236111111111113,
+              0.14307932374338625
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0035543774801587436,
+            "centered_interaction": [
+              0.0,
+              0.03800326554232805,
+              0.060593377976190466,
+              -0.02082299933862436,
+              0.001978959986772527,
+              -0.006009217923280408
+            ],
+            "endpoint_interaction": -0.006009217923280408,
+            "interaction": [
+              0.0,
+              0.03800326554232805,
+              0.060593377976190466,
+              -0.02082299933862436,
+              0.001978959986772527,
+              -0.006009217923280408
+            ],
+            "partial_live_minus_silent": [
+              5.166997354497354e-05,
+              -0.03800326554232805,
+              0.04833726025132276,
+              0.09685019841269843,
+              0.1403821511243386,
+              0.14908854166666666
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          }
+        },
+        "rule_mean_centered_AUC": 0.17465387576471564,
+        "seed": 63102
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.005270337301587304,
+              0.004515955687830697,
+              0.21741174768518517,
+              0.17115162037037035,
+              0.353484623015873,
+              0.4327360284391534
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.20660876184964722,
+            "centered_interaction": [
+              0.0,
+              -0.01968625992063494,
+              0.14264529596560843,
+              0.09527943121693119,
+              0.2525111607142857,
+              0.3049820188492063
+            ],
+            "endpoint_interaction": 0.3049820188492063,
+            "interaction": [
+              0.0,
+              -0.01968625992063494,
+              0.14264529596560843,
+              0.09527943121693119,
+              0.2525111607142857,
+              0.3049820188492063
+            ],
+            "partial_live_minus_silent": [
+              -0.005270337301587304,
+              0.024202215608465638,
+              0.07476645171957674,
+              0.07587218915343916,
+              0.1009734623015873,
+              0.1277540095899471
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.00023251488095238094,
+              0.0,
+              0.11693431712962964,
+              0.07408957506613756,
+              0.18251901455026454,
+              0.3916790674603175
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0724799262152778,
+            "centered_interaction": [
+              0.0,
+              -0.03431402943121695,
+              0.019236731150793676,
+              -0.002940021494708983,
+              0.04331493882275131,
+              0.22413917824074078
+            ],
+            "endpoint_interaction": 0.22413917824074078,
+            "interaction": [
+              0.0,
+              -0.03431402943121695,
+              0.019236731150793676,
+              -0.002940021494708983,
+              0.04331493882275131,
+              0.22413917824074078
+            ],
+            "partial_live_minus_silent": [
+              -0.00023251488095238094,
+              0.03431402943121695,
+              0.09769758597883596,
+              0.07702959656084654,
+              0.13920407572751323,
+              0.16753988921957672
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          }
+        },
+        "rule_mean_centered_AUC": 0.13954434403246252,
+        "seed": 63103
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.004112929894179895,
+              0.05109126984126984,
+              0.18836288855820105,
+              0.13701843584656082,
+              0.4139591600529101,
+              0.5347222222222222
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.25473193617724865,
+            "centered_interaction": [
+              0.0,
+              0.006928943452380945,
+              -0.003157035383597906,
+              0.10195519179894175,
+              0.3304243138227514,
+              0.4386470734126984
+            ],
+            "endpoint_interaction": 0.4386470734126984,
+            "interaction": [
+              0.0,
+              0.006928943452380945,
+              -0.003157035383597906,
+              0.10195519179894175,
+              0.3304243138227514,
+              0.4386470734126984
+            ],
+            "partial_live_minus_silent": [
+              0.004112929894179895,
+              0.044162326388888895,
+              0.19151992394179895,
+              0.03506324404761907,
+              0.08353484623015872,
+              0.09607514880952384
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.000248015873015873,
+              0.0,
+              0.11428881448412699,
+              0.08395854001322751,
+              0.14782779431216933,
+              0.14260395998677247
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": -0.03310607156635804,
+            "centered_interaction": [
+              0.0,
+              -0.03988921957671959,
+              -0.015547495039682543,
+              -0.0527188740079365,
+              -0.023194651124338633,
+              -0.03979621362433866
+            ],
+            "endpoint_interaction": -0.03979621362433866,
+            "interaction": [
+              0.0,
+              -0.03988921957671959,
+              -0.015547495039682543,
+              -0.0527188740079365,
+              -0.023194651124338633,
+              -0.03979621362433866
+            ],
+            "partial_live_minus_silent": [
+              0.000248015873015873,
+              0.03988921957671959,
+              0.12983630952380953,
+              0.136677414021164,
+              0.17102244543650796,
+              0.18240017361111113
+            ],
+            "payoff_key": "correct_executed_pair_rate"
+          }
+        },
+        "rule_mean_centered_AUC": 0.11081293230544531,
+        "seed": 63104
+      }
+    ],
+    "definition": "For each seed and rule, [(all_or_nothing live−silent)−(partial live−silent)] on correct executed-pair rate; subtract update0, trapezoid-integrate over six checkpoints /6000, then average strict and reciprocal.",
+    "independent_pilot_seeds": 4,
+    "inference": "Developmental four-seed pilot; no confirmatory interval or automatic continuation.",
+    "mean_centered_AUC": 0.14687869763248182,
+    "name": "mean_payoff_communication_interaction_centered_pair_rate_time_AUC",
+    "sample_sd": 0.02810771819550635,
+    "scope": "Pair labels are researcher-side unique-plan targets. This is an adaptive partner-selection statistic, not a language or compositionality score.",
+    "target": "heldout_layout",
+    "unit": "Probability difference averaged over training time; multiply by100 for percentage points."
+  },
+  "result_sha256": "0b88ad4e0f45d32475edc642fd46e2c1604f55a97df2caab2a626c0a46532b8c",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003",
+  "source_plan_sha256": "b8d1ce0631b9607f3a6d7c676cc36ada77148415e079ca41e2ed31f8722a00d5",
+  "source_prepared_sha256": "34ca0260a214290cafc34028adf0f93245320bdd2f9bc1ca67a7f3fe07fb6e7d",
+  "status": "passed"
+}

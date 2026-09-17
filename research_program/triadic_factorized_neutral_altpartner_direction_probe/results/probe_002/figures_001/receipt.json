@@ -1,0 +1,9 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Both PNG figures were opened and checked for readable labels, complete axes, and absence of clipping.",
+  "figures": [
+    "directional_transfer_forest.png",
+    "directional_transfer_conditions.png"
+  ]
+}

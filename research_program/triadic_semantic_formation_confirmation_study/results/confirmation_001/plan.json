@@ -1,0 +1,37 @@
+{
+  "candidate_sha256": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "created_at": "2026-09-17T01:12:51.908020+00:00",
+  "ecology": "unique",
+  "manifest_sha256": "e57c3ea72f5ea5ea79114db9e035bc9150e0276da6de1de64a8b50ae845c8a2d",
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "prepared_sha256": "c4e8584a9a4a94cca4f5accbff2ad5f74ab505ef3e9f92b0146026b0160b69d9",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "schema": "triadic_semantic_formation_confirmation_plan_v1",
+  "seeds": [
+    49301,
+    49302,
+    49303,
+    49304
+  ],
+  "sources": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/runner.py": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design.py": "b4062590cce29342d44d70f22d0198a57233878656b415a19bbdf40bb9b87a25",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/design_static_001/results.json": "580595aaaf7c46d6ad4ea462493def4942289be8395632a62aa6d2d1037a70f1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/results.json": "236af7afb23ee08d43e26fadd20b6510e79c71aac860df6acc0f6accdafe87b0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/runner.py": "e343f9844c614d3ceaa5c8e958fe056e2cf6b29efbc06e8ffd943ec4df3e4430",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/train_confirmation.py": "77c9c97b454ecb5856cbf30b2a032ca3aa72311cf14d0cf464bbbd16365a18b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6"
+  },
+  "status": "prepared_without_training"
+}

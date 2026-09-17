@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "error_type": "KeyboardInterrupt",
+  "error": "",
+  "backend": {
+    "calls": 161,
+    "load_seconds": 1.8562603750033304,
+    "inference_seconds": 537.020300089207,
+    "generation_tokens_by_mode": {
+      "private_analysis": 8774,
+      "natural_message": 2739,
+      "action": 30
+    },
+    "max_prompt_tokens": 5624,
+    "peak_mlx_memory_gb": 10.478795338
+  }
+}

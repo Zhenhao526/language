@@ -1,0 +1,12 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_new_receiver_compositional_holdout_study/results/holdout_001",
+  "figures": [
+    "absolute_heldout_q.png",
+    "compositional_transfer_gap.png",
+    "heldout_q_gain_auc.png",
+    "heldout_q_gain_endpoint.png",
+    "heldout_q_gain_trajectories.png"
+  ]
+}

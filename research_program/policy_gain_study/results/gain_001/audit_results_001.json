@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "error": "AssertionError('Independent all-mode J/native endpoint recount[0] keys')",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/audit_results.py\", line 415, in main\n    result=audit(args.batch,args.probe,args.analysis)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/audit_results.py\", line 342, in audit\n    equal(analyzed['endpoints'],endpoints,'Independent all-mode J/native endpoint recount')\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/audit_results.py\", line 61, in equal\n    equal(actual[i], v, f'{label}[{i}]')\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/audit_results.py\", line 55, in equal\n    check(isinstance(actual, dict) and set(actual) == set(expected), label+' keys')\n  File \"/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/audit_results.py\", line 37, in check\n    raise AssertionError(label)\nAssertionError: Independent all-mode J/native endpoint recount[0] keys\n",
+  "audit_script_sha256": "9d8c990749f3ab495bca6a486e790a8063bd636c97a64c4285f39962b260bc14",
+  "weights_loaded": 0,
+  "neural_forward_calls": 0
+}

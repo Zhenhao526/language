@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "phase": "calibration",
+  "conditions": [
+    "full_information"
+  ],
+  "groups": [
+    17
+  ],
+  "episodes_per_group": 2,
+  "scenarios": [
+    {
+      "episode": 1,
+      "seed": 92015,
+      "variant": 0
+    },
+    {
+      "episode": 2,
+      "seed": 92038,
+      "variant": 22
+    }
+  ],
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "alphabet": "@#%&*+=~",
+  "max_message_symbols": 32,
+  "per_agent_step_symbols": 64,
+  "windows": 4,
+  "private_analysis_max_tokens": 256,
+  "private_analysis_temperature": 0,
+  "message_temperature": 0.7,
+  "action_temperature": 0,
+  "natural_message_max_tokens": 96,
+  "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+  "history_mode": "independent_episodes",
+  "environment_family": "river_valley_v0.3",
+  "ecology_changes": [
+    "all wood initially processed",
+    "no axe or tool operations",
+    "roads always open"
+  ],
+  "source_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+    "analyze.py": "fa62f5a550adc2f4c77503d83566cd9a4e600df0deacb7672c369a4c96b93b8d",
+    "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+    "execute_locked_pipeline.py": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f",
+    "inspect_run.py": "a586202183aa343f51c44267320369ad036021255722b8a5acf97a4eb35f437a",
+    "probe.py": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+    "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+    "replay_snapshot.py": "2f85683151f960631f684b7870bb70c785eef6a3553340f0f986adad962acf87",
+    "report_suite.py": "10a65aa99ec3ff9b9ecd77f1ef242240bb28fad5e4a5c755ebb9de32ff548f9a",
+    "run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b"
+  },
+  "controls": "independent histories; natural language is not bandwidth matched",
+  "created": "2026-09-15T15:23:43.356151",
+  "preregistered_order": "group then episode then alternating condition order",
+  "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+}

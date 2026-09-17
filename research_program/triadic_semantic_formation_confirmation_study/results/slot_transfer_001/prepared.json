@@ -1,0 +1,144 @@
+{
+  "axis_case_counts": {
+    "destination_L_R": 144,
+    "kind_wood_fiber": 48,
+    "length_short_long": 48
+  },
+  "backgrounds_per_case": 36,
+  "candidate": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
+  "candidate_sha256": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+  "cases": 240,
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "manifest_sha256": "d71cbec13817a04c8a753937da7b90c13bafe4582df2b90581f9fcee966eef25",
+  "mask_definitions": [
+    {
+      "name": "mask_00",
+      "slots": []
+    },
+    {
+      "name": "mask_01",
+      "slots": [
+        0
+      ]
+    },
+    {
+      "name": "mask_02",
+      "slots": [
+        1
+      ]
+    },
+    {
+      "name": "mask_03",
+      "slots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "mask_04",
+      "slots": [
+        2
+      ]
+    },
+    {
+      "name": "mask_05",
+      "slots": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "mask_06",
+      "slots": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "mask_07",
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "mask_08",
+      "slots": [
+        3
+      ]
+    },
+    {
+      "name": "mask_09",
+      "slots": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "mask_10",
+      "slots": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "mask_11",
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "mask_12",
+      "slots": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "mask_13",
+      "slots": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "mask_14",
+      "slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "mask_15",
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "masks": 16,
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "partition": "heldout_layouts",
+  "schema": "triadic_semantic_formation_confirmation_slot_transfer_prepared_v1",
+  "seeds": [
+    49301,
+    49302,
+    49303,
+    49304
+  ],
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/confirmation_001",
+  "source_freeze_sha256": "2d90b7e1f734fae056e87b8858b7107e25847fd3411c58a6ebe05f8587483ddb",
+  "source_prepared_sha256": "c4e8584a9a4a94cca4f5accbff2ad5f74ab505ef3e9f92b0146026b0160b69d9",
+  "source_results_sha256": "6b40823ecc8af1dbdb02901e05bcf789b94f83830e797628959df4dcd8283331"
+}

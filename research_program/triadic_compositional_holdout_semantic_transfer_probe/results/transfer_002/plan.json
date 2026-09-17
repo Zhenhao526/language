@@ -1,0 +1,23 @@
+{
+  "case_rows": 3456,
+  "created_at": "2026-09-17T03:05:50.279746+00:00",
+  "inputs_sha256": "75038c37b07815acf113035f63531e6310565b7b10076f99b812bd548a2953d9",
+  "no_training": true,
+  "policy_blocks": 32,
+  "prepared_sha256": "a35d5f3ec6698de7ec56031800fd0981ee4f6cf72f8a628942b72854891dde6f",
+  "source_sha256": {
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/__init__.py": "3b00134969a1776912238b5867ecbcc241e48fbecdf0db17552a63133812c70b",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/aggregate.py": "7e352efe9cba175b9b40496bdd437f3186998c3fe5451b61e0ed4c86e77d5aab",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/audit.py": "74f25449ff66760bb680c1281fa3d5a607c7aee82115b6104dd183e35d6e13ed",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/design.py": "00ae206e5ae03bd4b6a2b6b9bc521a06d70756396d7da32bc2cd60b8d9f745d3",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/plan.md": "9416a4be60348fc3b68a06e7aa5364df81b07df32c883705889a63c64ea5c851",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/probe.py": "cf850c9587f7f08bae9faff29e5e52d7e59f93c272199f29fb1bcaa10e4179ee",
+    "research_program/triadic_compositional_holdout_semantic_transfer_probe/tests/test_design.py": "b7265db6ba0c194220a03d38bca0f2bbbb115a7041033e6650af7b16553c2d98",
+    "research_program/triadic_factorized_neutral_altpartner_direction_probe/intervention.py": "1969f88a65faedb40ba4d6666526566f7a51cee08030d5d829bf86dcd86722be",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/probe.py": "518fe5b51415c58c57d27ca8830c825d1e1e5202a67ab6f810e5d25227b84fc2",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60"
+  },
+  "status": "prepared_without_probe_forward"
+}

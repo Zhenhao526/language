@@ -1,0 +1,8 @@
+{
+  "audit_verification_sha256": "8ae468e2758fd13ae754bfbd9e5f2a92d5043c981337ff6a0aab54191e25e0fd",
+  "model_forward_samples": 0,
+  "optimizer_updates": 0,
+  "output_sha256": "c5768057024b5c1b293ef3998bb80cc3c336c2821394e30e9510142888a301f9",
+  "source_results_sha256": "ae1302ca5b5190bb0afd1b6a4d36677dc6c3bfce42f53ff3113a69e8e3110928",
+  "status": "passed"
+}

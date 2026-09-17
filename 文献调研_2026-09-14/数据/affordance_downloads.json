@@ -1,0 +1,41 @@
+[
+  {
+    "id": "A01",
+    "year": 2019,
+    "first_author": "Bouchacourt",
+    "title": "Miss Tools and Mr Fruit: Emergent Communication in Agents Learning about Object Affordances",
+    "authors": "Diane Bouchacourt; Marco Baroni",
+    "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3909–3918",
+    "status": "peer_reviewed",
+    "url": "https://aclanthology.org/P19-1380/",
+    "doi": "10.18653/v1/P19-1380",
+    "pdf_urls": [
+      "https://aclanthology.org/P19-1380.pdf"
+    ],
+    "theme": "物体功能可供性；合作决策；双向通信；角色轮换；通信因果评价",
+    "starting_point": "两个从头训练的神经智能体；一方看到两个工具的属性向量，另一方看到一个水果的属性向量。智能体以每轮一个离散符号（词表10项）交替通信，任意一方可停止并选择工具；选择对该水果最有用的工具获得共同奖励。工具和水果实例由属性分布采样，并非视觉图片。",
+    "manipulations": "通信可用性×对话内记忆的2×2比较；每个episode随机分配工具/水果角色及先手；测试同类别新实例和未见水果类别；测试自我对话及角色翻转后的解码。工具—水果效用函数跨episode保持稳定，没有在训练中切换任务目标或功能映射。",
+    "formation_measures": "任务成功率；Message Effect干预消息后对后续行为分布的影响及双向影响；成功会话的类别解码。主要评估训练后的通信，不追踪语义类别形成、分裂或合并的时间过程。",
+    "language_properties": "单符号、多轮、任务相关且可因果影响双方；会话可解码水果/工具类别；相同智能体可承担两种角色，但双方形成不同idiolect。关系性决策任务不等于已经发现关系谓词、论元绑定或组合语法；更长消息及组合性列为未来工作。",
+    "key_result": "稳定的功能性合作奖励支持真正双向的任务相关通信；工具优劣取决于水果及另一个候选工具。角色轮换不保证共享编码。取消符号而保留记忆时，停止/继续及回合位置仍可承载信息，提示无通信对照必须检查行为和时序渠道。",
+    "limitation": "人工属性向量和手工固定效用；只有双人及固定小类别空间；单回合消息只有一个符号；语义检测主要是对象类别可解码性。未匹配信息难度后独立操纵合作所需的意义区分，未考察既有协议对目标变化的纵向重组。",
+    "relevance": "是任务功能驱动通信的直接近邻。合作决策、工具—对象功能关系、随机角色轮换和双向通信都已有先例；候选研究应集中于固定观察分布并匹配信息难度时，改变合作所需决策区分，追踪已有语义类别拆分/合并及关系表达。此差异仅相对于本论文成立，不能据此断言整体文献的新颖性。",
+    "read_depth": "full_text",
+    "evidence_locator": "官方PDF正文：§2 pp.3909–3911（任务、属性向量、效用与角色）；§4.1 pp.3912–3915（因果Message Effect、记忆/通信及回合行为渠道）；§4.2 pp.3915–3916（对象类别解码、idiolect、自我对话、角色翻转、脚注7组合性未来工作）；§5 p.3916（效用跨episode稳定）；§6 pp.3916–3917（结论与未来工作）。未读取补充材料。",
+    "priority": "high_direct_neighbor",
+    "verified_as_of": "2026-09-14",
+    "overlap_with_candidate": "物体功能关系决定合作最优决策；分布式私有观察；有任务回报的协议学习；角色对称与轮换；双向通信的干预检验。",
+    "not_tested": "保持完整观察分布与信息难度相同、只改变合作任务/目标的因果对照；对同一既有协议改变决策类别要求；追踪意义类别拆分和合并；直接证明符号编码关系类型、角色或论元绑定。",
+    "local_filename": "2019_Bouchacourt_Miss Tools and Mr Fruit Emergent Communication in Agents Learning about Object Affordances.pdf",
+    "download_status": "downloaded",
+    "downloaded_url": "https://aclanthology.org/P19-1380.pdf",
+    "local_path": "/Users/xia/Documents/ChatGPT/语言/文献调研_2026-09-14/论文/02_神经多智能体/2019_Bouchacourt_Miss Tools and Mr Fruit Emergent Communication in Agents Learning about Object Affordances.pdf",
+    "pages": 10,
+    "bytes": 591873,
+    "sha256": "0de5e64c4d0b361609e6fd70b840403db85302c187c58b397f899b83c5cb4374",
+    "first_pages_preview": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics , pages 3909–3918\nFlorence, Italy, July 28 - August 2, 2019. c⃝2019 Association for Computational Linguistics\n3909\nMiss Tools and Mr Fruit: Emergent communication in agents learning\nabout object affordances\nDiane Bouchacourt1 and Marco Baroni1,2\n1Facebook A.I. Research\n2ICREA\n{dianeb,mbaroni}@fb.com\nAbstract\nRecent research studies communication emer-\ngence in communities of deep network agents\nassigned a joint task, hoping to gain insights\non human language evolution. We propose\nhere a new task capturing crucial aspects of\nthe human environment, such as natural ob-\nject affordances, and of human conversation,\nsuch as full symmetry among the participants.\nBy conducting a thorough pragmatic and se-\nmantic analysis of the emergent protocol, we\nshow that the agents solve the shared task\nthrough genuine bilateral, referential commu-\nnication. However, the agents develop mul-\ntiple idiolects, which makes us conclude that\nfull symmetry is not a sufﬁcient condition for\na common language to emerge.\n1 Introduction\nThe advent of powerful deep learning architec-\ntures has revived research in simulations of",
+    "download_attempts": [],
+    "title_verified": true,
+    "title_verification": "本地PDF首页标题、Diane Bouchacourt/Marco Baroni及ACL 2019 pp.3909–3918与官方书目一致；10页。"
+  }
+]

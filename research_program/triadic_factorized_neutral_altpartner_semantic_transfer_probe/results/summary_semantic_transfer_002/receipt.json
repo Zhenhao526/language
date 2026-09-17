@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-17T02:42:15.495066+00:00",
+  "model_forward_samples": 61839360,
+  "optimizer_updates": 0,
+  "outputs": {
+    "summary.json": "3890db4333af5cd87e67d08a68154ca49998d32b1743c22c69ba03013958fb00",
+    "汇总表.md": "8fbb4281721076bcf38efe0330ebbfb6c045804d6b0200a9d5a41e14832ed5f3"
+  },
+  "postprocess_note": "Markdown-only audit link corrected after aggregation; summary JSON and numerical values unchanged.",
+  "script_sha256": "aabe4728d28d23e653790c75b18e6cabcb57fffd5f5dd8175940691e1a1128cd",
+  "status": "completed"
+}

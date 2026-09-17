@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/run_calibration.py", line 394, in main
+    raw = client.act(obs["pov"])
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/policy_client.py", line 94, in act
+    response = self._request("act", frame=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/policy_client.py", line 74, in _request
+    response = self._read()
+               ^^^^^^^^^^^^
+  File "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/policy_client.py", line 53, in _read
+    if not selector.select(self.timeout):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/selectors.py", line 566, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

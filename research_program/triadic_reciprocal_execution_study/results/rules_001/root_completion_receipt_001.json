@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-16T03:56:21.166904+00:00",
+  "status": "root_checks_passed",
+  "previous_goal_turn": "progress",
+  "current_goal_turn": "progress",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/结果与下一步.md": "efad6bd5ae4669b5b7760c9e59b8f5c2daad7ec15bfd9b349fe8951811e1461d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/README.md": "afe6b01cc652557216c89b0969c76809403711b2a0eb75aa8389ebc5c9bfee64",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/next_step_review.md": "daf9cab7595a980c4bc7be3275395cd68ed6c3f5e68ed57de8cfc97533c843be",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/results.json": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/audit_execution_001/verification.json": "a0c375dc60833f1b4ce911125454bc2ea2d94a13aab14bfc4d9a4856c82ae638",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/summary_001/descriptive_summary.json": "3baf3074c1e88ce356d56f0faa284e4cf56d8ce97ffdfc479dc1b8ec83e962ef",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/figures_002/figure_receipt.json": "742a5ef8121b1bf52b38c6f938d55e063feb2d27b62ae384d66e2866ee18500c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/figures_002/visual_review_001.json": "8cde09b58ed5a371f4ed523836232cc0d9d573dcb35550b8aeb7a9ff796c5f69"
+  },
+  "main_execution": {
+    "session": 50554,
+    "exit_code": 0,
+    "elapsed_seconds": 229.28659679100383,
+    "final_chunk": "1406c4"
+  },
+  "audit_execution": {
+    "session": 99253,
+    "exit_code": 0,
+    "elapsed_seconds": 102.31370499997865,
+    "final_chunk": "4fa732"
+  },
+  "summary": {
+    "chunk": "6ae852",
+    "exit_code": 0,
+    "neural_forward_samples": 0
+  },
+  "frozen_verify": {
+    "chunk": "4033b3",
+    "status": "verified"
+  },
+  "root_checks": {
+    "chunk": "a26dc6",
+    "local_links_checked": 23,
+    "broken_local_links": 0,
+    "all_four_report_hashes_correct": true,
+    "main_audit_summary_primary_exact_equal": true,
+    "final_pngs_actually_viewed": 3,
+    "pdf_raster_review": false
+  },
+  "new_qwen_calls": 0,
+  "followon_diagnostic_executed": false,
+  "followon_training_executed": false,
+  "goal_complete": false
+}

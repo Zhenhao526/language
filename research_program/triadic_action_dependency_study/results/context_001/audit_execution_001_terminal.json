@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-09-15T18:24:59.720858+00:00",
+  "child_pid": 55372,
+  "exit_code": 0,
+  "elapsed_seconds": 260.61725000001024,
+  "audit_source_sha256": "20f1be8c017a53874346d1e8865620586d56de4128580b1e428c27899a30e96d",
+  "console_sha256": "a3d61a499ceffd9b3597f87ee4aa0470b69cffbb354d72ef68982e51076f98e7",
+  "automatic_retry": false
+}

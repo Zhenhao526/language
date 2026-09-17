@@ -1,0 +1,16 @@
+{
+  "case_count": 76032,
+  "optimizer_updates": 0,
+  "policy_blocks": 64,
+  "results_sha256": "52906f3775c6e358f00494fc7136b1ab08562c87cbcb1604b612066eb17225a5",
+  "status": "passed",
+  "variants": [
+    "full",
+    "slot_0",
+    "slot_1",
+    "slot_2",
+    "slot_3",
+    "recode_add1",
+    "recode_xor4"
+  ]
+}

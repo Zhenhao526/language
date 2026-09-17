@@ -1,0 +1,9 @@
+{
+  "xml_well_formed": true,
+  "drawing_elements": 24,
+  "correct_starting_food_element": true,
+  "script_action_space_checks": 340,
+  "game_started": false,
+  "behavior_or_initialization_verified": false,
+  "note": "Static configuration/interface checks only; actual position, resources and geometry remain unverified until native reset."
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-16T14:11:09.791335+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/metrics.py": "eee00e6c183302c429d5cd5e9e500ebd174cba37a4fd13bd7745f45a71b70519",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/aggregation_001/results.json": "0b88ad4e0f45d32475edc642fd46e2c1604f55a97df2caab2a626c0a46532b8c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/audit_001/verification.json": "9694261e4e7aea1d3c044cf37390b0967910792eb16066d7a54c33b6459f0f8b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/summarize.py": "439300e652a1d840ef1f97928ae9b11ddfba1ee5250fc25d662bfb17e634a602"
+  },
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/summary_001/summary.json": "e68b8113804a96a4b1ca715e055cabb80e5167cfe7518159c1e462e16b049657"
+  },
+  "status": "passed"
+}

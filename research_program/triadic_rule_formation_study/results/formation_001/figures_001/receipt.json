@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T06:44:28.112189+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/summary_001/summary.json": "01b54357029020c0d1f800270e74fb2a23b62eb982167d4630bed0ccbee8dcaf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/summary_001/receipt.json": "d25c7c0dae3271f9e855db08af42334120d4858dc94a874608288a54d4f6b6d4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/plot_results.py": "3fd4e2a2b632a43f3ef988e2527fa307dcbcadf4b02cbea3c1afe50b4164d7a3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_001/plot_data.json": "de2dae175e4d68cef71b5040bbb86069f007eebba282879a54c8850a171a42b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_001/01_formation_trajectory.png": "e3c71c531145ddfacf5d1eb3fcdbcc56c57f9670c7779ee47eb29aae646c5899",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_001/01_formation_trajectory.pdf": "61c2e9d065837cdcbd6bf5eda0abff2b74706b2e0ce61d3400c4a7d7f33b3d54",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_001/02_message_entropy.png": "9b60ef1c664648659ef4f0d8ec1fe13bfaa6e2a7726f181a46b067cd3a74f20c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_001/02_message_entropy.pdf": "f974feca72865d504fd272927b39ee46e142e8f98540c07c5207462c2fbca2fd"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0,
+  "scope": "Two predetermined static figures from completed JSON. No fitted curves,world-level intervals,posthoc seed selection or semantic score.",
+  "visual_review": "Pending actual PNG inspection; PDF files use the same figure objects but were not separately rasterized."
+}

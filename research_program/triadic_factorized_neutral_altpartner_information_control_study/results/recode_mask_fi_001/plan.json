@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-09-16T23:49:48.733397+00:00",
+  "intervention_scope": "first-window selected-sender packet only; recompute second-window messages and action greedily",
+  "manifest_sha256": "e0b8d6bc76adade526097e901c75d9c6aee5b4a3beba2bee0fa50c5f68a4fb8f",
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "prepared_sha256": "3c430bfecc0b304dd6a0b7d0855651a87db61b551bc724eafb4207cae33652ea",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_sha256": {
+    "execution/status.json": "29f86559fd28586bfb766b13602758cc89a7965e9d00dffca1e8d78fc650b2bb",
+    "freeze.json": "9eb6719fbc0379f8faa2c2d5edd1bd2e168d8d68648a6e9525d4fef872c8066c",
+    "prepared.json": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077"
+  },
+  "status": "prepared_without_policy_reads",
+  "transforms": [
+    "perm_00",
+    "perm_01",
+    "perm_02",
+    "perm_03",
+    "perm_04",
+    "perm_05",
+    "position_rotation",
+    "position_reverse",
+    "cross_payload_zero",
+    "cross_visibility_zero"
+  ]
+}

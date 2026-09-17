@@ -1,0 +1,498 @@
+{
+  "status": "passed_after_two_document_corrections",
+  "at": "2026-09-16T03:29:09.601578+00:00",
+  "reviewer": "partner_identifiability",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/结果与下一步.md": "d0aa907665549552ab9d0b660d1397af7b852f541ace7e1cb9313cd5e9bd5a38",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/README.md": "5bad8da052c0944ac4e8d6773154fdf3577c3950f9e5584a175e18d1e7dc54d3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/execution/results.json": "3091280846d9dfe812bd92e856cde30f8d9891ce3159e9463a2f5c047ecc95e6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/summary_001/descriptive_summary.json": "41c4764f70f6a44ce434328c2f95c95c278fbac2492ef94b8819fc12ae86be4a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/audit_execution_001/verification.json": "884db6fd8bb2886673932cb4860a309b4246c1a5aec9ae1dbdeb41c30b8a4308",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/plan.json": "9cf2995a75acb9cd5d69d36897019299bb9123095b684922345b3ae41ddc9f41",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/prepared.json": "fdd24e5519a74b04d0527a4edd3ea855238981945c7f0776a004efe1e2956d54",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/main_preflight.json": "b7256bf8482c538a040340ebc2a3c71c8bf0e6c69ffd70d4616ac387e362d1db",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/dataset_preflight_001.json": "dd0726bb34fce383dfd75600c7152e34e310779f367102b33d0a4742ea9e8d2c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/learner_preflight_001.json": "3f0fae43be04efd84acd4edab4bf05f2cdb6d9255a4608227aac8c1ceb1b8a8d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/audit_preflight_001.json": "2f26837b9145000478fb8e975871902c175cd9d2d0de278436044b68002b70bc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/summary_preflight_001.json": "f94f040f2bd539396aff7d83d0a9bc3dd0f7a486099ab741b9fb575b4a2ddae6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/figures_002/visual_review_001.json": "ceca21c021a5974f275cc640533eba8de991ff370f1b70b43c7971ed961c7873",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/results.json": "0d0fd3bbea91eae728384b0bffc4e040f250193004465451305eb56d451615e2"
+  },
+  "checks": [
+    {
+      "check": "Main absolute metric table: all20 cells",
+      "passed": true,
+      "detail": {
+        "Own": {
+          "joint_accuracy": 0.06165994623655914,
+          "indiv_accuracy": 0.3277744590468605,
+          "cross_entropy": 1.1131055695401624,
+          "expected_joint_correct_probability": 0.03666978737513208
+        },
+        "FI": {
+          "joint_accuracy": 1.0,
+          "indiv_accuracy": 1.0,
+          "cross_entropy": 0.0005295319546311655,
+          "expected_joint_correct_probability": 0.9984300055465289
+        },
+        "Initial": {
+          "joint_accuracy": 0.35799046694544007,
+          "indiv_accuracy": 0.6373093803929377,
+          "cross_entropy": 0.8366417513232829,
+          "expected_joint_correct_probability": 0.23774844372949278
+        },
+        "Final/a50": {
+          "joint_accuracy": 0.2538175776583035,
+          "indiv_accuracy": 0.5796230958781362,
+          "cross_entropy": 0.7168084561028636,
+          "expected_joint_correct_probability": 0.18130991101663596
+        },
+        "Final/a10": {
+          "joint_accuracy": 0.33147743677817604,
+          "indiv_accuracy": 0.634729585656445,
+          "cross_entropy": 0.6175319015694898,
+          "expected_joint_correct_probability": 0.2567004874911591
+        }
+      }
+    },
+    {
+      "check": "Primary table: all15 cells, no dropped seed or payoff",
+      "passed": true,
+      "detail": {
+        "seeds": [
+          {
+            "old_seed": 53101,
+            "a50": -0.029358323377140578,
+            "a10": 0.011430953803265623,
+            "mean": -0.008963684786937477
+          },
+          {
+            "old_seed": 53102,
+            "a50": -0.06432945041816009,
+            "a10": -0.07886549183592194,
+            "mean": -0.07159747112704101
+          },
+          {
+            "old_seed": 53103,
+            "a50": -0.2765830346475508,
+            "a10": 0.004019812823576256,
+            "mean": -0.13628161091198726
+          },
+          {
+            "old_seed": 53104,
+            "a50": -0.04642074870569494,
+            "a10": -0.042637395459976114,
+            "mean": -0.044529072082835526
+          }
+        ],
+        "means": {
+          "a50": -0.1041728892871366,
+          "a10": -0.026513030167264043,
+          "mean": -0.06534295972720032
+        }
+      }
+    },
+    {
+      "check": "All four primary society-level effects are negative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Independent paired reduction agrees with main primary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All four partitions table: all20 cells",
+      "passed": true,
+      "detail": {
+        "train": {
+          "Own": 0.05799897119341564,
+          "FI": 1.0,
+          "Initial": 0.4779294791190367,
+          "Final/a50": 0.32130498875933544,
+          "Final/a10": 0.418430164990093
+        },
+        "new_needs": {
+          "Own": 0.062408734899774325,
+          "FI": 1.0,
+          "Initial": 0.4272544553962565,
+          "Final/a50": 0.2567219857626444,
+          "Final/a10": 0.33108852299880526
+        },
+        "new_layouts": {
+          "Own": 0.05717021033379058,
+          "FI": 1.0,
+          "Initial": 0.39521831180460293,
+          "Final/a50": 0.3193170343697607,
+          "Final/a10": 0.41825155273586345
+        },
+        "new_needs_and_layouts": {
+          "Own": 0.06165994623655914,
+          "FI": 1.0,
+          "Initial": 0.35799046694544007,
+          "Final/a50": 0.2538175776583035,
+          "Final/a10": 0.33147743677817604
+        }
+      }
+    },
+    {
+      "check": "Both Final CE cohort means improve; this is not a universal seedwise claim",
+      "passed": true,
+      "detail": [
+        {
+          "old_seed": 53101,
+          "a50_minus_initial": -0.206977285744825,
+          "a10_minus_initial": -0.33949845529859346
+        },
+        {
+          "old_seed": 53102,
+          "a50_minus_initial": -0.13702776298369734,
+          "a10_minus_initial": -0.10585720706808055
+        },
+        {
+          "old_seed": 53103,
+          "a50_minus_initial": 0.04319865183017346,
+          "a10_minus_initial": -0.24762837660889436
+        },
+        {
+          "old_seed": 53104,
+          "a50_minus_initial": -0.17852678398332855,
+          "a10_minus_initial": -0.18345536003960405
+        }
+      ]
+    },
+    {
+      "check": "Only a10 has higher mean true joint probability than Initial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "New-layout advantage is explicitly limited to a10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Only53103 Initial and53103 a10 Final exceed bound, all three probes each",
+      "passed": true,
+      "detail": [
+        {
+          "id": "probe_55101_Initial_protocol_53103",
+          "old_seed": 53103,
+          "payoff": null,
+          "probe_seed": 55101,
+          "view": "Initial"
+        },
+        {
+          "id": "probe_55101_Final_protocol_53103_a10",
+          "old_seed": 53103,
+          "payoff": "a10",
+          "probe_seed": 55101,
+          "view": "Final"
+        },
+        {
+          "id": "probe_55102_Initial_protocol_53103",
+          "old_seed": 53103,
+          "payoff": null,
+          "probe_seed": 55102,
+          "view": "Initial"
+        },
+        {
+          "id": "probe_55102_Final_protocol_53103_a10",
+          "old_seed": 53103,
+          "payoff": "a10",
+          "probe_seed": 55102,
+          "view": "Final"
+        },
+        {
+          "id": "probe_55103_Initial_protocol_53103",
+          "old_seed": 53103,
+          "payoff": null,
+          "probe_seed": 55103,
+          "view": "Initial"
+        },
+        {
+          "id": "probe_55103_Final_protocol_53103_a10",
+          "old_seed": 53103,
+          "payoff": "a10",
+          "probe_seed": 55103,
+          "view": "Final"
+        }
+      ]
+    },
+    {
+      "check": "Above-bound means38.5168 and38.9188 correctly rounded",
+      "passed": true,
+      "detail": {
+        "Initial": 0.3851677618478694,
+        "Final": 0.38918757467144566
+      }
+    },
+    {
+      "check": "Own is explicitly not a general no-communication upper bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FI three probes attain100% in every final partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Monitoring100/500 Final arms both above Initial",
+      "passed": true,
+      "detail": {
+        "0": {
+          "Own": 0.051635304659498206,
+          "FI": 0.07202060931899641,
+          "Initial": 0.026041666666666668,
+          "Final/a50": 0.01660506272401434,
+          "Final/a10": 0.010668682795698924
+        },
+        "100": {
+          "Own": 0.12992831541218638,
+          "FI": 0.222334229390681,
+          "Initial": 0.16677867383512546,
+          "Final/a50": 0.23401097670250895,
+          "Final/a10": 0.2772737455197133
+        },
+        "500": {
+          "Own": 0.07067652329749104,
+          "FI": 0.9237231182795699,
+          "Initial": 0.2061771953405018,
+          "Final/a50": 0.2439516129032258,
+          "Final/a10": 0.32064852150537637
+        },
+        "1500": {
+          "Own": 0.06048387096774194,
+          "FI": 1.0,
+          "Initial": 0.3477542562724014,
+          "Final/a50": 0.24669578853046595,
+          "Final/a10": 0.3297211021505376
+        },
+        "3000": {
+          "Own": 0.07459677419354839,
+          "FI": 1.0,
+          "Initial": 0.3579469086021505,
+          "Final/a50": 0.25977262544802865,
+          "Final/a10": 0.3366375448028674
+        },
+        "6000": {
+          "Own": 0.06137992831541219,
+          "FI": 1.0,
+          "Initial": 0.3531306003584229,
+          "Final/a50": 0.25562836021505375,
+          "Final/a10": 0.33442540322580644
+        }
+      }
+    },
+    {
+      "check": "Monitoring1500/3000/6000 Initial above both Final arms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Monitoring distinguished from original society formation and generations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2976 monitor worlds versus53568 complete endpoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All1176 main records agree with summary and independent audit metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Formal budget independently recomputed from complete records",
+      "passed": true,
+      "detail": {
+        "actual_decoder_runs": 42,
+        "logical_decoder_runs": 96,
+        "aliased_decoder_runs": 54,
+        "updates": 252000,
+        "training_world_samples": 64512000,
+        "training_forward_module_samples": 193536000,
+        "checkpoints": 252,
+        "actual_monitor_files": 1008,
+        "actual_final_files": 168,
+        "decoder_evaluation_module_samples": 113799168,
+        "initial_transcript_files": 16,
+        "initial_sender_module_samples": 18579456,
+        "reused_final_transcript_files": 32
+      }
+    },
+    {
+      "check": "Audit116121600 module samples and stated errors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Elapsed times correctly rounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Real scratch1488 samples/3 updates and stub36 correctly separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Reported preflight25/8/3 tests and independent audit18 scratch samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Previous24 policies actually fixed one mutual pair over full support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All report key SHA values match current files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All local report/README links resolve",
+      "passed": true,
+      "detail": {
+        "link_instances": 23,
+        "unique_targets": 15
+      }
+    },
+    {
+      "check": "README main conclusion matches report",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "quantitative_table_cells_verified": 55,
+  "main_summary_audit_records_compared": 1176,
+  "resolved_findings": [
+    {
+      "issue": "Earlier opening left new-layout advantage scope implicit",
+      "correction": "Current opening explicitly limits it to alpha0.1",
+      "status": "resolved_by_root"
+    },
+    {
+      "issue": "Earlier text counted18 rather than36 total dataset stub module samples",
+      "correction": "Current report states standalone and root combined tests18 each,36 total",
+      "status": "resolved_by_root"
+    }
+  ],
+  "additional_boundary_note": "Mean CE improves for both payoff arms, but53103/a50 CE worsens by0.04319865183 nats relative to Initial. The report makes a cohort-mean claim and does not claim improvement in every society.",
+  "independent_primary_recalculation": [
+    {
+      "old_seed": 53101,
+      "a50": -0.029358323377140578,
+      "a10": 0.011430953803265623,
+      "mean": -0.008963684786937477
+    },
+    {
+      "old_seed": 53102,
+      "a50": -0.06432945041816009,
+      "a10": -0.07886549183592194,
+      "mean": -0.07159747112704101
+    },
+    {
+      "old_seed": 53103,
+      "a50": -0.2765830346475508,
+      "a10": 0.004019812823576256,
+      "mean": -0.13628161091198726
+    },
+    {
+      "old_seed": 53104,
+      "a50": -0.04642074870569494,
+      "a10": -0.042637395459976114,
+      "mean": -0.044529072082835526
+    }
+  ],
+  "independent_group_absolute_metrics": {
+    "Own": {
+      "joint_accuracy": 0.06165994623655914,
+      "indiv_accuracy": 0.3277744590468605,
+      "cross_entropy": 1.1131055695401624,
+      "expected_joint_correct_probability": 0.03666978737513208
+    },
+    "FI": {
+      "joint_accuracy": 1.0,
+      "indiv_accuracy": 1.0,
+      "cross_entropy": 0.0005295319546311655,
+      "expected_joint_correct_probability": 0.9984300055465289
+    },
+    "Initial": {
+      "joint_accuracy": 0.35799046694544007,
+      "indiv_accuracy": 0.6373093803929377,
+      "cross_entropy": 0.8366417513232829,
+      "expected_joint_correct_probability": 0.23774844372949278
+    },
+    "Final/a50": {
+      "joint_accuracy": 0.2538175776583035,
+      "indiv_accuracy": 0.5796230958781362,
+      "cross_entropy": 0.7168084561028636,
+      "expected_joint_correct_probability": 0.18130991101663596
+    },
+    "Final/a10": {
+      "joint_accuracy": 0.33147743677817604,
+      "indiv_accuracy": 0.634729585656445,
+      "cross_entropy": 0.6175319015694898,
+      "expected_joint_correct_probability": 0.2567004874911591
+    }
+  },
+  "monitor_values": {
+    "0": {
+      "Own": 0.051635304659498206,
+      "FI": 0.07202060931899641,
+      "Initial": 0.026041666666666668,
+      "Final/a50": 0.01660506272401434,
+      "Final/a10": 0.010668682795698924
+    },
+    "100": {
+      "Own": 0.12992831541218638,
+      "FI": 0.222334229390681,
+      "Initial": 0.16677867383512546,
+      "Final/a50": 0.23401097670250895,
+      "Final/a10": 0.2772737455197133
+    },
+    "500": {
+      "Own": 0.07067652329749104,
+      "FI": 0.9237231182795699,
+      "Initial": 0.2061771953405018,
+      "Final/a50": 0.2439516129032258,
+      "Final/a10": 0.32064852150537637
+    },
+    "1500": {
+      "Own": 0.06048387096774194,
+      "FI": 1.0,
+      "Initial": 0.3477542562724014,
+      "Final/a50": 0.24669578853046595,
+      "Final/a10": 0.3297211021505376
+    },
+    "3000": {
+      "Own": 0.07459677419354839,
+      "FI": 1.0,
+      "Initial": 0.3579469086021505,
+      "Final/a50": 0.25977262544802865,
+      "Final/a10": 0.3366375448028674
+    },
+    "6000": {
+      "Own": 0.06137992831541219,
+      "FI": 1.0,
+      "Initial": 0.3531306003584229,
+      "Final/a50": 0.25562836021505375,
+      "Final/a10": 0.33442540322580644
+    }
+  },
+  "scope": {
+    "neural_forward_calls": 0,
+    "model_parameters_loaded": 0,
+    "training_updates": 0,
+    "npz_arrays_loaded": 0,
+    "numeric_method": "Fresh arithmetic from completed main JSON, without importing the production runner or summary implementation; all1176 record summaries also compared with stored independent audit.",
+    "not_repeated": "No optimizer, neural, probability-array, or image visual replay in this report review. Existing audit and visual-review receipts were read; no new visual-inspection claim.",
+    "excluded_followon_static_claims": "The appended reciprocal-execution static path counts, bounds, and next FI experiment draft are outside this decoder report review. Their links were checked for existence only; a separate bounds reviewer owns the mathematics."
+  }
+}

@@ -1,0 +1,3869 @@
+{
+  "audit": {
+    "max_abs_error": 0.0,
+    "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/audit_semantic_transfer_002",
+    "status": "passed",
+    "verification_sha256": "4c0be3ace81e6711fc880c9c9a38089dbc032ffca1c348cfca5329caf521a045"
+  },
+  "axis_balanced_seed": {
+    "66701/rematched/live": {
+      "aligned": {
+        "action_change": 0.27575864438657405,
+        "conditional_q": 0.34535001431670737,
+        "partner_transfer": 0.0,
+        "physical": 0.6772578486689814,
+        "plan_transfer": 0.11991915779371116,
+        "q": 0.2306378399884259
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.14457013165509255,
+        "conditional_q": -0.04181604927711452,
+        "partner_transfer": 0.0,
+        "physical": -0.10578974971064814,
+        "plan_transfer": 0.08870539727305297,
+        "q": -0.06940556278935185
+      },
+      "placebo": {
+        "action_change": 0.1311885127314815,
+        "conditional_q": 0.3871660635938219,
+        "partner_transfer": 0.0,
+        "physical": 0.7830475983796297,
+        "plan_transfer": 0.031213760520658218,
+        "q": 0.3000434027777778
+      }
+    },
+    "66701/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5483780506944033,
+        "partner_transfer": 0.0,
+        "physical": 0.31546495225694443,
+        "plan_transfer": 0.0,
+        "q": 0.17628942418981483
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5483780506944033,
+        "partner_transfer": 0.0,
+        "physical": 0.31546495225694443,
+        "plan_transfer": 0.0,
+        "q": 0.17628942418981483
+      }
+    },
+    "66701/static/live": {
+      "aligned": {
+        "action_change": 0.33036566840277776,
+        "conditional_q": 0.3004363197407481,
+        "partner_transfer": 0.0,
+        "physical": 0.662939453125,
+        "plan_transfer": 0.14781986073374936,
+        "q": 0.22927336516203703
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.1792842158564815,
+        "conditional_q": -0.10806825382902376,
+        "partner_transfer": 0.0,
+        "physical": -0.11371437355324072,
+        "plan_transfer": 0.10957014769239203,
+        "q": -0.08491572627314814
+      },
+      "placebo": {
+        "action_change": 0.1510814525462963,
+        "conditional_q": 0.4085045735697718,
+        "partner_transfer": 0.0,
+        "physical": 0.7766538266782407,
+        "plan_transfer": 0.038249713041357346,
+        "q": 0.3141890914351852
+      }
+    },
+    "66701/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.48547845076384827,
+        "partner_transfer": 0.0,
+        "physical": 0.34100115740740744,
+        "plan_transfer": 0.0,
+        "q": 0.16804470486111112
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.48547845076384827,
+        "partner_transfer": 0.0,
+        "physical": 0.34100115740740744,
+        "plan_transfer": 0.0,
+        "q": 0.16804470486111112
+      }
+    },
+    "66702/rematched/live": {
+      "aligned": {
+        "action_change": 0.3115677445023148,
+        "conditional_q": 0.4139885174855927,
+        "partner_transfer": 0.0,
+        "physical": 0.692505787037037,
+        "plan_transfer": 0.17572666102542536,
+        "q": 0.2803294994212963
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.1699028862847222,
+        "conditional_q": -0.042376332229286516,
+        "partner_transfer": 0.0,
+        "physical": -0.13248517071759258,
+        "plan_transfer": 0.12012654033496371,
+        "q": -0.09514702690972225
+      },
+      "placebo": {
+        "action_change": 0.1416648582175926,
+        "conditional_q": 0.4563648497148793,
+        "partner_transfer": 0.0,
+        "physical": 0.8249909577546296,
+        "plan_transfer": 0.05560012069046166,
+        "q": 0.3754765263310185
+      }
+    },
+    "66702/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5024584114048334,
+        "partner_transfer": 0.0,
+        "physical": 0.31191134982638885,
+        "plan_transfer": 0.0,
+        "q": 0.158837890625
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5024584114048334,
+        "partner_transfer": 0.0,
+        "physical": 0.31191134982638885,
+        "plan_transfer": 0.0,
+        "q": 0.158837890625
+      }
+    },
+    "66702/static/live": {
+      "aligned": {
+        "action_change": 0.2819706669560185,
+        "conditional_q": 0.35527249520674803,
+        "partner_transfer": 0.0,
+        "physical": 0.6758734809027778,
+        "plan_transfer": 0.11595063197267523,
+        "q": 0.24063946759259258
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.13488498263888885,
+        "conditional_q": -0.04417765691628639,
+        "partner_transfer": 0.0,
+        "physical": -0.11106137876157411,
+        "plan_transfer": 0.08906550397583597,
+        "q": -0.07285789207175929
+      },
+      "placebo": {
+        "action_change": 0.14708568431712962,
+        "conditional_q": 0.3994501521230344,
+        "partner_transfer": 0.0,
+        "physical": 0.7869348596643518,
+        "plan_transfer": 0.026885127996839245,
+        "q": 0.3134973596643518
+      }
+    },
+    "66702/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.36280059786461855,
+        "partner_transfer": 0.0,
+        "physical": 0.38527560763888885,
+        "plan_transfer": 0.0,
+        "q": 0.14292625144675927
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.36280059786461855,
+        "partner_transfer": 0.0,
+        "physical": 0.38527560763888885,
+        "plan_transfer": 0.0,
+        "q": 0.14292625144675927
+      }
+    },
+    "66703/rematched/live": {
+      "aligned": {
+        "action_change": 0.337158203125,
+        "conditional_q": 0.3866933177750025,
+        "partner_transfer": 0.0,
+        "physical": 0.7126383463541667,
+        "plan_transfer": 0.2762335932962327,
+        "q": 0.35181387442129636
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.11980432581018519,
+        "conditional_q": -0.11856720894654453,
+        "partner_transfer": 0.0,
+        "physical": -0.0753381799768519,
+        "plan_transfer": 0.12460780027453562,
+        "q": -0.07813042534722223
+      },
+      "placebo": {
+        "action_change": 0.21735387731481481,
+        "conditional_q": 0.505260526721547,
+        "partner_transfer": 0.0,
+        "physical": 0.7879765263310187,
+        "plan_transfer": 0.1516257930216971,
+        "q": 0.42994429976851856
+      }
+    },
+    "66703/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.37986055725286794,
+        "partner_transfer": 0.0,
+        "physical": 0.36072048611111107,
+        "plan_transfer": 0.0,
+        "q": 0.14363425925925924
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.37986055725286794,
+        "partner_transfer": 0.0,
+        "physical": 0.36072048611111107,
+        "plan_transfer": 0.0,
+        "q": 0.14363425925925924
+      }
+    },
+    "66703/static/live": {
+      "aligned": {
+        "action_change": 0.36410047743055557,
+        "conditional_q": 0.3559489135696059,
+        "partner_transfer": 0.0,
+        "physical": 0.7217348451967592,
+        "plan_transfer": 0.2908603290090662,
+        "q": 0.3110035083912037
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.11164550781250003,
+        "conditional_q": -0.10514980653050722,
+        "partner_transfer": 0.0,
+        "physical": -0.039935980902777814,
+        "plan_transfer": 0.1256682335072408,
+        "q": -0.06750307436342594
+      },
+      "placebo": {
+        "action_change": 0.2524549696180555,
+        "conditional_q": 0.4610987201001131,
+        "partner_transfer": 0.0,
+        "physical": 0.761670826099537,
+        "plan_transfer": 0.16519209550182543,
+        "q": 0.3785065827546297
+      }
+    },
+    "66703/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.44560176149358094,
+        "partner_transfer": 0.0,
+        "physical": 0.34906774450231487,
+        "plan_transfer": 0.0,
+        "q": 0.1594871238425926
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.44560176149358094,
+        "partner_transfer": 0.0,
+        "physical": 0.34906774450231487,
+        "plan_transfer": 0.0,
+        "q": 0.1594871238425926
+      }
+    },
+    "66704/rematched/live": {
+      "aligned": {
+        "action_change": 0.31678421585648153,
+        "conditional_q": 0.3927243576868851,
+        "partner_transfer": 0.0,
+        "physical": 0.6609980830439816,
+        "plan_transfer": 0.19894165485218637,
+        "q": 0.32274486400462965
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.07563657407407413,
+        "conditional_q": -0.08056664479282126,
+        "partner_transfer": 0.0,
+        "physical": -0.04611364293981485,
+        "plan_transfer": 0.0673330107120929,
+        "q": -0.04372829861111111
+      },
+      "placebo": {
+        "action_change": 0.2411476417824074,
+        "conditional_q": 0.47329100247970635,
+        "partner_transfer": 0.0,
+        "physical": 0.7071117259837963,
+        "plan_transfer": 0.13160864414009346,
+        "q": 0.36647316261574076
+      }
+    },
+    "66704/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.37507914105817114,
+        "partner_transfer": 0.0,
+        "physical": 0.36177209924768516,
+        "plan_transfer": 0.0,
+        "q": 0.13764919704861112
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.37507914105817114,
+        "partner_transfer": 0.0,
+        "physical": 0.36177209924768516,
+        "plan_transfer": 0.0,
+        "q": 0.13764919704861112
+      }
+    },
+    "66704/static/live": {
+      "aligned": {
+        "action_change": 0.3287489149305555,
+        "conditional_q": 0.3951778743708049,
+        "partner_transfer": 0.0,
+        "physical": 0.7230721932870371,
+        "plan_transfer": 0.2986828966502285,
+        "q": 0.3412941261574074
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.08796657986111113,
+        "conditional_q": -0.148946114686819,
+        "partner_transfer": 0.0,
+        "physical": -0.03205566406250001,
+        "plan_transfer": 0.1418865536982451,
+        "q": -0.0791431568287037
+      },
+      "placebo": {
+        "action_change": 0.24078233506944444,
+        "conditional_q": 0.5441239890576239,
+        "partner_transfer": 0.0,
+        "physical": 0.755127857349537,
+        "plan_transfer": 0.1567963429519834,
+        "q": 0.4204372829861111
+      }
+    },
+    "66704/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4399963148746722,
+        "partner_transfer": 0.0,
+        "physical": 0.342528392650463,
+        "plan_transfer": 0.0,
+        "q": 0.15462149160879632
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4399963148746722,
+        "partner_transfer": 0.0,
+        "physical": 0.342528392650463,
+        "plan_transfer": 0.0,
+        "q": 0.15462149160879632
+      }
+    },
+    "66705/rematched/live": {
+      "aligned": {
+        "action_change": 0.33377640335648157,
+        "conditional_q": 0.3883818575838924,
+        "partner_transfer": 0.0,
+        "physical": 0.6321343315972222,
+        "plan_transfer": 0.1907016569102995,
+        "q": 0.24708839699074073
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.1758264612268519,
+        "conditional_q": -0.06949311154579589,
+        "partner_transfer": 0.0,
+        "physical": -0.1389955873842593,
+        "plan_transfer": 0.12204601124385069,
+        "q": -0.106884765625
+      },
+      "placebo": {
+        "action_change": 0.15794994212962965,
+        "conditional_q": 0.4578749691296882,
+        "partner_transfer": 0.0,
+        "physical": 0.7711299189814814,
+        "plan_transfer": 0.06865564566644881,
+        "q": 0.35397316261574074
+      }
+    },
+    "66705/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4150076589902414,
+        "partner_transfer": 0.0,
+        "physical": 0.37952383535879636,
+        "plan_transfer": 0.0,
+        "q": 0.1598017939814815
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4150076589902414,
+        "partner_transfer": 0.0,
+        "physical": 0.37952383535879636,
+        "plan_transfer": 0.0,
+        "q": 0.1598017939814815
+      }
+    },
+    "66705/static/live": {
+      "aligned": {
+        "action_change": 0.38562735098379636,
+        "conditional_q": 0.41233169654586127,
+        "partner_transfer": 0.0,
+        "physical": 0.669629810474537,
+        "plan_transfer": 0.28655228847721365,
+        "q": 0.3006456163194445
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.17926793981481484,
+        "conditional_q": -0.16402535143406027,
+        "partner_transfer": 0.0,
+        "physical": -0.09643283420138887,
+        "plan_transfer": 0.1998802451694286,
+        "q": -0.1361554181134259
+      },
+      "placebo": {
+        "action_change": 0.2063594111689815,
+        "conditional_q": 0.5763570479799216,
+        "partner_transfer": 0.0,
+        "physical": 0.7660626446759258,
+        "plan_transfer": 0.08667204330778501,
+        "q": 0.4368010344328704
+      }
+    },
+    "66705/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.46875239533466484,
+        "partner_transfer": 0.0,
+        "physical": 0.3639431423611111,
+        "plan_transfer": 0.0,
+        "q": 0.17290310329861114
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.46875239533466484,
+        "partner_transfer": 0.0,
+        "physical": 0.3639431423611111,
+        "plan_transfer": 0.0,
+        "q": 0.17290310329861114
+      }
+    },
+    "66706/rematched/live": {
+      "aligned": {
+        "action_change": 0.3218135127314815,
+        "conditional_q": 0.291454682022271,
+        "partner_transfer": 0.0,
+        "physical": 0.6424714265046297,
+        "plan_transfer": 0.14586312766567203,
+        "q": 0.21414478443287036
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0679343894675926,
+        "conditional_q": -0.040428237005170696,
+        "partner_transfer": 0.0,
+        "physical": -0.04744104456018509,
+        "plan_transfer": 0.013768616065933242,
+        "q": -0.01042480468750002
+      },
+      "placebo": {
+        "action_change": 0.2538791232638889,
+        "conditional_q": 0.33188291902744166,
+        "partner_transfer": 0.0,
+        "physical": 0.6899124710648148,
+        "plan_transfer": 0.13209451159973878,
+        "q": 0.2245695891203704
+      }
+    },
+    "66706/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.45595841864600267,
+        "partner_transfer": 0.0,
+        "physical": 0.3278980396412037,
+        "plan_transfer": 0.0,
+        "q": 0.15385742187499998
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.45595841864600267,
+        "partner_transfer": 0.0,
+        "physical": 0.3278980396412037,
+        "plan_transfer": 0.0,
+        "q": 0.15385742187499998
+      }
+    },
+    "66706/static/live": {
+      "aligned": {
+        "action_change": 0.3098515263310185,
+        "conditional_q": 0.36683543354419085,
+        "partner_transfer": 0.0,
+        "physical": 0.6823893229166668,
+        "plan_transfer": 0.17555644615894253,
+        "q": 0.24777018229166667
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.05822211371527775,
+        "conditional_q": -0.00602953627075246,
+        "partner_transfer": 0.0,
+        "physical": -0.04872142650462959,
+        "plan_transfer": 0.016028109996029345,
+        "q": -0.012812861689814825
+      },
+      "placebo": {
+        "action_change": 0.25162941261574073,
+        "conditional_q": 0.3728649698149433,
+        "partner_transfer": 0.0,
+        "physical": 0.7311107494212963,
+        "plan_transfer": 0.1595283361629132,
+        "q": 0.2605830439814815
+      }
+    },
+    "66706/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4035661730849454,
+        "partner_transfer": 0.0,
+        "physical": 0.35992748119212964,
+        "plan_transfer": 0.0,
+        "q": 0.14778736255787037
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4035661730849454,
+        "partner_transfer": 0.0,
+        "physical": 0.35992748119212964,
+        "plan_transfer": 0.0,
+        "q": 0.14778736255787037
+      }
+    },
+    "66707/rematched/live": {
+      "aligned": {
+        "action_change": 0.3441578052662037,
+        "conditional_q": 0.4539788972914425,
+        "partner_transfer": 0.0,
+        "physical": 0.7387876157407408,
+        "plan_transfer": 0.3078288085634886,
+        "q": 0.3612322771990741
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.17722800925925922,
+        "conditional_q": -0.17870137368380257,
+        "partner_transfer": 0.0,
+        "physical": -0.07461570457175926,
+        "plan_transfer": 0.23509312363708035,
+        "q": -0.15394603587962966
+      },
+      "placebo": {
+        "action_change": 0.16692979600694446,
+        "conditional_q": 0.632680270975245,
+        "partner_transfer": 0.0,
+        "physical": 0.8134033203125001,
+        "plan_transfer": 0.07273568492640824,
+        "q": 0.5151783130787037
+      }
+    },
+    "66707/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5128401291646464,
+        "partner_transfer": 0.0,
+        "physical": 0.2926296657986111,
+        "plan_transfer": 0.0,
+        "q": 0.1531132450810185
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5128401291646464,
+        "partner_transfer": 0.0,
+        "physical": 0.2926296657986111,
+        "plan_transfer": 0.0,
+        "q": 0.1531132450810185
+      }
+    },
+    "66707/static/live": {
+      "aligned": {
+        "action_change": 0.3611689814814815,
+        "conditional_q": 0.38936362371321215,
+        "partner_transfer": 0.0,
+        "physical": 0.6797453703703704,
+        "plan_transfer": 0.2768342834276873,
+        "q": 0.2768744574652778
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.1539731626157408,
+        "conditional_q": -0.16082397380225105,
+        "partner_transfer": 0.0,
+        "physical": -0.07949580439814823,
+        "plan_transfer": 0.17570321930098443,
+        "q": -0.1227132161458333
+      },
+      "placebo": {
+        "action_change": 0.2071958188657407,
+        "conditional_q": 0.5501875975154632,
+        "partner_transfer": 0.0,
+        "physical": 0.7592411747685186,
+        "plan_transfer": 0.10113106412670288,
+        "q": 0.3995876736111111
+      }
+    },
+    "66707/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.38975360983720897,
+        "partner_transfer": 0.0,
+        "physical": 0.36432562934027785,
+        "plan_transfer": 0.0,
+        "q": 0.14428077980324072
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.38975360983720897,
+        "partner_transfer": 0.0,
+        "physical": 0.36432562934027785,
+        "plan_transfer": 0.0,
+        "q": 0.14428077980324072
+      }
+    },
+    "66708/rematched/live": {
+      "aligned": {
+        "action_change": 0.36819390190972223,
+        "conditional_q": 0.3543564659821077,
+        "partner_transfer": 0.0,
+        "physical": 0.5967176649305556,
+        "plan_transfer": 0.1529284911811204,
+        "q": 0.2540988498263889
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.21440972222222224,
+        "conditional_q": -0.09883207390829336,
+        "partner_transfer": 0.0,
+        "physical": -0.19843207465277782,
+        "plan_transfer": 0.10967314266647649,
+        "q": -0.10425347222222221
+      },
+      "placebo": {
+        "action_change": 0.1537841796875,
+        "conditional_q": 0.45318853989040103,
+        "partner_transfer": 0.0,
+        "physical": 0.7951497395833332,
+        "plan_transfer": 0.04325534851464391,
+        "q": 0.3583523220486111
+      }
+    },
+    "66708/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5305724385053648,
+        "partner_transfer": 0.0,
+        "physical": 0.28890154803240736,
+        "plan_transfer": 0.0,
+        "q": 0.15649052372685188
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5305724385053648,
+        "partner_transfer": 0.0,
+        "physical": 0.28890154803240736,
+        "plan_transfer": 0.0,
+        "q": 0.15649052372685188
+      }
+    },
+    "66708/static/live": {
+      "aligned": {
+        "action_change": 0.2877866391782407,
+        "conditional_q": 0.3893051465898327,
+        "partner_transfer": 0.0,
+        "physical": 0.6887939453124999,
+        "plan_transfer": 0.15847927518950491,
+        "q": 0.2708767361111111
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.10637026186342591,
+        "conditional_q": -0.07465787985691685,
+        "partner_transfer": 0.0,
+        "physical": -0.04925944010416664,
+        "plan_transfer": 0.10292080039743386,
+        "q": -0.0644847728587963
+      },
+      "placebo": {
+        "action_change": 0.18141637731481483,
+        "conditional_q": 0.4639630264467495,
+        "partner_transfer": 0.0,
+        "physical": 0.7380533854166668,
+        "plan_transfer": 0.055558474792071065,
+        "q": 0.3353615089699074
+      }
+    },
+    "66708/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4645494415342013,
+        "partner_transfer": 0.0,
+        "physical": 0.342236328125,
+        "plan_transfer": 0.0,
+        "q": 0.16265100549768519
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4645494415342013,
+        "partner_transfer": 0.0,
+        "physical": 0.342236328125,
+        "plan_transfer": 0.0,
+        "q": 0.16265100549768519
+      }
+    },
+    "66709/rematched/live": {
+      "aligned": {
+        "action_change": 0.36133083767361107,
+        "conditional_q": 0.35521971118049106,
+        "partner_transfer": 0.0,
+        "physical": 0.6466245298032408,
+        "plan_transfer": 0.19339725299521057,
+        "q": 0.2657552083333334
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.17012261284722222,
+        "conditional_q": -0.11029991318838657,
+        "partner_transfer": 0.0,
+        "physical": -0.10125777633101841,
+        "plan_transfer": 0.10891792927974353,
+        "q": -0.08682002314814817
+      },
+      "placebo": {
+        "action_change": 0.19120822482638888,
+        "conditional_q": 0.46551962436887767,
+        "partner_transfer": 0.0,
+        "physical": 0.7478823061342593,
+        "plan_transfer": 0.08447932371546703,
+        "q": 0.35257523148148157
+      }
+    },
+    "66709/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.29300704783414816,
+        "partner_transfer": 0.0,
+        "physical": 0.45239529079861107,
+        "plan_transfer": 0.0,
+        "q": 0.13456759982638888
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.29300704783414816,
+        "partner_transfer": 0.0,
+        "physical": 0.45239529079861107,
+        "plan_transfer": 0.0,
+        "q": 0.13456759982638888
+      }
+    },
+    "66709/static/live": {
+      "aligned": {
+        "action_change": 0.38790328414351855,
+        "conditional_q": 0.44326782955041,
+        "partner_transfer": 0.0,
+        "physical": 0.6334590205439815,
+        "plan_transfer": 0.31185663262112095,
+        "q": 0.29095956307870374
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.21260850694444447,
+        "conditional_q": -0.1158115640916157,
+        "partner_transfer": 0.0,
+        "physical": -0.1503571686921296,
+        "plan_transfer": 0.17661543260152646,
+        "q": -0.1500542534722222
+      },
+      "placebo": {
+        "action_change": 0.17529477719907405,
+        "conditional_q": 0.5590793936420257,
+        "partner_transfer": 0.0,
+        "physical": 0.7838161892361111,
+        "plan_transfer": 0.1352412000195945,
+        "q": 0.4410138165509259
+      }
+    },
+    "66709/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5326155308280762,
+        "partner_transfer": 0.0,
+        "physical": 0.3154703776041667,
+        "plan_transfer": 0.0,
+        "q": 0.1701189959490741
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5326155308280762,
+        "partner_transfer": 0.0,
+        "physical": 0.3154703776041667,
+        "plan_transfer": 0.0,
+        "q": 0.1701189959490741
+      }
+    },
+    "66710/rematched/live": {
+      "aligned": {
+        "action_change": 0.29252839265046293,
+        "conditional_q": 0.3648713786379543,
+        "partner_transfer": 0.0,
+        "physical": 0.6913230613425926,
+        "plan_transfer": 0.18199812959332115,
+        "q": 0.2772777416087963
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.1215675636574074,
+        "conditional_q": -0.04832780733832426,
+        "partner_transfer": 0.0,
+        "physical": -0.11437084056712965,
+        "plan_transfer": 0.08188134250098376,
+        "q": -0.05931170428240739
+      },
+      "placebo": {
+        "action_change": 0.17096082899305556,
+        "conditional_q": 0.41319918597627864,
+        "partner_transfer": 0.0,
+        "physical": 0.8056939019097222,
+        "plan_transfer": 0.10011678709233739,
+        "q": 0.3365894458912037
+      }
+    },
+    "66710/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4669581998139028,
+        "partner_transfer": 0.0,
+        "physical": 0.3112187138310185,
+        "plan_transfer": 0.0,
+        "q": 0.14792842158564815
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4669581998139028,
+        "partner_transfer": 0.0,
+        "physical": 0.3112187138310185,
+        "plan_transfer": 0.0,
+        "q": 0.14792842158564815
+      }
+    },
+    "66710/static/live": {
+      "aligned": {
+        "action_change": 0.35016547309027773,
+        "conditional_q": 0.40645182845788724,
+        "partner_transfer": 0.0,
+        "physical": 0.7658781828703703,
+        "plan_transfer": 0.28976743882444983,
+        "q": 0.3647659866898148
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.17610948350694444,
+        "conditional_q": -0.11697127036987771,
+        "partner_transfer": 0.0,
+        "physical": -0.06821469907407407,
+        "plan_transfer": 0.18316956785550995,
+        "q": -0.09595178674768519
+      },
+      "placebo": {
+        "action_change": 0.17405598958333335,
+        "conditional_q": 0.5234230988277649,
+        "partner_transfer": 0.0,
+        "physical": 0.8340928819444443,
+        "plan_transfer": 0.10659787096893995,
+        "q": 0.46071777343750003
+      }
+    },
+    "66710/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5050188098727378,
+        "partner_transfer": 0.0,
+        "physical": 0.3323893229166666,
+        "plan_transfer": 0.0,
+        "q": 0.1705837673611111
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5050188098727378,
+        "partner_transfer": 0.0,
+        "physical": 0.3323893229166666,
+        "plan_transfer": 0.0,
+        "q": 0.1705837673611111
+      }
+    },
+    "66711/rematched/live": {
+      "aligned": {
+        "action_change": 0.27871726707175926,
+        "conditional_q": 0.381994576504093,
+        "partner_transfer": 0.0,
+        "physical": 0.7269404658564814,
+        "plan_transfer": 0.20084412513296782,
+        "q": 0.27572880497685187
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.04700792100694443,
+        "conditional_q": 0.011292436073920128,
+        "partner_transfer": 0.0,
+        "physical": -0.03810673466435185,
+        "plan_transfer": 0.009525381707722685,
+        "q": -0.007578305844907411
+      },
+      "placebo": {
+        "action_change": 0.23170934606481483,
+        "conditional_q": 0.3707021404301729,
+        "partner_transfer": 0.0,
+        "physical": 0.7650472005208333,
+        "plan_transfer": 0.19131874342524513,
+        "q": 0.28330711082175924
+      }
+    },
+    "66711/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.42680041078494874,
+        "partner_transfer": 0.0,
+        "physical": 0.3632984302662037,
+        "plan_transfer": 0.0,
+        "q": 0.15856391059027777
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.42680041078494874,
+        "partner_transfer": 0.0,
+        "physical": 0.3632984302662037,
+        "plan_transfer": 0.0,
+        "q": 0.15856391059027777
+      }
+    },
+    "66711/static/live": {
+      "aligned": {
+        "action_change": 0.2726508246527778,
+        "conditional_q": 0.27696334055019,
+        "partner_transfer": 0.0,
+        "physical": 0.7287299262152778,
+        "plan_transfer": 0.13176309929987504,
+        "q": 0.2229573567708333
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.01480305989583334,
+        "conditional_q": -0.010500656861892813,
+        "partner_transfer": 0.0,
+        "physical": -0.004331235532407403,
+        "plan_transfer": 0.017646390229991694,
+        "q": -0.00413411458333333
+      },
+      "placebo": {
+        "action_change": 0.25784776475694443,
+        "conditional_q": 0.2874639974120828,
+        "partner_transfer": 0.0,
+        "physical": 0.7330611617476852,
+        "plan_transfer": 0.11411670906988332,
+        "q": 0.22709147135416666
+      }
+    },
+    "66711/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4489658144853759,
+        "partner_transfer": 0.0,
+        "physical": 0.3478814019097222,
+        "plan_transfer": 0.0,
+        "q": 0.1605884693287037
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4489658144853759,
+        "partner_transfer": 0.0,
+        "physical": 0.3478814019097222,
+        "plan_transfer": 0.0,
+        "q": 0.1605884693287037
+      }
+    },
+    "66712/rematched/live": {
+      "aligned": {
+        "action_change": 0.30388635706018513,
+        "conditional_q": 0.3548528065631152,
+        "partner_transfer": 0.0,
+        "physical": 0.6630253544560185,
+        "plan_transfer": 0.168789092956119,
+        "q": 0.24152832031250002
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.16603461371527772,
+        "conditional_q": -0.07286506999077969,
+        "partner_transfer": 0.0,
+        "physical": -0.12188132957175923,
+        "plan_transfer": 0.12228505244129563,
+        "q": -0.09314416956018519
+      },
+      "placebo": {
+        "action_change": 0.13785174334490743,
+        "conditional_q": 0.42771787655389487,
+        "partner_transfer": 0.0,
+        "physical": 0.7849066840277777,
+        "plan_transfer": 0.04650404051482337,
+        "q": 0.33467248987268516
+      }
+    },
+    "66712/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.5632581044308088,
+        "partner_transfer": 0.0,
+        "physical": 0.3037859881365741,
+        "plan_transfer": 0.0,
+        "q": 0.1733570240162037
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.5632581044308088,
+        "partner_transfer": 0.0,
+        "physical": 0.3037859881365741,
+        "plan_transfer": 0.0,
+        "q": 0.1733570240162037
+      }
+    },
+    "66712/static/live": {
+      "aligned": {
+        "action_change": 0.2990451388888889,
+        "conditional_q": 0.3762257953201402,
+        "partner_transfer": 0.0,
+        "physical": 0.654443359375,
+        "plan_transfer": 0.14852454070515156,
+        "q": 0.24136103877314816
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.15287995515046293,
+        "conditional_q": -0.05165234717845848,
+        "partner_transfer": 0.0,
+        "physical": -0.11701660156250004,
+        "plan_transfer": 0.10837614284441183,
+        "q": -0.08614637586805556
+      },
+      "placebo": {
+        "action_change": 0.14616518373842594,
+        "conditional_q": 0.4278781424985987,
+        "partner_transfer": 0.0,
+        "physical": 0.7714599609375,
+        "plan_transfer": 0.040148397860739746,
+        "q": 0.3275074146412037
+      }
+    },
+    "66712/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.49461452670902334,
+        "partner_transfer": 0.0,
+        "physical": 0.3286693431712963,
+        "plan_transfer": 0.0,
+        "q": 0.16611599392361112
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.49461452670902334,
+        "partner_transfer": 0.0,
+        "physical": 0.3286693431712963,
+        "plan_transfer": 0.0,
+        "q": 0.16611599392361112
+      }
+    },
+    "66713/rematched/live": {
+      "aligned": {
+        "action_change": 0.3584879557291667,
+        "conditional_q": 0.4337199840099299,
+        "partner_transfer": 0.0,
+        "physical": 0.5918167679398149,
+        "plan_transfer": 0.19168492117612015,
+        "q": 0.2861346209490741
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.18130967881944446,
+        "conditional_q": -0.11021775060609977,
+        "partner_transfer": 0.0,
+        "physical": -0.14462528935185184,
+        "plan_transfer": 0.13059273273737573,
+        "q": -0.1168357566550926
+      },
+      "placebo": {
+        "action_change": 0.17717827690972224,
+        "conditional_q": 0.5439377346160296,
+        "partner_transfer": 0.0,
+        "physical": 0.7364420572916667,
+        "plan_transfer": 0.06109218843874444,
+        "q": 0.40297037760416665
+      }
+    },
+    "66713/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4328289303378369,
+        "partner_transfer": 0.0,
+        "physical": 0.3369556568287037,
+        "plan_transfer": 0.0,
+        "q": 0.14840494791666667
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4328289303378369,
+        "partner_transfer": 0.0,
+        "physical": 0.3369556568287037,
+        "plan_transfer": 0.0,
+        "q": 0.14840494791666667
+      }
+    },
+    "66713/static/live": {
+      "aligned": {
+        "action_change": 0.39226888020833334,
+        "conditional_q": 0.3951618795706422,
+        "partner_transfer": 0.0,
+        "physical": 0.6435311776620369,
+        "plan_transfer": 0.2709465417207392,
+        "q": 0.27535988136574074
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.21965060763888888,
+        "conditional_q": -0.11674451880406905,
+        "partner_transfer": 0.0,
+        "physical": -0.15687843605324078,
+        "plan_transfer": 0.1582062004408297,
+        "q": -0.13538501880787035
+      },
+      "placebo": {
+        "action_change": 0.17261827256944443,
+        "conditional_q": 0.5119063983747113,
+        "partner_transfer": 0.0,
+        "physical": 0.8004096137152777,
+        "plan_transfer": 0.11274034127990949,
+        "q": 0.41074490017361115
+      }
+    },
+    "66713/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.47432082345155946,
+        "partner_transfer": 0.0,
+        "physical": 0.3208884910300926,
+        "plan_transfer": 0.0,
+        "q": 0.15260687934027778
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.47432082345155946,
+        "partner_transfer": 0.0,
+        "physical": 0.3208884910300926,
+        "plan_transfer": 0.0,
+        "q": 0.15260687934027778
+      }
+    },
+    "66714/rematched/live": {
+      "aligned": {
+        "action_change": 0.37071759259259257,
+        "conditional_q": 0.3940520584612939,
+        "partner_transfer": 0.0,
+        "physical": 0.6625289351851852,
+        "plan_transfer": 0.2642374390962111,
+        "q": 0.2779541015625
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.13471770109953704,
+        "conditional_q": -0.02794518754688774,
+        "partner_transfer": 0.0,
+        "physical": -0.11667751736111102,
+        "plan_transfer": 0.08248143603649755,
+        "q": -0.0712348090277778
+      },
+      "placebo": {
+        "action_change": 0.23599989149305556,
+        "conditional_q": 0.42199724600818156,
+        "partner_transfer": 0.0,
+        "physical": 0.7792064525462962,
+        "plan_transfer": 0.18175600305971354,
+        "q": 0.34918891059027785
+      }
+    },
+    "66714/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.37904294605104044,
+        "partner_transfer": 0.0,
+        "physical": 0.3933566623263889,
+        "plan_transfer": 0.0,
+        "q": 0.15185456452546295
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.37904294605104044,
+        "partner_transfer": 0.0,
+        "physical": 0.3933566623263889,
+        "plan_transfer": 0.0,
+        "q": 0.15185456452546295
+      }
+    },
+    "66714/static/live": {
+      "aligned": {
+        "action_change": 0.3750560619212963,
+        "conditional_q": 0.3692633515207217,
+        "partner_transfer": 0.0,
+        "physical": 0.7249918619791668,
+        "plan_transfer": 0.28428257542306473,
+        "q": 0.3195194950810185
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.11960991753472222,
+        "conditional_q": -0.10115696901493954,
+        "partner_transfer": 0.0,
+        "physical": -0.03733000578703701,
+        "plan_transfer": 0.1186760515011309,
+        "q": -0.06507161458333335
+      },
+      "placebo": {
+        "action_change": 0.2554461443865741,
+        "conditional_q": 0.47042032053566124,
+        "partner_transfer": 0.0,
+        "physical": 0.7623218677662037,
+        "plan_transfer": 0.16560652392193384,
+        "q": 0.3845911096643519
+      }
+    },
+    "66714/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.4107510452798069,
+        "partner_transfer": 0.0,
+        "physical": 0.3788022641782407,
+        "plan_transfer": 0.0,
+        "q": 0.1584156177662037
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.4107510452798069,
+        "partner_transfer": 0.0,
+        "physical": 0.3788022641782407,
+        "plan_transfer": 0.0,
+        "q": 0.1584156177662037
+      }
+    },
+    "66715/rematched/live": {
+      "aligned": {
+        "action_change": 0.3574273003472222,
+        "conditional_q": 0.3184212556587582,
+        "partner_transfer": 0.0,
+        "physical": 0.6319046585648148,
+        "plan_transfer": 0.19313013428917034,
+        "q": 0.22990089699074076
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.12290762442129631,
+        "conditional_q": -0.0629531137143442,
+        "partner_transfer": 0.0,
+        "physical": -0.1095793547453704,
+        "plan_transfer": 0.07955517873793724,
+        "q": -0.05552119502314812
+      },
+      "placebo": {
+        "action_change": 0.2345196759259259,
+        "conditional_q": 0.3813743693731024,
+        "partner_transfer": 0.0,
+        "physical": 0.7414840133101852,
+        "plan_transfer": 0.11357495555123309,
+        "q": 0.28542209201388885
+      }
+    },
+    "66715/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.38359900125119734,
+        "partner_transfer": 0.0,
+        "physical": 0.3732042100694444,
+        "plan_transfer": 0.0,
+        "q": 0.14743471498842592
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.38359900125119734,
+        "partner_transfer": 0.0,
+        "physical": 0.3732042100694444,
+        "plan_transfer": 0.0,
+        "q": 0.14743471498842592
+      }
+    },
+    "66715/static/live": {
+      "aligned": {
+        "action_change": 0.2935926649305555,
+        "conditional_q": 0.32741315061722703,
+        "partner_transfer": 0.0,
+        "physical": 0.6667787905092593,
+        "plan_transfer": 0.1354415536417172,
+        "q": 0.22961244936342592
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.11230920862268517,
+        "conditional_q": -0.024817619481356485,
+        "partner_transfer": 0.0,
+        "physical": -0.10747251157407411,
+        "plan_transfer": 0.06274085233818882,
+        "q": -0.043740957754629634
+      },
+      "placebo": {
+        "action_change": 0.18128345630787035,
+        "conditional_q": 0.35223077009858345,
+        "partner_transfer": 0.0,
+        "physical": 0.7742513020833334,
+        "plan_transfer": 0.07270070130352838,
+        "q": 0.27335340711805556
+      }
+    },
+    "66715/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.33559014500974477,
+        "partner_transfer": 0.0,
+        "physical": 0.3811451099537037,
+        "plan_transfer": 0.0,
+        "q": 0.13161982783564816
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.33559014500974477,
+        "partner_transfer": 0.0,
+        "physical": 0.3811451099537037,
+        "plan_transfer": 0.0,
+        "q": 0.13161982783564816
+      }
+    },
+    "66716/rematched/live": {
+      "aligned": {
+        "action_change": 0.2949905960648148,
+        "conditional_q": 0.36415623763532684,
+        "partner_transfer": 0.0,
+        "physical": 0.6947853370949074,
+        "plan_transfer": 0.15688231203505545,
+        "q": 0.2504900896990741
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.01336624710648148,
+        "conditional_q": -0.03186336528161171,
+        "partner_transfer": 0.0,
+        "physical": -0.002928783275462976,
+        "plan_transfer": 0.021379103226766703,
+        "q": -0.006769024884259252
+      },
+      "placebo": {
+        "action_change": 0.2816243489583334,
+        "conditional_q": 0.39601960291693855,
+        "partner_transfer": 0.0,
+        "physical": 0.6977141203703704,
+        "plan_transfer": 0.13550320880828878,
+        "q": 0.25725911458333334
+      }
+    },
+    "66716/rematched/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.44427890828261946,
+        "partner_transfer": 0.0,
+        "physical": 0.33613371672453707,
+        "plan_transfer": 0.0,
+        "q": 0.15613154658564815
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.44427890828261946,
+        "partner_transfer": 0.0,
+        "physical": 0.33613371672453707,
+        "plan_transfer": 0.0,
+        "q": 0.15613154658564815
+      }
+    },
+    "66716/static/live": {
+      "aligned": {
+        "action_change": 0.34655580873842595,
+        "conditional_q": 0.3408906065618172,
+        "partner_transfer": 0.0,
+        "physical": 0.6663167317708334,
+        "plan_transfer": 0.2311150182867485,
+        "q": 0.26046820746527777
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.01848144531250002,
+        "conditional_q": -0.06596900513428587,
+        "partner_transfer": 0.0,
+        "physical": -0.004994032118055491,
+        "plan_transfer": 0.02913571947934762,
+        "q": -0.013244176793981488
+      },
+      "placebo": {
+        "action_change": 0.32807436342592594,
+        "conditional_q": 0.406859611696103,
+        "partner_transfer": 0.0,
+        "physical": 0.6713107638888888,
+        "plan_transfer": 0.20197929880740087,
+        "q": 0.27371238425925926
+      }
+    },
+    "66716/static/silent": {
+      "aligned": {
+        "action_change": 0.0,
+        "conditional_q": 0.2925787356638116,
+        "partner_transfer": 0.0,
+        "physical": 0.43060619212962964,
+        "plan_transfer": 0.0,
+        "q": 0.12916214554398148
+      },
+      "aligned_minus_placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.0,
+        "partner_transfer": 0.0,
+        "physical": 0.0,
+        "plan_transfer": 0.0,
+        "q": 0.0
+      },
+      "placebo": {
+        "action_change": 0.0,
+        "conditional_q": 0.2925787356638116,
+        "partner_transfer": 0.0,
+        "physical": 0.43060619212962964,
+        "plan_transfer": 0.0,
+        "q": 0.12916214554398148
+      }
+    }
+  },
+  "cells": {
+    "rematched/live": {
+      "aligned": {
+        "action_change": {
+          "ci95_t15": [
+            0.30973253160801206,
+            0.3436795596824972
+          ],
+          "mean": 0.32670604564525463,
+          "n": 16,
+          "sd": 0.031853466243386794,
+          "seed_values": [
+            0.27575864438657405,
+            0.3115677445023148,
+            0.337158203125,
+            0.31678421585648153,
+            0.33377640335648157,
+            0.3218135127314815,
+            0.3441578052662037,
+            0.36819390190972223,
+            0.36133083767361107,
+            0.29252839265046293,
+            0.27871726707175926,
+            0.30388635706018513,
+            0.3584879557291667,
+            0.37071759259259257,
+            0.3574273003472222,
+            0.2949905960648148
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.352993893934868,
+            0.3962831209144899
+          ],
+          "mean": 0.37463850742467897,
+          "n": 16,
+          "sd": 0.04061951836467522,
+          "seed_values": [
+            0.34535001431670737,
+            0.4139885174855927,
+            0.3866933177750025,
+            0.3927243576868851,
+            0.3883818575838924,
+            0.291454682022271,
+            0.4539788972914425,
+            0.3543564659821077,
+            0.35521971118049106,
+            0.3648713786379543,
+            0.381994576504093,
+            0.3548528065631152,
+            0.4337199840099299,
+            0.3940520584612939,
+            0.3184212556587582,
+            0.36415623763532684
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.6437666463205389,
+            0.6890408804445074
+          ],
+          "mean": 0.6664037633825232,
+          "n": 16,
+          "sd": 0.04248210727604011,
+          "seed_values": [
+            0.6772578486689814,
+            0.692505787037037,
+            0.7126383463541667,
+            0.6609980830439816,
+            0.6321343315972222,
+            0.6424714265046297,
+            0.7387876157407408,
+            0.5967176649305556,
+            0.6466245298032408,
+            0.6913230613425926,
+            0.7269404658564814,
+            0.6630253544560185,
+            0.5918167679398149,
+            0.6625289351851852,
+            0.6319046585648148,
+            0.6947853370949074
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.1685830718978829,
+            0.22130524792240608
+          ],
+          "mean": 0.1949441599101445,
+          "n": 16,
+          "sd": 0.04947072393466111,
+          "seed_values": [
+            0.11991915779371116,
+            0.17572666102542536,
+            0.2762335932962327,
+            0.19894165485218637,
+            0.1907016569102995,
+            0.14586312766567203,
+            0.3078288085634886,
+            0.1529284911811204,
+            0.19339725299521057,
+            0.18199812959332115,
+            0.20084412513296782,
+            0.168789092956119,
+            0.19168492117612015,
+            0.2642374390962111,
+            0.19313013428917034,
+            0.15688231203505545
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.25055619794537404,
+            0.2953013233943251
+          ],
+          "mean": 0.27292876066984956,
+          "n": 16,
+          "sd": 0.04198562949065708,
+          "seed_values": [
+            0.2306378399884259,
+            0.2803294994212963,
+            0.35181387442129636,
+            0.32274486400462965,
+            0.24708839699074073,
+            0.21414478443287036,
+            0.3612322771990741,
+            0.2540988498263889,
+            0.2657552083333334,
+            0.2772777416087963,
+            0.27572880497685187,
+            0.24152832031250002,
+            0.2861346209490741,
+            0.2779541015625,
+            0.22990089699074076,
+            0.2504900896990741
+          ]
+        }
+      },
+      "aligned_minus_placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.10178684883928629,
+            0.1610064589949151
+          ],
+          "mean": 0.1313966539171007,
+          "n": 16,
+          "sd": 0.05556745199903504,
+          "seed_values": [
+            0.14457013165509255,
+            0.1699028862847222,
+            0.11980432581018519,
+            0.07563657407407413,
+            0.1758264612268519,
+            0.0679343894675926,
+            0.17722800925925922,
+            0.21440972222222224,
+            0.17012261284722222,
+            0.1215675636574074,
+            0.04700792100694443,
+            0.16603461371527772,
+            0.18130967881944446,
+            0.13471770109953704,
+            0.12290762442129631,
+            0.01336624710648148
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            -0.09453011682883831,
+            -0.045964983543829566
+          ],
+          "mean": -0.07024755018633394,
+          "n": 16,
+          "sd": 0.04557005197348394,
+          "seed_values": [
+            -0.04181604927711452,
+            -0.042376332229286516,
+            -0.11856720894654453,
+            -0.08056664479282126,
+            -0.06949311154579589,
+            -0.040428237005170696,
+            -0.17870137368380257,
+            -0.09883207390829336,
+            -0.11029991318838657,
+            -0.04832780733832426,
+            0.011292436073920128,
+            -0.07286506999077969,
+            -0.11021775060609977,
+            -0.02794518754688774,
+            -0.0629531137143442,
+            -0.03186336528161171
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            -0.12394727817627489,
+            -0.07213256937146816
+          ],
+          "mean": -0.09803992377387152,
+          "n": 16,
+          "sd": 0.04861922151781351,
+          "seed_values": [
+            -0.10578974971064814,
+            -0.13248517071759258,
+            -0.0753381799768519,
+            -0.04611364293981485,
+            -0.1389955873842593,
+            -0.04744104456018509,
+            -0.07461570457175926,
+            -0.19843207465277782,
+            -0.10125777633101841,
+            -0.11437084056712965,
+            -0.03810673466435185,
+            -0.12188132957175923,
+            -0.14462528935185184,
+            -0.11667751736111102,
+            -0.1095793547453704,
+            -0.002928783275462976
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.06569282862347878,
+            0.12405364623605983
+          ],
+          "mean": 0.0948732374297693,
+          "n": 16,
+          "sd": 0.054761622421847234,
+          "seed_values": [
+            0.08870539727305297,
+            0.12012654033496371,
+            0.12460780027453562,
+            0.0673330107120929,
+            0.12204601124385069,
+            0.013768616065933242,
+            0.23509312363708035,
+            0.10967314266647649,
+            0.10891792927974353,
+            0.08188134250098376,
+            0.009525381707722685,
+            0.12228505244129563,
+            0.13059273273737573,
+            0.08248143603649755,
+            0.07955517873793724,
+            0.021379103226766703
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            -0.09448329003646937,
+            -0.05040863252574128
+          ],
+          "mean": -0.07244596128110532,
+          "n": 16,
+          "sd": 0.04135651027024709,
+          "seed_values": [
+            -0.06940556278935185,
+            -0.09514702690972225,
+            -0.07813042534722223,
+            -0.04372829861111111,
+            -0.106884765625,
+            -0.01042480468750002,
+            -0.15394603587962966,
+            -0.10425347222222221,
+            -0.08682002314814817,
+            -0.05931170428240739,
+            -0.007578305844907411,
+            -0.09314416956018519,
+            -0.1168357566550926,
+            -0.0712348090277778,
+            -0.05552119502314812,
+            -0.006769024884259252
+          ]
+        }
+      },
+      "placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.17026282016303187,
+            0.22035596329327603
+          ],
+          "mean": 0.19530939172815395,
+          "n": 16,
+          "sd": 0.04700382726356159,
+          "seed_values": [
+            0.1311885127314815,
+            0.1416648582175926,
+            0.21735387731481481,
+            0.2411476417824074,
+            0.15794994212962965,
+            0.2538791232638889,
+            0.16692979600694446,
+            0.1537841796875,
+            0.19120822482638888,
+            0.17096082899305556,
+            0.23170934606481483,
+            0.13785174334490743,
+            0.17717827690972224,
+            0.23599989149305556,
+            0.2345196759259259,
+            0.2816243489583334
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.40592901951311294,
+            0.4838430957089129
+          ],
+          "mean": 0.4448860576110129,
+          "n": 16,
+          "sd": 0.07310900354935476,
+          "seed_values": [
+            0.3871660635938219,
+            0.4563648497148793,
+            0.505260526721547,
+            0.47329100247970635,
+            0.4578749691296882,
+            0.33188291902744166,
+            0.632680270975245,
+            0.45318853989040103,
+            0.46551962436887767,
+            0.41319918597627864,
+            0.3707021404301729,
+            0.42771787655389487,
+            0.5439377346160296,
+            0.42199724600818156,
+            0.3813743693731024,
+            0.39601960291693855
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.7426161316417866,
+            0.7862712426710027
+          ],
+          "mean": 0.7644436871563947,
+          "n": 16,
+          "sd": 0.04096283782101072,
+          "seed_values": [
+            0.7830475983796297,
+            0.8249909577546296,
+            0.7879765263310187,
+            0.7071117259837963,
+            0.7711299189814814,
+            0.6899124710648148,
+            0.8134033203125001,
+            0.7951497395833332,
+            0.7478823061342593,
+            0.8056939019097222,
+            0.7650472005208333,
+            0.7849066840277777,
+            0.7364420572916667,
+            0.7792064525462962,
+            0.7414840133101852,
+            0.6977141203703704
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.07345359776407753,
+            0.12668824719667285
+          ],
+          "mean": 0.10007092248037519,
+          "n": 16,
+          "sd": 0.04995159237383176,
+          "seed_values": [
+            0.031213760520658218,
+            0.05560012069046166,
+            0.1516257930216971,
+            0.13160864414009346,
+            0.06865564566644881,
+            0.13209451159973878,
+            0.07273568492640824,
+            0.04325534851464391,
+            0.08447932371546703,
+            0.10011678709233739,
+            0.19131874342524513,
+            0.04650404051482337,
+            0.06109218843874444,
+            0.18175600305971354,
+            0.11357495555123309,
+            0.13550320880828878
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.30819784439256637,
+            0.38255159950934337
+          ],
+          "mean": 0.34537472195095487,
+          "n": 16,
+          "sd": 0.06976825256940325,
+          "seed_values": [
+            0.3000434027777778,
+            0.3754765263310185,
+            0.42994429976851856,
+            0.36647316261574076,
+            0.35397316261574074,
+            0.2245695891203704,
+            0.5151783130787037,
+            0.3583523220486111,
+            0.35257523148148157,
+            0.3365894458912037,
+            0.28330711082175924,
+            0.33467248987268516,
+            0.40297037760416665,
+            0.34918891059027785,
+            0.28542209201388885,
+            0.25725911458333334
+          ]
+        }
+      }
+    },
+    "rematched/silent": {
+      "aligned": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.40491757153405067,
+            0.4838234727788286
+          ],
+          "mean": 0.44437052215643963,
+          "n": 16,
+          "sd": 0.07403966132733891,
+          "seed_values": [
+            0.5483780506944033,
+            0.5024584114048334,
+            0.37986055725286794,
+            0.37507914105817114,
+            0.4150076589902414,
+            0.45595841864600267,
+            0.5128401291646464,
+            0.5305724385053648,
+            0.29300704783414816,
+            0.4669581998139028,
+            0.42680041078494874,
+            0.5632581044308088,
+            0.4328289303378369,
+            0.37904294605104044,
+            0.38359900125119734,
+            0.44427890828261946
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.3213635093786594,
+            0.3672828212781693
+          ],
+          "mean": 0.34432316532841434,
+          "n": 16,
+          "sd": 0.043087402181458026,
+          "seed_values": [
+            0.31546495225694443,
+            0.31191134982638885,
+            0.36072048611111107,
+            0.36177209924768516,
+            0.37952383535879636,
+            0.3278980396412037,
+            0.2926296657986111,
+            0.28890154803240736,
+            0.45239529079861107,
+            0.3112187138310185,
+            0.3632984302662037,
+            0.3037859881365741,
+            0.3369556568287037,
+            0.3933566623263889,
+            0.3732042100694444,
+            0.33613371672453707
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.14773904912493896,
+            0.15950051160278095
+          ],
+          "mean": 0.15361978036385995,
+          "n": 16,
+          "sd": 0.011036116245250468,
+          "seed_values": [
+            0.17628942418981483,
+            0.158837890625,
+            0.14363425925925924,
+            0.13764919704861112,
+            0.1598017939814815,
+            0.15385742187499998,
+            0.1531132450810185,
+            0.15649052372685188,
+            0.13456759982638888,
+            0.14792842158564815,
+            0.15856391059027777,
+            0.1733570240162037,
+            0.14840494791666667,
+            0.15185456452546295,
+            0.14743471498842592,
+            0.15613154658564815
+          ]
+        }
+      },
+      "aligned_minus_placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.40491757153405067,
+            0.4838234727788286
+          ],
+          "mean": 0.44437052215643963,
+          "n": 16,
+          "sd": 0.07403966132733891,
+          "seed_values": [
+            0.5483780506944033,
+            0.5024584114048334,
+            0.37986055725286794,
+            0.37507914105817114,
+            0.4150076589902414,
+            0.45595841864600267,
+            0.5128401291646464,
+            0.5305724385053648,
+            0.29300704783414816,
+            0.4669581998139028,
+            0.42680041078494874,
+            0.5632581044308088,
+            0.4328289303378369,
+            0.37904294605104044,
+            0.38359900125119734,
+            0.44427890828261946
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.3213635093786594,
+            0.3672828212781693
+          ],
+          "mean": 0.34432316532841434,
+          "n": 16,
+          "sd": 0.043087402181458026,
+          "seed_values": [
+            0.31546495225694443,
+            0.31191134982638885,
+            0.36072048611111107,
+            0.36177209924768516,
+            0.37952383535879636,
+            0.3278980396412037,
+            0.2926296657986111,
+            0.28890154803240736,
+            0.45239529079861107,
+            0.3112187138310185,
+            0.3632984302662037,
+            0.3037859881365741,
+            0.3369556568287037,
+            0.3933566623263889,
+            0.3732042100694444,
+            0.33613371672453707
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.14773904912493896,
+            0.15950051160278095
+          ],
+          "mean": 0.15361978036385995,
+          "n": 16,
+          "sd": 0.011036116245250468,
+          "seed_values": [
+            0.17628942418981483,
+            0.158837890625,
+            0.14363425925925924,
+            0.13764919704861112,
+            0.1598017939814815,
+            0.15385742187499998,
+            0.1531132450810185,
+            0.15649052372685188,
+            0.13456759982638888,
+            0.14792842158564815,
+            0.15856391059027777,
+            0.1733570240162037,
+            0.14840494791666667,
+            0.15185456452546295,
+            0.14743471498842592,
+            0.15613154658564815
+          ]
+        }
+      }
+    },
+    "static/live": {
+      "aligned": {
+        "action_change": {
+          "ci95_t15": [
+            0.31377611595883437,
+            0.3570811793247305
+          ],
+          "mean": 0.33542864764178243,
+          "n": 16,
+          "sd": 0.04063437809833138,
+          "seed_values": [
+            0.33036566840277776,
+            0.2819706669560185,
+            0.36410047743055557,
+            0.3287489149305555,
+            0.38562735098379636,
+            0.3098515263310185,
+            0.3611689814814815,
+            0.2877866391782407,
+            0.38790328414351855,
+            0.35016547309027773,
+            0.2726508246527778,
+            0.2990451388888889,
+            0.39226888020833334,
+            0.3750560619212963,
+            0.2935926649305555,
+            0.34655580873842595
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.3461205238373591,
+            0.39141813684139587
+          ],
+          "mean": 0.3687693303393775,
+          "n": 16,
+          "sd": 0.042504044347097626,
+          "seed_values": [
+            0.3004363197407481,
+            0.35527249520674803,
+            0.3559489135696059,
+            0.3951778743708049,
+            0.41233169654586127,
+            0.36683543354419085,
+            0.38936362371321215,
+            0.3893051465898327,
+            0.44326782955041,
+            0.40645182845788724,
+            0.27696334055019,
+            0.3762257953201402,
+            0.3951618795706422,
+            0.3692633515207217,
+            0.32741315061722703,
+            0.3408906065618172
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.6674839462892558,
+            0.7060544877746909
+          ],
+          "mean": 0.6867692170319734,
+          "n": 16,
+          "sd": 0.03619184096173913,
+          "seed_values": [
+            0.662939453125,
+            0.6758734809027778,
+            0.7217348451967592,
+            0.7230721932870371,
+            0.669629810474537,
+            0.6823893229166668,
+            0.6797453703703704,
+            0.6887939453124999,
+            0.6334590205439815,
+            0.7658781828703703,
+            0.7287299262152778,
+            0.654443359375,
+            0.6435311776620369,
+            0.7249918619791668,
+            0.6667787905092593,
+            0.6663167317708334
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.1830444907041657,
+            0.26125968581357617
+          ],
+          "mean": 0.22215208825887092,
+          "n": 16,
+          "sd": 0.07339155202838189,
+          "seed_values": [
+            0.14781986073374936,
+            0.11595063197267523,
+            0.2908603290090662,
+            0.2986828966502285,
+            0.28655228847721365,
+            0.17555644615894253,
+            0.2768342834276873,
+            0.15847927518950491,
+            0.31185663262112095,
+            0.28976743882444983,
+            0.13176309929987504,
+            0.14852454070515156,
+            0.2709465417207392,
+            0.28428257542306473,
+            0.1354415536417172,
+            0.2311150182867485
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.25395703749660126,
+            0.29896564226323674
+          ],
+          "mean": 0.276461339879919,
+          "n": 16,
+          "sd": 0.04223285966153627,
+          "seed_values": [
+            0.22927336516203703,
+            0.24063946759259258,
+            0.3110035083912037,
+            0.3412941261574074,
+            0.3006456163194445,
+            0.24777018229166667,
+            0.2768744574652778,
+            0.2708767361111111,
+            0.29095956307870374,
+            0.3647659866898148,
+            0.2229573567708333,
+            0.24136103877314816,
+            0.27535988136574074,
+            0.3195194950810185,
+            0.22961244936342592,
+            0.26046820746527777
+          ]
+        }
+      },
+      "aligned_minus_placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.0945896886824574,
+            0.16016867991563286
+          ],
+          "mean": 0.12737918429904513,
+          "n": 16,
+          "sd": 0.06153464093934516,
+          "seed_values": [
+            0.1792842158564815,
+            0.13488498263888885,
+            0.11164550781250003,
+            0.08796657986111113,
+            0.17926793981481484,
+            0.05822211371527775,
+            0.1539731626157408,
+            0.10637026186342591,
+            0.21260850694444447,
+            0.17610948350694444,
+            0.01480305989583334,
+            0.15287995515046293,
+            0.21965060763888888,
+            0.11960991753472222,
+            0.11230920862268517,
+            0.01848144531250002
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            -0.11554382772832639,
+            -0.061393987804562705
+          ],
+          "mean": -0.08846890776644455,
+          "n": 16,
+          "sd": 0.05081034175692166,
+          "seed_values": [
+            -0.10806825382902376,
+            -0.04417765691628639,
+            -0.10514980653050722,
+            -0.148946114686819,
+            -0.16402535143406027,
+            -0.00602953627075246,
+            -0.16082397380225105,
+            -0.07465787985691685,
+            -0.1158115640916157,
+            -0.11697127036987771,
+            -0.010500656861892813,
+            -0.05165234717845848,
+            -0.11674451880406905,
+            -0.10115696901493954,
+            -0.024817619481356485,
+            -0.06596900513428587
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            -0.10154175601224547,
+            -0.05061719309799758
+          ],
+          "mean": -0.07607947455512153,
+          "n": 16,
+          "sd": 0.04778397219895143,
+          "seed_values": [
+            -0.11371437355324072,
+            -0.11106137876157411,
+            -0.039935980902777814,
+            -0.03205566406250001,
+            -0.09643283420138887,
+            -0.04872142650462959,
+            -0.07949580439814823,
+            -0.04925944010416664,
+            -0.1503571686921296,
+            -0.06821469907407407,
+            -0.004331235532407403,
+            -0.11701660156250004,
+            -0.15687843605324078,
+            -0.03733000578703701,
+            -0.10747251157407411,
+            -0.004994032118055491
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.08199694088830263,
+            0.14491420549026324
+          ],
+          "mean": 0.11345557318928294,
+          "n": 16,
+          "sd": 0.059037066800881735,
+          "seed_values": [
+            0.10957014769239203,
+            0.08906550397583597,
+            0.1256682335072408,
+            0.1418865536982451,
+            0.1998802451694286,
+            0.016028109996029345,
+            0.17570321930098443,
+            0.10292080039743386,
+            0.17661543260152646,
+            0.18316956785550995,
+            0.017646390229991694,
+            0.10837614284441183,
+            0.1582062004408297,
+            0.1186760515011309,
+            0.06274085233818882,
+            0.02913571947934762
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            -0.10091580885771237,
+            -0.05337349326178995
+          ],
+          "mean": -0.07714465105975116,
+          "n": 16,
+          "sd": 0.044610312915886186,
+          "seed_values": [
+            -0.08491572627314814,
+            -0.07285789207175929,
+            -0.06750307436342594,
+            -0.0791431568287037,
+            -0.1361554181134259,
+            -0.012812861689814825,
+            -0.1227132161458333,
+            -0.0644847728587963,
+            -0.1500542534722222,
+            -0.09595178674768519,
+            -0.00413411458333333,
+            -0.08614637586805556,
+            -0.13538501880787035,
+            -0.06507161458333335,
+            -0.043740957754629634,
+            -0.013244176793981488
+          ]
+        }
+      },
+      "placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.18060851085099153,
+            0.23549041583448302
+          ],
+          "mean": 0.20804946334273727,
+          "n": 16,
+          "sd": 0.05149725931615063,
+          "seed_values": [
+            0.1510814525462963,
+            0.14708568431712962,
+            0.2524549696180555,
+            0.24078233506944444,
+            0.2063594111689815,
+            0.25162941261574073,
+            0.2071958188657407,
+            0.18141637731481483,
+            0.17529477719907405,
+            0.17405598958333335,
+            0.25784776475694443,
+            0.14616518373842594,
+            0.17261827256944443,
+            0.2554461443865741,
+            0.18128345630787035,
+            0.32807436342592594
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.4127757268213926,
+            0.5017007493902513
+          ],
+          "mean": 0.457238238105822,
+          "n": 16,
+          "sd": 0.08344088909269007,
+          "seed_values": [
+            0.4085045735697718,
+            0.3994501521230344,
+            0.4610987201001131,
+            0.5441239890576239,
+            0.5763570479799216,
+            0.3728649698149433,
+            0.5501875975154632,
+            0.4639630264467495,
+            0.5590793936420257,
+            0.5234230988277649,
+            0.2874639974120828,
+            0.4278781424985987,
+            0.5119063983747113,
+            0.47042032053566124,
+            0.35223077009858345,
+            0.406859611696103
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.743946814926597,
+            0.7817505682475928
+          ],
+          "mean": 0.7628486915870949,
+          "n": 16,
+          "sd": 0.03547234172138714,
+          "seed_values": [
+            0.7766538266782407,
+            0.7869348596643518,
+            0.761670826099537,
+            0.755127857349537,
+            0.7660626446759258,
+            0.7311107494212963,
+            0.7592411747685186,
+            0.7380533854166668,
+            0.7838161892361111,
+            0.8340928819444443,
+            0.7330611617476852,
+            0.7714599609375,
+            0.8004096137152777,
+            0.7623218677662037,
+            0.7742513020833334,
+            0.6713107638888888
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0805670455697762,
+            0.13682598456939976
+          ],
+          "mean": 0.10869651506958798,
+          "n": 16,
+          "sd": 0.05278936967269244,
+          "seed_values": [
+            0.038249713041357346,
+            0.026885127996839245,
+            0.16519209550182543,
+            0.1567963429519834,
+            0.08667204330778501,
+            0.1595283361629132,
+            0.10113106412670288,
+            0.055558474792071065,
+            0.1352412000195945,
+            0.10659787096893995,
+            0.11411670906988332,
+            0.040148397860739746,
+            0.11274034127990949,
+            0.16560652392193384,
+            0.07270070130352838,
+            0.20197929880740087
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.3149060345681898,
+            0.39230594731115054
+          ],
+          "mean": 0.35360599093967016,
+          "n": 16,
+          "sd": 0.07262654929289791,
+          "seed_values": [
+            0.3141890914351852,
+            0.3134973596643518,
+            0.3785065827546297,
+            0.4204372829861111,
+            0.4368010344328704,
+            0.2605830439814815,
+            0.3995876736111111,
+            0.3353615089699074,
+            0.4410138165509259,
+            0.46071777343750003,
+            0.22709147135416666,
+            0.3275074146412037,
+            0.41074490017361115,
+            0.3845911096643519,
+            0.27335340711805556,
+            0.27371238425925926
+          ]
+        }
+      }
+    },
+    "static/silent": {
+      "aligned": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.40003493464685075,
+            0.4693343373641338
+          ],
+          "mean": 0.4346846360054923,
+          "n": 16,
+          "sd": 0.06502560931986152,
+          "seed_values": [
+            0.48547845076384827,
+            0.36280059786461855,
+            0.44560176149358094,
+            0.4399963148746722,
+            0.46875239533466484,
+            0.4035661730849454,
+            0.38975360983720897,
+            0.4645494415342013,
+            0.5326155308280762,
+            0.5050188098727378,
+            0.4489658144853759,
+            0.49461452670902334,
+            0.47432082345155946,
+            0.4107510452798069,
+            0.33559014500974477,
+            0.2925787356638116
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.3398134883970968,
+            0.37070625986679206
+          ],
+          "mean": 0.35525987413194443,
+          "n": 16,
+          "sd": 0.028987570016893893,
+          "seed_values": [
+            0.34100115740740744,
+            0.38527560763888885,
+            0.34906774450231487,
+            0.342528392650463,
+            0.3639431423611111,
+            0.35992748119212964,
+            0.36432562934027785,
+            0.342236328125,
+            0.3154703776041667,
+            0.3323893229166666,
+            0.3478814019097222,
+            0.3286693431712963,
+            0.3208884910300926,
+            0.3788022641782407,
+            0.3811451099537037,
+            0.43060619212962964
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.14855432949734648,
+            0.16293486049831324
+          ],
+          "mean": 0.15574459499782986,
+          "n": 16,
+          "sd": 0.01349366306223315,
+          "seed_values": [
+            0.16804470486111112,
+            0.14292625144675927,
+            0.1594871238425926,
+            0.15462149160879632,
+            0.17290310329861114,
+            0.14778736255787037,
+            0.14428077980324072,
+            0.16265100549768519,
+            0.1701189959490741,
+            0.1705837673611111,
+            0.1605884693287037,
+            0.16611599392361112,
+            0.15260687934027778,
+            0.1584156177662037,
+            0.13161982783564816,
+            0.12916214554398148
+          ]
+        }
+      },
+      "aligned_minus_placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "placebo": {
+        "action_change": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "conditional_q": {
+          "ci95_t15": [
+            0.40003493464685075,
+            0.4693343373641338
+          ],
+          "mean": 0.4346846360054923,
+          "n": 16,
+          "sd": 0.06502560931986152,
+          "seed_values": [
+            0.48547845076384827,
+            0.36280059786461855,
+            0.44560176149358094,
+            0.4399963148746722,
+            0.46875239533466484,
+            0.4035661730849454,
+            0.38975360983720897,
+            0.4645494415342013,
+            0.5326155308280762,
+            0.5050188098727378,
+            0.4489658144853759,
+            0.49461452670902334,
+            0.47432082345155946,
+            0.4107510452798069,
+            0.33559014500974477,
+            0.2925787356638116
+          ]
+        },
+        "partner_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "physical": {
+          "ci95_t15": [
+            0.3398134883970968,
+            0.37070625986679206
+          ],
+          "mean": 0.35525987413194443,
+          "n": 16,
+          "sd": 0.028987570016893893,
+          "seed_values": [
+            0.34100115740740744,
+            0.38527560763888885,
+            0.34906774450231487,
+            0.342528392650463,
+            0.3639431423611111,
+            0.35992748119212964,
+            0.36432562934027785,
+            0.342236328125,
+            0.3154703776041667,
+            0.3323893229166666,
+            0.3478814019097222,
+            0.3286693431712963,
+            0.3208884910300926,
+            0.3788022641782407,
+            0.3811451099537037,
+            0.43060619212962964
+          ]
+        },
+        "plan_transfer": {
+          "ci95_t15": [
+            0.0,
+            0.0
+          ],
+          "mean": 0.0,
+          "n": 16,
+          "sd": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "q": {
+          "ci95_t15": [
+            0.14855432949734648,
+            0.16293486049831324
+          ],
+          "mean": 0.15574459499782986,
+          "n": 16,
+          "sd": 0.01349366306223315,
+          "seed_values": [
+            0.16804470486111112,
+            0.14292625144675927,
+            0.1594871238425926,
+            0.15462149160879632,
+            0.17290310329861114,
+            0.14778736255787037,
+            0.14428077980324072,
+            0.16265100549768519,
+            0.1701189959490741,
+            0.1705837673611111,
+            0.1605884693287037,
+            0.16611599392361112,
+            0.15260687934027778,
+            0.1584156177662037,
+            0.13161982783564816,
+            0.12916214554398148
+          ]
+        }
+      }
+    }
+  },
+  "contract": {
+    "axes": [
+      "kind",
+      "length",
+      "destination"
+    ],
+    "cases_per_policy": 76032,
+    "channels": [
+      "live",
+      "silent"
+    ],
+    "model_forward_samples": 61839360,
+    "optimizer_updates": 0,
+    "policy_blocks": 64,
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704,
+      66705,
+      66706,
+      66707,
+      66708,
+      66709,
+      66710,
+      66711,
+      66712,
+      66713,
+      66714,
+      66715,
+      66716
+    ],
+    "worlds": 56160
+  },
+  "created_at": "2026-09-17T02:42:15.490215+00:00",
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/audit_semantic_transfer_002/receipt.json": "0228b15d0f2e7ee2b0c9e2b9c16776a7313e053d3eb4f0ab5704588a2c449540",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/audit_semantic_transfer_002/verification.json": "4c0be3ace81e6711fc880c9c9a38089dbc032ffca1c348cfca5329caf521a045",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/execution/receipt.json": "c5f374a334282b491063d9012b92eee9def1dcd488d302f3885359c52c8d1916",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/execution/results.json": "3cfc1824768ac9f029de52de89a3a43ccb7189ebabb233c990ba50f88e17b7f6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/execution/status.json": "6128338a1e5f4db517fbd43cccda379400c612f659d1ce73e445765f98ea1244",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/freeze.json": "90099ef6697c4d458a5e9e21d7d2e05eebdbeba7350cce66868786ade94062bc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/inputs.json": "4778f59e87bdf5f5d362862c3ac95cd6a3cd3bf3d167c4ae3bb76e9ece009983",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/plan.json": "6ab1608601562b21aee986f0893f7651caffdae6c4825c5829eebec4c2f92f31",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002/prepared.json": "d2f948c0eab5dd1a08d888f841fff07220bdf7d0b6efa6de144af2f684680524"
+  },
+  "interactions": {
+    "action_change": {
+      "ci95_t15": [
+        -0.01663761935794081,
+        0.024672558594051913
+      ],
+      "mean": 0.0040174696180555495,
+      "n": 16,
+      "sd": 0.03876252012443827,
+      "seed_values": [
+        -0.03471408420138894,
+        0.03501790364583335,
+        0.008158817997685155,
+        -0.012330005787036996,
+        -0.003441478587962954,
+        0.009712275752314849,
+        0.02325484664351843,
+        0.10803946035879633,
+        -0.042485894097222254,
+        -0.054541919849537046,
+        0.032204861111111094,
+        0.013154658564814792,
+        -0.038340928819444425,
+        0.01510778356481482,
+        0.010598415798611135,
+        -0.005115198206018542
+      ]
+    },
+    "conditional_q": {
+      "ci95_t15": [
+        -0.005065397781966043,
+        0.04150811294218723
+      ],
+      "mean": 0.018221357580110596,
+      "n": 16,
+      "sd": 0.04370125562781916,
+      "seed_values": [
+        0.06625220455190924,
+        0.0018013246869998736,
+        -0.01341740241603731,
+        0.06837946989399775,
+        0.09453223988826438,
+        -0.03439870073441824,
+        -0.017877399881551514,
+        -0.02417419405137651,
+        0.005511650903229137,
+        0.06864346303155346,
+        0.02179309293581294,
+        -0.021212722812321207,
+        0.006526768197969282,
+        0.0732117814680518,
+        -0.03813549423298772,
+        0.03410563985267416
+      ]
+    },
+    "partner_transfer": {
+      "ci95_t15": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "n": 16,
+      "sd": 0.0,
+      "seed_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "physical": {
+      "ci95_t15": [
+        -0.04599111246695854,
+        0.002070214029458565
+      ],
+      "mean": -0.02196044921874999,
+      "n": 16,
+      "sd": 0.04509731567096045,
+      "seed_values": [
+        0.007924623842592585,
+        -0.02142379195601847,
+        -0.03540219907407408,
+        -0.014057978877314838,
+        -0.04256275318287042,
+        0.0012803819444445058,
+        0.00488009982638897,
+        -0.14917263454861118,
+        0.049099392361111174,
+        -0.04615614149305558,
+        -0.03377549913194444,
+        -0.004864728009259189,
+        0.01225314670138894,
+        -0.07934751157407402,
+        -0.00210684317129628,
+        0.0020652488425925153
+      ]
+    },
+    "plan_transfer": {
+      "ci95_t15": [
+        -0.04184500397108611,
+        0.00468033245205883
+      ],
+      "mean": -0.01858233575951364,
+      "n": 16,
+      "sd": 0.0436560523049362,
+      "seed_values": [
+        -0.02086475041933905,
+        0.03106103635912774,
+        -0.001060433232705174,
+        -0.0745535429861522,
+        -0.07783423392557791,
+        -0.002259493930096102,
+        0.05938990433609592,
+        0.00675234226904263,
+        -0.06769750332178293,
+        -0.10128822535452618,
+        -0.008121008522269008,
+        0.013908909596883803,
+        -0.027613467703453964,
+        -0.03619461546463336,
+        0.01681432639974842,
+        -0.007756616252580919
+      ]
+    },
+    "q": {
+      "ci95_t15": [
+        -0.009819862592670293,
+        0.019217242149961948
+      ],
+      "mean": 0.0046986897786458265,
+      "n": 16,
+      "sd": 0.027246344914072435,
+      "seed_values": [
+        0.015510163483796288,
+        -0.022289134837962965,
+        -0.010627350983796288,
+        0.03541485821759258,
+        0.029270652488425905,
+        0.0023880570023148053,
+        -0.031232819733796352,
+        -0.03976869936342592,
+        0.06323423032407403,
+        0.0366400824652778,
+        -0.003444191261574081,
+        -0.0069977936921296335,
+        0.018549262152777746,
+        -0.00616319444444445,
+        -0.011780237268518484,
+        0.006475151909722236
+      ]
+    }
+  },
+  "interpretation_boundary": "Aligned-minus-placebo is a frozen task content-transfer diagnostic; absolute action changes are not lexical or language-origin evidence.",
+  "probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/results/semantic_transfer_002",
+  "status": "completed"
+}

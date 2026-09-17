@@ -1,0 +1,4284 @@
+{
+  "audited_at": "2026-09-15T17:58:33.059070+08:00",
+  "status": "verified",
+  "errors": [],
+  "scope": {
+    "model_calls": 180,
+    "formal_decisions": 90,
+    "physical_steps": 6,
+    "arms": 2,
+    "selected_source_states": 1
+  },
+  "checks": {
+    "source_current_and_snapshot": {
+      "qwen_language_diagnostics/__init__.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/experiment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/history_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/environment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/agents.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/backend.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/protocol.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/run.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/probe.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/execute_locked_pipeline.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/action_semantics.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/semantic_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/map_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/map_presentation.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/continuation.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/continuation_cases.py": {
+        "current": true,
+        "snapshot": true
+      }
+    },
+    "original_v3_records": {
+      "manifest.json": true,
+      "steps.jsonl": true,
+      "inference.jsonl": true,
+      "episodes.jsonl": true
+    },
+    "prior_source_chain": {
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/inference.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/inference.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/inference.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/core_source_frozen.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/__init__.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/__init__.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/experiment.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/experiment.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/history_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/history_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/environment.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/environment.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/agents.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/agents.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/backend.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/backend.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/protocol.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/protocol.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/run.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/run.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/probe.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/probe.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/execute_locked_pipeline.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_v3/execute_locked_pipeline.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/action_semantics.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/action_semantics.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/semantic_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/semantic_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/map_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/map_cases.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/map_presentation.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/code_snapshot/qwen_language_diagnostics/map_presentation.py": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/status.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/checkpoint_calibration_full_information_17_1_before.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/steps.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/inference.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_MAP_01/下一步设计判断.md": true
+    },
+    "decision_pairs": [
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          1,
+          2
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          3,
+          4
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          5,
+          6
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          7,
+          8
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          9,
+          10
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          11,
+          12
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          13,
+          14
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          15,
+          16
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          17,
+          18
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          19,
+          20
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          21,
+          22
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          23,
+          24
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          25,
+          26
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          27,
+          28
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          29,
+          30
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          31,
+          32
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          33,
+          34
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          35,
+          36
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          37,
+          38
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          39,
+          40
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          41,
+          42
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          43,
+          44
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          45,
+          46
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          47,
+          48
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          49,
+          50
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          51,
+          52
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          53,
+          54
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          55,
+          56
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          57,
+          58
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          59,
+          60
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          61,
+          62
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          63,
+          64
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          65,
+          66
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          67,
+          68
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          69,
+          70
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          71,
+          72
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          73,
+          74
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          75,
+          76
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          77,
+          78
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          79,
+          80
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          81,
+          82
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          83,
+          84
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          85,
+          86
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          87,
+          88
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          89,
+          90
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          91,
+          92
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          93,
+          94
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          95,
+          96
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          97,
+          98
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          99,
+          100
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          101,
+          102
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          103,
+          104
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          105,
+          106
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          107,
+          108
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          109,
+          110
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          111,
+          112
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          113,
+          114
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          115,
+          116
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          117,
+          118
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          119,
+          120
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          121,
+          122
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          123,
+          124
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          125,
+          126
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          127,
+          128
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          129,
+          130
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          131,
+          132
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          133,
+          134
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          135,
+          136
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          137,
+          138
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          139,
+          140
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          141,
+          142
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          143,
+          144
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          145,
+          146
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          147,
+          148
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          149,
+          150
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 1,
+        "agent": "A",
+        "call_ids": [
+          151,
+          152
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 1,
+        "agent": "B",
+        "call_ids": [
+          153,
+          154
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 1,
+        "agent": "C",
+        "call_ids": [
+          155,
+          156
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 2,
+        "agent": "A",
+        "call_ids": [
+          157,
+          158
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 2,
+        "agent": "B",
+        "call_ids": [
+          159,
+          160
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 2,
+        "agent": "C",
+        "call_ids": [
+          161,
+          162
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 3,
+        "agent": "A",
+        "call_ids": [
+          163,
+          164
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 3,
+        "agent": "B",
+        "call_ids": [
+          165,
+          166
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 3,
+        "agent": "C",
+        "call_ids": [
+          167,
+          168
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 4,
+        "agent": "A",
+        "call_ids": [
+          169,
+          170
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 4,
+        "agent": "B",
+        "call_ids": [
+          171,
+          172
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": 4,
+        "agent": "C",
+        "call_ids": [
+          173,
+          174
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": null,
+        "agent": "A",
+        "call_ids": [
+          175,
+          176
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": null,
+        "agent": "B",
+        "call_ids": [
+          177,
+          178
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "window": null,
+        "agent": "C",
+        "call_ids": [
+          179,
+          180
+        ],
+        "equal": {
+          "analysis_messages": true,
+          "formal_messages_same_decision_analysis": true,
+          "labels_modes": true,
+          "source_seed": true,
+          "temperature": true,
+          "backend_flags": true,
+          "formal_output_equals_record": true,
+          "within_generation_limits": true,
+          "formal_choice_is_legal": true
+        }
+      }
+    ],
+    "template_render_sha256": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true,
+      "16": true,
+      "17": true,
+      "18": true,
+      "19": true,
+      "20": true,
+      "21": true,
+      "22": true,
+      "23": true,
+      "24": true,
+      "25": true,
+      "26": true,
+      "27": true,
+      "28": true,
+      "29": true,
+      "30": true,
+      "31": true,
+      "32": true,
+      "33": true,
+      "34": true,
+      "35": true,
+      "36": true,
+      "37": true,
+      "38": true,
+      "39": true,
+      "40": true,
+      "41": true,
+      "42": true,
+      "43": true,
+      "44": true,
+      "45": true,
+      "46": true,
+      "47": true,
+      "48": true,
+      "49": true,
+      "50": true,
+      "51": true,
+      "52": true,
+      "53": true,
+      "54": true,
+      "55": true,
+      "56": true,
+      "57": true,
+      "58": true,
+      "59": true,
+      "60": true,
+      "61": true,
+      "62": true,
+      "63": true,
+      "64": true,
+      "65": true,
+      "66": true,
+      "67": true,
+      "68": true,
+      "69": true,
+      "70": true,
+      "71": true,
+      "72": true,
+      "73": true,
+      "74": true,
+      "75": true,
+      "76": true,
+      "77": true,
+      "78": true,
+      "79": true,
+      "80": true,
+      "81": true,
+      "82": true,
+      "83": true,
+      "84": true,
+      "85": true,
+      "86": true,
+      "87": true,
+      "88": true,
+      "89": true,
+      "90": true,
+      "91": true,
+      "92": true,
+      "93": true,
+      "94": true,
+      "95": true,
+      "96": true,
+      "97": true,
+      "98": true,
+      "99": true,
+      "100": true,
+      "101": true,
+      "102": true,
+      "103": true,
+      "104": true,
+      "105": true,
+      "106": true,
+      "107": true,
+      "108": true,
+      "109": true,
+      "110": true,
+      "111": true,
+      "112": true,
+      "113": true,
+      "114": true,
+      "115": true,
+      "116": true,
+      "117": true,
+      "118": true,
+      "119": true,
+      "120": true,
+      "121": true,
+      "122": true,
+      "123": true,
+      "124": true,
+      "125": true,
+      "126": true,
+      "127": true,
+      "128": true,
+      "129": true,
+      "130": true,
+      "131": true,
+      "132": true,
+      "133": true,
+      "134": true,
+      "135": true,
+      "136": true,
+      "137": true,
+      "138": true,
+      "139": true,
+      "140": true,
+      "141": true,
+      "142": true,
+      "143": true,
+      "144": true,
+      "145": true,
+      "146": true,
+      "147": true,
+      "148": true,
+      "149": true,
+      "150": true,
+      "151": true,
+      "152": true,
+      "153": true,
+      "154": true,
+      "155": true,
+      "156": true,
+      "157": true,
+      "158": true,
+      "159": true,
+      "160": true,
+      "161": true,
+      "162": true,
+      "163": true,
+      "164": true,
+      "165": true,
+      "166": true,
+      "167": true,
+      "168": true,
+      "169": true,
+      "170": true,
+      "171": true,
+      "172": true,
+      "173": true,
+      "174": true,
+      "175": true,
+      "176": true,
+      "177": true,
+      "178": true,
+      "179": true,
+      "180": true
+    },
+    "steps": [
+      {
+        "arm_id": "original_history",
+        "step": 9,
+        "calls": [
+          1,
+          30
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [
+            {
+              "agent": "A",
+              "kind": "carry_together",
+              "researcher_object_id": "o00",
+              "partner": "C",
+              "destination": "营地",
+              "proposals_match": false,
+              "action_succeeded": false
+            }
+          ],
+          "successful_joint_object_actions": {
+            "carry_together": 0,
+            "deliver_together": 0
+          },
+          "delivered_this_step": 0
+        },
+        "score": 0.0,
+        "action_descriptions": {
+          "A": "与C共同搬运物10（干长木材）到营地",
+          "B": "等待",
+          "C": "前往营地"
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 10,
+        "calls": [
+          31,
+          60
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [],
+          "successful_joint_object_actions": {
+            "carry_together": 0,
+            "deliver_together": 0
+          },
+          "delivered_this_step": 0
+        },
+        "score": 0.0,
+        "action_descriptions": {
+          "A": "拿取物7（干短木材）",
+          "B": "等待",
+          "C": "前往林地"
+        }
+      },
+      {
+        "arm_id": "original_history",
+        "step": 11,
+        "calls": [
+          61,
+          90
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [],
+          "successful_joint_object_actions": {
+            "carry_together": 0,
+            "deliver_together": 0
+          },
+          "delivered_this_step": 0
+        },
+        "score": 0.0,
+        "action_descriptions": {
+          "A": "前往营地",
+          "B": "放下物155（干长纤维）",
+          "C": "前往营地"
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 9,
+        "calls": [
+          91,
+          120
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [
+            {
+              "agent": "A",
+              "kind": "carry_together",
+              "researcher_object_id": "o00",
+              "partner": "C",
+              "destination": "营地",
+              "proposals_match": true,
+              "action_succeeded": true
+            },
+            {
+              "agent": "C",
+              "kind": "carry_together",
+              "researcher_object_id": "o00",
+              "partner": "A",
+              "destination": "营地",
+              "proposals_match": true,
+              "action_succeeded": true
+            }
+          ],
+          "successful_joint_object_actions": {
+            "carry_together": 1,
+            "deliver_together": 0
+          },
+          "delivered_this_step": 0
+        },
+        "score": 0.0,
+        "action_descriptions": {
+          "A": "与C共同搬运物10（干长木材）到营地",
+          "B": "放下物155（干长纤维）",
+          "C": "与A共同搬运物284（干长木材）到营地"
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 10,
+        "calls": [
+          121,
+          150
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 1,
+              "delivered_this_step": 1
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [
+            {
+              "agent": "A",
+              "kind": "deliver_together",
+              "researcher_object_id": "o00",
+              "partner": "C",
+              "destination": null,
+              "proposals_match": true,
+              "action_succeeded": true
+            },
+            {
+              "agent": "C",
+              "kind": "deliver_together",
+              "researcher_object_id": "o00",
+              "partner": "A",
+              "destination": null,
+              "proposals_match": true,
+              "action_succeeded": true
+            }
+          ],
+          "successful_joint_object_actions": {
+            "carry_together": 0,
+            "deliver_together": 1
+          },
+          "delivered_this_step": 1
+        },
+        "score": 0.5,
+        "action_descriptions": {
+          "A": "与C共同交付物10（干长木材）",
+          "B": "等待",
+          "C": "与A共同交付物284（干长木材）"
+        }
+      },
+      {
+        "arm_id": "reset_history",
+        "step": 11,
+        "calls": [
+          151,
+          180
+        ],
+        "settlement_equal": true,
+        "outcomes_equal": true,
+        "outcomes": {
+          "goals": [
+            {
+              "goal_index": 0,
+              "kind": "木材",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 1,
+              "delivered_after": 1,
+              "delivered_this_step": 0
+            },
+            {
+              "goal_index": 1,
+              "kind": "纤维",
+              "length": "长",
+              "condition": "干",
+              "destination": "营地",
+              "quantity": 1,
+              "delivered_before": 0,
+              "delivered_after": 0,
+              "delivered_this_step": 0
+            }
+          ],
+          "joint_proposals": [],
+          "successful_joint_object_actions": {
+            "carry_together": 0,
+            "deliver_together": 0
+          },
+          "delivered_this_step": 0
+        },
+        "score": 0.5,
+        "action_descriptions": {
+          "A": "等待",
+          "B": "拿取物143（干长纤维）",
+          "C": "等待"
+        }
+      }
+    ],
+    "arms": [
+      {
+        "arm_id": "original_history",
+        "summary_equal": {
+          "arm_id": true,
+          "start_t": true,
+          "end_t": true,
+          "new_steps": true,
+          "engine_status": true,
+          "end_reason": true,
+          "success": true,
+          "score": true,
+          "delivered_units": true,
+          "required_units": true,
+          "goals": true,
+          "model_calls": true,
+          "history_lengths_after": true
+        },
+        "final_history_exact": true
+      },
+      {
+        "arm_id": "reset_history",
+        "summary_equal": {
+          "arm_id": true,
+          "start_t": true,
+          "end_t": true,
+          "new_steps": true,
+          "engine_status": true,
+          "end_reason": true,
+          "success": true,
+          "score": true,
+          "delivered_units": true,
+          "required_units": true,
+          "goals": true,
+          "model_calls": true,
+          "history_lengths_after": true
+        },
+        "final_history_exact": true
+      }
+    ]
+  },
+  "arm_results": [
+    {
+      "arm_id": "original_history",
+      "start_t": 8,
+      "end_t": 11,
+      "new_steps": 3,
+      "engine_status": "running",
+      "end_reason": "observation_limit",
+      "success": false,
+      "score": 0.0,
+      "delivered_units": 0,
+      "required_units": 2,
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "model_calls": 90,
+      "history_lengths_after": {
+        "A": 11,
+        "B": 11,
+        "C": 11
+      },
+      "finish_reasons": {
+        "private_analysis": {
+          "stop": 43,
+          "length": 2
+        },
+        "natural_message": {
+          "stop": 36
+        },
+        "action": {
+          "stop": 9
+        }
+      },
+      "max_prompt_tokens": 12145,
+      "joint_carry_events": 0,
+      "joint_delivery_events": 0
+    },
+    {
+      "arm_id": "reset_history",
+      "start_t": 8,
+      "end_t": 11,
+      "new_steps": 3,
+      "engine_status": "running",
+      "end_reason": "observation_limit",
+      "success": false,
+      "score": 0.5,
+      "delivered_units": 1,
+      "required_units": 2,
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 1
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "model_calls": 90,
+      "history_lengths_after": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "finish_reasons": {
+        "private_analysis": {
+          "stop": 42,
+          "length": 3
+        },
+        "natural_message": {
+          "stop": 36
+        },
+        "action": {
+          "stop": 9
+        }
+      },
+      "max_prompt_tokens": 4397,
+      "joint_carry_events": 1,
+      "joint_delivery_events": 1
+    }
+  ],
+  "reproduction": {
+    "calls_compared": 90,
+    "expected_source_calls": 90,
+    "calls": [
+      {
+        "new_call": 1,
+        "source_call": 241,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 2,
+        "source_call": 242,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 3,
+        "source_call": 243,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 4,
+        "source_call": 244,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 5,
+        "source_call": 245,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 6,
+        "source_call": 246,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 7,
+        "source_call": 247,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 8,
+        "source_call": 248,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 9,
+        "source_call": 249,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 10,
+        "source_call": 250,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 11,
+        "source_call": 251,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 12,
+        "source_call": 252,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 13,
+        "source_call": 253,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 14,
+        "source_call": 254,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 15,
+        "source_call": 255,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 16,
+        "source_call": 256,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 17,
+        "source_call": 257,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 18,
+        "source_call": 258,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 19,
+        "source_call": 259,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 20,
+        "source_call": 260,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 21,
+        "source_call": 261,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 22,
+        "source_call": 262,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 23,
+        "source_call": 263,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 24,
+        "source_call": 264,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 25,
+        "source_call": 265,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 26,
+        "source_call": 266,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 27,
+        "source_call": 267,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 28,
+        "source_call": 268,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 29,
+        "source_call": 269,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 30,
+        "source_call": 270,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 31,
+        "source_call": 271,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 32,
+        "source_call": 272,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 33,
+        "source_call": 273,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 34,
+        "source_call": 274,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 35,
+        "source_call": 275,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 36,
+        "source_call": 276,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 37,
+        "source_call": 277,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 38,
+        "source_call": 278,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 39,
+        "source_call": 279,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 40,
+        "source_call": 280,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 41,
+        "source_call": 281,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 42,
+        "source_call": 282,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 43,
+        "source_call": 283,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 44,
+        "source_call": 284,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 45,
+        "source_call": 285,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 46,
+        "source_call": 286,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 47,
+        "source_call": 287,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 48,
+        "source_call": 288,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 49,
+        "source_call": 289,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 50,
+        "source_call": 290,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 51,
+        "source_call": 291,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 52,
+        "source_call": 292,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 53,
+        "source_call": 293,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 54,
+        "source_call": 294,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 55,
+        "source_call": 295,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 56,
+        "source_call": 296,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 57,
+        "source_call": 297,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 58,
+        "source_call": 298,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 59,
+        "source_call": 299,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 60,
+        "source_call": 300,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 61,
+        "source_call": 301,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 62,
+        "source_call": 302,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 63,
+        "source_call": 303,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 64,
+        "source_call": 304,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 65,
+        "source_call": 305,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 66,
+        "source_call": 306,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 67,
+        "source_call": 307,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 68,
+        "source_call": 308,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 69,
+        "source_call": 309,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 70,
+        "source_call": 310,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 71,
+        "source_call": 311,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 72,
+        "source_call": 312,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 73,
+        "source_call": 313,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 74,
+        "source_call": 314,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 75,
+        "source_call": 315,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 76,
+        "source_call": 316,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 77,
+        "source_call": 317,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 78,
+        "source_call": 318,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 79,
+        "source_call": 319,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 80,
+        "source_call": 320,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 81,
+        "source_call": 321,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 82,
+        "source_call": 322,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 83,
+        "source_call": 323,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 84,
+        "source_call": 324,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 85,
+        "source_call": 325,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 86,
+        "source_call": 326,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 87,
+        "source_call": 327,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 88,
+        "source_call": 328,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 89,
+        "source_call": 329,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      },
+      {
+        "new_call": 90,
+        "source_call": 330,
+        "equal": {
+          "messages": true,
+          "prompt_sha256": true,
+          "output": true,
+          "seed": true,
+          "temperature": true,
+          "mode": true,
+          "fresh_cache": true,
+          "native_thinking": true,
+          "valid": true,
+          "finish_reason": true
+        }
+      }
+    ],
+    "steps": [
+      {
+        "step": 9,
+        "equal": {
+          "step": true,
+          "observations": true,
+          "menus": true,
+          "messages": true,
+          "channel_usage": true,
+          "selections": true,
+          "actions": true,
+          "feedback": true,
+          "score": true,
+          "state_before": true,
+          "state_after": true
+        }
+      },
+      {
+        "step": 10,
+        "equal": {
+          "step": true,
+          "observations": true,
+          "menus": true,
+          "messages": true,
+          "channel_usage": true,
+          "selections": true,
+          "actions": true,
+          "feedback": true,
+          "score": true,
+          "state_before": true,
+          "state_after": true
+        }
+      },
+      {
+        "step": 11,
+        "equal": {
+          "step": true,
+          "observations": true,
+          "menus": true,
+          "messages": true,
+          "channel_usage": true,
+          "selections": true,
+          "actions": true,
+          "feedback": true,
+          "score": true,
+          "state_before": true,
+          "state_after": true
+        }
+      }
+    ],
+    "complete_90_call_reproduction": true
+  },
+  "backend_stats": {
+    "calls": 180,
+    "load_seconds": 2.557843792019412,
+    "inference_seconds": 923.1443832411896,
+    "generation_tokens_by_mode": {
+      "private_analysis": 10316,
+      "natural_message": 2166,
+      "action": 36
+    },
+    "max_prompt_tokens": 12145,
+    "peak_mlx_memory_gb": 10.892833416
+  },
+  "generation_truncated_calls": [
+    {
+      "call": 55,
+      "label": {
+        "phase": "history_continuation",
+        "arm_id": "original_history",
+        "condition": "full_information",
+        "group": 17,
+        "episode": 1,
+        "seed": 92015,
+        "step": 10,
+        "window": null,
+        "agent": "A",
+        "stage": "analysis"
+      },
+      "mode": "private_analysis",
+      "generation_tokens": 256
+    },
+    {
+      "call": 89,
+      "label": {
+        "phase": "history_continuation",
+        "arm_id": "original_history",
+        "condition": "full_information",
+        "group": 17,
+        "episode": 1,
+        "seed": 92015,
+        "step": 11,
+        "window": null,
+        "agent": "C",
+        "stage": "analysis"
+      },
+      "mode": "private_analysis",
+      "generation_tokens": 256
+    },
+    {
+      "call": 93,
+      "label": {
+        "phase": "history_continuation",
+        "arm_id": "reset_history",
+        "condition": "full_information",
+        "group": 17,
+        "episode": 1,
+        "seed": 92015,
+        "step": 9,
+        "window": 1,
+        "agent": "B",
+        "stage": "analysis"
+      },
+      "mode": "private_analysis",
+      "generation_tokens": 256
+    },
+    {
+      "call": 119,
+      "label": {
+        "phase": "history_continuation",
+        "arm_id": "reset_history",
+        "condition": "full_information",
+        "group": 17,
+        "episode": 1,
+        "seed": 92015,
+        "step": 9,
+        "window": null,
+        "agent": "C",
+        "stage": "analysis"
+      },
+      "mode": "private_analysis",
+      "generation_tokens": 256
+    },
+    {
+      "call": 147,
+      "label": {
+        "phase": "history_continuation",
+        "arm_id": "reset_history",
+        "condition": "full_information",
+        "group": 17,
+        "episode": 1,
+        "seed": 92015,
+        "step": 10,
+        "window": null,
+        "agent": "B",
+        "stage": "analysis"
+      },
+      "mode": "private_analysis",
+      "generation_tokens": 256
+    }
+  ],
+  "behavior_evidence": {
+    "reset_B_initial_carried_item": {
+      "length": "长",
+      "handle": "物155",
+      "carried_by": [
+        "B"
+      ],
+      "condition": "干",
+      "kind": "纤维"
+    },
+    "reset_B_step11_selected_ground_item": {
+      "condition": "干",
+      "handle": "物143",
+      "kind": "纤维",
+      "length": "长"
+    },
+    "fiber_goal": {
+      "length": "长",
+      "quantity": 1,
+      "delivered": 0,
+      "condition": "干",
+      "kind": "纤维",
+      "destination": "营地"
+    },
+    "both_items_match_required_attributes": true,
+    "reset_B_actions_by_step": {
+      "9": {
+        "kind": "drop",
+        "item": "物155"
+      },
+      "10": {
+        "kind": "wait"
+      },
+      "11": {
+        "kind": "pickup",
+        "item": "物143"
+      }
+    },
+    "reset_B_private_action_analysis": {
+      "117": "我持干长纤维物 155，在河滩。任务需向营地交付 1 件干长纤维和 1 件干长木材。地上有同地干长纤维物 143。A/C 在林地处理木材，暂无法与我协作搬运纤维。若我独自交付物 155，因未确认接收方状态且可能浪费步数，风险较高。最稳妥策略是：先放下物 155 释放携带位，再拿取地上物 143，随后前往营地交付。此路径确保物品合规且动作连贯。故选择动作 1“放下物 155\"。",
+      "147": "当前剩余 3 步，任务板显示需交付 1 件干长纤维至营地。我位于河滩，空手，地面有物 143（干长纤维）。根据规则，长纤维需两人共同搬运交付，但我无法确认 A 或 C 是否会在营地等待我，且他们广播中提及的物 14 或 231 与我观察不符。独自拿取后无法完成交付。若等待，将浪费步数。鉴于无法确保合作成功，且必须完成一项，我选择拿取物 143 并尝试移动。但规则明确长物品需两人共同搬运，单人移动无效。因此，最稳妥策略是等待，避免无效动作消耗步数，或重新评估是否有其他路径。但观察显示无其他长纤维。实际上，若无人协助，此任务可能无法完成。但必须行动。选择拿取物 143，虽可能失败，但为唯一尝试。不，规则说长木材/纤维必须两人共同搬运。单人拿取后无法移动。因此，拿取后若无人汇合，则无法移动。故应等待，或寻找伙伴。但伙伴不在河滩。林地",
+      "177": "当前剩余 2 步，任务板显示干长纤维缺 1 件。我在河滩，物 143 是干长纤维且在地面。A/C 在营地且已交付木材，无需协助。根据规则，长纤维需单人拿取后交付。本步选动作 6 拿取物 143，下步直接移至营地交付即可完成任务。"
+    },
+    "interpretation": "Both fibers meet the goal. These records show replacement and action-stage planning problems, not selection of a fiber with wrong attributes. Step12 was not run."
+  },
+  "evidence_file_sha256": {
+    "manifest.json": "9204e151a565122d75c1f5e74302d33ffce242df0427797b603f4b6a8fe5ed06",
+    "prepared_cases.json": "716f1e327a70fba6c80cf3f4755c6470b4a57914f7f266fb00eb7af8d04f1c98",
+    "status.json": "448b7598c3f0f55acfd5d8e457a739fb731a5461417a8a4e532fa7b958abbd88",
+    "results.json": "68453a242beb269f50aa2afd888cc0b91a1be32449bc36c95328cf5e2f3920f7",
+    "steps.jsonl": "8cd3604899309e891c928aea9ead0ac6877183587836c3aea2f4346bf7d59013",
+    "arms.jsonl": "9876de218f71201800d29ddb1f92099ca53b9acb68ffad5a7cfea17e96b99f6d",
+    "inference.jsonl": "2f3e9bb60a70e6c2ad5147fc0d7e02b9ed996f5697a48929742cb444fb6a5944",
+    "backend_stats.json": "03d3205fd544c66282358a0af47ebed21870bd215f56022bbaaa21b7d658ebcd",
+    "original_history_histories_after.json": "b14694659e78c7774799c35137a3829ebe29826cf385374e8bf0ea4a7fcee882",
+    "reset_history_histories_after.json": "8845643c754733706880dc978b1a5caa43bd85eb95fad66d71443f4f486c79ff"
+  },
+  "audit_script_sha256": "92c5e2f3de22a9f672e8ede85c88eb15238f06bd2103cc746a1a30afb95c6a5e",
+  "audit_loaded_model_weights": false,
+  "audit_new_model_calls": 0,
+  "model_weight_files_fully_hashed": false,
+  "interpretation_limits": [
+    "Only initial raw histories differ; each arm generates its new broadcasts, actions and subsequent owner history.",
+    "An ending at t11 with a running world is observation truncation, not timeout at the unchanged t12 deadline.",
+    "Exact original-arm replay is a reproducibility control, not an independent cooperative sample.",
+    "One selected failure state and changed history length do not identify a particular old message or internal mechanism.",
+    "Current observations retain prior own feedback even in the reset-history arm.",
+    "This full-information natural-language continuation does not demonstrate symbolic language formation."
+  ]
+}

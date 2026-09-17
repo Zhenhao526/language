@@ -1,0 +1,1679 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "seed": 47101,
+      "condition": "FI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 38856,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 38856,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 38856,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 12545,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 12545,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 12545,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 9861,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 9861,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 9861,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2914,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2914,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2914,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 31950,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 31950,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 28305,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 10548,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 10548,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 8973,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 7938,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 7938,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 7604,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "FI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2631,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2631,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2401,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 20569,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 20569,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 20569,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 6741,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 6741,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 6741,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 5299,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 5299,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 5299,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1651,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1651,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1651,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 12414,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 13502,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 7908,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 4670,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 4983,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 1855,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 2768,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 3341,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 1651,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47101,
+      "condition": "PI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1000,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1222,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 366,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 37954,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 37954,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 37954,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 12130,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 12130,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 12130,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 7665,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 7665,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 7665,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2329,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2329,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2329,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 31752,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 31752,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 28680,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 9640,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 9640,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 8245,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 5683,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 5683,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 6060,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "FI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1734,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1734,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1755,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 21013,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 21013,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 21013,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 6901,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 6901,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 6901,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 6055,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 6055,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 6055,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1897,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1897,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1897,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 9833,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 10132,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 10581,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 3159,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 3183,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 3633,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 1538,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 1948,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 2412,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47102,
+      "condition": "PI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 504,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 576,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 880,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 38016,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 38016,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 38016,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 12456,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 12456,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 12456,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 7244,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 7244,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 7244,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2322,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2322,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2322,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 33719,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 33719,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 32401,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 10606,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 10606,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 9974,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 8987,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 8987,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 8145,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "FI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2930,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2930,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2762,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 20693,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 20693,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 20693,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 6778,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 6778,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 6778,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 5947,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 5947,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 5947,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1806,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1806,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1806,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 11878,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 15089,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 13250,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 3820,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 4736,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 4117,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 2913,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 3810,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 3807,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47103,
+      "condition": "PI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 959,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1207,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1211,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 39204,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 39204,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 39204,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 12636,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 12636,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 12636,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 9320,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 9320,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 9320,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2934,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2934,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2934,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 31549,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 31549,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 37560,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 9840,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 9840,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 12216,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 6255,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 6255,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 7475,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "FI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 2212,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 2212,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 2669,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_silent",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 18304,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 18304,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 18304,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_silent",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 5752,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 5752,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 5752,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_silent",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 2916,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 2916,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 2916,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_silent",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 1076,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 1076,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1076,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_live",
+      "partition": "train",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 82836,
+          "full_successes": 11666,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 82836,
+          "full_successes": 11155,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 82836,
+          "full_successes": 12680,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_live",
+      "partition": "new_needs",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 24732,
+          "full_successes": 3823,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 24732,
+          "full_successes": 3766,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 24732,
+          "full_successes": 4540,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_live",
+      "partition": "new_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 27612,
+          "full_successes": 2257,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 27612,
+          "full_successes": 2381,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 27612,
+          "full_successes": 3970,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    },
+    {
+      "seed": 47104,
+      "condition": "PI_live",
+      "partition": "new_needs_and_layouts",
+      "modes": {
+        "cross_channels_closed": {
+          "worlds": 8244,
+          "full_successes": 854,
+          "native_settlement_exact": true
+        },
+        "action_only_drop": {
+          "worlds": 8244,
+          "full_successes": 891,
+          "native_settlement_exact": true
+        },
+        "constant_full": {
+          "worlds": 8244,
+          "full_successes": 1465,
+          "native_settlement_exact": true
+        }
+      },
+      "constant_actual_inputs_exact": true
+    }
+  ],
+  "physical_world_settlements": 6884352,
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/audit_probe_records.py": "d9d44a5747675a27fa04633749385957ae437404e91dcceb8be57c71e78d24a8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/audit_execution.py": "f09f30612ccb7e27b9ec7e3b38b9fa217d133f1df1185e2712fd899254151bd3"
+  },
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/train/deletions.npz": "85ef0cb7893fe5d286b50472385857c59d20483b7634209bac7db844647d0724",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_silent/final_train.npz": "811b26acaa0e2e619b79060f2d3af1dae73be0b1c3f39d8158e15c5b25571855",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_needs/deletions.npz": "b07ffcaac711add7e87f3c4e242d3a34ffa0c10a29d6fd7c834ca028d6105335",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_silent/final_new_needs.npz": "2cffb853d3f5cafc383ace628e018b7728d8d6ad56e5317f7ec72e482d58b5cc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_layouts/deletions.npz": "a83592b2550ed6b0d0e2ab830c388bb40f8e8e6cd41b51667887b5428556b29b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_silent/final_new_layouts.npz": "0f945a3248e127798c57b4ab84ee7201408f1692d5267d967e1a985ed2bf3954",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_silent/new_needs_and_layouts/deletions.npz": "36c46c20587cb4ead2353d36ff49b3baa822bf833ba24eab11c7c63d906b56cb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_silent/final_new_needs_and_layouts.npz": "17d8aa75f2fe9b0d6133f5b51c0bf3c24c919f327aaafeda87767f0458fbc63d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/train/deletions.npz": "a297777be8c4065830a49407c25bf2c86a429705f21241c18909d168f26abeed",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_live/final_train.npz": "bd9bf3ae9bb5ce68975fb08090eecf0a9a729a42f90cf96f6044b29f0bdbebee",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_needs/deletions.npz": "cacbda4a08e21702caaba15b7113f9addc67db59cc72e886278b32335dd4c4c1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_live/final_new_needs.npz": "2c557ede67b0ac4bcbd74ce200b59853291ab52adb625f4e4034c5215ad179b9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_layouts/deletions.npz": "2e5c94f8ce4d6c18d63a5b2d262f065c108067a4c32515ab6d404247d76d6e1d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_live/final_new_layouts.npz": "d56ae4f2178d1a6c323253342cc8e8cdc3c9dc452dbfadfc84f656b90121cd00",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_FI_live/new_needs_and_layouts/deletions.npz": "3762d61dc1c2aeb8c0e70bfa009eb3910b32d95c3ca507033fd060ea0797a3da",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_FI_live/final_new_needs_and_layouts.npz": "7795529924b872418b22343fce5d615d13189aa538d64866ddfd1c911580e2b7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/train/content_pairs.json": "b387e0c63a89eedf45262eed9674f545e66c9693fc571453244a6f4e354f14e3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/train/deletions.npz": "2fb7de49b7ac7edea4d43d1aec135fe1f8c99ca12cd19bf63ff0d604edb34602",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/train/transplanted_listener_probabilities.npz": "3db229f559b767036bd45641024b4313db5bf37af862781cd35c0cf57b5a861d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_silent/final_train.npz": "8d0515e1082db3cac2b9b447f70416f698a48d7b9f129f9c50de2c291b08566a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs/content_pairs.json": "0a5086af92fa299dc87b73b78d9acfba99a424a8cf3e8ff0903e6135c14998fe",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs/deletions.npz": "59219150905509d05c5c728f48c4649f6700f5d45c813051debf2e08f28c52c6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs/transplanted_listener_probabilities.npz": "5bb9eae8009505a6b3e7aaf96aaf97b5f77d58e2fb4ea9a5e1b895773fef913b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_silent/final_new_needs.npz": "690119ed5951ee9092bc68d958252c030ebbe572d13fd4c80a4b9e81f64a8e5f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_layouts/content_pairs.json": "85d2285cc3f4518eb129519b4dc100307ce33144eac0c3542e19e5808e84b8a7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_layouts/deletions.npz": "603b71601ab8988906b7fd80c0d6588c3e0a53851cb9f3279ac786b7a4ccd49a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_layouts/transplanted_listener_probabilities.npz": "0123e78194632cf261ec0768e86bd3678fbeb32d09be114a084d62f7b4404c45",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_silent/final_new_layouts.npz": "0522a39ee8e34a8805f999b18c635cd91256c86ad234fb214778232f9d7d93de",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs_and_layouts/content_pairs.json": "e9dd698ddeef795784addc920a91b303d6efeda267abcaa45aa9cf6ab1a8a0a4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs_and_layouts/deletions.npz": "b7de635c64f0eedfb4d5f0731f4fb7928a631779525ce6268b30baaa1bcac43d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_silent/new_needs_and_layouts/transplanted_listener_probabilities.npz": "b9be13d693f41a7a0174e28560b61d0690ed7f61b09e6454bdc77f16f74293bd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_silent/final_new_needs_and_layouts.npz": "1ec7a5da6cee9d351d9da16af4c3ed42d1b142ddd8dada4cd54206f016d51bcb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/train/content_pairs.json": "d9f01dbc90ed7d90cf57dc10e2a0529903058d281581bb05b829ca4f0d198195",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/train/deletions.npz": "5381f275b8dea04a7a281d1da345343a7443f986d3c5adbff79a383da25c0d8b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/train/transplanted_listener_probabilities.npz": "aeb76d9761b052dc78fab3933de6f90284451f7656eb08e371d9ae59d687b6b6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_live/final_train.npz": "f2b94847d38058bb66f055f0bccdf2df9f402cfd437605972e5a65baa9ea0c18",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs/content_pairs.json": "c37900995ecd9fa1b54b62eb1aa37616eba890e88542b866667528a6847acce9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs/deletions.npz": "1b67a5b1d577fc6ec3f1d3defde517baf63b98a26fdee8377c9db3928aad4fe4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs/transplanted_listener_probabilities.npz": "7fe28796ada23d5fd10773a2c621b18242cd5da9adea8152b4271e3fd98a9f8f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_live/final_new_needs.npz": "e7e15e13841b6c3eace1c090b33f1c749972c85dcfc536c4a079a0c5137b6da3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_layouts/content_pairs.json": "864ccecd3ef5a68ee8988ba1f91f0dbb92c5db1cd1fe024b2f216700661a9919",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_layouts/deletions.npz": "eb80916f39fee596a3e15cf38c31d9ba605c6c2d6ae3eced5b5ea728addda995",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_layouts/transplanted_listener_probabilities.npz": "461f87bc59a79c20a38abbfc5d44c8f6909fa7314685298f76f929f2bc5fe1a9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_live/final_new_layouts.npz": "2ea40dfb1fd01894654ccccbffe9802dfc36269f23959fb406817a84a95c1ab2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs_and_layouts/content_pairs.json": "150af59c5db332152efc8c560ea181c3241d69711b183468c2a32e0133e53501",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs_and_layouts/deletions.npz": "ab897370d39a070612de99b6893bd619050e4be15ae6bc040718353d9c83f028",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47101_PI_live/new_needs_and_layouts/transplanted_listener_probabilities.npz": "429afcabe53a3a722dfa16d81a346bfa55cb656f855a75a058386e7e70bf0e8d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47101_PI_live/final_new_needs_and_layouts.npz": "bb8c40019c803e3995024e4f85ee1430ccdd57a7c3112df21c1b0ea0fd088166",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/train/deletions.npz": "5dd5f195862d0c537768d4e70de3e41842b8f415ddf1a7fd786323110d7f3291",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_silent/final_train.npz": "f61477a126ed0cbadf3f435e4da18d4ef9356ed085169d9f38e43caacd0306e4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_needs/deletions.npz": "1f0f5677bd58f7e51d6e344482d00d4e5c6eb3783c90720dc7e28fd7a351b47d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_silent/final_new_needs.npz": "c21502d90ccf2af767eb72807931b00891b1600ca7c9389d003db95d7bd7a9de",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_layouts/deletions.npz": "a10a7fa058bb4b94e3ea743341d3f52baa4868356daf245a28b1cbdfe01bd356",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_silent/final_new_layouts.npz": "9536a27d11451226aeb0bc68532b6ffc53b4b21f0b7c27e87dea4489462218e8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_silent/new_needs_and_layouts/deletions.npz": "2ea14ea60f7acdb7a8b36628e2da4ad97170ca378d0e2343a6e12e47206aaf7e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_silent/final_new_needs_and_layouts.npz": "dd7d403d44f35c5408b4a649e1aeb958166d9b16eb1f841add69c1eb52d64564",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/train/deletions.npz": "db9455d83364ff3d7348e74a65d1ea0f57c639b26034e2f4dd4befdb177febdc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_live/final_train.npz": "44dfa04707a899a5261742dc02292d7133e623c7814c070422271068238a50d0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_needs/deletions.npz": "ffb3baba16082adc0f2e10258013215ec460e7cfb205a48a494ee9101a728b08",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_live/final_new_needs.npz": "1cd102d42bc887dc2d3c709b013c1f70f938817dcb3d6c44b7efc3344e05d031",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_layouts/deletions.npz": "77ef1103ce572352f6a0657e8afc7099f66c5d0eec522255845aa9990030ebb7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_live/final_new_layouts.npz": "ddd2df2c5215aee2cc3214af2dc0cf942a95470320471c64c40502b0e0e0f31b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_FI_live/new_needs_and_layouts/deletions.npz": "5bb686a5c27f0dca6ab2e75b1a5c91b3f959993a5811bc4f68db69eee1dc07b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_FI_live/final_new_needs_and_layouts.npz": "3b653956f8df33b0c2a422b808abbd70d4d610884a1bc01ffd515599cc357b57",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/train/content_pairs.json": "64118be0a4432cdce5d76acd2d0c7d998ad689c1890c47c7a544f110f82ee910",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/train/deletions.npz": "dadada4c5dde0544af300695095a14ddb33c63da5912ceed2cd5d7577a84d9b3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/train/transplanted_listener_probabilities.npz": "3100c4bac45ff78bba0925444fc82ae857edd901a644dcda581b00cd88247005",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_silent/final_train.npz": "08a7d30c6adb1cd8c1f53524e16c8d393650ece673da6b3e0d57322fea897208",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs/content_pairs.json": "ec727353ac50a719e33a2e9ed5e633ec529a9684955745960b02b757a96af9e5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs/deletions.npz": "e9ecbd8ee9e4375ee530d7cbccd56911fcc30ac675f29806445d82e18b8d62af",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs/transplanted_listener_probabilities.npz": "808aefcc8fe166f4f2149fdaa898b5c84a49fca569089bc9108eb9e1a02e4e34",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_silent/final_new_needs.npz": "20f14bcccfcfcc70046b2d6416ff54abe1e42b5c80a84a5968ae4931277d21fa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_layouts/content_pairs.json": "aacd0af4496b5b30503f305c46f3f85a37103037a96837e00556ad07ebc20258",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_layouts/deletions.npz": "f7e8e7c64aa6ff6e14a5f44f83f589c7918c32646e5c4220f8955beaa68851aa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_layouts/transplanted_listener_probabilities.npz": "b60fb6ec188e00ab1fd209abbe7d7ea83c93c861e3338588c4be0e51f1165c41",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_silent/final_new_layouts.npz": "60b572c21eeaaa911073928d6ae4144d9f3a69da1ccf01d6deeafc921641e5c5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs_and_layouts/content_pairs.json": "0f9750435d8d04eda417124cfc9bbf017481ce10e42a573b514c3e3b7911bfa5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs_and_layouts/deletions.npz": "5597a75f2e5c8082df88603982440a668be6a0781a4ff82f46df4fec81384b67",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_silent/new_needs_and_layouts/transplanted_listener_probabilities.npz": "c9da578b5df8fa09311777b66ab4cafdd33f0082d3358585a922c19b33146209",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_silent/final_new_needs_and_layouts.npz": "d0ee080406671ecdc16929985ddd83aaad0bf9a370ee86520532ac604ed5da00",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/train/content_pairs.json": "f9725dada977478e8e0283a774cf15b74a9084470e2d3d40e42026cd8cdc3529",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/train/deletions.npz": "a1546f493a3a850e6938b8a063255ff9836973f8aaaa1ab182cd03e41f8611be",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/train/transplanted_listener_probabilities.npz": "8ed2e71a1acd57f6c0cd6ccde06f65798a6647d49b9626e207f8159578b850f5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_live/final_train.npz": "a690eadfdc5569a25f9945747272312ad4cbfa770a455f09cb5cdc2b69592856",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs/content_pairs.json": "65678cae20eb91990cf7a8273b6d444fd9f56cef15564b8b01ec44d5b1220ef9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs/deletions.npz": "b8ce96061200b4017082b0aae6027fcffe8ea9a85b12a513a6c02a03f6a4cef3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs/transplanted_listener_probabilities.npz": "d4d4ad4b9e1524fadef19c4ea9fa2d3458afcfe0cf8b9501c5a3237022eb9cd1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_live/final_new_needs.npz": "ba4bf8fa791385be2fdacaeacd7181f0034caedebb48e29b42820c289e1da953",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_layouts/content_pairs.json": "15f3135aff63c2e968ffe4b94135809f2cdab843174a4308c34a077546b79f85",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_layouts/deletions.npz": "fa251f51f1b00f3af10f76c08f6d747802928f4eaa2aa22dc6ed5a09058cdd93",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_layouts/transplanted_listener_probabilities.npz": "5fd343f8cd484e7275d15922e15235f1cf82aabc0191ebacb3a93242d5df88fe",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_live/final_new_layouts.npz": "f49682b4be586450dc338f0cbacbc1a4a3fe2eca8c2eaf549a4bdfae8370395e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs_and_layouts/content_pairs.json": "248efebdbff77c1b89bd1d6c57bdf1f1566b4155aff50e70154cdd4f9920681b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs_and_layouts/deletions.npz": "272734ee57554eb3566245ee1fce2f7c7d2f752e70908c044c9299d8de2fa837",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47102_PI_live/new_needs_and_layouts/transplanted_listener_probabilities.npz": "de06cd0d77e91129c1b0bff512bb248f26fb6ab766593fe472cdd77d465332d3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47102_PI_live/final_new_needs_and_layouts.npz": "575b40e1d641a6821f8945c043ed96fb9b0c57257f4ed3bc37137217fdd79ebb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/train/deletions.npz": "a8891133b1cabd01687444bc4d6588226da047ea56fe4bc4a10f086889d686ee",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_silent/final_train.npz": "15677b39457aff9f46c620ca8ccc83fd77a4f8c6bb94373849edd680c7942f7b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_needs/deletions.npz": "be0083e647a12936af401b7637d2c756412cf0ec059c43bb55997802940bda93",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_silent/final_new_needs.npz": "e28c7d4196a45310f2986f9bfd9931c1b05668a99cd67ee26d953f9497dce2fa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_layouts/deletions.npz": "2e4d57235b0660595e48edf33b265f5f3244f6f947ae0c3df0d56faa0c8f3bc4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_silent/final_new_layouts.npz": "f06e3528ea6d4417e989d258892969e64c0923598f5bd10af10beacdcb7bbb64",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_silent/new_needs_and_layouts/deletions.npz": "efeb0679b3ad77fe59df6b705e2bb4b372af4a115d887ce304c989bd0b8a3e4f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_silent/final_new_needs_and_layouts.npz": "0f41a6d1605899b954c6cad0e36b0195e15067d2a0cd70412261d2483fe0a628",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/train/deletions.npz": "03bd1ddb145e13a776b070ddf69d81a740eac150ef72c54e8144024ac9359513",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_live/final_train.npz": "f625314eb419e3b64e7d9d63d963be6acb53858a590c9092dea4133a16c91a1e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_needs/deletions.npz": "7f0f78075dd4ac703269d803c276d93cb380f923f8ae37371fcc5f2a9d1cd2b1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_live/final_new_needs.npz": "dc988b22286b978f91142718aa0f280a977b2e260cd4586f4efb550636c23254",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_layouts/deletions.npz": "c0de20ccd2c6e4744f7c3044d6a4ea67cd641fbbcf936bc33aef32158dc4cb8b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_live/final_new_layouts.npz": "7bc65d088236b6ab6ff947245a7b642122befc70affb0b9f5ea7b423a1652fa9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_FI_live/new_needs_and_layouts/deletions.npz": "829523f9b3d271dfe588b30ac81791706b2acba0f8abbdf8dabb8a41909aea28",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_FI_live/final_new_needs_and_layouts.npz": "eb3486ab8a1c81b9e50b01a14e49f904fa3843a74b76f933e12650d06876afff",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/train/content_pairs.json": "f3597d2156ecded62d94763d66b284e5bc40289cf98252fa481d47f389c2af94",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/train/deletions.npz": "f0a7e3fe9351c9a9601d49bc13435276159bc91b4d27c7b17aa358036653caa8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/train/transplanted_listener_probabilities.npz": "8534757903ad3ba58ba1375e12690fd5a9c7f29c70c71f545ff3a8fd9a02b9be",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_silent/final_train.npz": "58a3cf0c0d3196998900bb874b8fe4a3d9fecc99d20b15f52b07432d8543321b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs/content_pairs.json": "04949c32c5b12dc74dd62c47d4d60e4524f468b474f30ddd857f233ab89ba847",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs/deletions.npz": "1afd23fc6fb5d8a93b2632e0b4307768e982af37af336760e196b9b2195b423c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs/transplanted_listener_probabilities.npz": "9848f0dc0a6da71d749854ea49e660ac607989bcfd8771ac8010123ffe48d4a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_silent/final_new_needs.npz": "ad06ce15a52e42cd122d5235aa82ae936d2ae8470733a0589ec05ad78e384fad",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_layouts/content_pairs.json": "1fd52e2b7882679569b7a19a524d4f3f6cfaace337a0d218e9502a2084edbb95",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_layouts/deletions.npz": "70ac78d3d4694c3fd1fb25927342431a683cf1a8d7f4d221bcc6bf2a68639c69",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_layouts/transplanted_listener_probabilities.npz": "bdf7776567a7e8e1875fc863150ed85463c2f5c95b295d8c7697332656bc0ad6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_silent/final_new_layouts.npz": "10fcff53b29a085b3ef5ff86229b8da237d3770a12535aa4b63851d3a09a3367",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs_and_layouts/content_pairs.json": "a5148e75304653f21d897d43e0b3b56eb6d4d760cc2c006002db67279b724d74",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs_and_layouts/deletions.npz": "5bbb8949c4e3875da4f125feb6270d0bba1766cf6b4cb58704c0de5380472cde",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_silent/new_needs_and_layouts/transplanted_listener_probabilities.npz": "0292ea3e35b441078d6c86f36659b9c82e4f64205ba9482bb393feb42f52d30b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_silent/final_new_needs_and_layouts.npz": "8a8709dc4aacad26bc2541368e42b175cf216996132a7fa1493509dc881a8ea3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/train/content_pairs.json": "ba1048d8f8d17d497bc477b53c1f01f5453055677c637155314cac06be314f24",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/train/deletions.npz": "46a24acc953f0e973df9eebecdf0aa0b74d5e57fda0d51e64c52d57cd8f3c8f3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/train/transplanted_listener_probabilities.npz": "199f027d922320b390342b75a1d4936188797480f63167496463c81d24f24bb3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_live/final_train.npz": "4b6be761b20877076ab1e67d5ae7878cdebe14e5e48b0c3046fccfb84c8e1d46",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs/content_pairs.json": "a3ba5dcbbe069bd3fb98623614179fbd94173984bb21af1c098c10eff83f9282",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs/deletions.npz": "124cdce3f23a9987fe1c59eec7d0851805b8d477083e4a9dfaea413d37d682e0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs/transplanted_listener_probabilities.npz": "68046263d7673c59e5d7d0592d5eb31822893dde7ed17ddb50fdc2f2f7bbf193",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_live/final_new_needs.npz": "30699324dba2b6f39128cc0bb4ab97c8d3ce3b2b0156c8a78117c351e7b15c95",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_layouts/content_pairs.json": "8f3ba0c3031c7d9f8277f75033796da65f137e2d11aaafbfc508873d20ebfc78",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_layouts/deletions.npz": "b8b3bc3934cf7e58da869648a50f82f7ec4599864cb6e5b3cb059a3f79ee12d5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_layouts/transplanted_listener_probabilities.npz": "86c1d94045e1f4458ac2e0fb0165afb042b91d3b098ecdeeb3af00a94d1fe50f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_live/final_new_layouts.npz": "22adb8b0c35ccefe2a0331c3c244ee1a195987e528e5f593ab92cecc354c9659",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs_and_layouts/content_pairs.json": "d6e07914a712677ff659142297369a9423dd4fb438648b084f6672d0176e0ce8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs_and_layouts/deletions.npz": "307be6783ceca4c03570dd632b133c90745e552bdf5c42fc09aaa6d593c22282",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47103_PI_live/new_needs_and_layouts/transplanted_listener_probabilities.npz": "c6ac6a17574f788d663a27714deca55060925ae0e37426e3e2e2a2888f7b8e4f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47103_PI_live/final_new_needs_and_layouts.npz": "d481d4e2f33b4acc0e6121c4b5dae36a9eb218fb23f3831e60e5102e85633aa6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/train/deletions.npz": "5cda9dac6f55bd332fd5ba37b74e11f40cf67683d3683ca2e5dd38a1ad5b84d4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_silent/final_train.npz": "5e675760705cc99d3d3ad5dc05b2edf9a7b0d0de5b041b964b6e351c4b0c899c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_needs/deletions.npz": "ff0126e494ec842c07002b9912755ed3b122c0144ae9c61383ac8cde957b79cf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_silent/final_new_needs.npz": "7ceb2aa2a7ea874fde4d9e433295286058e1c93d466ce5912acfcbed1a0e4437",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_layouts/deletions.npz": "07c6838f2d922bbd33303b410400ee7723dfcc6841f5d040108f95caf17f0cd3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_silent/final_new_layouts.npz": "c1115716302be923bdc708c8d856360bf76a8e54919db8b32de9ce8d5d8df032",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_silent/new_needs_and_layouts/deletions.npz": "b5be91559d08371f381e709aa96a44439a31105f1c283ef4183cc90d5615c783",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_silent/final_new_needs_and_layouts.npz": "af5ddd25f581012e99ee3d0553ff11faf910358e19e0e91fa8e4f65279dccc7b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/train/deletions.npz": "3a0ee99f478f45806109c7ab74ae5f8787289e7b923d1d74a471c2c11001a875",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_live/final_train.npz": "7a852aede8ce22e6eaebf8c32192f146cb7e1fe58b2364d883fee1077dd3282b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_needs/deletions.npz": "79b1236d274d83f846a0681e2bf04cd76e51ad640ecd7ba41a274e4099b2f0df",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_live/final_new_needs.npz": "e2014b6b84f409159970b40a37f72b74d00c973a9c56737c227a8ed8eca81684",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_layouts/deletions.npz": "3e7ff8a7d91e9da651953f029e0e5b56419a8d054673613df0617d8a15ad96cb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_live/final_new_layouts.npz": "2f2d67fdc40301cfe2d2a23d7adb2451781574658fef508ff19ed7724a7ef9a4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_FI_live/new_needs_and_layouts/deletions.npz": "f11979c0d26b427225137c38ffbf0dfd3788b81f0add170ee5c24ce7a28505f6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_FI_live/final_new_needs_and_layouts.npz": "7a0009e46c9b37b48404471fa2a8119e801207a1ea044397e60fab8ce7b0124e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/train/content_pairs.json": "de4a1c7037423ea2ce1b186f59e1d57a726046ba8a42293de28296148bad5b47",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/train/deletions.npz": "9df8f9a843a99b1e9bf67806d1a535b4e873aec95fb3c67680bfea35c01b07ef",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/train/transplanted_listener_probabilities.npz": "0da60edcebd8f4472d820856ecb86cc61ec3693be4b90a05fc0664a7081d49ac",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_silent/final_train.npz": "dc38065b11b9e488329cb18dba3f84288e882280ca6419f9f14c9e0bc6fd8631",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs/content_pairs.json": "cad3081f548ea85ed74cec7d8a425f517c5b1798f032354a2640e8460a8ec583",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs/deletions.npz": "8197f2b5b3c4c430f76a9682ed47cf0b0502592e928e351018fe7eb07fde2880",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs/transplanted_listener_probabilities.npz": "1fbe407cc23c11e448bbb071a5ca61e479893f470686b8ef7915eb776a521629",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_silent/final_new_needs.npz": "996ff857de871ef476b4fe294d43c7c10408f005694248e7f01526079e8da5e3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_layouts/content_pairs.json": "fc84f182fe6211d905ed128de7fa898b88130fdcdf797762a2f1094eaf54d3ec",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_layouts/deletions.npz": "60b7dd5e4b702dfb61020b4d246cde33b69d1c982d0cf90f0037264e80e5d88e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_layouts/transplanted_listener_probabilities.npz": "deff16089707cb582658cecedff30901e370c09fd34fc371c1c6950114e2eefb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_silent/final_new_layouts.npz": "4ade950e6ab0b3fb00109b85ae5d715c17d815df5b117cef1758b95a871314e7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs_and_layouts/content_pairs.json": "6ed402a7e7f61e64999dd5aacff46421a59703519d8ed290afcd60a779eaf2b6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs_and_layouts/deletions.npz": "af46147febbc6bfc1dc075410d99aad1932e2ce6373338530698e45fc42887a6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_silent/new_needs_and_layouts/transplanted_listener_probabilities.npz": "12659b259d9e5f95cc37fd29c3dceccf2651adee7dddff07ad751451026c7450",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_silent/final_new_needs_and_layouts.npz": "2c26cc8d8fb8f6ff72906fb3c9bb1ae8360a0245886b537d5fe3817b44e4b052",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/train/content_pairs.json": "1b70932547df62c75ce57f06d31e631d092ab1b7566bcd6fbffd41c24208e555",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/train/deletions.npz": "527206941a6ac62c43f2075c7f4a6687e0512417f428bdcaed1f29af98e1a568",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/train/transplanted_listener_probabilities.npz": "4695001588b5e7ef8745122b58f5df1e1da43fbcd534d0c389294ac705719b79",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_live/final_train.npz": "91c5430f7c38b138cc695bf567ba00a61b2172d56b70a820d73d2039f4885894",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs/content_pairs.json": "74b4cef093ac7488651a5a35e3e2d5df25143b77b8560c4be5ac11c05c3f7d0e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs/deletions.npz": "826bbe92c3646d32652d53fed6f72e08397e09f7cd483e93cfd55da06a7ca309",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs/transplanted_listener_probabilities.npz": "c7ea2aedbee68a82d86346185d932d20bc55fd7f3947f8a9e8f1cb914e0c0656",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_live/final_new_needs.npz": "67c769747ab27ead578c2cae93b5f079b957e5be2e6edd52772715d2b69cb2de",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_layouts/content_pairs.json": "e66fe3d09c78538784d001e3730843f2583284bb2845ef1265c8ab9bad87fa85",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_layouts/deletions.npz": "826fad73b3c05f2024bf618b76e8bae71959a2672010172d9ba7699ad96bba29",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_layouts/transplanted_listener_probabilities.npz": "eac1dec39daae65da26e8294d4e0c585673e9884cd9c9b1c66f8859a932bc1d1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_live/final_new_layouts.npz": "8fe0fe19fe29ecf15bf5b653ec7145063bad41efd61fa54d6bde77ccbb65a32b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs_and_layouts/content_pairs.json": "e597fc9c70107136641f9f3776a8d3a99077fd80693e1751712ce392f36c3e5b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs_and_layouts/deletions.npz": "4d30dc9c021f315cd4dde60f42433ca4fe3fb7d38b8b1c701e68ba272dd72655",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/endpoint_probes_001/execution/seed_47104_PI_live/new_needs_and_layouts/transplanted_listener_probabilities.npz": "69d7e9dbedd6cb44fa44c77f208ce1be0862710bf0c363a95c3ed043cd1fd9d3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/results/messages_001/execution/seed_47104_PI_live/final_new_needs_and_layouts.npz": "2d48d64892112ebf29e1967dad8ab4c710d2e8a1fa6878dadc5d4ae7171a4d41"
+  },
+  "no_weight_loads_or_neural_forwards": true,
+  "elapsed_seconds": 10.26170941698365,
+  "scope": "Independent native settlement and complete accounting of all saved intervention worlds; actual constant inputs checked in every world. Does not independently regenerate second-window messages or action probabilities; content-pair audit is separate."
+}

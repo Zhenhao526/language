@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T18:28:18.047676+00:00",
+  "comparison_source_sha256": "f88f3d5949cd86700f98d4a4bf5ffff1bfdea363549267f5537ec059bf8be122",
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/audit_execution_001/verification.json": "7c0eab86edff602ec6def4e54e92cacf3403cb495e39b195594b0185caeb250a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/summary_001/summary.json": "95b61d165b43966ac997b77895fea9b081530873874b225336fc5ff911bb6fa8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/summary_001/enriched_final_records.json": "04f575a99ef7e6ffb10905ee3e836c5f5781b77479b0aaa2dab2eaf36187f0cf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/execution/results.json": "021cef0cbbf18a1532100d3c6058f04520ffa66a83a18aa10b8b9c53e2e6d2b0"
+  },
+  "counts": {
+    "status": 2,
+    "source_sha": 2,
+    "complete_grid": 1,
+    "partition_grid": 24,
+    "mode_grid": 96,
+    "audited_original_reference": 192,
+    "world_denominator": 192,
+    "joint_action_counts": 192,
+    "full_endpoint_scope": 192,
+    "background_denominator": 192,
+    "content_macro": 192,
+    "content_case_count": 192,
+    "content_axis": 576,
+    "content_axis_count": 576,
+    "content_sender_listener": 3456,
+    "content_sender_listener_count": 3456,
+    "world_common_scalar": 1152,
+    "cell_seed_identity": 4,
+    "paired_input_cell": 960,
+    "equal_seed_cell_mean": 240,
+    "paired_seed_identity": 162,
+    "paired_seed_scalar": 648,
+    "paired_mean": 162,
+    "paired_minimum": 162,
+    "paired_maximum": 162,
+    "scope": 3,
+    "source_unchanged": 4
+  },
+  "max_absolute_error": 1.1102230246251565e-16,
+  "max_content_absolute_error": 0.0,
+  "tolerance": 2e-12,
+  "primary": {
+    "partition": "new_needs_and_layouts",
+    "metric": "content_both_endpoints_apt",
+    "contrast": "PL_live_minus_LL_live",
+    "seed_values": [
+      {
+        "seed": 51101,
+        "difference": 0.08706735008818342
+      },
+      {
+        "seed": 51102,
+        "difference": 0.007123567019400354
+      },
+      {
+        "seed": 51103,
+        "difference": 0.14462081128747797
+      },
+      {
+        "seed": 51104,
+        "difference": 0.006434634038800693
+      }
+    ],
+    "equal_seed_mean": 0.06131159060846561,
+    "minimum": 0.006434634038800693,
+    "maximum": 0.14462081128747797
+  },
+  "secondary": {
+    "partition": "new_needs_and_layouts",
+    "metric": "full_success_rate",
+    "contrast": "(PL_live-PL_silent)-(LL_live-LL_silent)",
+    "seed_values": [
+      {
+        "seed": 51101,
+        "difference": 0.08660020908004779
+      },
+      {
+        "seed": 51102,
+        "difference": -0.001120071684587838
+      },
+      {
+        "seed": 51103,
+        "difference": 0.06826836917562726
+      },
+      {
+        "seed": 51104,
+        "difference": -0.01920922939068101
+      }
+    ],
+    "equal_seed_mean": 0.03363481929510155,
+    "minimum": -0.01920922939068101,
+    "maximum": 0.08660020908004779
+  },
+  "logical_full_endpoint_cells": 192,
+  "distinct_full_endpoint_npz": 144,
+  "independent_reference": "Existing audit uses independent new predicate/feature/MLP/native arithmetic and separately enumerated content cases. This comparison imports no main metrics or summarizer.",
+  "additional_neural_forwards": 0,
+  "additional_npz_loads": 0,
+  "additional_training": 0,
+  "exclusions": [
+    "No new independent recalculation of role-case semantic metrics or endpoint-probability content summaries.",
+    "Monitor outcomes/hashes were audited; monitor semantic aggregation is outside this scalar comparison.",
+    "Site/destination component statistics absent from independent final_metrics are not claimed as independently scalar-matched."
+  ]
+}

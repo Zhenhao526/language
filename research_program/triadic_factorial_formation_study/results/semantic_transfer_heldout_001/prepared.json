@@ -1,0 +1,48 @@
+{
+  "axis_case_counts": {
+    "destination": 552,
+    "kind": 1008,
+    "length": 1008
+  },
+  "backgrounds_per_case": 36,
+  "candidate_sha256": "00f46476dc12d9301ff59d42752df8d5251302b47b6085323d3acdd724d2bb39",
+  "cases": 2568,
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "manifest_sha256": "5ad0b77c8a73f122f0e9d6f83f5fec417ba21a8956f9c11ad6739717e47ffef9",
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "partition": "heldout_both",
+  "regimes": [
+    "factorial_holdout",
+    "saturated"
+  ],
+  "rules": [
+    "strict",
+    "reciprocal"
+  ],
+  "schema": "factorial_heldout_semantic_transfer_prepared_v1",
+  "seeds": [
+    62101,
+    62102,
+    62103,
+    62104,
+    62105,
+    62106,
+    62107,
+    62108,
+    62109,
+    62110,
+    62111,
+    62112,
+    62113,
+    62114,
+    62115,
+    62116
+  ],
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected",
+  "source_freeze_sha256": "00f87e174170a17e8c244167cb698069af79c7ea0050402061a61d869e175fcc",
+  "source_prepared_sha256": "e89e3d03499a300b7fdedcfd1dc795cca80ee8193774e9e455d47bd23f5fa04f"
+}

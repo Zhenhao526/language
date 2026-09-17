@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "pending",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_holdout_confirmation_study/results/confirm_001",
+  "figures": [
+    "partner_holdout_trajectories.png",
+    "partner_holdout_seed_forest.png",
+    "partner_holdout_endpoint.png"
+  ]
+}

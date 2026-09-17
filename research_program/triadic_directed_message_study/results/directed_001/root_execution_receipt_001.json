@@ -1,0 +1,30 @@
+{
+  "at": "2026-09-16T05:05:39.480470+00:00",
+  "status": "main_and_independent_audit_completed",
+  "main": {
+    "session_id": 77628,
+    "completion_chunk": "6d93bd",
+    "exit_code": 0,
+    "elapsed_seconds": 88.17407033406198,
+    "results_sha256": "d47b47aa0eaca03ac5f269334efe0f5dafe3beb22f4395c2bfea6a34dda495f3",
+    "new_module_samples": 100528128
+  },
+  "audit": {
+    "session_id": 74021,
+    "completion_chunk": "899ce8",
+    "exit_code": 0,
+    "elapsed_seconds": 137.91014916694257,
+    "verification_sha256": "06fcd0496ec2115cd72906c4577c33f03aa90125843f167d77d7ec2a6c36c06c",
+    "new_module_samples": 100528128,
+    "max_errors": {
+      "native_probability": 0.0,
+      "probability": 0.0,
+      "recipient": 0.0,
+      "sham": 0.0
+    }
+  },
+  "new_training_updates": 0,
+  "new_Qwen_calls": 0,
+  "failures": 0,
+  "retries": 0
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_results_sha256": "34cb34d4208907d273f405ced00d7942d2da3322ac82cd7b777a535701322939",
+  "verification_sha256": "ab458ed69558fe7762d7b9bcb8f27d525c6f5fccf661bdaba9e098e38450cd84",
+  "model_forwards": 307307520,
+  "optimizer_updates": 0,
+  "information": "FI"
+}

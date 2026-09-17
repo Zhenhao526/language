@@ -1,0 +1,91 @@
+{
+  "status_at_freeze": "prepared_not_executed",
+  "created_at": "2026-09-15T18:45:20.745358+08:00",
+  "route": "triadic_qwen_capability_v1",
+  "groups": [
+    301,
+    302,
+    303
+  ],
+  "scene_seeds": [
+    20260916011,
+    20260916012,
+    20260916013,
+    20260916014
+  ],
+  "trials": 12,
+  "independent_semantic_draws": 4,
+  "shared_scenarios_across_groups": true,
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_capability.py": "86283b901c3a9f6dbcf5250ec753962a0759f8634defb0fa5e845b65be20efd4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_environment.json": "01f819c840691e648792fd63e335980fcd0eb8acc69bea9014053eabbebd92cf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_environment.py": "d1aea853afb506247e80c59a51305fd437435e09baeac501a899e4787601cee2",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/model_manifest.json": "cb2c8c64819cb80fe650a6685042370ef17ea9a569e9e99ba8b52487021044a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/__init__.py": "4ecc000358a97fc2fa0a1a4438940b2ba99d2f635d0f27748ae4e759487d88bb",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/README.md": "771b58cca5f45b018360375843eb55fa6991534ed20c78c5b18b5c39a16a492b",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/config.json": "19082a0ef21dee3840a8bab56ee5325ead177085285c63ea47e79a204a566a53",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/model.safetensors.index.json": "87d95b037f57d101448b262059b7d28d65d55f60231100cdb1827d7cd44202cd",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/processor_config.json": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/tokenizer.json": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/tokenizer_config.json": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+  },
+  "prepare_runtime": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "packages": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0",
+      "tokenizers": "0.23.2",
+      "numpy": "2.5.3"
+    }
+  },
+  "weight_files_size_checked": [
+    {
+      "file": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/model-00001-of-00002.safetensors",
+      "bytes": 5339522525,
+      "download_receipt_sha256": "0dcb3cdba0f43743875c861792685da5266aebcb58f7c0e345b9cd090bb0d289"
+    },
+    {
+      "file": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit/model-00002-of-00002.safetensors",
+      "bytes": 5087069898,
+      "download_receipt_sha256": "5abf861e7a13e7af805105270b2648634b41fda02238ae8ee1bd64628acce9b1"
+    }
+  ],
+  "prepared_cases_sha256": "c17cd72fc85a35fe4fddd6b08b3008bb4cf3c49e5ede3fa23d33b75df8d12fac",
+  "fake_audit_sha256": "a95bfa788ae28b935e117ea514b4d0887529decd0b808038b4b51fbcb1c6c18d",
+  "scenario_sampling": "Four preselected seed draws, uniform996 demand support and uniform24 layouts, same four states across3 context groups; no outcome-based selection",
+  "execution_order": "group301/302/303 then episode1/2/3/4; A/B/C call order within synchronous windows",
+  "condition": "full_information_natural",
+  "dependency": "D1",
+  "physical_rounds_per_trial": 1,
+  "synchronous_windows": 2,
+  "actions_per_agent": 17,
+  "max_backend_calls": 216,
+  "private_analysis_max_tokens": 256,
+  "private_analysis_temperature": 0,
+  "natural_message_max_tokens": 96,
+  "natural_message_temperature": 0.7,
+  "action_temperature": 0,
+  "native_thinking": false,
+  "fresh_cache_every_call": true,
+  "unique_decision_seeds": 108,
+  "two_stage_seed_policy": "108 distinct decision seeds; the unchanged Backend uses the same seed for analysis and formal within each decision. 216 calls do not mean216 distinct seeds.",
+  "history": "Own raw full observation, own submitted action and individual feedback, all public broadcasts; no private analysis. Fresh world each scene, own history retained within group and isolated across groups.",
+  "gate": "All12 completed trials have replayed reward1; failure never stops remaining trials or changes prompts/budget",
+  "new_task_gate_only": true,
+  "modifies_original_v3_gate": false,
+  "starts_symbolic_experiment": false,
+  "scope": "One-action complete-information natural-language capability; no multistep planning, symbol emergence or original collection-task pass claim",
+  "weight_files_fully_hashed_here": false,
+  "prepare_real_model_calls": 0
+}

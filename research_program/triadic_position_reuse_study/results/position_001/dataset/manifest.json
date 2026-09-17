@@ -1,0 +1,56 @@
+{
+  "status": "prepared_static_only",
+  "schema": "triadic_position_reuse_dataset_v1",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/manifest.json": "71d1b249f2fba78c070c88efc45aec190134596ca53b40989ff742a55f5bf6d3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/freeze.json": "d87be03c52e100b4e8fa4f9b938be955609089fd4b5e961c63f6c00ea8247cbd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/plan.json": "df5036145a1bea258a40d6e0a65b66a09c6c188b311b732c954429b6eb38fcba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset.py": "8cd8a87e362e110b3964afdb857b850a781de927d86fdf48fb94cc91ca55290c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/train.json": "23c423d2c4a5ee4e2826f270e4b97349975fa060fe0d6c305ed7389ef0ae05c4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/train.npz": "55397fddae8b6a180374b63cb146bb59135ef102152364fa6ee2669c8b1b373e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_needs.json": "0773e5aab119620f3f5f87abceb386937071755d7cd96311657b01664fe2aa8f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_needs.npz": "e9015046ea46b70d42a31a222558f43ec46f5e3d01fca907bfb26c8eb5571881",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_layouts.json": "74f77610518cac695598bc707b7c8137fe07e3bcea806cdfe608797bc32296e1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_layouts.npz": "85489f2370b02989dbbf0a256c8a541ebc0973e2425e0449c2a8bde43f596ae8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_needs_and_layouts.json": "4178075db83e86de8cadd7ef60aaee138da116919a9870d1c83e8eea9f3dc466",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/dataset_001/new_needs_and_layouts.npz": "7f7b8af8c1edbb194e467d07e67fbb998d19de254a147da6d403745e21752ae1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/dataset.py": "befd57fdff6394a4e1bdc24648112cf62e18ec61281ee933a981578f6a67eaae"
+  },
+  "outputs": {
+    "discovery.json": {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/discovery.json",
+      "sha256": "887fbf079b7b0fba7fd56ab5971abe49e7955753c21230d19fd27a6d67595bc8",
+      "bytes": 2385387
+    },
+    "discovery.npz": {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/discovery.npz",
+      "sha256": "b3cac3cf86d36dca24e4b0f80afcc433d3f868454519d4c179655d58017370b7",
+      "bytes": 1109691
+    },
+    "validation.json": {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/validation.json",
+      "sha256": "7df9e2d64adb401a59d7a1ad7d67f80f87f58843cb3360c8f4aa6a60269d9f4a",
+      "bytes": 305259
+    },
+    "validation.npz": {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/validation.npz",
+      "sha256": "4a3a5a9636906e869f7d396a270fc69470f16d8d73368b64872f2e0ff5c4d2ec",
+      "bytes": 9711
+    },
+    "separation_proof.json": {
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/dataset/separation_proof.json",
+      "sha256": "94a2fac431bfc4b1ee3f7329eceb067c3618e92d51bfd7d03d248e82c2daa161",
+      "bytes": 1199
+    }
+  },
+  "discovery_rows": 209952,
+  "validation_rows": 144,
+  "validation_directional_rows": 288,
+  "neural_forward_calls": 0,
+  "training_calls": 0,
+  "policy_messages_read": false,
+  "policy_actions_read": false
+}

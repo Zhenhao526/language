@@ -1,0 +1,19 @@
+test_empty_batches_and_invalid_arguments (test_env.VisualWorldTests.test_empty_batches_and_invalid_arguments) ... ok
+test_external_probe_rng_does_not_advance_training_stream (test_env.VisualWorldTests.test_external_probe_rng_does_not_advance_training_stream) ... ok
+test_matched_views_are_not_copied_pixels (test_env.VisualWorldTests.test_matched_views_are_not_copied_pixels) ... ok
+test_rng_state_restores_sequence_without_aliasing (test_env.VisualWorldTests.test_rng_state_restores_sequence_without_aliasing) ... ok
+test_seed_reproduces_entire_sampling_sequence (test_env.VisualWorldTests.test_seed_reproduces_entire_sampling_sequence) ... ok
+test_shapes_dtypes_ranges_and_correct_indices (test_env.VisualWorldTests.test_shapes_dtypes_ranges_and_correct_indices) ... ok
+test_targets_and_positions_have_no_fixed_schedule (test_env.VisualWorldTests.test_targets_and_positions_have_no_fixed_schedule) ... ok
+test_evaluation_is_read_only_and_ignores_hidden_target_metadata (test_protocol.ProtocolBoundaryTests.test_evaluation_is_read_only_and_ignores_hidden_target_metadata) ... ok
+test_h0_masks_history_for_both_roles (test_protocol.ProtocolBoundaryTests.test_h0_masks_history_for_both_roles) ... ok
+test_history_is_four_completed_records_without_old_graph (test_protocol.ProtocolBoundaryTests.test_history_is_four_completed_records_without_old_graph) ... ok
+test_intervention_uses_independent_reference_and_matched_eligible_trials (test_protocol.ProtocolBoundaryTests.test_intervention_uses_independent_reference_and_matched_eligible_trials) ... ok
+test_receiver_record_retains_visible_candidates_not_hidden_target (test_protocol.ProtocolBoundaryTests.test_receiver_record_retains_visible_candidates_not_hidden_target) ... ok
+test_sender_and_listener_losses_have_disjoint_gradients (test_protocol.ProtocolBoundaryTests.test_sender_and_listener_losses_have_disjoint_gradients) ... ok
+test_sender_record_has_only_own_image_and_no_receiver_choice (test_protocol.ProtocolBoundaryTests.test_sender_record_has_only_own_image_and_no_receiver_choice) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.283s
+
+OK

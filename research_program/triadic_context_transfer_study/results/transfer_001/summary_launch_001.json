@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-09-15T19:19:57.640925+00:00",
+  "session_id": 74640,
+  "status": "started",
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_context_transfer_study.summarize_results --run research_program/triadic_context_transfer_study/results/transfer_001 --out research_program/triadic_context_transfer_study/results/transfer_001/summary_001",
+  "source_sha256": "f7b911212513d7cc12eb4bb88bb542ed7d4c21f5419886ff47042d363f58a5bf",
+  "summary_preflight": "summary_plot_preflight_002.json",
+  "neural_forward_calls": 0,
+  "parameter_loads": 0,
+  "training_calls": 0
+}

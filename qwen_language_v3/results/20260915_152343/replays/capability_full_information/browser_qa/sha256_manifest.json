@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/replay.html",
+      "sha256": "a865eb27bdb5d4285f9b7d4c4067068506f7313ce3cea5dfd55966ff342497b4"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser_verification.json",
+      "sha256": "ab887c36e7445346d6511f02614749ddacf47e26fe33e0899559e6c684b795fa"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/验证说明.md",
+      "sha256": "d74118e7db4b38db5d5f7bb17fff1a09f2bfff5c982086fee0b30742a6645af5"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-320-full_information-g17-ep2-agents.png",
+      "sha256": "51b97f3d4bbb75a39e02c8a5a96468d917f466d0bf6fa76bdc4c1c8408e065cf"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-320-full_information-g17-ep2-messages.png",
+      "sha256": "8afe5cf20c3cc9516a4e3b8fec108b121c8a794d8cd3fee4f9a6342908a3d599"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-320-full_information-g17-ep2-top.png",
+      "sha256": "ce1e9faec005eb72b61ffce5c84f598657b6eab81911a711c9001282b8558c10"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-736-full_information-g17-ep2-agents.png",
+      "sha256": "26f11391da20b30fe310154f3d2682c5ec8df3c245e58ab5d8c587d089c0fe00"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-736-full_information-g17-ep2-messages.png",
+      "sha256": "d1e127322ac9e115245edff71d95ce3b915da3809bf607789e9f269b0b5c6896"
+    },
+    {
+      "path": "qwen_language_v3/results/20260915_152343/replays/capability_full_information/browser_qa/browser-736-full_information-g17-ep2-top.png",
+      "sha256": "6427611a182a8dc46cded2135fe786bc132464040c08a64143d283ae1ff2cb89"
+    },
+    {
+      "path": "qwen_language_v3/replay_snapshot.py",
+      "sha256": "7d028f3edc3532153b5d59ea7d054bb3bd7e0af190acb1be84a4b54fbf2806be"
+    },
+    {
+      "path": "qwen_language_v3/replay_browser_qa.cjs",
+      "sha256": "242964a2f48e81d71c4d1964857d88d03421d5baff2bc82a371cf9363bdd3ed6"
+    }
+  ]
+}

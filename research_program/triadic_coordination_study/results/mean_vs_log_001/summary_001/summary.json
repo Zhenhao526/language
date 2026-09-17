@@ -1,0 +1,6596 @@
+{
+  "rows": [
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "3db0642a8b0b8d8e038847d36308f85ce3558dd3e57fc96e5b1992c810ce4d0d",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.34941265427438517,
+      "exact_stochastic_full_success_probability_mean": 0.13986646717970275,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999981455382077,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 82836,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 36534,
+        "matched_one_need_satisfied": 34716,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.13986672461248734,
+      "greedy_full_successes": 11586,
+      "greedy_non_full_success_worlds": 71250,
+      "greedy_reward_counts": {
+        "0.0": 36534,
+        "0.5": 34716,
+        "1.0": 11586
+      },
+      "greedy_reward_mean": 0.3494132985658409,
+      "greedy_reward_sum": 28944.0,
+      "greedy_satisfied_agents": 57888,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 82836
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "c8bb5924dec2367f5b9aa810d40673395476e940f7932973cf1eed1f8dc5e72b",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.39301237603415407,
+      "exact_stochastic_full_success_probability_mean": 0.1865595797106238,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999981483144538,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 24732,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49464,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 9906,
+        "matched_one_need_satisfied": 10212,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.18655992236778263,
+      "greedy_full_successes": 4614,
+      "greedy_non_full_success_worlds": 20118,
+      "greedy_reward_counts": {
+        "0.0": 9906,
+        "0.5": 10212,
+        "1.0": 4614
+      },
+      "greedy_reward_mean": 0.3930131004366812,
+      "greedy_reward_sum": 9720.0,
+      "greedy_satisfied_agents": 19440,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 24732
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "14a207d68e1f5b178b388e490f2c23ef1b8687297088a2e425d5c32e9747aeba",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.349412649057112,
+      "exact_stochastic_full_success_probability_mean": 0.14102537965717576,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999981295133137,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 27612,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 55224,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 12210,
+        "matched_one_need_satisfied": 11508,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.14102564102564102,
+      "greedy_full_successes": 3894,
+      "greedy_non_full_success_worlds": 23718,
+      "greedy_reward_counts": {
+        "0.0": 12210,
+        "0.5": 11508,
+        "1.0": 3894
+      },
+      "greedy_reward_mean": 0.3494132985658409,
+      "greedy_reward_sum": 9648.0,
+      "greedy_satisfied_agents": 19296,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 27612
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "b552e4b6274a29b7acecadc4d7698a3cc83163c2bd235b604fc43c4909c3ca34",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.393012371093575,
+      "exact_stochastic_full_success_probability_mean": 0.18267797311567383,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999981326305862,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 8244,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 16488,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3270,
+        "matched_one_need_satisfied": 3468,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.1826783114992722,
+      "greedy_full_successes": 1506,
+      "greedy_non_full_success_worlds": 6738,
+      "greedy_reward_counts": {
+        "0.0": 3270,
+        "0.5": 3468,
+        "1.0": 1506
+      },
+      "greedy_reward_mean": 0.3930131004366812,
+      "greedy_reward_sum": 3240.0,
+      "greedy_satisfied_agents": 6480,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 8244
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "201f39a35c8ed481321c7c383e22ba75ff4df4471350305eeb3e7a80a06d377c",
+      "distinct_joint_argmax_actions": 6,
+      "exact_stochastic_expected_reward_mean": 0.7282825567188619,
+      "exact_stochastic_full_success_probability_mean": 0.46005529236569587,
+      "exact_stochastic_physical_execution_probability_mean": 0.9965627259961574,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 82836,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 0,
+        "matched_one_need_satisfied": 44688,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.4605244096769521,
+      "greedy_full_successes": 38148,
+      "greedy_non_full_success_worlds": 44688,
+      "greedy_reward_counts": {
+        "0.0": 0,
+        "0.5": 44688,
+        "1.0": 38148
+      },
+      "greedy_reward_mean": 0.730262204838476,
+      "greedy_reward_sum": 60492.0,
+      "greedy_satisfied_agents": 120984,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 4638
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 12474
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 20544
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 1104
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 21102
+        },
+        {
+          "action_indices": [
+            11,
+            11,
+            0
+          ],
+          "worlds": 22974
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "2a6cd502cbd1c632b518622f490afff460499f3c2831246197d9062807666cae",
+      "distinct_joint_argmax_actions": 8,
+      "exact_stochastic_expected_reward_mean": 0.7430907207865384,
+      "exact_stochastic_full_success_probability_mean": 0.49232853038349084,
+      "exact_stochastic_physical_execution_probability_mean": 0.9940129632862332,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 24730,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49460,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 0,
+        "matched_one_need_satisfied": 12526,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 2
+      },
+      "greedy_full_success_rate": 0.49344978165938863,
+      "greedy_full_successes": 12204,
+      "greedy_non_full_success_worlds": 12528,
+      "greedy_reward_counts": {
+        "0.0": 2,
+        "0.5": 12526,
+        "1.0": 12204
+      },
+      "greedy_reward_mean": 0.7466844573831474,
+      "greedy_reward_sum": 18467.0,
+      "greedy_satisfied_agents": 36934,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 1104
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 4265
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 5316
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 474
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 5430
+        },
+        {
+          "action_indices": [
+            11,
+            9,
+            0
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            11,
+            11,
+            0
+          ],
+          "worlds": 8141
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "772df7ad5309f596907174bda8ec14a2880287d18642c483576ee6ac21e1cae9",
+      "distinct_joint_argmax_actions": 25,
+      "exact_stochastic_expected_reward_mean": 0.5036635787904471,
+      "exact_stochastic_full_success_probability_mean": 0.3002012580422501,
+      "exact_stochastic_physical_execution_probability_mean": 0.8408922995999675,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 23992,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 47984,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3873,
+        "matched_one_need_satisfied": 11570,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 3620
+      },
+      "greedy_full_success_rate": 0.3096117630015935,
+      "greedy_full_successes": 8549,
+      "greedy_non_full_success_worlds": 19063,
+      "greedy_reward_counts": {
+        "0.0": 7493,
+        "0.5": 11570,
+        "1.0": 8549
+      },
+      "greedy_reward_mean": 0.5191221208170361,
+      "greedy_reward_sum": 14334.0,
+      "greedy_satisfied_agents": 28668,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 3210
+        },
+        {
+          "action_indices": [
+            1,
+            3,
+            0
+          ],
+          "worlds": 118
+        },
+        {
+          "action_indices": [
+            1,
+            5,
+            0
+          ],
+          "worlds": 28
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 958
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 44
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 12229
+        },
+        {
+          "action_indices": [
+            3,
+            5,
+            0
+          ],
+          "worlds": 215
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 245
+        },
+        {
+          "action_indices": [
+            3,
+            11,
+            0
+          ],
+          "worlds": 66
+        },
+        {
+          "action_indices": [
+            5,
+            1,
+            0
+          ],
+          "worlds": 104
+        },
+        {
+          "action_indices": [
+            5,
+            3,
+            0
+          ],
+          "worlds": 72
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 3999
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 704
+        },
+        {
+          "action_indices": [
+            5,
+            11,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 283
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 122
+        },
+        {
+          "action_indices": [
+            9,
+            5,
+            0
+          ],
+          "worlds": 133
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 2736
+        },
+        {
+          "action_indices": [
+            9,
+            11,
+            0
+          ],
+          "worlds": 18
+        },
+        {
+          "action_indices": [
+            11,
+            3,
+            0
+          ],
+          "worlds": 408
+        },
+        {
+          "action_indices": [
+            11,
+            5,
+            0
+          ],
+          "worlds": 45
+        },
+        {
+          "action_indices": [
+            11,
+            7,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            11,
+            9,
+            0
+          ],
+          "worlds": 33
+        },
+        {
+          "action_indices": [
+            11,
+            11,
+            0
+          ],
+          "worlds": 1806
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "cc5022a7c6d0293a6bb8aed6c9c96f7b6a3eb19136e535594affc1e19a75b880",
+      "distinct_joint_argmax_actions": 23,
+      "exact_stochastic_expected_reward_mean": 0.5335485631042274,
+      "exact_stochastic_full_success_probability_mean": 0.3313110692209381,
+      "exact_stochastic_physical_execution_probability_mean": 0.8860749153944713,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 7463,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 14926,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 1279,
+        "matched_one_need_satisfied": 3397,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 781
+      },
+      "greedy_full_success_rate": 0.3380640465793304,
+      "greedy_full_successes": 2787,
+      "greedy_non_full_success_worlds": 5457,
+      "greedy_reward_counts": {
+        "0.0": 2060,
+        "0.5": 3397,
+        "1.0": 2787
+      },
+      "greedy_reward_mean": 0.5440926734594856,
+      "greedy_reward_sum": 4485.5,
+      "greedy_satisfied_agents": 8971,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 725
+        },
+        {
+          "action_indices": [
+            1,
+            3,
+            0
+          ],
+          "worlds": 66
+        },
+        {
+          "action_indices": [
+            1,
+            5,
+            0
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 222
+        },
+        {
+          "action_indices": [
+            1,
+            11,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 4465
+        },
+        {
+          "action_indices": [
+            3,
+            5,
+            0
+          ],
+          "worlds": 19
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 45
+        },
+        {
+          "action_indices": [
+            3,
+            11,
+            0
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            5,
+            1,
+            0
+          ],
+          "worlds": 13
+        },
+        {
+          "action_indices": [
+            5,
+            3,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 977
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 66
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 54
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            9,
+            5,
+            0
+          ],
+          "worlds": 23
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 678
+        },
+        {
+          "action_indices": [
+            9,
+            11,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            11,
+            3,
+            0
+          ],
+          "worlds": 126
+        },
+        {
+          "action_indices": [
+            11,
+            5,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            11,
+            9,
+            0
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            11,
+            11,
+            0
+          ],
+          "worlds": 618
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "b15d58c6551dd877cd7f56897d329829288230b73f72a4153207e45e9d4f91a7",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3712872644349347,
+      "exact_stochastic_full_success_probability_mean": 0.15362861679708067,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999984221110716,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 82836,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 34050,
+        "matched_one_need_satisfied": 36060,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.15362885701868753,
+      "greedy_full_successes": 12726,
+      "greedy_non_full_success_worlds": 70110,
+      "greedy_reward_counts": {
+        "0.0": 34050,
+        "0.5": 36060,
+        "1.0": 12726
+      },
+      "greedy_reward_mean": 0.37128784586411706,
+      "greedy_reward_sum": 30756.0,
+      "greedy_satisfied_agents": 61512,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 82836
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "a9f97e82d2d08f4ac4730c6dc8dd0af96bdecb5d79e8671f09c21b2587fc72ba",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.31974719705159926,
+      "exact_stochastic_full_success_probability_mean": 0.14046557634484597,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999984170003219,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 24732,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49464,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 12390,
+        "matched_one_need_satisfied": 8868,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.14046579330422126,
+      "greedy_full_successes": 3474,
+      "greedy_non_full_success_worlds": 21258,
+      "greedy_reward_counts": {
+        "0.0": 12390,
+        "0.5": 8868,
+        "1.0": 3474
+      },
+      "greedy_reward_mean": 0.3197476952935468,
+      "greedy_reward_sum": 7908.0,
+      "greedy_satisfied_agents": 15816,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 24732
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "17280fcceebdf6243233af70ef42b9568b7faaafb50463cbb09a486d6d64241d",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3568008154214926,
+      "exact_stochastic_full_success_probability_mean": 0.14406756362920967,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983823668225,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 27612,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 55224,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 11886,
+        "matched_one_need_satisfied": 11748,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.1440677966101695,
+      "greedy_full_successes": 3978,
+      "greedy_non_full_success_worlds": 23634,
+      "greedy_reward_counts": {
+        "0.0": 11886,
+        "0.5": 11748,
+        "1.0": 3978
+      },
+      "greedy_reward_mean": 0.3568013906996958,
+      "greedy_reward_sum": 9852.0,
+      "greedy_satisfied_agents": 19704,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 27612
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "929dec44518325af3da2e3bd5dfbabea859edc7ed43a9dd27d3603b302ae04b4",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.36826724255396914,
+      "exact_stochastic_full_success_probability_mean": 0.17248880936324176,
+      "exact_stochastic_physical_execution_probability_mean": 0.99999837674172,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 8244,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 16488,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3594,
+        "matched_one_need_satisfied": 3228,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.17248908296943233,
+      "greedy_full_successes": 1422,
+      "greedy_non_full_success_worlds": 6822,
+      "greedy_reward_counts": {
+        "0.0": 3594,
+        "0.5": 3228,
+        "1.0": 1422
+      },
+      "greedy_reward_mean": 0.3682678311499272,
+      "greedy_reward_sum": 3036.0,
+      "greedy_satisfied_agents": 6072,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 8244
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "c1c2f4ef7697663511f7476e0542d60d5a9576279ae1a09c8e723fd4d36de5ed",
+      "distinct_joint_argmax_actions": 7,
+      "exact_stochastic_expected_reward_mean": 0.7092073328970065,
+      "exact_stochastic_full_success_probability_mean": 0.42273346816515217,
+      "exact_stochastic_physical_execution_probability_mean": 0.9957515728019264,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 82836,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 0,
+        "matched_one_need_satisfied": 47760,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.4234390844560336,
+      "greedy_full_successes": 35076,
+      "greedy_non_full_success_worlds": 47760,
+      "greedy_reward_counts": {
+        "0.0": 0,
+        "0.5": 47760,
+        "1.0": 35076
+      },
+      "greedy_reward_mean": 0.7117195422280168,
+      "greedy_reward_sum": 58956.0,
+      "greedy_satisfied_agents": 117912,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 1650
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 11712
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 60
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 26358
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 20316
+        },
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 20028
+        },
+        {
+          "action_indices": [
+            15,
+            15,
+            0
+          ],
+          "worlds": 2712
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "076c69f26c9998a4205523b634480023381c8a44a84c126aab2e5cc03c355f77",
+      "distinct_joint_argmax_actions": 18,
+      "exact_stochastic_expected_reward_mean": 0.7314561356813072,
+      "exact_stochastic_full_success_probability_mean": 0.47523749166547474,
+      "exact_stochastic_physical_execution_probability_mean": 0.9893698309768467,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 24633,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49266,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 40,
+        "matched_one_need_satisfied": 12797,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 99
+      },
+      "greedy_full_success_rate": 0.4769529354682193,
+      "greedy_full_successes": 11796,
+      "greedy_non_full_success_worlds": 12936,
+      "greedy_reward_counts": {
+        "0.0": 139,
+        "0.5": 12797,
+        "1.0": 11796
+      },
+      "greedy_reward_mean": 0.7356663431990943,
+      "greedy_reward_sum": 18194.5,
+      "greedy_satisfied_agents": 36389,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 396
+        },
+        {
+          "action_indices": [
+            1,
+            13,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 4791
+        },
+        {
+          "action_indices": [
+            3,
+            13,
+            0
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            3,
+            15,
+            0
+          ],
+          "worlds": 22
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 9257
+        },
+        {
+          "action_indices": [
+            9,
+            7,
+            0
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 4964
+        },
+        {
+          "action_indices": [
+            13,
+            1,
+            0
+          ],
+          "worlds": 24
+        },
+        {
+          "action_indices": [
+            13,
+            9,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 3929
+        },
+        {
+          "action_indices": [
+            15,
+            3,
+            0
+          ],
+          "worlds": 3
+        },
+        {
+          "action_indices": [
+            15,
+            7,
+            0
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            15,
+            13,
+            0
+          ],
+          "worlds": 2
+        },
+        {
+          "action_indices": [
+            15,
+            15,
+            0
+          ],
+          "worlds": 1284
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "8673a0c492ca726d3a51a79fe55443aecf192aa2e2437ce36276ccc0aa0de053",
+      "distinct_joint_argmax_actions": 33,
+      "exact_stochastic_expected_reward_mean": 0.5081335580953537,
+      "exact_stochastic_full_success_probability_mean": 0.2901602634676057,
+      "exact_stochastic_physical_execution_probability_mean": 0.8116447079130918,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 23184,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 46368,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 2623,
+        "matched_one_need_satisfied": 12376,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 4428
+      },
+      "greedy_full_success_rate": 0.29642908880197016,
+      "greedy_full_successes": 8185,
+      "greedy_non_full_success_worlds": 19427,
+      "greedy_reward_counts": {
+        "0.0": 7051,
+        "0.5": 12376,
+        "1.0": 8185
+      },
+      "greedy_reward_mean": 0.5205345501955672,
+      "greedy_reward_sum": 14373.0,
+      "greedy_satisfied_agents": 28746,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 158
+        },
+        {
+          "action_indices": [
+            1,
+            3,
+            0
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            1,
+            7,
+            0
+          ],
+          "worlds": 13
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 319
+        },
+        {
+          "action_indices": [
+            1,
+            13,
+            0
+          ],
+          "worlds": 48
+        },
+        {
+          "action_indices": [
+            1,
+            15,
+            0
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 23
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 5143
+        },
+        {
+          "action_indices": [
+            3,
+            7,
+            0
+          ],
+          "worlds": 950
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 42
+        },
+        {
+          "action_indices": [
+            3,
+            13,
+            0
+          ],
+          "worlds": 23
+        },
+        {
+          "action_indices": [
+            3,
+            15,
+            0
+          ],
+          "worlds": 109
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            7,
+            1,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 225
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 7667
+        },
+        {
+          "action_indices": [
+            7,
+            9,
+            0
+          ],
+          "worlds": 206
+        },
+        {
+          "action_indices": [
+            7,
+            15,
+            0
+          ],
+          "worlds": 104
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 43
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 119
+        },
+        {
+          "action_indices": [
+            9,
+            7,
+            0
+          ],
+          "worlds": 401
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 5663
+        },
+        {
+          "action_indices": [
+            9,
+            13,
+            0
+          ],
+          "worlds": 323
+        },
+        {
+          "action_indices": [
+            13,
+            1,
+            0
+          ],
+          "worlds": 109
+        },
+        {
+          "action_indices": [
+            13,
+            3,
+            0
+          ],
+          "worlds": 86
+        },
+        {
+          "action_indices": [
+            13,
+            7,
+            0
+          ],
+          "worlds": 91
+        },
+        {
+          "action_indices": [
+            13,
+            9,
+            0
+          ],
+          "worlds": 799
+        },
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 3368
+        },
+        {
+          "action_indices": [
+            13,
+            15,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            15,
+            3,
+            0
+          ],
+          "worlds": 117
+        },
+        {
+          "action_indices": [
+            15,
+            7,
+            0
+          ],
+          "worlds": 43
+        },
+        {
+          "action_indices": [
+            15,
+            9,
+            0
+          ],
+          "worlds": 179
+        },
+        {
+          "action_indices": [
+            15,
+            15,
+            0
+          ],
+          "worlds": 1185
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "13d0852a7c033c775329e8a78b6a9067688837ec8ad7e04a4cde8f3773c3da24",
+      "distinct_joint_argmax_actions": 27,
+      "exact_stochastic_expected_reward_mean": 0.5470738142859384,
+      "exact_stochastic_full_success_probability_mean": 0.3532824284204665,
+      "exact_stochastic_physical_execution_probability_mean": 0.8287834776261862,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 7013,
+        "AC": 0,
+        "BC": 0
+      },
+      "greedy_executed_transports": 14026,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 817,
+        "matched_one_need_satisfied": 3246,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 1231
+      },
+      "greedy_full_success_rate": 0.35783600194080545,
+      "greedy_full_successes": 2950,
+      "greedy_non_full_success_worlds": 5294,
+      "greedy_reward_counts": {
+        "0.0": 2048,
+        "0.5": 3246,
+        "1.0": 2950
+      },
+      "greedy_reward_mean": 0.5547064531780689,
+      "greedy_reward_sum": 4573.0,
+      "greedy_satisfied_agents": 9146,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 36
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 60
+        },
+        {
+          "action_indices": [
+            1,
+            13,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 2
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 2023
+        },
+        {
+          "action_indices": [
+            3,
+            7,
+            0
+          ],
+          "worlds": 284
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            3,
+            15,
+            0
+          ],
+          "worlds": 126
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 57
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 2786
+        },
+        {
+          "action_indices": [
+            7,
+            9,
+            0
+          ],
+          "worlds": 47
+        },
+        {
+          "action_indices": [
+            7,
+            15,
+            0
+          ],
+          "worlds": 66
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 33
+        },
+        {
+          "action_indices": [
+            9,
+            7,
+            0
+          ],
+          "worlds": 67
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 1181
+        },
+        {
+          "action_indices": [
+            9,
+            13,
+            0
+          ],
+          "worlds": 83
+        },
+        {
+          "action_indices": [
+            13,
+            1,
+            0
+          ],
+          "worlds": 32
+        },
+        {
+          "action_indices": [
+            13,
+            3,
+            0
+          ],
+          "worlds": 24
+        },
+        {
+          "action_indices": [
+            13,
+            7,
+            0
+          ],
+          "worlds": 14
+        },
+        {
+          "action_indices": [
+            13,
+            9,
+            0
+          ],
+          "worlds": 158
+        },
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 579
+        },
+        {
+          "action_indices": [
+            15,
+            3,
+            0
+          ],
+          "worlds": 77
+        },
+        {
+          "action_indices": [
+            15,
+            7,
+            0
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            15,
+            9,
+            0
+          ],
+          "worlds": 25
+        },
+        {
+          "action_indices": [
+            15,
+            15,
+            0
+          ],
+          "worlds": 408
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "b8805c2ce278a11ba3dcb857af6ebff54d1f7e1f9e8c9928805860f9d7caca5b",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3644786164829519,
+      "exact_stochastic_full_success_probability_mean": 0.1501518623292608,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983608776383,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 82836,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 34890,
+        "matched_one_need_satisfied": 35508,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.1501521077792264,
+      "greedy_full_successes": 12438,
+      "greedy_non_full_success_worlds": 70398,
+      "greedy_reward_counts": {
+        "0.0": 34890,
+        "0.5": 35508,
+        "1.0": 12438
+      },
+      "greedy_reward_mean": 0.3644792119368391,
+      "greedy_reward_sum": 30192.0,
+      "greedy_satisfied_agents": 60384,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 82836
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "60fe98e452ae620bdeb30c5e507061ba819581c72c8a3bd2f00b8f6ce8f42c2e",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3425516048068493,
+      "exact_stochastic_full_success_probability_mean": 0.15211038155784304,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983623679787,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 24732,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49464,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 11550,
+        "matched_one_need_satisfied": 9420,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.15211062590975255,
+      "greedy_full_successes": 3762,
+      "greedy_non_full_success_worlds": 20970,
+      "greedy_reward_counts": {
+        "0.0": 11550,
+        "0.5": 9420,
+        "1.0": 3762
+      },
+      "greedy_reward_mean": 0.3425521591460456,
+      "greedy_reward_sum": 8472.0,
+      "greedy_satisfied_agents": 16944,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 24732
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "6b069594d01fa768aa18445bd986a197f80a5d5cf527b4dd5c59ecf3c1e77949",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3772266664358251,
+      "exact_stochastic_full_success_probability_mean": 0.15449778788469576,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983356694558,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 27612,
+        "BC": 0
+      },
+      "greedy_executed_transports": 55224,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 11046,
+        "matched_one_need_satisfied": 12300,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.1544980443285528,
+      "greedy_full_successes": 4266,
+      "greedy_non_full_success_worlds": 23346,
+      "greedy_reward_counts": {
+        "0.0": 11046,
+        "0.5": 12300,
+        "1.0": 4266
+      },
+      "greedy_reward_mean": 0.37722729248152975,
+      "greedy_reward_sum": 10416.0,
+      "greedy_satisfied_agents": 20832,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 27612
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "7037386120042391fb451280c6c0f1689e20b5a98b22ba21cdd50f77f1bc3d93",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.29985394641985413,
+      "exact_stochastic_full_success_probability_mean": 0.137554360036785,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983365945534,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 8244,
+        "BC": 0
+      },
+      "greedy_executed_transports": 16488,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 4434,
+        "matched_one_need_satisfied": 2676,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.13755458515283842,
+      "greedy_full_successes": 1134,
+      "greedy_non_full_success_worlds": 7110,
+      "greedy_reward_counts": {
+        "0.0": 4434,
+        "0.5": 2676,
+        "1.0": 1134
+      },
+      "greedy_reward_mean": 0.29985443959243085,
+      "greedy_reward_sum": 2472.0,
+      "greedy_satisfied_agents": 4944,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 8244
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "bf44f83edaefc6b512329e5abd6e23c8d871e4123ed3e86f038364fd7443d7c7",
+      "distinct_joint_argmax_actions": 6,
+      "exact_stochastic_expected_reward_mean": 0.7146061858164267,
+      "exact_stochastic_full_success_probability_mean": 0.4324176798547853,
+      "exact_stochastic_physical_execution_probability_mean": 0.9968572071891149,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 82836,
+        "BC": 0
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 0,
+        "matched_one_need_satisfied": 46974,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.43292771258872953,
+      "greedy_full_successes": 35862,
+      "greedy_non_full_success_worlds": 46974,
+      "greedy_reward_counts": {
+        "0.0": 0,
+        "0.5": 46974,
+        "1.0": 35862
+      },
+      "greedy_reward_mean": 0.7164638562943648,
+      "greedy_reward_sum": 59349.0,
+      "greedy_satisfied_agents": 118698,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            2,
+            0,
+            1
+          ],
+          "worlds": 15006
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            3
+          ],
+          "worlds": 7806
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            5
+          ],
+          "worlds": 768
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            7
+          ],
+          "worlds": 26580
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 31866
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            11
+          ],
+          "worlds": 810
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "15dbbc4d2899f54aeda5198e1d468dc6f58112b1d4715069256b295115f179e0",
+      "distinct_joint_argmax_actions": 12,
+      "exact_stochastic_expected_reward_mean": 0.7408793215048184,
+      "exact_stochastic_full_success_probability_mean": 0.49077539848321916,
+      "exact_stochastic_physical_execution_probability_mean": 0.9917974428754536,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 24683,
+        "BC": 0
+      },
+      "greedy_executed_transports": 49366,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 23,
+        "matched_one_need_satisfied": 12468,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 49
+      },
+      "greedy_full_success_rate": 0.49296458030082485,
+      "greedy_full_successes": 12192,
+      "greedy_non_full_success_worlds": 12540,
+      "greedy_reward_counts": {
+        "0.0": 72,
+        "0.5": 12468,
+        "1.0": 12192
+      },
+      "greedy_reward_mean": 0.745026686074721,
+      "greedy_reward_sum": 18426.0,
+      "greedy_satisfied_agents": 36852,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            2,
+            0,
+            1
+          ],
+          "worlds": 3163
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            3
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            5
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            7
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            3
+          ],
+          "worlds": 3094
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            5
+          ],
+          "worlds": 252
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            3
+          ],
+          "worlds": 23
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            7
+          ],
+          "worlds": 8903
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            11
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 8454
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            3
+          ],
+          "worlds": 3
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            11
+          ],
+          "worlds": 817
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "b88e3b8a0c0d2129b58a88f0a7648daf55e3eae3622e0cac5d8dffc65b517a0d",
+      "distinct_joint_argmax_actions": 24,
+      "exact_stochastic_expected_reward_mean": 0.5766452707136498,
+      "exact_stochastic_full_success_probability_mean": 0.3684948884407732,
+      "exact_stochastic_physical_execution_probability_mean": 0.8258761590966183,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 23517,
+        "BC": 0
+      },
+      "greedy_executed_transports": 47034,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 1191,
+        "matched_one_need_satisfied": 11796,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 4095
+      },
+      "greedy_full_success_rate": 0.3813559322033898,
+      "greedy_full_successes": 10530,
+      "greedy_non_full_success_worlds": 17082,
+      "greedy_reward_counts": {
+        "0.0": 5286,
+        "0.5": 11796,
+        "1.0": 10530
+      },
+      "greedy_reward_mean": 0.5949587136027814,
+      "greedy_reward_sum": 16428.0,
+      "greedy_satisfied_agents": 32856,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            2,
+            0,
+            1
+          ],
+          "worlds": 5910
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            3
+          ],
+          "worlds": 37
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            5
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            7
+          ],
+          "worlds": 58
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            9
+          ],
+          "worlds": 612
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            1
+          ],
+          "worlds": 145
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            3
+          ],
+          "worlds": 3386
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            7
+          ],
+          "worlds": 214
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            9
+          ],
+          "worlds": 23
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            11
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            1
+          ],
+          "worlds": 2
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            1
+          ],
+          "worlds": 175
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            3
+          ],
+          "worlds": 40
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            7
+          ],
+          "worlds": 7466
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            9
+          ],
+          "worlds": 33
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            1
+          ],
+          "worlds": 2197
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            3
+          ],
+          "worlds": 90
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            5
+          ],
+          "worlds": 7
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            7
+          ],
+          "worlds": 388
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 6729
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            11
+          ],
+          "worlds": 22
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            3
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            7
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            11
+          ],
+          "worlds": 26
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "071dfee281271e316029deb212b475d442447988fc2c574e0e54efb64929aa54",
+      "distinct_joint_argmax_actions": 25,
+      "exact_stochastic_expected_reward_mean": 0.6081344163632769,
+      "exact_stochastic_full_success_probability_mean": 0.4243702183802627,
+      "exact_stochastic_physical_execution_probability_mean": 0.8394318631824086,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 7115,
+        "BC": 0
+      },
+      "greedy_executed_transports": 14230,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 404,
+        "matched_one_need_satisfied": 3100,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 1129
+      },
+      "greedy_full_success_rate": 0.438015526443474,
+      "greedy_full_successes": 3611,
+      "greedy_non_full_success_worlds": 4633,
+      "greedy_reward_counts": {
+        "0.0": 1533,
+        "0.5": 3100,
+        "1.0": 3611
+      },
+      "greedy_reward_mean": 0.626031052886948,
+      "greedy_reward_sum": 5161.0,
+      "greedy_satisfied_agents": 10322,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            2,
+            0,
+            1
+          ],
+          "worlds": 1483
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            3
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            7
+          ],
+          "worlds": 51
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            9
+          ],
+          "worlds": 102
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            1
+          ],
+          "worlds": 86
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            3
+          ],
+          "worlds": 1432
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            5
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            7
+          ],
+          "worlds": 81
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            9
+          ],
+          "worlds": 18
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            11
+          ],
+          "worlds": 16
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            1
+          ],
+          "worlds": 7
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            5
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            1
+          ],
+          "worlds": 62
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            3
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            7
+          ],
+          "worlds": 2659
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            9
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            1
+          ],
+          "worlds": 545
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            3
+          ],
+          "worlds": 11
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            5
+          ],
+          "worlds": 3
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            7
+          ],
+          "worlds": 92
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 1524
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            11
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            3
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            7
+          ],
+          "worlds": 13
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            11
+          ],
+          "worlds": 12
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "b909a62e3380589b1652079471738f505b753dca6973cd85a294214cf7790dd2",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.371287231739734,
+      "exact_stochastic_full_success_probability_mean": 0.153628602694303,
+      "exact_stochastic_physical_execution_probability_mean": 0.999998340384224,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 82836
+      },
+      "greedy_executed_transports": 165672,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 34050,
+        "matched_one_need_satisfied": 36060,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.15362885701868753,
+      "greedy_full_successes": 12726,
+      "greedy_non_full_success_worlds": 70110,
+      "greedy_reward_counts": {
+        "0.0": 34050,
+        "0.5": 36060,
+        "1.0": 12726
+      },
+      "greedy_reward_mean": 0.37128784586411706,
+      "greedy_reward_sum": 30756.0,
+      "greedy_satisfied_agents": 61512,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 82836
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "1b11702f7864d91305aebb01999b415f4f5020098a3fa380b4c8124f0d8ea166",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3197471697097804,
+      "exact_stochastic_full_success_probability_mean": 0.14046556322839956,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983453559962,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 24732
+      },
+      "greedy_executed_transports": 49464,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 12390,
+        "matched_one_need_satisfied": 8868,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.14046579330422126,
+      "greedy_full_successes": 3474,
+      "greedy_non_full_success_worlds": 21258,
+      "greedy_reward_counts": {
+        "0.0": 12390,
+        "0.5": 8868,
+        "1.0": 3474
+      },
+      "greedy_reward_mean": 0.3197476952935468,
+      "greedy_reward_sum": 7908.0,
+      "greedy_satisfied_agents": 15816,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 24732
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "40fb71ad1f9eb1e27aabafd557a8751740627e614b8d0c5a9001c34bd2eb55f0",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.3568007981880554,
+      "exact_stochastic_full_success_probability_mean": 0.14406755668280644,
+      "exact_stochastic_physical_execution_probability_mean": 0.999998337598585,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 27612
+      },
+      "greedy_executed_transports": 55224,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 11886,
+        "matched_one_need_satisfied": 11748,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.1440677966101695,
+      "greedy_full_successes": 3978,
+      "greedy_non_full_success_worlds": 23634,
+      "greedy_reward_counts": {
+        "0.0": 11886,
+        "0.5": 11748,
+        "1.0": 3978
+      },
+      "greedy_reward_mean": 0.3568013906996958,
+      "greedy_reward_sum": 9852.0,
+      "greedy_satisfied_agents": 19704,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 27612
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "aaaf2f174f8c461022f8022e8ea602041a51c002b5c9b61113674f71caab50b0",
+      "distinct_joint_argmax_actions": 1,
+      "exact_stochastic_expected_reward_mean": 0.36826722469155093,
+      "exact_stochastic_full_success_probability_mean": 0.17248880007617892,
+      "exact_stochastic_physical_execution_probability_mean": 0.9999983399170668,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 8244
+      },
+      "greedy_executed_transports": 16488,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3594,
+        "matched_one_need_satisfied": 3228,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 0
+      },
+      "greedy_full_success_rate": 0.17248908296943233,
+      "greedy_full_successes": 1422,
+      "greedy_non_full_success_worlds": 6822,
+      "greedy_reward_counts": {
+        "0.0": 3594,
+        "0.5": 3228,
+        "1.0": 1422
+      },
+      "greedy_reward_mean": 0.3682678311499272,
+      "greedy_reward_sum": 3036.0,
+      "greedy_satisfied_agents": 6072,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 8244
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "data_sha256": "763d89dae943a7b90da8c6f0c14bd88e778b4f9a8a514f810d183126d3ee6167",
+      "distinct_joint_argmax_actions": 8,
+      "exact_stochastic_expected_reward_mean": 0.7280184959026869,
+      "exact_stochastic_full_success_probability_mean": 0.45954091564310545,
+      "exact_stochastic_physical_execution_probability_mean": 0.9965989018809042,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 82836,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 165672,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 82824
+      },
+      "greedy_executed_transports": 165648,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3,
+        "matched_one_need_satisfied": 44709,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 12
+      },
+      "greedy_full_success_rate": 0.4600898160220194,
+      "greedy_full_successes": 38112,
+      "greedy_non_full_success_worlds": 44724,
+      "greedy_reward_counts": {
+        "0.0": 15,
+        "0.5": 44709,
+        "1.0": 38112
+      },
+      "greedy_reward_mean": 0.7299543676662321,
+      "greedy_reward_sum": 60466.5,
+      "greedy_satisfied_agents": 120933,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            2,
+            2
+          ],
+          "worlds": 16845
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            10
+          ],
+          "worlds": 8
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            8
+          ],
+          "worlds": 432
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            10
+          ],
+          "worlds": 10551
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            12
+          ],
+          "worlds": 25608
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            2
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 20478
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            16
+          ],
+          "worlds": 8910
+        }
+      ],
+      "packed_states_sha256": "7bcd4d7db2fd527b9339dc2fe9fd553162b0afd019f05144314bb3c4e1582179",
+      "state_indices_sha256": "17e57b07ef322ce2283cecad555058ae7d00467b174c431b9943ef07368b1f66",
+      "worlds": 82836,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "data_sha256": "9023069625d52f59ebc80cbb032397e9439e48261ef484ed7785fca308e7ee91",
+      "distinct_joint_argmax_actions": 12,
+      "exact_stochastic_expected_reward_mean": 0.7467293954782013,
+      "exact_stochastic_full_success_probability_mean": 0.5011992257900574,
+      "exact_stochastic_physical_execution_probability_mean": 0.9934631531250062,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 24732,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 49464,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 24707
+      },
+      "greedy_executed_transports": 49414,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 40,
+        "matched_one_need_satisfied": 12247,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 25
+      },
+      "greedy_full_success_rate": 0.5021834061135371,
+      "greedy_full_successes": 12420,
+      "greedy_non_full_success_worlds": 12312,
+      "greedy_reward_counts": {
+        "0.0": 65,
+        "0.5": 12247,
+        "1.0": 12420
+      },
+      "greedy_reward_mean": 0.7497776160439916,
+      "greedy_reward_sum": 18543.5,
+      "greedy_satisfied_agents": 37087,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            2,
+            2
+          ],
+          "worlds": 5213
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            10
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            12
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            14
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            8
+          ],
+          "worlds": 216
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            16
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            10
+          ],
+          "worlds": 2287
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            12
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            12
+          ],
+          "worlds": 9542
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            16
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 3709
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            16
+          ],
+          "worlds": 3740
+        }
+      ],
+      "packed_states_sha256": "c7ec93a6da2cefcb071d576b77bacb20aa073e331bdd4f6ce3acb00280992a30",
+      "state_indices_sha256": "9c07ed1d996246751a59048ee61d56d292d66ba5fd54f9c0551694db29376a58",
+      "worlds": 24732,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "data_sha256": "8664554e00c5ca7fe67af14df069e1d7f78cac9b9c2446cd1bf5b0d63ed7d3ce",
+      "distinct_joint_argmax_actions": 28,
+      "exact_stochastic_expected_reward_mean": 0.532588160469628,
+      "exact_stochastic_full_success_probability_mean": 0.3429606606115898,
+      "exact_stochastic_physical_execution_probability_mean": 0.8293283794712359,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 27612,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 55224,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 23572
+      },
+      "greedy_executed_transports": 47144,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 3149,
+        "matched_one_need_satisfied": 10635,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 4040
+      },
+      "greedy_full_success_rate": 0.35448355787338837,
+      "greedy_full_successes": 9788,
+      "greedy_non_full_success_worlds": 17824,
+      "greedy_reward_counts": {
+        "0.0": 7189,
+        "0.5": 10635,
+        "1.0": 9788
+      },
+      "greedy_reward_mean": 0.5470628712154136,
+      "greedy_reward_sum": 15105.5,
+      "greedy_satisfied_agents": 30211,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            2,
+            2
+          ],
+          "worlds": 5636
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            10
+          ],
+          "worlds": 707
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            12
+          ],
+          "worlds": 221
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            14
+          ],
+          "worlds": 284
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            16
+          ],
+          "worlds": 31
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            2
+          ],
+          "worlds": 31
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            8
+          ],
+          "worlds": 85
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            10
+          ],
+          "worlds": 31
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            12
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            16
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            2
+          ],
+          "worlds": 276
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            10
+          ],
+          "worlds": 6248
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            12
+          ],
+          "worlds": 158
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            2
+          ],
+          "worlds": 238
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            8
+          ],
+          "worlds": 243
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            10
+          ],
+          "worlds": 126
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            12
+          ],
+          "worlds": 7029
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            14
+          ],
+          "worlds": 124
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            16
+          ],
+          "worlds": 349
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            2
+          ],
+          "worlds": 15
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            12
+          ],
+          "worlds": 55
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 1829
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            2
+          ],
+          "worlds": 3
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            8
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            10
+          ],
+          "worlds": 297
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            12
+          ],
+          "worlds": 821
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            14
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            16
+          ],
+          "worlds": 2745
+        }
+      ],
+      "packed_states_sha256": "59faea5d947c2f7494e51b9699558e7ee44be1b118ad7c2193dfcf806629c280",
+      "state_indices_sha256": "c446459a6a6c70e2531c6333a9b70976c428eb66a9f713564bf5d492782f0d8e",
+      "worlds": 27612,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 613,
+        "denominator": 767,
+        "rate": 0.7992177314211213
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "data_sha256": "8c15870d69fc9069a65047fccb75f5c2e7eb0e23804459dd4af473ae694930ee",
+      "distinct_joint_argmax_actions": 26,
+      "exact_stochastic_expected_reward_mean": 0.5203611471165666,
+      "exact_stochastic_full_success_probability_mean": 0.35879121786342066,
+      "exact_stochastic_physical_execution_probability_mean": 0.7972722455975793,
+      "greedy_active_count_worlds": {
+        "0": 0,
+        "1": 0,
+        "2": 8244,
+        "3": 0
+      },
+      "greedy_agent_argmax_ties": 0,
+      "greedy_attempted_transports": 16488,
+      "greedy_executed_pair_worlds": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 6760
+      },
+      "greedy_executed_transports": 13520,
+      "greedy_failure_categories": {
+        "all_wait": 0,
+        "matched_no_need_satisfied": 1000,
+        "matched_one_need_satisfied": 2695,
+        "overload": 0,
+        "single_transport_proposal": 0,
+        "two_unmatched": 1484
+      },
+      "greedy_full_success_rate": 0.3717855409995148,
+      "greedy_full_successes": 3065,
+      "greedy_non_full_success_worlds": 5179,
+      "greedy_reward_counts": {
+        "0.0": 2484,
+        "0.5": 2695,
+        "1.0": 3065
+      },
+      "greedy_reward_mean": 0.5352377486656963,
+      "greedy_reward_sum": 4412.5,
+      "greedy_satisfied_agents": 8825,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            2,
+            2
+          ],
+          "worlds": 1270
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            8
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            10
+          ],
+          "worlds": 274
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            12
+          ],
+          "worlds": 72
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            14
+          ],
+          "worlds": 119
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            16
+          ],
+          "worlds": 48
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            8
+          ],
+          "worlds": 30
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            12
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            16
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            2
+          ],
+          "worlds": 79
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            10
+          ],
+          "worlds": 1317
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            12
+          ],
+          "worlds": 114
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            16
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            2
+          ],
+          "worlds": 59
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            8
+          ],
+          "worlds": 94
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            10
+          ],
+          "worlds": 13
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            12
+          ],
+          "worlds": 2475
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            14
+          ],
+          "worlds": 18
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            16
+          ],
+          "worlds": 155
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            12
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 367
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            2
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            8
+          ],
+          "worlds": 5
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            10
+          ],
+          "worlds": 95
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            12
+          ],
+          "worlds": 298
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            16
+          ],
+          "worlds": 1301
+        }
+      ],
+      "packed_states_sha256": "3e5095f0f92c8608b3169e436dfeae7fb7a612b88e0e739bc7a64cbfaabafdba",
+      "state_indices_sha256": "0bae486aa47dd753db2a495e2a5b441003afc526b4337789c116f1cab4993228",
+      "worlds": 8244,
+      "fixed_single_pair_full_success_bound": {
+        "numerator": 191,
+        "denominator": 229,
+        "rate": 0.834061135371179
+      },
+      "above_fixed_single_pair_full_success_bound": false
+    }
+  ],
+  "paired_by_partition": [
+    {
+      "seed": 45101,
+      "partition": "train",
+      "worlds_per_arm": 82836,
+      "full_successes_mean_J": 11586,
+      "full_successes_mean_log_J": 38148,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.32065768506446474,
+        "greedy_reward_mean": 0.3808489062726351,
+        "exact_stochastic_expected_reward_mean": 0.3788699024444767,
+        "exact_stochastic_full_success_probability_mean": 0.3201888251859931,
+        "exact_stochastic_physical_execution_probability_mean": -0.0034354195420502887
+      }
+    },
+    {
+      "seed": 45102,
+      "partition": "train",
+      "worlds_per_arm": 82836,
+      "full_successes_mean_J": 12726,
+      "full_successes_mean_log_J": 35076,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.26981022743734606,
+        "greedy_reward_mean": 0.34043169636389975,
+        "exact_stochastic_expected_reward_mean": 0.33792006846207184,
+        "exact_stochastic_full_success_probability_mean": 0.2691048513680715,
+        "exact_stochastic_physical_execution_probability_mean": -0.004246849309145206
+      }
+    },
+    {
+      "seed": 45103,
+      "partition": "train",
+      "worlds_per_arm": 82836,
+      "full_successes_mean_J": 12438,
+      "full_successes_mean_log_J": 35862,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.28277560480950314,
+        "greedy_reward_mean": 0.35198464435752574,
+        "exact_stochastic_expected_reward_mean": 0.3501275693334748,
+        "exact_stochastic_full_success_probability_mean": 0.2822658175255245,
+        "exact_stochastic_physical_execution_probability_mean": -0.0031411536885234126
+      }
+    },
+    {
+      "seed": 45104,
+      "partition": "train",
+      "worlds_per_arm": 82836,
+      "full_successes_mean_J": 12726,
+      "full_successes_mean_log_J": 38112,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.3064609590033319,
+        "greedy_reward_mean": 0.35866652180211506,
+        "exact_stochastic_expected_reward_mean": 0.35673126416295287,
+        "exact_stochastic_full_success_probability_mean": 0.30591231294880245,
+        "exact_stochastic_physical_execution_probability_mean": -0.003399438503319807
+      }
+    },
+    {
+      "seed": 45101,
+      "partition": "new_needs",
+      "worlds_per_arm": 24732,
+      "full_successes_mean_J": 4614,
+      "full_successes_mean_log_J": 12204,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.306889859291606,
+        "greedy_reward_mean": 0.3536713569464662,
+        "exact_stochastic_expected_reward_mean": 0.3500783447523843,
+        "exact_stochastic_full_success_probability_mean": 0.305768950672867,
+        "exact_stochastic_physical_execution_probability_mean": -0.005985185028220541
+      }
+    },
+    {
+      "seed": 45102,
+      "partition": "new_needs",
+      "worlds_per_arm": 24732,
+      "full_successes_mean_J": 3474,
+      "full_successes_mean_log_J": 11796,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.33648714216399805,
+        "greedy_reward_mean": 0.4159186479055475,
+        "exact_stochastic_expected_reward_mean": 0.4117089386297079,
+        "exact_stochastic_full_success_probability_mean": 0.3347719153206288,
+        "exact_stochastic_physical_execution_probability_mean": -0.010628586023475162
+      }
+    },
+    {
+      "seed": 45103,
+      "partition": "new_needs",
+      "worlds_per_arm": 24732,
+      "full_successes_mean_J": 3762,
+      "full_successes_mean_log_J": 12192,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.3408539543910723,
+        "greedy_reward_mean": 0.4024745269286754,
+        "exact_stochastic_expected_reward_mean": 0.39832771669796907,
+        "exact_stochastic_full_success_probability_mean": 0.3386650169253761,
+        "exact_stochastic_physical_execution_probability_mean": -0.008200919492525105
+      }
+    },
+    {
+      "seed": 45104,
+      "partition": "new_needs",
+      "worlds_per_arm": 24732,
+      "full_successes_mean_J": 3474,
+      "full_successes_mean_log_J": 12420,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.3617176128093158,
+        "greedy_reward_mean": 0.4300299207504448,
+        "exact_stochastic_expected_reward_mean": 0.4269822257684209,
+        "exact_stochastic_full_success_probability_mean": 0.36073366256165784,
+        "exact_stochastic_physical_execution_probability_mean": -0.006535192230989972
+      }
+    },
+    {
+      "seed": 45101,
+      "partition": "new_layouts",
+      "worlds_per_arm": 27612,
+      "full_successes_mean_J": 3894,
+      "full_successes_mean_log_J": 8549,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.16858612197595246,
+        "greedy_reward_mean": 0.1697088222511952,
+        "exact_stochastic_expected_reward_mean": 0.1542509297333351,
+        "exact_stochastic_full_success_probability_mean": 0.15917587838507435,
+        "exact_stochastic_physical_execution_probability_mean": -0.1591058299133462
+      }
+    },
+    {
+      "seed": 45102,
+      "partition": "new_layouts",
+      "worlds_per_arm": 27612,
+      "full_successes_mean_J": 3978,
+      "full_successes_mean_log_J": 8185,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.15236129219180067,
+        "greedy_reward_mean": 0.16373315949587136,
+        "exact_stochastic_expected_reward_mean": 0.15133274267386104,
+        "exact_stochastic_full_success_probability_mean": 0.14609269983839604,
+        "exact_stochastic_physical_execution_probability_mean": -0.18835367445373064
+      }
+    },
+    {
+      "seed": 45103,
+      "partition": "new_layouts",
+      "worlds_per_arm": 27612,
+      "full_successes_mean_J": 4266,
+      "full_successes_mean_log_J": 10530,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.22685788787483702,
+        "greedy_reward_mean": 0.21773142112125166,
+        "exact_stochastic_expected_reward_mean": 0.1994186042778247,
+        "exact_stochastic_full_success_probability_mean": 0.21399710055607746,
+        "exact_stochastic_physical_execution_probability_mean": -0.17412217657283757
+      }
+    },
+    {
+      "seed": 45104,
+      "partition": "new_layouts",
+      "worlds_per_arm": 27612,
+      "full_successes_mean_J": 3978,
+      "full_successes_mean_log_J": 9788,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.21041576126321887,
+        "greedy_reward_mean": 0.19026148051571784,
+        "exact_stochastic_expected_reward_mean": 0.1757873622815726,
+        "exact_stochastic_full_success_probability_mean": 0.19889310392878337,
+        "exact_stochastic_physical_execution_probability_mean": -0.1706699581273491
+      }
+    },
+    {
+      "seed": 45101,
+      "partition": "new_needs_and_layouts",
+      "worlds_per_arm": 8244,
+      "full_successes_mean_J": 1506,
+      "full_successes_mean_log_J": 2787,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.15538573508005823,
+        "greedy_reward_mean": 0.15107957302280445,
+        "exact_stochastic_expected_reward_mean": 0.14053619201065237,
+        "exact_stochastic_full_success_probability_mean": 0.1486330961052643,
+        "exact_stochastic_physical_execution_probability_mean": -0.11392321723611498
+      }
+    },
+    {
+      "seed": 45102,
+      "partition": "new_needs_and_layouts",
+      "worlds_per_arm": 8244,
+      "full_successes_mean_J": 1422,
+      "full_successes_mean_log_J": 2950,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.18534691897137312,
+        "greedy_reward_mean": 0.18643862202814165,
+        "exact_stochastic_expected_reward_mean": 0.17880657173196923,
+        "exact_stochastic_full_success_probability_mean": 0.1807936190572247,
+        "exact_stochastic_physical_execution_probability_mean": -0.17121489911553378
+      }
+    },
+    {
+      "seed": 45103,
+      "partition": "new_needs_and_layouts",
+      "worlds_per_arm": 8244,
+      "full_successes_mean_J": 1134,
+      "full_successes_mean_log_J": 3611,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.3004609412906356,
+        "greedy_reward_mean": 0.3261766132945172,
+        "exact_stochastic_expected_reward_mean": 0.3082804699434228,
+        "exact_stochastic_full_success_probability_mean": 0.28681585834347767,
+        "exact_stochastic_physical_execution_probability_mean": -0.1605664734121448
+      }
+    },
+    {
+      "seed": 45104,
+      "partition": "new_needs_and_layouts",
+      "worlds_per_arm": 8244,
+      "full_successes_mean_J": 1422,
+      "full_successes_mean_log_J": 3065,
+      "difference_log_minus_mean": {
+        "greedy_full_success_rate": 0.19929645803008245,
+        "greedy_reward_mean": 0.16696991751576906,
+        "exact_stochastic_expected_reward_mean": 0.15209392242501563,
+        "exact_stochastic_full_success_probability_mean": 0.18630241778724174,
+        "exact_stochastic_physical_execution_probability_mean": -0.20272609431948752
+      }
+    }
+  ],
+  "means_and_ranges": [
+    {
+      "objective": "mean_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.13986672461248734,
+            0.15362885701868753,
+            0.1501521077792264,
+            0.15362885701868753
+          ],
+          "mean": 0.1493191366072722,
+          "min": 0.13986672461248734,
+          "max": 0.15362885701868753
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3494132985658409,
+            0.37128784586411706,
+            0.3644792119368391,
+            0.37128784586411706
+          ],
+          "mean": 0.3641170505577285,
+          "min": 0.3494132985658409,
+          "max": 0.37128784586411706
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.34941265427438517,
+            0.3712872644349347,
+            0.3644786164829519,
+            0.371287231739734
+          ],
+          "mean": 0.36411644173300145,
+          "min": 0.34941265427438517,
+          "max": 0.3712872644349347
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.13986646717970275,
+            0.15362861679708067,
+            0.1501518623292608,
+            0.153628602694303
+          ],
+          "mean": 0.1493188872500868,
+          "min": 0.13986646717970275,
+          "max": 0.15362861679708067
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9999981455382077,
+            0.9999984221110716,
+            0.9999983608776383,
+            0.999998340384224
+          ],
+          "mean": 0.9999983172277853,
+          "min": 0.9999981455382077,
+          "max": 0.9999984221110716
+        }
+      }
+    },
+    {
+      "objective": "mean_log_J",
+      "partition": "train",
+      "label": "训练需求／训练布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.4605244096769521,
+            0.4234390844560336,
+            0.43292771258872953,
+            0.4600898160220194
+          ],
+          "mean": 0.44424525568593365,
+          "min": 0.4234390844560336,
+          "max": 0.4605244096769521
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.730262204838476,
+            0.7117195422280168,
+            0.7164638562943648,
+            0.7299543676662321
+          ],
+          "mean": 0.7220999927567724,
+          "min": 0.7117195422280168,
+          "max": 0.730262204838476
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.7282825567188619,
+            0.7092073328970065,
+            0.7146061858164267,
+            0.7280184959026869
+          ],
+          "mean": 0.7200286428337455,
+          "min": 0.7092073328970065,
+          "max": 0.7282825567188619
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.46005529236569587,
+            0.42273346816515217,
+            0.4324176798547853,
+            0.45954091564310545
+          ],
+          "mean": 0.4436868390071847,
+          "min": 0.42273346816515217,
+          "max": 0.46005529236569587
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9965627259961574,
+            0.9957515728019264,
+            0.9968572071891149,
+            0.9965989018809042
+          ],
+          "mean": 0.9964426019670257,
+          "min": 0.9957515728019264,
+          "max": 0.9968572071891149
+        }
+      }
+    },
+    {
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.18655992236778263,
+            0.14046579330422126,
+            0.15211062590975255,
+            0.14046579330422126
+          ],
+          "mean": 0.15490053372149443,
+          "min": 0.14046579330422126,
+          "max": 0.18655992236778263
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3930131004366812,
+            0.3197476952935468,
+            0.3425521591460456,
+            0.3197476952935468
+          ],
+          "mean": 0.3437651625424551,
+          "min": 0.3197476952935468,
+          "max": 0.3930131004366812
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.39301237603415407,
+            0.31974719705159926,
+            0.3425516048068493,
+            0.3197471697097804
+          ],
+          "mean": 0.34376458690059575,
+          "min": 0.3197471697097804,
+          "max": 0.39301237603415407
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.1865595797106238,
+            0.14046557634484597,
+            0.15211038155784304,
+            0.14046556322839956
+          ],
+          "mean": 0.1549002752104281,
+          "min": 0.14046556322839956,
+          "max": 0.1865595797106238
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9999981483144538,
+            0.9999984170003219,
+            0.9999983623679787,
+            0.9999983453559962
+          ],
+          "mean": 0.9999983182596877,
+          "min": 0.9999981483144538,
+          "max": 0.9999984170003219
+        }
+      }
+    },
+    {
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "label": "新需求／训练布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.49344978165938863,
+            0.4769529354682193,
+            0.49296458030082485,
+            0.5021834061135371
+          ],
+          "mean": 0.4913876758854925,
+          "min": 0.4769529354682193,
+          "max": 0.5021834061135371
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.7466844573831474,
+            0.7356663431990943,
+            0.745026686074721,
+            0.7497776160439916
+          ],
+          "mean": 0.7442887756752385,
+          "min": 0.7356663431990943,
+          "max": 0.7497776160439916
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.7430907207865384,
+            0.7314561356813072,
+            0.7408793215048184,
+            0.7467293954782013
+          ],
+          "mean": 0.7405388933627163,
+          "min": 0.7314561356813072,
+          "max": 0.7467293954782013
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.49232853038349084,
+            0.47523749166547474,
+            0.49077539848321916,
+            0.5011992257900574
+          ],
+          "mean": 0.4898851615805605,
+          "min": 0.47523749166547474,
+          "max": 0.5011992257900574
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9940129632862332,
+            0.9893698309768467,
+            0.9917974428754536,
+            0.9934631531250062
+          ],
+          "mean": 0.992160847565885,
+          "min": 0.9893698309768467,
+          "max": 0.9940129632862332
+        }
+      }
+    },
+    {
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.14102564102564102,
+            0.1440677966101695,
+            0.1544980443285528,
+            0.1440677966101695
+          ],
+          "mean": 0.1459148196436332,
+          "min": 0.14102564102564102,
+          "max": 0.1544980443285528
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3494132985658409,
+            0.3568013906996958,
+            0.37722729248152975,
+            0.3568013906996958
+          ],
+          "mean": 0.36006084311169056,
+          "min": 0.3494132985658409,
+          "max": 0.37722729248152975
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.349412649057112,
+            0.3568008154214926,
+            0.3772266664358251,
+            0.3568007981880554
+          ],
+          "mean": 0.3600602322756213,
+          "min": 0.349412649057112,
+          "max": 0.3772266664358251
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.14102537965717576,
+            0.14406756362920967,
+            0.15449778788469576,
+            0.14406755668280644
+          ],
+          "mean": 0.1459145719634719,
+          "min": 0.14102537965717576,
+          "max": 0.15449778788469576
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9999981295133137,
+            0.9999983823668225,
+            0.9999983356694558,
+            0.999998337598585
+          ],
+          "mean": 0.9999982962870443,
+          "min": 0.9999981295133137,
+          "max": 0.9999983823668225
+        }
+      }
+    },
+    {
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "label": "训练需求／新布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3096117630015935,
+            0.29642908880197016,
+            0.3813559322033898,
+            0.35448355787338837
+          ],
+          "mean": 0.33547008547008544,
+          "min": 0.29642908880197016,
+          "max": 0.3813559322033898
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.5191221208170361,
+            0.5205345501955672,
+            0.5949587136027814,
+            0.5470628712154136
+          ],
+          "mean": 0.5454195639576995,
+          "min": 0.5191221208170361,
+          "max": 0.5949587136027814
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.5036635787904471,
+            0.5081335580953537,
+            0.5766452707136498,
+            0.532588160469628
+          ],
+          "mean": 0.5302576420172697,
+          "min": 0.5036635787904471,
+          "max": 0.5766452707136498
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3002012580422501,
+            0.2901602634676057,
+            0.3684948884407732,
+            0.3429606606115898
+          ],
+          "mean": 0.32545426764055474,
+          "min": 0.2901602634676057,
+          "max": 0.3684948884407732
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.8408922995999675,
+            0.8116447079130918,
+            0.8258761590966183,
+            0.8293283794712359
+          ],
+          "mean": 0.8269353865202284,
+          "min": 0.8116447079130918,
+          "max": 0.8408922995999675
+        }
+      }
+    },
+    {
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.1826783114992722,
+            0.17248908296943233,
+            0.13755458515283842,
+            0.17248908296943233
+          ],
+          "mean": 0.16630276564774382,
+          "min": 0.13755458515283842,
+          "max": 0.1826783114992722
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3930131004366812,
+            0.3682678311499272,
+            0.29985443959243085,
+            0.3682678311499272
+          ],
+          "mean": 0.3573508005822416,
+          "min": 0.29985443959243085,
+          "max": 0.3930131004366812
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.393012371093575,
+            0.36826724255396914,
+            0.29985394641985413,
+            0.36826722469155093
+          ],
+          "mean": 0.3573501961897373,
+          "min": 0.29985394641985413,
+          "max": 0.393012371093575
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.18267797311567383,
+            0.17248880936324176,
+            0.137554360036785,
+            0.17248880007617892
+          ],
+          "mean": 0.16630248564796987,
+          "min": 0.137554360036785,
+          "max": 0.18267797311567383
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.9999981326305862,
+            0.99999837674172,
+            0.9999983365945534,
+            0.9999983399170668
+          ],
+          "mean": 0.9999982964709816,
+          "min": 0.9999981326305862,
+          "max": 0.99999837674172
+        }
+      }
+    },
+    {
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "label": "新需求／新布局",
+      "metrics": {
+        "greedy_full_success_rate": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3380640465793304,
+            0.35783600194080545,
+            0.438015526443474,
+            0.3717855409995148
+          ],
+          "mean": 0.37642527899078115,
+          "min": 0.3380640465793304,
+          "max": 0.438015526443474
+        },
+        "greedy_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.5440926734594856,
+            0.5547064531780689,
+            0.626031052886948,
+            0.5352377486656963
+          ],
+          "mean": 0.5650169820475497,
+          "min": 0.5352377486656963,
+          "max": 0.626031052886948
+        },
+        "exact_stochastic_expected_reward_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.5335485631042274,
+            0.5470738142859384,
+            0.6081344163632769,
+            0.5203611471165666
+          ],
+          "mean": 0.5522794852175024,
+          "min": 0.5203611471165666,
+          "max": 0.6081344163632769
+        },
+        "exact_stochastic_full_success_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.3313110692209381,
+            0.3532824284204665,
+            0.4243702183802627,
+            0.35879121786342066
+          ],
+          "mean": 0.366938733471272,
+          "min": 0.3313110692209381,
+          "max": 0.4243702183802627
+        },
+        "exact_stochastic_physical_execution_probability_mean": {
+          "seed_order": [
+            45101,
+            45102,
+            45103,
+            45104
+          ],
+          "values": [
+            0.8860749153944713,
+            0.8287834776261862,
+            0.8394318631824086,
+            0.7972722455975793
+          ],
+          "mean": 0.8378906254501614,
+          "min": 0.7972722455975793,
+          "max": 0.8860749153944713
+        }
+      }
+    }
+  ],
+  "behavior": [
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 1,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 143424
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 143424,
+        "AC": 0,
+        "BC": 0
+      },
+      "executed_transport_actions": 286848,
+      "all_worlds_physically_matched": true,
+      "full_successes": 21600,
+      "full_success_rate": 0.15060240963855423,
+      "native_reward_mean": 0.35943775100401604,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "constant_joint_action",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 27,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 9677
+        },
+        {
+          "action_indices": [
+            1,
+            3,
+            0
+          ],
+          "worlds": 184
+        },
+        {
+          "action_indices": [
+            1,
+            5,
+            0
+          ],
+          "worlds": 58
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 1180
+        },
+        {
+          "action_indices": [
+            1,
+            11,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 61
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 33433
+        },
+        {
+          "action_indices": [
+            3,
+            5,
+            0
+          ],
+          "worlds": 234
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 290
+        },
+        {
+          "action_indices": [
+            3,
+            11,
+            0
+          ],
+          "worlds": 96
+        },
+        {
+          "action_indices": [
+            5,
+            1,
+            0
+          ],
+          "worlds": 117
+        },
+        {
+          "action_indices": [
+            5,
+            3,
+            0
+          ],
+          "worlds": 84
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 30836
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 770
+        },
+        {
+          "action_indices": [
+            5,
+            11,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 1
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 1590
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 337
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 139
+        },
+        {
+          "action_indices": [
+            9,
+            5,
+            0
+          ],
+          "worlds": 156
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 29946
+        },
+        {
+          "action_indices": [
+            9,
+            11,
+            0
+          ],
+          "worlds": 24
+        },
+        {
+          "action_indices": [
+            11,
+            3,
+            0
+          ],
+          "worlds": 534
+        },
+        {
+          "action_indices": [
+            11,
+            5,
+            0
+          ],
+          "worlds": 51
+        },
+        {
+          "action_indices": [
+            11,
+            7,
+            0
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            11,
+            9,
+            0
+          ],
+          "worlds": 51
+        },
+        {
+          "action_indices": [
+            11,
+            11,
+            0
+          ],
+          "worlds": 33539
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 139021,
+        "AC": 0,
+        "BC": 0
+      },
+      "executed_transport_actions": 278042,
+      "all_worlds_physically_matched": false,
+      "full_successes": 61688,
+      "full_success_rate": 0.43010932619366354,
+      "native_reward_mean": 0.681744338464971,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "multiple_joint_actions_single_executed_pair",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 1,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 143424
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 143424,
+        "AC": 0,
+        "BC": 0
+      },
+      "executed_transport_actions": 286848,
+      "all_worlds_physically_matched": true,
+      "full_successes": 21600,
+      "full_success_rate": 0.15060240963855423,
+      "native_reward_mean": 0.35943775100401604,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "constant_joint_action",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 35,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            1,
+            1,
+            0
+          ],
+          "worlds": 2240
+        },
+        {
+          "action_indices": [
+            1,
+            3,
+            0
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            1,
+            7,
+            0
+          ],
+          "worlds": 13
+        },
+        {
+          "action_indices": [
+            1,
+            9,
+            0
+          ],
+          "worlds": 379
+        },
+        {
+          "action_indices": [
+            1,
+            13,
+            0
+          ],
+          "worlds": 60
+        },
+        {
+          "action_indices": [
+            1,
+            15,
+            0
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            3,
+            1,
+            0
+          ],
+          "worlds": 37
+        },
+        {
+          "action_indices": [
+            3,
+            3,
+            0
+          ],
+          "worlds": 23669
+        },
+        {
+          "action_indices": [
+            3,
+            7,
+            0
+          ],
+          "worlds": 1234
+        },
+        {
+          "action_indices": [
+            3,
+            9,
+            0
+          ],
+          "worlds": 59
+        },
+        {
+          "action_indices": [
+            3,
+            13,
+            0
+          ],
+          "worlds": 24
+        },
+        {
+          "action_indices": [
+            3,
+            15,
+            0
+          ],
+          "worlds": 257
+        },
+        {
+          "action_indices": [
+            5,
+            5,
+            0
+          ],
+          "worlds": 72
+        },
+        {
+          "action_indices": [
+            5,
+            9,
+            0
+          ],
+          "worlds": 36
+        },
+        {
+          "action_indices": [
+            7,
+            1,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            7,
+            3,
+            0
+          ],
+          "worlds": 288
+        },
+        {
+          "action_indices": [
+            7,
+            7,
+            0
+          ],
+          "worlds": 46068
+        },
+        {
+          "action_indices": [
+            7,
+            9,
+            0
+          ],
+          "worlds": 253
+        },
+        {
+          "action_indices": [
+            7,
+            15,
+            0
+          ],
+          "worlds": 170
+        },
+        {
+          "action_indices": [
+            9,
+            1,
+            0
+          ],
+          "worlds": 60
+        },
+        {
+          "action_indices": [
+            9,
+            3,
+            0
+          ],
+          "worlds": 152
+        },
+        {
+          "action_indices": [
+            9,
+            7,
+            0
+          ],
+          "worlds": 478
+        },
+        {
+          "action_indices": [
+            9,
+            9,
+            0
+          ],
+          "worlds": 32124
+        },
+        {
+          "action_indices": [
+            9,
+            13,
+            0
+          ],
+          "worlds": 406
+        },
+        {
+          "action_indices": [
+            13,
+            1,
+            0
+          ],
+          "worlds": 165
+        },
+        {
+          "action_indices": [
+            13,
+            3,
+            0
+          ],
+          "worlds": 110
+        },
+        {
+          "action_indices": [
+            13,
+            7,
+            0
+          ],
+          "worlds": 105
+        },
+        {
+          "action_indices": [
+            13,
+            9,
+            0
+          ],
+          "worlds": 969
+        },
+        {
+          "action_indices": [
+            13,
+            13,
+            0
+          ],
+          "worlds": 27904
+        },
+        {
+          "action_indices": [
+            13,
+            15,
+            0
+          ],
+          "worlds": 6
+        },
+        {
+          "action_indices": [
+            15,
+            3,
+            0
+          ],
+          "worlds": 197
+        },
+        {
+          "action_indices": [
+            15,
+            7,
+            0
+          ],
+          "worlds": 74
+        },
+        {
+          "action_indices": [
+            15,
+            9,
+            0
+          ],
+          "worlds": 204
+        },
+        {
+          "action_indices": [
+            15,
+            13,
+            0
+          ],
+          "worlds": 2
+        },
+        {
+          "action_indices": [
+            15,
+            15,
+            0
+          ],
+          "worlds": 5589
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 137666,
+        "AC": 0,
+        "BC": 0
+      },
+      "executed_transport_actions": 275332,
+      "all_worlds_physically_matched": false,
+      "full_successes": 58007,
+      "full_success_rate": 0.40444416555109325,
+      "native_reward_mean": 0.6700168730477465,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "multiple_joint_actions_single_executed_pair",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 1,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 143424
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 0,
+        "AC": 143424,
+        "BC": 0
+      },
+      "executed_transport_actions": 286848,
+      "all_worlds_physically_matched": true,
+      "full_successes": 21600,
+      "full_success_rate": 0.15060240963855423,
+      "native_reward_mean": 0.35943775100401604,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "constant_joint_action",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 27,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            2,
+            0,
+            1
+          ],
+          "worlds": 25562
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            3
+          ],
+          "worlds": 48
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            5
+          ],
+          "worlds": 11
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            7
+          ],
+          "worlds": 110
+        },
+        {
+          "action_indices": [
+            2,
+            0,
+            9
+          ],
+          "worlds": 714
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            1
+          ],
+          "worlds": 231
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            3
+          ],
+          "worlds": 15718
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            5
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            7
+          ],
+          "worlds": 295
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            9
+          ],
+          "worlds": 41
+        },
+        {
+          "action_indices": [
+            4,
+            0,
+            11
+          ],
+          "worlds": 46
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            1
+          ],
+          "worlds": 9
+        },
+        {
+          "action_indices": [
+            6,
+            0,
+            5
+          ],
+          "worlds": 1025
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            1
+          ],
+          "worlds": 237
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            3
+          ],
+          "worlds": 69
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            7
+          ],
+          "worlds": 45608
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            9
+          ],
+          "worlds": 39
+        },
+        {
+          "action_indices": [
+            8,
+            0,
+            11
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            1
+          ],
+          "worlds": 2742
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            3
+          ],
+          "worlds": 101
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            5
+          ],
+          "worlds": 10
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            7
+          ],
+          "worlds": 480
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            9
+          ],
+          "worlds": 48573
+        },
+        {
+          "action_indices": [
+            10,
+            0,
+            11
+          ],
+          "worlds": 32
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            3
+          ],
+          "worlds": 17
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            7
+          ],
+          "worlds": 25
+        },
+        {
+          "action_indices": [
+            12,
+            0,
+            11
+          ],
+          "worlds": 1665
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 0,
+        "AC": 138151,
+        "BC": 0
+      },
+      "executed_transport_actions": 276302,
+      "all_worlds_physically_matched": false,
+      "full_successes": 62195,
+      "full_success_rate": 0.43364429941990185,
+      "native_reward_mean": 0.6927989736724677,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "multiple_joint_actions_single_executed_pair",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 1,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 143424
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 143424
+      },
+      "executed_transport_actions": 286848,
+      "all_worlds_physically_matched": true,
+      "full_successes": 21600,
+      "full_success_rate": 0.15060240963855423,
+      "native_reward_mean": 0.35943775100401604,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "constant_joint_action",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "worlds": 143424,
+      "distinct_joint_argmax_actions": 30,
+      "joint_argmax_action_counts": [
+        {
+          "action_indices": [
+            0,
+            2,
+            2
+          ],
+          "worlds": 28964
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            8
+          ],
+          "worlds": 12
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            10
+          ],
+          "worlds": 994
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            12
+          ],
+          "worlds": 297
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            14
+          ],
+          "worlds": 404
+        },
+        {
+          "action_indices": [
+            0,
+            2,
+            16
+          ],
+          "worlds": 79
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            2
+          ],
+          "worlds": 31
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            8
+          ],
+          "worlds": 763
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            10
+          ],
+          "worlds": 31
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            12
+          ],
+          "worlds": 16
+        },
+        {
+          "action_indices": [
+            0,
+            8,
+            16
+          ],
+          "worlds": 20
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            2
+          ],
+          "worlds": 355
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            10
+          ],
+          "worlds": 20403
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            12
+          ],
+          "worlds": 277
+        },
+        {
+          "action_indices": [
+            0,
+            10,
+            16
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            2
+          ],
+          "worlds": 297
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            8
+          ],
+          "worlds": 337
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            10
+          ],
+          "worlds": 139
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            12
+          ],
+          "worlds": 44654
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            14
+          ],
+          "worlds": 142
+        },
+        {
+          "action_indices": [
+            0,
+            12,
+            16
+          ],
+          "worlds": 510
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            2
+          ],
+          "worlds": 19
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            12
+          ],
+          "worlds": 67
+        },
+        {
+          "action_indices": [
+            0,
+            14,
+            14
+          ],
+          "worlds": 26383
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            2
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            8
+          ],
+          "worlds": 11
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            10
+          ],
+          "worlds": 392
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            12
+          ],
+          "worlds": 1119
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            14
+          ],
+          "worlds": 4
+        },
+        {
+          "action_indices": [
+            0,
+            16,
+            16
+          ],
+          "worlds": 16696
+        }
+      ],
+      "executed_pair_world_counts": {
+        "AB": 0,
+        "AC": 0,
+        "BC": 137863
+      },
+      "executed_transport_actions": 275726,
+      "all_worlds_physically_matched": false,
+      "full_successes": 63385,
+      "full_success_rate": 0.4419413766175814,
+      "native_reward_mean": 0.6869701026327533,
+      "partitions_above_fixed_single_pair_bound": [],
+      "description": "multiple_joint_actions_single_executed_pair",
+      "scope": "Action variation alone is not evidence of correct use of input or capability improvement."
+    }
+  ],
+  "primary": {
+    "partition": "new_needs_and_layouts",
+    "metric": "greedy_full_success_rate",
+    "endpoint_update": 6000,
+    "seed_order": [
+      45101,
+      45102,
+      45103,
+      45104
+    ],
+    "paired_differences": [
+      0.15538573508005823,
+      0.18534691897137312,
+      0.3004609412906356,
+      0.19929645803008245
+    ],
+    "mean_paired_difference": 0.21012251334303736,
+    "full_count_pairs": [
+      [
+        1506,
+        2787
+      ],
+      [
+        1422,
+        2950
+      ],
+      [
+        1134,
+        3611
+      ],
+      [
+        1422,
+        3065
+      ]
+    ],
+    "worlds_per_arm_per_seed": 8244,
+    "expected_direction": "positive"
+  },
+  "candidate_cells": [
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45101,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45102,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45103,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_needs",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_layouts",
+      "passes": false
+    },
+    {
+      "seed": 45104,
+      "objective": "mean_log_J",
+      "partition": "new_needs_and_layouts",
+      "passes": false
+    }
+  ],
+  "candidate_cells_passed_by_objective": {
+    "mean_J": 0,
+    "mean_log_J": 0
+  },
+  "all_candidates_by_objective": {
+    "mean_J": false,
+    "mean_log_J": false
+  },
+  "statistical_tests": 0,
+  "symbolic_phase_unlocked": false,
+  "status": "complete_final_paired_summary",
+  "completed_at": "2026-09-15T15:24:50.099696+00:00",
+  "run_directory": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001",
+  "input_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/status.json": "98842a549f1b15dd3ac75bee3bb2a4aecd1219decb67a351988374f805874fc6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/results.json": "bb0ffacee9f3bd9a58533393226258c25eb8696d35c730b7d88e02f3a5cc8e87",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/plan.json": "a422521a0a4166e4fed6dfd122337e76ce86f95c988bde3c9df92875feb9b561",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/prepared.json": "101e58799e479f7b14f8866c032bb9d89fed9e31013653e79dd425e9f03b8bd1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/freeze.json": "6320ec3db8a51ba8e159df339b65a3c74c7ffd4f77a87118e2c4377b6bd3628d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/plan.md": "2a35e53c6c193db23f2a7b990ef177386ff51cc2140e7f93f200d881102670fe",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_coordination_study/plan.md": "2a35e53c6c193db23f2a7b990ef177386ff51cc2140e7f93f200d881102670fe",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/runner.py": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_coordination_study/runner.py": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/seed_selection_receipt.json": "9bb28f3980ca3c65e828efb5e3946ff4e818a571bad7ae7d5632328e80136677",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_coordination_study/seed_selection_receipt.json": "9bb28f3980ca3c65e828efb5e3946ff4e818a571bad7ae7d5632328e80136677",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/tests/test_runner.py": "e71123c159bd1e096f8675c185ea422828fabc348926cac59b243dee83be045f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_coordination_study/tests/test_runner.py": "e71123c159bd1e096f8675c185ea422828fabc348926cac59b243dee83be045f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/source_snapshot/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/result.json": "130da6075606365a4109aed2eaff39f511b04c3afa150967cc0c6df238dc0ff6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/training.jsonl": "e356f299fcfe1a2371541e505c43a4d37713076d5df1b290b624dce82697dd7a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/checkpoint_6000.npz": "7be751769d58628d15e4f0c2fb6952bf45277c4939864253dae16136c23e2c59",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/final_train.npz": "3db0642a8b0b8d8e038847d36308f85ce3558dd3e57fc96e5b1992c810ce4d0d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/final_new_needs.npz": "c8bb5924dec2367f5b9aa810d40673395476e940f7932973cf1eed1f8dc5e72b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/final_new_layouts.npz": "14a207d68e1f5b178b388e490f2c23ef1b8687297088a2e425d5c32e9747aeba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_J/final_new_needs_and_layouts.npz": "b552e4b6274a29b7acecadc4d7698a3cc83163c2bd235b604fc43c4909c3ca34",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/result.json": "5fc6b4db1bb9cde6e74abfcdd38bfbdbc65c02b1da5eeb3caaafbf77ede443cc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/training.jsonl": "eadd52aac5cd751c09314f6a97636e1a0b82dc60002af3d8ca715c2a75c77914",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/checkpoint_6000.npz": "dcc46c8a64f524211d933f38a166b2b9f17df4697e9136383faab0170c73334a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/final_train.npz": "201f39a35c8ed481321c7c383e22ba75ff4df4471350305eeb3e7a80a06d377c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/final_new_needs.npz": "2a6cd502cbd1c632b518622f490afff460499f3c2831246197d9062807666cae",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/final_new_layouts.npz": "772df7ad5309f596907174bda8ec14a2880287d18642c483576ee6ac21e1cae9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45101_mean_log_J/final_new_needs_and_layouts.npz": "cc5022a7c6d0293a6bb8aed6c9c96f7b6a3eb19136e535594affc1e19a75b880",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/result.json": "14bd4c5ae9c4f1d2a9a6b2d30fc912b7e87625a06a9a472b8fc5751f070d7ed3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/training.jsonl": "c20b9dfd96e0e87c03789b0fda41c17d72dd2d72ca98ab36323ae5cbb6ea7b13",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/checkpoint_6000.npz": "09570bc236849cf43cc31e96caa22c92dbd16560cbf9136d30d60cebc32c02f5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/final_train.npz": "b15d58c6551dd877cd7f56897d329829288230b73f72a4153207e45e9d4f91a7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/final_new_needs.npz": "a9f97e82d2d08f4ac4730c6dc8dd0af96bdecb5d79e8671f09c21b2587fc72ba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/final_new_layouts.npz": "17280fcceebdf6243233af70ef42b9568b7faaafb50463cbb09a486d6d64241d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_J/final_new_needs_and_layouts.npz": "929dec44518325af3da2e3bd5dfbabea859edc7ed43a9dd27d3603b302ae04b4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/result.json": "eaaaf8dfa011e4b854b2fc1225df8a240f4af74a47b6c0a2d0b53001f2691097",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/training.jsonl": "5ba7b2a95476f7a8599993ba188990c7241ed57e4dbc68863f267d48f540eb29",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/checkpoint_6000.npz": "853102e99504d9fb3979809ba14b8873bc434be05175e0c96d53680203efdfec",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/final_train.npz": "c1c2f4ef7697663511f7476e0542d60d5a9576279ae1a09c8e723fd4d36de5ed",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/final_new_needs.npz": "076c69f26c9998a4205523b634480023381c8a44a84c126aab2e5cc03c355f77",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/final_new_layouts.npz": "8673a0c492ca726d3a51a79fe55443aecf192aa2e2437ce36276ccc0aa0de053",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45102_mean_log_J/final_new_needs_and_layouts.npz": "13d0852a7c033c775329e8a78b6a9067688837ec8ad7e04a4cde8f3773c3da24",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/result.json": "491d7a7f206209fa9a6b3ea8235d7e0d9bf3037424c93d5bb7686bfa00a346cf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/training.jsonl": "15ad7b6891f37656941199740f3457d13640e85893cca4927b917ac5fa37aca3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/checkpoint_6000.npz": "d4715191999d1d4bed4c38d9afc76a94dbf6547c58aeeb6c32e6cb20d961c6a0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/final_train.npz": "b8805c2ce278a11ba3dcb857af6ebff54d1f7e1f9e8c9928805860f9d7caca5b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/final_new_needs.npz": "60fe98e452ae620bdeb30c5e507061ba819581c72c8a3bd2f00b8f6ce8f42c2e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/final_new_layouts.npz": "6b069594d01fa768aa18445bd986a197f80a5d5cf527b4dd5c59ecf3c1e77949",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_J/final_new_needs_and_layouts.npz": "7037386120042391fb451280c6c0f1689e20b5a98b22ba21cdd50f77f1bc3d93",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/result.json": "6998a35c154e209e7701d01cfb0717662f4cf2a1a0feae10096f13e2a6c1253e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/training.jsonl": "0f0cbb2cb4af121581ff2bb938ab6e2904f8610a3b400456ce3ac9b537054e9e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/checkpoint_6000.npz": "d9bc56f51ead5b0552ccee6d08488fb4f2d387e182a1fa9e0adccd410e6a4be1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/final_train.npz": "bf44f83edaefc6b512329e5abd6e23c8d871e4123ed3e86f038364fd7443d7c7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/final_new_needs.npz": "15dbbc4d2899f54aeda5198e1d468dc6f58112b1d4715069256b295115f179e0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/final_new_layouts.npz": "b88e3b8a0c0d2129b58a88f0a7648daf55e3eae3622e0cac5d8dffc65b517a0d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45103_mean_log_J/final_new_needs_and_layouts.npz": "071dfee281271e316029deb212b475d442447988fc2c574e0e54efb64929aa54",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/result.json": "6eebceb0432db3179732434f6a40765144bf7dad3f5b687e98cd5d2264637c45",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/training.jsonl": "c8f5c088a9c1ec8d1f792112e32dc4066592390661c0b64870a04511ba63fa23",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/checkpoint_6000.npz": "276cf487983139aea9a8fee80965b8e711abe7dc93887f8ae1b34e2081ebacc7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/final_train.npz": "b909a62e3380589b1652079471738f505b753dca6973cd85a294214cf7790dd2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/final_new_needs.npz": "1b11702f7864d91305aebb01999b415f4f5020098a3fa380b4c8124f0d8ea166",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/final_new_layouts.npz": "40fb71ad1f9eb1e27aabafd557a8751740627e614b8d0c5a9001c34bd2eb55f0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_J/final_new_needs_and_layouts.npz": "aaaf2f174f8c461022f8022e8ea602041a51c002b5c9b61113674f71caab50b0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/result.json": "4a3d7d9f60fa2c30e6c868e7dd66e5363b59a6757381962cc7dc174527932f55",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/training.jsonl": "beaba079318260e7db5021b107f762704c14d0241678eaf51c167687e5ac7039",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/checkpoint_6000.npz": "852f303f5cc6972a61fa95e524adf36654f9dfd4a616c9d5ad8f06d5a25db143",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/final_train.npz": "763d89dae943a7b90da8c6f0c14bd88e778b4f9a8a514f810d183126d3ee6167",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/final_new_needs.npz": "9023069625d52f59ebc80cbb032397e9439e48261ef484ed7785fca308e7ee91",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/final_new_layouts.npz": "8664554e00c5ca7fe67af14df069e1d7f78cac9b9c2446cd1bf5b0d63ed7d3ce",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/results/mean_vs_log_001/execution/seed_45104_mean_log_J/final_new_needs_and_layouts.npz": "8c15870d69fc9069a65047fccb75f5c2e7eb0e23804459dd4af473ae694930ee"
+  },
+  "summary_source_sha256": "a646a11152892709859ec892e119425cca77da729e7b3c040906fcbd6b39572e",
+  "summary_helper_source_sha256": "a58fe07f96f52371f645581a9b3ddf3e49053addf59bf4c152f4d90e5fd57f43",
+  "elapsed_seconds": 82.79403620795347,
+  "paired_team_initializations": 4,
+  "fixed_data_splits": 1,
+  "endpoint_update": 6000,
+  "weight_deserializations": 0,
+  "neural_forward_calls": 0,
+  "training_updates": 0,
+  "scope": "Final counts/hash summary; not the separate full paired execution/gradient/physical audit."
+}

@@ -1,0 +1,453 @@
+[
+  {
+    "id": "H01",
+    "year": 2005,
+    "first_author": "Galantucci",
+    "title": "An Experimental Study of the Emergence of Human Communication Systems",
+    "authors": [
+      "Bruno Galantucci"
+    ],
+    "venue": "Cognitive Science 29(5):737–767",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1207/s15516709cog0000_34",
+    "doi": "10.1207/s15516709cog0000_34",
+    "pdf_urls": [
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1207/s15516709cog0000_34",
+      "https://onlinelibrary.wiley.com/doi/epdf/10.1207/s15516709cog0000_34"
+    ],
+    "theme": "实验符号学；首次建立新信号",
+    "starting_point": "已有语言能力的成人双人组；任务中无共享实验代码；限制常规文字符号。",
+    "manipulations": "隔离参与者；使用受限图形轨迹通道；在需要会合/协调的电子游戏中互动。",
+    "formation_measures": "成功协调与信号使用的互动序列；符号形式及其与行动情景的关系。",
+    "language_properties": "约定化、指称映射、形式简化与可辨识性。",
+    "key_result": "参与者可快速建立新信号系统；明确符号与情景暗示、无声协调程序共同支撑沟通。",
+    "limitation": "当前仅核对原文摘要及作者后续方法综述；不是语言能力从零产生，也未独立操纵分工。",
+    "relevance": "最早期实验近邻；提示记录首次成功和信号改变，同时把行动线索计入实际沟通环境。",
+    "read_depth": "abstract",
+    "evidence_locator": "原论文 Abstract；方法细节另见作者2009综述 https://pmc.ncbi.nlm.nih.gov/articles/PMC4503356/ 。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H02",
+    "year": 2004,
+    "first_author": "Senghas",
+    "title": "Children Creating Core Properties of Language: Evidence from an Emerging Sign Language in Nicaragua",
+    "authors": [
+      "Ann Senghas",
+      "Sotaro Kita",
+      "Asli Özyürek"
+    ],
+    "venue": "Science 305:1779–1782",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1126/science.1100199",
+    "doi": "10.1126/science.1100199",
+    "pdf_urls": [
+      "https://wrap.warwick.ac.uk/66237/20/WRAP_Senghas_Ms.pdf",
+      "https://pure.mpg.de/pubman/item/item_59126_3/component/file_59127/Senghas_2004_children.pdf"
+    ],
+    "theme": "新兴手语；社区传递",
+    "starting_point": "尼加拉瓜聋人社区的新手语；此前存在不同家庭手势，缺乏共同成熟手语输入。",
+    "manipulations": "自然观察：30名签者按首次接触语言年份分三批，各10名；另比较西班牙语伴随手势。",
+    "formation_measures": "运动事件中方式/路径同时表达与顺序分解的比例；不同进入批次比较。",
+    "language_properties": "离散单元、顺序组合、事件结构表达。",
+    "key_result": "后两批次更常分解并组合方式和路径；社区新学习者参与结构形成。",
+    "limitation": "批次不是生物亲子代；年龄、输入和社区历史未随机分离，不能倒推出史前唯一轨迹。",
+    "relevance": "代际阶段可测语义分解如何跨学习者改变，不能仅复制旧成员记忆称为文化传递。",
+    "read_depth": "full_text",
+    "evidence_locator": "作者稿 pp.3–9；正式版 pp.1779–1782，Fig.2；本地H02_fulltext.txt。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H03",
+    "year": 2007,
+    "first_author": "Garrod",
+    "title": "Foundations of Representation: Where Might Graphical Symbol Systems Come From?",
+    "authors": [
+      "Simon Garrod",
+      "Nicolas Fay",
+      "John Lee",
+      "Jon Oberlander",
+      "Tracy MacLeod"
+    ],
+    "venue": "Cognitive Science 31(6):961–987",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1080/03640210701703659",
+    "doi": "10.1080/03640210701703659",
+    "pdf_urls": [
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1080/03640210701703659",
+      "https://onlinelibrary.wiley.com/doi/epdf/10.1080/03640210701703659"
+    ],
+    "theme": "图形符号；互动反馈；共同历史",
+    "starting_point": "成人用绘画表达预给定的16个概念；无事先约定图形码。",
+    "manipulations": "无反馈/有反馈；固定/交替说者角色；同步/延后反馈；早期/晚期旁观者。",
+    "formation_measures": "逐轮辨认率、图形周长复杂度、双方图形趋同、旁观者理解。",
+    "language_properties": "图像性、任意约定、图形简化、伙伴特异性。",
+    "key_result": "互动反馈支持图形简化和约定化；同步反馈使简化更快，旁观者尤其缺乏早期历史者理解较差。",
+    "limitation": "意义集合预给定、依赖文化常识；图形复杂度不等于语义/语法复杂度。",
+    "relevance": "直接支持测形成过程与共同历史，而非只看最终信号短不短；提供反馈时序的因果操纵。",
+    "read_depth": "full_text",
+    "evidence_locator": "Wiley HTML §§4.1–4.3，Fig.12、14；在线全文已读，PDF受403限制。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H04",
+    "year": 2008,
+    "first_author": "Kirby",
+    "title": "Cumulative cultural evolution in the laboratory: An experimental approach to the origins of structure in human language",
+    "authors": [
+      "Simon Kirby",
+      "Hannah Cornish",
+      "Kenny Smith"
+    ],
+    "venue": "PNAS 105(31):10681–10686",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1073/pnas.0707835105",
+    "doi": "10.1073/pnas.0707835105",
+    "pdf_urls": [
+      "https://kennysmithed.github.io/publications/kirby_08_cumulative.pdf"
+    ],
+    "theme": "迭代学习；学习瓶颈",
+    "starting_point": "实验者随机生成27个意义—字符串配对；参与者学习前人产生的输入。",
+    "manipulations": "每代仅见子集；两实验比较允许歧义与从训练集过滤歧义；10代传递链。",
+    "formation_measures": "代间归一化编辑距离；意义距离与信号距离的相关结构分数；未见意义输出。",
+    "language_properties": "可学性、歧义、组合系统性。",
+    "key_result": "学习传递使系统更易复制；允许歧义时退化，过滤歧义后出现组合结构。",
+    "limitation": "已经给出初始符号映射；实验2由研究者过滤歧义，不是任务互动自然保持表达力。",
+    "relevance": "用于后期文化传递，不应当成首次从无约定开始；提示分开初始语言诞生与其结构化。",
+    "read_depth": "full_text",
+    "evidence_locator": "Design/Results of Experiments 1–2；Methods；PNAS正文及作者PDF；2017修正仅涉及补充材料。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H05",
+    "year": 2015,
+    "first_author": "Kirby",
+    "title": "Compression and communication in the cultural evolution of linguistic structure",
+    "authors": [
+      "Simon Kirby",
+      "Monica Tamariz",
+      "Hannah Cornish",
+      "Kenny Smith"
+    ],
+    "venue": "Cognition 141:87–102",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1016/j.cognition.2015.03.016",
+    "doi": "10.1016/j.cognition.2015.03.016",
+    "pdf_urls": [
+      "https://www.pure.ed.ac.uk/ws/portalfiles/portal/192983889/KirbyEtalC2015CompressionAndCommunication.pdf"
+    ],
+    "theme": "交流与学习压力",
+    "starting_point": "随机整体式微型语言；人类学习/交流实验与贝叶斯学习者模型。",
+    "manipulations": "固定群体或新学习者传递链；有无交流表达压力，模型另变初始条件和参数。",
+    "formation_measures": "语言复制误差、表达区分、意义—形式结构及其逐代变化。",
+    "language_properties": "整体码本、退化、组合性、可压缩性。",
+    "key_result": "交流与学习的可压缩性压力结合更可靠地产生组合结构；单一压力常导向整体码本或退化。",
+    "limitation": "不等于代际更替的普遍必要性；附录中改变起点后仅交流条件也可形成部分组合结构。",
+    "relevance": "为表达需求×学习压力设计提供理论，但必须对照Raviv2019无代际结果。",
+    "read_depth": "full_text",
+    "evidence_locator": "§3 Laboratory experiment；Discussion；Appendix A及Fig.5初始语言操纵。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H06",
+    "year": 2018,
+    "first_author": "Nolle",
+    "title": "The emergence of systematicity: How environmental and communicative factors shape a novel communication system",
+    "authors": [
+      "Jonas Nölle",
+      "Marlene Staib",
+      "Riccardo Fusaroli",
+      "Kristian Tylén"
+    ],
+    "venue": "Cognition 181:93–104",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1016/j.cognition.2018.08.014",
+    "doi": "10.1016/j.cognition.2018.08.014",
+    "pdf_urls": [
+      "https://osf.io/download/k85xw/",
+      "https://osf.io/preprints/psyarxiv/j7k6q/download",
+      "https://psyarxiv.com/j7k6q/download"
+    ],
+    "theme": "环境结构；开放意义空间；位移指称",
+    "starting_point": "丹麦成人双人组以无声手势建立新指称系统。实验1为27对，卡通人物包含职业、性别、宠物等可组合特征，同时有可用单一图像手势表达的独特细节；实验2为40对。",
+    "manipulations": "实验1改变特征区分度及备选对象，开放操纵未改变重复目标的限制；实验2采用开放/封闭指称环境 × 对象在场/位移的2×2设计。开放条件中每人不重复目标，封闭条件重复较小目标集合；位移条件移除发送者所见目标，3秒后开始沟通。",
+    "formation_measures": "逐试次正确率、手势数量及编码系统性；系统性按跨对象重复使用类别特征手势判定；比较主效应及与试次的交互。",
+    "language_properties": "系统性、图像性、分析性表达。",
+    "key_result": "实验2正确率从首试次均值88%升至末次超过99%。开放环境×试次为正（p<.01），位移主效应为正（p<.05），位移×试次未显著：前者涉及演化轨迹，后者主要表现为从起始阶段系统性概率较高。作者稿对应Bayes factor为2.06和1.16，证据强度有限。",
+    "limitation": "所读为38页作者预印本，公开稿与最终排版版可能有差异。实验1开放条件操纵未奏效；实验2频率学显著效应的Bayes证据仍不确定，个体差异大；记忆压缩是机制推测。不能将系统化手势等同完整组合语法。",
+    "relevance": "最直接近邻：已经操纵环境并区分结构水平与形成轨迹。新研究应报告每项操纵改变初始策略、发展速度还是终态，且检验结果可重复性。",
+    "read_depth": "full_text",
+    "evidence_locator": "OSF作者预印本10.31234/osf.io/j7k6q，主文件k85xw（2018-07-27版本）；PDF页9–14实验1，19–22实验2设计，23–26结果；表2给出Bayes factor和交互，图7–9为轨迹。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H07",
+    "year": 2019,
+    "first_author": "Raviv",
+    "title": "Compositional structure can emerge without generational transmission",
+    "authors": [
+      "Limor Raviv",
+      "Antje Meyer",
+      "Shiri Lev-Ari"
+    ],
+    "venue": "Cognition 182:151–164",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1016/j.cognition.2018.09.010",
+    "doi": "10.1016/j.cognition.2018.09.010",
+    "pdf_urls": [
+      "https://pure.mpg.de/rest/items/item_2642791_7/component/file_3001834/content"
+    ],
+    "theme": "无代际更替的组合结构诞生",
+    "starting_point": "4名成人组成封闭微型社会；轮换配对，用新造字符串描述动态场景。",
+    "manipulations": "多伙伴互动、随轮次扩大的意义空间；Study1含6组，Study2合并24组数据作机制分析。",
+    "formation_measures": "逐轮成功率、组内收敛、跨轮稳定性、语义—形式结构、后加入意义的稳定速度。",
+    "language_properties": "共享约定、组合结构、生产性、稳定性。",
+    "key_result": "固定群体内结构显著增加，不需要新一代学习者；多伙伴接触与结构增长有关。",
+    "limitation": "两种压缩压力起初同时引入；后续机制分析不能替代完全析因随机操纵，初期也未完全收敛。",
+    "relevance": "最贴近用户首期只研究诞生的目标；必须作为固定成员基准，避免将代际传递误当必要条件。",
+    "read_depth": "full_text",
+    "evidence_locator": "Study1 §§2.1–2.2；Study2 meta-analysis；Tables1–4，Figs2–6；正式刊年2019，在线2018。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H08",
+    "year": 2019,
+    "first_author": "Raviv",
+    "title": "Larger communities create more systematic languages",
+    "authors": [
+      "Limor Raviv",
+      "Antje Meyer",
+      "Shiri Lev-Ari"
+    ],
+    "venue": "Proceedings of the Royal Society B 286:20191262",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1098/rspb.2019.1262",
+    "doi": "10.1098/rspb.2019.1262",
+    "pdf_urls": [
+      "https://pure.mpg.de/rest/items/item_3138714/component/file_3138733/content"
+    ],
+    "theme": "群体大小；形成轨迹",
+    "starting_point": "无预设共享词表的成人群体，用新造词描述形状和运动方向。",
+    "manipulations": "12组4人对比12组8人；全连通轮换交流、相同范式；144名参与者。",
+    "formation_measures": "逐轮成功、收敛、稳定、结构；输入变异和共同历史；跨群体方差。",
+    "language_properties": "系统性、共享程度、稳定性。",
+    "key_result": "较大群体系统性增长更快且最终更高，组间结果更一致；最终收敛和稳定可赶上小群体。",
+    "limitation": "4/8人和有限意义空间不能直接外推真实社会规模；输入变异中介并非独立随机处理。",
+    "relevance": "给出环境→形成速度/最终结构的完整范例；报告分布和个别失败群体，不能只报均值。",
+    "read_depth": "full_text",
+    "evidence_locator": "§3 Methods，§4 Results、§5 Discussion，Fig.1及结构/收敛曲线。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H09",
+    "year": 2020,
+    "first_author": "Raviv",
+    "title": "The Role of Social Network Structure in the Emergence of Linguistic Structure",
+    "authors": [
+      "Limor Raviv",
+      "Antje Meyer",
+      "Shiri Lev-Ari"
+    ],
+    "venue": "Cognitive Science 44(8):e12876",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1111/cogs.12876",
+    "doi": "10.1111/cogs.12876",
+    "pdf_urls": [
+      "https://eprints.gla.ac.uk/281184/1/281184.pdf"
+    ],
+    "theme": "社会网络；阴性结果；群体漂移",
+    "starting_point": "8人成员固定的新造语言微型社会，动态场景沟通。",
+    "manipulations": "保持人数，比较全连通、小世界、无标度网络，变化连接度和连接不均。",
+    "formation_measures": "逐轮结构、成功率、稳定性、收敛及各指标组间方差。",
+    "language_properties": "系统性、共享性、稳定性。",
+    "key_result": "没有检出网络类型对各平均指标的显著主效应；小世界网络形成轨迹更不一致。",
+    "limitation": "阴性结果不证明所有网络结构均无影响；网络规模/参数受限，方差结果亦需重复。",
+    "relevance": "反驳预设所有社会复杂性都会增强语言；应测随机漂移、轨迹方差及可重复性。",
+    "read_depth": "full_text",
+    "evidence_locator": "Methods、Results；Table4预期/结果对照，Table5额外发现；DOI年份为2020，机构存档2022。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H10",
+    "year": 2019,
+    "first_author": "Bohn",
+    "title": "Young children spontaneously recreate core properties of language in a new modality",
+    "authors": [
+      "Manuel Bohn",
+      "Gregor Kachel",
+      "Michael Tomasello"
+    ],
+    "venue": "PNAS 116(51):26072–26077",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1073/pnas.1904871116",
+    "doi": "10.1073/pnas.1904871116",
+    "pdf_urls": [
+      "https://www.eva.mpg.de/documents/NatlAcadSciences/Bohn_Young_PNAS_2019_3180241.pdf"
+    ],
+    "theme": "儿童实验符号学；初期结构",
+    "starting_point": "已有口语能力的儿童；所有实验先保留音视频，用口语完成每张图片一次的熟悉训练，再切断音频。测试起初不告知可用手势。",
+    "manipulations": "三项研究依次考察指称/约定、任意化和更复杂意义所需区分；4岁/6岁双人组及3岁/4岁与成人的补充实验。每试次若1分钟仍被动，实验者以3步提示使用图像性手势；总样本198名儿童。",
+    "formation_measures": "手势对应意义、模仿/共同约定、重复使用改变、复杂消息的组合编码。",
+    "language_properties": "指称、约定性、任意性、初步语法结构。",
+    "key_result": "短时互动中可观察指称、伙伴间共同化、任意化及初步结构。6岁儿童较常自发创造手势；4岁常需初次提示，此后可迁移；3岁常需针对新意义重复提示。不能将所有参与者描述为完全无辅助自发。",
+    "limitation": "已有语言及社会认知，先经口语共同背景训练，部分儿童有实验者手势提示。不是完整新自然语言，也非无语言人类实验；比较自主形成能力时需分别计入年龄和提示。",
+    "relevance": "人类端可对照首次指称、共同化、形式缩减与结构分化的时间顺序。",
+    "read_depth": "full_text",
+    "evidence_locator": "Studies1–3、Figs1–3；PDF页2年龄与提示结果，页5–6 Materials and Methods（198名儿童、口语训练、每试次1分钟及3步提示）。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H11",
+    "year": 2024,
+    "first_author": "Arnon",
+    "title": "Cultural evolution creates the statistical structure of language",
+    "authors": [
+      "Inbal Arnon",
+      "Simon Kirby"
+    ],
+    "venue": "Scientific Reports 14:5255",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1038/s41598-024-56152-9",
+    "doi": "10.1038/s41598-024-56152-9",
+    "pdf_urls": [
+      "https://www.nature.com/articles/s41598-024-56152-9.pdf",
+      "https://www.pure.ed.ac.uk/ws/portalfiles/portal/418708512/s41598-024-56152-9.pdf"
+    ],
+    "theme": "非语义序列；统计结构起源",
+    "starting_point": "四种颜色构成的12项随机序列，复制任务不含指称意义。",
+    "manipulations": "6条10代传递链，每人复制60序列两遍；2024文章重分析2013/14已采集数据。",
+    "formation_measures": "复制编辑误差、颜色转移概率、候选片段边界、单位频率熵及Zipf接近度。",
+    "language_properties": "可分割单元、重组、偏斜频率分布、可学性。",
+    "key_result": "序列逐代更易复制，出现统计片段及偏斜分布；无需语义即可形成部分语言样统计。",
+    "limitation": "没有意义或合作目标；本身不证明语言或语义组合性，频率分布与学习关系主要相关。",
+    "relevance": "重要控制：出现重复片段、低熵或Zipf样分布，不能单独判定语言诞生。",
+    "read_depth": "full_text",
+    "evidence_locator": "Methods pp.3–4，Results Figs1–9，Discussion pp.8–9；明确说明数据重分析。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H12",
+    "year": 2024,
+    "first_author": "Galke",
+    "title": "Deep neural networks and humans both benefit from compositional language structure",
+    "authors": [
+      "Lukas Galke",
+      "Yoav Ram",
+      "Limor Raviv"
+    ],
+    "venue": "Nature Communications 15:10816",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1038/s41467-024-55158-1",
+    "doi": "10.1038/s41467-024-55158-1",
+    "pdf_urls": [
+      "https://www.nature.com/articles/s41467-024-55158-1.pdf"
+    ],
+    "theme": "人类—神经网络对照；学会新语言",
+    "starting_point": "10种人类群体此前创造的语言，各23场景—标签配对；不是本实验生成。",
+    "manipulations": "输入语言系统性梯度；成人数据对照从零训练RNN及预训练GPT-3.5；匹配学习材料与测试。",
+    "formation_measures": "学习轨迹、记忆错误、未见场景标签的系统性、学习者间及与人类输出的一致性。",
+    "language_properties": "组合结构的可学性优势、系统泛化。",
+    "key_result": "结构更强的输入改善模型泛化与人类相似性，RNN和LLM均表现出这一趋势。",
+    "limitation": "测试既有新语言的学习而非互动创造；相似结果不能推定相同内部机制。",
+    "relevance": "直接人类—agent比较近邻；新工作应推进到共创过程，并匹配条件操纵响应。",
+    "read_depth": "full_text",
+    "evidence_locator": "Results pp.2–5，Discussion pp.5–7；Methods Input languages，Figs2–4。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H13",
+    "year": 2025,
+    "first_author": "Buidze",
+    "title": "Expectation violations signal goals in novel human communication",
+    "authors": [
+      "Tatia Buidze",
+      "Tobias Sommer",
+      "Ke Zhao",
+      "Xiaolan Fu",
+      "Jan Gläscher"
+    ],
+    "venue": "Nature Communications 16:1989",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1038/s41467-025-57025-z",
+    "doi": "10.1038/s41467-025-57025-z",
+    "pdf_urls": [
+      "https://www.nature.com/articles/s41467-025-57025-z.pdf"
+    ],
+    "theme": "动作成为信号；初始沟通策略",
+    "starting_point": "成人双人网格合作，Sender知道双方目标、Receiver不知道自身目标；无预设轨迹代码。",
+    "manipulations": "直接/间接目标布局；120试次、动作有成本、不提供策略或练习；两个数据集共120人。",
+    "formation_measures": "轨迹类别、长度/方向、目标辨认；期待违背模型拟合；第二数据集瞳孔与EEG关联。",
+    "language_properties": "动作信号化、可解释的指示策略、共同物理先验。",
+    "key_result": "偏离默认行进预期的动作可凸显目标；惊讶模型解释信号选择并预测接收者部分生理响应。",
+    "limitation": "关注局部信号与推断，未显示开放词汇或组合语法；神经相关不证明唯一因果机制。",
+    "relevance": "环境动作既可服务任务也可成为信号；应追踪如何从行动获得沟通意义。",
+    "read_depth": "full_text",
+    "evidence_locator": "Experimental task pp.2–3；Methods pp.10–11；Figs2–3。正文与Methods对两组直接/间接试次比例记载相反，故未据此作数值推断。",
+    "study_type": "empirical"
+  },
+  {
+    "id": "H14",
+    "year": 2025,
+    "first_author": "Arnon",
+    "title": "What enables human language? A biocultural framework",
+    "authors": [
+      "Inbal Arnon",
+      "Liran Carmel",
+      "Nicolas Claidière",
+      "W. Tecumseh Fitch",
+      "Susan Goldin-Meadow",
+      "Simon Kirby",
+      "Kazuo Okanoya",
+      "Limor Raviv",
+      "Lucie Wolters",
+      "Simon E. Fisher"
+    ],
+    "venue": "Science 390(6775)",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1126/science.adq8303",
+    "doi": "10.1126/science.adq8303",
+    "pdf_urls": [
+      "https://www.mpi.nl/sites/default/files/2025-11/Arnon-et-al-final-manuscript-formatted_for_posting.pdf",
+      "https://www.nicolas.claidiere.fr/wp-content/uploads/Arnon_et_al_2025_accepted_version.pdf"
+    ],
+    "theme": "起源理论；生物—文化多层解释",
+    "starting_point": "综述与框架：综合物种、个体和社区层面的语言相关能力证据。",
+    "manipulations": "无新统一实验；三个案例：发声学习、语言结构、社会基础，比较生物准备与文化传递。",
+    "formation_measures": "建议跨物种/跨发展/跨社会环境比较；不是单一语言涌现判据。",
+    "language_properties": "结构、声音学习、交往动机及其组合。",
+    "key_result": "提出语言形成取决于多能力及生物文化互动，不能用单一选择场景穷尽解释。",
+    "limitation": "框架性综述，不是某个充分条件集合已经证实；例证跨方法，不能简单拼成史前时间线。",
+    "relevance": "保留语言起源的大问题，同时把环境作用置于已有能力和学习偏向的条件下解释。",
+    "read_depth": "full_text",
+    "evidence_locator": "作者稿Case study2、Discussion pp.15–17；公开稿标题写bio-cultural，正式页面写biocultural。",
+    "study_type": "review"
+  },
+  {
+    "id": "H15",
+    "year": 2023,
+    "first_author": "Mufwene",
+    "title": "Linguistic Hybridization in the Emergence of Creoles",
+    "authors": [
+      "Salikoko S. Mufwene"
+    ],
+    "venue": "Cambridge Journal of Postcolonial Literary Inquiry 10(1):74–89",
+    "status": "peer_reviewed",
+    "url": "https://doi.org/10.1017/pli.2022.32",
+    "doi": "10.1017/pli.2022.32",
+    "pdf_urls": [
+      "https://knowledge.uchicago.edu/records/n7btq-6n569/files/Linguistic-Hybridization-in-the-Emergence-of-Creoles.pdf",
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BE56AA2BC8500F428DD860041059FC26/S2052261422000320a.pdf/div-class-title-linguistic-hybridization-in-the-emergence-of-creoles-div.pdf"
+    ],
+    "theme": "语言接触；社区融合；生态历史",
+    "starting_point": "不同成熟语言/方言人群接触，既有特征形成竞争与重组资源。",
+    "manipulations": "理论与历史比较，无随机干预；讨论人口比例、权力、网络接触、创始者与人口增长。",
+    "formation_measures": "特征来源、选择/借用/重组、语言转移及社区分化的历史证据。",
+    "language_properties": "混合性、多样性、约定重组与稳定。",
+    "key_result": "主张克里奥尔形成与其他语言变化共享基本过程，具体接触生态决定输出差异。",
+    "limitation": "并非空白语言起源；统一论与克里奥尔形成解释存在争论；属于理论论坛文。",
+    "relevance": "对应后续两个已形成语言的agent群体融合；避免把接触混合与首次约定建立混为同一操作。",
+    "read_depth": "full_text",
+    "evidence_locator": "The linguistic feature pool及Conclusions；正式刊年2023，在线2022-12-05；作者CV与Cambridge卷期已交叉核对。",
+    "study_type": "theoretical_forum"
+  }
+]

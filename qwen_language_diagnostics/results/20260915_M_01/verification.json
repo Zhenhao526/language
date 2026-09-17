@@ -1,0 +1,501 @@
+{
+  "audited_at": "2026-09-15T16:39:02.873467+08:00",
+  "status": "verified",
+  "errors": [],
+  "scope": {
+    "model_calls": 16,
+    "formal_judgments": 8,
+    "formal_correct": 6,
+    "distinct_statement_count": 4,
+    "symbolic_started": false
+  },
+  "checks": {
+    "completed": true,
+    "prepared_case_digest": true,
+    "source_files": {
+      "qwen_language_diagnostics/__init__.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/experiment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/history_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/environment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/agents.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/backend.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/protocol.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/run.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/probe.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/execute_locked_pipeline.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/action_semantics.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/semantic_cases.py": {
+        "current": true,
+        "snapshot": true
+      }
+    },
+    "original_v3_records": {
+      "manifest.json": true,
+      "steps.jsonl": true,
+      "inference.jsonl": true,
+      "episodes.jsonl": true
+    },
+    "prior_RS_records": {
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/inference.jsonl": true
+    },
+    "actual_cases": [
+      {
+        "case_id": "M1_affirm_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "case_id": "M1_deny_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          3,
+          4
+        ]
+      },
+      {
+        "case_id": "M2_affirm_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          5,
+          6
+        ]
+      },
+      {
+        "case_id": "M2_deny_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          7,
+          8
+        ]
+      },
+      {
+        "case_id": "M3_affirm_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          9,
+          10
+        ]
+      },
+      {
+        "case_id": "M3_deny_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          11,
+          12
+        ]
+      },
+      {
+        "case_id": "M4_affirm_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          13,
+          14
+        ]
+      },
+      {
+        "case_id": "M4_deny_first",
+        "checks": {
+          "only_allowed_input_fields": true,
+          "empty_history_and_broadcast": true,
+          "C_current_observation": true,
+          "literal_status": true,
+          "statement": true,
+          "answers": true,
+          "full_rules_and_information_exception": true,
+          "analysis_messages": true,
+          "formal_messages_same_decision": true,
+          "modes_labels": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "choice_valid_and_recorded": true,
+          "truth_and_scoring": true,
+          "call_ids": true
+        },
+        "call_ids": [
+          15,
+          16
+        ]
+      }
+    ],
+    "render_sha256": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true,
+      "16": true
+    }
+  },
+  "independent_environment_truths": {
+    "M1": true,
+    "M2": false,
+    "M3": false,
+    "M4": true
+  },
+  "state_facts": {
+    "S0_C_location": "林地",
+    "S0_A_location": "林地",
+    "S1_both_at_camp": true,
+    "S1_goal_delivered": 0,
+    "M2_pickup_success": false,
+    "M4_units_added": 1,
+    "M4_both_slots_released": true
+  },
+  "results": [
+    {
+      "case_id": "M1_affirm_first",
+      "question_id": "M1",
+      "order": "affirm_first",
+      "truth": true,
+      "choice": 1,
+      "answer": "陈述不符合环境规则",
+      "correct": false,
+      "call_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "case_id": "M1_deny_first",
+      "question_id": "M1",
+      "order": "deny_first",
+      "truth": true,
+      "choice": 0,
+      "answer": "陈述不符合环境规则",
+      "correct": false,
+      "call_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "M2_affirm_first",
+      "question_id": "M2",
+      "order": "affirm_first",
+      "truth": false,
+      "choice": 1,
+      "answer": "陈述不符合环境规则",
+      "correct": true,
+      "call_ids": [
+        5,
+        6
+      ]
+    },
+    {
+      "case_id": "M2_deny_first",
+      "question_id": "M2",
+      "order": "deny_first",
+      "truth": false,
+      "choice": 0,
+      "answer": "陈述不符合环境规则",
+      "correct": true,
+      "call_ids": [
+        7,
+        8
+      ]
+    },
+    {
+      "case_id": "M3_affirm_first",
+      "question_id": "M3",
+      "order": "affirm_first",
+      "truth": false,
+      "choice": 1,
+      "answer": "陈述不符合环境规则",
+      "correct": true,
+      "call_ids": [
+        9,
+        10
+      ]
+    },
+    {
+      "case_id": "M3_deny_first",
+      "question_id": "M3",
+      "order": "deny_first",
+      "truth": false,
+      "choice": 0,
+      "answer": "陈述不符合环境规则",
+      "correct": true,
+      "call_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "case_id": "M4_affirm_first",
+      "question_id": "M4",
+      "order": "affirm_first",
+      "truth": true,
+      "choice": 0,
+      "answer": "陈述符合环境规则",
+      "correct": true,
+      "call_ids": [
+        13,
+        14
+      ]
+    },
+    {
+      "case_id": "M4_deny_first",
+      "question_id": "M4",
+      "order": "deny_first",
+      "truth": true,
+      "choice": 1,
+      "answer": "陈述符合环境规则",
+      "correct": true,
+      "call_ids": [
+        15,
+        16
+      ]
+    }
+  ],
+  "order_comparison": [
+    {
+      "question_id": "M1",
+      "truth": true,
+      "both_orders_correct": false,
+      "answer_meaning_consistent": true,
+      "only_options_changed": true,
+      "choices": [
+        1,
+        0
+      ],
+      "meaning": "陈述不符合环境规则"
+    },
+    {
+      "question_id": "M2",
+      "truth": false,
+      "both_orders_correct": true,
+      "answer_meaning_consistent": true,
+      "only_options_changed": true,
+      "choices": [
+        1,
+        0
+      ],
+      "meaning": "陈述不符合环境规则"
+    },
+    {
+      "question_id": "M3",
+      "truth": false,
+      "both_orders_correct": true,
+      "answer_meaning_consistent": true,
+      "only_options_changed": true,
+      "choices": [
+        1,
+        0
+      ],
+      "meaning": "陈述不符合环境规则"
+    },
+    {
+      "question_id": "M4",
+      "truth": true,
+      "both_orders_correct": true,
+      "answer_meaning_consistent": true,
+      "only_options_changed": true,
+      "choices": [
+        0,
+        1
+      ],
+      "meaning": "陈述符合环境规则"
+    }
+  ],
+  "finish_reasons": {
+    "private_analysis": {
+      "stop": 8,
+      "length": 0
+    },
+    "action": {
+      "stop": 8,
+      "length": 0
+    }
+  },
+  "backend_stats": {
+    "calls": 16,
+    "load_seconds": 1.9096602910431102,
+    "inference_seconds": 24.674754167790525,
+    "generation_tokens_by_mode": {
+      "private_analysis": 688,
+      "action": 16
+    },
+    "max_prompt_tokens": 1679,
+    "peak_mlx_memory_gb": 10.319153786
+  },
+  "model_revision_metadata": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "audit_loaded_model_weights": false,
+  "audit_new_inference_calls": 0,
+  "model_weight_files_fully_hashed": false,
+  "evidence_boundaries": [
+    "M1 calls1/3 reject a valid one-step forest-to-camp movement despite the given complete three-site road rule; this is generated rule interpretation, not a proved internal mechanism.",
+    "M2 calls5/7 give correct formal denials while reasoning about a hypothetical successful solo pickup, so formal correctness does not establish correct recognition of the immediate pickup prohibition.",
+    "M3 reads current delivered=0 and current feedback; it is not a pure future-state prediction task.",
+    "All four question pairs preserve answer meaning across option order; this is observed in these cases, not a general absence of order effects.",
+    "There are four statements with two presentation orders, not eight independent cooperation episodes; no language-emergence inference follows."
+  ]
+}

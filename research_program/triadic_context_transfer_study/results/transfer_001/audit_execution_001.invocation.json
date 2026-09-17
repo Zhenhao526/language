@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/.venv/bin/python",
+    "-m",
+    "research_program.triadic_context_transfer_study.audit_execution",
+    "--run",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001",
+    "--out",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001"
+  ],
+  "cwd": "/Users/xia/Documents/ChatGPT/语言",
+  "started_at": "2026-09-15T19:19:46.080436+00:00",
+  "audit_source_sha256": "8f001dabd9508dc10d2be8a3bc26ea56cf1e4b1096e1e999e70c79b2073d58bc",
+  "launcher_pid": 63710,
+  "automatic_retry": false
+}

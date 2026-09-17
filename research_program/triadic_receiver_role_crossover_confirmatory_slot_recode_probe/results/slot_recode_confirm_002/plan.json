@@ -1,0 +1,42 @@
+{
+  "config": {},
+  "created_at": "2026-09-17T05:47:03.514786+00:00",
+  "inputs_sha256": "2ea7f9e1c1f35257d1ddabdb450c76f76a344837a832986fd6b1fbd86a9752c7",
+  "no_training": true,
+  "policy_blocks": 64,
+  "prepared_sha256": "1896a9e528d31b9c75c5329136b4d4cf2ba15a7c8c7cbbd98a1fc462c39e26ef",
+  "source_sha256": {
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "research_program/triadic_factorized_neutral_altpartner_study/design.py": "9b4284dc2cd2bdd95e65e6ee7787d583e23e55293c46d78e1bf728e41fd2dd16",
+    "research_program/triadic_factorized_neutral_altpartner_study/kernel.py": "7ae7498b46b311277587f0dcc935d0b0e7a6abfb9a83b61fc0e51205e439e9a5",
+    "research_program/triadic_factorized_neutral_altpartner_study/remap.py": "6551b0e72149c31a9a485a4d49b5d67ddbbf05ac45298e8803612633a866e2b6",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/__init__.py": "adcdc3e86dc7b903b1b75d704a84fabdf28d6241081846d2009127e4442f8d2d",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/aggregate.py": "03050bfe440c6c226cb8e1fc413f36559003065553ad2e5207acdf324111ff2c",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/audit.py": "aad0667766af704146a4e823d86f50a8197e27224224d44de43bc49f61798cb4",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/design.py": "50b098102b9b3b4f6a50dde2e1838a69ea746fd78695b4309d92c3f1f724cfd2",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/plan.md": "a68c0f3218cd2c978ec91f2b03b2dccca4b6b65399fbbfa3666f818b5f5f4ed0",
+    "research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/probe.py": "3f3d386bbcb369a5f62c0b8cf57746c7a8e485d417e234f0ca0c15497eb9c1f9",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/design.py": "632cf34c1e29023e7700258403a03ee0f80f0e87050b2926e9ab52b4f6208f7c",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/results/audit_role_crossover_confirm_001/verification.json": "39c1518c3a0486bfec1205eea269534b43abf33066d6130f62f8fab4a5b4cfa6",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/results/role_crossover_confirm_001/execution/results.json": "298cf7118cf9c52104275a92b9780092e9befd7b7198c8de5299a5925099a845",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/results/role_crossover_confirm_001/freeze.json": "e6a4826cae120d9623a6aa667fdcc1f45190e1a1d87eccc327040d97c4536473",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/results/role_crossover_confirm_001/plan.json": "dbf993c0861acbf1cb65552b212fad0a9fd9aab6edd12fe844004f7bad738a23",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/results/role_crossover_confirm_001/prepared.json": "41ef93694d19df097ceeb913afa49d95a5afedb42255f026e8981510921312fe",
+    "research_program/triadic_receiver_role_crossover_confirmatory_study/runner.py": "dbe5e6d47d094dd33081845512a51828c029dedbfb30bc5ea5ccb405321385bc",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763"
+  },
+  "status": "prepared_without_probe_forward",
+  "variants": [
+    "full",
+    "slot_0",
+    "slot_1",
+    "slot_2",
+    "slot_3",
+    "recode_add1",
+    "recode_xor4"
+  ]
+}

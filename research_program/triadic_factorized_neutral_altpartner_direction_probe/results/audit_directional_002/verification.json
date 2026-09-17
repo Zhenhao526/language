@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_direction_probe/results/directional_002",
+  "policy_rows": 64,
+  "case_rows": 4866048,
+  "natural_worlds": 3594240,
+  "model_forwards": 47093760,
+  "optimizer_updates": 0,
+  "max_abs_error": 0.0,
+  "sham_rows": 192,
+  "live_intervention_rows": 2457600,
+  "silent_intervention_rows": 0,
+  "posthoc": true,
+  "four_arm_grid": true,
+  "factorized_action_replayed": true,
+  "alternative_partner_cases": true
+}

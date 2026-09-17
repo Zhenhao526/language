@@ -1,0 +1,141 @@
+{
+  "generated": "2026-09-14T22:43:36.613838+08:00",
+  "pipeline_completed": true,
+  "main_audit": {
+    "core_current_snapshot_and_frozen_hashes_match_all_six": true,
+    "completed_episodes": 4,
+    "steps": 48,
+    "inference_calls": 1440,
+    "formal_symbol_messages": 576,
+    "message_length_range": [
+      1,
+      12
+    ],
+    "per_agent_step_symbols_range": [
+      7,
+      29
+    ],
+    "all_calls_valid_and_fresh_cache": true,
+    "invalid_characters_or_exceeded_symbol_budgets": 0,
+    "own_history_prompts_rebuilt_and_matched": 1440,
+    "formal_calls_with_only_same_decision_analysis": 720,
+    "analysis_calls_without_prior_analysis_messages": 720
+  },
+  "probe_audit": {
+    "calls": 24,
+    "original_prompt_seed_output_equal_to_recorded_calls": [
+      {
+        "condition": "delayed",
+        "agent": "A",
+        "stage": "analysis",
+        "matching_main_call": 475,
+        "matching_probe_call": 1
+      },
+      {
+        "condition": "delayed",
+        "agent": "A",
+        "stage": "formal",
+        "matching_main_call": 476,
+        "matching_probe_call": 2
+      },
+      {
+        "condition": "delayed",
+        "agent": "B",
+        "stage": "analysis",
+        "matching_main_call": 477,
+        "matching_probe_call": 3
+      },
+      {
+        "condition": "delayed",
+        "agent": "B",
+        "stage": "formal",
+        "matching_main_call": 478,
+        "matching_probe_call": 4
+      },
+      {
+        "condition": "delayed",
+        "agent": "C",
+        "stage": "analysis",
+        "matching_main_call": 479,
+        "matching_probe_call": 5
+      },
+      {
+        "condition": "delayed",
+        "agent": "C",
+        "stage": "formal",
+        "matching_main_call": 480,
+        "matching_probe_call": 6
+      },
+      {
+        "condition": "immediate",
+        "agent": "A",
+        "stage": "analysis",
+        "matching_main_call": 115,
+        "matching_probe_call": 13
+      },
+      {
+        "condition": "immediate",
+        "agent": "A",
+        "stage": "formal",
+        "matching_main_call": 116,
+        "matching_probe_call": 14
+      },
+      {
+        "condition": "immediate",
+        "agent": "B",
+        "stage": "analysis",
+        "matching_main_call": 117,
+        "matching_probe_call": 15
+      },
+      {
+        "condition": "immediate",
+        "agent": "B",
+        "stage": "formal",
+        "matching_main_call": 118,
+        "matching_probe_call": 16
+      },
+      {
+        "condition": "immediate",
+        "agent": "C",
+        "stage": "analysis",
+        "matching_main_call": 119,
+        "matching_probe_call": 17
+      },
+      {
+        "condition": "immediate",
+        "agent": "C",
+        "stage": "formal",
+        "matching_main_call": 120,
+        "matching_probe_call": 18
+      }
+    ],
+    "original_joint_actions_reproduced_in_both_cases": true,
+    "both_arms_match_recorded_seeds_and_temperatures": true
+  },
+  "software_tests": {
+    "command": "qwen_collect_pilot/.venv/bin/python -m pytest qwen_language_v2/tests -q",
+    "passed": 56,
+    "subtests_passed": 206,
+    "seconds": 0.5
+  },
+  "limits": [
+    "No complete weight-file rehash was performed in the final audit; see 最终可复现性审计.md.",
+    "Fresh-cache and valid-call fields were also checked against implementation in the separate reproducibility audit.",
+    "Message ablation retains previous messages and public metadata; it is not a semantic or full no-channel test."
+  ],
+  "pipeline_exit_code": 0,
+  "artifact_qa": {
+    "markdown_links_checked": 29,
+    "browser_widths": [
+      320,
+      736
+    ],
+    "unique_cases": 4,
+    "unique_steps": 48,
+    "before_after_states_checked": 192,
+    "browser_errors": 0,
+    "horizontal_overflow": false,
+    "replay_sha256": "75a350f9366b63fefbd9d2c91ae7a3f51e1108c7baf6f537f8a2064e9a0c7fa2",
+    "report": "../../review_outputs/symbolic_final/browser_verification.json"
+  }
+}

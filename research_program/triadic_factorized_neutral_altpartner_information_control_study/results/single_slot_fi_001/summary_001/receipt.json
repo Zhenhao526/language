@@ -1,0 +1,9 @@
+{
+  "audit_verification_sha256": "23a20fa9decd0e574408a495ad6be1875fe70b9377874a96b72ffdc2f14d9cd0",
+  "intervention_rows": 2304,
+  "optimizer_updates": 0,
+  "output_sha256": "66e64b68c68d7d54d291c4c2d8c88790a5a8b97613a35ea0e7819277fa7fa055",
+  "policy_blocks": 64,
+  "run_results_sha256": "d8d3a17f03324586595a6ea77393ef991a19d1df419fc441cea42b387d5c40a2",
+  "status": "passed"
+}

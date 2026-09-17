@@ -1,0 +1,29 @@
+{
+  "config": {},
+  "created_at": "2026-09-17T02:38:14.683066+00:00",
+  "inputs_sha256": "4778f59e87bdf5f5d362862c3ac95cd6a3cd3bf3d167c4ae3bb76e9ece009983",
+  "prepared_sha256": "c636a28cd02157c33f4a7637526a589c932b8a9b25f6c540b8f910c92103e9b4",
+  "source_sha256": {
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/__init__.py": "adcdc3e86dc7b903b1b75d704a84fabdf28d6241081846d2009127e4442f8d2d",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/aggregate.py": "aabe4728d28d23e653790c75b18e6cabcb57fffd5f5dd8175940691e1a1128cd",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/audit.py": "bf669b66c989c8675020af3497b8869af1bd92f2caaa5ba730879dc38e20e40c",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/design.py": "3f08a77a9320ee4044d6888d2cd77e6880c7020dad36e4992631e8a930ef75cd",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/plan.md": "a827b2073b5ab8d0af389572abf840c7d3a01e930c6b5dddeb8dae82065883e7",
+    "research_program/triadic_factorized_neutral_altpartner_semantic_transfer_probe/probe.py": "6b6cab8dd394ca507900dfcc59721742f29e9e35110b61c262d81edaaae692c7",
+    "research_program/triadic_factorized_neutral_altpartner_study/design.py": "9b4284dc2cd2bdd95e65e6ee7787d583e23e55293c46d78e1bf728e41fd2dd16",
+    "research_program/triadic_factorized_neutral_altpartner_study/kernel.py": "7ae7498b46b311277587f0dcc935d0b0e7a6abfb9a83b61fc0e51205e439e9a5",
+    "research_program/triadic_factorized_neutral_altpartner_study/remap.py": "6551b0e72149c31a9a485a4d49b5d67ddbbf05ac45298e8803612633a866e2b6",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/aggregation_altpair_001/results.json": "eb4999e5307f112b209037167ee753e69e463e0fb4480cb8934571515e22f696",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/freeze.json": "df6a4fa47b530edc4fa9a0fda6952de0788c83ed53b48f301dfe96216c732de3",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/plan.json": "9ee7d490d39d057c4d59cb1a6398f5d0e95b6d1ad990a01dec25220cc5ad33c8",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/prepared.json": "2aef668e0998de65ab37b8371e72510318ca391accaaa37d763d37e5e11fe4b1",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/audit_altpair_001/verification.json": "34b5728fb4bd686fade36de4c3e37d83c77bdb6bba611197282a7acf39964011",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763"
+  },
+  "status": "prepared_without_probe_forward"
+}

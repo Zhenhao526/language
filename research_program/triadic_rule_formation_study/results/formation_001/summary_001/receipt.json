@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T06:44:08.338215+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/plan.json": "b3ae053bca41e5acf60fa9108835cfe5bec85f2c6638cc48b2a7db9e5f00354f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/prepared.json": "92acde1b3e535990fdb120bb9dc19b1c5c2f6c7177d504182d2f6f687ffbe885",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/freeze.json": "6a26128c7854201e4398637193ec16940ffac8e615c321aa387e0b3cb405a7f2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/execution/results.json": "8b4c83b6eea39378e1e0983b0ed1cd9ef7ca6e633b74d0d774671fbd4654f8c7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/audit_execution_001/verification.json": "3f8e2a766ded94338781c20f84766a89f2de38a807ebc1fc801b363cfddac6d1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/test_summarize.py": "cd2842c98a3f7d51c47e25ffb509d55700aa3e427d45bc861ffa5114494b93d5"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/summary_001/summary.json": "01b54357029020c0d1f800270e74fb2a23b62eb982167d4630bed0ccbee8dcaf"
+  },
+  "primary_exact_match": true,
+  "counts": {
+    "independent_societies": 16,
+    "runs": 64,
+    "target_trajectory_records": 384,
+    "other_final_records": 192,
+    "actual_evaluations": 576,
+    "target_final_aliases": 64,
+    "message_snapshots": 384,
+    "adjacent_message_transitions": 320,
+    "panels_per_message_record": 6
+  },
+  "npz_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0,
+  "scope": {
+    "input": "Completed JSON only; no NPZ, checkpoint or model access.",
+    "raw": "All64 original runs and their complete saved records retained, including every message panel/background and full task/content/Q stratum.",
+    "primary": "Native-rule Q baseline-centered communication-by-rule DiD time AUC; raw/common-reciprocal/Qexcess/endpoints auxiliary.",
+    "inference": "One approximate t15 interval across16 paired initialization blocks; no world-level p-values or inferred effect threshold.",
+    "messages": "Six actor/window panels remain separate. Entropy/effective code count/ARI/raw changes describe natural packets,not meaning or language.",
+    "effective_mean": "Across-seed effective packet curve averages each seed conditional effective count; it is not2 raised to the across-seed mean entropy.",
+    "aliases": "Target final reuses existing6000 full evaluation,not an extra forward or independent sample."
+  }
+}

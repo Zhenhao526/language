@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "args": {
+    "controller": "script",
+    "scenario": "movement",
+    "seed": 101,
+    "steps": 160,
+    "food": 8,
+    "output_dir": null,
+    "device": "mps",
+    "policy_python": null,
+    "dry_run": false
+  },
+  "started_utc": "20260914T072056.284528Z",
+  "controller_label": "script_positive_control",
+  "training": false,
+  "policy_inputs": [],
+  "model_evidence": false,
+  "social_learning_started": false,
+  "reset_validated": true,
+  "termination": "step_budget",
+  "completed_steps": 160,
+  "elapsed_wall_seconds": 55.02119554200908
+}

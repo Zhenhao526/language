@@ -1,0 +1,8 @@
+{
+  "status": "launched_not_yet_completed",
+  "actual_launch_count": 1,
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_context_transfer_study.runner execute --out research_program/triadic_context_transfer_study/results/transfer_001",
+  "launched_at": "2026-09-15T18:56:56.241205+00:00",
+  "plan_sha256": "af051fa46aedb4653210c47587010d0b0e0e6d971a92f81bc61f2a98d96245c5",
+  "main_preflight_sha256": "3f7344d5f6e353b162a98e75544fef619258a42408bbc5c8e265a6e70c44dcc6"
+}

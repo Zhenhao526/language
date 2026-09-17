@@ -1,0 +1,131 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-16T22:45:11.211532+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "proposal_count": 16,
+    "intent_count": 2,
+    "actions_per_actor": 17,
+    "action_logits": 18,
+    "worker_count": 4,
+    "evaluation_batch_size": 8192,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704,
+      66705,
+      66706,
+      66707,
+      66708,
+      66709,
+      66710,
+      66711,
+      66712,
+      66713,
+      66714,
+      66715,
+      66716
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "payoffs": [
+      "altpair_factorized"
+    ],
+    "rules": [
+      "strict"
+    ],
+    "information": [
+      "FI"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "static_altpair_factorized_strict_FI_live",
+      "static_altpair_factorized_strict_FI_silent",
+      "rematched_altpair_factorized_strict_FI_live",
+      "rematched_altpair_factorized_strict_FI_silent"
+    ],
+    "partitions": [
+      "train",
+      "new_layouts"
+    ],
+    "task": "alternative_partner_coordination_with_explicit_neutral_action",
+    "training_objective": "mean_log_expected_reward_over_all_full_and_partial_legal_plans; sender_two_trajectory_LOO",
+    "observation": "FI_all_three_needs_and_public_layout; no_cross_agent_message_channel",
+    "action_factorization": "intent softmax [neutral, engage] plus proposal softmax [16 site-destination-partner choices]; proposal ignored when neutral",
+    "pairing": "same initial parameters, world uniforms, batch indices and message uniforms within each seed; rematched FI live/silent share permutation assignments",
+    "evaluation": "two-alternative-partner worlds on train layouts at six checkpoints; new layouts at final",
+    "primary": "FI_rematched_by_communication_interaction_on_target_pair_legal_rate_conditional_on_physical_execution_centered_time_AUC",
+    "selection": "fixed16 new seeds ×2 schedules ×2 channels ×6000 updates; no early stopping",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/__init__.py": "16bb5b4716fc6db19b9d13e3d4ec7a68f49f1d806221f0cedc2eec6fed399cea",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/design.py": "4b4ad8981feb54845d172748d8dbf0d739eaf555a50d48f80fe2fa2c50c63c23",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/kernel.py": "7ae7498b46b311277587f0dcc935d0b0e7a6abfb9a83b61fc0e51205e439e9a5",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/runner.py": "858aab2995f0b964c7fa54133987243365c5da538639638659071731661bd42a",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/remap.py": "054d362557d2c8ee01502b25cb16efdbd2da472886ef6dda78a534a909a53750",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/metrics.py": "cc1cba5da66070904b8e22ae459a1ea1cfd5bce1fe1dd49c78cb237009555e4e",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/plan.md": "b16d4bdd9459d3c5004602cdb6df5ff38633ab06529d54a318716ba329d6f11e",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/README.md": "231fce9e2ea91337e7279e99c9b50b7feee94f2ff8a865d3e9693632eaae3523",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/tests/test_design.py": "fb097cc2c55c3084fdc066758f733600603715a76decc5404bd0019f87604393",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "prepared_sha256": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}

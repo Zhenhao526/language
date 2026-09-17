@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "script_sha256": "630ce2367571957a1d5d06ca6d04db3b5ba0ac82fb315e964965e79f953681f0",
+  "outputs": {
+    "readout.json": "141ba722ebdd67e0da38e9f8e54c05de72e0871836a7e56375232742aff0e770",
+    "读数说明.md": "0bdbc15a48cc966ef3d3b5fba95bc2855f898ffa3f08dd02b4bf200f8849b6bb"
+  },
+  "neural_forwards": 0,
+  "training_updates": 0
+}

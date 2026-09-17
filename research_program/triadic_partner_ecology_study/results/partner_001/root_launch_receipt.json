@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-09-15T16:41:12.696671+00:00",
+  "action": "root launched the single frozen execution",
+  "session_id": 66092,
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_partner_ecology_study.runner execute --out research_program/triadic_partner_ecology_study/results/partner_001",
+  "status_at_recording": "running; not a completion receipt",
+  "plan_sha256": "1f21f685e763c63b69be3dc1dd4d223130a391847b8b5ee9921f4fb00612af8a",
+  "root_preflight_sha256": "957e095947933f8d09a2aef70ef42a9cf2fb69868a5ad2e98ac3a591f1bd1228",
+  "no_restart_or_extra_arms": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "input_seen_runs": 32,
+  "input_control_runs": 32,
+  "model_forwards": 0,
+  "output_results_sha256": "18d7a5bccf29e732c7a58f2b20a26505a122bfdb5154648b049f57602f42874b"
+}

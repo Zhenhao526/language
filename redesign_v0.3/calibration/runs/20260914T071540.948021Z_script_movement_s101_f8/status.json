@@ -1,0 +1,24 @@
+{
+  "status": "configuration_validated",
+  "args": {
+    "controller": "script",
+    "scenario": "movement",
+    "seed": 101,
+    "steps": 160,
+    "food": 8,
+    "output_dir": null,
+    "device": "mps",
+    "policy_python": null,
+    "dry_run": true
+  },
+  "started_utc": "20260914T071540.948021Z",
+  "controller_label": "script_positive_control",
+  "training": false,
+  "policy_inputs": [],
+  "model_evidence": false,
+  "social_learning_started": false,
+  "dry_run": true,
+  "behavior_evidence": false,
+  "termination": "dry_run_no_game",
+  "elapsed_wall_seconds": 0.9589482919545844
+}

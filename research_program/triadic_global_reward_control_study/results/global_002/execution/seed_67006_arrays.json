@@ -1,0 +1,28 @@
+{
+  "array_hashes": {
+    "PL": {
+      "train": {
+        "packed_states": "eee5f9d9735a0b0c4bef6e2fbc2533f79a376c217c68de6a4e34416b983fe874",
+        "native_rewards": "df158128588511452da494631d518c0994b3d3c13d1c46a5e933a32f9dbed05f",
+        "x_PL": "d8b9692c16673e2ba0165b891ec8f0d22342eef1946f041cd85e5c9edd89fc04"
+      },
+      "new_layouts": {
+        "packed_states": "ceeb6044baad73c4628a2b48a874f5a33ccf5927396e557cf42f1af77e3fcad2",
+        "native_rewards": "c73cdf992677bae0f1b823e2c4f4cf0901a324fbc4ae549f645830dd8f77f572",
+        "x_PL": "d017725dcb62f861b819827ea1a8e3d5ba4db7b544bea0dbb814931269cbe904"
+      }
+    },
+    "FI": {
+      "train": {
+        "packed_states": "eee5f9d9735a0b0c4bef6e2fbc2533f79a376c217c68de6a4e34416b983fe874",
+        "native_rewards": "df158128588511452da494631d518c0994b3d3c13d1c46a5e933a32f9dbed05f",
+        "x_FI": "4d6a527246654d4270f35f60d1f1a0af6a142aee9d0b5a7b51c0eb318afd27ba"
+      },
+      "new_layouts": {
+        "packed_states": "ceeb6044baad73c4628a2b48a874f5a33ccf5927396e557cf42f1af77e3fcad2",
+        "native_rewards": "c73cdf992677bae0f1b823e2c4f4cf0901a324fbc4ae549f645830dd8f77f572",
+        "x_FI": "c512b419d39b3c3a65b0b870a855e6e09dc5791b5c16294bbb085175c9226fcf"
+      }
+    }
+  }
+}

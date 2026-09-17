@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "created_at": "2026-09-15T19:37:13.607864+00:00",
+  "audit_passed": true,
+  "json_comparison_passed": true,
+  "unique_artifact_paths": 4773,
+  "receipts_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/verification.json": "39447f7ac1410bcbee0d518b62d84a74974350270e89ea2adecf6b72334197a8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_summary_comparison_001/verification.json": "d09204dab3cb497c7c95735671748f85befa267843e28ade3e55b9abcd7617b3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001.invocation.json": "e73725f05cb57fde81ae4bef227e4a53093b7719ab7e7bf7551cfee7fd3c1658",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001.terminal.json": "bb93018c814647c5ef58a07128491895a7db82b5d02617051ebee7299ea11ac7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001.console.txt": "53e0ad0e5594278d05360107fe19a30fd3985b45c0301014180185d613579ccb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_summary_comparison_001/独立数值交叉核验.md": "c7fdd539ba42dc538bf9d79d85199b2238f4fd802d7dd9dde55c4c45a7dbd3e5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-17T00:51:32.564407+00:00",
+  "files_sha256": {
+    "mass_shift_and_action_change.pdf": "717fc0b332706923249ebe5aa53ed009355c56c25e93f7af1e5d76be365eefb6",
+    "mass_shift_and_action_change.png": "5ccd4bb039f9f94b7444c51338245f1a0ca6e4bfffabfc0fb71ed292e89881a1",
+    "source_pull_by_axis.pdf": "e69b2f1f6d20e8c04f286a584cb92661b7b0f647455c29743a2fb64d880e7d79",
+    "source_pull_by_axis.png": "49861959a6bd8e00f8e80b76408949e47c1d0ab3394432318a63b760f722d8f9"
+  },
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "matplotlib_version": "3.11.2",
+  "neural_forward_calls": 0,
+  "optimizer_updates": 0,
+  "script_sha256": "c343cd623c1a4b6e268190ecd45cad5f1c140ef7d96203159a6bc2a5657c568c",
+  "status": "rendered_visual_reviewed",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/semantic_transfer_unique_001/summary_001/summary.json",
+  "summary_sha256": "cb417a7008dcd44dc396cb1456937a385ff1ba93a0809847c1bd4ff5bc6044d5",
+  "visual_review": "passed",
+  "visual_review_notes": "Both PNG figures inspected at high resolution; labels, error bars, zero baselines and legends are readable with no clipping or overlap."
+}

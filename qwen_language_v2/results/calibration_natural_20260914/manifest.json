@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "phase": "calibration",
+  "conditions": [
+    "natural"
+  ],
+  "groups": [
+    17
+  ],
+  "episodes_per_group": 1,
+  "scenarios": [
+    {
+      "episode": 1,
+      "seed": 6101,
+      "variant": 0
+    }
+  ],
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "alphabet": "@#%&*+=~",
+  "max_message_symbols": 32,
+  "per_agent_step_symbols": 64,
+  "windows": 4,
+  "private_analysis_max_tokens": 256,
+  "private_analysis_temperature": 0,
+  "message_temperature": 0.7,
+  "action_temperature": 0,
+  "natural_message_max_tokens": 96,
+  "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+  "controls": "independent histories; natural language is not bandwidth matched",
+  "created": "2026-09-14T17:48:50.807003",
+  "preregistered_order": "group then episode then alternating condition order",
+  "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+}

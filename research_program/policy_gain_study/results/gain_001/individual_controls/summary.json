@@ -1,0 +1,171 @@
+{
+  "complete": true,
+  "passed": true,
+  "runs": 4,
+  "results": [
+    {
+      "complete": true,
+      "passed": true,
+      "seed": 28101,
+      "representation": "identity",
+      "scores": {
+        "normal": {
+          "per_agent": [
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            },
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            }
+          ],
+          "mean_accuracy": 1.0
+        },
+        "erase_memory": {
+          "per_agent": [
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            },
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            }
+          ],
+          "mean_accuracy": 0.16666666666666666
+        }
+      },
+      "frozen_unused_parameters_verified": true,
+      "seconds": 9.991106791072525,
+      "scope": "Independent diagnostic copies; no diagnostic encoder or head weights enter social learning"
+    },
+    {
+      "complete": true,
+      "passed": true,
+      "seed": 28102,
+      "representation": "identity",
+      "scores": {
+        "normal": {
+          "per_agent": [
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            },
+            {
+              "correct": 9574,
+              "n": 9600,
+              "accuracy": 0.9972916666666667
+            }
+          ],
+          "mean_accuracy": 0.9986458333333333
+        },
+        "erase_memory": {
+          "per_agent": [
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            },
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            }
+          ],
+          "mean_accuracy": 0.16666666666666666
+        }
+      },
+      "frozen_unused_parameters_verified": true,
+      "seconds": 10.243861874914728,
+      "scope": "Independent diagnostic copies; no diagnostic encoder or head weights enter social learning"
+    },
+    {
+      "complete": true,
+      "passed": true,
+      "seed": 28103,
+      "representation": "identity",
+      "scores": {
+        "normal": {
+          "per_agent": [
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            },
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            }
+          ],
+          "mean_accuracy": 1.0
+        },
+        "erase_memory": {
+          "per_agent": [
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            },
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            }
+          ],
+          "mean_accuracy": 0.16666666666666666
+        }
+      },
+      "frozen_unused_parameters_verified": true,
+      "seconds": 10.170600584009662,
+      "scope": "Independent diagnostic copies; no diagnostic encoder or head weights enter social learning"
+    },
+    {
+      "complete": true,
+      "passed": true,
+      "seed": 28104,
+      "representation": "identity",
+      "scores": {
+        "normal": {
+          "per_agent": [
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            },
+            {
+              "correct": 9600,
+              "n": 9600,
+              "accuracy": 1.0
+            }
+          ],
+          "mean_accuracy": 1.0
+        },
+        "erase_memory": {
+          "per_agent": [
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            },
+            {
+              "correct": 1600,
+              "n": 9600,
+              "accuracy": 0.16666666666666666
+            }
+          ],
+          "mean_accuracy": 0.16666666666666666
+        }
+      },
+      "frozen_unused_parameters_verified": true,
+      "seconds": 10.242945582955144,
+      "scope": "Independent diagnostic copies; no diagnostic encoder or head weights enter social learning"
+    }
+  ]
+}

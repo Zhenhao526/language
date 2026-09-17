@@ -1,0 +1,10 @@
+{
+  "model_forward_samples": 20477952,
+  "optimizer_updates": 0,
+  "outputs": {
+    "summary.json": "94870529ca64e30b3ac3bcf7354a6412e3a0961ca47809b6ba70bd081b05e163",
+    "汇总表.md": "30badd12b1ad217de19ad4d9cc35049a533c0aaf97c0f81fbb2645fd55166e43"
+  },
+  "script_sha256": "48e7eda70fc7139bb1e05048cdc5cc978fccab452f31473ba87882fb33f61e6b",
+  "status": "completed"
+}

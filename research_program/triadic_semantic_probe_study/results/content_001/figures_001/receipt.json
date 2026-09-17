@@ -1,0 +1,41 @@
+{
+  "status": "plotted_requires_visual_review",
+  "created_at": "2026-09-15T17:31:45.937306+00:00",
+  "python": "3.12.14",
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.5.3",
+  "plot_source_sha256": "b445873bd02e87a2ea7ace52b0b5d55d3a83fc5d38eb7ef5607a7246dbfc4f8a",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/summary_001/summary.json",
+  "summary_sha256": "b87b506dc3bbc2db59af29ea9eb90536c127e60517dac4e0a0f54be57819999d",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "files": [
+    {
+      "path": "natural_content_trajectory.png",
+      "sha256": "4db2f83f76f6c4dd15569f06f9275a6a9a3bd6eb8b110c18dc53d2ecb34c865c"
+    },
+    {
+      "path": "natural_content_trajectory.pdf",
+      "sha256": "ce4142ec0563b790aa6287cc7c778851c13554575007e3c31e07d36ec635d118"
+    },
+    {
+      "path": "endpoint_content_all_seeds.png",
+      "sha256": "c60aa7b88a9e7cb424166f087882bc70c61f0ebb0cb43ca8be9a85d0ab16d4b1"
+    },
+    {
+      "path": "endpoint_content_all_seeds.pdf",
+      "sha256": "0ca499e20d9940584c527f0d923ad17f944bc7edf6976dfb8d0be1e996f06f93"
+    },
+    {
+      "path": "remote_transfer_all_windows.png",
+      "sha256": "5aa61be83f2f0e806a6591572fc0e0574815201356fe07e53fcdd2b309134651"
+    },
+    {
+      "path": "remote_transfer_all_windows.pdf",
+      "sha256": "3d51303da9904a731135240ab373dfcfbffa44910ce54a19fafafec4c8c94e83"
+    }
+  ],
+  "plot_data_sha256": "4ba28e751a878a7ad3168d910f4d9aae5bcf92a81a9ca17c36f6c29891578014",
+  "neural_forwards": 0,
+  "training": 0
+}

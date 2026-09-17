@@ -1,0 +1,14 @@
+{
+  "status": "generated",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/recode_mask_fi_001",
+  "source_results_sha256": "ae1302ca5b5190bb0afd1b6a4d36677dc6c3bfce42f53ff3113a69e8e3110928",
+  "png": [
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/recode_mask_fi_001/figures_001/recode_mask_effects.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/recode_mask_fi_001/figures_001/sender_symbol_effects.png"
+  ],
+  "pdf": [
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/recode_mask_fi_001/figures_001/recode_mask_effects.pdf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/recode_mask_fi_001/figures_001/sender_symbol_effects.pdf"
+  ],
+  "visual_review": "passed"
+}

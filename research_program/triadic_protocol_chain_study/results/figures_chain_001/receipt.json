@@ -1,0 +1,12 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_protocol_chain_study/results/chain_001",
+  "figures": [
+    "absolute_q_by_generation.png",
+    "live_retention.png",
+    "q_gain_by_generation.png",
+    "q_gain_trajectories.png"
+  ],
+  "review_notes": "All four PNGs rendered successfully; labels, legends, error bands and axes are legible."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "revision_complete_author_visual_inspection_passed",
+  "at": "2026-09-16T03:52:33.440987+00:00",
+  "scope": "Plot annotation only; no policy, runner, data, result, or scientific metric changes.",
+  "change": "Place every primary difference label, including the negative seed 57103 value, 7 points to the right of its marker; apply the same convention to the mean.",
+  "original_outputs_preserved": true,
+  "old_source_sha256": "e66fb93e3280ed6cc0534240abc0b24d2df02e53490746b36d146d708f197fa4",
+  "new_source_sha256": "a95ac40fb8e19057cd39b772a8d6963bf2569ae449bf13ae7653a3be066ac395",
+  "old_figure_receipt_sha256": "8f5f8fa71191133c243de5214f1d301f25be41f173d9095d1ad63a7ec947bf0d",
+  "new_figure_receipt_sha256": "742a5ef8121b1bf52b38c6f938d55e063feb2d27b62ae384d66e2866ee18500c",
+  "source_result_sha256": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+  "figure_data_sha256": "e874dd72740e525d7e0128325f4a2363110a16e778bf38e399c7144a84a3941c",
+  "figure_data_byte_identical": true,
+  "ast_parse_passed": true,
+  "generation": {
+    "exit_code": 0,
+    "tool_chunk_id": "7711a1",
+    "runtime": "research_program/.plotting_venv/bin/python",
+    "attempts": 1,
+    "failures": 0
+  },
+  "author_visual_inspection": {
+    "performed": true,
+    "method": "tools.view_image, all three generated PNG files",
+    "files": {
+      "02_primary_and_cross_settlement.png": "2b559d4e08b65ea5cfae8b2bcf16b7ebeaa5df05dc8fbc7bce40fa4c380b8e1d",
+      "01_execution_ability_paired.png": "fece3f41fe7d6749157e1f1fd036ec40f8895de59609cdd9f68e47bd6f74568e",
+      "03_monitor_execution_ability.png": "5b0aaf97c2fae60ebae36eb2e16829d2dce830348d52363ce3b6d7c334beed97"
+    },
+    "findings": [
+      "Figure 2: the -0.82 label for seed 57103 sits inside the left panel and no longer overlaps the seed text beside the y axis.",
+      "Figure 1: all four paired seeds, the 0-100 axis and the fixed-pair reference remain visible.",
+      "Figure 3: eight panels and all six monitoring points remain visible; the monitor and full-endpoint denominators are stated."
+    ],
+    "root_independent_visual_inspection": "pending; this receipt covers only the plotting author inspection"
+  },
+  "additional_model_forward_samples": 0,
+  "training_updates": 0,
+  "audit_status": "Not asserted; this work reads aggregate results for plotting and does not replace the independent experiment audit."
+}

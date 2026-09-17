@@ -1,0 +1,10 @@
+{
+  "smoke": "你好",
+  "calibration": {
+    "n": 16,
+    "A": 8,
+    "B": 10,
+    "overall": 5,
+    "success_rate": 0.3125
+  }
+}

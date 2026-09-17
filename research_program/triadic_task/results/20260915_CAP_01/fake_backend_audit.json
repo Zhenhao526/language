@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "real_model_calls": 0,
+  "simulated_calls": 216,
+  "decisions": 108,
+  "unique_decision_seeds": 108,
+  "analysis_and_formal_share_seed": true,
+  "trials": 12,
+  "windows_per_trial": 2,
+  "all_failures_retained": true,
+  "same_window_outputs_hidden": true,
+  "current_actions_hidden_until_settlement": true,
+  "group_histories_isolated": true,
+  "within_group_history_lengths": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "prepared_inputs_unmodified": true,
+  "first_prompts_match": true
+}

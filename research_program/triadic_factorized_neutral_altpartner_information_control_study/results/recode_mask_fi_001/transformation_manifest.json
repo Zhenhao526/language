@@ -1,0 +1,108 @@
+{
+  "baseline_scope": "same final checkpoint and same new-layout worlds; natural baseline is the audited FI-001 final result",
+  "controls": "own/silent rows are route-invariant no-op aliases because cross-agent payloads and visibility bits are absent by construction",
+  "definitions": {
+    "cross_payload_zero": "set selected sender's four one-hot payloads to zero for cross-viewers while retaining cross visibility bits",
+    "cross_visibility_zero": "retain selected sender payload for cross-viewers while clearing its three cross visibility bits",
+    "perm_00": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "perm_01": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "perm_02": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "perm_03": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "perm_04": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "perm_05": "replace selected sender packet [x0,x1,x2,x3] by pi[x0],pi[x1],pi[x2],pi[x3] for cross-viewers; self-view remains natural",
+    "position_reverse": "replace selected sender packet [x0,x1,x2,x3] by [x3,x2,x1,x0] for cross-viewers; self-view remains natural",
+    "position_rotation": "replace selected sender packet [x0,x1,x2,x3] by [x1,x2,x3,x0] for cross-viewers; self-view remains natural"
+  },
+  "intervention_scope": "first-window selected-sender packet only; recompute second-window messages and action greedily",
+  "no_model_calls": true,
+  "no_training": true,
+  "position_orders": {
+    "position_reverse": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "position_rotation": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "schema": "triadic_fi_recode_mask_manifest_v1",
+  "symbol_permutations": {
+    "perm_00": [
+      6,
+      7,
+      1,
+      0,
+      4,
+      5,
+      3,
+      2
+    ],
+    "perm_01": [
+      4,
+      1,
+      3,
+      2,
+      6,
+      5,
+      7,
+      0
+    ],
+    "perm_02": [
+      4,
+      3,
+      2,
+      6,
+      1,
+      5,
+      7,
+      0
+    ],
+    "perm_03": [
+      2,
+      0,
+      4,
+      7,
+      3,
+      5,
+      1,
+      6
+    ],
+    "perm_04": [
+      7,
+      2,
+      6,
+      4,
+      0,
+      5,
+      3,
+      1
+    ],
+    "perm_05": [
+      2,
+      3,
+      1,
+      7,
+      0,
+      6,
+      5,
+      4
+    ]
+  },
+  "transforms": [
+    "perm_00",
+    "perm_01",
+    "perm_02",
+    "perm_03",
+    "perm_04",
+    "perm_05",
+    "position_rotation",
+    "position_reverse",
+    "cross_payload_zero",
+    "cross_visibility_zero"
+  ]
+}

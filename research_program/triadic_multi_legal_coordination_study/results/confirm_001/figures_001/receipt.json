@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_coordination_study/results/confirm_001",
+  "figures": [
+    "multi_legal_seed_forest.png",
+    "multi_legal_trajectories.png",
+    "multi_legal_endpoint.png"
+  ],
+  "visual_review_note": "All three PNGs were inspected. English labels, legends, confidence bands, and zero/reference lines are legible."
+}

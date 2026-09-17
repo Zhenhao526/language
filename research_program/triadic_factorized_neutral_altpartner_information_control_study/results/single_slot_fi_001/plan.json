@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-09-17T00:18:32.752938+00:00",
+  "manifest_sha256": "e11efad395b8ffe5babb9fad1d1b5d3e54af13d04242a3e20e7ba08360eda620",
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "prepared_sha256": "97a1d8e45a6f4795bf245f700b1eecf66fab237f350f52f9f906fd3d0b3193ec",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_sha256": {
+    "execution/status.json": "29f86559fd28586bfb766b13602758cc89a7965e9d00dffca1e8d78fc650b2bb",
+    "freeze.json": "9eb6719fbc0379f8faa2c2d5edd1bd2e168d8d68648a6e9525d4fef872c8066c",
+    "prepared.json": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077"
+  },
+  "status": "prepared_without_policy_reads",
+  "transforms": [
+    "slot_payload_zero_0",
+    "slot_payload_zero_1",
+    "slot_payload_zero_2",
+    "slot_payload_zero_3",
+    "slot_symbol_shift_0",
+    "slot_symbol_shift_1",
+    "slot_symbol_shift_2",
+    "slot_symbol_shift_3",
+    "slot_symbol_xor4_0",
+    "slot_symbol_xor4_1",
+    "slot_symbol_xor4_2",
+    "slot_symbol_xor4_3"
+  ]
+}

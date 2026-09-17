@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_message_locality_probe/results/locality_001",
+  "policy_rows": 64,
+  "modes": 8,
+  "rows": 512,
+  "evaluations": 512,
+  "worlds": 28753920,
+  "model_forwards": 258785280,
+  "optimizer_updates": 0,
+  "checkpoint_hashes_checked": 64,
+  "rows_replayed": 512,
+  "max_abs_error": 0.0,
+  "route_modes": [
+    "natural",
+    "cross_closed",
+    "symbol_permutation",
+    "position_rotation",
+    "position_reverse",
+    "mask_sender_A",
+    "mask_sender_B",
+    "mask_sender_C"
+  ],
+  "first_window_recomputed": true,
+  "second_window_recomputed": true,
+  "intervention": "self payload is retained; transforms and masks affect only cross-agent payload; cross_closed zeros all visibility bits"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "args": {
+    "controller": "vpt",
+    "scenario": "movement",
+    "seed": 101,
+    "steps": 1200,
+    "food": 8,
+    "output_dir": null,
+    "device": "mps",
+    "policy_python": null,
+    "dry_run": false
+  },
+  "started_utc": "20260914T072431.678032Z",
+  "controller_label": "vpt",
+  "training": false,
+  "policy_inputs": [
+    "pov"
+  ],
+  "model_evidence": true,
+  "social_learning_started": false,
+  "reset_validated": true,
+  "termination": "left_calibrated_arena",
+  "completed_steps": 204,
+  "elapsed_wall_seconds": 60.52265704103047
+}

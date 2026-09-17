@@ -1,0 +1,27 @@
+{
+  "endpoint_worlds": 56160,
+  "manifest_sha256": "e11efad395b8ffe5babb9fad1d1b5d3e54af13d04242a3e20e7ba08360eda620",
+  "no_external_model": true,
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "policy_grid": "16 seeds × 2 schedules × 2 trained channels × 3 senders × 12 slot transforms",
+  "schema": "triadic_fi_single_slot_probe_v1",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001",
+  "source_execution_status_sha256": "29f86559fd28586bfb766b13602758cc89a7965e9d00dffca1e8d78fc650b2bb",
+  "source_freeze_sha256": "9eb6719fbc0379f8faa2c2d5edd1bd2e168d8d68648a6e9525d4fef872c8066c",
+  "source_prepared_sha256": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077",
+  "transforms": [
+    "slot_payload_zero_0",
+    "slot_payload_zero_1",
+    "slot_payload_zero_2",
+    "slot_payload_zero_3",
+    "slot_symbol_shift_0",
+    "slot_symbol_shift_1",
+    "slot_symbol_shift_2",
+    "slot_symbol_shift_3",
+    "slot_symbol_xor4_0",
+    "slot_symbol_xor4_1",
+    "slot_symbol_xor4_2",
+    "slot_symbol_xor4_3"
+  ]
+}

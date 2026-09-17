@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "backend": {
+    "calls": 360,
+    "load_seconds": 1.4130381669965573,
+    "inference_seconds": 2889.834806363622,
+    "generation_tokens_by_mode": {
+      "private_analysis": 16784,
+      "natural_message": 5918,
+      "action": 72
+    },
+    "max_prompt_tokens": 10901,
+    "peak_mlx_memory_gb": 10.821022344
+  }
+}

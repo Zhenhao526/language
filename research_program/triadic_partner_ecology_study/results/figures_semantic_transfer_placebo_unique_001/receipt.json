@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-17T01:05:08.182144+00:00",
+  "files_sha256": {
+    "aligned_minus_placebo_by_axis.pdf": "0dee20f458e44c21c6bfb36ca98ee986e9f271f0e4147d3c3d9007dd553d9bba",
+    "aligned_minus_placebo_by_axis.png": "deb7bb24331d651765db0e84f4435ef980f5423697e71c8f92218e048d3cfd55",
+    "aligned_vs_placebo_source_pull.pdf": "fb150de1cc85997cd9ee89441c6801165389f719317513da79e341d2f27c0c38",
+    "aligned_vs_placebo_source_pull.png": "14f77417fca78f8871ae47fb1c19127be77b9892df6791173c46f95a3d5d6c57"
+  },
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "matplotlib_version": "3.11.2",
+  "neural_forward_calls": 0,
+  "optimizer_updates": 0,
+  "script_sha256": "d1a76c9dfd08813dfa59f6b9fe95b001e0f308c49e1c6809f3a736d88baa3ec4",
+  "status": "rendered_visual_reviewed",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/semantic_transfer_placebo_unique_001/summary_001/summary.json",
+  "summary_sha256": "00dd82a405d35e9fbdc2a3952ca660abfc5661ea01a453fe7ade4c6c601780a2",
+  "visual_review": "passed",
+  "visual_review_notes": "Both PNG figures inspected at high resolution; grouped bars, error bars, zero baselines, legends and labels are readable with no clipping or overlap."
+}

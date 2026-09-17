@@ -1,0 +1,5 @@
+{
+  "status": "invalidated",
+  "reason": "worker evaluation completed but result assembly failed because the summary helper referenced runner.metrics; no result was released and this directory is retained only for provenance.",
+  "optimizer_updates": 0
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_holdout_confirmation_study/results/confirm_001",
+  "figures": [
+    "partner_holdout_trajectories.png",
+    "partner_holdout_seed_forest.png",
+    "partner_holdout_endpoint.png"
+  ],
+  "visual_review_note": "All three PNGs were inspected. English labels render without missing-glyph warnings; axes, legends, confidence bands, and zero/reference lines are legible."
+}

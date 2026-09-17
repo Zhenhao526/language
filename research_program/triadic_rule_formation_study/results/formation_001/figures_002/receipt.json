@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T06:46:30.888005+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/summary_001/summary.json": "01b54357029020c0d1f800270e74fb2a23b62eb982167d4630bed0ccbee8dcaf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/summary_001/receipt.json": "d25c7c0dae3271f9e855db08af42334120d4858dc94a874608288a54d4f6b6d4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/plot_results.py": "3e48d21faffb9125171fa5725356fa8468abeebea9171cd2467cd70b4f65f644",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/summarize.py": "410207746a88ac0bec5946783285d32615b4ca5911d424c60aa836b1326300b5"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_002/plot_data.json": "de2dae175e4d68cef71b5040bbb86069f007eebba282879a54c8850a171a42b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_002/01_formation_trajectory.png": "e3c71c531145ddfacf5d1eb3fcdbcc56c57f9670c7779ee47eb29aae646c5899",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_002/01_formation_trajectory.pdf": "04381171a3f0cb6c02103340d4a877f703b43d95dde08cd8844cff92566e9ee7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_002/02_message_entropy.png": "dc0eca1ccbf60c7eb9007293874ca1b5e99d0312b10b6b98a48462a186993231",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_formation_study/results/formation_001/figures_002/02_message_entropy.pdf": "c1a5180016c0a3237fa818b23f27f549673a52f25bbb72e1f0ab48cb1bec0984"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0,
+  "scope": "Two predetermined static figures from completed JSON. No fitted curves,world-level intervals,posthoc seed selection or semantic score.",
+  "visual_review": "Passed actual inspection of both PNGs. The entropy figure uses a shared y-axis sized from all six panels; PDF files use the same figure objects but were not separately rasterized."
+}

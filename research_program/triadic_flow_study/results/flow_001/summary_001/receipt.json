@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T05:35:34.224629+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/plan.json": "61a8e7ceacb9ab2aec4f3b20fc2c7b8988a29dd1da9c83a94baae5ddce31c544",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/prepared.json": "ce64ea6ec65fbbf148def9b47b28202bf2585992787123d8c841e325030dfff7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/freeze.json": "5c2fff591e9f8e56f5db101b3aaa1f3801d47478e5623b17f64d8b20a6fa7dff",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/execution/results.json": "e9b5f078c185948126ba446d5d04eaaf71d293544216ce3a9a54929d5d943cc1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/audit_execution_001/verification.json": "3562cf004a6b03494b9ad9a1a547c0499ffa25d3706c8cd1a6ddc37237af50dc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/summarize.py": "3a0042bb6bd5db60e3e5d988890580dda36b477525a11e14a604c651bde5b09a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/test_summarize.py": "50e4b2c72d982a16a3e7aff224a0da8d866a2ba9b73237ed5b71e9e3b6e8aa88"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/summary.json": "99e45d8baebc0d80e7ac66e4510b9d7287cd2a0bd96b19f50e5b0e2f7fa0014f"
+  },
+  "counts": {
+    "independent_societies": 4,
+    "policy_states": 4,
+    "partition_records": 16,
+    "seed_partition_arms": 64,
+    "seed_partition_contrasts": 80,
+    "response_types": 10,
+    "seed_partition_response_strata": 1440,
+    "flow_rows": 8073216,
+    "sham_rows": 2018304
+  },
+  "primary_exact_match": true,
+  "npz_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "scope": {
+    "input": "Completed main JSON plus plan/prepared/freeze and passed audit JSON only. No array or checkpoint files read.",
+    "validation": "Stored arithmetic, response axes, full grid, exact main primary and source hashes; independent audit handles model/NPZ replay.",
+    "primary": "Case-weighted original-world conditional exact full-success probability S, I_given_O0, complete double holdout; the other responses never replace it.",
+    "S": "Conditional on each intervention cell greedy messages, integrates all action proposals; unmatched third actor integrates to one.",
+    "weights": "Paired within world before means; contexts/endpoints, backgrounds, within-stratum groups, nine strata and four societies have prescribed weights.",
+    "natural_reference": "S00 uses repeated case weights; it is not the old uniform full-world natural success rate.",
+    "semantic": "Six proposal probability distributions retain wait; actors are focal/u/v, self-partner mass zero. Not semantic correctness or word meaning.",
+    "symbols": "Changed W1 symbols count delivered directed positions; outgoing duplicates the same packet on two edges. Not comparable intervention dose or a divisor for effects.",
+    "physical_summary": "Stored flow.physical_summary is pooled over all sixteen cells, including all four arms; it is not an arm-specific greedy contrast or uniform native-world score.",
+    "units": "Probabilities and signed probability differences remain on their original scale; plotted probability levels use percent, differences use percentage points.",
+    "interpretation": "Intervention consequences locate functional paths; I/O effects do not identify centralized control, demand semantics or language formation."
+  }
+}

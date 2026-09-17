@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_runs": 128,
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "post_run_source_edit_note": "After execution, metrics.py was minimally repaired so the JSON-only reducer reads each trajectory row's target_trajectory field. This edit changed aggregation compatibility only; it did not change training, checkpoints, model parameters, or the pre-frozen plan.",
+  "output_results_sha256": "f2ed1d78ae6e52596b159a7200f936005ae1014a392c07f3e0c15b66b876c6e5"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "unique_session_id": 85126,
+  "exit_code": 0,
+  "command": "research_program/.plotting_venv/bin/python -m research_program.triadic_action_dependency_study.plot_results --summary research_program/triadic_action_dependency_study/results/context_001/summary_001/summary.json --out research_program/triadic_action_dependency_study/results/context_001/figures_001",
+  "directory_created_at": "2026-09-15T18:23:32.613955+00:00",
+  "completion_at_from_plot_receipt": "2026-09-15T18:23:33.759702+00:00",
+  "timestamp_scope": "Directory creation is an artifact timestamp, not asserted exact process launch time",
+  "receipt_recorded_at": "2026-09-15T18:25:12.490345+00:00",
+  "plot_receipt_sha256": "d6eda22fb9ac4d07525fd821b1fd460d2a5124cfed307fe1cf0997c05313a161",
+  "visual_review_sha256": "df75a6b3b8a2465cc3df87d5aa0faa18b1e0d10b8d038d184286d185855b8c15",
+  "neural_forward_calls": 0,
+  "automatic_retry": false
+}

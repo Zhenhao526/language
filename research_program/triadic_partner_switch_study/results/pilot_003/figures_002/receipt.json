@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-16T14:14:14.175829+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/plot_results.py": "897e75c13f6821078adf0d5672b709a77b198a297bc1f7773a8c40ea88f8d4c5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/summary_001/summary.json": "e68b8113804a96a4b1ca715e055cabb80e5167cfe7518159c1e462e16b049657"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0,
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/01_partner_switch_trajectory.pdf": "66ddd07e59463a9c1eff88b94aaee87d0c43944708f3ce57009974275d4cfdeb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/01_partner_switch_trajectory.png": "0a0e27c07c29e7e5a3fb54e2b7a78261cb842e772e985626b221c0d5c9ec722b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/02_partner_switch_interaction.pdf": "92f7f2354c2b9bd6dd4019463d4fdd366fa292bc7115a182f3ba3482afaf705e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/02_partner_switch_interaction.png": "219eb06fed2699ddc209bf6822559d604ed6f95bde246116e6775800e12f568f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/03_partner_switch_primary.pdf": "ac9cc5bb260dc858cc9033918dd5f9e29e6b34f25a316ec3b6b84478202c9d8c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/03_partner_switch_primary.png": "9b9777d07042277e095e8ab98a127b09c42cbf585a66c0d792b1239df7b5d58c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_002/plot_data.json": "f336980de562146f79eaef5643a74e6225dba70878aa072dd26b626ca6cd15f0"
+  },
+  "status": "passed",
+  "visual_review": "Passed high-detail inspection of all three PNG figures; revised trajectory y-axis is fixed at 0–100% so reciprocal curves are not clipped."
+}

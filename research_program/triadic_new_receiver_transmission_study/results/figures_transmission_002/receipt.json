@@ -1,0 +1,11 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "execution/results.json",
+  "figures": [
+    "endpoint_component_gains.png",
+    "q_final_gain_by_seed.png",
+    "q_live_minus_silent_trajectories.png"
+  ],
+  "notes": "All three PNGs viewed at high detail; labels, axes, confidence bands, and bars are readable."
+}

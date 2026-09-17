@@ -1,0 +1,4156 @@
+{
+  "audit_status": "passed",
+  "budget": {
+    "channels": 2,
+    "checkpoints": 768,
+    "evaluation_files": 1152,
+    "evaluation_forward_module_samples": 2937212928,
+    "evaluation_worlds": 326356992,
+    "independent_seed_blocks": 16,
+    "message_trajectories": 393216000,
+    "other_final_files": 384,
+    "payoffs": 2,
+    "rules": 2,
+    "runs": 128,
+    "target_trajectory_files": 768,
+    "target_trajectory_worlds": 272719872,
+    "total_forward_module_samples": 6476156928,
+    "training_forward_module_samples": 3538944000,
+    "training_updates": 768000,
+    "training_world_samples": 196608000
+  },
+  "counts": {
+    "evaluations": 1152,
+    "independent_seeds": 16,
+    "other_final_records": 384,
+    "runs": 128,
+    "trajectory_records": 768,
+    "worlds": 326356992
+  },
+  "endpoint_summaries": [
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.18871865909252164,
+      "executed_partner_correct_rate": 0.18871865909252164,
+      "full_success_rate": 0.13776862051227473,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.24590639190435645,
+      "partition": "train",
+      "payoff": "partial",
+      "physical_execution_rate": 0.41061300464736766,
+      "physical_pair_rate": 0.41061300464736766,
+      "reward_mean": 0.2524094639119483,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.16662864963503649,
+      "executed_partner_correct_rate": 0.16662864963503649,
+      "full_success_rate": 0.03835742486708119,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.08680097943137785,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.451134209977922,
+      "physical_pair_rate": 0.451134209977922,
+      "reward_mean": 0.15029716646390917,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.19342256678373776,
+      "executed_partner_correct_rate": 0.19342256678373776,
+      "full_success_rate": 0.04805153123669646,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.10506548664325244,
+      "partition": "heldout_layout",
+      "payoff": "partial",
+      "physical_execution_rate": 0.4901961273414219,
+      "physical_pair_rate": 0.4901961273414219,
+      "reward_mean": 0.15715962909748826,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.18823922005947555,
+      "executed_partner_correct_rate": 0.18823922005947555,
+      "full_success_rate": 0.04921779957420924,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.15638939578264394,
+      "partition": "heldout_both",
+      "payoff": "partial",
+      "physical_execution_rate": 0.5110919969924304,
+      "physical_pair_rate": 0.5110919969924304,
+      "reward_mean": 0.16769814265679914,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.3333333333333333,
+      "executed_partner_correct_rate": 0.3333333333333333,
+      "full_success_rate": 0.2782550420391656,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.6289705504115226,
+      "partition": "train",
+      "payoff": "partial",
+      "physical_execution_rate": 1.0,
+      "physical_pair_rate": 1.0,
+      "reward_mean": 0.6391275210195828,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.3295863676556727,
+      "executed_partner_correct_rate": 0.3295863676556727,
+      "full_success_rate": 0.08056442619626926,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.21921482861358926,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9873830976277372,
+      "physical_pair_rate": 0.9873830976277372,
+      "reward_mean": 0.3829017344214653,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.29292883939974457,
+      "executed_partner_correct_rate": 0.29292883939974457,
+      "full_success_rate": 0.15217412994891444,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.3392134951042997,
+      "partition": "heldout_layout",
+      "payoff": "partial",
+      "physical_execution_rate": 0.89179321652831,
+      "physical_pair_rate": 0.89179321652831,
+      "reward_mean": 0.4101624860312899,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.2967139556299,
+      "executed_partner_correct_rate": 0.2967139556299,
+      "full_success_rate": 0.09468194528926736,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.2729538388753717,
+      "partition": "heldout_both",
+      "payoff": "partial",
+      "physical_execution_rate": 0.8875683250540687,
+      "physical_pair_rate": 0.8875683250540687,
+      "reward_mean": 0.3418816212996756,
+      "rule": "strict"
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.21952243640911026,
+      "executed_partner_correct_rate": 0.21952243640911026,
+      "full_success_rate": 0.16702641638285795,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.3854571315808145,
+      "partition": "train",
+      "payoff": "partial",
+      "physical_execution_rate": 0.634121789413935,
+      "physical_pair_rate": 0.634121789413935,
+      "reward_mean": 0.3882541994820491,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.22487514221185906,
+      "executed_partner_correct_rate": 0.22487514221185906,
+      "full_success_rate": 0.04701633183518068,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03639453293172822,
+      "live": false,
+      "material_identity_correct_rate": 0.12924646723213482,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.6533024480152294,
+      "physical_pair_rate": 0.6533024480152294,
+      "reward_mean": 0.22573624557876004,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.21663473818646234,
+      "executed_partner_correct_rate": 0.21663473818646234,
+      "full_success_rate": 0.07468271072796934,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.17433947956577267,
+      "partition": "heldout_layout",
+      "payoff": "partial",
+      "physical_execution_rate": 0.608698182737335,
+      "physical_pair_rate": 0.608698182737335,
+      "reward_mean": 0.22350268731375053,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.21936038456339552,
+      "executed_partner_correct_rate": 0.21936038456339552,
+      "full_success_rate": 0.0568386303730738,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.031046034453021766,
+      "live": false,
+      "material_identity_correct_rate": 0.19011208688158962,
+      "partition": "heldout_both",
+      "payoff": "partial",
+      "physical_execution_rate": 0.6348205384901324,
+      "physical_pair_rate": 0.6348205384901324,
+      "reward_mean": 0.2113316626959989,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3622191845820917,
+      "executed_partner_correct_rate": 0.3622191845820917,
+      "full_success_rate": 0.2772098831949766,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.6789779782176812,
+      "partition": "train",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9994725703313467,
+      "physical_pair_rate": 0.9994725703313467,
+      "reward_mean": 0.6380872124219525,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3426381778295936,
+      "executed_partner_correct_rate": 0.3426381778295936,
+      "full_success_rate": 0.08074817518248176,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.07827393452399409,
+      "live": true,
+      "material_identity_correct_rate": 0.23186798796972152,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9892869412904388,
+      "physical_pair_rate": 0.9892869412904388,
+      "reward_mean": 0.38441352744548074,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.35235572318007663,
+      "executed_partner_correct_rate": 0.35235572318007663,
+      "full_success_rate": 0.1934691291507024,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.43071935531077055,
+      "partition": "heldout_layout",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9084816677309493,
+      "physical_pair_rate": 0.9084816677309493,
+      "reward_mean": 0.46064482226479353,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3261914115301433,
+      "executed_partner_correct_rate": 0.3261914115301433,
+      "full_success_rate": 0.098418174675588,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0708191136574165,
+      "live": true,
+      "material_identity_correct_rate": 0.27475119964855366,
+      "partition": "heldout_both",
+      "payoff": "partial",
+      "physical_execution_rate": 0.8993272041430116,
+      "physical_pair_rate": 0.8993272041430116,
+      "reward_mean": 0.35708394582995406,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.014950954306797219,
+      "executed_partner_correct_rate": 0.014950954306797219,
+      "full_success_rate": 0.014950954306797219,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.014950954306797219,
+      "partition": "train",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.014950954306797219,
+      "physical_pair_rate": 0.014950954306797219,
+      "reward_mean": 0.014950954306797219,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.005123675036045779,
+      "executed_partner_correct_rate": 0.005123675036045779,
+      "full_success_rate": 0.005123675036045779,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.242494682576047e-06,
+      "live": false,
+      "material_identity_correct_rate": 0.005128603169775614,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.005135643360818239,
+      "physical_pair_rate": 0.005135643360818239,
+      "reward_mean": 0.005129659198432009,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.007950524159216687,
+      "executed_partner_correct_rate": 0.007950524159216687,
+      "full_success_rate": 0.007950524159216687,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.007950524159216687,
+      "partition": "heldout_layout",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.007950524159216687,
+      "physical_pair_rate": 0.007950524159216687,
+      "reward_mean": 0.007950524159216687,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.0026189510678561773,
+      "executed_partner_correct_rate": 0.0026189510678561773,
+      "full_success_rate": 0.0025555893484725603,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -1.1886078549145917e-06,
+      "live": false,
+      "material_identity_correct_rate": 0.0025555893484725603,
+      "partition": "heldout_both",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.0026189510678561773,
+      "physical_pair_rate": 0.0026189510678561773,
+      "reward_mean": 0.0025872702081643686,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.8615634312473394,
+      "executed_partner_correct_rate": 0.8615634312473394,
+      "full_success_rate": 0.8614733552398184,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.8615188089789981,
+      "partition": "train",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.8616147052823897,
+      "physical_pair_rate": 0.8616147052823897,
+      "reward_mean": 0.86150328819001,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.39993072452014056,
+      "executed_partner_correct_rate": 0.39993072452014056,
+      "full_success_rate": 0.2562759783049473,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03217444406959015,
+      "live": true,
+      "material_identity_correct_rate": 0.26753359579165537,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.5421992571190412,
+      "physical_pair_rate": 0.5421992571190412,
+      "reward_mean": 0.38480997820356855,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.719983071253725,
+      "executed_partner_correct_rate": 0.719983071253725,
+      "full_success_rate": 0.7049741911451681,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.7053583306726265,
+      "partition": "heldout_layout",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.7211038939442316,
+      "physical_pair_rate": 0.7211038939442316,
+      "reward_mean": 0.7099098020434227,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.33081892910246014,
+      "executed_partner_correct_rate": 0.33081892910246014,
+      "full_success_rate": 0.1842099427210057,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.023321824113833267,
+      "live": true,
+      "material_identity_correct_rate": 0.19678301990402813,
+      "partition": "heldout_both",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.4586158209989186,
+      "physical_pair_rate": 0.4586158209989186,
+      "reward_mean": 0.30223698550283856,
+      "rule": "strict"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.19618471290974884,
+      "executed_partner_correct_rate": 0.19618471290974884,
+      "full_success_rate": 0.19618471290974884,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.19618471290974884,
+      "partition": "train",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.19618471290974884,
+      "physical_pair_rate": 0.19618471290974884,
+      "reward_mean": 0.19618471290974884,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.08732582567360547,
+      "executed_partner_correct_rate": 0.08732582567360547,
+      "full_success_rate": 0.07757516107957105,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0010578870140930821,
+      "live": false,
+      "material_identity_correct_rate": 0.08270957240695684,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.10240239479138506,
+      "physical_pair_rate": 0.10240239479138506,
+      "reward_mean": 0.08929338306524287,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.16597488292890591,
+      "executed_partner_correct_rate": 0.16597488292890591,
+      "full_success_rate": 0.16559822663899532,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": false,
+      "material_identity_correct_rate": 0.16577782434014474,
+      "partition": "heldout_layout",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.16638562952320138,
+      "physical_pair_rate": 0.16638562952320138,
+      "reward_mean": 0.16594037688910174,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.0824610536631522,
+      "executed_partner_correct_rate": 0.0824610536631522,
+      "full_success_rate": 0.05792053173154907,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.001473781373730019,
+      "live": false,
+      "material_identity_correct_rate": 0.07084790652879155,
+      "partition": "heldout_both",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.12098233897675047,
+      "physical_pair_rate": 0.12098233897675047,
+      "reward_mean": 0.08629786977899431,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.961879833617142,
+      "executed_partner_correct_rate": 0.961879833617142,
+      "full_success_rate": 0.961879833617142,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.962871501170711,
+      "partition": "train",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.9629904015006385,
+      "physical_pair_rate": 0.9629904015006385,
+      "reward_mean": 0.9624351175588903,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.4969869742385329,
+      "executed_partner_correct_rate": 0.4969869742385329,
+      "full_success_rate": 0.3299304569928809,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.05451969817809857,
+      "live": true,
+      "material_identity_correct_rate": 0.3714538557718302,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.7085607315040101,
+      "physical_pair_rate": 0.7085607315040101,
+      "reward_mean": 0.4973846570300532,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.8891408245530013,
+      "executed_partner_correct_rate": 0.8891408245530013,
+      "full_success_rate": 0.8845361390485312,
+      "heldout_changed_actor_Q": null,
+      "heldout_changed_actor_Q_excess": null,
+      "live": true,
+      "material_identity_correct_rate": 0.8868501223925074,
+      "partition": "heldout_layout",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.8933954608343977,
+      "physical_pair_rate": 0.8933954608343977,
+      "reward_mean": 0.8879838328810132,
+      "rule": "reciprocal"
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.4408988282306029,
+      "executed_partner_correct_rate": 0.4408988282306029,
+      "full_success_rate": 0.261090940963774,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.04777013662386217,
+      "live": true,
+      "material_identity_correct_rate": 0.30438019566098945,
+      "partition": "heldout_both",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.6614905422073534,
+      "physical_pair_rate": 0.6614905422073534,
+      "reward_mean": 0.4349185379494458,
+      "rule": "reciprocal"
+    }
+  ],
+  "interaction_curves": [
+    {
+      "Q": {
+        "all_or_nothing_live_minus_silent": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "baseline_interaction": 0.0,
+        "centered_AUC": 0.0,
+        "centered_interaction": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "endpoint_interaction": 0.0,
+        "interaction": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "measure": "heldout_changed_actor_Q",
+        "partial_live_minus_silent": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "partner": {
+        "all_or_nothing_live_minus_silent": [
+          -0.0003516575425790763,
+          0.0,
+          0.1628297625484365,
+          0.3551507093696495,
+          0.3847913216973056,
+          0.3948070494840948
+        ],
+        "baseline_interaction": 0.0,
+        "centered_AUC": 0.19791417619908536,
+        "centered_interaction": [
+          0.0,
+          -0.022589860998468048,
+          0.09178789875642068,
+          0.20991702430837164,
+          0.2305380958817699,
+          0.2318493314634586
+        ],
+        "endpoint_interaction": 0.2318493314634586,
+        "interaction": [
+          0.0,
+          -0.022589860998468048,
+          0.09178789875642068,
+          0.20991702430837164,
+          0.2305380958817699,
+          0.2318493314634586
+        ],
+        "measure": "correct_executed_pair_rate",
+        "partial_live_minus_silent": [
+          -0.0003516575425790763,
+          0.022589860998468048,
+          0.07104186379201582,
+          0.14523368506127785,
+          0.15425322581553572,
+          0.1629577180206362
+        ]
+      },
+      "rule": "strict"
+    },
+    {
+      "Q": {
+        "all_or_nothing_live_minus_silent": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "baseline_interaction": 0.0,
+        "centered_AUC": 0.0,
+        "centered_interaction": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "endpoint_interaction": 0.0,
+        "interaction": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "measure": "heldout_changed_actor_Q",
+        "partial_live_minus_silent": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "partner": {
+        "all_or_nothing_live_minus_silent": [
+          -0.0049540064319185395,
+          0.022192618218888002,
+          0.20958279123862306,
+          0.3746152535595205,
+          0.3828733976525187,
+          0.4096611485649274
+        ],
+        "baseline_interaction": 0.0,
+        "centered_AUC": 0.25172498467585075,
+        "centered_interaction": [
+          0.0,
+          0.008478326067856187,
+          0.13220264345093274,
+          0.2902607405154546,
+          0.2733401693588357,
+          0.29189811294719287
+        ],
+        "endpoint_interaction": 0.29189811294719287,
+        "interaction": [
+          0.0,
+          0.008478326067856187,
+          0.13220264345093274,
+          0.2902607405154546,
+          0.2733401693588357,
+          0.29189811294719287
+        ],
+        "measure": "correct_executed_pair_rate",
+        "partial_live_minus_silent": [
+          -0.0049540064319185395,
+          0.013714292151031815,
+          0.07738014778769031,
+          0.08435451304406594,
+          0.109533228293683,
+          0.11776303561773455
+        ]
+      },
+      "rule": "reciprocal"
+    }
+  ],
+  "measured_budget": {
+    "checkpoints": 768,
+    "evaluation_files": 1152,
+    "evaluation_forward_module_samples": 2937212928,
+    "evaluation_worlds": 326356992,
+    "target_aliases": 128,
+    "training_forward_module_samples": 3538944000
+  },
+  "primary": {
+    "by_seed": [
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0058968640173019705,
+              -0.004564859872037502,
+              0.21539042083445978,
+              0.36942416869424166,
+              0.3670333198161665,
+              0.4116765792556547
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.26219102948244266,
+            "centered_interaction": [
+              0.0,
+              -0.006674101108407743,
+              0.19333772641254396,
+              0.2966116968550058,
+              0.2737507885013968,
+              0.3018495989907182
+            ],
+            "endpoint_interaction": 0.3018495989907182,
+            "interaction": [
+              0.0,
+              -0.006674101108407743,
+              0.19333772641254396,
+              0.2966116968550058,
+              0.2737507885013968,
+              0.3018495989907182
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.0058968640173019705,
+              0.0021092412363702406,
+              0.02205269442191582,
+              0.07281247183923584,
+              0.09328253131476974,
+              0.10982698026493648
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.0002337343426151212,
+              0.0,
+              0.16797051004776065,
+              0.35781630170316303,
+              0.42757614670631705,
+              0.4720448094079481
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2469612892748791,
+            "centered_interaction": [
+              0.0,
+              -0.03671882040191041,
+              0.10970588897900332,
+              0.2251537577723709,
+              0.2954317608362621,
+              0.31199310624493104
+            ],
+            "endpoint_interaction": 0.31199310624493104,
+            "interaction": [
+              0.0,
+              -0.03671882040191041,
+              0.10970588897900332,
+              0.2251537577723709,
+              0.2954317608362621,
+              0.31199310624493104
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.0002337343426151212,
+              0.03671882040191041,
+              0.05826462106875732,
+              0.13266254393079213,
+              0.13214438587005495,
+              0.16005170316301706
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.25457615937866085,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64101
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.00666002072632243,
+              0.022886253041362534,
+              0.20654512480850679,
+              0.3186784716590069,
+              0.3423278814093899,
+              0.4091505587095612
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.22972579863927187,
+            "centered_interaction": [
+              0.0,
+              0.005781404884202965,
+              0.12355253672163646,
+              0.23768248175182483,
+              0.24559847256015138,
+              0.2938153329728756
+            ],
+            "endpoint_interaction": 0.2938153329728756,
+            "interaction": [
+              0.0,
+              0.005781404884202965,
+              0.12355253672163646,
+              0.23768248175182483,
+              0.24559847256015138,
+              0.2938153329728756
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.00666002072632243,
+              0.01710484815715957,
+              0.08299258808687032,
+              0.0809959899071821,
+              0.09672940884923853,
+              0.11533522573668559
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.00046465260881319275,
+              0.0,
+              0.16531776606289988,
+              0.3251413670361359,
+              0.35157306028656393,
+              0.3158117058664504
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.16259490177525457,
+            "centered_interaction": [
+              0.0,
+              -0.04316763539695412,
+              0.11239805803370279,
+              0.16919831936559432,
+              0.20010475804271421,
+              0.16396604938271606
+            ],
+            "endpoint_interaction": 0.16396604938271606,
+            "interaction": [
+              0.0,
+              -0.04316763539695412,
+              0.11239805803370279,
+              0.16919831936559432,
+              0.20010475804271421,
+              0.16396604938271606
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.00046465260881319275,
+              0.04316763539695412,
+              0.0529197080291971,
+              0.15594304767054157,
+              0.15146830224384972,
+              0.15184565648373435
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.19616035020726322,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64102
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.002621767144273226,
+              -0.0031455573578444557,
+              0.202982788140939,
+              0.2954204965305939,
+              0.35612665585293324,
+              0.4140984049743174
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.21699560785948158,
+            "centered_interaction": [
+              0.0,
+              -0.006713526178246346,
+              0.10354431377849871,
+              0.19980907001892406,
+              0.2421600432549338,
+              0.2910330494728305
+            ],
+            "endpoint_interaction": 0.2910330494728305,
+            "interaction": [
+              0.0,
+              -0.006713526178246346,
+              0.10354431377849871,
+              0.19980907001892406,
+              0.2421600432549338,
+              0.2910330494728305
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.002621767144273226,
+              0.00356796882040189,
+              0.0994384743624403,
+              0.09561142651166982,
+              0.11396661259799945,
+              0.1230653555014869
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0062038163467603834,
+              0.0,
+              0.17672005947553393,
+              0.19189307921059745,
+              0.23751633324321889,
+              0.2850348067045147
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.07785949092847917,
+            "centered_interaction": [
+              0.0,
+              -0.004364918446426974,
+              0.10521987924664328,
+              0.04112316391817608,
+              0.08246879787329908,
+              0.10509033973145893
+            ],
+            "endpoint_interaction": 0.10509033973145893,
+            "interaction": [
+              0.0,
+              -0.004364918446426974,
+              0.10521987924664328,
+              0.04112316391817608,
+              0.08246879787329908,
+              0.10509033973145893
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.0062038163467603834,
+              0.004364918446426974,
+              0.07150018022889065,
+              0.15076991529242137,
+              0.1550475353699198,
+              0.17994446697305577
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.14742754939398037,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64103
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.003874921149860322,
+              0.026048706857709297,
+              0.18911079571055242,
+              0.37113352707939085,
+              0.35287690366765795,
+              0.3349948184193926
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.20138004171547869,
+            "centered_interaction": [
+              0.0,
+              0.021571145354600335,
+              0.06201563485626746,
+              0.2751954357033433,
+              0.22596760385689826,
+              0.20470341083175633
+            ],
+            "endpoint_interaction": 0.20470341083175633,
+            "interaction": [
+              0.0,
+              0.021571145354600335,
+              0.06201563485626746,
+              0.2751954357033433,
+              0.22596760385689826,
+              0.20470341083175633
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.003874921149860322,
+              0.004477561503108962,
+              0.12709516085428496,
+              0.09593809137604753,
+              0.12690929981075968,
+              0.13029140758763627
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.005229453906461206,
+              0.0,
+              0.14906055690727224,
+              0.3380277327205551,
+              0.3334206317022619,
+              0.3336346535099577
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.15619633027695173,
+            "centered_interaction": [
+              0.0,
+              -0.007730129764801308,
+              0.06011478327475897,
+              0.1836335270793908,
+              0.19615943498242772,
+              0.1507530188339191
+            ],
+            "endpoint_interaction": 0.1507530188339191,
+            "interaction": [
+              0.0,
+              -0.007730129764801308,
+              0.06011478327475897,
+              0.1836335270793908,
+              0.19615943498242772,
+              0.1507530188339191
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.005229453906461206,
+              0.007730129764801308,
+              0.08894577363251327,
+              0.1543942056411643,
+              0.13726119671983417,
+              0.1828816346760386
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.1787881859962152,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64104
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.011055916013336938,
+              0.0028723979453906534,
+              0.18851660358655495,
+              0.40690896188158954,
+              0.4195559610705596,
+              0.44674517887717397
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2845542197966417,
+            "centered_interaction": [
+              0.0,
+              0.0020585518608632614,
+              0.13904095701540956,
+              0.3298723754167792,
+              0.30985570424439035,
+              0.3333108047219969
+            ],
+            "endpoint_interaction": 0.3333108047219969,
+            "interaction": [
+              0.0,
+              0.0020585518608632614,
+              0.13904095701540956,
+              0.3298723754167792,
+              0.30985570424439035,
+              0.3333108047219969
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.011055916013336938,
+              0.000813846084527392,
+              0.04947564657114539,
+              0.07703658646481032,
+              0.10970025682616921,
+              0.11343437415517707
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.0005857438947463279,
+              0.0,
+              0.16749740920969633,
+              0.4004150896638731,
+              0.42333231954582323,
+              0.4297642380823646
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.23971967836652547,
+            "centered_interaction": [
+              0.0,
+              -0.062097301072361916,
+              0.09435264035324864,
+              0.2706024150671352,
+              0.2871862890871407,
+              0.2689155852933225
+            ],
+            "endpoint_interaction": 0.2689155852933225,
+            "interaction": [
+              0.0,
+              -0.062097301072361916,
+              0.09435264035324864,
+              0.2706024150671352,
+              0.2871862890871407,
+              0.2689155852933225
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.0005857438947463279,
+              0.062097301072361916,
+              0.07314476885644769,
+              0.12981267459673787,
+              0.1361460304586825,
+              0.1608486527890421
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.2621369490815836,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64105
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.002086712625033793,
+              0.028157948094079496,
+              0.19233520320807423,
+              0.3930031765341985,
+              0.40628942506983867,
+              0.4378886185455529
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2536577312561954,
+            "centered_interaction": [
+              0.0,
+              0.03407452464630077,
+              0.05330832657474993,
+              0.314200910155898,
+              0.277848179688204,
+              0.30546825718662707
+            ],
+            "endpoint_interaction": 0.30546825718662707,
+            "interaction": [
+              0.0,
+              0.03407452464630077,
+              0.05330832657474993,
+              0.314200910155898,
+              0.277848179688204,
+              0.30546825718662707
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.002086712625033793,
+              -0.005916576552221275,
+              0.1390268766333243,
+              0.07880226637830046,
+              0.12844124538163465,
+              0.13242036135892582
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0012756826169234927,
+              0.0,
+              0.1275119401640083,
+              0.45084257006398126,
+              0.4213300892133009,
+              0.4714280886726142
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2523588160088312,
+            "centered_interaction": [
+              0.0,
+              -0.0378396188158962,
+              0.046042849418761855,
+              0.3222577047850771,
+              0.2692929395332072,
+              0.32176770748851036
+            ],
+            "endpoint_interaction": 0.32176770748851036,
+            "interaction": [
+              0.0,
+              -0.0378396188158962,
+              0.046042849418761855,
+              0.3222577047850771,
+              0.2692929395332072,
+              0.32176770748851036
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.0012756826169234927,
+              0.0378396188158962,
+              0.08146909074524644,
+              0.1285848652789042,
+              0.15203714968009371,
+              0.14966038118410382
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.2530082736325133,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64106
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.013086307110029739,
+              0.0435393574840047,
+              0.21335721366134988,
+              0.3783736595476255,
+              0.35065501937460575,
+              0.32891490943498247
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.20864495565618335,
+            "centered_interaction": [
+              0.0,
+              0.009177593043164817,
+              0.07516389564747225,
+              0.2919933315310444,
+              0.24027890420834458,
+              0.19422760656033164
+            ],
+            "endpoint_interaction": 0.19422760656033164,
+            "interaction": [
+              0.0,
+              0.009177593043164817,
+              0.07516389564747225,
+              0.2919933315310444,
+              0.24027890420834458,
+              0.19422760656033164
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.013086307110029739,
+              0.03436176444083988,
+              0.13819331801387763,
+              0.08638032801658108,
+              0.11037611516626117,
+              0.13468730287465083
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.00040833108047219965,
+              0.0,
+              0.17416869424168693,
+              0.33147190682166355,
+              0.31326315670902044,
+              0.3164988285122105
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.15812581196870024,
+            "centered_interaction": [
+              0.0,
+              0.013412971974407495,
+              0.1284891186807245,
+              0.20208164368748313,
+              0.15905199603496437,
+              0.1633268000360458
+            ],
+            "endpoint_interaction": 0.1633268000360458,
+            "interaction": [
+              0.0,
+              0.013412971974407495,
+              0.1284891186807245,
+              0.20208164368748313,
+              0.15905199603496437,
+              0.1633268000360458
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.00040833108047219965,
+              -0.013412971974407495,
+              0.04567957556096244,
+              0.12939026313418042,
+              0.15421116067405607,
+              0.1531720284761647
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.1833853838124418,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64107
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.01991529242137515,
+              0.06553573037757951,
+              0.22621260250518158,
+              0.3689707803910967,
+              0.390142042894476,
+              0.4316510092817878
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.252978939503169,
+            "centered_interaction": [
+              0.0,
+              0.04896030458682529,
+              0.17096399927908443,
+              0.27960541137244305,
+              0.262078151752726,
+              0.2978507704785076
+            ],
+            "endpoint_interaction": 0.2978507704785076,
+            "interaction": [
+              0.0,
+              0.04896030458682529,
+              0.17096399927908443,
+              0.27960541137244305,
+              0.262078151752726,
+              0.2978507704785076
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.01991529242137515,
+              0.016575425790754217,
+              0.05524860322609715,
+              0.08936536901865366,
+              0.12806389114175,
+              0.13380023880328015
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.00021965396052987294,
+              0.0,
+              0.16984601694151572,
+              0.34472154636388214,
+              0.41092750292871943,
+              0.45420496530593857
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.19687685391697451,
+            "centered_interaction": [
+              0.0,
+              -0.015251869874740948,
+              0.1245240830855186,
+              0.179843088222042,
+              0.21170699288095876,
+              0.2645084257006398
+            ],
+            "endpoint_interaction": 0.2645084257006398,
+            "interaction": [
+              0.0,
+              -0.015251869874740948,
+              0.1245240830855186,
+              0.179843088222042,
+              0.21170699288095876,
+              0.2645084257006398
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.00021965396052987294,
+              0.015251869874740948,
+              0.045321933855997115,
+              0.16487845814184013,
+              0.19922051004776067,
+              0.18969653960529875
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.22492789671007177,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64108
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.019690006308011168,
+              0.00366653149499864,
+              0.20360514102910698,
+              0.3964556862215013,
+              0.40708637469586373,
+              0.4608593538794269
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2736105713631312,
+            "centered_interaction": [
+              0.0,
+              0.005840542488961001,
+              0.0802018563575741,
+              0.3075831305758313,
+              0.29810140127962514,
+              0.3525699513381995
+            ],
+            "endpoint_interaction": 0.3525699513381995,
+            "interaction": [
+              0.0,
+              0.005840542488961001,
+              0.0802018563575741,
+              0.3075831305758313,
+              0.29810140127962514,
+              0.3525699513381995
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.019690006308011168,
+              -0.002174010993962361,
+              0.12340328467153289,
+              0.08887255564567001,
+              0.10898497341623861,
+              0.10828940254122738
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.14045744345318556,
+              0.33946393169325045,
+              0.41423076056591873,
+              0.4284406821663512
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.21585432248956174,
+            "centered_interaction": [
+              0.0,
+              -0.06533578895196901,
+              0.07955979093448681,
+              0.20213233306299003,
+              0.2655306614400288,
+              0.2704390826349463
+            ],
+            "endpoint_interaction": 0.2704390826349463,
+            "interaction": [
+              0.0,
+              -0.06533578895196901,
+              0.07955979093448681,
+              0.20213233306299003,
+              0.2655306614400288,
+              0.2704390826349463
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.0,
+              0.06533578895196901,
+              0.06089765251869875,
+              0.13733159863026043,
+              0.1487000991258899,
+              0.1580015995314049
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.2447324469263465,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64109
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.0034074524646300793,
+              0.019408398666306212,
+              0.2356070334324592,
+              0.4300824547174913,
+              0.4373986212489862,
+              0.4419437685861043
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2892842190832357,
+            "centered_interaction": [
+              0.0,
+              0.010484252500675847,
+              0.1416261151662611,
+              0.3281827295665496,
+              0.32928944759845,
+              0.3218775344687753
+            ],
+            "endpoint_interaction": 0.3218775344687753,
+            "interaction": [
+              0.0,
+              0.010484252500675847,
+              0.1416261151662611,
+              0.3281827295665496,
+              0.32928944759845,
+              0.3218775344687753
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.0034074524646300793,
+              0.008924146165630364,
+              0.09398091826619809,
+              0.1018997251509417,
+              0.10810917365053616,
+              0.120066234117329
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.0011630395602415067,
+              0.0,
+              0.17560207713796522,
+              0.4207725060827251,
+              0.4555538659097053,
+              0.4509355005857439
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.24537093358565376,
+            "centered_interaction": [
+              0.0,
+              -0.030292534018203116,
+              0.08872330359556635,
+              0.2722554519239434,
+              0.2926579255654681,
+              0.27926185004956294
+            ],
+            "endpoint_interaction": 0.27926185004956294,
+            "interaction": [
+              0.0,
+              -0.030292534018203116,
+              0.08872330359556635,
+              0.2722554519239434,
+              0.2926579255654681,
+              0.27926185004956294
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.0011630395602415067,
+              0.030292534018203116,
+              0.08687877354239887,
+              0.14851705415878166,
+              0.16289594034423718,
+              0.17167365053618094
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.2673275763344447,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64110
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.040222019464720205,
+              0.031007817428133716,
+              0.19608340091916732,
+              0.35453838875371724,
+              0.3918711138145444,
+              0.42924044786879334
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.25224345074494603,
+            "centered_interaction": [
+              0.0,
+              0.013601649094349827,
+              0.14055319005136524,
+              0.2581553573037758,
+              0.276316234117329,
+              0.31151155717761553
+            ],
+            "endpoint_interaction": 0.31151155717761553,
+            "interaction": [
+              0.0,
+              0.013601649094349827,
+              0.14055319005136524,
+              0.2581553573037758,
+              0.276316234117329,
+              0.31151155717761553
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.040222019464720205,
+              0.01740616833378389,
+              0.05553021086780208,
+              0.09638303144994143,
+              0.11555487969721548,
+              0.11772889069117781
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.00011545913309903577,
+              0.0,
+              0.16597954402090656,
+              0.3995139452104173,
+              0.44419099756691,
+              0.42531765341984323
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.22760878972545137,
+            "centered_interaction": [
+              0.0,
+              -0.05469665224835543,
+              0.10281494998648283,
+              0.2418249301613049,
+              0.26900006758583406,
+              0.2665500811030008
+            ],
+            "endpoint_interaction": 0.2665500811030008,
+            "interaction": [
+              0.0,
+              -0.05469665224835543,
+              0.10281494998648283,
+              0.2418249301613049,
+              0.26900006758583406,
+              0.2665500811030008
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.00011545913309903577,
+              0.05469665224835543,
+              0.06316459403442373,
+              0.15768901504911237,
+              0.17519092998107597,
+              0.15876757231684238
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.23992612023519871,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64111
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.030312246553122462,
+              0.029929260160403703,
+              0.212115323961431,
+              0.33360649274578713,
+              0.3732793773091827,
+              0.416967986843291
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.25493714517437144,
+            "centered_interaction": [
+              0.0,
+              0.02200482112282598,
+              0.20140860142380823,
+              0.24757535820492024,
+              0.27196821212940436,
+              0.3078253131476976
+            ],
+            "endpoint_interaction": 0.3078253131476976,
+            "interaction": [
+              0.0,
+              0.02200482112282598,
+              0.20140860142380823,
+              0.24757535820492024,
+              0.27196821212940436,
+              0.3078253131476976
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.030312246553122462,
+              0.007924439037577724,
+              0.010706722537622781,
+              0.08603113454086689,
+              0.10131116517977834,
+              0.10914267369559338
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.022441312967468683,
+              0.0,
+              0.18931355321257998,
+              0.21656190862395241,
+              0.3938705280706497,
+              0.40948567180319007
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.19923226716680184,
+            "centered_interaction": [
+              0.0,
+              -0.03907306028656393,
+              0.1111899612507885,
+              0.09340643867711992,
+              0.26764835090565015,
+              0.2722413715418582
+            ],
+            "endpoint_interaction": 0.2722413715418582,
+            "interaction": [
+              0.0,
+              -0.03907306028656393,
+              0.1111899612507885,
+              0.09340643867711992,
+              0.26764835090565015,
+              0.2722413715418582
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.022441312967468683,
+              0.03907306028656393,
+              0.07812359196179147,
+              0.12315546994683249,
+              0.12622217716499956,
+              0.1372443002613319
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.22708470617058663,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64112
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.01357348833017933,
+              0.0033933720825448377,
+              0.19046532846715328,
+              0.3660786699107867,
+              0.33866416599080834,
+              0.35552683157610165
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.20121677968520021,
+            "centered_interaction": [
+              0.0,
+              -0.06523441020095525,
+              0.09261793728034604,
+              0.2728665405064432,
+              0.21121417950797514,
+              0.22830776335946656
+            ],
+            "endpoint_interaction": 0.22830776335946656,
+            "interaction": [
+              0.0,
+              -0.06523441020095525,
+              0.09261793728034604,
+              0.2728665405064432,
+              0.21121417950797514,
+              0.22830776335946656
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              0.01357348833017933,
+              0.06862778228350008,
+              0.09784739118680724,
+              0.09321212940434351,
+              0.1274499864828332,
+              0.1272190682166351
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.0023260791204830138,
+              0.0,
+              0.14870854735514102,
+              0.2844040055870956,
+              0.31700853834369647,
+              0.3010751779760295
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.1162149680093719,
+            "centered_interaction": [
+              0.0,
+              0.0025598134630981095,
+              0.06322654771559882,
+              0.1196015815085158,
+              0.1436649544922051,
+              0.1197620978642876
+            ],
+            "endpoint_interaction": 0.1197620978642876,
+            "interaction": [
+              0.0,
+              0.0025598134630981095,
+              0.06322654771559882,
+              0.1196015815085158,
+              0.1436649544922051,
+              0.1197620978642876
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.0023260791204830138,
+              -0.0025598134630981095,
+              0.0854819996395422,
+              0.1648024240785798,
+              0.17334358385149137,
+              0.1813130801117419
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.15871587384728605,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64113
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.02119660719113274,
+              -0.0012531540055870927,
+              0.213247386681085,
+              0.43501903667657926,
+              0.4159232224925655,
+              0.4291756781112012
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2946664216680184,
+            "centered_interaction": [
+              0.0,
+              -0.013272168153555003,
+              0.17564713436063806,
+              0.3570475128413085,
+              0.3224266693701,
+              0.31772945390646123
+            ],
+            "endpoint_interaction": 0.31772945390646123,
+            "interaction": [
+              0.0,
+              -0.013272168153555003,
+              0.17564713436063806,
+              0.3570475128413085,
+              0.3224266693701,
+              0.31772945390646123
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.02119660719113274,
+              0.01201901414796791,
+              0.03760025232044695,
+              0.07797152383527078,
+              0.09349655312246552,
+              0.11144622420474001
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -0.026978012075335674,
+              0.0,
+              0.16665540236099846,
+              0.4682881634676039,
+              0.4178719473731639,
+              0.4441684689555736
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.2491839245216425,
+            "centered_interaction": [
+              0.0,
+              0.04406596377399297,
+              0.07503435613228801,
+              0.32556941065152745,
+              0.2671555375326665,
+              0.28233418942056415
+            ],
+            "endpoint_interaction": 0.28233418942056415,
+            "interaction": [
+              0.0,
+              0.04406596377399297,
+              0.07503435613228801,
+              0.32556941065152745,
+              0.2671555375326665,
+              0.28233418942056415
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.026978012075335674,
+              -0.04406596377399297,
+              0.09162104622871045,
+              0.1427187528160764,
+              0.15071640984049742,
+              0.16183427953500945
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.27192517309483044,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64114
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.019873051275119402,
+              0.036088019284491304,
+              0.23060849779219605,
+              0.3729696089033072,
+              0.34294741822114083,
+              0.3370871631972605
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.24340902008050225,
+            "centered_interaction": [
+              0.0,
+              0.02517009101558977,
+              0.20793345048211226,
+              0.3052486032260972,
+              0.25406923042263674,
+              0.2369277732720555
+            ],
+            "endpoint_interaction": 0.2369277732720555,
+            "interaction": [
+              0.0,
+              0.02517009101558977,
+              0.20793345048211226,
+              0.3052486032260972,
+              0.25406923042263674,
+              0.2369277732720555
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.019873051275119402,
+              0.010917928268901533,
+              0.022675047310083796,
+              0.06772100567721001,
+              0.08887818779850407,
+              0.10015938992520501
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              1.1264305668198612e-05,
+              0.0,
+              0.1513049698116608,
+              0.46655909254753536,
+              0.43022044246192664,
+              0.46063688384247997
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.24535919993391606,
+            "centered_interaction": [
+              0.0,
+              -0.016110773181941068,
+              0.07375585743894744,
+              0.30516412093358564,
+              0.26738082364603044,
+              0.2943278588807786
+            ],
+            "endpoint_interaction": 0.2943278588807786,
+            "interaction": [
+              0.0,
+              -0.016110773181941068,
+              0.07375585743894744,
+              0.30516412093358564,
+              0.26738082364603044,
+              0.2943278588807786
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              1.1264305668198612e-05,
+              0.016110773181941068,
+              0.07754911237271336,
+              0.16139497161394972,
+              0.16283961881589618,
+              0.16630902496170136
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.24438411000720917,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64115
+      },
+      {
+        "by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.0,
+            "centered_interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "endpoint_interaction": 0.0,
+            "interaction": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "measure": "heldout_changed_actor_Q",
+            "partial_live_minus_silent": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "partner_by_rule": {
+          "reciprocal": {
+            "all_or_nothing_live_minus_silent": [
+              -0.031134540866900963,
+              0.05151166982067226,
+              0.2371417950797513,
+              0.40318047670541585,
+              0.4337968595115797,
+              0.4686570694782373
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.3081038231053438,
+            "centered_interaction": [
+              0.0,
+              0.028822542128503242,
+              0.15432661980715512,
+              0.3425419032170857,
+              0.332519487248806,
+              0.3713616292691718
+            ],
+            "endpoint_interaction": 0.3713616292691718,
+            "interaction": [
+              0.0,
+              0.028822542128503242,
+              0.15432661980715512,
+              0.3425419032170857,
+              0.332519487248806,
+              0.3713616292691718
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -0.031134540866900963,
+              0.02268912769216902,
+              0.08281517527259619,
+              0.06063857348833013,
+              0.10127737226277372,
+              0.0972954402090655
+            ]
+          },
+          "strict": {
+            "all_or_nothing_live_minus_silent": [
+              -1.9712534919347576e-05,
+              0.0,
+              0.16916171037217265,
+              0.3465182031179598,
+              0.36477482652969273,
+              0.3184306569343066
+            ],
+            "baseline_interaction": 0.0,
+            "centered_AUC": 0.1771092412363702,
+            "centered_interaction": [
+              0.0,
+              -0.008797422726863097,
+              0.09345431197620976,
+              0.20482450211768943,
+              0.21416824366946027,
+              0.17435173920879518
+            ],
+            "endpoint_interaction": 0.17435173920879518,
+            "interaction": [
+              0.0,
+              -0.008797422726863097,
+              0.09345431197620976,
+              0.20482450211768943,
+              0.21416824366946027,
+              0.17435173920879518
+            ],
+            "measure": "correct_executed_pair_rate",
+            "partial_live_minus_silent": [
+              -1.9712534919347576e-05,
+              0.008797422726863097,
+              0.07570739839596288,
+              0.14169370100027034,
+              0.15060658286023246,
+              0.14407891772551143
+            ]
+          }
+        },
+        "partner_rule_mean_centered_AUC": 0.24260653217085698,
+        "rule_mean_centered_AUC": 0.0,
+        "seed": 64116
+      }
+    ],
+    "definition": "For each seed and rule, [(all_or_nothing live−silent)−(partial live−silent)] on heldout changed-actor Q; subtract update0, trapezoid-integrate over six checkpoints /6000, then average strict and reciprocal and the16 seeds.",
+    "edge_group": "heldout_changed_actor",
+    "independent_seeds": 16,
+    "inference": "Sixteen new seeds with an approximate Student-t interval across paired initializations; world-level observations are not independent societies.",
+    "mean_centered_AUC": 0.0,
+    "name": "mean_payoff_communication_interaction_centered_heldout_Q_time_AUC",
+    "partner_secondary": {
+      "mean_centered_AUC": 0.22481958043746808,
+      "sample_sd": 0.03953377263378498,
+      "statistics": {
+        "ci95_lower": 0.203753520008832,
+        "ci95_upper": 0.24588564086610415,
+        "df": 15,
+        "interval_level": 0.95,
+        "interval_method": "Approximate two-sided Student-t interval across sixteen paired initializations; not a world-level interval or equivalence proof.",
+        "mean": 0.22481958043746808,
+        "n": 16,
+        "sample_sd": 0.03953377263378498,
+        "standard_error": 0.009883443158446244,
+        "t_critical": 2.1314495455597715
+      }
+    },
+    "sample_sd": 0.0,
+    "scope": "Q is a researcher-side equal-stratum behavioral semantic-response measure. It is not a lexical or compositionality score.",
+    "statistics": {
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0,
+      "df": 15,
+      "interval_level": 0.95,
+      "interval_method": "Approximate two-sided Student-t interval across sixteen paired initializations; not a world-level interval or equivalence proof.",
+      "mean": 0.0,
+      "n": 16,
+      "sample_sd": 0.0,
+      "standard_error": 0.0,
+      "t_critical": 2.1314495455597715
+    },
+    "target": "heldout_resource",
+    "unit": "Probability difference averaged over training time; multiply by100 for percentage points."
+  },
+  "scope": {
+    "boundary": "A Q interaction tests behavioral response to unseen combinations under this task. It does not identify words, compositionality, cultural transmission, or human language origin.",
+    "inference": "Sixteen new paired seeds; Student-t interval across seed-level society summaries. World rows are not independent societies.",
+    "input": "Completed execution JSON plus passed full physical replay audit.",
+    "primary": "For each seed and rule, [(all_or_nothing live−silent)−(partial live−silent)] on heldout changed-actor Q; subtract update0, trapezoid-integrate over six checkpoints /6000, then average strict and reciprocal and the16 seeds.",
+    "semantic_holdout": "Resource predicates 5 and 6 are absent from factorial training while all individual values remain present."
+  },
+  "status": "completed_json_only_summary",
+  "trajectory_summaries": [
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.003547024252050104,
+      "executed_partner_correct_rate": 0.003547024252050104,
+      "full_success_rate": 0.00036784998197711096,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -5.358320030692098e-07,
+      "live": false,
+      "material_identity_correct_rate": 0.002566325639812562,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.010913528149499866,
+      "physical_pair_rate": 0.010913528149499866,
+      "reward_mean": 0.0022967743252680904,
+      "rule": "strict",
+      "update": 0
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.21887390736235018,
+      "executed_partner_correct_rate": 0.21887390736235018,
+      "full_success_rate": 0.04630016840136974,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.11807016395196901,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.5357134811210237,
+      "physical_pair_rate": 0.5357134811210237,
+      "reward_mean": 0.16383756589618817,
+      "rule": "strict",
+      "update": 100
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.2283964697666036,
+      "executed_partner_correct_rate": 0.2283964697666036,
+      "full_success_rate": 0.0334727643169325,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.09982498085068037,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.5660964815941245,
+      "physical_pair_rate": 0.5660964815941245,
+      "reward_mean": 0.15509162456632425,
+      "rule": "strict",
+      "update": 500
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.17913449299360187,
+      "executed_partner_correct_rate": 0.17913449299360187,
+      "full_success_rate": 0.03868109765026583,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.08985378227223574,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.46539200487744437,
+      "physical_pair_rate": 0.46539200487744437,
+      "reward_mean": 0.15131341804091197,
+      "rule": "strict",
+      "update": 1500
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.17405305910381183,
+      "executed_partner_correct_rate": 0.17405305910381183,
+      "full_success_rate": 0.0371635844710282,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.08684621265882671,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.4706892206226908,
+      "physical_pair_rate": 0.4706892206226908,
+      "reward_mean": 0.15055738952532216,
+      "rule": "strict",
+      "update": 3000
+    },
+    {
+      "condition": "partial_strict_PL_silent",
+      "correct_executed_pair_rate": 0.16662864963503649,
+      "executed_partner_correct_rate": 0.16662864963503649,
+      "full_success_rate": 0.03835742486708119,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.08680097943137785,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.451134209977922,
+      "physical_pair_rate": 0.451134209977922,
+      "reward_mean": 0.15029716646390917,
+      "rule": "strict",
+      "update": 6000
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.0031953667094710278,
+      "executed_partner_correct_rate": 0.0031953667094710278,
+      "full_success_rate": 0.00034954548526628813,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.229286738727701e-07,
+      "live": true,
+      "material_identity_correct_rate": 0.0022671175205010363,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.009820010475804272,
+      "physical_pair_rate": 0.009820010475804272,
+      "reward_mean": 0.002061895951608543,
+      "rule": "strict",
+      "update": 0
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.24146376836081823,
+      "executed_partner_correct_rate": 0.24146376836081823,
+      "full_success_rate": 0.04786942698477066,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.14137706840812833,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.6340272849644049,
+      "physical_pair_rate": 0.6340272849644049,
+      "reward_mean": 0.18163191276358476,
+      "rule": "strict",
+      "update": 100
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.29943833355861943,
+      "executed_partner_correct_rate": 0.29943833355861943,
+      "full_success_rate": 0.053785123513111655,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.16752380992610616,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.8825750695570875,
+      "physical_pair_rate": 0.8825750695570875,
+      "reward_mean": 0.27147645478507704,
+      "rule": "strict",
+      "update": 500
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.3243681780548797,
+      "executed_partner_correct_rate": 0.3243681780548797,
+      "full_success_rate": 0.07797117182571867,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.2255687770343336,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9717126883955123,
+      "physical_pair_rate": 0.9717126883955123,
+      "reward_mean": 0.3851275788219789,
+      "rule": "strict",
+      "update": 1500
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.32830628491934755,
+      "executed_partner_correct_rate": 0.32830628491934755,
+      "full_success_rate": 0.07983682245201405,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.221561676297648,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9832647618725782,
+      "physical_pair_rate": 0.9832647618725782,
+      "reward_mean": 0.3865833143248175,
+      "rule": "strict",
+      "update": 3000
+    },
+    {
+      "condition": "partial_strict_PL_live",
+      "correct_executed_pair_rate": 0.3295863676556727,
+      "executed_partner_correct_rate": 0.3295863676556727,
+      "full_success_rate": 0.08056442619626926,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.21921482861358926,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9873830976277372,
+      "physical_pair_rate": 0.9873830976277372,
+      "reward_mean": 0.3829017344214653,
+      "rule": "strict",
+      "update": 6000
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.030814916193565828,
+      "executed_partner_correct_rate": 0.030814916193565828,
+      "full_success_rate": 0.003954123299089844,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.00047345241925072644,
+      "live": false,
+      "material_identity_correct_rate": 0.0227584735739389,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.09317904050644318,
+      "physical_pair_rate": 0.09317904050644318,
+      "reward_mean": 0.020745682954852664,
+      "rule": "reciprocal",
+      "update": 0
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.2910386816256646,
+      "executed_partner_correct_rate": 0.2910386816256646,
+      "full_success_rate": 0.0606579340136974,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.04430014363483296,
+      "live": false,
+      "material_identity_correct_rate": 0.17097385554654412,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.770872758403172,
+      "physical_pair_rate": 0.770872758403172,
+      "reward_mean": 0.22750799765702442,
+      "rule": "reciprocal",
+      "update": 100
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.29507323910741645,
+      "executed_partner_correct_rate": 0.29507323910741645,
+      "full_success_rate": 0.04417473472560152,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.05181301966162451,
+      "live": false,
+      "material_identity_correct_rate": 0.13745585800216273,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.8158821077768766,
+      "physical_pair_rate": 0.8158821077768766,
+      "reward_mean": 0.22119585037059566,
+      "rule": "reciprocal",
+      "update": 500
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.2510030512187979,
+      "executed_partner_correct_rate": 0.2510030512187979,
+      "full_success_rate": 0.0512504787329909,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.04246418416288291,
+      "live": false,
+      "material_identity_correct_rate": 0.14095905706497253,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.707540959831486,
+      "physical_pair_rate": 0.707540959831486,
+      "reward_mean": 0.23498468054429125,
+      "rule": "reciprocal",
+      "update": 1500
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.23153146683788411,
+      "executed_partner_correct_rate": 0.23153146683788411,
+      "full_success_rate": 0.048695945413174735,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03737798027771776,
+      "live": false,
+      "material_identity_correct_rate": 0.13272590565017572,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.6663033928088673,
+      "physical_pair_rate": 0.6663033928088673,
+      "reward_mean": 0.22932841505587093,
+      "rule": "reciprocal",
+      "update": 3000
+    },
+    {
+      "condition": "partial_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.22487514221185906,
+      "executed_partner_correct_rate": 0.22487514221185906,
+      "full_success_rate": 0.04701633183518068,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03639453293172822,
+      "live": false,
+      "material_identity_correct_rate": 0.12924646723213482,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.6533024480152294,
+      "physical_pair_rate": 0.6533024480152294,
+      "reward_mean": 0.22573624557876004,
+      "rule": "reciprocal",
+      "update": 6000
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.02586090976164729,
+      "executed_partner_correct_rate": 0.02586090976164729,
+      "full_success_rate": 0.002867645816436875,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0003572561043992253,
+      "live": true,
+      "material_identity_correct_rate": 0.01924541824366946,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.07816882518924034,
+      "physical_pair_rate": 0.07816882518924034,
+      "reward_mean": 0.01650960000450572,
+      "rule": "reciprocal",
+      "update": 0
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3047529737766964,
+      "executed_partner_correct_rate": 0.3047529737766964,
+      "full_success_rate": 0.060173040855636656,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.04642910663383461,
+      "live": true,
+      "material_identity_correct_rate": 0.1849241701022799,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.8301685914548977,
+      "physical_pair_rate": 0.8301685914548977,
+      "reward_mean": 0.2351940382254213,
+      "rule": "reciprocal",
+      "update": 100
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.37245338689510676,
+      "executed_partner_correct_rate": 0.37245338689510676,
+      "full_success_rate": 0.07589484348247275,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.07680896386617957,
+      "live": true,
+      "material_identity_correct_rate": 0.195645149026764,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9512267884901324,
+      "physical_pair_rate": 0.9512267884901324,
+      "reward_mean": 0.31025699513382,
+      "rule": "reciprocal",
+      "update": 500
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.33535756426286384,
+      "executed_partner_correct_rate": 0.33535756426286384,
+      "full_success_rate": 0.07428739186266559,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.07529118026321592,
+      "live": true,
+      "material_identity_correct_rate": 0.22573228547129853,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9797474824276832,
+      "physical_pair_rate": 0.9797474824276832,
+      "reward_mean": 0.36980697908218435,
+      "rule": "reciprocal",
+      "update": 1500
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3410646951315671,
+      "executed_partner_correct_rate": 0.3410646951315671,
+      "full_success_rate": 0.07794565113318916,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.07687535798668217,
+      "live": true,
+      "material_identity_correct_rate": 0.2295595093268451,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9874290348742903,
+      "physical_pair_rate": 0.9874290348742903,
+      "reward_mean": 0.3799665027710192,
+      "rule": "reciprocal",
+      "update": 3000
+    },
+    {
+      "condition": "partial_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.3426381778295936,
+      "executed_partner_correct_rate": 0.3426381778295936,
+      "full_success_rate": 0.08074817518248176,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.07827393452399409,
+      "live": true,
+      "material_identity_correct_rate": 0.23186798796972152,
+      "partition": "heldout_resource",
+      "payoff": "partial",
+      "physical_execution_rate": 0.9892869412904388,
+      "physical_pair_rate": 0.9892869412904388,
+      "reward_mean": 0.38441352744548074,
+      "rule": "reciprocal",
+      "update": 6000
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.003547024252050104,
+      "executed_partner_correct_rate": 0.003547024252050104,
+      "full_success_rate": 0.00036784998197711096,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -5.358320030692098e-07,
+      "live": false,
+      "material_identity_correct_rate": 0.002566325639812562,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.010913528149499866,
+      "physical_pair_rate": 0.010913528149499866,
+      "reward_mean": 0.0022967743252680904,
+      "rule": "strict",
+      "update": 0
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.0,
+      "executed_partner_correct_rate": 0.0,
+      "full_success_rate": 0.0,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": false,
+      "material_identity_correct_rate": 0.0,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.0,
+      "physical_pair_rate": 0.0,
+      "reward_mean": 0.0,
+      "rule": "strict",
+      "update": 100
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.0014328548819500767,
+      "executed_partner_correct_rate": 0.0014328548819500767,
+      "full_success_rate": 0.0014208865571776158,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.2371401107456362e-07,
+      "live": false,
+      "material_identity_correct_rate": 0.0014442951923943409,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.0014874163625304138,
+      "physical_pair_rate": 0.0014874163625304138,
+      "reward_mean": 0.0014541514598540146,
+      "rule": "strict",
+      "update": 500
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.005271167038388753,
+      "executed_partner_correct_rate": 0.005271167038388753,
+      "full_success_rate": 0.005269406990628098,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -1.935160108083235e-06,
+      "live": false,
+      "material_identity_correct_rate": 0.00527011100973236,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.005273279095701541,
+      "physical_pair_rate": 0.005273279095701541,
+      "reward_mean": 0.005271343043164819,
+      "rule": "strict",
+      "update": 1500
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.0055339421690547,
+      "executed_partner_correct_rate": 0.0055339421690547,
+      "full_success_rate": 0.0055323581260701095,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.6601155882025543e-06,
+      "live": false,
+      "material_identity_correct_rate": 0.0055339421690547,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.005539046307560603,
+      "physical_pair_rate": 0.005539046307560603,
+      "reward_mean": 0.005535702216815356,
+      "rule": "strict",
+      "update": 3000
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_silent",
+      "correct_executed_pair_rate": 0.005123675036045779,
+      "executed_partner_correct_rate": 0.005123675036045779,
+      "full_success_rate": 0.005123675036045779,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.242494682576047e-06,
+      "live": false,
+      "material_identity_correct_rate": 0.005128603169775614,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.005135643360818239,
+      "physical_pair_rate": 0.005135643360818239,
+      "reward_mean": 0.005129659198432009,
+      "rule": "strict",
+      "update": 6000
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.0031953667094710278,
+      "executed_partner_correct_rate": 0.0031953667094710278,
+      "full_success_rate": 0.00034954548526628813,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -2.229286738727701e-07,
+      "live": true,
+      "material_identity_correct_rate": 0.0022671175205010363,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.009820010475804272,
+      "physical_pair_rate": 0.009820010475804272,
+      "reward_mean": 0.002061895951608543,
+      "rule": "strict",
+      "update": 0
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.0,
+      "executed_partner_correct_rate": 0.0,
+      "full_success_rate": 0.0,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": 0.0,
+      "live": true,
+      "material_identity_correct_rate": 0.0,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.0,
+      "physical_pair_rate": 0.0,
+      "reward_mean": 0.0,
+      "rule": "strict",
+      "update": 100
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.1642626174303866,
+      "executed_partner_correct_rate": 0.1642626174303866,
+      "full_success_rate": 0.04188684864152474,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.004498922407269143,
+      "live": true,
+      "material_identity_correct_rate": 0.04742589494908534,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.19308163946336848,
+      "physical_pair_rate": 0.19308163946336848,
+      "reward_mean": 0.08307319827430837,
+      "rule": "strict",
+      "update": 500
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.36042187640803824,
+      "executed_partner_correct_rate": 0.36042187640803824,
+      "full_success_rate": 0.1702749405807876,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.026798935702685274,
+      "live": true,
+      "material_identity_correct_rate": 0.17710269385870056,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.4839680769577363,
+      "physical_pair_rate": 0.4839680769577363,
+      "reward_mean": 0.30652437384540865,
+      "rule": "strict",
+      "update": 1500
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.3903252638663603,
+      "executed_partner_correct_rate": 0.3903252638663603,
+      "full_success_rate": 0.20679452357619177,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03225047433110449,
+      "live": true,
+      "material_identity_correct_rate": 0.21802785240380285,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.5422237217829143,
+      "physical_pair_rate": 0.5422237217829143,
+      "reward_mean": 0.3506173543525277,
+      "rule": "strict",
+      "update": 3000
+    },
+    {
+      "condition": "all_or_nothing_strict_PL_live",
+      "correct_executed_pair_rate": 0.39993072452014056,
+      "executed_partner_correct_rate": 0.39993072452014056,
+      "full_success_rate": 0.2562759783049473,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03217444406959015,
+      "live": true,
+      "material_identity_correct_rate": 0.26753359579165537,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.5421992571190412,
+      "physical_pair_rate": 0.5421992571190412,
+      "reward_mean": 0.38480997820356855,
+      "rule": "strict",
+      "update": 6000
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.030814916193565828,
+      "executed_partner_correct_rate": 0.030814916193565828,
+      "full_success_rate": 0.003954123299089844,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.00047345241925072644,
+      "live": false,
+      "material_identity_correct_rate": 0.0227584735739389,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.09317904050644318,
+      "physical_pair_rate": 0.09317904050644318,
+      "reward_mean": 0.020745682954852664,
+      "rule": "reciprocal",
+      "update": 0
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.11314590232720555,
+      "executed_partner_correct_rate": 0.11314590232720555,
+      "full_success_rate": 0.023900920575380735,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.004875806551444231,
+      "live": false,
+      "material_identity_correct_rate": 0.04936177148103091,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.24129480377579524,
+      "physical_pair_rate": 0.24129480377579524,
+      "reward_mean": 0.08035242844349824,
+      "rule": "reciprocal",
+      "update": 100
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.11844734218707759,
+      "executed_partner_correct_rate": 0.11844734218707759,
+      "full_success_rate": 0.04867640888303145,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.004204940760581271,
+      "live": false,
+      "material_identity_correct_rate": 0.07789038563350455,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.22072846968775345,
+      "physical_pair_rate": 0.22072846968775345,
+      "reward_mean": 0.11612997530300982,
+      "rule": "reciprocal",
+      "update": 500
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.11182129038253583,
+      "executed_partner_correct_rate": 0.11182129038253583,
+      "full_success_rate": 0.05695162543930792,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.003379376070663058,
+      "live": false,
+      "material_identity_correct_rate": 0.08181194804902225,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.19277539115301434,
+      "physical_pair_rate": 0.19277539115301434,
+      "reward_mean": 0.11362903543750563,
+      "rule": "reciprocal",
+      "update": 1500
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.0937961132513292,
+      "executed_partner_correct_rate": 0.0937961132513292,
+      "full_success_rate": 0.06807935140127962,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0017414246312241555,
+      "live": false,
+      "material_identity_correct_rate": 0.08058959487924665,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.13148471996936106,
+      "physical_pair_rate": 0.13148471996936106,
+      "reward_mean": 0.09655349207556096,
+      "rule": "reciprocal",
+      "update": 3000
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_silent",
+      "correct_executed_pair_rate": 0.08732582567360547,
+      "executed_partner_correct_rate": 0.08732582567360547,
+      "full_success_rate": 0.07757516107957105,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0010578870140930821,
+      "live": false,
+      "material_identity_correct_rate": 0.08270957240695684,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.10240239479138506,
+      "physical_pair_rate": 0.10240239479138506,
+      "reward_mean": 0.08929338306524287,
+      "rule": "reciprocal",
+      "update": 6000
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.02586090976164729,
+      "executed_partner_correct_rate": 0.02586090976164729,
+      "full_success_rate": 0.002867645816436875,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.0003572561043992253,
+      "live": true,
+      "material_identity_correct_rate": 0.01924541824366946,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.07816882518924034,
+      "physical_pair_rate": 0.07816882518924034,
+      "reward_mean": 0.01650960000450572,
+      "rule": "reciprocal",
+      "update": 0
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.13533852054609355,
+      "executed_partner_correct_rate": 0.13533852054609355,
+      "full_success_rate": 0.02945492728890691,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.007229150937504822,
+      "live": true,
+      "material_identity_correct_rate": 0.059341242283950615,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.2838457184374155,
+      "physical_pair_rate": 0.2838457184374155,
+      "reward_mean": 0.09567954036000721,
+      "rule": "reciprocal",
+      "update": 100
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.32803013342570064,
+      "executed_partner_correct_rate": 0.32803013342570064,
+      "full_success_rate": 0.10103307763359468,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.03394913317512495,
+      "live": true,
+      "material_identity_correct_rate": 0.15303228068396862,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.5489772010453275,
+      "physical_pair_rate": 0.5489772010453275,
+      "reward_mean": 0.24716605909817968,
+      "rule": "reciprocal",
+      "update": 500
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.4864365439420564,
+      "executed_partner_correct_rate": 0.4864365439420564,
+      "full_success_rate": 0.21046897528611336,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.06291679233918146,
+      "live": true,
+      "material_identity_correct_rate": 0.25897289948860047,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.7608337979859421,
+      "physical_pair_rate": 0.7608337979859421,
+      "reward_mean": 0.4408927560658286,
+      "rule": "reciprocal",
+      "update": 1500
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.4766695109038479,
+      "executed_partner_correct_rate": 0.4766695109038479,
+      "full_success_rate": 0.28221380215373526,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.05506204640950823,
+      "live": true,
+      "material_identity_correct_rate": 0.3295608469631432,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.7132327782846715,
+      "physical_pair_rate": 0.7132327782846715,
+      "reward_mean": 0.4705043276054339,
+      "rule": "reciprocal",
+      "update": 3000
+    },
+    {
+      "condition": "all_or_nothing_reciprocal_PL_live",
+      "correct_executed_pair_rate": 0.4969869742385329,
+      "executed_partner_correct_rate": 0.4969869742385329,
+      "full_success_rate": 0.3299304569928809,
+      "heldout_changed_actor_Q": 0.0,
+      "heldout_changed_actor_Q_excess": -0.05451969817809857,
+      "live": true,
+      "material_identity_correct_rate": 0.3714538557718302,
+      "partition": "heldout_resource",
+      "payoff": "all_or_nothing",
+      "physical_execution_rate": 0.7085607315040101,
+      "physical_pair_rate": 0.7085607315040101,
+      "reward_mean": 0.4973846570300532,
+      "rule": "reciprocal",
+      "update": 6000
+    }
+  ]
+}

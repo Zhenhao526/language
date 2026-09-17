@@ -1,0 +1,7 @@
+{
+  "status": "prepared_static_only",
+  "plan_sha256": "50687c059d696344af0473abf035e9317f2ecdcd188571e1b5c09cdc98e24493",
+  "prepared_sha256": "4d785283254300dada4c2642e75f345db8a4def0f6a36b3766a0fb5c49940c43",
+  "no_training": true,
+  "no_model_calls": true
+}

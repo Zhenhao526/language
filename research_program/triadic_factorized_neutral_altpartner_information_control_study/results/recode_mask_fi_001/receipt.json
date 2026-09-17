@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "e0b8d6bc76adade526097e901c75d9c6aee5b4a3beba2bee0fa50c5f68a4fb8f",
+  "neural_forward_samples": 0,
+  "optimizer_updates": 0,
+  "plan_sha256": "adafbffa50855b88c5f26ac86ea9134d36b451642f99efe17754cf21edf8b092",
+  "prepared_sha256": "3c430bfecc0b304dd6a0b7d0855651a87db61b551bc724eafb4207cae33652ea",
+  "status": "prepared_static_only"
+}

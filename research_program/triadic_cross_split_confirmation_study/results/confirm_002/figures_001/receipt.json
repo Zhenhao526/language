@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "results": "research_program/triadic_cross_split_confirmation_study/results/confirm_002/execution/results.json",
+  "outputs": [
+    "cross_split_trajectories.png",
+    "cross_split_trajectories.pdf",
+    "interaction_summary.png",
+    "interaction_summary.pdf",
+    "q_seed_forest.png",
+    "q_seed_forest.pdf"
+  ],
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "visual_review": "passed"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_conflict_penalty_study/results/conflict_001",
+  "summary": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_conflict_penalty_study/results/summary_conflict_001",
+  "files": [
+    "dose_response_trajectories.pdf",
+    "dose_response_trajectories.png",
+    "dose_slope.pdf",
+    "dose_slope.png",
+    "mechanism_decomposition.pdf",
+    "mechanism_decomposition.png",
+    "penalized_reward.pdf",
+    "penalized_reward.png"
+  ],
+  "figure_sha256": {
+    "dose_response_trajectories.pdf": "2501e2dbd9947f56d133153155a385b1c3501d0e8cdd09a28afcccac5be4b7d1",
+    "dose_response_trajectories.png": "1353813853bc4159c46f7bf1e9eb9befeb9d5418d8aaf88efa692ce11aa3718d",
+    "dose_slope.pdf": "da97514048c80f16d197321ec11c4e7e1ce2f33ee5be7e9da1b8f4adcee0ad9a",
+    "dose_slope.png": "e43fdf14fca7f0436c9d1241e26a92a17dc34626bccc0e5a5fae96131addc18b",
+    "mechanism_decomposition.pdf": "26f4e770f1752bb0960aebf524eab87afe71b5b8e1e8106541e2414bcca81c3b",
+    "mechanism_decomposition.png": "ac05926a221581afaaa9a9522467774cc0ec89ca6e3ef93a20b8e8731e252961",
+    "penalized_reward.pdf": "ccebb8cb8d70efd7778cb398b22588bf24ec56b5610fdc2c24b91bb2f99e2863",
+    "penalized_reward.png": "773c744ba4b9cf339d01f7ca81452c59207f18b74976dcdd5df3466c078eeb3d"
+  },
+  "visual_review": "passed"
+}

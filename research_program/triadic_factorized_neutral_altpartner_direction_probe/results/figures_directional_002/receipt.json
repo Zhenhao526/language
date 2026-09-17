@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "figures": [
+    "directional_transfer_conditions.png",
+    "directional_transfer_forest.png"
+  ],
+  "source": "directional_002/execution/results.json",
+  "plot_definition": "mean of three sender plan_transfer values; seed-level paired interaction"
+}

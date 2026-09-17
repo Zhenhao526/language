@@ -1,0 +1,23 @@
+{
+  "status": "completed_read_only_summary_and_authored_report_draft",
+  "created_at": "2026-09-15T15:00:07.776040+00:00",
+  "summary_self_test": {
+    "synthetic_checks_passed": 8,
+    "actual_real_run_reads_during_test": 0,
+    "repeated_for_receipt": false
+  },
+  "source_sha256": "a58fe07f96f52371f645581a9b3ddf3e49053addf59bf4c152f4d90e5fd57f43",
+  "all_summary_input_hashes_still_match": true,
+  "real_final_rows": 16,
+  "seed_count": 4,
+  "model_forward_calls_by_summary": 0,
+  "optimizer_updates_by_summary": 0,
+  "draft_execution_audit_status": "pending; root will update report when independent execution audit is available",
+  "output_sha256": {
+    "research_program/triadic_learning_baseline/results/learning_001/summary_001/summary.json": "0a6b0492b91759c9340ba9b7d032609e138da33bc6e181e1693a555fb8d393cb",
+    "research_program/triadic_learning_baseline/results/learning_001/summary_001/结果与下一步.md": "4793b688172af086ccd6cfc988727051e6d2bd8d69458c5bf3210c3bc368233e",
+    "research_program/triadic_learning_baseline/results/learning_001/summary_001/monitor_endpoint_comparison.json": "1c2eb2838bb8283b632ae60323c9e644e3fe67aa6b598600a0c7a9ca31009c9b",
+    "research_program/triadic_learning_baseline/结果与下一步.md": "4375c5ff6c50c6e6ebb7479e7775bb401bcbc4092f7d3f83b1a567ee4c89a009"
+  },
+  "report_status": "Authored draft hash, not a claim this report will remain unchanged after root adds independent audit evidence."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "invalid_by_information_remap",
+  "at": "2026-09-17",
+  "scope": "All 32 runs in fi_001; the static arms have FI inputs, while rematched arms were transformed by a PL remap.",
+  "reason": "runner.py aliases x_FI to x_PL and calls the audited PL source_runner.remap_batch. That remap clears other-actor need blocks, so rematched FI live/silent did not retain full information.",
+  "affected_estimand": "rematching_by_communication_target_pair_legal_rate",
+  "raw_results_preserved": true,
+  "checkpoint_or_log_modified": false,
+  "raw_aggregation_must_not_enter_paper": true,
+  "source_sha256": {
+    "research_program/triadic_factorized_neutral_altpartner_fi_capacity_pilot/runner.py": "e31b951806bf352d60f598706a3ec0ca362c9a7d78fff1fc252cbc5e619941d6",
+    "research_program/triadic_factorized_neutral_altpartner_study/remap.py": "6551b0e72149c31a9a485a4d49b5d67ddbbf05ac45298e8803612633a866e2b6",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/remap.py": "054d362557d2c8ee01502b25cb16efdbd2da472886ef6dda78a534a909a53750"
+  },
+  "replacement": "Use triadic_factorized_neutral_altpartner_information_control_study/results/fi_001 with its dedicated FI remap and 16 seeds.",
+  "audit_interpretation": "max_abs_error=0 confirms replay of saved files only; it does not validate the intended information condition."
+}

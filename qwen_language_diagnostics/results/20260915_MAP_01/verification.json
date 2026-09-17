@@ -1,0 +1,371 @@
+{
+  "audited_at": "2026-09-15T17:09:26.209219+08:00",
+  "status": "verified",
+  "errors": [],
+  "scope": {
+    "model_calls": 16,
+    "formal_judgments": 8,
+    "distinct_statement_count": 4,
+    "formal_correct": 6,
+    "symbolic_started": false
+  },
+  "checks": {
+    "completed": true,
+    "prepared_cases_sha256": true,
+    "source_files": {
+      "qwen_language_diagnostics/__init__.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/experiment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/history_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/environment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/agents.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/backend.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/protocol.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/run.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/probe.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/execute_locked_pipeline.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/action_semantics.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/semantic_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/map_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/map_presentation.py": {
+        "current": true,
+        "snapshot": true
+      }
+    },
+    "v3_source_records": {
+      "manifest.json": true,
+      "steps.jsonl": true,
+      "inference.jsonl": true,
+      "episodes.jsonl": true
+    },
+    "prior_RS_M_records": {
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_R_S_01/inference.jsonl": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/manifest.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/prepared_cases.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/results.json": true,
+      "/Users/xia/Documents/ChatGPT/语言/qwen_language_diagnostics/results/20260915_M_01/inference.jsonl": true
+    },
+    "case_reconstruction": true,
+    "actual_cases": [
+      {
+        "case_id": "G1_original",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "G1_explicit_edges",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "G2_original",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "G2_explicit_edges",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "J1_original",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "J1_explicit_edges",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "J2_original",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      },
+      {
+        "case_id": "J2_explicit_edges",
+        "checks": {
+          "source_state_and_literal_only": true,
+          "empty_history_and_broadcast": true,
+          "statement_and_answers": true,
+          "correct_map_in_complete_rules": true,
+          "analysis_prompt": true,
+          "formal_same_decision_analysis": true,
+          "mode_label": true,
+          "seed_and_temperature": true,
+          "fresh_cache_native_thinking_valid": true,
+          "formal_choice_scoring": true,
+          "call_ids": true
+        }
+      }
+    ],
+    "template_render_sha256": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true,
+      "16": true
+    }
+  },
+  "environment_truths": {
+    "G1": true,
+    "G2": false,
+    "J1": true,
+    "J2": false
+  },
+  "environment_facts": {
+    "B_wait_is_legal_at_river": true,
+    "J1_B_wait_succeeded": true,
+    "J1_both_carry_succeeded": true,
+    "J2_each_proposal_individually_legal": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "J2_both_joint_actions_failed": true
+  },
+  "by_representation": [
+    {
+      "representation": "original",
+      "correct": 3,
+      "judgments": 4
+    },
+    {
+      "representation": "explicit_edges",
+      "correct": 3,
+      "judgments": 4
+    }
+  ],
+  "pairs": [
+    {
+      "question_id": "G1",
+      "truth": true,
+      "original_correct": true,
+      "explicit_edges_correct": true,
+      "answer_meaning_changed": false,
+      "only_system_map_sentence_changed": true,
+      "original_choice": 0,
+      "explicit_edges_choice": 0,
+      "analysis_input_tokens_delta": 8,
+      "analysis_text_equal": false
+    },
+    {
+      "question_id": "G2",
+      "truth": false,
+      "original_correct": true,
+      "explicit_edges_correct": true,
+      "answer_meaning_changed": false,
+      "only_system_map_sentence_changed": true,
+      "original_choice": 1,
+      "explicit_edges_choice": 1,
+      "analysis_input_tokens_delta": 8,
+      "analysis_text_equal": false
+    },
+    {
+      "question_id": "J1",
+      "truth": true,
+      "original_correct": false,
+      "explicit_edges_correct": false,
+      "answer_meaning_changed": false,
+      "only_system_map_sentence_changed": true,
+      "original_choice": 1,
+      "explicit_edges_choice": 1,
+      "analysis_input_tokens_delta": 8,
+      "analysis_text_equal": false
+    },
+    {
+      "question_id": "J2",
+      "truth": false,
+      "original_correct": true,
+      "explicit_edges_correct": true,
+      "answer_meaning_changed": false,
+      "only_system_map_sentence_changed": true,
+      "original_choice": 1,
+      "explicit_edges_choice": 1,
+      "analysis_input_tokens_delta": 8,
+      "analysis_text_equal": true
+    }
+  ],
+  "anchor_reproduction": {
+    "case_id": "J1_original",
+    "source_case_id": "M1_affirm_first",
+    "source_call_ids": [
+      1,
+      2
+    ],
+    "new_call_ids": [
+      9,
+      10
+    ],
+    "checks": {
+      "analysis_input_exact": true,
+      "analysis_render_sha_exact": true,
+      "analysis_text_exact": true,
+      "formal_input_exact": true,
+      "formal_render_sha_exact": true,
+      "formal_output_exact": true,
+      "both_seeds_match": true
+    },
+    "both_stages_exact": true
+  },
+  "finish_reasons": {
+    "private_analysis": {
+      "stop": 8,
+      "length": 0
+    },
+    "action": {
+      "stop": 8,
+      "length": 0
+    }
+  },
+  "backend_stats": {
+    "calls": 16,
+    "load_seconds": 2.239133208990097,
+    "inference_seconds": 21.943403915967792,
+    "generation_tokens_by_mode": {
+      "private_analysis": 568,
+      "action": 16
+    },
+    "max_prompt_tokens": 1639,
+    "peak_mlx_memory_gb": 10.319153786
+  },
+  "audit_loaded_model_weights": false,
+  "audit_new_inference_calls": 0,
+  "model_weight_files_fully_hashed": false,
+  "evidence_limits": [
+    "Both representations score3/4 in the same fixed state; no formal-answer improvement was observed, not proof of no presentation effect in general.",
+    "Explicit edges changed the J1 analysis from an invalid road-distance claim to an invalid claim that B cannot wait from a different site; both formal answers remain false.",
+    "J1_original reproduces the prior M1 exactly; it is a replay anchor, not an independent performance sample.",
+    "Only the map sentence changed, including its length and salience. The current observation map list remains unchanged.",
+    "The stated counterpart actions are hypothetical task information, not actual renewed agent coordination; no language-emergence conclusion follows."
+  ]
+}

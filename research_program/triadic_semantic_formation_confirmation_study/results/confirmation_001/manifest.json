@@ -1,0 +1,26 @@
+{
+  "axis_weighting": "equal kind, length and destination axes after case-level aggregation",
+  "batch_size": 256,
+  "candidate": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
+  "candidate_sha256": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "ecology": "unique",
+  "no_optimizer_updates": true,
+  "no_training_by_prepare": true,
+  "partitions": [
+    "train",
+    "heldout_layouts"
+  ],
+  "schema": "triadic_semantic_formation_confirmation_manifest_v1",
+  "seeds": [
+    49301,
+    49302,
+    49303,
+    49304
+  ],
+  "semantic_readout": "aligned minus cyclic stratum-misaligned source-message placebo on fixed-role disjoint-action cases",
+  "updates": 6000
+}

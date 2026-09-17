@@ -1,0 +1,373 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T03:57:30.312902+00:00",
+  "review_type": "Read-only report consistency and interpretation review; no new independent model replay",
+  "report_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/结果与下一步.md",
+  "report_sha256": "efad6bd5ae4669b5b7760c9e59b8f5c2daad7ec15bfd9b349fe8951811e1461d",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/结果与下一步.md": "efad6bd5ae4669b5b7760c9e59b8f5c2daad7ec15bfd9b349fe8951811e1461d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/plan.md": "422e50e10b4a01522e10533c4c16c08638fd0ad53ba1f1316fabff86dc4292fc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/main_preflight.json": "05db384730ab31dffa0847c6a979a1c6604b0a742f1725614a83ba6c198b3935",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/kernel_preflight_001.json": "9c4828112256e6eda5fc5db942308c41340bcd8160cc3e0368991620d08f5687",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/environment_preflight_001.json": "d4582153fa8dc4d71d852345ef87c130951acba808f331ba0c872ef66d65a6b9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/audit_preflight_001.json": "968edaf9a2711b9598939cf831d72bc312f1b2e005497a4410f6322241ae13e8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/summary_preflight_001.json": "c448283f2950b27f1a51d6328240bb4c5413d26b2b7fba4441460aa3b1025858",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/plot_preflight_001.json": "e56c3c5a39757eb382867102b8d6cf7deab8916b2a8698af77d1b11e571e3650",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/prepared.json": "4bfeba14c0fb886c74264346f6e3163d710df7134581917e3ee3db04f0484c5a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/freeze.json": "5c72e53c1466e6c55060ad34b6cb788fdd8344f62c273273a51f866073fd8cdd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/status.json": "341d683078f5706f64767f8502d3e0f1ca949783691f382650de20ec7f70c432",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/results.json": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/summary_001/descriptive_summary.json": "3baf3074c1e88ce356d56f0faa284e4cf56d8ce97ffdfc479dc1b8ec83e962ef",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/summary_001/receipt.json": "cd03c8374ec9ef5de6a511e63d41166d2e2250b50e52af358ae378ca6732c58b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/audit_execution_001/verification.json": "a0c375dc60833f1b4ce911125454bc2ea2d94a13aab14bfc4d9a4856c82ae638"
+  },
+  "checks": [
+    {
+      "id": "identities",
+      "status": "passed",
+      "finding": "Report four embedded SHA values equal actual plan/main/audit/summary JSON hashes; completed sources used."
+    },
+    {
+      "id": "primary_exact",
+      "status": "passed",
+      "finding": "Main, descriptive summary and independent audit primary objects exactly equal."
+    },
+    {
+      "id": "full_tables",
+      "status": "passed",
+      "finding": "Four report tables,73 numeric cells, match source values rounded directly from full precision; never recompute a difference from displayed rounded means."
+    },
+    {
+      "id": "all_evaluation_records",
+      "status": "passed",
+      "finding": "All224 evaluation records match audit metrics recursively, including both cross-settlements;362506 recursive nodes compared,0 mismatches at2e-12 numeric tolerance. Declared NPZ hashes match audit declarations;NPZ not opened."
+    },
+    {
+      "id": "primary_signs",
+      "status": "passed",
+      "finding": "Full success gain3.167936081242533 percentage points;three positive paired differences and one negative. Seed57103 remains negative and57104 remains the largest positive difference."
+    },
+    {
+      "id": "primary_scope",
+      "status": "passed",
+      "finding": "All four reciprocal double-holdout full-success values below1/3. Larger executed-partner improvement retained as auxiliary, not substituted for task primary."
+    },
+    {
+      "id": "roles",
+      "status": "passed",
+      "finding": "Four executed-partner contrasts positive;reported rates and11.1895-point mean match JSON."
+    },
+    {
+      "id": "all_domain_pairs",
+      "status": "passed",
+      "finding": "All8 policies,all4 complete domains counted. Strict policies use onlyAC for57101/57104 orAB for57102/57103 when executing;no-execution counts retained."
+    },
+    {
+      "id": "new_each_domain_pairs",
+      "status": "passed",
+      "finding": "Every reciprocal policy usesAB,AC,BC in every complete domain;four aggregate count-table rows verified against raw main histograms and summary."
+    },
+    {
+      "id": "wait_proposals",
+      "status": "passed",
+      "finding": "Every strict final proposal vector has exactly one wait;every reciprocal final proposal vector has zero waits across all4 domains. Strict proposal-role accuracy1/3 and reciprocal0 verified."
+    },
+    {
+      "id": "ignored",
+      "status": "passed",
+      "finding": "For every reciprocal final domain,ignored-proposal world rate equals physical execution rate;third proposal can persist without executing."
+    },
+    {
+      "id": "background_bound",
+      "status": "passed",
+      "finding": "Independent static need-acceptance counting from prepared JSON gives1296 training needs and496 held-out needs per true pair;Cartesian full layouts/owners preserve balance at each background. Above1/3 actual correct-pair rates exclude a policy independent of all needs, not all heuristics."
+    },
+    {
+      "id": "cross_settlement",
+      "status": "passed",
+      "finding": "EndpointSS=SR andRS=0 for all seeds. Old-policy mechanical release zero;common-new-rule policy difference equals primary. Two routes are algebraic and do not identify a unique mechanism."
+    },
+    {
+      "id": "generalization",
+      "status": "passed",
+      "finding": "Allfour complete-domain full-success and executed-partner means match the report."
+    },
+    {
+      "id": "content_axes",
+      "status": "passed",
+      "finding": "Four double-holdout content-axis/identity means match;report correctly specifies actual execution plus axis match without an added correct-partner requirement."
+    },
+    {
+      "id": "outcome_partition",
+      "status": "passed",
+      "finding": "Mutually exclusive all-world partition computed from full-precision physical/pair/full means:6.3522% no execution,51.9391% wrong executing pair,10.9534% correct pair but not full,30.7553% full. All four match the report and sum1 before rounding."
+    },
+    {
+      "id": "monitor",
+      "status": "passed",
+      "finding": "All6 saved actor-training monitor means and6000 strict monitor full success match;2976 double-holdout monitor worlds separate from53568 full endpoint worlds. No language-formation or decoder-training interpretation used."
+    },
+    {
+      "id": "initial_pairing",
+      "status": "passed",
+      "finding": "Paired initial parameter/checkpoint declarations and all4-domain initial proposal histograms equal;different step0 scores are physically compatible with changed settlement."
+    },
+    {
+      "id": "budget",
+      "status": "passed",
+      "finding": "Main/prepared/summary budget objects exactly equal.48000 updates,12288000 sampled training worlds,24576000 trajectories,221184000 training module samples;48checkpoints/192monitor/32final;65028096 evaluation module samples."
+    },
+    {
+      "id": "audit_scope",
+      "status": "passed",
+      "finding": "Independent audit passed102.31370499997865s;6193152 endpoint worlds,55738368 module samples;max probability error0,max conditional error6.439293542825908e-15. Report explicitly excludes optimizer/gradient/sampled-message/intermediate-forward replay."
+    },
+    {
+      "id": "preflights",
+      "status": "passed",
+      "finding": "20 distinct main component tests and648 scratch forward-module samples,0optimizer updates match receipts. Environment unsigned sentinel failure,audit test-import syntax failure,two mocked runner invocations retained. Summary andplot fixture scope correctly distinguished."
+    },
+    {
+      "id": "causal_limits",
+      "status": "passed",
+      "finding": "Report recognizes coupled rule changes,limited FI learning,4society replication units,no extra cross-settlement samples,no significance claim,no language/composition evidence,and no automatic follow-on training."
+    },
+    {
+      "id": "editorial_resolution",
+      "status": "passed",
+      "finding": "The only found report issue was the new paragraph calling a partition including full success a failure partition;root changed it to results partition before this final hash."
+    }
+  ],
+  "quantitative_scope": {
+    "report_tables": 4,
+    "numeric_table_cells": 73,
+    "main_audit_records": 224,
+    "recursive_comparison_nodes": 362506,
+    "numeric_comparison_tolerance": 2e-12,
+    "cross_settlement_references": 448
+  },
+  "primary": {
+    "mean_difference": 0.03167936081242533,
+    "metric": "full_success_rate",
+    "paired_seeds": [
+      {
+        "cells": {
+          "reciprocal": {
+            "executed_partner_correct_rate": 0.4277740442054958,
+            "full_success_rate": 0.3131907108721625,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6141913082437276
+          },
+          "strict": {
+            "executed_partner_correct_rate": 0.30495818399044206,
+            "full_success_rate": 0.28274342891278376,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5644881272401434
+          }
+        },
+        "contrasts": {
+          "executed_partner_correct_rate": 0.12281586021505375,
+          "full_success_rate": 0.030447281959378736,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.049703181003584174
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.030447281959378736,
+          "common_strict_policy_difference": -0.28274342891278376,
+          "reciprocal_policy_mechanical_release": 0.3131907108721625,
+          "strict_policy_mechanical_release": 0.0
+        },
+        "full_success_cross_settlement": {
+          "reciprocal": {
+            "reciprocal": 0.3131907108721625,
+            "strict": 0.0
+          },
+          "strict": {
+            "reciprocal": 0.28274342891278376,
+            "strict": 0.28274342891278376
+          }
+        },
+        "seed": 57101
+      },
+      {
+        "cells": {
+          "reciprocal": {
+            "executed_partner_correct_rate": 0.4165359916367981,
+            "full_success_rate": 0.315076164874552,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6284535543608124
+          },
+          "strict": {
+            "executed_partner_correct_rate": 0.3142547789725209,
+            "full_success_rate": 0.3130787037037037,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.626652105734767
+          }
+        },
+        "contrasts": {
+          "executed_partner_correct_rate": 0.1022812126642772,
+          "full_success_rate": 0.001997461170848258,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.0018014486260453655
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.001997461170848258,
+          "common_strict_policy_difference": -0.3130787037037037,
+          "reciprocal_policy_mechanical_release": 0.315076164874552,
+          "strict_policy_mechanical_release": 0.0
+        },
+        "full_success_cross_settlement": {
+          "reciprocal": {
+            "reciprocal": 0.315076164874552,
+            "strict": 0.0
+          },
+          "strict": {
+            "reciprocal": 0.3130787037037037,
+            "strict": 0.3130787037037037
+          }
+        },
+        "seed": 57102
+      },
+      {
+        "cells": {
+          "reciprocal": {
+            "executed_partner_correct_rate": 0.38448327359617684,
+            "full_success_rate": 0.2830607825567503,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.5742980884109916
+          },
+          "strict": {
+            "executed_partner_correct_rate": 0.3180256869772999,
+            "full_success_rate": 0.29127464157706096,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5756888440860215
+          }
+        },
+        "contrasts": {
+          "executed_partner_correct_rate": 0.06645758661887696,
+          "full_success_rate": -0.008213859020310632,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": -0.0013907556750298866
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": -0.008213859020310632,
+          "common_strict_policy_difference": -0.29127464157706096,
+          "reciprocal_policy_mechanical_release": 0.2830607825567503,
+          "strict_policy_mechanical_release": 0.0
+        },
+        "full_success_cross_settlement": {
+          "reciprocal": {
+            "reciprocal": 0.2830607825567503,
+            "strict": 0.0
+          },
+          "strict": {
+            "reciprocal": 0.29127464157706096,
+            "strict": 0.29127464157706096
+          }
+        },
+        "seed": 57103
+      },
+      {
+        "cells": {
+          "reciprocal": {
+            "executed_partner_correct_rate": 0.43955346475507767,
+            "full_success_rate": 0.31888440860215056,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6248506571087217
+          },
+          "strict": {
+            "executed_partner_correct_rate": 0.2835274790919952,
+            "full_success_rate": 0.2163978494623656,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5312126642771804
+          }
+        },
+        "contrasts": {
+          "executed_partner_correct_rate": 0.15602598566308246,
+          "full_success_rate": 0.10248655913978497,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.09363799283154128
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.10248655913978497,
+          "common_strict_policy_difference": -0.2163978494623656,
+          "reciprocal_policy_mechanical_release": 0.31888440860215056,
+          "strict_policy_mechanical_release": 0.0
+        },
+        "full_success_cross_settlement": {
+          "reciprocal": {
+            "reciprocal": 0.31888440860215056,
+            "strict": 0.0
+          },
+          "strict": {
+            "reciprocal": 0.2163978494623656,
+            "strict": 0.2163978494623656
+          }
+        },
+        "seed": 57104
+      }
+    ],
+    "partition": "new_needs_and_layouts"
+  },
+  "formal_budget": {
+    "actual_final_files": 32,
+    "actual_final_worlds": 6193152,
+    "actual_monitor_files": 192,
+    "actual_monitor_worlds": 1032192,
+    "aliased_evaluations": 0,
+    "categorical_symbol_samples": 589824000,
+    "checkpoints": 48,
+    "evaluation_forward_module_samples": 65028096,
+    "final_forward_module_samples": 55738368,
+    "message_trajectories": 24576000,
+    "monitor_forward_module_samples": 9289728,
+    "runs": 8,
+    "training_forward_module_samples": 221184000,
+    "training_updates": 48000,
+    "training_world_samples": 12288000
+  },
+  "audit_scope": {
+    "checkpoints": 48,
+    "final_files": 32,
+    "independent_final_sender_ties": 0,
+    "independent_forward_worlds": 6193152,
+    "independent_network_samples": 55738368,
+    "monitor_files": 192,
+    "monitor_worlds": 1032192,
+    "training_rows": 48000
+  },
+  "audit_max_errors": {
+    "conditional": 6.439293542825908e-15,
+    "probability": 0.0
+  },
+  "corrected_issues": [
+    {
+      "location": "New reciprocal double-holdout outcome partition paragraph",
+      "before": "新规则的双留出失败可分为",
+      "after": "新规则的双留出结果可分为",
+      "severity": "wording",
+      "resolved": true
+    }
+  ],
+  "unresolved_issues": [],
+  "own_work": {
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "npz_files_opened": 0,
+    "new_test_suites": 0,
+    "modified_formal_sources": 0
+  },
+  "limits": [
+    "This review verifies document/JSON consistency and interpretation;the independent numerical replay is the separately completed audit.",
+    "PNG/PDF visual QA,external literature facts,and unexecuted next-step designs are outside this review;root owns visual inspection.",
+    "Declared NPZ identities were compared between main/audit JSON;no NPZ files were read or rehashed."
+  ],
+  "reciprocal_double_holdout_outcome_partition": {
+    "no_execution": 0.06352206541218641,
+    "wrong_executing_pair": 0.5193912410394265,
+    "correct_pair_not_full": 0.10953367682198328,
+    "full": 0.30755301672640384
+  }
+}

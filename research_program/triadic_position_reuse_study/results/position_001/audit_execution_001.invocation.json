@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/.venv/bin/python",
+    "-m",
+    "research_program.triadic_position_reuse_study.audit_execution",
+    "--run",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001",
+    "--out",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_position_reuse_study/results/position_001/audit_execution_001"
+  ],
+  "cwd": "/Users/xia/Documents/ChatGPT/语言",
+  "started_at": "2026-09-15T20:08:22.521849+00:00",
+  "audit_source_sha256": "54da7fbf694ceb3499d846aa3a489a88a4f928944029f225fb835c2cb5035717",
+  "launcher_pid": 70567,
+  "automatic_retry": false
+}

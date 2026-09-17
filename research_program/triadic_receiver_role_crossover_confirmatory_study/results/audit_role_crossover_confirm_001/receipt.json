@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "verification_sha256": "39c1518c3a0486bfec1205eea269534b43abf33066d6130f62f8fab4a5b4cfa6",
+  "model_forwards": 145566720,
+  "optimizer_updates": 576000,
+  "frozen_agent_optimizer_updates": 0
+}

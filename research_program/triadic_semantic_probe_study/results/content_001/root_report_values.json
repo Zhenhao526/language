@@ -1,0 +1,1531 @@
+{
+  "summary_sha256": "b87b506dc3bbc2db59af29ea9eb90536c127e60517dac4e0a0f54be57819999d",
+  "natural_trajectory": [
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 0,
+      "content_both_apt": 0.001821844993141289,
+      "role_both_apt": 0.0026892701525054463,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0007716049382716049,
+        "length_short_long": 0.002025462962962963,
+        "destination_L_R": 0.0026684670781892995
+      },
+      "mean_endpoint_apt": 0.07574588477366254
+    },
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 100,
+      "content_both_apt": 0.017253943758573382,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.01625728737997256,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.05176183127572015
+      },
+      "mean_endpoint_apt": 0.10730667009602193
+    },
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 500,
+      "content_both_apt": 0.03979123799725651,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.03371484910836761,
+      "content_axes": {
+        "kind_wood_fiber": 0.006847993827160493,
+        "length_short_long": 0.010223765432098766,
+        "destination_L_R": 0.10230195473251025
+      },
+      "mean_endpoint_apt": 0.13361625514403289
+    },
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 1500,
+      "content_both_apt": 0.06839420438957473,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.06675454389574757,
+      "content_axes": {
+        "kind_wood_fiber": 0.013503086419753086,
+        "length_short_long": 0.019000771604938273,
+        "destination_L_R": 0.17267875514403286
+      },
+      "mean_endpoint_apt": 0.16781335733882025
+    },
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 3000,
+      "content_both_apt": 0.07208076131687241,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.07182355967078187,
+      "content_axes": {
+        "kind_wood_fiber": 0.017843364197530864,
+        "length_short_long": 0.0242091049382716,
+        "destination_L_R": 0.17418981481481477
+      },
+      "mean_endpoint_apt": 0.1734182098765432
+    },
+    {
+      "partition": "train",
+      "condition": "FI_silent",
+      "step": 6000,
+      "content_both_apt": 0.07195216049382713,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.07195216049382713,
+      "content_axes": {
+        "kind_wood_fiber": 0.017939814814814815,
+        "length_short_long": 0.023726851851851853,
+        "destination_L_R": 0.17418981481481477
+      },
+      "mean_endpoint_apt": 0.17341820987654316
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 0,
+      "content_both_apt": 0.0026899005486968443,
+      "role_both_apt": 0.004465096223674654,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.001253858024691358,
+        "length_short_long": 0.002025462962962963,
+        "destination_L_R": 0.004790380658436212
+      },
+      "mean_endpoint_apt": 0.07635138031550066
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 100,
+      "content_both_apt": 0.013149434156378597,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.011359739368998626,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.03944830246913579
+      },
+      "mean_endpoint_apt": 0.09333204732510286
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 500,
+      "content_both_apt": 0.04518175582990397,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.04058427640603565,
+      "content_axes": {
+        "kind_wood_fiber": 0.011670524691358024,
+        "length_short_long": 0.011574074074074073,
+        "destination_L_R": 0.1123006687242798
+      },
+      "mean_endpoint_apt": 0.14012131344307266
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 1500,
+      "content_both_apt": 0.10352366255144028,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.1010052297668038,
+      "content_axes": {
+        "kind_wood_fiber": 0.03115354938271605,
+        "length_short_long": 0.03047839506172839,
+        "destination_L_R": 0.24893904320987642
+      },
+      "mean_endpoint_apt": 0.19523212448559665
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 3000,
+      "content_both_apt": 0.13550240054869678,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.13458076131687235,
+      "content_axes": {
+        "kind_wood_fiber": 0.051118827160493825,
+        "length_short_long": 0.04976851851851852,
+        "destination_L_R": 0.305619855967078
+      },
+      "mean_endpoint_apt": 0.21781228566529484
+    },
+    {
+      "partition": "train",
+      "condition": "FI_live",
+      "step": 6000,
+      "content_both_apt": 0.14399005486968444,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.14325060013717414,
+      "content_axes": {
+        "kind_wood_fiber": 0.06095679012345678,
+        "length_short_long": 0.060378086419753084,
+        "destination_L_R": 0.31063528806584345
+      },
+      "mean_endpoint_apt": 0.2235671724965706
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 0,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.07346322016460903
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 100,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.05819187242798353
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 500,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.061631944444444434
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 1500,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.07851080246913578
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 3000,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.08175797325102879
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "step": 6000,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.08230452674897118
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 0,
+      "content_both_apt": 0.002089763374485596,
+      "role_both_apt": 0.0046182824981844586,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0011574074074074073,
+        "length_short_long": 0.0010609567901234567,
+        "destination_L_R": 0.004050925925925924
+      },
+      "mean_endpoint_apt": 0.07260052297668036
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 100,
+      "content_both_apt": 0.005069015775034292,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.005004715363511658,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.015207047325102876
+      },
+      "mean_endpoint_apt": 0.07102516289437584
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 500,
+      "content_both_apt": 0.017532578875171463,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0174789951989026,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.05259773662551438
+      },
+      "mean_endpoint_apt": 0.10972865226337447
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 1500,
+      "content_both_apt": 0.05863125857338818,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.04260973936899862,
+      "content_axes": {
+        "kind_wood_fiber": 0.02064043209876543,
+        "length_short_long": 0.015432098765432098,
+        "destination_L_R": 0.13982124485596703
+      },
+      "mean_endpoint_apt": 0.14717292524005485
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 3000,
+      "content_both_apt": 0.08857381687242795,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.08121141975308639,
+      "content_axes": {
+        "kind_wood_fiber": 0.020929783950617283,
+        "length_short_long": 0.02179783950617284,
+        "destination_L_R": 0.22299382716049373
+      },
+      "mean_endpoint_apt": 0.1715802897805212
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "step": 6000,
+      "content_both_apt": 0.10171253429355276,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.10003000685871051,
+      "content_axes": {
+        "kind_wood_fiber": 0.030767746913580245,
+        "length_short_long": 0.03510802469135802,
+        "destination_L_R": 0.23926183127572004
+      },
+      "mean_endpoint_apt": 0.1889896262002743
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 0,
+      "content_both_apt": 0.001511059670781893,
+      "role_both_apt": 0.0023148148148148147,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0008680555555555555,
+        "length_short_long": 0.0014467592592592592,
+        "destination_L_R": 0.002218364197530864
+      },
+      "mean_endpoint_apt": 0.07667824074074073
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 100,
+      "content_both_apt": 0.017039609053497943,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0160108024691358,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.051118827160493825
+      },
+      "mean_endpoint_apt": 0.10394161522633744
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 500,
+      "content_both_apt": 0.01675025720164609,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.013117283950617283,
+      "content_axes": {
+        "kind_wood_fiber": 0.004918981481481481,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.04533179012345679
+      },
+      "mean_endpoint_apt": 0.09924768518518517
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 1500,
+      "content_both_apt": 0.046875,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.03986625514403292,
+      "content_axes": {
+        "kind_wood_fiber": 0.006944444444444444,
+        "length_short_long": 0.004918981481481481,
+        "destination_L_R": 0.12876157407407407
+      },
+      "mean_endpoint_apt": 0.13128536522633744
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 3000,
+      "content_both_apt": 0.051215277777777776,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.041859567901234566,
+      "content_axes": {
+        "kind_wood_fiber": 0.0078125,
+        "length_short_long": 0.008680555555555556,
+        "destination_L_R": 0.13715277777777776
+      },
+      "mean_endpoint_apt": 0.14210390946502055
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_silent",
+      "step": 6000,
+      "content_both_apt": 0.04931841563786008,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.041763117283950615,
+      "content_axes": {
+        "kind_wood_fiber": 0.005208333333333333,
+        "length_short_long": 0.008680555555555556,
+        "destination_L_R": 0.13406635802469136
+      },
+      "mean_endpoint_apt": 0.13816550925925922
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 0,
+      "content_both_apt": 0.0035686728395061726,
+      "role_both_apt": 0.004084967320261437,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0008680555555555555,
+        "length_short_long": 0.001736111111111111,
+        "destination_L_R": 0.008101851851851851
+      },
+      "mean_endpoint_apt": 0.074877829218107
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 100,
+      "content_both_apt": 0.013631687242798353,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.01202417695473251,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.040895061728395056
+      },
+      "mean_endpoint_apt": 0.09162808641975308
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 500,
+      "content_both_apt": 0.026363168724279833,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.021604938271604937,
+      "content_axes": {
+        "kind_wood_fiber": 0.003472222222222222,
+        "length_short_long": 0.002025462962962963,
+        "destination_L_R": 0.07359182098765432
+      },
+      "mean_endpoint_apt": 0.10456854423868311
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 1500,
+      "content_both_apt": 0.06706532921810698,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.060217335390946494,
+      "content_axes": {
+        "kind_wood_fiber": 0.008101851851851851,
+        "length_short_long": 0.016203703703703703,
+        "destination_L_R": 0.17689043209876543
+      },
+      "mean_endpoint_apt": 0.1495466820987654
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 3000,
+      "content_both_apt": 0.07931455761316872,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.06828703703703703,
+      "content_axes": {
+        "kind_wood_fiber": 0.007523148148148148,
+        "length_short_long": 0.018518518518518517,
+        "destination_L_R": 0.2119020061728395
+      },
+      "mean_endpoint_apt": 0.16444830246913575
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "FI_live",
+      "step": 6000,
+      "content_both_apt": 0.07918595679012344,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.06876929012345678,
+      "content_axes": {
+        "kind_wood_fiber": 0.013888888888888888,
+        "length_short_long": 0.015335648148148147,
+        "destination_L_R": 0.20833333333333331
+      },
+      "mean_endpoint_apt": 0.16620048868312753
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 0,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.07310956790123457
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 100,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.05459104938271604
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 500,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.055459104938271594
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 1500,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.06886574074074074
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 3000,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.07272376543209876
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "step": 6000,
+      "content_both_apt": 0.0,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.0
+      },
+      "mean_endpoint_apt": 0.0708912037037037
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 0,
+      "content_both_apt": 0.002250514403292181,
+      "role_both_apt": 0.0041019880174291935,
+      "team_both_full": 0.0,
+      "content_axes": {
+        "kind_wood_fiber": 0.0005787037037037037,
+        "length_short_long": 0.0014467592592592592,
+        "destination_L_R": 0.00472608024691358
+      },
+      "mean_endpoint_apt": 0.06942836934156378
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 100,
+      "content_both_apt": 0.005561985596707819,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.005401234567901234,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.016685956790123455
+      },
+      "mean_endpoint_apt": 0.065747170781893
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 500,
+      "content_both_apt": 0.016718106995884774,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.016685956790123455,
+      "content_axes": {
+        "kind_wood_fiber": 0.0,
+        "length_short_long": 0.0,
+        "destination_L_R": 0.05015432098765432
+      },
+      "mean_endpoint_apt": 0.10709233539094648
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 1500,
+      "content_both_apt": 0.024530606995884774,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.011638374485596709,
+      "content_axes": {
+        "kind_wood_fiber": 0.004050925925925926,
+        "length_short_long": 0.006655092592592593,
+        "destination_L_R": 0.0628858024691358
+      },
+      "mean_endpoint_apt": 0.10331468621399176
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 3000,
+      "content_both_apt": 0.05189043209876543,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.03446502057613168,
+      "content_axes": {
+        "kind_wood_fiber": 0.013599537037037037,
+        "length_short_long": 0.017939814814814815,
+        "destination_L_R": 0.12413194444444443
+      },
+      "mean_endpoint_apt": 0.12969393004115226
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "step": 6000,
+      "content_both_apt": 0.056584362139917695,
+      "role_both_apt": 0.0,
+      "team_both_full": 0.038644547325102876,
+      "content_axes": {
+        "kind_wood_fiber": 0.019965277777777776,
+        "length_short_long": 0.018518518518518517,
+        "destination_L_R": 0.13126929012345678
+      },
+      "mean_endpoint_apt": 0.13681520061728392
+    }
+  ],
+  "remote": [
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "window": "w1",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      }
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "window": "w2",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      }
+    },
+    {
+      "partition": "train",
+      "condition": "PI_silent",
+      "window": "both",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.08230452674897118,
+        "direction_mean_counterfactual_probability_mass": 0.07859799236129558,
+        "direction_mean_current_apt": 0.08230452674897118,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.07859799236129558,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.076147762345679,
+        "direction_mean_native_reward": 0.2420803326474622,
+        "direction_mean_natural_current_apt": 0.08230452674897118,
+        "direction_mean_natural_current_probability_mass": 0.07859799236129558
+      }
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "window": "w1",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0037937242798353897,
+        "direction_mean_current_apt_same_minus_natural": -0.0037937242798353897,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.003744233683338562,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.003744233683338562,
+        "direction_mean_native_reward_opposite_minus_same": -0.18955225480109733,
+        "direction_mean_target_apt_opposite_minus_same": 0.09513781721536346,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.09485251085871807
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0012056327160493826,
+          "direction_mean_current_apt_same_minus_natural": -0.0012056327160493826,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0011295238833590002,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0011295238833590002,
+          "direction_mean_native_reward_opposite_minus_same": -0.11648823302469134,
+          "direction_mean_target_apt_opposite_minus_same": 0.02854938271604938,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.02946907426105205
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.003038194444444444,
+          "direction_mean_current_apt_same_minus_natural": -0.003038194444444444,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0029847232869420525,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0029847232869420525,
+          "direction_mean_native_reward_opposite_minus_same": -0.11501736111111112,
+          "direction_mean_target_apt_opposite_minus_same": 0.025800540123456787,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.025846042747052912
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0071373456790123435,
+          "direction_mean_current_apt_same_minus_natural": -0.0071373456790123435,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.007118453879714634,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.007118453879714634,
+          "direction_mean_native_reward_opposite_minus_same": -0.33715117026748953,
+          "direction_mean_target_apt_opposite_minus_same": 0.23106352880658423,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.22924241556804922
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.03292716906721536,
+        "direction_mean_counterfactual_apt": 0.07196823559670781,
+        "direction_mean_counterfactual_probability_mass": 0.07144709119059922,
+        "direction_mean_current_apt": 0.18519590192043892,
+        "direction_mean_current_apt_minus_natural": -0.0037937242798353897,
+        "direction_mean_current_probability_mass": 0.18423561814677694,
+        "direction_mean_current_probability_mass_minus_natural": -0.003744233683338562,
+        "direction_mean_listener_action_changed_from_natural": 0.01568930041152263,
+        "direction_mean_native_full_success": 0.1812146347736625,
+        "direction_mean_native_reward": 0.5665750385802468,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.3423139574759944,
+        "direction_mean_counterfactual_apt": 0.16710605281207128,
+        "direction_mean_counterfactual_probability_mass": 0.1662996020493173,
+        "direction_mean_current_apt": 0.08854166666666666,
+        "direction_mean_current_apt_minus_natural": -0.10044795953360765,
+        "direction_mean_current_probability_mass": 0.08814329560266897,
+        "direction_mean_current_probability_mass_minus_natural": -0.09983655622744654,
+        "direction_mean_listener_action_changed_from_natural": 0.17385759602194784,
+        "direction_mean_native_full_success": 0.07630851337448559,
+        "direction_mean_native_reward": 0.37702278377914944,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      }
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "window": "w2",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.004774305555555554,
+        "direction_mean_current_apt_same_minus_natural": -0.004774305555555554,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0050207239709564875,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.0050207239709564875,
+        "direction_mean_native_reward_opposite_minus_same": -0.08350212191358022,
+        "direction_mean_target_apt_opposite_minus_same": 0.015528549382716049,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.01569442777921145
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.003472222222222222,
+          "direction_mean_current_apt_same_minus_natural": -0.003472222222222222,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0031793594017788325,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0031793594017788325,
+          "direction_mean_native_reward_opposite_minus_same": -0.11007426697530863,
+          "direction_mean_target_apt_opposite_minus_same": 0.024498456790123455,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.024806386261205803
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0033757716049382714,
+          "direction_mean_current_apt_same_minus_natural": -0.0033757716049382714,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.003602137024567897,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.003602137024567897,
+          "direction_mean_native_reward_opposite_minus_same": -0.1064091435185185,
+          "direction_mean_target_apt_opposite_minus_same": 0.021701388888888888,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.021715543258573257
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0074749228395061705,
+          "direction_mean_current_apt_same_minus_natural": -0.0074749228395061705,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.008280675486522733,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.008280675486522733,
+          "direction_mean_native_reward_opposite_minus_same": -0.03402295524691357,
+          "direction_mean_target_apt_opposite_minus_same": 0.00038580246913580234,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0005613538178552822
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.024664566186556925,
+        "direction_mean_counterfactual_apt": 0.07090727880658435,
+        "direction_mean_counterfactual_probability_mass": 0.07046048697751922,
+        "direction_mean_current_apt": 0.18421532064471874,
+        "direction_mean_current_apt_minus_natural": -0.004774305555555554,
+        "direction_mean_current_probability_mass": 0.18295912785915902,
+        "direction_mean_current_probability_mass_minus_natural": -0.0050207239709564875,
+        "direction_mean_listener_action_changed_from_natural": 0.013111925582990396,
+        "direction_mean_native_full_success": 0.18029299554183809,
+        "direction_mean_native_reward": 0.5688175154320987,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.17371827846364882,
+        "direction_mean_counterfactual_apt": 0.0864358281893004,
+        "direction_mean_counterfactual_probability_mass": 0.08615491475673066,
+        "direction_mean_current_apt": 0.16774369855967072,
+        "direction_mean_current_apt_minus_natural": -0.021245927640603565,
+        "direction_mean_current_probability_mass": 0.16650186003741121,
+        "direction_mean_current_probability_mass_minus_natural": -0.021477991792704296,
+        "direction_mean_listener_action_changed_from_natural": 0.08317794067215363,
+        "direction_mean_native_full_success": 0.15589634773662547,
+        "direction_mean_native_reward": 0.48531539351851843,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      }
+    },
+    {
+      "partition": "train",
+      "condition": "PI_live",
+      "window": "both",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.008675197187928668,
+        "direction_mean_current_apt_same_minus_natural": -0.008675197187928668,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.008876096048024685,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.008876096048024685,
+        "direction_mean_native_reward_opposite_minus_same": -0.2284084576474622,
+        "direction_mean_target_apt_opposite_minus_same": 0.1072691615226337,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.10662472254368628
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.005063657407407407,
+          "direction_mean_current_apt_same_minus_natural": -0.005063657407407407,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.004606382908814665,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.004606382908814665,
+          "direction_mean_native_reward_opposite_minus_same": -0.1709104938271605,
+          "direction_mean_target_apt_opposite_minus_same": 0.048611111111111105,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.049787836453782604
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.006221064814814815,
+          "direction_mean_current_apt_same_minus_natural": -0.006221064814814815,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.006501288996194761,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.006501288996194761,
+          "direction_mean_native_reward_opposite_minus_same": -0.16343557098765432,
+          "direction_mean_target_apt_opposite_minus_same": 0.04750192901234568,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.04646451792904427
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.014740869341563781,
+          "direction_mean_current_apt_same_minus_natural": -0.014740869341563781,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.015520616239064627,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.015520616239064627,
+          "direction_mean_native_reward_opposite_minus_same": -0.35087930812757184,
+          "direction_mean_target_apt_opposite_minus_same": 0.22569444444444434,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.223621813248232
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.057554226680384075,
+        "direction_mean_counterfactual_apt": 0.07304526748971192,
+        "direction_mean_counterfactual_probability_mass": 0.07247903323840454,
+        "direction_mean_current_apt": 0.18031442901234562,
+        "direction_mean_current_apt_minus_natural": -0.008675197187928668,
+        "direction_mean_current_probability_mass": 0.1791037557820908,
+        "direction_mean_current_probability_mass_minus_natural": -0.008876096048024685,
+        "direction_mean_listener_action_changed_from_natural": 0.028817301097393683,
+        "direction_mean_native_full_success": 0.17458097565157746,
+        "direction_mean_native_reward": 0.5522092549725651,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.4323666838134429,
+        "direction_mean_counterfactual_apt": 0.18031442901234562,
+        "direction_mean_counterfactual_probability_mass": 0.1791037557820908,
+        "direction_mean_current_apt": 0.07304526748971192,
+        "direction_mean_current_apt_minus_natural": -0.11594435871056237,
+        "direction_mean_current_probability_mass": 0.07247903323840454,
+        "direction_mean_current_probability_mass_minus_natural": -0.11550081859171098,
+        "direction_mean_listener_action_changed_from_natural": 0.21287187071330585,
+        "direction_mean_native_full_success": 0.061181841563786,
+        "direction_mean_native_reward": 0.3238007973251028,
+        "direction_mean_natural_current_apt": 0.1889896262002743,
+        "direction_mean_natural_current_probability_mass": 0.1879798518301155
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "window": "w1",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "window": "w2",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_silent",
+      "window": "both",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+        "direction_mean_current_apt_same_minus_natural": 0.0,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+        "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+        "direction_mean_native_reward_opposite_minus_same": 0.0,
+        "direction_mean_target_apt_opposite_minus_same": 0.0,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0,
+          "direction_mean_current_apt_same_minus_natural": 0.0,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0,
+          "direction_mean_current_probability_mass_same_minus_natural": 0.0,
+          "direction_mean_native_reward_opposite_minus_same": 0.0,
+          "direction_mean_target_apt_opposite_minus_same": 0.0,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.0
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0,
+        "direction_mean_counterfactual_apt": 0.0708912037037037,
+        "direction_mean_counterfactual_probability_mass": 0.0704301112975322,
+        "direction_mean_current_apt": 0.0708912037037037,
+        "direction_mean_current_apt_minus_natural": 0.0,
+        "direction_mean_current_probability_mass": 0.0704301112975322,
+        "direction_mean_current_probability_mass_minus_natural": 0.0,
+        "direction_mean_listener_action_changed_from_natural": 0.0,
+        "direction_mean_native_full_success": 0.06433256172839506,
+        "direction_mean_native_reward": 0.22474601337448558,
+        "direction_mean_natural_current_apt": 0.0708912037037037,
+        "direction_mean_natural_current_probability_mass": 0.0704301112975322
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "window": "w1",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0027809927983539094,
+        "direction_mean_current_apt_same_minus_natural": -0.0027809927983539094,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.002858439434277788,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.002858439434277788,
+        "direction_mean_native_reward_opposite_minus_same": -0.11361882716049382,
+        "direction_mean_target_apt_opposite_minus_same": 0.06465406378600823,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.06430258085484264
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0007233796296296296,
+          "direction_mean_current_apt_same_minus_natural": -0.0007233796296296296,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0009110223745870611,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0009110223745870611,
+          "direction_mean_native_reward_opposite_minus_same": -0.057508680555555546,
+          "direction_mean_target_apt_opposite_minus_same": 0.016203703703703703,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.015828076013894972
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.001736111111111111,
+          "direction_mean_current_apt_same_minus_natural": -0.001736111111111111,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0017249699226502564,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0017249699226502564,
+          "direction_mean_native_reward_opposite_minus_same": -0.05251736111111109,
+          "direction_mean_target_apt_opposite_minus_same": 0.013888888888888888,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.013326499294939675
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.005883487654320988,
+          "direction_mean_current_apt_same_minus_natural": -0.005883487654320988,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.005939326005596049,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.005939326005596049,
+          "direction_mean_native_reward_opposite_minus_same": -0.2308304398148148,
+          "direction_mean_target_apt_opposite_minus_same": 0.16386959876543208,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.16375316725569328
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.0394483024691358,
+        "direction_mean_counterfactual_apt": 0.06322337962962962,
+        "direction_mean_counterfactual_probability_mass": 0.06295234987153306,
+        "direction_mean_current_apt": 0.13403420781893002,
+        "direction_mean_current_apt_minus_natural": -0.0027809927983539094,
+        "direction_mean_current_probability_mass": 0.13368462838147072,
+        "direction_mean_current_probability_mass_minus_natural": -0.002858439434277788,
+        "direction_mean_listener_action_changed_from_natural": 0.019949202674897117,
+        "direction_mean_native_full_success": 0.11471193415637858,
+        "direction_mean_native_reward": 0.4328221450617286,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.3490547839506172,
+        "direction_mean_counterfactual_apt": 0.12787744341563784,
+        "direction_mean_counterfactual_probability_mass": 0.1272549307263757,
+        "direction_mean_current_apt": 0.0692997685185185,
+        "direction_mean_current_apt_minus_natural": -0.06751543209876543,
+        "direction_mean_current_probability_mass": 0.06921672468191954,
+        "direction_mean_current_probability_mass_minus_natural": -0.06732634313382896,
+        "direction_mean_listener_action_changed_from_natural": 0.1789480452674897,
+        "direction_mean_native_full_success": 0.05434992283950617,
+        "direction_mean_native_reward": 0.3192033179012347,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "window": "w2",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.0039705504115226335,
+        "direction_mean_current_apt_same_minus_natural": -0.0039705504115226335,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0037395104594840434,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.0037395104594840434,
+        "direction_mean_native_reward_opposite_minus_same": -0.045211226851851846,
+        "direction_mean_target_apt_opposite_minus_same": 0.0054816100823045265,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.0057130944381436335
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.0005787037037037037,
+          "direction_mean_current_apt_same_minus_natural": -0.0005787037037037037,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.00038353410437530505,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.00038353410437530505,
+          "direction_mean_native_reward_opposite_minus_same": -0.060185185185185175,
+          "direction_mean_target_apt_opposite_minus_same": 0.007378472222222222,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.007969549288176603
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.004195601851851851,
+          "direction_mean_current_apt_same_minus_natural": -0.004195601851851851,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0040408809720957894,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0040408809720957894,
+          "direction_mean_native_reward_opposite_minus_same": -0.049117476851851846,
+          "direction_mean_target_apt_opposite_minus_same": 0.009259259259259259,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.00910087301213257
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.007137345679012345,
+          "direction_mean_current_apt_same_minus_natural": -0.007137345679012345,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.006794116301981036,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.006794116301981036,
+          "direction_mean_native_reward_opposite_minus_same": -0.026331018518518517,
+          "direction_mean_target_apt_opposite_minus_same": -0.00019290123456790122,
+          "direction_mean_target_probability_mass_opposite_minus_same": 6.886101412172777e-05
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.031185699588477365,
+        "direction_mean_counterfactual_apt": 0.06348058127572015,
+        "direction_mean_counterfactual_probability_mass": 0.06333778586321706,
+        "direction_mean_current_apt": 0.13284465020576128,
+        "direction_mean_current_apt_minus_natural": -0.0039705504115226335,
+        "direction_mean_current_probability_mass": 0.13280355735626445,
+        "direction_mean_current_probability_mass_minus_natural": -0.0037395104594840434,
+        "direction_mean_listener_action_changed_from_natural": 0.01583397633744856,
+        "direction_mean_native_full_success": 0.1128472222222222,
+        "direction_mean_native_reward": 0.4336982381687245,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.17346643518518512,
+        "direction_mean_counterfactual_apt": 0.06896219135802469,
+        "direction_mean_counterfactual_probability_mass": 0.0690508803013607,
+        "direction_mean_current_apt": 0.12745949074074073,
+        "direction_mean_current_apt_minus_natural": -0.00935570987654321,
+        "direction_mean_current_probability_mass": 0.12701537857475587,
+        "direction_mean_current_probability_mass_minus_natural": -0.009527689240992615,
+        "direction_mean_listener_action_changed_from_natural": 0.0823366769547325,
+        "direction_mean_native_full_success": 0.09989068930041152,
+        "direction_mean_native_reward": 0.3884870113168725,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      }
+    },
+    {
+      "partition": "heldout_layouts",
+      "condition": "PI_live",
+      "window": "both",
+      "contrast": {
+        "direction_mean_current_apt_loss_natural_minus_same": 0.007314171810699589,
+        "direction_mean_current_apt_same_minus_natural": -0.007314171810699589,
+        "direction_mean_current_probability_mass_loss_natural_minus_same": 0.006879956303155821,
+        "direction_mean_current_probability_mass_same_minus_natural": -0.006879956303155821,
+        "direction_mean_native_reward_opposite_minus_same": -0.13810924639917693,
+        "direction_mean_target_apt_opposite_minus_same": 0.06589184670781893,
+        "direction_mean_target_probability_mass_opposite_minus_same": 0.06614923710079038
+      },
+      "axes": {
+        "kind_wood_fiber": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.001736111111111111,
+          "direction_mean_current_apt_same_minus_natural": -0.001736111111111111,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.0015093881585214017,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.0015093881585214017,
+          "direction_mean_native_reward_opposite_minus_same": -0.09432870370370368,
+          "direction_mean_target_apt_opposite_minus_same": 0.023292824074074073,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.023196699217176226
+        },
+        "length_short_long": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.00636574074074074,
+          "direction_mean_current_apt_same_minus_natural": -0.00636574074074074,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.006074381179480187,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.006074381179480187,
+          "direction_mean_native_reward_opposite_minus_same": -0.07559317129629628,
+          "direction_mean_target_apt_opposite_minus_same": 0.017505787037037035,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.017538177494649886
+        },
+        "destination_L_R": {
+          "direction_mean_current_apt_loss_natural_minus_same": 0.013840663580246913,
+          "direction_mean_current_apt_same_minus_natural": -0.013840663580246913,
+          "direction_mean_current_probability_mass_loss_natural_minus_same": 0.013056099571465876,
+          "direction_mean_current_probability_mass_same_minus_natural": -0.013056099571465876,
+          "direction_mean_native_reward_opposite_minus_same": -0.24440586419753085,
+          "direction_mean_target_apt_opposite_minus_same": 0.15687692901234568,
+          "direction_mean_target_probability_mass_opposite_minus_same": 0.157712834590545
+        }
+      },
+      "same": {
+        "direction_mean_any_team_action_changed_from_natural": 0.07066615226337447,
+        "direction_mean_counterfactual_apt": 0.06360918209876543,
+        "direction_mean_counterfactual_probability_mass": 0.06351387441180231,
+        "direction_mean_current_apt": 0.12950102880658435,
+        "direction_mean_current_apt_minus_natural": -0.007314171810699589,
+        "direction_mean_current_probability_mass": 0.1296631115125927,
+        "direction_mean_current_probability_mass_minus_natural": -0.006879956303155821,
+        "direction_mean_listener_action_changed_from_natural": 0.03596000514403292,
+        "direction_mean_native_full_success": 0.10958397633744854,
+        "direction_mean_native_reward": 0.42343428497942404,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      },
+      "opposite": {
+        "direction_mean_any_team_action_changed_from_natural": 0.4333043981481479,
+        "direction_mean_counterfactual_apt": 0.12950102880658435,
+        "direction_mean_counterfactual_probability_mass": 0.1296631115125927,
+        "direction_mean_current_apt": 0.06360918209876543,
+        "direction_mean_current_apt_minus_natural": -0.07320601851851852,
+        "direction_mean_current_probability_mass": 0.06351387441180231,
+        "direction_mean_current_probability_mass_minus_natural": -0.0730291934039462,
+        "direction_mean_listener_action_changed_from_natural": 0.2135738168724279,
+        "direction_mean_native_full_success": 0.04494598765432098,
+        "direction_mean_native_reward": 0.28532503858024694,
+        "direction_mean_natural_current_apt": 0.13681520061728392,
+        "direction_mean_natural_current_probability_mass": 0.1365430678157485
+      }
+    }
+  ]
+}

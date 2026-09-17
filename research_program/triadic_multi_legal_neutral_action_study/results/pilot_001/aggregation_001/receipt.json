@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_rows": 32,
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "output_results_sha256": "7d9cd64eb98c2be10f5b1c4d0119711794f5757a243d3e5de4e9536857f91192",
+  "no_model_calls": true
+}

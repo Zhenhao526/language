@@ -1,0 +1,11 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "execution/results.json",
+  "figures": [
+    "absolute_q_by_arm.png",
+    "q_gain_by_arm.png",
+    "q_gain_trajectories.png"
+  ],
+  "notes": "All three PNGs viewed at high detail; trajectory panels, error bars, labels, and boxplots are readable."
+}

@@ -1,0 +1,560 @@
+{
+  "audited_at": "2026-09-15T16:24:04.502503+08:00",
+  "status": "verified",
+  "errors": [],
+  "scope": {
+    "model_calls": 16,
+    "formal_decisions": 8,
+    "rule_decisions": 4,
+    "history_decisions": 4,
+    "rule_card_triggered": false,
+    "expected_calls": 16,
+    "symbolic_started": false
+  },
+  "checks": {
+    "prepared_case_hash_matches": true,
+    "source_files": {
+      "qwen_language_diagnostics/__init__.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/experiment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_diagnostics/history_cases.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/environment.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/agents.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/backend.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/protocol.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/run.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/probe.py": {
+        "current": true,
+        "snapshot": true
+      },
+      "qwen_language_v3/execute_locked_pipeline.py": {
+        "current": true,
+        "snapshot": true
+      }
+    },
+    "original_source_records": {
+      "manifest.json": true,
+      "steps.jsonl": true,
+      "inference.jsonl": true,
+      "episodes.jsonl": true
+    },
+    "history_reconstruction": {
+      "S_B_step2": true,
+      "S_C_step9": true
+    },
+    "pairs": [
+      {
+        "case_id": "R_长_can_first_full",
+        "arm": null,
+        "call_ids": [
+          1,
+          2
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "R_长_must_first_full",
+        "arm": null,
+        "call_ids": [
+          3,
+          4
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "R_短_can_first_full",
+        "arm": null,
+        "call_ids": [
+          5,
+          6
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "R_短_must_first_full",
+        "arm": null,
+        "call_ids": [
+          7,
+          8
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "S_B_step2",
+        "arm": "original",
+        "call_ids": [
+          9,
+          10
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "S_B_step2",
+        "arm": "empty_history",
+        "call_ids": [
+          11,
+          12
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "S_C_step9",
+        "arm": "original",
+        "call_ids": [
+          13,
+          14
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      },
+      {
+        "case_id": "S_C_step9",
+        "arm": "empty_history",
+        "call_ids": [
+          15,
+          16
+        ],
+        "checks": {
+          "case_and_arm_order": true,
+          "analysis_input": true,
+          "formal_same_decision_analysis": true,
+          "stage_and_mode": true,
+          "seed": true,
+          "temperature": true,
+          "fresh_cache_and_native_thinking": true,
+          "valid_choice": true,
+          "call_ids": true,
+          "recorded_choice": true
+        }
+      }
+    ],
+    "tokenizer_render_sha_matches": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true,
+      "16": true
+    }
+  },
+  "rule_results": [
+    {
+      "case_id": "R_长_can_first_full",
+      "length": "长",
+      "order": "can_first",
+      "choice": 0,
+      "meaning": "可以由一名空手主体单独拿取",
+      "correct": true,
+      "call_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "case_id": "R_长_must_first_full",
+      "length": "长",
+      "order": "must_first",
+      "choice": 1,
+      "meaning": "可以由一名空手主体单独拿取",
+      "correct": true,
+      "call_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "R_短_can_first_full",
+      "length": "短",
+      "order": "can_first",
+      "choice": 0,
+      "meaning": "可以由一名空手主体单独拿取",
+      "correct": true,
+      "call_ids": [
+        5,
+        6
+      ]
+    },
+    {
+      "case_id": "R_短_must_first_full",
+      "length": "短",
+      "order": "must_first",
+      "choice": 1,
+      "meaning": "可以由一名空手主体单独拿取",
+      "correct": true,
+      "call_ids": [
+        7,
+        8
+      ]
+    }
+  ],
+  "rule_order_comparison": {
+    "长": {
+      "observed_meaning_stable": true,
+      "choices": [
+        0,
+        1
+      ]
+    },
+    "短": {
+      "observed_meaning_stable": true,
+      "choices": [
+        0,
+        1
+      ]
+    }
+  },
+  "history_results": [
+    {
+      "case_id": "S_B_step2",
+      "agent": "B",
+      "step": 2,
+      "old_call_ids": {
+        "analysis": 57,
+        "formal": 58
+      },
+      "seed": 1843998972,
+      "history_records_removed": 1,
+      "history_only_input_change": true,
+      "current_broadcasts_unchanged": true,
+      "current_broadcast_count": 12,
+      "original_reproduction": {
+        "analysis_input_exact": true,
+        "analysis_render_sha_exact": true,
+        "analysis_text_exact": true,
+        "formal_input_exact": true,
+        "formal_render_sha_exact": true,
+        "formal_output_exact": true,
+        "both_seeds_match": true,
+        "both_stages_exact": true
+      },
+      "settlements": [
+        {
+          "arm": "original",
+          "call_ids": [
+            9,
+            10
+          ],
+          "selected_id": 0,
+          "description": "等待",
+          "action": {
+            "kind": "wait"
+          },
+          "recorded_action_reproduced": true,
+          "matches_diagnostic_target": false,
+          "feedback": {
+            "A": {
+              "action_succeeded": true,
+              "result": "等待。",
+              "step": 2,
+              "done": false
+            },
+            "B": {
+              "action_succeeded": true,
+              "result": "等待。",
+              "step": 2,
+              "done": false
+            },
+            "C": {
+              "action_succeeded": true,
+              "result": "移动成功。",
+              "step": 2,
+              "done": false
+            }
+          },
+          "score_before": 0.0,
+          "score_after": 0.0,
+          "replay_matches": true,
+          "analysis_prompt_tokens": 3177,
+          "formal_prompt_tokens": 3318
+        },
+        {
+          "arm": "empty_history",
+          "call_ids": [
+            11,
+            12
+          ],
+          "selected_id": 4,
+          "description": "前往营地",
+          "action": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "recorded_action_reproduced": false,
+          "matches_diagnostic_target": true,
+          "feedback": {
+            "A": {
+              "action_succeeded": true,
+              "result": "等待。",
+              "step": 2,
+              "done": false
+            },
+            "B": {
+              "action_succeeded": true,
+              "result": "移动成功。",
+              "step": 2,
+              "done": false
+            },
+            "C": {
+              "action_succeeded": true,
+              "result": "移动成功。",
+              "step": 2,
+              "done": false
+            }
+          },
+          "score_before": 0.0,
+          "score_after": 0.0,
+          "replay_matches": true,
+          "analysis_prompt_tokens": 2207,
+          "formal_prompt_tokens": 2281
+        }
+      ],
+      "other_current_actions_supplied_to_subject": false
+    },
+    {
+      "case_id": "S_C_step9",
+      "agent": "C",
+      "step": 9,
+      "old_call_ids": {
+        "analysis": 269,
+        "formal": 270
+      },
+      "seed": 87652064,
+      "history_records_removed": 8,
+      "history_only_input_change": true,
+      "current_broadcasts_unchanged": true,
+      "current_broadcast_count": 12,
+      "original_reproduction": {
+        "analysis_input_exact": true,
+        "analysis_render_sha_exact": true,
+        "analysis_text_exact": true,
+        "formal_input_exact": true,
+        "formal_render_sha_exact": true,
+        "formal_output_exact": true,
+        "both_seeds_match": true,
+        "both_stages_exact": true
+      },
+      "settlements": [
+        {
+          "arm": "original",
+          "call_ids": [
+            13,
+            14
+          ],
+          "selected_id": 5,
+          "description": "前往营地",
+          "action": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "recorded_action_reproduced": true,
+          "matches_diagnostic_target": false,
+          "feedback": {
+            "A": {
+              "action_succeeded": false,
+              "result": "共同动作没有发生。",
+              "step": 9,
+              "done": false
+            },
+            "B": {
+              "action_succeeded": true,
+              "result": "等待。",
+              "step": 9,
+              "done": false
+            },
+            "C": {
+              "action_succeeded": true,
+              "result": "移动成功。",
+              "step": 9,
+              "done": false
+            }
+          },
+          "score_before": 0.0,
+          "score_after": 0.0,
+          "replay_matches": true,
+          "analysis_prompt_tokens": 10215,
+          "formal_prompt_tokens": 10399
+        },
+        {
+          "arm": "empty_history",
+          "call_ids": [
+            15,
+            16
+          ],
+          "selected_id": 6,
+          "description": "拿取物297（干短木材）",
+          "action": {
+            "kind": "pickup",
+            "item": "物297"
+          },
+          "recorded_action_reproduced": false,
+          "matches_diagnostic_target": false,
+          "feedback": {
+            "A": {
+              "action_succeeded": false,
+              "result": "共同动作没有发生。",
+              "step": 9,
+              "done": false
+            },
+            "B": {
+              "action_succeeded": true,
+              "result": "等待。",
+              "step": 9,
+              "done": false
+            },
+            "C": {
+              "action_succeeded": true,
+              "result": "拿取成功。",
+              "step": 9,
+              "done": false
+            }
+          },
+          "score_before": 0.0,
+          "score_after": 0.0,
+          "replay_matches": true,
+          "analysis_prompt_tokens": 2310,
+          "formal_prompt_tokens": 2387
+        }
+      ],
+      "other_current_actions_supplied_to_subject": false
+    }
+  ],
+  "finish_reasons": {
+    "private_analysis": {
+      "stop": 8,
+      "length": 0
+    },
+    "action": {
+      "stop": 8,
+      "length": 0
+    }
+  },
+  "backend_stats": {
+    "calls": 16,
+    "load_seconds": 2.1087210410041735,
+    "inference_seconds": 35.72661595919635,
+    "generation_tokens_by_mode": {
+      "private_analysis": 925,
+      "action": 16
+    },
+    "max_prompt_tokens": 10399,
+    "peak_mlx_memory_gb": 10.785059434
+  },
+  "audit_loaded_model_weights": false,
+  "audit_new_inference_calls": 0,
+  "limits": [
+    "The rule questions all have the same correct meaning; four correct answers cannot exclude an always-yes semantic strategy.",
+    "The two S cases were selected from previously observed failures; no unbiased task accuracy estimate follows.",
+    "History deletion also shortens the prompt and removes multiple kinds of old content.",
+    "One-step replacement fixes the other two recorded actions; it is not fresh group negotiation or whole-episode success.",
+    "The C empty-history analysis does not name a correct legal pickup option; choosing short wood is not evidence that a mask flipped a correct heavy-wood option."
+  ]
+}

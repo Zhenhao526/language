@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "python3",
+      "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+      "record-review",
+      "2302.08084",
+      "--config",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/config.toml",
+      "--input",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reviews/2302.08084.json"
+    ],
+    "exit_code": 0,
+    "stdout": "Saved review: /Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/.arxiv-watcher/reviews/2302.08084.json\nOverall: 80.5; verdict: must-read; confidence: medium\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+      "record-review",
+      "2407.17960",
+      "--config",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/config.toml",
+      "--input",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reviews/2407.17960.json"
+    ],
+    "exit_code": 0,
+    "stdout": "Saved review: /Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/.arxiv-watcher/reviews/2407.17960.json\nOverall: 80.7; verdict: must-read; confidence: medium\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+      "record-review",
+      "2508.06659",
+      "--config",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/config.toml",
+      "--input",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reviews/2508.06659.json"
+    ],
+    "exit_code": 0,
+    "stdout": "Saved review: /Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/.arxiv-watcher/reviews/2508.06659.json\nOverall: 75.1; verdict: read; confidence: medium\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/skills/arxiv-paper-radar/scripts/radar.py",
+      "finalize",
+      "--candidates",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/targeted_candidates.json",
+      "--config",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/config.toml",
+      "--top-n",
+      "3",
+      "--output",
+      "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reports/radar_ranked_review.md"
+    ],
+    "exit_code": 0,
+    "stdout": "Wrote Agent report: /Users/xia/Documents/ChatGPT/语言/paper_program/literature_capability_20260916/reports/radar_ranked_review.md\nReviewed: 3; reported: 3\n",
+    "stderr": ""
+  }
+]

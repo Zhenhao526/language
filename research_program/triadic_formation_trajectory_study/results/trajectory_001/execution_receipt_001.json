@@ -1,0 +1,28 @@
+{
+  "at": "2026-09-16T02:18:42.469698+00:00",
+  "prepare": {
+    "session_id": 41562,
+    "exit_code": 0
+  },
+  "main": {
+    "session_id": 37395,
+    "exit_code": 0,
+    "elapsed_seconds": 208.09500537498388
+  },
+  "audit001": {
+    "session_id": 41111,
+    "exit_code": 1,
+    "neural_forward_samples": 0,
+    "parameter_loads": 0
+  },
+  "audit002": {
+    "session_id": 80234,
+    "exit_code": 0,
+    "elapsed_seconds": 186.50799958303105
+  },
+  "main_sha256": "53cf8777f9cb1a96da78e2b882703621c4497caaffb37abd606e581d8bbfccf7",
+  "verification_sha256": "7333f55593466a147628eae6a8c95e3b7bd56eda5b068fdbec26dc0e671743ed",
+  "report_sha256": "941a238842c22362c1bdbfde9878fdbb9fac9cc90c5e931e60de8617fa473554",
+  "report_peer_review": "Read-only agent checked primary, all four pairs, fixed-time contrasts, terminal receiver row, final score counts, rewards and interpretation; root clarified W2 recomputation afterward.",
+  "training_updates": 0
+}

@@ -1,0 +1,45 @@
+{
+  "controls": "FI-silent rows are route-invariant aliases because cross-agent route is absent",
+  "definitions": {
+    "slot_payload_zero": "zero one selected sender payload position for cross-viewers",
+    "slot_symbol_shift": "replace one selected token t with (t+1) mod 8 for cross-viewers",
+    "slot_symbol_xor4": "replace one selected token t with t xor 4 for cross-viewers"
+  },
+  "families": {
+    "slot_payload_zero": [
+      "slot_payload_zero_0",
+      "slot_payload_zero_1",
+      "slot_payload_zero_2",
+      "slot_payload_zero_3"
+    ],
+    "slot_symbol_shift": [
+      "slot_symbol_shift_0",
+      "slot_symbol_shift_1",
+      "slot_symbol_shift_2",
+      "slot_symbol_shift_3"
+    ],
+    "slot_symbol_xor4": [
+      "slot_symbol_xor4_0",
+      "slot_symbol_xor4_1",
+      "slot_symbol_xor4_2",
+      "slot_symbol_xor4_3"
+    ]
+  },
+  "no_training": true,
+  "schema": "triadic_fi_single_slot_manifest_v1",
+  "scope": "first-window selected sender slot only; self-view retained; W2/action recomputed greedily",
+  "transforms": [
+    "slot_payload_zero_0",
+    "slot_payload_zero_1",
+    "slot_payload_zero_2",
+    "slot_payload_zero_3",
+    "slot_symbol_shift_0",
+    "slot_symbol_shift_1",
+    "slot_symbol_shift_2",
+    "slot_symbol_shift_3",
+    "slot_symbol_xor4_0",
+    "slot_symbol_xor4_1",
+    "slot_symbol_xor4_2",
+    "slot_symbol_xor4_3"
+  ]
+}

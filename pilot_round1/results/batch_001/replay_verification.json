@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "run": "pilot_round1/results/batch_001/emergent_seed101_H0",
+  "checked_trials": 2000,
+  "seed": 101,
+  "rollouts_replayed": 63,
+  "evaluation_boundaries_reached": [
+    2000
+  ],
+  "source_snapshot_hashes_match": true,
+  "batch_and_run_config_match": true,
+  "checks": [
+    "step",
+    "target_id",
+    "candidate_ids",
+    "sender",
+    "correct_indices_inferred_from_logged_metadata",
+    "selected_id",
+    "reward"
+  ],
+  "correct_indices_separately_logged": false,
+  "logged_prefix_sha256": "fac43645b4a0dbed44fda95b9632e18f5b7233ae8605fa4c4e57aed67627ab75",
+  "numpy_version": "2.5.3",
+  "numpy_matches_recorded_runtime": true,
+  "scope": "environment metadata and roles; no training, policy replay, or logged pixel hashes"
+}

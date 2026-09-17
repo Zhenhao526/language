@@ -1,0 +1,7 @@
+{
+  "max_abs_error": 0.0,
+  "optimizer_updates": 0,
+  "replay_forward_samples": 2626560,
+  "status": "passed",
+  "verification_sha256": "ee73cb980083f785855336c049d16177538a56ea8384b13e3d1ad9d78f5dd6f7"
+}

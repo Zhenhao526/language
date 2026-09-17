@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "args": {
+    "controller": "script",
+    "scenario": "wood",
+    "seed": 101,
+    "steps": 340,
+    "food": 8,
+    "output_dir": null,
+    "device": "mps",
+    "policy_python": null,
+    "dry_run": false
+  },
+  "started_utc": "20260914T072235.528301Z",
+  "controller_label": "script_positive_control",
+  "training": false,
+  "policy_inputs": [],
+  "model_evidence": false,
+  "social_learning_started": false,
+  "reset_validated": true,
+  "termination": "step_budget",
+  "completed_steps": 340,
+  "elapsed_wall_seconds": 55.41922404099023
+}

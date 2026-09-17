@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rematched_partner_confirmation_study/results/confirm_002",
+  "runs": 64,
+  "checkpoint_evaluations": 384,
+  "compact_worlds": 74317824,
+  "model_forwards": 668860416,
+  "optimizer_updates": 0,
+  "no_optimizer_updates": true,
+  "trajectory_replayed": true,
+  "pairing_verified": true,
+  "max_abs_error": 0.0,
+  "heldout_pair_rotation": true,
+  "rematch_histograms_checked": true,
+  "rematched_permutation_assignments": 49152000
+}

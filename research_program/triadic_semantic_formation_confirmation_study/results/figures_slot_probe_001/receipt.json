@@ -1,0 +1,13 @@
+{
+  "output_sha256": {
+    "slot_source_pull.pdf": "ae5aa7d923ea9f2ca3e416a74c58e5331cef2e7d7c57a5ffa50b6f553235e639",
+    "slot_source_pull.png": "47c462524a7f96d826bebc119190c5bb4ec52d5ea8bd4191119cb2c2ec5ac898"
+  },
+  "outputs": {
+    "slot_source_pull.pdf": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/figures_slot_probe_001/slot_source_pull.pdf",
+    "slot_source_pull.png": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/figures_slot_probe_001/slot_source_pull.png"
+  },
+  "status": "rendered_visual_reviewed",
+  "summary": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/summary_slot_001/summary.json",
+  "visual_review": "passed"
+}

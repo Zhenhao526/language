@@ -1,0 +1,12 @@
+{
+  "status": "failed_schema_precheck",
+  "comparison_source_sha256": "6668784772a3856848ca56d274dc7fd27a5ce7ad68707c99695dcb42ea5e39e7",
+  "expected_status": "completed",
+  "actual_status": "completed_read_only_summary",
+  "error": "AssertionError at initial status equality, before numerical comparison",
+  "neural_forwards": 0,
+  "npz_loads": 0,
+  "training": 0,
+  "full_execution_audit_status": "passed",
+  "source_not_modified": true
+}

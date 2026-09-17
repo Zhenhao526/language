@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "at": "2026-09-16T04:24:50.966868+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/execution/status.json": "e26b123afd6932f42b82aa037fe55d0c63e55ebb1d8dd90bda6e5740a3d50a3f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/execution/results.json": "4d80f8395a94a1bedbbbd27a4b287d011db88dbe9cf97ecef4b1e9540fe19f0e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/plan.json": "b5126ca468e16a41db4ee9e96c77f0a7e465c3c2123589d2f423911fc5bf5555",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/prepared.json": "d09ec9dc5d520514fa2bda3aff35118d01e9d23ae288de2a4c54df5c07b44082",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/freeze.json": "b46d1150df4c0bc7262a2c6036fc2f0f1c3d8373ea92b0bae09fd7647f447ff4"
+  },
+  "script_sha256": "9da12e4a7de7d9c9ee967b5dbe3e24ea674c3a6a4607b85bdf2ef885b86c72bf",
+  "outputs": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/summary_001/summary.json": "4a70b8209904da3bcd4265c3c594f28df72c4ff01f284fc711e5f31f930fc874"
+  },
+  "primary": {
+    "metric": "Q",
+    "partition": "new_needs_and_layouts",
+    "contrast": "PL_live_minus_PL_silent",
+    "independent_paired_seed_blocks": 4,
+    "paired_seeds": [
+      {
+        "seed": 59101,
+        "Q_live": 0.0789158950617284,
+        "Q_silent": 0.07384259259259258,
+        "difference": 0.005073302469135815
+      },
+      {
+        "seed": 59102,
+        "Q_live": 0.12883873456790124,
+        "Q_silent": 0.03994984567901235,
+        "difference": 0.08888888888888888
+      },
+      {
+        "seed": 59103,
+        "Q_live": 0.08900462962962963,
+        "Q_silent": 0.049421296296296297,
+        "difference": 0.03958333333333333
+      },
+      {
+        "seed": 59104,
+        "Q_live": 0.15007716049382716,
+        "Q_silent": 0.03763503086419753,
+        "difference": 0.11244212962962963
+      }
+    ],
+    "mean_difference": 0.06149691358024691
+  },
+  "counts": {
+    "training_runs": 8,
+    "paired_seed_blocks": 4,
+    "actual_evaluation_records": 240,
+    "natural_monitor_records": 192,
+    "natural_final_records": 32,
+    "live_policy_closed_final_records": 16,
+    "full_need_response_records": 48,
+    "aliased_records": 0
+  },
+  "scope": {
+    "npz_files_opened": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "primary_exact_equals_main": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  }
+}

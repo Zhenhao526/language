@@ -1,0 +1,837 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-14T11:25:15.289731+00:00",
+  "run_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_natural_20260914",
+  "metadata": {
+    "manifest": {
+      "schema_version": 1,
+      "phase": "calibration",
+      "conditions": [
+        "natural"
+      ],
+      "groups": [
+        17
+      ],
+      "episodes_per_group": 1,
+      "scenarios": [
+        {
+          "episode": 1,
+          "seed": 6101,
+          "variant": 0
+        }
+      ],
+      "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+      "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+      "alphabet": "@#%&*+=~",
+      "max_message_symbols": 32,
+      "per_agent_step_symbols": 64,
+      "windows": 4,
+      "private_analysis_max_tokens": 256,
+      "private_analysis_temperature": 0,
+      "message_temperature": 0.7,
+      "action_temperature": 0,
+      "natural_message_max_tokens": 96,
+      "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+      "controls": "independent histories; natural language is not bandwidth matched",
+      "created": "2026-09-14T17:48:50.807003",
+      "preregistered_order": "group then episode then alternating condition order",
+      "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+    },
+    "status": {
+      "status": "completed",
+      "backend": {
+        "calls": 360,
+        "load_seconds": 1.4130381669965573,
+        "inference_seconds": 2889.834806363622,
+        "generation_tokens_by_mode": {
+          "private_analysis": 16784,
+          "natural_message": 5918,
+          "action": 72
+        },
+        "max_prompt_tokens": 10901,
+        "peak_mlx_memory_gb": 10.821022344
+      }
+    },
+    "backend_stats": {
+      "calls": 360,
+      "load_seconds": 1.4130381669965573,
+      "inference_seconds": 2889.834806363622,
+      "generation_tokens_by_mode": {
+        "private_analysis": 16784,
+        "natural_message": 5918,
+        "action": 72
+      },
+      "max_prompt_tokens": 10901,
+      "peak_mlx_memory_gb": 10.821022344
+    }
+  },
+  "data_quality": {
+    "episode_rows": 1,
+    "malformed_jsonl_lines": 0,
+    "invalid_message_rows": 0,
+    "duplicate_episode_keys": [],
+    "warnings": []
+  },
+  "groups": [
+    {
+      "condition": "natural",
+      "group": "17",
+      "seeds": [
+        "6101"
+      ],
+      "overall": {
+        "episode_rows": 1,
+        "score": {
+          "n": 1,
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "steps_all_episodes": {
+          "n": 1,
+          "mean": 12.0,
+          "min": 12.0,
+          "max": 12.0
+        },
+        "success_recorded": 1,
+        "success_count": 0,
+        "success_rate": 0,
+        "steps_successful_episodes_only": {
+          "n": 0,
+          "mean": null,
+          "min": null,
+          "max": null
+        }
+      },
+      "messages": {
+        "channel_type": "natural_language_control",
+        "message_rows": 144,
+        "nonempty_count": 144,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 144,
+          "mean": 53.71527777777778,
+          "min": 31.0,
+          "max": 99.0
+        },
+        "length_nonempty": {
+          "n": 144,
+          "mean": 53.71527777777778,
+          "min": 31.0,
+          "max": 99.0
+        },
+        "length_histogram": {
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "35": 2,
+          "37": 3,
+          "38": 2,
+          "40": 3,
+          "41": 4,
+          "42": 9,
+          "43": 2,
+          "44": 7,
+          "45": 5,
+          "46": 2,
+          "47": 6,
+          "48": 8,
+          "49": 2,
+          "50": 6,
+          "51": 8,
+          "52": 8,
+          "53": 5,
+          "54": 5,
+          "55": 9,
+          "56": 3,
+          "57": 2,
+          "58": 1,
+          "59": 2,
+          "60": 5,
+          "61": 1,
+          "62": 4,
+          "63": 2,
+          "64": 1,
+          "65": 1,
+          "66": 1,
+          "67": 2,
+          "68": 3,
+          "69": 1,
+          "71": 2,
+          "72": 1,
+          "74": 1,
+          "75": 1,
+          "79": 4,
+          "80": 2,
+          "81": 1,
+          "88": 1,
+          "91": 1,
+          "98": 1,
+          "99": 1
+        },
+        "at_32_count": 1,
+        "at_32_ratio_all": 0.006944444444444444,
+        "at_32_ratio_nonempty": 0.006944444444444444,
+        "over_32_count": null,
+        "total_characters": 7735,
+        "alphabet_counts": {
+          "@": 0,
+          "#": 0,
+          "%": 0,
+          "&": 0,
+          "*": 0,
+          "+": 0,
+          "=": 0,
+          "~": 0
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": null,
+          "#": null,
+          "%": null,
+          "&": null,
+          "*": null,
+          "+": null,
+          "=": null,
+          "~": null
+        },
+        "invalid_character_counts": null,
+        "unique_nonempty_strings": 144,
+        "repeated_nonempty_occurrences": 0,
+        "repeated_nonempty_occurrence_ratio": 0.0,
+        "top_nonempty_strings": [
+          {
+            "text": "营地无伙伴。目标需长木材与纤维。木材须斧工，纤维可单人取。请 B/C 优先来营地取纤维或带斧加工原木。",
+            "count": 1
+          },
+          {
+            "text": "我在河滩，持斧带四根纤维。前往营地看任务板。若遇伙伴，请同步行动，共同处理长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我是 C，在林地。地面有长短木材。优先去营地看任务板，确认具体需求后再行动。",
+            "count": 1
+          },
+          {
+            "text": "请 B 速来营地交付纤维。请 C 来营地确认任务板。我无斧，无法加工原木。",
+            "count": 1
+          },
+          {
+            "text": "B 正移向营地。我持斧带四根纤维。若遇 A/C 请汇合。确认需求后协同处理长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我林地持斧。等待 B 到营地同步。确认需求后，两人共同搬运长木。",
+            "count": 1
+          },
+          {
+            "text": "请 B 到营地后直接交付纤维。C 无需移动，原地确认任务板即可。我无斧且无原木，无法加工长木，仅待纤维交付。",
+            "count": 1
+          },
+          {
+            "text": "B 已取长纤维，正赴营地。A 无斧无法加工，需确认任务板。C 若在营地请汇合搬运长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我持斧移向营地汇合。确认需求后，请 A 协助我加工长木，B 交付纤维。三人协同完成交付。",
+            "count": 1
+          },
+          {
+            "text": "请 B 直接交付纤维。若 C 已抵营地，请协助我寻找原木加工长木。",
+            "count": 1
+          },
+          {
+            "text": "已取长纤维。我赴营地交付。请 A 速至营地看任务板，请 C 携斧来营地。三人汇合协同处理长木。",
+            "count": 1
+          },
+          {
+            "text": "C 已移至营地查看任务板。请 A 速至营地汇合。待 B 交付纤维后，三人协同将长木加工并共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 1：B 请交付纤维，C 若带原木请出示。我无斧无原木，待 B 交付后协助 C 加工长木。窗口 2：待反馈。",
+            "count": 1
+          },
+          {
+            "text": "请 C 速带原木至营地并斧工。A 待命协助搬运。我在此待命，确认一起交付长木与纤维。",
+            "count": 1
+          },
+          {
+            "text": "我在林地持斧。请 B 到营地交付纤维。确认任务后，我协助加工长木，三人协同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 2：请 B 立即交付纤维。告知 C：我无斧，请 C 带原木来营地独自加工，完成后三人共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 2：我无原木，无法加工长木。请 C 速携原木至营地斧工。A 待命协助。我待命协同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口2：我林地持斧，地面有长原木。请B速抵营地交付纤维。待A至后，三人汇合协同加工搬运长木交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 3：请 B 立即交付纤维。C 请速携原木来营地，我协助加工。三人汇合共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口3：C 请携原木速抵营地加工。我在此待命协助搬运。A 请接收纤维。三人协作完成交付。",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 36,
+          "mean": 214.86111111111111,
+          "min": 165,
+          "max": 267
+        },
+        "agent_steps_over_64": null,
+        "complete_four_window_agent_steps": 36,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 36,
+          "mean": 214.86111111111111,
+          "min": 165,
+          "max": 267
+        },
+        "adjacent_windows": {
+          "pair_count": 108,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 0,
+            "changed_nonempty": 108
+          },
+          "both_nonempty_pair_count": 108,
+          "same_string_ratio_when_both_nonempty": 0.0,
+          "character_edit_distance": {
+            "n": 108,
+            "mean": 37.51851851851852,
+            "min": 1.0,
+            "max": 83.0
+          },
+          "signed_length_change": {
+            "n": 108,
+            "mean": -1.2222222222222223,
+            "min": -50.0,
+            "max": 63.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      },
+      "phases": {
+        "calibration": {
+          "episodes": {
+            "episode_rows": 1,
+            "score": {
+              "n": 1,
+              "mean": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "steps_all_episodes": {
+              "n": 1,
+              "mean": 12.0,
+              "min": 12.0,
+              "max": 12.0
+            },
+            "success_recorded": 1,
+            "success_count": 0,
+            "success_rate": 0,
+            "steps_successful_episodes_only": {
+              "n": 0,
+              "mean": null,
+              "min": null,
+              "max": null
+            }
+          },
+          "messages": {
+            "channel_type": "natural_language_control",
+            "message_rows": 144,
+            "nonempty_count": 144,
+            "nonempty_ratio": 1.0,
+            "length_all": {
+              "n": 144,
+              "mean": 53.71527777777778,
+              "min": 31.0,
+              "max": 99.0
+            },
+            "length_nonempty": {
+              "n": 144,
+              "mean": 53.71527777777778,
+              "min": 31.0,
+              "max": 99.0
+            },
+            "length_histogram": {
+              "31": 1,
+              "32": 1,
+              "33": 1,
+              "35": 2,
+              "37": 3,
+              "38": 2,
+              "40": 3,
+              "41": 4,
+              "42": 9,
+              "43": 2,
+              "44": 7,
+              "45": 5,
+              "46": 2,
+              "47": 6,
+              "48": 8,
+              "49": 2,
+              "50": 6,
+              "51": 8,
+              "52": 8,
+              "53": 5,
+              "54": 5,
+              "55": 9,
+              "56": 3,
+              "57": 2,
+              "58": 1,
+              "59": 2,
+              "60": 5,
+              "61": 1,
+              "62": 4,
+              "63": 2,
+              "64": 1,
+              "65": 1,
+              "66": 1,
+              "67": 2,
+              "68": 3,
+              "69": 1,
+              "71": 2,
+              "72": 1,
+              "74": 1,
+              "75": 1,
+              "79": 4,
+              "80": 2,
+              "81": 1,
+              "88": 1,
+              "91": 1,
+              "98": 1,
+              "99": 1
+            },
+            "at_32_count": 1,
+            "at_32_ratio_all": 0.006944444444444444,
+            "at_32_ratio_nonempty": 0.006944444444444444,
+            "over_32_count": null,
+            "total_characters": 7735,
+            "alphabet_counts": {
+              "@": 0,
+              "#": 0,
+              "%": 0,
+              "&": 0,
+              "*": 0,
+              "+": 0,
+              "=": 0,
+              "~": 0
+            },
+            "alphabet_frequencies_among_legal_characters": {
+              "@": null,
+              "#": null,
+              "%": null,
+              "&": null,
+              "*": null,
+              "+": null,
+              "=": null,
+              "~": null
+            },
+            "invalid_character_counts": null,
+            "unique_nonempty_strings": 144,
+            "repeated_nonempty_occurrences": 0,
+            "repeated_nonempty_occurrence_ratio": 0.0,
+            "top_nonempty_strings": [
+              {
+                "text": "营地无伙伴。目标需长木材与纤维。木材须斧工，纤维可单人取。请 B/C 优先来营地取纤维或带斧加工原木。",
+                "count": 1
+              },
+              {
+                "text": "我在河滩，持斧带四根纤维。前往营地看任务板。若遇伙伴，请同步行动，共同处理长纤维。",
+                "count": 1
+              },
+              {
+                "text": "我是 C，在林地。地面有长短木材。优先去营地看任务板，确认具体需求后再行动。",
+                "count": 1
+              },
+              {
+                "text": "请 B 速来营地交付纤维。请 C 来营地确认任务板。我无斧，无法加工原木。",
+                "count": 1
+              },
+              {
+                "text": "B 正移向营地。我持斧带四根纤维。若遇 A/C 请汇合。确认需求后协同处理长纤维。",
+                "count": 1
+              },
+              {
+                "text": "我林地持斧。等待 B 到营地同步。确认需求后，两人共同搬运长木。",
+                "count": 1
+              },
+              {
+                "text": "请 B 到营地后直接交付纤维。C 无需移动，原地确认任务板即可。我无斧且无原木，无法加工长木，仅待纤维交付。",
+                "count": 1
+              },
+              {
+                "text": "B 已取长纤维，正赴营地。A 无斧无法加工，需确认任务板。C 若在营地请汇合搬运长纤维。",
+                "count": 1
+              },
+              {
+                "text": "我持斧移向营地汇合。确认需求后，请 A 协助我加工长木，B 交付纤维。三人协同完成交付。",
+                "count": 1
+              },
+              {
+                "text": "请 B 直接交付纤维。若 C 已抵营地，请协助我寻找原木加工长木。",
+                "count": 1
+              },
+              {
+                "text": "已取长纤维。我赴营地交付。请 A 速至营地看任务板，请 C 携斧来营地。三人汇合协同处理长木。",
+                "count": 1
+              },
+              {
+                "text": "C 已移至营地查看任务板。请 A 速至营地汇合。待 B 交付纤维后，三人协同将长木加工并共同搬运交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口 1：B 请交付纤维，C 若带原木请出示。我无斧无原木，待 B 交付后协助 C 加工长木。窗口 2：待反馈。",
+                "count": 1
+              },
+              {
+                "text": "请 C 速带原木至营地并斧工。A 待命协助搬运。我在此待命，确认一起交付长木与纤维。",
+                "count": 1
+              },
+              {
+                "text": "我在林地持斧。请 B 到营地交付纤维。确认任务后，我协助加工长木，三人协同搬运交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口 2：请 B 立即交付纤维。告知 C：我无斧，请 C 带原木来营地独自加工，完成后三人共同搬运交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口 2：我无原木，无法加工长木。请 C 速携原木至营地斧工。A 待命协助。我待命协同搬运交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口2：我林地持斧，地面有长原木。请B速抵营地交付纤维。待A至后，三人汇合协同加工搬运长木交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口 3：请 B 立即交付纤维。C 请速携原木来营地，我协助加工。三人汇合共同搬运交付。",
+                "count": 1
+              },
+              {
+                "text": "窗口3：C 请携原木速抵营地加工。我在此待命协助搬运。A 请接收纤维。三人协作完成交付。",
+                "count": 1
+              }
+            ],
+            "agent_step_character_totals_observed": {
+              "n": 36,
+              "mean": 214.86111111111111,
+              "min": 165,
+              "max": 267
+            },
+            "agent_steps_over_64": null,
+            "complete_four_window_agent_steps": 36,
+            "complete_four_window_agent_step_character_totals": {
+              "n": 36,
+              "mean": 214.86111111111111,
+              "min": 165,
+              "max": 267
+            },
+            "adjacent_windows": {
+              "pair_count": 108,
+              "transition_counts": {
+                "both_empty": 0,
+                "empty_to_nonempty": 0,
+                "nonempty_to_empty": 0,
+                "same_nonempty": 0,
+                "changed_nonempty": 108
+              },
+              "both_nonempty_pair_count": 108,
+              "same_string_ratio_when_both_nonempty": 0.0,
+              "character_edit_distance": {
+                "n": 108,
+                "mean": 37.51851851851852,
+                "min": 1.0,
+                "max": 83.0
+              },
+              "signed_length_change": {
+                "n": 108,
+                "mean": -1.2222222222222223,
+                "min": -50.0,
+                "max": 63.0
+              },
+              "duplicate_window_rows_excluded_from_pairs": 0,
+              "rows_without_usable_agent_step_window": 0
+            }
+          }
+        }
+      },
+      "episode_results": [
+        {
+          "condition": "natural",
+          "group": 17,
+          "phase": "calibration",
+          "episode": 1,
+          "seed": 6101,
+          "score": 0.0,
+          "steps": 12,
+          "success": false
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "natural",
+      "groups_observed": 1,
+      "group_ids": [
+        "17"
+      ],
+      "phases": {
+        "calibration": {
+          "groups_observed": 1,
+          "group_mean_score": {
+            "n": 1,
+            "mean": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "group_success_rate": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0
+          },
+          "episode_rows": 1
+        }
+      },
+      "messages_pooled_descriptive_only": {
+        "channel_type": "natural_language_control",
+        "message_rows": 144,
+        "nonempty_count": 144,
+        "nonempty_ratio": 1.0,
+        "length_all": {
+          "n": 144,
+          "mean": 53.71527777777778,
+          "min": 31.0,
+          "max": 99.0
+        },
+        "length_nonempty": {
+          "n": 144,
+          "mean": 53.71527777777778,
+          "min": 31.0,
+          "max": 99.0
+        },
+        "length_histogram": {
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "35": 2,
+          "37": 3,
+          "38": 2,
+          "40": 3,
+          "41": 4,
+          "42": 9,
+          "43": 2,
+          "44": 7,
+          "45": 5,
+          "46": 2,
+          "47": 6,
+          "48": 8,
+          "49": 2,
+          "50": 6,
+          "51": 8,
+          "52": 8,
+          "53": 5,
+          "54": 5,
+          "55": 9,
+          "56": 3,
+          "57": 2,
+          "58": 1,
+          "59": 2,
+          "60": 5,
+          "61": 1,
+          "62": 4,
+          "63": 2,
+          "64": 1,
+          "65": 1,
+          "66": 1,
+          "67": 2,
+          "68": 3,
+          "69": 1,
+          "71": 2,
+          "72": 1,
+          "74": 1,
+          "75": 1,
+          "79": 4,
+          "80": 2,
+          "81": 1,
+          "88": 1,
+          "91": 1,
+          "98": 1,
+          "99": 1
+        },
+        "at_32_count": 1,
+        "at_32_ratio_all": 0.006944444444444444,
+        "at_32_ratio_nonempty": 0.006944444444444444,
+        "over_32_count": null,
+        "total_characters": 7735,
+        "alphabet_counts": {
+          "@": 0,
+          "#": 0,
+          "%": 0,
+          "&": 0,
+          "*": 0,
+          "+": 0,
+          "=": 0,
+          "~": 0
+        },
+        "alphabet_frequencies_among_legal_characters": {
+          "@": null,
+          "#": null,
+          "%": null,
+          "&": null,
+          "*": null,
+          "+": null,
+          "=": null,
+          "~": null
+        },
+        "invalid_character_counts": null,
+        "unique_nonempty_strings": 144,
+        "repeated_nonempty_occurrences": 0,
+        "repeated_nonempty_occurrence_ratio": 0.0,
+        "top_nonempty_strings": [
+          {
+            "text": "营地无伙伴。目标需长木材与纤维。木材须斧工，纤维可单人取。请 B/C 优先来营地取纤维或带斧加工原木。",
+            "count": 1
+          },
+          {
+            "text": "我在河滩，持斧带四根纤维。前往营地看任务板。若遇伙伴，请同步行动，共同处理长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我是 C，在林地。地面有长短木材。优先去营地看任务板，确认具体需求后再行动。",
+            "count": 1
+          },
+          {
+            "text": "请 B 速来营地交付纤维。请 C 来营地确认任务板。我无斧，无法加工原木。",
+            "count": 1
+          },
+          {
+            "text": "B 正移向营地。我持斧带四根纤维。若遇 A/C 请汇合。确认需求后协同处理长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我林地持斧。等待 B 到营地同步。确认需求后，两人共同搬运长木。",
+            "count": 1
+          },
+          {
+            "text": "请 B 到营地后直接交付纤维。C 无需移动，原地确认任务板即可。我无斧且无原木，无法加工长木，仅待纤维交付。",
+            "count": 1
+          },
+          {
+            "text": "B 已取长纤维，正赴营地。A 无斧无法加工，需确认任务板。C 若在营地请汇合搬运长纤维。",
+            "count": 1
+          },
+          {
+            "text": "我持斧移向营地汇合。确认需求后，请 A 协助我加工长木，B 交付纤维。三人协同完成交付。",
+            "count": 1
+          },
+          {
+            "text": "请 B 直接交付纤维。若 C 已抵营地，请协助我寻找原木加工长木。",
+            "count": 1
+          },
+          {
+            "text": "已取长纤维。我赴营地交付。请 A 速至营地看任务板，请 C 携斧来营地。三人汇合协同处理长木。",
+            "count": 1
+          },
+          {
+            "text": "C 已移至营地查看任务板。请 A 速至营地汇合。待 B 交付纤维后，三人协同将长木加工并共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 1：B 请交付纤维，C 若带原木请出示。我无斧无原木，待 B 交付后协助 C 加工长木。窗口 2：待反馈。",
+            "count": 1
+          },
+          {
+            "text": "请 C 速带原木至营地并斧工。A 待命协助搬运。我在此待命，确认一起交付长木与纤维。",
+            "count": 1
+          },
+          {
+            "text": "我在林地持斧。请 B 到营地交付纤维。确认任务后，我协助加工长木，三人协同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 2：请 B 立即交付纤维。告知 C：我无斧，请 C 带原木来营地独自加工，完成后三人共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 2：我无原木，无法加工长木。请 C 速携原木至营地斧工。A 待命协助。我待命协同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口2：我林地持斧，地面有长原木。请B速抵营地交付纤维。待A至后，三人汇合协同加工搬运长木交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口 3：请 B 立即交付纤维。C 请速携原木来营地，我协助加工。三人汇合共同搬运交付。",
+            "count": 1
+          },
+          {
+            "text": "窗口3：C 请携原木速抵营地加工。我在此待命协助搬运。A 请接收纤维。三人协作完成交付。",
+            "count": 1
+          }
+        ],
+        "agent_step_character_totals_observed": {
+          "n": 36,
+          "mean": 214.86111111111111,
+          "min": 165,
+          "max": 267
+        },
+        "agent_steps_over_64": null,
+        "complete_four_window_agent_steps": 36,
+        "complete_four_window_agent_step_character_totals": {
+          "n": 36,
+          "mean": 214.86111111111111,
+          "min": 165,
+          "max": 267
+        },
+        "adjacent_windows": {
+          "pair_count": 108,
+          "transition_counts": {
+            "both_empty": 0,
+            "empty_to_nonempty": 0,
+            "nonempty_to_empty": 0,
+            "same_nonempty": 0,
+            "changed_nonempty": 108
+          },
+          "both_nonempty_pair_count": 108,
+          "same_string_ratio_when_both_nonempty": 0.0,
+          "character_edit_distance": {
+            "n": 108,
+            "mean": 37.51851851851852,
+            "min": 1.0,
+            "max": 83.0
+          },
+          "signed_length_change": {
+            "n": 108,
+            "mean": -1.2222222222222223,
+            "min": -50.0,
+            "max": 63.0
+          },
+          "duplicate_window_rows_excluded_from_pairs": 0,
+          "rows_without_usable_agent_step_window": 0
+        }
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "独立实验单位是群体，任务段和消息不作为独立重复；本报告不做显著性检验。",
+    "条件成绩按阶段分别汇总各群体均值，群体等权；消息汇总仅描述已记录字符串。",
+    "成功、重复、变长或相邻窗口改变不能证明共同意义、澄清、组合性或语法。",
+    "相邻窗口仅比较同一任务段、主体、物理动作步内编号连续的窗口；不比较跨段相邻文本。",
+    "尚未出现、丢失或损坏的任务段不算失败，缺失消息不算沉默；运行中报告可能不完整。",
+    "同时报告所有任务段步数与成功段步数；不据不同完成度的平均步数直接判断效率。"
+  ]
+}

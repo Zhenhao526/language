@@ -1,0 +1,25 @@
+{
+  "created_from": "/Users/xia/Documents/ChatGPT/语言",
+  "created_at": "2026-09-17",
+  "file_count": 11103,
+  "copied_bytes": 299988326,
+  "omitted_count": 419325,
+  "omitted_bytes": 113272064264,
+  "large_file_count": 166,
+  "current_experiment": {
+    "package": "research_program/triadic_global_reward_control_study",
+    "prepared": "research_program/triadic_global_reward_control_study/results/global_002",
+    "audit": "research_program/triadic_global_reward_control_study/results/audit_global_002",
+    "summary": "research_program/triadic_global_reward_control_study/results/summary_global_002",
+    "figures": "research_program/triadic_global_reward_control_study/results/figures_global_002"
+  },
+  "omission_policy": [
+    "per-run seed_* directories",
+    "checkpoint arrays and training logs",
+    "model weights and raw visual data",
+    "literature PDFs",
+    "runtime environments",
+    "old generated result details; retain reports/receipts/manifests"
+  ],
+  "omission_details": "OMISSION_SUMMARY.json"
+}

@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-17T01:00:41.387133+00:00",
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "placebo_mapping_sha256": "7da41c4ea36c044c02e7c71e65501e5c7d65839b20748f9ab35bd1a96225623f",
+  "prepared_sha256": "0a8ef0503cad8eb6757cfd34b7e551bfc40bb6528e3436faeac5700e6e88d98e",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_sha256": {
+    "candidate.json": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+    "manifest.json": "c8853743f4fdfcf2d8c259180a2c928f22b7ecfcf2f5d7ef81efeda65c8ea0b3",
+    "prepared.json": "0a8ef0503cad8eb6757cfd34b7e551bfc40bb6528e3436faeac5700e6e88d98e",
+    "primary_probe_results.json": "360a7d2ccd4487356f4ddec2cdad686fc91b3c356818cab6383cc8a61ba5d3e4",
+    "source_execution_results.json": "c86b9a432bf57700483d2dfd44a95f150cfbdfe0813feed6091967fc08047533",
+    "source_freeze.json": "3e3192ab232838cc6c11402dc3a522bc4c40da916f866bc13f782c4d298b28da",
+    "source_prepared.json": "e7dfd40bb7a40a267adf7732edd71f72ba2520b218fc5b3ff14b8b26f3b6f620"
+  },
+  "status": "prepared_without_policy_reads"
+}

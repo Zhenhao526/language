@@ -1,0 +1,7 @@
+{
+  "case_count": 3456,
+  "optimizer_updates": 0,
+  "policy_blocks": 64,
+  "results_sha256": "90aa8ac4d7548e876e654dd344cab26c3f2e8599201853fd24b383ef89e7cd2e",
+  "status": "passed"
+}

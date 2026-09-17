@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/closed_probe_fi_002/results.json",
+  "figures": [
+    "closed_channel_differences.png",
+    "closed_channel_endpoint.png"
+  ],
+  "visual_notes": "Both PNG/PDF figures were opened; axes, legend, labels and small target-pair differences render without clipping or overlap."
+}

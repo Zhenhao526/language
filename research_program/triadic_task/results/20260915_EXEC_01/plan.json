@@ -1,0 +1,89 @@
+{
+  "status_at_freeze": "prepared_not_executed",
+  "created_at": "2026-09-15T11:27:54.136484+00:00",
+  "source_run": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/plan.json": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/freeze.json": "ae5ef34d7b47cc063b562657fba8a45492914582aa0858f3198dcadc1680e05e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/prepared_cases.json": "c17cd72fc85a35fe4fddd6b08b3008bb4cf3c49e5ede3fa23d33b75df8d12fac",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/fake_backend_audit.json": "a95bfa788ae28b935e117ea514b4d0887529decd0b808038b4b51fbcb1c6c18d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/started.json": "74c12e9b99da3995a9a2e6000309ef75c72b3e61d8d919e4f5e62f35a8a04de3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/results.json": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/status.json": "86945389ca2e651da7f9840a5e218248ccac16463ae6a2a1e5469bf2ab813ff2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/trials.jsonl": "fe80857da870414e3659e16c80c14ca9257142d12326eb68929a51dc825a7348",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/inference.jsonl": "713d0138c16229566747440fee810b3657fbca1232c405e295126d197f0efd26",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/histories_after.json": "5c7c5197e5240378f1fc9c786dddd139177058c1886019a3075ceb0521312828",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/backend_stats.json": "44f4bd65739979501871c0ded7d360922140cd8a4e9f255e3931148a2ffa4dd3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_execution_diagnostic.py": "b9507d06125a3da8864b2dba463e217aebeff494aa06c6036db56dee00069d68",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/共享计划执行诊断_方案.md": "743390fb65edbc8350193230ac38d0ec76472a3e4eb1132c3459e1c184a55802",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/独立核验.json": "2c01a09de1f70edcde94be8928db29376782f3c79bf29e5a600e18fa82f274a5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/audit_qwen_capability_results.py": "ab9f28970a084479f8988960f3350b28f0105c733cf32cad809665e60209b0ec"
+  },
+  "prepared_cases_sha256": "64a2d53578488a713daad22ab342eb839935f5b42c3a1f9bdd2d66297975f66e",
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "prepare_runtime": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "packages": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0",
+      "tokenizers": "0.23.2",
+      "numpy": "2.5.3"
+    }
+  },
+  "source_cap_plan_sha256": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8",
+  "arms": [
+    "original_replay",
+    "shared_plan_added"
+  ],
+  "source_decisions": 36,
+  "calls_per_arm": 72,
+  "max_backend_calls": 144,
+  "all_source_actions_included": true,
+  "unique_decision_seeds": 36,
+  "seed_policy": "Reuse each source seed in both arms and both analysis/formal stages; all temperatures0",
+  "case_order": "Source CAP group/episode/A-B-C order; finish all original_replay before all shared_plan_added",
+  "intervention": "Append exactly one researcher user message giving the same valid semantic plan to all three and instructing adherence. Preserve every original base message, all6 broadcasts, history, observation and private17-action menu; no correct local ID in addition.",
+  "new_probe_history": false,
+  "probe_actions_visible_to_partners": false,
+  "reproduction_requirement": "Source72 action-stage messages, outputs and rendered SHA must all exactly reproduce; differences do not stop144 but mark effect_uninterpretable",
+  "plan_distribution": {
+    "context_trials": {
+      "trials": 12,
+      "active_pairs": {
+        "AB": 9,
+        "AC": 3
+      },
+      "waiting_agents": {
+        "C": 9,
+        "B": 3
+      }
+    },
+    "unique_semantic_draws": {
+      "trials": 4,
+      "active_pairs": {
+        "AB": 3,
+        "AC": 1
+      },
+      "waiting_agents": {
+        "C": 3,
+        "B": 1
+      }
+    },
+    "selection": "Unmodified environment first sufficient_information_witness; not selected by model results."
+  },
+  "measurements": [
+    "exact individual reference-plan match",
+    "exact joint reference-plan match",
+    "actual joint reward",
+    "different valid full-success solution"
+  ],
+  "scope": "Posthoc researcher-plan plus adherence-instruction joint intervention;12 snapshots from4 semantic draws x3 contexts, not new independent worlds or all-role capability",
+  "modifies_original_CAP_gate": false,
+  "modifies_original_v3_gate": false,
+  "starts_symbolic_experiment": false,
+  "weight_provenance": "Verify and reference CAP frozen metadata/source chain and weight byte sizes; no new full weight hash or copy",
+  "prepare_model_calls": 0
+}

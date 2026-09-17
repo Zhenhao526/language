@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_rows": 64,
+  "model_forwards": 47093760,
+  "optimizer_updates": 0,
+  "output_results_sha256": "ecb8bbede975e502c7083c858c4f409d7391661e8a41a7db20a615912fa648f3",
+  "posthoc": true
+}

@@ -1,0 +1,66 @@
+{
+  "version": "local-survival-arena-v1",
+  "scenario": "movement",
+  "seed": 101,
+  "name": "Calib_movement_seed_101",
+  "placement": {
+    "x": 0.5,
+    "y": 64.0,
+    "z": 0.5,
+    "yaw": 90.0,
+    "pitch": 0.0
+  },
+  "arena_bounds": {
+    "x": [
+      -20,
+      20
+    ],
+    "z": [
+      -20,
+      20
+    ],
+    "floor_y": 63
+  },
+  "primary_tree": null,
+  "food_item": "bread",
+  "food_slot": null,
+  "initial_selected_slot": 0,
+  "inventory": {},
+  "food": 20,
+  "health": 20.0,
+  "saturation": 0.0,
+  "resolution": [
+    640,
+    360
+  ],
+  "gui_scale": 1,
+  "gamma": 2.0,
+  "fov": 70.0,
+  "cursor_size": 16,
+  "world": {
+    "mode": "Survival",
+    "difficulty": "HARD",
+    "time": 6000,
+    "daylight_cycle": false,
+    "weather": "clear",
+    "mob_spawning": false,
+    "generation": "native generator plus bounded experimenter-built arena",
+    "native_breaking_eating_and_hunger_rules": true,
+    "requires_calibration_java_initializer": true
+  },
+  "limits": [
+    "Artificial flat safe arena; not natural food search or resource ecology.",
+    "Wood is hand-placed natural Minecraft log/leaf blocks; no dropped items are preloaded.",
+    "Food is supplied at reset; this does not test food acquisition.",
+    "The name of the scenario is never given to VPT as an instruction.",
+    "No world-knowledge, navigation-goal, or causal-understanding claim follows from movement alone."
+  ],
+  "presentation_overrides": {
+    "tutorialStep": "none",
+    "chatVisibility": "2",
+    "heldItemTooltips": "false",
+    "advancedItemTooltips": "false"
+  },
+  "presentation_scope": "Tutorial instructions, chat, and held-item name disabled; normal inventory GUI may still contain native labels.",
+  "requested_steps": 1200
+}

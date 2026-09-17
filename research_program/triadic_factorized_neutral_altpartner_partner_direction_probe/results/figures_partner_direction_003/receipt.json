@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "figures": [
+    "compound_transfer_conditions.png",
+    "partner_edge_forest.png"
+  ],
+  "source": "partner_direction_003/execution/results.json",
+  "plot_definition": "mean three senders within seed; forest shows partner-edge interaction in 10^-3 pp; bars show full-plan transfer"
+}

@@ -1,0 +1,155 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-17T06:18:43.433539+00:00",
+  "config": {
+    "updates": 3000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "proposal_count": 16,
+    "intent_count": 2,
+    "actions_per_actor": 17,
+    "action_logits": 18,
+    "worker_count": 4,
+    "evaluation_batch_size": 8192,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      67001,
+      67002,
+      67003,
+      67004,
+      67005,
+      67006,
+      67007,
+      67008
+    ],
+    "rules": [
+      "c0",
+      "c75",
+      "global25"
+    ],
+    "penalty_values": {
+      "c0": 0.0,
+      "c75": 0.75,
+      "global25": 0.75
+    },
+    "global_reward_scales": {
+      "c0": 1.0,
+      "c75": 1.0,
+      "global25": 0.25
+    },
+    "information": [
+      "PL",
+      "FI"
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "payoffs": [
+      "altpair_factorized"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "c0_PL_static_live",
+      "c0_PL_static_silent",
+      "c0_PL_rematched_live",
+      "c0_PL_rematched_silent",
+      "c0_FI_static_live",
+      "c0_FI_static_silent",
+      "c0_FI_rematched_live",
+      "c0_FI_rematched_silent",
+      "c75_PL_static_live",
+      "c75_PL_static_silent",
+      "c75_PL_rematched_live",
+      "c75_PL_rematched_silent",
+      "c75_FI_static_live",
+      "c75_FI_static_silent",
+      "c75_FI_rematched_live",
+      "c75_FI_rematched_silent",
+      "global25_PL_static_live",
+      "global25_PL_static_silent",
+      "global25_PL_rematched_live",
+      "global25_PL_rematched_silent",
+      "global25_FI_static_live",
+      "global25_FI_static_silent",
+      "global25_FI_rematched_live",
+      "global25_FI_rematched_silent"
+    ],
+    "partitions": [
+      "train",
+      "new_layouts"
+    ],
+    "task": "alternative_partner_coordination_rule_information_factorial",
+    "training_objective": "mean_log_expected_reward_over_rule_valid_events; sender_two_trajectory_LOO",
+    "observation": "PL_own_need_or_FI_all_needs_plus_public_layout",
+    "action_factorization": "intent softmax [neutral, engage] plus proposal softmax [16 site-destination-partner choices]",
+    "settlement_rules": "c0: reciprocal baseline; c75: reciprocal matching pair with a declared cost on an engaged unmatched third; global25: c0 events with all native rewards multiplied by .25",
+    "pairing": "same initial parameters, world uniforms, batch indices, message uniforms and rematch assignments within seed",
+    "evaluation": "two-alternative-partner worlds on train layouts at five checkpoints; new layouts at final",
+    "primary": "paired_c75_minus_global25_on_target_pair_legal_rate_and_physical_execution",
+    "selection": "fixed8 new seeds ×3 rules ×2 information ×2 schedules ×2 channels ×3000 updates; no early stopping",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_global_reward_control_study/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research_program/triadic_global_reward_control_study/design.py": "09657a5cd1335adef57b366a81ebe8bf0a3f843e9b9cc3453f50da35df753433",
+    "research_program/triadic_global_reward_control_study/kernel.py": "04414501321efe81bf715b9062e3e11d88db3e4d5e240a0682f82c035107e9a9",
+    "research_program/triadic_global_reward_control_study/runner.py": "c4702237f123c6fffd095846b4bb82e20f01317e94fdf286b97e6f7a898455fe",
+    "research_program/triadic_global_reward_control_study/remap.py": "aea256a95301f4db3edb89a8c6f40e87a5cc24cffbde3fa9c02a3fc56d2a8a2c",
+    "research_program/triadic_global_reward_control_study/plan.md": "6164da88f7cc44521447a5996e06585f8bbdcc1ec3f6dfb3952adad38e3ed4c5",
+    "research_program/triadic_global_reward_control_study/README.md": "7dbdb5663960e10eea9f74b3a0c7ee396461c001e7f97632f25e8a1f49da9e48",
+    "research_program/triadic_global_reward_control_study/tests/test_design.py": "38d9c8894a93fb88841417bd2ef422bd6059bfad7f24dcc95d921207b464f8df",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "prepared_sha256": "c5bf57955564efcbeeed2963628634a3eca80c1737c763200c1d6f9131779c00",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}

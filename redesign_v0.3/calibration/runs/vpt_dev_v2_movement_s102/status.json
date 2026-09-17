@@ -1,0 +1,31 @@
+{
+  "status": "paused_by_user",
+  "args": {
+    "controller": "vpt",
+    "scenario": "movement",
+    "seed": 102,
+    "steps": 1200,
+    "food": 8,
+    "output_dir": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/runs/vpt_dev_v2_movement_s102",
+    "device": "mps",
+    "policy_python": null,
+    "dry_run": false
+  },
+  "started_utc": "20260914T072901.067731Z",
+  "controller_label": "vpt",
+  "training": false,
+  "policy_inputs": [
+    "pov"
+  ],
+  "model_evidence": false,
+  "social_learning_started": false,
+  "reset_validated": true,
+  "termination": "user_requested_pause",
+  "error": "KeyboardInterrupt()",
+  "completed_steps": 156,
+  "behavior_evidence": false,
+  "close_errors": [
+    "RuntimeError('VPT response ID does not match request')"
+  ],
+  "elapsed_wall_seconds": 69.8053080830141
+}

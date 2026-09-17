@@ -1,0 +1,14 @@
+{
+  "artifacts_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/audit_001/verification.json": "9694261e4e7aea1d3c044cf37390b0967910792eb16066d7a54c33b6459f0f8b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/plan.json": "b8d1ce0631b9607f3a6d7c676cc36ada77148415e079ca41e2ed31f8722a00d5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/prepared.json": "34ca0260a214290cafc34028adf0f93245320bdd2f9bc1ca67a7f3fe07fb6e7d"
+  },
+  "evaluations": 256,
+  "neural_forwards": 0,
+  "optimizer_updates": 0,
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003",
+  "status": "passed",
+  "verification_sha256": "9694261e4e7aea1d3c044cf37390b0967910792eb16066d7a54c33b6459f0f8b",
+  "worlds": 61931520
+}

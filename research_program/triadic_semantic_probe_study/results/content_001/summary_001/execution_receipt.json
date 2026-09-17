@@ -1,0 +1,16 @@
+{
+  "status": "completed_once",
+  "summary_session_id": 85697,
+  "summary_exit_code": 0,
+  "summary_elapsed_seconds": 61.149389834026806,
+  "summary_sha256": "b87b506dc3bbc2db59af29ea9eb90536c127e60517dac4e0a0f54be57819999d",
+  "plot_exit_code": 0,
+  "plot_wall_time_seconds": 0.874626417,
+  "plot_source_sha256": "b445873bd02e87a2ea7ace52b0b5d55d3a83fc5d38eb7ef5607a7246dbfc4f8a",
+  "visual_review_sha256": "fd139c0c880d44a9139efa139338800bc1a0d01a8626cc66379bc9438082646b",
+  "new_model_forwards": 0,
+  "training": 0,
+  "automatic_retries": 0,
+  "complete_reports": 400,
+  "complete_row_metrics_npz": 400
+}

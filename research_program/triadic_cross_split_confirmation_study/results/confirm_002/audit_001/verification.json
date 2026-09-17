@@ -1,0 +1,19 @@
+{
+  "checkpoint_evaluations": 768,
+  "compact_worlds": 87588864,
+  "cross_split_directions": [
+    "train_to_heldout",
+    "heldout_to_train"
+  ],
+  "max_abs_error": 0.0,
+  "model_forwards": 788299776,
+  "no_optimizer_updates": true,
+  "optimizer_updates": 0,
+  "pairing_verified": true,
+  "plan_sha256": "4fa8578e60b164f4ffbeec8fa45e0803de23a68d3103ccc9547873ebc5cd182b",
+  "prepared_sha256": "564078bd0e8574c682e5f6b29256c9f4e52571f58da2eb6d7277ed037b2e1924",
+  "runs": 128,
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_cross_split_confirmation_study/results/confirm_002",
+  "status": "passed",
+  "trajectory_replayed": true
+}

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py", line 1605, in <module>
+    main()
+  File "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py", line 1601, in main
+    args.func(args)
+  File "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py", line 1226, in packet_command
+    full_text, extractor = extract_paper_text(paper, data_dir / "pdfs")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py", line 1203, in extract_paper_text
+    pdf_path = download_pdf(paper, pdf_dir)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/.codex/plugins/cache/zhenhao-arxiv-tools/arxiv-watcher/0.2.0/arxiv_watcher.py", line 1379, in download_pdf
+    path.write_bytes(resp.read())
+                     ^^^^^^^^^^^
+  File "/Users/xia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 510, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xia/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 684, in _safe_read
+    raise IncompleteRead(data.getvalue(), amt - data.tell())
+http.client.IncompleteRead: IncompleteRead(2097152 bytes read, 96994 more expected)

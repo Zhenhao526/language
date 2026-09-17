@@ -1,0 +1,180 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-17T04:17:32.015212+00:00",
+  "config": {
+    "updates": 3000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "proposal_count": 16,
+    "intent_count": 2,
+    "actions_per_actor": 17,
+    "action_logits": 18,
+    "worker_count": 4,
+    "evaluation_batch_size": 8192,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      66901,
+      66902,
+      66903,
+      66904,
+      66905,
+      66906,
+      66907,
+      66908
+    ],
+    "rules": [
+      "c0",
+      "c25",
+      "c50",
+      "c75",
+      "c100",
+      "strict"
+    ],
+    "penalty_values": {
+      "c0": 0.0,
+      "c25": 0.25,
+      "c50": 0.5,
+      "c75": 0.75,
+      "c100": 1.0,
+      "strict": null
+    },
+    "information": [
+      "PL",
+      "FI"
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "payoffs": [
+      "altpair_factorized"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "c0_PL_static_live",
+      "c0_PL_static_silent",
+      "c0_PL_rematched_live",
+      "c0_PL_rematched_silent",
+      "c0_FI_static_live",
+      "c0_FI_static_silent",
+      "c0_FI_rematched_live",
+      "c0_FI_rematched_silent",
+      "c25_PL_static_live",
+      "c25_PL_static_silent",
+      "c25_PL_rematched_live",
+      "c25_PL_rematched_silent",
+      "c25_FI_static_live",
+      "c25_FI_static_silent",
+      "c25_FI_rematched_live",
+      "c25_FI_rematched_silent",
+      "c50_PL_static_live",
+      "c50_PL_static_silent",
+      "c50_PL_rematched_live",
+      "c50_PL_rematched_silent",
+      "c50_FI_static_live",
+      "c50_FI_static_silent",
+      "c50_FI_rematched_live",
+      "c50_FI_rematched_silent",
+      "c75_PL_static_live",
+      "c75_PL_static_silent",
+      "c75_PL_rematched_live",
+      "c75_PL_rematched_silent",
+      "c75_FI_static_live",
+      "c75_FI_static_silent",
+      "c75_FI_rematched_live",
+      "c75_FI_rematched_silent",
+      "c100_PL_static_live",
+      "c100_PL_static_silent",
+      "c100_PL_rematched_live",
+      "c100_PL_rematched_silent",
+      "c100_FI_static_live",
+      "c100_FI_static_silent",
+      "c100_FI_rematched_live",
+      "c100_FI_rematched_silent",
+      "strict_PL_static_live",
+      "strict_PL_static_silent",
+      "strict_PL_rematched_live",
+      "strict_PL_rematched_silent",
+      "strict_FI_static_live",
+      "strict_FI_static_silent",
+      "strict_FI_rematched_live",
+      "strict_FI_rematched_silent"
+    ],
+    "partitions": [
+      "train",
+      "new_layouts"
+    ],
+    "task": "alternative_partner_coordination_rule_information_factorial",
+    "training_objective": "mean_log_expected_reward_over_rule_valid_events; sender_two_trajectory_LOO",
+    "observation": "PL_own_need_or_FI_all_needs_plus_public_layout",
+    "action_factorization": "intent softmax [neutral, engage] plus proposal softmax [16 site-destination-partner choices]",
+    "settlement_rules": "c0/c25/c50/c75/c100: reciprocal matching pair with a declared cost on an engaged unmatched third; strict: matching pair plus neutral third",
+    "pairing": "same initial parameters, world uniforms, batch indices, message uniforms and rematch assignments within seed",
+    "evaluation": "two-alternative-partner worlds on train layouts at five checkpoints; new layouts at final",
+    "primary": "penalty_dose_by_routed_communication_interaction_on_target_pair_legal_rate_conditional_on_physical_execution_centered_time_AUC",
+    "selection": "fixed8 new seeds ×6 constraint levels ×2 information ×2 schedules ×2 channels ×3000 updates; no early stopping",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_conflict_penalty_study/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research_program/triadic_conflict_penalty_study/design.py": "e547eca9c615f5271376b4ff612b4a0f8083cf5f354d5aa1429bfbd22392facf",
+    "research_program/triadic_conflict_penalty_study/kernel.py": "e1b0eaaf646e75ac14aed1948720f56839a63f2a481d3c529ff342c865790136",
+    "research_program/triadic_conflict_penalty_study/runner.py": "911f7078f58eb42a07285c6d5a754e8c4337061ceb1f653a8ca70fffe4c17874",
+    "research_program/triadic_conflict_penalty_study/remap.py": "aea256a95301f4db3edb89a8c6f40e87a5cc24cffbde3fa9c02a3fc56d2a8a2c",
+    "research_program/triadic_conflict_penalty_study/plan.md": "fd172f3c2090d5541dc7fe3af8605232fd4da3944ada2e82eef55b5b1cf24c9c",
+    "research_program/triadic_conflict_penalty_study/README.md": "fae9b9a1ebc89291fc0da452b3a4eac48055d19b8b56196db88f21c2759158a1",
+    "research_program/triadic_conflict_penalty_study/tests/test_design.py": "d9010678dade6ac230beeeb4477a22dd7566afd90e1efbcfde8bc56b5c0c6fc9",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "prepared_sha256": "d95a0ba7cc8e1f20c2694013ac44d267939ad80fd4784e02c2cf92da8fbc0cca",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}

@@ -1,0 +1,315 @@
+{
+  "seed": 28103,
+  "condition": "split3_joint_gain3",
+  "plan": {
+    "split": 3,
+    "representation": "identity",
+    "schedule": "direct",
+    "vocab": 7,
+    "length": 2,
+    "known": false,
+    "blocked": false,
+    "reward_kind": "joint",
+    "complementarity": 1.0
+  },
+  "updates": 2400,
+  "batch": 512,
+  "eval_n": 9600,
+  "policy_gain": 3,
+  "checkpoint_eval_n": 1200,
+  "checkpoints": [
+    0,
+    100,
+    300,
+    600,
+    1200,
+    1800,
+    2100,
+    2400
+  ],
+  "sites": 6,
+  "history_dim": 18,
+  "train_map_ids": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29
+  ],
+  "heldout_map_ids": [
+    2,
+    9,
+    13,
+    15,
+    22,
+    26
+  ],
+  "map_table": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "learning_rate": 0.0007,
+  "entropy_coefficient": 0.02,
+  "entropy_off_after": 2100,
+  "gamma": 1,
+  "training_seed_offset": 60000000,
+  "choices_per_world": 2,
+  "reward_formula": "(1-lambda)*mean(successes)+lambda*product(successes)",
+  "receiver_policy_score": "sum of two action log probabilities",
+  "trace_schema": "paired_world_v1",
+  "initial_sha256": "6ca271186375603bdcfd1d7c43c733b43af13d7683686eebcf6a21ff6cfd7604",
+  "trainable_initial_sha256": "98c478b3d29c98e894027bfb29bd948a32c3c23daba682e357d7d98961fcda2c",
+  "receiver_initial_sha256": "a3d828a2e80bf57675c1bdf8d2b1def664cf78f18b65c61a7b5d45f61b3c8b68",
+  "input_transforms": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "source_hashes": {
+    "camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "run_experiment.py": "485221ac4c90f69b88047f380edfaf4922973cff986c8bfa5c47e700cab13d62",
+    "固定执行方案.md": "cf3d92f5eb9755a83b11dcbd3f1792f5474203ce445624fc7b347ccf499996b4"
+  },
+  "prepared_source": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/results/gain_001/prepared_28103.pt",
+    "sha256": "e6e34f55f664b8783581ac74a479658dac980da38823f67faca51beb9bca74c5"
+  },
+  "trainable_parameters": [
+    209975,
+    209975
+  ]
+}

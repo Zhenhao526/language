@@ -1,0 +1,14 @@
+{
+  "plot_source_sha256": "e66fb93e3280ed6cc0534240abc0b24d2df02e53490746b36d146d708f197fa4",
+  "figures_001": {
+    "02_primary_and_cross_settlement.png": "fdde0dfaf5653ccf29f54afba5b8b8e19e7b2e4a8a8794303ba4379009867a43",
+    "01_execution_ability_paired.png": "fece3f41fe7d6749157e1f1fd036ec40f8895de59609cdd9f68e47bd6f74568e",
+    "01_execution_ability_paired.pdf": "bcad1fe8af06d12cd3902a623d6210528919d0e0b52f81fca95dd317fd4e6b2d",
+    "02_primary_and_cross_settlement.pdf": "5e10975623f429cba4fbf8fcf11b012eefae24f0aa742e75ad0a961e790db833",
+    "figure_receipt.json": "8f5f8fa71191133c243de5214f1d301f25be41f173d9095d1ad63a7ec947bf0d",
+    "03_monitor_execution_ability.png": "5b0aaf97c2fae60ebae36eb2e16829d2dce830348d52363ce3b6d7c334beed97",
+    "03_monitor_execution_ability.pdf": "310f7cd7a0a62eab0f35e765beefe4a9b2d2bd3759d02c53e7355646047bc5fd",
+    "figure_data.json": "e874dd72740e525d7e0128325f4a2363110a16e778bf38e399c7144a84a3941c"
+  },
+  "results_sha256": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e"
+}

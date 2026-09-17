@@ -1,0 +1,35 @@
+{
+  "status": "rendered_pending_visual_review",
+  "created_at": "2026-09-15T16:48:34.851756+00:00",
+  "summary_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/partner_001/summary_001/summary.json",
+  "summary_sha256": "912cf4a9cc9db988176a351b9419956ada0ed9de974d6e4112a943074346cf47",
+  "script_sha256": "314720217bcbbfea43cdb42ab602d44dcf7e234ed5852a86fd6e55767e42ad3a",
+  "font_path": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+  "font_sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+  "matplotlib_version": "3.11.2",
+  "files_sha256": {
+    "complete_weighted_endpoints.png": "c6d81a40a60ac7f7a109e21f3923c60e8cac35177acb8834e1cbb9847f82ef2d",
+    "complete_weighted_endpoints.svg": "5b7b51768a9763ee6f77d6914bf78d47ca3412a7a80a75a98f594df018611a88",
+    "paired_role_and_success.png": "97259f61753c8f74172b23c67c1ccc1a288d9c54da9775cfc783ebf47b9306c3",
+    "paired_role_and_success.svg": "1e8fea6f5bba92fc7d14a2f6a6619f2244a9f88739c243c4d2077d320e309f05",
+    "fixed_monitor_curves.png": "22d3c66e056ac5acd1dce510314ca932c3fd19df59a9fb211193ae4933e56e6f",
+    "fixed_monitor_curves.svg": "2033545739c25e03d13c89262a22b3fc054e859fb77919fcfe5173f08a2cc53e"
+  },
+  "actual_evaluations": 672,
+  "rate_axis": [
+    0,
+    100
+  ],
+  "signed_difference_axis": [
+    -20,
+    20
+  ],
+  "independent_seeds": [
+    49101,
+    49102,
+    49103,
+    49104
+  ],
+  "neural_forward_calls": 0,
+  "training_updates": 0
+}

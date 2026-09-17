@@ -1,0 +1,75 @@
+{
+  "status": "prepared_without_probe_forward",
+  "at": "2026-09-16T20:10:03.788305+00:00",
+  "config": {
+    "schema": "triadic_multi_legal_direction_probe_v1",
+    "seeds": [
+      66401,
+      66402,
+      66403,
+      66404,
+      66405,
+      66406,
+      66407,
+      66408,
+      66409,
+      66410,
+      66411,
+      66412,
+      66413,
+      66414,
+      66415,
+      66416
+    ],
+    "conditions": [
+      "partial_multi_strict_PL_live",
+      "partial_multi_strict_PL_silent"
+    ],
+    "parts": [
+      "new_layouts"
+    ],
+    "checkpoint": 6000,
+    "chunk_size": 1024,
+    "sham_rows_per_sender": 256,
+    "overwrite_windows": [
+      true,
+      false
+    ],
+    "natural_messages": "greedy live messages from each final policy checkpoint",
+    "donor": "same-layout same-owner cyclic-neighbor need; only selected sender W1 replaced",
+    "primary": "mean signed donor-plan-only minus receiver-plan-only probability transfer",
+    "secondary": "signed partner transfer, natural/intervened physical execution and Q, exact sham replay",
+    "posthoc_relative_to": "triadic_multi_legal_coordination_study/results/confirm_001",
+    "new_model_calls": true,
+    "training_updates": 0,
+    "automatic_followon_experiment": false
+  },
+  "prepared_sha256": "d7922ee8390f5182629e815c5be2f2ff8fa0bcee820ce3cbf014d3c91d45919f",
+  "inputs_sha256": {
+    "aggregate_sha256": "384a861cbe9807cf2f9415821df7e815f28b1298c53b1476cd02f4f29fd9477c",
+    "audit_sha256": "d0a0067c5e2cc62a571c724da17019a1f0155b26d1422bb78bf93821cae0f58a"
+  },
+  "source_sha256": {
+    "research_program/triadic_multi_legal_direction_probe/__init__.py": "c5037d668832943723b7c488ae60626209348e4ad861fcc5ba1984412bd5d3ea",
+    "research_program/triadic_multi_legal_direction_probe/design.py": "7cafd5947933049b8fde595594c38472cf9117e06fd8af9088a6b31de16206ad",
+    "research_program/triadic_multi_legal_direction_probe/metrics.py": "5e3c2f1e88a22411449708188ace3be3dc99d79c13790de0a1752f80e24c8f31",
+    "research_program/triadic_multi_legal_direction_probe/runner.py": "5171dcbc7dc232b881c2542faec4517890dfde265958c8061f6b969c6611848c",
+    "research_program/triadic_multi_legal_direction_probe/plan.md": "58c4174ccf2bcca6a95608992f4965fa803633e22998b83975f55df27cc0ebe7",
+    "research_program/triadic_multi_legal_direction_probe/tests/test_design.py": "14ff44e083d46ae46a5271313ca6420a0c3ec1d74cb5a565394bfc722d2cf4e6",
+    "research_program/triadic_directed_message_study/intervention.py": "bddc84e2330a37ca63f8e9337d63311c736cae33946f0325a161f40636437785",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_multi_legal_coordination_study/results/confirm_001/plan.json": "ac95a7bd70d5b089d156264d20d5fde32b7dcc252d80e253adf6f6b172c25310",
+    "research_program/triadic_multi_legal_coordination_study/results/confirm_001/prepared.json": "3c76a8181263a2ced8ef72d915fa6343756f53cf03b012ffcd7c2041d322a5cc",
+    "research_program/triadic_multi_legal_coordination_study/results/confirm_001/freeze.json": "44e2d5ae23a13e2f7cb743df633ef587aaa878f4a2c3982853f0e98b71e0b924",
+    "research_program/triadic_multi_legal_coordination_study/results/confirm_001/aggregation_001/results.json": "384a861cbe9807cf2f9415821df7e815f28b1298c53b1476cd02f4f29fd9477c",
+    "research_program/triadic_multi_legal_coordination_study/results/confirm_001/audit_001/verification.json": "d0a0067c5e2cc62a571c724da17019a1f0155b26d1422bb78bf93821cae0f58a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  }
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/xia/Documents/ChatGPT/语言/paper_program/literature_spatial_20260915/download_primary.py", line 4, in <module>
+    from pypdf import PdfReader
+ModuleNotFoundError: No module named 'pypdf'

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "input_results_sha256": "3b6776f701921e9470131f2b774cfae2cf9f69646426ce580f67961046a71472",
+  "verification_sha256": "67f74a57315af895fa60edafc003f71a58bf12c1e09d8fb4e09f4994d2b4d990",
+  "policy_rows": 32,
+  "model_forwards": 29187072,
+  "optimizer_updates": 0,
+  "posthoc": true
+}

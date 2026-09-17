@@ -1,0 +1,16 @@
+{
+  "python": "3.11.15 (main, Jun 23 2026, 15:46:51) [Clang 22.1.3 ]",
+  "executable": "/Users/xia/Documents/ChatGPT/语言/redesign_v0.3/calibration/.venv-env/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "minerl": "source import or unavailable",
+    "gym": "0.23.1",
+    "numpy": "1.23.5",
+    "opencv-python": "4.11.0.86"
+  },
+  "java": "openjdk version \"1.8.0_504\"\nOpenJDK Runtime Environment (Zulu 8.96.0.205-CA-macosx) (build 1.8.0_504-b01)\nOpenJDK 64-Bit Server VM (Zulu 8.96.0.205-CA-macosx) (build 25.504-b01, mixed mode)",
+  "minecraft": "1.16.5 (pinned MCP-Reborn build; see build provenance)",
+  "minerl_commit": "cdeae668c2f334e3c9117adf651b5a94436b45f8",
+  "runner_sha256": "cdf79d88b2ee59cbd394501909ce5abe3383273bf04d06edaee043ad1b331492",
+  "scenarios_sha256": "25b2515648638a44418ef188b4b14e7dce342d86f192757e2e0a417df42dd9b9"
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": 47186,
+  "exit_code": 0,
+  "status": "completed_and_visually_reviewed",
+  "recorded_at": "2026-09-15T19:33:29.647204+00:00",
+  "command": "research_program/.plotting_venv/bin/python -m research_program.triadic_context_transfer_study.plot_results --summary research_program/triadic_context_transfer_study/results/transfer_001/summary_001/summary.json --out research_program/triadic_context_transfer_study/results/transfer_001/figures_001",
+  "start_event": "exec_command yielded live session47186",
+  "completion_event": "write_stdin on the same session returned exit0",
+  "source_summary_sha256": "f53e385768c3f479c2742736c707b37e9e4d8a2a783e77bb1c6bf386d5408f18",
+  "plot_source_sha256": "2eeda0af20d545f65da42622f5534ccd58c25b97a98e3750e44f8987227f6308",
+  "visual_review_sha256": "cb83a5101e83117c32e7b17f8a27ddb046cd896ec794c260329b7617a90e7aac",
+  "neural_forward_calls": 0,
+  "training_calls": 0
+}

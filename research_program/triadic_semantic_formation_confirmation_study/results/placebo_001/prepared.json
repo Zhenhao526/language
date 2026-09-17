@@ -1,0 +1,28 @@
+{
+  "axis_case_counts": {
+    "destination_L_R": 144,
+    "kind_wood_fiber": 48,
+    "length_short_long": 48
+  },
+  "backgrounds_per_case": 36,
+  "candidate": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
+  "candidate_sha256": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+  "cases": 240,
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "manifest_sha256": "bf6dcf6905a97ab21a8f31ca6a32aa429195d3dc763df923702678a3cab8a6c2",
+  "no_external_model": true,
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "partition": "heldout_layouts",
+  "placebo_mapping_sha256": "7da41c4ea36c044c02e7c71e65501e5c7d65839b20748f9ab35bd1a96225623f",
+  "primary_probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/transfer_001",
+  "primary_results_sha256": "4edfa6f4f4a3641f4109855f43887d4dd4427eb3c9d6c2d1dca0303cb5e4c209",
+  "schema": "triadic_unique_fixed_role_semantic_transfer_placebo_probe_v1",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/confirmation_001",
+  "source_freeze_sha256": "2d90b7e1f734fae056e87b8858b7107e25847fd3411c58a6ebe05f8587483ddb",
+  "source_prepared_sha256": "c4e8584a9a4a94cca4f5accbff2ad5f74ab505ef3e9f92b0146026b0160b69d9",
+  "source_results_sha256": "6b40823ecc8af1dbdb02901e05bcf789b94f83830e797628959df4dcd8283331"
+}

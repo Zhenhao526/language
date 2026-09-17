@@ -1,0 +1,1723 @@
+PAGE 1
+Article https://doi.org/10.1038/s41467-025-57025-z
+Expectation violations signal goals in novel
+human communication
+Tatia Buidze 1 , Tobias Sommer 1,K eZ h a o2,3, Xiaolan Fu 2,3 &
+Jan Gläscher 1
+Communication, often grounded in shared expectations, faces challenges
+when a Sender and Receiver lack a common linguistic background. Our study
+explores how people instinctively turn to the fundamental principles of the
+physical world to overcome such barriers. Speciﬁcally, through an experi-
+mental game in which Senders convey messages via trajectories, we investi-
+gate how they develop novel strategies without relying on common linguistic
+cues. We build a computational model based on the principle of expectancy
+violations and a set of common universal priors derived from movement
+kinetics. The model replicates participant-designed messages with high
+accuracy and shows how its core variable— surprise— predicts the Receiver’ s
+physiological and neuronal responses inbrain areas processing expectation
+violations. This work highlights the adaptability of human communication,
+showing how surprise can be a powerful tool in forming new communicative
+strategies without rely i n go nc o m m o nl a n g u a g e .
+Effective communication relies on the ability of the Sender to design
+messages that clearly convey intentions, and the ability of the Receiver
+to accurately interpret these messages. In verbal communication, this
+is achieved as speakers and listeners track the statistical properties of
+language to optimize communication, often selecting the most pre-
+dictable outcomes to facilitate understanding
+1. The Rational Speech
+Act model, for instance, posits that speakers optimize utterances to
+minimize the listener ’ s surprise while maximizing the likelihood of
+accurate interpretation by the listener
+2. Similarly, the Information
+Density Hypothesis suggests that speakers manipulate syntactic
+structures to maintain a consistent ﬂow of information, by aligning
+their linguistic choices with the statistical regularities of speech
+3.
+However, this predictability, seen in natural language processing,
+is not always maintained in communication. In many instances, com-
+munication takes on unconventional forms to achieve a speciﬁcg o a l .
+For example, in signaling behavior where the Sender needs to strate-
+gically direct the attention of the Receiver, it has been demonstrated
+that inefﬁciencies can signal particular intentions
+4, objects, even those
+not intrinsically communicative like chairs or ropes, can convey social
+meanings through their contextual arrangement
+5, and non-verbal cues
+can embody complex concepts like time 6.T h e s ee x a m p l e s ,w h i l e
+diverse in communicative strategies, highlight a common theme: the
+strategic deviation from expected communicative patterns to achieve
+greater clarity and intentionality in communication. These deviations
+are particularly effective because they contrast sharply with antici-
+pated behaviors, thereby capturing attention and signaling intentions
+more distinctly.
+Here, we propose a uniﬁed framework of expectation violation as a
+mechanism for the signaling function of human communication. This
+approach entails two main mechanisms. First, when faced with situa-
+tions lacking a common language, humans instinctively revert to more
+basic, universal properties of the physical world (e.g., movement
+direction or velocity) to form a shared understanding. It is not about
+discovering new universal principles; rather, it is about repurposing
+universally understood properties to build a new common commu-
+nicative system through repeated social interactions. Second, once
+these common grounds are established, they serve as the prior expec-
+tations from which Senders can intentionally deviate. These deviations
+are used to create surprise, which directs the Receiver ’ s attention to
+essential information and transforms into communicative acts.
+Received: 6 March 2024
+Accepted: 7 February 2025
+Check for updates
+1Institute of Systems Neuroscience, University Medical Center Eppendorf, Hamburg University, Hamburg, Germany.2State Key Laboratory of Brain and
+Cognitive Science, Institute of Psychology, Chinese Academy of Sciences, Beijing, China.3University of Chinese Academy of Sciences, Beijing, China.
+e-mail: tatiabuidze@gmail.com; glaescher@uke.de
+Nature Communications|         (2025) 16:1989 1
+1234567890():,;
+1234567890():,;
+
+PAGE 2
+To substantiate this proposed framework, we developed a com-
+putational model known as the Surprise model and tested its effec-
+tiveness within the context of the Tacit Communication Game (TCG).
+TCG is an experimental task designed to elicit novel communicative
+messages through spatial trajectories on a square game board
+7– 10.E a c h
+player, known as the Sender and the Receiver, has distinct goals, but
+only the Sender is aware of both positions. The Sender’ s objective is to
+create a trajectory (the message) that begins at her starting point and
+leads toward her goal location, while simultaneously indicating the
+Receiver’ s goal location (see Fig. 1).
+Given that TCG focuses on spatial movement and trajectories, in
+the Surprise model, we developed two types of priors: one based on
+movement kinetics, such as the expectation that a moving object will
+continue its path unless acted upon by an external force
+11,a n dt h e
+other based on the Sender’ s goal orientation. These priors create the
+core of a new common language, where trajectories along a straight
+line signify a direction and embody a shared expectation. Deviations
+from these paths thus transform into communicative acts. The Sur-
+prise model utilizes these priors to construct messages that maximize
+information-theoretic surprise, which quanti ﬁes the psychological
+state of surprise at the Receiver ’ s goal state. By leveraging these
+deviations from expected paths, communicative acts become signals
+with meaning through social interactions.
+Here, we show that the Surprise model, which uses expectation
+violations as a core signaling mechanism, effectively replicates parti-
+cipants’ behavioral data across two independent samples by generat-
+ing messages that closely resemble those created by human Senders.
+Furthermore, we demonstrate that model-derived step-by-step sur-
+prise— resulting from intentional deviations from established priors—
+signiﬁcantly inﬂuences both pupillary dila tion responses (PDR) and
+EEG measurements in all Receivers. Speciﬁcally, the model’ ss u r p r i s e
+values positively correlate with neural activity in fronto-central EEG
+sensors above the anterior cingulate cortex (ACC), a brain region
+typically associated with detecting expectation violations
+12,13. Addi-
+tionally, we observe a positive correlation between surprise values and
+changes in pupillary dilation, which are typically linked to detecting
+unexpected environmental changes
+14– 16.T h e s eﬁndings indicate that
+Receivers adeptly detect unexpected shifts in communication, as evi-
+denced by their PDR and neural responses. Overall, our results support
+the framework that expectation violations serve as a fundamental
+mechanism for signaling in human communication, effectively linking
+information-theoretic surprise to measurable physiological and neural
+responses.
+Results
+We explored how humans form novel communication systems without
+a shared language, and how deviations from expected patterns can be
+used to convey information in the TCG. This game allowed us to esti-
+mate the effectiveness of the Surprise Model in replicating human
+behavior and the physiological and neural correlates of surprise during
+non-verbal communication. Our goal was to demonstrate that humans
+can use basic principles of movement kinetics to create new commu-
+nication norms, and that these norms can be systematically studied
+and modeled.
+We ﬁrst provide a brief overview of the TCG. Next, we introduce
+the computational models, followed by a model-free analysis of
+behavioral data. Building upon this, we proceed to validate the com-
+putational models and explore physiological observations related to
+non-verbal communication within the TCG framework.
+Experimental task
+The TCG is a cooperative, two-player game where the Sender and
+Receiver must establish non-verbal communication. In the game, the
+Sender knows both players ’ destinations and creates a path (the
+message) to guide the Receiver. The Receiver then uses this message to
+ﬁnd his target location. The game unfolds overﬁve primary steps (see
+Fig. 2a). Initially, the complete goal conﬁguration, including the start-
+ing location, the Sender’ s goal, and the Receiver’ s goal, is fully visible to
+the Sender but not to the Receiver. Speciﬁcally, the Sender has access
+to all three elements of the conﬁguration, whereas the Receiver is only
+presented with the starting location and the Sender’ s goal, leaving the
+Receiver’ s own goal undisclosed. Next, the Sender moves her token
+ReceiverSender
+Surprise 
+ model 
+Low                  HighSurprise
+Time
+Surprise 
+Time
+Pupil size
+Create
+messages 
+Calculate surprise
+ signal 
+Predict EEG data Predict PDR data
+Fit model to Sender’s behavioral data
+Time
+Voltage
+Fig. 1 | Overview of experimental procedure and analysis.This ﬁgure depicts an
+experimental framework utilizing the Surprise model within the TCG. The experi-
+ment begins by recording behavioral data from both Senders and Receivers as they
+engage in TCG. This recorded data is then used toﬁt the Surprise model to estimate
+the individual parameters. With these parameters, the model generates
+communicative messages, each accompanied by message steps and their corre-
+sponding surprise values. These values are subsequently analyzed to assess their
+inﬂuence on the Receiver’ s physiological responses, speciﬁcally through EEG and
+PDR measurements.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 2
+
+PAGE 3
+toward her destination while encoding the Receiver’ s goal location in
+her movements, creating a‘ message’ to inform the Receiver of his goal.
+Following this, both participants observe the trajectory created by
+Sender. The Receiver then interprets this trajectory and moves his
+token where he thinks his goal state is. A successful trial occurs when
+the Receiver reaches the correct location, granting both players an
+equal reward. The reward is quanti ﬁed as ten points reduced by the
+number of steps the Sender used to transmit the message.
+The TCG consists of two different types of goal con ﬁgurations:
+‘ Direct’ and ‘ Indirect’ (Fig. 2c). Direct goal con ﬁgurations can be
+communicated by the shortest path from the starting location to the
+Sender’ s goal location, while indirect goal con ﬁgurations require a
+deviation from the direct path. Direct Trials are inherently more difﬁ-
+cult for the Receiver because his goal state does not stand out from the
+direct path to the Sender’ s goal state. In contrast, when the Receiver’ s
+goal is not on the direct path (i.e., an Indirect Trial) the Sender must
+step sideways to enter the Receiver ’ s goal state. This difference also
+prompts the creation of different Message Types (Fig.2b).
+We collected behavioral data from two distinct samples (subse-
+quently referred to as dataset 1 (D1) and dataset 2 (D2) consisting of 58
+and 62 participants, respectively). Eye-tracking and EEG hyperscanning
+data were exclusively obtained in D2 experiments. All pairs played 120
+trials of the TCG. The two datasets differed in the proportion of direct
+and indirect trials: D1 had 66% indirect and 34% direct trials, while D2
+had 76% indirect and 24% direct trials.
+Information-theoretic surprise as the communication signal
+In this section, we provide a narrative overview of the Surprise model.
+The mathematical details can be found in the “Methods” section. The
+Surprise model consists of three distinct components: (i) the Move-
+ment model, detailing the step-by-step priors over all available actions,
+(ii) the State model, providing a prior guiding message creation toward
+the Sender’ s goal, and (iii) the Reward, providing an orientation to the
+Receiver’ s goal and an urgency toward shorter messages. We tested
+the necessity of these components in a formal model comparison, in
+which we compared degenerate versions (Movement and State mod-
+els) against the full Surprise model.
+The Movement model deﬁnes priors for all possible movements in
+each state. These priors are based on a fundamental idea from
+movement kinetics: without an external force, a moving object is
+expected to continue its motion in the same direction where it came
+from. Any deviation from this direction has a lower prior probability
+and is therefore more surprising. This leads to the rule illustrated in
+Fig. 3a, where p (forward) >p (left) =p (right) >p (backward). The cal-
+culation of these subject-speciﬁc priors is governed by two estimable
+parameters, γ— the probability of a backward movement, and λ,a n
+odds-ratio parameter that describes the ratio of priors for forward
+movement and leftward or rightward movement. Movement priors are
+dynamic and can change with every step along the message path.
+The State model de ﬁnes State priors, which provide a general
+sense of the goal orientation for the Sender and decrease in concentric
+Receiver
+Sender Plans actions
+Waits
+Moves
+Waits
+Observes message
+Observes message
+Observes receiver
+Moves
+Feedback for both 
+1. Presentation 2.  Sender’s Plan 3.  Observation 4.  Receiver’s Action
+5.  Outcome
+(a) Tacit Communication Game Trial
+(b) Message types
+Pass-by Enter-exit Wiggly
+ Forward
+Backward
+Left and Right
+(d) Message Profile(c ) Trial type
+Direct trial Indirect trial
+Fig. 2 | Trial steps and goal conﬁgurations in the modiﬁed TCG. a.1Presentation:
+our version of TCG begins with players being presented with the relevant goal
+conﬁguration. The presented goal conﬁguration for the Sender always includes
+three elements: the starting location (orange circle), the Receiver’ s goal location
+(blue cross), and the Sender’ s own goal location (orange cross). For the Receiver, it
+comprises the starting location (blue circle) and the Sender’ s goal location (orange
+circle). Both the Sender and the Receiver start at the same location on the grid.a.2
+Sender’ s plan: the Sender designs a message by moving her token ﬁrst to the
+Receiver’ s goal and eventually to her goal. a.3 Observation: the Receiver and the
+Sender both examine the path crafted by the Sender. This step was incorporated to
+facilitate the simultaneous recording of EEG data from both participants under
+uniform visual stimulus conditions and to equalize the step length, preventing a
+“pause” strategy to indicate the Receiver’ s goal location (see supplementary text
+and Fig. S1 for more details).a.4 Receiver’ s action: the Receiver moves towards the
+inferred goal. a.5 Outcome: success is displayed if the Receiver’ sc h o i c ei sc o r r e c t ,
+indicated by a green checkmark. b Message types: three message types were cre-
+ated by the participants. c Trial types: an illustration of two different trial types.
+d Message proﬁle: an illustration of a message proﬁle featuring three character-
+istics. The direction of movement is always deﬁned relative to the previous
+movement. The initial movement originating from the starting location does not
+have a predeﬁned direction. However, subsequent movements are oriented based
+on the preceding movement.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 3
+
+PAGE 4
+circles from her goal according to an inverse power rule (Fig.3b). Thus,
+moving along an increasing State prior will move the Sender straight
+toward her goal. The State prior is static for the duration of the trial,
+but changes with different goal conﬁgurations. Its shape is determined
+by a single slope α parameter (see “Methods” for details).
+In the Surprise model, the Sender selects the step-by-step actions
+by intentionally violating expectations that are deﬁned by both types
+of priors: Movement and State priors. This novel policy of action
+s e l e c t i o nb ys u r p r i s el i e sa tt h ec o r eo ft h em o d e la n di st h eb a s i so fi t s
+success in modeling message design in the TCG. The process of
+creating a message involves two distinct phases: (i) in theﬁrst phase of
+the message, Movement and State priors govern action selection from
+the start location to the Receiver’ s goal state. (ii) In the second phase
+of the message from the Receiver’ s goal state to the Sender’ sg o a ls t a t e ,
+the Sender aims to reach her goal state as quickly as possible (Fig.3c).
+Here, in the second phase, the principle of selecting a surprising action
+is abandoned in favor of a policy that is solely governed by the
+State prior.
+Rewards for each potential next action are calculated as the dis-
+counted cost (i.e., number of steps) to reach the Sender’ sg o a ls t a t ev i a
+the shortest path through the Receiver’ s goal state. Rewards provide
+an urgency to reach the Sender’ s goal quickly to retain the maximum
+points from the initial endowment. The discount rate is estimated with
+as i n g l ef r e ep a r a m e t e rε (see “Methods” for details). For example,
+Fig. 3d showcases a scenario where the action of moving backward (B)
+is linked to a greater reward due to its ability to reach goal locations via
+the shortest path (depicted by the blue solid line), while other actions
+(F, L, R) incur higher costs (indicated by a dashed line for action F).
+The combination of the surprise from the Surprise model and the
+rewards yields an expected value over all available next actions given a
+speciﬁc planning horizon (see “Methods” for details). These expected
+values are ﬁltered through a softmax function (parameterized with a
+choice stochasticity parameter τ)t or e n d e rt h e ﬁnal action prob-
+abilities for the next action.
+Figure 3e– g illustrates the effect of each model component on
+message planning in an intuitive way. Simulations with only the
+Movement model (Fig. 3e, top) reveal that the Sender will perform
+many zigzagging moves, because of the high surprise of the backward
+action. In contrast, the pure State model (Fig. 3f, top) creates a direct
+path message without surprising moves. The combination of both
+models (Surprise model) (Fig.3g, top) generates messages comparable
+to the human-created Enter-Exit messages. The second row illustrates
+the effect of the different model components without the reward. The
+pure Movement and State models (Fig.3e, f, bottom) generate similar
+message patterns, but fail to communicate the Receiver ’ sg o a l .T h e
+Surprise model (Fig.3g, bottom) generates 2-step wiggles, but without
+the reward component, this model does not advance to the ﬁnal
+Sender’
+s goal ef ﬁciently. In Summary, by combining Movement and
+State priors along with the surprise values and discounted future
+rewards, the Sender can effectively communicate the Receiver’ s goal
+Low                      HighProbability
+b  State prior c  Planning phasesa  Movement Prior
+P(F)
+P(B)
+P(L) P(R)
+d  Reward
+ F
+ B
+ L  R
+Planning phase 1
+Planning Phase 2
+Computational Models of Message Creation
+Messages simulated from:
+f  State modele  Movement model           
+With Reward Without Reward 
+g  Surprise model                      
+Fig. 3 | Computational models of message creation. a Movement prior assigns
+the highest probability to forward movement, then left/right, and least to back-
+ward. b State prior conveys the Sender ’ s goal by reducing probabilities at each
+state with increased distance. c Planning phases: during Phase 1, the Sender
+communicates the Receiver’ s goal; in Phase 2, the Sender proceeds to her own
+goal. d Reward: Illustrates higher rewards for backward movements, facilitating
+shorter paths to goals. e– g Model components: simulations with each model
+component alone reveal that the Movement model (e) emphasizes the Receiver’ s
+goal with surprising events, while the State model ( f) focuses solely on the ef ﬁ-
+cient Sender’ s goal achievement. The Surprise model ( g) combines the ef ﬁ-
+ciencies of the Sender ’ s goal achievement (State priors) with the emphasis on
+signaling for the Receiver ’ s goals (Movement priors). Comparing messages with
+reward information (ﬁrst row) to those without (second row) demonstrates that
+incorporating reward minimizes cost and ef ﬁciently signals the Receiver ’ s goal.
+These messages also match human messages most closely.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 4
+
+PAGE 5
+location. Once this objective is accomplished, the State priors then
+guide the Sender towards taking the shortest path to reach her own
+goal location.
+Communicative strategies in TCG: a model-free analysis
+Using our experimental data, we developed different indices to
+describe the behavior of the Sender to gain a more detailed under-
+standing of the cognitive processes involved in planning new com-
+municative messages (For detailed results on dataset 1 (D1) and
+dataset 2 (D2), see Figs.4aa n d5a, respectively). These indices are also
+used in posterior predictive checks to test whether the ﬁtted model
+can generate simulated data that closely resembles the observed
+experimental data.
+We identiﬁed three most common and distinct message types that
+Senders used to communicate their intentions to Receivers. These
+message types are illustrated in Fig. 2b( s e e “Methods” for details).
+Enter-Exit message was predominantly used by participants (D1:
+M = 63.82%, SE = 5.00%; D2: M = 54.95%, SE = 6.6%), and involves Sen-
+ders momentarily diverging from the direct route to the Receiver ’ s
+goal before proceeding to their own goal, noted for its high success
+rates of 87% in D1 and 88% in D2. Wiggly message ranks as the second
+most common (D1: M = 21.47%, SE = 4.67%; D2: M = 26.65%, SE = 5.91%),
+and features Senders navigating on the direct path, shifting between
+the Receiver ’ s goal and the next state to create a zigzag pattern,
+achieving accuracy rates of 63% in D1 and 76% in D2. Pass-By message is
+the least frequently employed but still notable (D1: M = 14.70%, SE =
+3.66%; D2: M = 18.41%, SE = 4.95%). It involves Senders passing through
+the Receiver’ s goal area on their way to their own goal and has the
+lowest observed accuracy rates of 42% in D1 and 29% in D2. Individual
+participant message proﬁles and strategy changes over the course of
+the experiment are detailed in the Supplementary Material.
+Our ﬁndings indicate that participants utilized all message types
+in both trial contexts, but with different frequencies. Notably, during
+the Direct Trial, there was a marked increase in the use of Wiggly and
+Pass-By messages, suggesting a preference to remain on the direct
+route during these trials. Conversely, in the Indirect trial, the most
+used message type was the Enter-Exit message (see the second rows of
+Figs. 4aa n d 5a for D1 and D2 results, respectively). A comprehensive
+breakdown of these ﬁndings is provided in Supplementary
+Tables S1b and S2b.
+The message pro ﬁle details the number of movements in each
+direction, relative to the last movement into the current state. For
+instance, the Enter-Exit message pro ﬁle depicted in Fig. 2di n c l u d e s
+movements Forward, Left, Right, and Backward. Each message type
+exhibited a speciﬁcp r oﬁle. Enter-Exit messages are characterized by
+frequent left/right movements, followed by forward and backward
+movements. Wiggly messages have a higher frequency of backward
+movements (due to the zigzag pattern), followed by left/right and then
+forward movements. Pass-By messages differ from the other message
+types by exclusively relying on left/right and forward movements,
+  a   Participants   b  Surprise Model      c   State Model      d   Movement Model
+ Message typesMessages by trial typeMessage profile
+EE (Enter-Exit)
+W (Wiggly)
+PB (Pass-By)
+Message types :
+Forward
+Backward
+Left/Right
+Message profile:
+ Computational Models
+EE W PB
+0
+20
+40
+60
+80
+100%
+EE W PB
+ EE W PB
+ EE W PB
+Indirect trial Direct trial
+0
+20
+40
+60
+80
+100%
+Indirect trial Direct trial
+ Indirect trial Direct trial
+ Indirect trial Direct trial
+EE W PB
+0
+10
+20
+30
+40
+50
+60%
+EE W PB
+ EE W PB
+ EE W PB
+0
+0.2
+0.4
+0.6
+0.8
+1
+EE W PB
+e   Message Accuracy
+Accuracy
+Fig. 4 | Comparing participant-generated and model-simulated messages for
+dataset 1. a Participants: participants’ behavioral data categorized by message
+types, trial type, and message proﬁle. b Surprise model simulated data after model
+ﬁtting exhibits similarity to participants’ data (Bayes factor analysis was used to
+compare models. BF₀₁ > 1, indicating evidence for no difference).c State model and
+d Movement model simulated data reveal differences from participant’ s data
+(asterisks indicate BF₀₁ < 1, suggesting evidence against similarity).e Message
+accuracy: accuracy as the Receiver’ ss u c c e s si nﬁnding his goal state. The Enter-Exit
+message has the highest accuracy rate, followed by Wiggly and Pass-By messages.
+All error bars represent means ± SEM. Sample size (n = 29) represents independent
+biological replicates, with each data point corresponding to a unique participant.
+Figure created using Matlab R2023a.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 5
+
+PAGE 6
+without incorporating any backward movement. Exact frequencies can
+be found in the Supplementary Material (Table S1c for dataset 1 and
+Table S2c for dataset 2).
+In summary, this analysis highlights how Senders adapt their com-
+munication strategies within the TCG, opting for different message types
+depending on the trial type. The analysis highlights the cognitiveﬂex-
+ibility required to navigate the game’ s constraints, revealing that different
+strategies signiﬁcantly impact communication success. These insights
+into message usage and effectiveness are crucial for understanding the
+underlying cognitive processes and reﬁning cognitive models of non-
+verbal communication that we will present in the next section.
+Surprise model accurately explains Sender’s message design
+To determine which model variant most accurately re ﬂects the
+observed behavioral data, weﬁtted the free parameters for each model
+by minimizing the negative log-likelihood of the model for the col-
+lected trial-by-trial data across subjects. The resulting model like-
+lihoods, model frequencies
+17, and protected exceedance probabilities
+(PEP)18 are outlined in Table 1 for dataset 1 and Table 2 for dataset 2.
+Here, log-likelihood serves as a cost function for model ﬁtting, with
+higher values indicating a more precise ﬁt. Model frequency re ﬂects
+the extent of a model ’ s suitability across different subjects, and PEP
+evaluates the probability of a model being the most appropriate, while
+also considering the potential that no model may ideally ﬁtt h ed a t a .
+T h eS u r p r i s em o d e lﬁtted the observed data best. Its corre-
+sponding model frequencies— 0.80 for Dataset 1 and 0.78 for Data-
+set 2— suggest strong consistency in explaining the behavior across the
+majority of participants. This is further substantiated by the PEP; High
+PEP, close to 1 for both datasets, signals a strong statistical conﬁdence
+that the Surprise model is the best model among the three variants
+tested. This measure of conﬁdence also considers the null hypothesis
+that no model in the model space is likely across the population. In
+contrast, the Movement and State models alone exhibit signi ﬁcantly
+lower PEP, which translates to a lower chance of these models being
+the best- ﬁtting explanation for the datasets. This convergence of
+likelihood, frequency, and PEP distinctly positions the Surprise model
+as the most effective model for capturing the nuances of the observed
+behavioral data.
+The surprise model predicts participants’ behavior across
+different samples
+Next, our objective was to evaluate the ability of the Surprise model to
+accurately replicate participant behaviors across different samples. We
+ﬁtted the Surprise model to the initial sample using hierarchical
+Bayesian estimation17 and used the estimated group parameter values
+to simulate the message types and proﬁles for the observed sample. To
+quantitatively assess the congrue nce between actual and predicted
+frequencies, we employed Bayes factor analysis 19. The majority of
+  a   Participants   b  Surprise Model      c   State Model      d   Movement Model
+ Computational Models
+EE W PB
+0
+20
+40
+60
+80
+100%
+EE W PB
+ EE W PB
+ EE W PB
+0
+0.2
+0.4
+0.6
+0.8
+1
+Accuracy
+EE W PB
+e   Message Accuracy
+ Message types
+Fig. 5 | Comparing participant-generated and model-simulated messages for
+the dataset 2. a Participants: participants’ behavioral data categorized by Message
+types, Messages elicited in different types of trials, and Message proﬁle. b Surprise
+model simulated data after model ﬁtting exhibits similarity to participants' data
+(Bayes factor analysis was used to compare models. BF₀₁ > 1, indicating evidence
+for no difference). c State model and d Movement model simulated data reveal
+differences from participant’ s data (asterisks indicate BF₀₁ <1 ,s u g g e s t i n ge v i d e n c e
+against similarity).e Message accuracy: accuracy is calculated as the Receiver’ s
+success inﬁnding his goal state. Enter-Exit messages have the highest accuracy rate,
+followed by Wiggly and Pass-By messages. All error bars represent means ± SEM.
+Sample size (n = 31) represents independent biological replicates, with each data
+point corresponding to a unique participant. Theﬁgure was created using Matlab
+R2023a.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 6
+
+PAGE 7
+Bayes factors obtained underscored a notable similarity across sam-
+ples, as evidenced by BF₀₁ values ranging from 1.2 to 11.6 (for details,
+see Table S3). This analysis demonstrates that the Surprise model is
+not merely the most suitable ﬁt for the behavioral data, but also
+emphasizes its capability to accurately mirror behaviors across varied
+datasets.
+Surprise model outperforms simpler model variants
+Here we compare message generation by the Surprise model and its
+degenerate versions (i.e., State, and Movement models) with the
+messages generated by the participants. We employed a Bayesian
+approach
+19 to assess the support for two hypotheses: the null
+hypothesis (H₀), which suggests no difference between the messages
+generated by each model and the empirical data, and the alternative
+hypothesis (H ₁), which posits substantial differences between the
+model and the empirical data. We quanti ﬁed the strength of this evi-
+dence for or against these hypotheses using a Bayes Factor (BF₀₁)f o r
+each behavioral index. Deviations of the model generated from the
+behavioral data (BF
+01 < 1) are marked with asterisks above the model-
+generated indices in Figs. 4 and 5 (for details, see Table S1 and S2).
+When comparing the means of human-created message types
+with those of the Surprise model, the resulting BF₀₁ (D1: BF₀₁ =1 0 . 2 0
+(Enter-Exit), BF₀₁ = 6.48 (Wiggly), BF ₀₁ = 10.36 (Pass-By); D2: BF ₀₁ =
+11.12 (Enter-Exit), BF ₀₁ = 10.95 (Wiggly), BF ₀₁ = 10.95 (Pass-By))
+strongly support the null hypothesis that human-created message
+types are similar to the ones generated by the Surprise model. We
+conducted a similar analysis for message proﬁles, revealing moderate
+to strong evidence supporting H₀. This is indicated by BF₀₁ values for
+various pro ﬁle elements, ranging from 1.31 to 10.42 (details in
+Tables S1c and S2c for D1 and D2, respectively). Theseﬁndings suggest
+that messages generated by the Surprise model are largely similar to
+human message pro ﬁles, though there are notable exceptions
+regarding Wiggly and Pass-By messages in different trial contexts of
+dataset D1. Unlike the Surprise model, comparisons between human-
+created messages and those from the State and Movement models
+favor the alternative hypothesis, showing that these models differ
+from human-generated messages and do not accurately capture
+human message generation. For more detailed information, please see
+Table S2b.
+In summary, formal model comparison demonstrated that the
+Surprise model was most effective in capturing the nuances in parti-
+cipants’ behavior. It showed high consistency across datasets and was
+able to accurately replicate behaviors, emphasizing its robustness and
+superiority over the simpler models in understanding non-verbal
+communication strategies.
+PDR correlates with model-derived surprise
+Previous studies have demonstrated a close link between pupillary
+dilation responses (PDR) and violations of expectations (i.e., a
+surprise)
+14. We therefore hypothesized that the step-by-step surprise
+values calculated by the Surprise model would correlate signiﬁcantly
+with the Receiver’ s PDR while observing the Sender’ sm e s s a g e s .T ot e s t
+this, we devised a model-informed analysis, in which we used the step-
+by-step surprise values from the Surprise model as a predictor for the
+participant’ s step-by-step PDR and used a mixed-effects model as
+implemented in the lmer package in R to test this correlation
+20.I nt h e
+model, we incorporated a ﬁxed effect for the task condition — ac o n -
+tinuous variable representing surprise values. We also included ran-
+dom intercepts and slopes for each participant. The mean PDR change
+of message steps served as the predicted variable. The residuals of the
+model met the assumptions of normality and homoscedasticity.
+The results revealed that the baseline-corrected PDR (w.r.t. to a
+pre-stimulus baseline of -200ms to onset) exhibited a signiﬁcant effect
+for surprise (F (1,20) = 60.20),p < 0.001, eta = 0.75, 95% CI [0.55, 1.00],
+two-tailed test). Speciﬁcally, the analysis demonstrated a signi ﬁcant
+relationship between continuous s urprise values and PDR, as visua-
+lized in Fig. 6a. The ﬁxed effect estimate for surprise (0.02) indicates
+that for each unit increase in surprise, the baseline-corrected PDR
+increases by approximately 0.02 units. This positive linear relationship
+shows that greater surprises induce more pronounced physiological
+responses, as measured by pupillary dilation.
+In summary, we investigated how surprise, predicted by the Sur-
+prise model, correlates with pupillary dilation responses (PDR). The
+analysis shows a signiﬁcant correlation between surprise and PDR. This
+Table 1 | Comparative evaluation of model performances for dataset 1: likelihoods, frequencies, PEP (protected exceedance
+probabilities), and posterior group parameters
+Model Log likelihood Model frequency PEP τελ γ α
+Surprise model −60.06 0.80 1.00 6.93 0.39 0.10 2.14 1.84
+State model −70.38 0.16 0.00 2.90 0.39 –– 1.11
+Movement model −96.57 0.05 0.00 1.92 0.62 0.15 1.50 –
+Model: refers to the three tested computational models: surprise, state, and movement models. Log likelihood: represents the log-transformed probability of the data given the model, where higher
+values indicate a betterﬁt of the model to the observed data. Model frequency: reﬂects the proportion of subjects for which a given model is most likely the bestﬁt, with values closer to 1 indicating
+higher generalizability across the sample population. PEP: is the probability that a model is more likely than any other model, while also considering the possibility that no single model is a goodﬁtf o r
+the data population. Posterior group parameters (τ, ε, λ, γ, α): estimated group values for parameters:ε (discount rate for planning horizon),λ (backward movement),γ (forward and left/right
+movement),α (slope of State prior), and τ (choice stochasticity).
+Table 2 | Comparative evaluation of model performances for dataset 2: likelihoods, frequencies, PEP (protected exceedance
+probabilities), and posterior group parameters
+Model Log likelihood Model frequency PEP τε λ γ α
+Surprise model −60.46 0.78 0.99 6.80 0.31 0.11 2.03 1.83
+State model −69.48 0.22 0.00 2.77 0.45 –– 1.15
+Movement model −94.26 0.00 0.00 2.50 0.70 0.15 1.98 –
+Model: refers to the three tested computational models: Surprise, State, and Movement models. Log likelihood: this represents the log-transformedprobability of the data given the model, where
+higher values indicate a betterﬁt of the model to the observed data. Model frequency: reﬂects the proportion of subjects for which a given model is most likely the bestﬁt, with values closer to 1
+indicating higher generalizability across the sample population. PEP: is the probability that a model is more likely than any other model, while alsoconsidering the possibility that no single model is a
+good ﬁt for the data population. Posterior group parameters (τ, ε, λ, γ, α): estimated group values for parameters:ε (discount rate for planning horizon),λ (backward movement),γ (forward and left/
+right movement),α (slope of State prior), and τ (choice stochasticity).
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 7
+
+PAGE 8
+suggests that surprise effectively triggers measurable physiological
+responses, underscoring its impact in non-verbal communication
+settings.
+Neural encoding of surprise in TCG
+We hypothesized that if Receivers identify their goal location based on
+the deviation from their expectations, then we should observe a neu-
+ronal encoding of surprise in brain regions associated with error
+detection and conﬂict resolution
+21,22.
+We used the step-by-step surprise values from the Surprise model
+again as a predictor for EEG power in a model-informed EEG analysis.
+Speciﬁcally, we followed a trial-by-trial model-based approach
+23– 26 in
+which for each Receiver, we performed a regression at each electrode
+and time point within 0– 1200 ms of each message step. Subsequently,
+we analyzed the regression weights by testing them against 0 across
+subjects for all electrodes and time points.
+First, we identi ﬁed clusters of electrodes and time points that
+showed signiﬁcant sensitivity to the predictor surprise irrespective of
+message type, after correcting for the multiple comparisons (The
+cluster formation threshold was set at p = 0.005 for t-tests)
+27.S p e c iﬁ-
+cally, we observed two distinct time-space clusters correlating sig-
+niﬁcantly with surprise across electrodes and time. The ﬁrst cluster
+displayed a positive effect at the frontal electrodes between 400 ms
+and 800 ms of each message step. This cluster is visually depicted in
+Fig. 7a, with yellow markers ( p < 0.05 cluster corrected). The second
+cluster showed a positive effect at the frontal-central electrodes
+between 800 ms and 1200 ms. This cluster is highlighted in Fig.7aw i t h
+pink markers, also denoting signiﬁcance (p < 0.05 cluster corrected).
+This analysis suggests that information-theoretic surprise is encoded
+in the neural activity levels in the brain regions identi ﬁed by the sig-
+niﬁcant clusters.
+To further explore the neural origin of these sensor-levelﬁndings,
+we conducted a source localization analysis using individual partici-
+pants’ structural MRI images and electrode coordinates. The resulting
+source activity indicated activation in regions close to the supple-
+mentary motor area (SMA) and the dorsal anterior cingulate cortex
+(dACC), as shown in Fig. 7b.
+We also observed that different message types (Enter-Exit, Wiggly,
+and Pass-By) are associated with different levels of surprise. Is this
+difference also reﬂected in the neural activity in these areas? To answer
+this question, we repeated the above sensor-level analysis for each
+message type separately. Initially, we computed the average of the EEG
+data for each message type, followed by applying the same regression
+analysis at every time point and electrode as previously described.
+Subsequently, we examined the average regression weights from the
+clusters identiﬁed as signi ﬁcant in the earlier analysis (frontal and
+central clusters). The bar plots in Fig.7c next to the regression weight
+time course show the average surprise levels associated with each
+message type as calculated by the Surprise model. We observed that
+message types characterized by high surprises, like Enter-Exit and
+Wiggly, exhibited a stronger correlation with EEG signals from fronto-
+central electrodes compared to less surprising messages such as
+Pass-By.
+In summary, an analysis of neural encoding of surprise in EEG data
+unveiled two prominent time-space clusters over frontal and fronto-
+central electrodes, potentially linked to surprise processing. High-
+surprise message types, such as Enter-Exit and Wiggly, showed stron-
+ger correlations with EEG signals from fronto-central electrodes
+compared to less surprising messages like Pass-By, suggesting distinct
+neural activity patterns linked to varying levels of surprise in com-
+munication. Additionally, source localization analysis indicated acti-
+vation in the SMA and dACC regions, suggesting these areas as the
+neuronal origin of the observed sensor-level cluster.
+Discussion
+In this study, we explored the role of surprise as a communicative
+signal in the absence of a shared language among participants by
+employing the TCG as an experimental platform. The Surprise model
+capitalizes on the information-theoretic surprise as the signal most
+relevant for selecting the next possible action. A surprise can only
+unfold based on prior expectations, which the model calculates by
+integrating dynamic Movement priors, rooted in principles of move-
+ment kinetics, and static State priors encoding the general goal
+orientation. Additionally, a reward component pushes towards creat-
+ing shorter, more ef ﬁcient messages that also pass through the
+Receiver’ s goal. Model simulations (Fig. 3 e - g ) ,a sw e l la sm o d e lc o m -
+parison with degenerate versions of the model (i.e., State model and
+Movement model, Table1), revealed that each component is necessary
+to generate messages similar to those created by human participants
+in two independent data sets. The interplay of these model compo-
+nents suggests that message planning in the TCG is a complex cogni-
+tive operation, wherein human players intricately balance different
+subgoals (represented by the mod el components) to communicate
+efﬁciently.
+a  Predicted PDR   b   Expected Surprise Levels during Observation
+Surprise Levels:
+Low
+Medium
+High
+0
+0.025
+0.05
+0.075
+0.1
+012 3 4
+ PDR (baseline Corrected)
+ Model-derived surprise values
+Fig. 6 | Model-based analysis of PDR data. a Predicted PDR: the graph shows the
+predicted baseline-corrected PDR as a function of model-derived surprise values.
+The solid line represents the mean predicted PDR, while the shaded area indicates
+the 95% conﬁdence interval around the mean. The relationship demonstrates a
+signiﬁcant linear increase in PDR with increasing surprise values. b Surprise levels
+during observation: as the message steps are observed by the Receiver, varying
+levels of surprise associated with different steps are expected. Certain steps are
+more surprising than others.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 8
+
+PAGE 9
+The key insight of this study is that a framework of expectation
+violation can serve as a mechanism for signaling goal orientation in
+human communication. Speci ﬁcally, when humans are confronted
+with social situations in which they cannot rely on shared cultural,
+linguistic, or even gestural cues, they revert to a more fundamental
+level of physical laws that govern our environment and are universally
+understood. These form the basis for commonly understood priors on
+which a new communicative system can unfold through repeated
+social interactions. Using this canvas of priors, humans can then
+employ an equally fundamental mechanism— expectancy violations—
+to communicate important information and guide Receivers ’
+attention.
+This approach contrasts with traditional communication models
+that rely on predictability and shared linguistic cues
+2,3. These are more
+naturalistic scenarios where reliance on universal knowledge is unne-
+cessary because the presence of shared language enables predict-
+ability to serve as the primary driver of language comprehension. For
+example, listeners and readers often use contextual information to
+predict upcoming linguistic input
+1, and predicting this input facilitates
+a faster understanding of the message28. This predictability of a word in
+the context of a sentence is described by quantities from information
+theory, namely the KL divergence (or Shannon surprise)
+29. This theo-
+retical framework partially aligns with our Surprise model, which also
+uses Shannon's surprise to create messages that are informative for the
+Receiver in ﬁnding their goal, provided they can decode the surprise
+by evaluating steps with respect to the priors, constructed from uni-
+versal principles of movement kinetics. However, unlike traditional
+models that focus on minimizing surprise to enhance comprehension,
+our framework maximizes surprise. This approach is particularly cru-
+cial in the absence of a shared language base, where maximizing sur-
+prise helps convey information more effectively.
+While predictability is the primary mechanism in classic commu-
+nication models, there are situations where expectancy violations can
+also play a crucial role in effective communication. For example,
+classic work on implicature shows that being unnecessarily verbose
+can convey additional meaning because the verbosity violates the
+-0.4
+-0.2
+0
+0.2
+0.4
+Pass-by Enter-Exit Wiggly
+0 400 8001200
+time(ms) time(ms)
+-0.4
+0
+0.4
+0.8
+1.2
+time(ms)
+-0.4
+0
+0.4
+0.8
+1.2
+Regression coefficient (a.u.)
+Pass-By
+-0.4
+0
+0.4
+0.8
+1.2
+Enter-Exit
+-0.4
+0
+0.4
+0.8
+1.2
+Wiggly
+-0.4
+0
+0.4
+0.8
+1.2
+Regression coefficient (a.u.)
+(a) Sensor-Level Clusters Sensitive to Surprise
+Time (ms)
+0 200  400                       600                     800                      1000                 1200    
+         10100000                
+               600               
+0 20040060080010001200 0 20040060080010001200
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+Regression coefficient 
+Mean surprise 
+Mean surprise 
+Mean surprise 
+Regression coefficient 
+Regression coefficient 
+0 400 8001200 0 400 8001200
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+(b) Source Localized Activation (c) Differences in Regression Coefficients Across Message Types
+0
+0.5
+1
+1.5
+2
+2.5
+3
+x106
+Frontal View
+Top View
+-0.4
+0
+0.4
+0.8
+1.2Regression coefficient (a.u.)
+Fig. 7 | Model-based analysis of EEG data. a Two distinct electrode clusters sen-
+sitive to surprise: the ﬁrst cluster showed positive responses in frontal electrodes
+(represented by yellow dots on the topoplot at 400– 800 ms), while the second
+occurred in frontal-central electrodes (illustrated by pink dots on the topoplot at
+800– 1200 ms). The time axis is the epoch of one message step during the obser-
+vation phase of each message (see Fig.2a) which always lasts for 1200 ms.b Source
+localized activation: source localization analysis revealed activation in the supple-
+mentary motor area (SMA) and the dorsal anterior cingulate cortex (dACC) when
+participants process surprising communicative signals.c Average regression
+weights for different message types: regression weights were averaged over all
+participants for each message type and across Central-frontal electrodes (gray
+dots). Line plots display the mean regression coefﬁcients over time, with shaded
+areas representing the standard error of the mean (SEM) around the mean. Bar
+plots display the mean surprise per message type as calculated by the model. Error
+bars on the bar plots represent means ± SEM. Message types such as Enter-Exit and
+Wiggly, which have higher surprise values, correlate more strongly with EEG signals
+from Central-frontal electrodes compared to less surprising types like Pass-By. The
+sample size (n = 31) represents independent biological replicates, with each data
+point corresponding to a unique participant. Thisﬁgure was generated in Matlab
+R2023a using the FieldTrip toolbox
+59, which is licensed under CC BY-SA 4.0 (https://
+creativecommons.org/licenses/by-sa/4.0/).
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 9
+
+PAGE 10
+expectation of conciseness30. Similarly, in prosody, unexpected varia-
+tions in pitch, tone, or rhythm can enhance the emotional impact and
+engagement of verbal communication
+31. More recent research has
+explored the adaptive bene ﬁts of expectancy violations. Repeated
+exposure to syntactic anomalies, such as garden path sentences, helps
+individuals adapt and process language more effectively over time 32.
+Moreover, strategically introducing unexpected lexical or syntactic
+complexity can also enhance the persuasive impact of messages,
+demonstrating how deliberate expectancy violations improve com-
+munication effectiveness, even in contexts requiring high levels of
+clarity and engagement
+33.
+Similar principles have been observed in other referential com-
+municative situations as well. Participants interpret communicative
+actions through an expectation for ef ﬁcient communication, often
+perceiving inef ﬁcient actions as intentional when they are
+unexpected
+4. This supports our observation that unexpected actions
+in the TCG are often the most communicatively effective. Additionally,
+research indicates that when interpreting color adjectives, people
+prioritize context-speci ﬁc informativity over general world
+knowledge
+34.I ne x p e r i m e n t s ,p a r t i c i p a n t sw e r em o r el i k e l yt oc h o o s ea
+less typical yellow object, such as a chair, over a more common one,
+like a banana, when the color adjective played a crucial role in identi-
+ﬁcation. This ﬁnding suggests that, in language processing, context-
+speciﬁc expectations can override general assumptions based on
+world knowledge.
+Comparing these two mechanisms of communication— reducing
+surprise through predictability and increasing surprise by deviating
+from expectation— reveals that human communication fundamentally
+involves managing expectations. While using surprise is more typical
+in novel communication without a shared language, it can also be
+employed in verbal communication. Introducing unexpected elements
+in verbal interactions can enhance engagement, memorability, and
+effectiveness. Examples include jokes, which rely on unexpected
+punchlines to elicit laughter and engage the audience
+35,a n dp r o s o d y ,
+which uses variations in pitch, tone, and rhythm to maintain interest
+and enhance comprehension
+36. These two strategies of managing
+expectations demonstrate the adaptability of human communication
+across various contexts.
+While our Surprise Model maximizes unexpectedness to enhance
+communication without a shared language, traditional frameworks
+including reinforcement learning
+37, predictive coding and Bayesian
+inference38, and active inference 39,40 handle surprise and prediction
+errors differently. These models use prediction errors, deviations
+between expectations and outcomes, as teaching signals to re ﬁne
+future expectations, aiming to select actions that minimize these
+errors for accurate prediction and long-term rewards. In contrast, our
+study shows that in communication, Senders use surprise to disrupt
+prior consistent perceptions and convey critical information. This
+action selection by surprise contrasts with traditional action selection
+by value, producing messages that mimic human design in scenarios
+like the TCG. Thus, our model highlights a unique policy of maximizing
+surprise, and adaptable based on task demands.
+An alternative to expectation management in communication is
+employing the Theory of Mind (ToM). ToM models form beliefs about
+ap a r t n e r’ s behavior and choose actions accordingly
+41– 43.I nt h eT C G
+context, a ToM model requires de ﬁning a belief distribution over
+possible states and exhaustively searching for each goal conﬁguration,
+demanding extensive memory and contradicting the brain ’ s pre-
+ference for efﬁciency. The Belief-based Model (BBM)44 is an example of
+such a model that includes ToM-like mentalization, but it operates on
+the entire message, thus precluding step-by-step analyses. We quali-
+tatively compare the BBM to the Surprise model by simulating mes-
+sage selection for all experimental goal conﬁgurations, but because of
+the impossibility of calculating a subject-speciﬁc likelihood, the BBM
+was not included in the formal model comparison. These simulated
+messages from the BBM and a Bayes factor analysis showed that the
+model fails to capture human message generation, suggesting ToM is
+not the primary mechanism in TCG communication. Detailed infor-
+mation about the BBM structure and simulation outcomes are avail-
+able in the supplementary material.
+We observed supporting evidence for the Surprise model in the
+analysis of the physiological and neural data. Traditionally, variations
+in pupil diameter have been indicators of arousal
+45– 47 and cognitive
+effort48. More recently, these changes have been reinterpreted to
+provide insights into factors such as surprise, salience, decision biases,
+and other dynamics that in ﬂuence information processing
+14,49,50.A
+signiﬁcant portion of these physiological responses can be attributed
+to the activation of norepinephrine (NE)-containing neurons in the
+locus coeruleus (LC) of the brainstem
+51,52. In examining the Receivers’
+physiological reactions while processing messages, we found a direct
+correlation between PDRs and model-derived surprise signals. This
+indicates that Senders, when intentionally communicating with sur-
+prise, have a signiﬁcant impact on the physiological states of Receivers.
+Sensor-level analysis of the neural encoding of surprise in the EEG
+data revealed two prominent time -space clusters over frontal and
+fronto-central electrodes. Sourc e localization analysis identi ﬁed a
+dipole, the potential neuronal origin of these clusters, in the region
+encompassing both th e Supplementary Motor Area (SMA) and the
+dorsal anterior cingulate cortex (dACC). The ﬁrst cluster, appearing
+around 400 ms after the onset of the communication step, may reﬂect
+the Receiver mentally simulating the Sender’ s intended motor actions
+while observing the message, potentially involving SMA activity, which is
+typically engaged in motor planning
+53. The second cluster, observed
+later (800 ms after the onset), may be associated with the detection of
+deviations from priors, involving the (dorsal) anterior cingulate cortex
+(ACC), a region known for error detection and the integration of diverse
+information to guide decisions aligned with goals and reward
+representations
+12,13. The ACC is also thought to play a crucial role in
+linking actions to outcomes and adjusting perceptions based on new
+evidence54,55. Recent studies suggest its involvement in discerning oth-
+ers’ intentions and detecting unexpected outcomes56,57.O u r ﬁndings
+align with this perspective, and we interpret the second cluster as
+potentially reﬂecting ACC activity related to the Receiver’ sp r o c e s s i n go f
+surprise as intentionally designed by the Sender22. However, we recog-
+nize that these interpretations remain exploratory, and further studies
+are needed to conﬁrm the functional speciﬁcity of these ﬁndings.
+The potential implications of these ﬁndings extend across multi-
+ple domains, emphasizing the importance of harnessing expectancy
+violations to improve communication in areas such as negotiation,
+human-machine interfaces, and AI technologies. In negotiation, uti-
+lizing strategic signaling and managing expectations can capture
+attention and shift dynamics. Beyond negotiation, integrating ele-
+ments of surprise into human-machine interfaces can make interac-
+tions more engaging and intuitive. Unexpected yet relevant system
+responses can capture user attention and enhance learning and
+retention, leading to more user-friendly and effective interfaces. Inte-
+grating this concept with AI technologies could potentially make AI
+more human-like and creative. Generative AIs trained on extensive text
+typically analyze sets of possible words based on contextual informa-
+tion to ensure clarity and coherence by selecting the most probable
+words. Even though these selection algorithms occasionally introduce
+some variability through top-k sampling and temperature scaling, they
+only ensure moderate variability in word selection. Applying the
+principles of our Surprise model would lead to the selection of greatly
+unexpected words, thus ensuring even greater variability in the
+selection process. This adaptation would be an approach, that
+potentially diverges from predictable paths to enhance creativity and
+engagement. Such an application could enhance AI ’ s capabilities in
+comedy, storytelling, or generative art, creating more engaging and
+unique scenarios.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 10
+
+PAGE 11
+While communication through surprise is crucial in the TCG and
+has broad implications, it is not the exclusive method for novel envir-
+onments or general communication. The TCG provides a controlled
+setting for studying non-verbal communication and expectation viola-
+tions but does not fully capture the complexities of real-world com-
+munication, which often involves a mix of verbal and non-verbal cues
+and relies on social and emotional contexts. To increase the ecological
+validity of these results in future research, we could start by translating
+the game from the non-verbal to th e verbal domain. Another mod-
+iﬁcation could involve allowing participants to choose between coop-
+erative and competitive behaviors to explore different social contexts.
+Finally, we could alter the game de sign to observe if the intention to
+communicate can naturally emerge and how surprise plays a role in this
+process. For instance, participants could learn to communicate while
+playing the game without explicit instructions to do so.
+In summary, the Surprise model demonstrates the effectiveness
+of incorporating surprise in communication without a shared lan-
+guage, a phenomenon explored through the TCG. Not only did the
+Surprise model exhibit a notable alignment with human Sender
+behaviors, but it also validates its impact through both physiological
+and neural markers, af ﬁrming the crucial role of surprise in novel
+communication.
+Methods
+Participants
+This study complies with ethical regulations approved by the General
+Medical Council of the City of Hamburg (PV7114). All participants
+provided written informed consent prior to the study and were
+ﬁnancially reimbursed for their participation. Each participant
+received a base payment of 12 euros for every hour of participation in
+the experiment. In addition to the base payment, participants were
+eligible for a bonus (Mean bonus: 4 euros) based on their performance.
+Dataset 1 involved 58 individuals (mean age: M = 25, SD = 4.4),
+consisting of 29 pairs of Senders and Receivers, while dataset 2
+included 62 participants (mean age: M = 26, SD = 4.1), comprising 31
+pairs of Senders and Receivers. Study participants were recruited
+through university job boards. The Exclusion criterion was a prior
+history of neurological or psychiatric diseases. All the participants
+were naive to the task and had been instructed with standardized
+written instructions.
+Experimental procedure
+Prior to the experiment, the participants were placed in the same room
+in front of separate screens to play the game after they had been
+assigned roles and given detailed standardized instructions. Instruc-
+tions informed them that success in the game depended on both
+players reaching their respective goal locations. Speciﬁcally, the Sen-
+der was aware of both players ’ destinations and needed to guide the
+Receiver to his undisclosed goal location. Additionally, both players
+were told each movement cost a score, and the bonus at the end of the
+game would be calculated based on the sum of the scores from all the
+trials. We clariﬁed that movement on the grid was restricted to hor-
+izontal or vertical directions. Importantly, there were no practice
+rounds offered, allowing us to observe the whole spectrum of behavior
+from the moment participants were exposed to the game rules until
+the end. The instructions deliberately avoided mentioning any speciﬁc
+strategies like managing expectations or deviations, to prevent biasing
+participants towards any predetermined strategies. Our goal was to
+capture a wide range of natural communication behaviors as players
+adapted to the game’ s requirements. The TCG game consisted of 120
+trials. In every trial, players had to solve different goal con ﬁguration
+problems. A goal con ﬁguration consists of three elements: (1) the
+starting location in one of four middle states of the 4 × 4 game board
+(same for both players), (2) the Sender ’ s goal location, and (3) the
+Receiver’ sg o a ll o c a t i o n .
+At the beginning of every trial, the Sender was presented with a
+complete goal con ﬁguration, while the Receiver could only observe
+the starting location and the Sender ’ sg o a ll o c a t i o n( F i g .2a). After
+seeing the goal con ﬁguration and planning the message, the Sender
+pressed a button to indicate that she was ready for movement. She
+then had 5 s to move her token on the grid. Once the Sender had
+reached her goal state, the entire message was shown to both players
+with the same step duration of 1.2 s. After the message replay had
+ﬁnished, the Receiver’ s token appeared at the starting location, and he
+started moving after pushing the start button. Finally, both players
+received feedback regarding their accuracy as a team.
+To differentiate between different goal con ﬁgurations, we
+focused on the location of the Receiver ’ s goal relative to the direct
+path as the key trial characteristic. This characteristic was used to
+deﬁne two distinct types of goal con ﬁguration, namely Direct, and
+Indirect, as depicted in Fig. 2c. The goal con ﬁguration, where the
+Receiver’ s goal location can be effectively conveyed by the shortest
+path from the starting location to the Sender ’ sg o a ll o c a t i o n( D i r e c t
+path) is referred to as the Direct con ﬁguration. Conversely, the goal
+conﬁguration in which the Receiver’ s goal location can only be com-
+municated by diverting from the Direct path is referred to as the
+Indirect conﬁguration. In the experiment, Dataset 1 comprised 66% of
+trials with a Direct Goal Con ﬁguration and 34% with an Indirect Goal
+Conﬁguration. In contrast, Dataset 2 exhibited a 76% Direct Goal
+Conﬁguration to 24% Indirect Goal Conﬁguration trial ratio.
+Model-free behavioral indices
+We deﬁned different indices to characterize the Sender’ sb e h a v i o ri na
+more ﬁne-grained way, providing insights into the cognitive processes
+behind creating new messages. These indices cover the message ’ s
+general category (Message type) and its speciﬁc characteristics (Mes-
+sage proﬁle).
+We’ ve identi ﬁed three Sender-generated message types: Enter-
+Exit, Wiggly, and Pass-By (as shown in Fig.2b). The Enter-Exit message
+involves the Sender moving towards the goal and then reversing
+direction, essentially entering, and then exiting the area near the goal.
+The Wiggly message, while similar to Enter-Exit in its backward
+movement, is distinguished by its multiple entries and exits, creating a
+series of back-and-forth movements between two locations. In con-
+trast, the Pass-By message is characterized by a straightforward
+movement from the starting point to the goal, without any backward
+or repeated movements.
+The message proﬁle is a detailed characteristic of each message
+and includes information on the number of movements in each
+direction, speciﬁcally, forward, backward, left, and right. An example
+proﬁle of the Enter-Exit message is shown in Fig.2d, which consists of 4
+forward, 2 left and right, and 1 backward movement.
+Analysis of pupillary responses
+Data acquisition and preprocessing . Pupillary dilation data of the
+Receiver were collected using the screen-mounted eye-tracker iView
+Red-m (Sensorimotor Instrument (SMI), Teltow, Germany) with 120 Hz
+sampling frequency, while the Receiver was observing the Sender ’ s
+message (Fig. 2a), displayed on the screen with the resolution of
+1920 × 1200 pixels. The eye-tracker was positioned 60 cm away from
+the participant’ s face. A calibration was done before each game with
+the iViewX software. To avoid pupil dilation caused by the sunlight, the
+windows in the testing room were covered with blackout curtains with
+a light-blocking effect. We used the same brightness and screen set-
+tings for all the experiments.
+To identify and remove the noise and invalid data segments from
+the data, we followed the Guidelines recommended by Kret et al.
+58
+(https://github.com/ElioS-S/pupil-size) to prepare and ﬁlter raw data.
+After identifying and interpolating invalid samples, we selected the
+relevant 1.2 s epochs during the replay phase of the trial for further
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 11
+
+PAGE 12
+analysis. Pupillary dilation response (PDR) data were downsampled by a
+factor of 10, thus rendering each step as a time series of 120 data points.
+Mixed-model analysis for pupillary data. We investigated the effect
+of surprise values generated by the Surprise model on the Receiver ’ s
+PDR, using a mixed-model analysis implemented in the lme4 package
+in R version 3.6.1, with the parameters estimated through maximum
+likelihood estimation
+20.
+In the model, we included a ﬁxed effect for surprise values, and a
+random intercept and slope for each participant:
+PDR /C24 surprise +ð1 + surprisej subÞð 1Þ
+To test the signiﬁcance of theﬁxed effects, we used the likelihood
+ratio test (LRT) implemented in the lme4 package in R20.
+EEG data analysis
+Data preprocessing and cleaning . EEG signals were continuously
+recorded from both players with a 128-channel Active 2 system from
+BioSemi (Amsterdam, Netherlands) (0.1– 100 Hz band pass; 2048 sam-
+pling rate). In the current study, we only analyzed the Receiver ’ s EEG
+data during the replay section of a trial (Fig. 2a ) .W ed i v i d e dt h ec o n -
+tinuous EEG time series into segments from 0 to 1200 ms based on the
+onset of each message step. After visually inspecting the data, we
+identiﬁe da n di n t e r p o l a t e da na v e r a g eo f6b a dc h a n n e l so u to f1 2 8
+total channels. Additionally, we rejected an average of 40 bad epochs
+out of 550 total epochs. Blinks were removed by using Independent
+Component Analysis (average number of removed components: 5).
+The electrodes were re-referenced to the average common reference
+across the channels. These preprocessing steps were carried out using
+the EEGLAB software version 2022.1.
+Model-informed regression analysis . We used a model-informed
+approach to analyze the EEG data
+23– 26. The approach entails a linear
+regression analysis of the EEG data of all steps of a message onto the
+Surprise model-derived surprise values for each message step at all-
+time points in the epoch and across all electrodes.
+For this regression analysis, data were bandpass ﬁltered from
+0.5 Hz to 40 Hz, and downsampled to 256 Hz. Baseline correction was
+conducted by subtracting the mean activity between 0 and +100 after
+movement onset because there was no gap between different move-
+ment steps (and hence no time for the traditional pre-stimulus base-
+line) and because inspection of the ERPs did not show any signiﬁcant
+deﬂection in the ﬁrst 100 ms of each message step. We performed the
+above-mentioned regression analysis for each participant at each
+electrode and time point within 1200 ms epoch following movement
+onset. The predictors were the model-derived surprise values
+(described below) for each message step and a trial-speciﬁc intercept.
+This procedure creates a time series of regression coefﬁcients, which
+were averaged across trials and then tested against 0 across partici-
+pants to determine the time point at which the model-derived surprise
+signiﬁcantly predicted the epoched EEG data.
+The multiple comparison problem was addressed by using a
+cluster-based permutation test, as implemented in the ﬁeld trip soft-
+ware package
+59. The cluster formation threshold was set at a sig-
+niﬁcance level of p =0 . 0 0 5f o rt h et-test.
+Neural source localization analysis. The neural sources associated
+with the observed EEG signals were identiﬁed through a source loca-
+lization analysis, which involved several key steps:
+(1) MRI acquisition and preprocessing: high-resolution T1-weighted
+structural MRI images were obtained for each participant (3D MPRAGE
+sequence, TR 2300 ms, TE 2.89 ms, ﬂip angle 9°, 1-mm slices, ﬁeld of
+view 256 × 192; 240 slices). Alignment of the MRI coordinate system to
+the CTF coordinate system facilita ted accurate integration with EEG
+electrode coordinates. Coregistration of MRI images with EEG electrode
+positions was performed interactively, ensuring anatomical information
+from the MRI matched the spatial conﬁguration of the EEG sensors. The
+MRI images were resliced for consistent orientation and voxel size,
+improving accuracy in segmentation and source localization.
+(2) Segmentation and head model creation: automated algo-
+rithms segmented the MRI images into brain, skull, and scalp tissues,
+providing necessary anatomical details for constructing head models
+(part of the ﬁeld trip package). A boundary element model (BEM) was
+created from the segmented tissues, accurately representing the
+conductive properties of each participant’ s head. EEG electrode posi-
+tions that were generated from 3D images recorded from each parti-
+cipant’ s head while still wearing the EEG caps were aligned to the scalp
+mesh through interactive procedures, ensuring accurate correspon-
+dence between electrode positions and anatomical structures.
+(3) Source reconstruction analysis: the lead ﬁeld matrix was cal-
+culated using the head model and aligned electrode positions,
+describing how each potential source contributes to the observed EEG
+signals. Time-locked analysis of the Receiver’ s EEG data for speci ﬁed
+time windows generated averaged data representing neural activity
+during each message step. Source analysis was conducted using line-
+arly constrained minimum variance (LCMV) beamforming, which
+computes neural sources by maximizing signal from a given location
+while minimizing contributions from other locations. Source data for
+each participant were averaged to create a grand average source
+activation map, representing common neural sources across all parti-
+cipants. The grand average source data were normalized to MNI
+standard space and interpolated onto MRI images, allowing visualiza-
+tion of neural sources in a standardized anatomical space.
+Surprise model
+The core concept behind the Surprise model for the TCG is to com-
+municate the Receiver ’ s goal location by defying the expectations
+enforced by probabilistic priors about the next likely step and the
+general direction of the Sender ’ s goal location. Violating these
+expectations communicates to the Receiver that he must pay attention
+to this part of the message. The model quanti ﬁes these expectation
+violations by calculating the information-theoretic surprise for each
+available action and then selecting the action with the highest surprise.
+Thus, a critical part of the model is the de ﬁnition of the prior prob-
+abilities. The model incorporates two types of priors — movement
+priors and State priors.
+Movement priors. The Movement model assigns probabilities to all
+available actions, based on the concept of movement kinetics, that an
+object in motion without an external force is likely to continue moving in
+a straight line. Deviations from this trajectory are less likely and, there-
+fore, more surprising. This notion implies a dynamic realignment of the
+Movement priors after each step. For instance, if the model takes a turn,
+the action probabilities will shift towards the new straight direction.
+Generally, the movement probabilities follow the ranking order of
+pðf Þ > pðlÞ = pðrÞ > pðbÞð 2Þ
+where pðf Þ is the probability of going forward,pðlÞ is the probability of
+going left, pðrÞ is the probability of going right, and pðbÞ is the prob-
+ability of going backward. These four probabilities are parameterized
+using two estimable parameters, namely,λ and γ. They are expressed in
+the model as follows:
+λ = pðbÞð 3Þ
+γ =
+pð f Þ
+pð l Þ + pð r Þ ð4Þ
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 12
+
+PAGE 13
+λ is restricted to be small (e.g., 0.001– 0.3), whereasγ is restricted
+to a range between 2 – 10. For instance, if γ =2 , t h e npðf Þ is twice as
+likely as the combined probability of a turn ( pðlÞ + pðrÞ) and hence,
+pfðÞ =2 =3a n d pðlÞ = pðrÞ =1 =6.
+More generally, the individual probabilities for all four move-
+ments can be calculated from these two parameters in the following
+way:
+pðbÞ = λ ð5Þ
+pðf Þ =
+γ
+γ +1 ð1 /C0 λÞ ð6Þ
+pðlÞ = pðrÞ =0 :5
+/C16
+1 /C0 γ
+γ +1
+/C17
+ð1 /C0 λÞ ð7Þ
+Note that the Movement priors remain constant for all steps in all
+trials, but the orientation (forward, left, right, backward) changes with
+every step the player takes.
+State priors
+State priors play a crucial role in providing a general sense of the
+Sender’ sg o a lo rd e s t i n a t i o n .S p e c iﬁcally, the prior state probability is a
+function that has a value of 1 at the Sender ’ sg o a la n dt h e nd e c r e a s e s
+according to an inverse power rule as the distance from the goal
+increases. The function is deﬁned as
+pðsÞ =
+1
+α d ð8Þ
+Where pðsÞ is the probability of a state being at a distance d from the
+Sender’ sg o a ll o c a t i o n .α is the positive estimable slope parameter,
+determining the rate at which probabilities decrease with increasing
+distance from the Sender’ s goal. It remains constant for all trials, but
+the location of the peak of the State prior changes with every goal
+conﬁguration.
+Combined movement-state priors and surprise
+To render the ﬁnal probabilities for each action (p(a)), movement and
+State priors are multiplicatively combined and normalized as follows.
+pðajsÞ = pðmÞpðs0js, mÞ
+P4
+m =1 pðmÞpðs0js, m Þ ð9Þ
+Where probability p(m) is one of the movement probabilities out of
+four possible movements (f, l, r, b ), while pðs0js, m Þ is the State prior
+probability of states0 after movementm.N o t et h a tt h i si sn o tas o f t m a x
+ﬁltering, but rather a normalization to ensure valid probability values.
+The information-theoretic (Shannon) surprise of each action is
+then calculated as:
+hðajsÞ = /C0 log 2 pa jsðÞðÞ ð 10Þ
+Where hðajsÞ is a measure of information-theoretic surprise and shows,
+how much action a in the state s deviates from what the Receiver
+expected the Sender to do based on the combined movement and
+State priors. In contrast to other models of learning and decision-
+making (like Reinforcement Learning), the Surprise model uses the
+Shannon surprise for the calculation of the ﬁnal action probabilities.
+Rewards
+If the actions were only selected based on the Shannon surprise, then
+the ﬁnal message trajectory would meander around the game board
+without ef ﬁciently reaching the Sender ’ s goal (see simulations in
+Fig. 3e– g). The rewards (conceptualized as the cost per step in the
+TCG) provide the Sender with an urge to reach his goal quickly and
+retain the maximum possible point from the initial endowment. Thus,
+i nt h em o d e l ,w ed eﬁned the rewardsrðs
+0ja, sÞ at the next states0 that is
+reached by choosing action a in state s, as the number of points that
+would remain from the initial ten points after taking the shortest route
+thereafter through the Receiver ’ sg o a lt ot h eS e n d e r’ sg o a l .T h e s e
+rewards are multiplicatively combined with the Shannon surprise cal-
+culated above into an expected value:
+evðajsÞ = hðajsÞ × rðs
+0ja, sÞð 11Þ
+Two phases of message planning
+Designing a message in the TCG has two components: (1) creating a
+trajectory to the Receiver ’ s goal that informs the Receiver of the
+location. The Surprise model realizes this by using the deviations from
+prior expectations (Shannon surprise), and (2) afterward moving to the
+Sender’ s goal on the shortest route to retain the maximum possible
+amount from the initial endowment. Thus, the second planning phase
+no longer uses the Shannon surprise of the combined Movement-State
+prior for action selection, but simply moves along the direction of the
+State prior toward the Sender’ s goal. The expected value for this sec-
+ond planning phase is then:
+evðajsÞ = pðs
+0ja, sÞ × rðs0ja, sÞð 12Þ
+Planning a message in steps
+In the context of a decision-making problem like a TCG, an agent can
+use value iteration60 to plan its next moves up to a certain point in the
+future (a planning horizon). The planning horizon determines the
+number of steps the agent plans. For example, if the planning horizon
+is 2, the agent will plan its actions from the current step until 2 steps
+into the future. The purpose of this planning horizon is to determine
+the optimal course of action that maximizes the agent ’ ss u mo f
+expected future rewards.
+In the Surprise model, this is done by generating a tree of possible
+actions and calculating the expected values of each possible action at
+each step of the planning horizon, while considering the potential
+future rewards that might come after. The expected value of getting to
+the next state in the policy tree from the current states
+i using actionai
+is the following:
+evai sij = hðai si
+/C12/C12 Þ × ϵirðs0
+i si
+/C12/C12 , aiÞ ð13Þ
+where hðai si
+/C12/C12 Þ is the surprise associated with the action probability of
+getting to the next stage in the policy tree from the current statesi using
+action ai and ϵi is the discount factor at the planning step i,a n d
+rðs0
+i si
+/C12/C12 , aiÞ is the reward available in the next states0 that is reached from
+the current state s via action a in the planning step i. Once the model
+calculates the expected values for every state-action pair on the tree, it
+then sums up the expected values alongeach trajectory in the policy tree
+to render theﬁnal expected values for all immediately available actions:
+EV ðasj Þ =
+X
+evai sij ð14Þ
+These expected values are then ﬁltered through a softmax func-
+tion to render the ﬁnal action probabilities:
+Pr a sjðÞ = eτEV ðasj Þ
+P
+aeτEðasj Þ ð15Þ
+The softmax function is used to calculate the probability of taking
+a particular action a in a given state s, based on the expected future
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 13
+
+PAGE 14
+rewards associated with each action with an estimable temperature
+parameter τ that models the stochasticity of the choice.
+Parameter estimation
+We used the Computational and Behavioral Modeling (CBM) toolbox
+(version 3, MATLAB R2021) 17, which uses a hierarchical variational
+Bayes approach to estimate the parameters of the Surprise model for
+each participant. The model is deﬁned by ﬁve key parameters, repre-
+sented as λ, γ, a, ϵ and τ, which are detailed in Eqs. 3, 4, 8, 13,a n d 15,
+respectively. Our approach involved utilizing the Laplace approxima-
+tion method, implemented in the toolbox, to effectivelyﬁt the model
+to our behavioral data.
+Statistical analysis of posterior predictive checks
+One of the objectives of our study was to identify the computational
+account that most closely replicates the behavior of the human Sender
+in a posterior predictive check. We simulated new synthetic data using
+the ﬁt t e dm o d e lp a r a m e t e r sa n dc a l c u l a t e dt h em o d e l - f r e eb e h a v i o r a l
+indices that were deﬁned for the behavioral data (message frequency
+and message proﬁle). We employed a Bayesian approach
+19 to compare
+the null hypothesis (H₀: no differences between model-generated data
+and human experimental data) with the alternative hypothesis (H ₁:
+substantial differences between model-generated and human experi-
+mental data) for all three model variations. A Bayesian approach allows
+for a quantiﬁcation of evidence for both hypotheses.
+To evaluate the evidence for H₀ vs H₁ for all models, we computed
+several Bayes factors (BF₀₁) by comparing the means of the behavioral
+indices discussed earlier with the means of the corresponding indices
+generated by the computational models.
+AB F₀₁ of less than 1 favors the alternative hypothesis (H₁)o v e rt h e
+null hypothesis (H₀), indicating that the data provides more evidence
+supporting the noticeable discrepancy between the model and human
+Sender behavior. Conversely, a BF ₀₁ greater than 1 favors the null
+hypothesis (H₀) over the alternative hypothesis (H ₁), indicating that
+the model can closely replicate the behavior of human Senders.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+All behavioral and physiological data necessary to run the analysis are
+publicly available at: https://doi.org/10.5281/zenodo.14333555.T h e
+EEG data is available at: https://doi.org/10.12751/g-node.5bns43.
+Code availability
+The code to run the analysis and reproduce theﬁg u r e si sa r c h i v e da n d
+publicly available athttps://doi.org/10.5281/zenodo.14333555.T h er e p o -
+sitory includes a READMEﬁle with detailed instructions on how to set up
+the environment, install necessary dependencies, and execute the code.
+References
+1. Ryskin, R. & Nieuwland, M. S. Prediction during language compre-
+hension: What is next? Trends Cogn. Sci. 27,1 0 3 2–1052 (2023).
+2. Goodman, N. D. & Frank, M. C. Pragmatic language interpretation as
+probabilistic inference.Trends Cogn. Sci. 20,8 1 8–829 (2016).
+3. Levy, R. & Jaeger, T. Speakers optimize information density through
+syntactic reduction.Adv. Neural Inf. Process. Syst. https://doi.org/
+10.7551/mitpress/7503.003.0111(2006).
+4. Royka, A., Chen, A., Aboody, R., Huanca, T. & Jara-Ettinger, J. People
+infer communicative action through an expectation for efﬁcient
+communication.Nat. Commun. 13, 4160 (2022).
+5 . L o p e z - B r a u ,M .&J a r a - E t t i n g e r ,J .P e o p l ec a nu s et h ep l a c e m e n to f
+objects to infer communicative goals.Cognition 239,
+105524 (2023).
+6. Verhoef, T., Walker, E. & Marghetis, T. Interaction dynamics affect
+the emergence of compositional structure in cultural transmission
+of space-time mappings.P r o c .A n n .M e e t .C o g n .S c i .S o c .44,
+2133–2139 (2022).
+7. Ruiter, J. P. D. et al. Exploring the cognitive infrastructure of com-
+munication.Interact. Stud. 11,5 1–77 (2010).
+8. Haggard, P. et al. On the origin of intentions . In Sensorimotor
+Foundations of Higher Cognition601–618 (Oxford University Press,
+2012); https://doi.org/10.1093/acprof:oso/9780199231447.
+003.0026.
+9. Blokpoel, M. et al. Recipient design in human communication:
+Simple heuristics or perspective taking?.Front. Hum. Neurosci.6,
+253 (2012).
+10. Willems, R. M., Benn, Y., Hagoort, P., Toni, I. & Varley, R. Commu-
+nicating without a functioning language system: implications for
+the role of language in mentalizing. Neuropsychologia49,
+3130–3135 (2011).
+1 1 . S t e p h e n s ,R .C .&W a r d ,J .J .M o t i o ni nac i r c l e .I nApplied Mechanics
+(eds. Stephens, R. C. & Ward, J. J.) 27–39 (Macmillan Education UK,
+London, 1972); https://doi.org/10.1007/978-1-349-00870-4_3.
+12. Kolling, N., Behrens, T., Wittmann, M. K. & Rushworth, M. Multiple
+signals in anterior cingulate cortex.Curr. Opin. Neurobiol.37,
+36–43 (2016).
+13. Kennerley, S. W., Walton, M. E., Behrens, T. E. J., Buckley, M. J. &
+Rushworth, M. F. S. Optimal decision making and the anterior cin-
+gulate cortex. Nat. Neurosci. 9, 940–947 (2006).
+14. Preuschoff, K., Hart, B. M. & Ei nhäuser, W. Pupil dilation signals
+surprise: evidence for Noradrenaline’s role in decision making.
+Front. Neurosci.5, 115 (2011).
+15. de Gee, J. W., Correa, C. M. C., Weaver, M., Donner, T. H. & van Gaal,
+S. Pupil dilation and the slow wave ERP reﬂect surprise about choice
+outcome resulting from intrinsic variability in decision conﬁdence.
+Cereb. Cortex 31,3 5 6 5–3578 (2021).
+16. Sara, S. J. & Bouret, S. Orienting and reorienting: the locus coer-
+uleus mediates cognition through arousal.Neuron 76,
+130–141 (2012).
+1 7 . P i r a y ,P . ,D e z f o u l i ,A . ,H e s k e s ,T . ,F r a n k ,M .J .&D a w ,N .D .H i e r -
+archical Bayesian inference for concurrent model ﬁtting and com-
+parison for group studies.PLoS Comput. Biol.15, e1007043 (2019).
+1 8 . S t e p h a n ,K .E . ,P e n n y ,W .D . ,D a u n i z e a u ,J . ,M o r a n ,R .J .&F r i s t o n ,K .J .
+Bayesian model selection for group studies.Neuroimage46,
+1004–1017 (2009).
+19. Hoijtink, H., Mulder, J., van Lissa, C. & Gu, X. A tutorial on testing
+hypotheses using the Bayes factor.Psychol. Methods24,
+539–556 (2019).
+20. Luke, S. G. Evaluating signiﬁcance in linear mixed-effects models in
+R. Behav. Res. Methods 49,1 4 9 4–1502 (2017).
+2 1 . B o t v i n i c k ,M .M . ,B r a v e r ,T .S . ,B a r c h ,D .M . ,C a r t e r ,C .S .&C o h e n ,J .
+D. Conﬂict monitoring and cognitive control.Psychol. Rev. https://
+doi.org/10.1037//0033-295X.I08.3.624(2001).
+22. Holroyd, C. B. & Coles, M. G. H. The neural basis of human error
+processing: reinforcement learning, dopamine, and the error-
+related negativity.Psychol. Rev. 109,6 7 9–709 (2002).
+23. Collins, A. G. E. & Frank, M. J. Neural signature of hierarchically
+structured expectations predicts clustering and transfer of rule sets
+in reinforcement learning.Cognition 152,1 6 0–169 (2016).
+24. Fischer, A. G., Nigbur, R., Klein, T. A., Danielmeier, C. & Ullsperger,
+M. Cortical beta power reﬂects decision dynamics and uncovers
+multiple facets of post-error adaptation.Nat. Commun. 9,
+5038 (2018).
+25. Cavanagh, J. F. Cortical delta activity re ﬂects reward prediction
+error and related behavioral adjustments, but at different times.
+Neuroimage110
+,2 0 5–216 (2015).
+26. Larsen, T. & O ’Doherty, J. P. Uncovering the spatio-temporal
+dynamics of value-based decision-making in the human brain: a
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 14
+
+PAGE 15
+combined fMRI-EEG study.P h i l o s .T r a n s .R .S o c .L o n d .BB i o l .S c i.
+369,2 0 1 3 0 4 7 3( 2 0 1 4 ) .
+2 7 . M a r i s ,E .&O o s t e n v e l d ,R .N o n p a r a metric statistical testing of EEG-
+and MEG-data. J. Neurosci. Methods 164,1 7 7–190 (2007).
+28. Shain, C., Meister, C., Pimentel, T., Cotterell, R. & Levy, R. Large-
+scale evidence for logarithmic effects of word predictability on
+reading time. Proc. Natl. Acad. Sci. USA 121, e2307876121 (2024).
+29. Shannon, C. E. A mathematical theory of communication. SIGMO-
+BILE Mob. Comput. Commun. Rev. 5,3 –55 (2001).
+30. Horn, L. R. Implicature. in The Handbook of Pragmatics2–28
+(Blackwell Publishing Ltd, Oxford, 2008);https://doi.org/10.1002/
+9780470756959.ch1
+31. Dahan, D. Prosody and language comprehension. Wiley Interdiscip.
+Rev. Cogn. Sci. 6,4 4 1–452 (2015).
+32. Fine, A. B., Jaeger, T. F., Farmer, T. A. & Qian, T. Rapid expectation
+adaptation during syntactic comprehension.PLoS One 8,
+e77661 (2013).
+3 3 . A v e r b e c k ,J .M .&M i l l e r ,C .E x p a n d i n gl a n g u a g ee x p e c t a n c yt h e o r y :
+the suasory effects of lexical complexity and syntactic complexity
+on effective message design.Commun. Stud. 65,7 2–95 (2014).
+34. Rohde, H. & Rubio-Fernandez, P. Color interpretation is guided by
+informativity expectations, not by world knowledge about colors.J.
+Mem. Lang. 127, 104371 (2022).
+35. Shaw, J. Philosophy of humor. Philos. Compass 5,1 1 2–126 (2010).
+36. Kurumada, C., Brown, M., Bibyk, S., Pontillo, D. F. & Tanenhaus, M. K.
+Is it or isn’t it: listeners make rapid use of prosody to infer speaker
+meanings. Cognition 133,3 3 5–342 (2014).
+37. Sutton, R. S. & Barto, A. G. Reinforcement Learning, Second Edition:
+An Introduction (MIT Press, 2018).
+38. Aitchison, L. & Lengyel, M. With or without you: predictive coding
+and Bayesian inference in the brain. Curr. Opin. Neurobiol.46,
+219–227 (2017).
+39. Parr, T. & Friston, K. J. Working memory, attention, and salience in
+active inference.Sci. Rep. 7, 14678 (2017).
+40. Friston, K. et al. Active inference and learning. Neurosci. Biobehav.
+Rev. 68,8 6 2–879 (2016).
+41. Baker, C. L., Jara-Ettinger, J., Saxe, R. & Tenenbaum, J. B. Rational
+quantitative attribution of beliefs, desires and percepts in human
+mentalizing.Nature Human Behaviour1,1 –10 (2017).
+42. Yuan, L., Fu, Z., Zhou, L., Yang, K. & Zhu, S. C. Emergence of theory
+of mind collaboration in multiagent systems. Preprint athttps://doi.
+org/10.48550/arXiv.2110.00121(2019).
+4 3 . D eW e e r d ,H . ,V e r b r u g g e ,R .&V e r h e i j ,B .H o wm u c hd o e si th e l pt o
+know what she knows you know? An agent-based simulation study.
+Artif. Intell. 199–200,6 7–92 (2013).
+44. de Weerd, H., Verbrugge, R. & Verheij, B. Higher-order theory of
+mind in the Tacit communication game.Biol. Inspir. Cogn. Archit.11,
+10–21 (2015).
+4 5 . B r a u n ,A . ,U r a i ,A .E .&D o n n e r ,T .H .P u p i l - l i n k e da r o u s a li sd r i v e nb y
+decision uncertainty and alters serial choice bias.Nat. Commun. 8,
+1–11 (2017).
+46. van Kempen, J. et al. Behavioural and neural signatures of percep-
+tual decision-making are modulated by pupil-linked arousal.Elife.
+https://doi.org/10.7554/eLife.42541(2019).
+47. Bradley, M. M., Miccoli, L., Escrig, M. A. & Lang, P. J. The pupil as a
+measure of emotional arousal and autonomic activation.Psycho-
+physiology45,6 0 2–607 (2008).
+48. Foroughi, C. K., Sibley, C. & Coyne, J. T. Pupil size as a measure of
+within-task learning.Psychophysiology54,1 4 3 6–1443 (2017).
+4 9 . H o e k s ,B .&L e v e l t ,W .J .M .P u p i l l a r yd i l a t i o na sam e a s u r eo f
+attention: a quantitative system analysis.Behav. Res. Methods
+Instrum. Comput.25,1 6–26 (1993).
+50. Yebra, M. et al. Action boosts episodic memory encoding in humans
+via engagement of a noradrenergic system.bioRxiv 30,
+71–42 (2017).
+51. Joshi, S., Li, Y., Kalwani, R. M. & Gold, J. I. Relationships between
+pupil diameter and neuronal activity in the locus coeruleus, colli-
+culi, and cingulate cortex.Neuron 89, 221–234 (2016).
+52. Larsen, R. S. & Waters, J. Neuromodulatory correlates of pupil
+dilation. Front. Neural Circuits12,2 1( 2 0 1 8 ) .
+5 3 . N a c h e v ,P . ,K e n n a r d ,C .&H u s a i n ,M .F u n c t i o n a lr o l eo ft h es u p -
+plementary and pre-supplementary motor areas.Nat. Rev. Neu-
+rosci. 9,8 5 6–869 (2008).
+5 4 . R u s h w o r t h ,M .F .S . ,K o l l i n g ,N . ,S a l l e t ,J .&M a r s ,R .B .V a l u a t i o na n d
+decision-making in frontal cortex: One or many serial or parallel
+systems? Curr. Opin. Neurobiol.22
+, 946–955 (2012).
+55. Rushworth, M. F. S., Walton, M. E., Kennerley, S. W. & Bannerman, D.
+M. Action sets and decisions in the medial frontal cortex. Trends
+Cogn. Sci. 8,4 1 0–417 (2004).
+5 6 . A p p s ,M .A .J . ,R u s h w o r t h ,M .F .S .&C h a n g ,S .W .C .T h ea n t e r i o r
+cingulate gyrus and social cognition: tracking the motivation of
+others. Neuron 90,6 9 2–707 (2016).
+57. Zhang, L. & Gläscher, J. A brain network supporting social in ﬂu-
+ences in human decision-making.Sci. Adv. 6, eabb4159 (2020).
+5 8 . K r e t ,M .E .&S j a k - S h i e ,E .E .P r e p r o c e s s i n gp u p i ls i z ed a t a :g u i d e -
+lines and code. Behav. Res. Methods 51,1 3 3 6–1342 (2019).
+59. Oostenveld, R., Fries, P., Maris, E. & Schoffelen, J.-M. FieldTrip: open
+source software for advanced analysis of MEG, EEG, and invasive
+electrophysiological data.Comput. Intell. Neurosci.2011,
+156869 (2011).
+60. Kaelbling, L. P., Littman, M. L. & Cassandra, A. R. Planning and acting
+in partially observable stochastic domains.Artif. Intell. 101,
+99–134 (1998).
+Acknowledgements
+We thank Julia Wandschura for her help with data collection and Fate-
+meh Hadaeghi for her valuable comments. This work is supported by a
+DFG/NSFC grant to J.G. and X.F. (CRC TRR 169“Cross-modal Learning”,
+NSFC grant 62061136001) and a DFG grant to J.G. (CRC 1528“Cognition
+of Interaction”).
+Author contributions
+Research design—J.G. and T.B. Experimental task and data collection—
+T.B. Model development—J.G. Model implementation—T.B. Data analy-
+sis—T.B. Paper writing (ﬁrst draft)—T.B. Paper writing (revisions)–T.B.,
+J.G., T.S., K.Z., and X.F.
+Funding
+Open Access funding enabled and organized by Projekt DEAL.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-025-57025-z.
+Correspondenceand requests for materials should be addressed to
+Tatia Buidze or Jan Gläscher.
+Peer review informationNature Communicationsthanks Paula Rubio-
+Fernandez and the other, anonymous, reviewer(s) for their contribution
+to the peer review of this work. A peer review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 15
+
+PAGE 16
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article's Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article's CreativeCommons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2025
+Article https://doi.org/10.1038/s41467-025-57025-z
+Nature Communications|         (2025) 16:1989 16

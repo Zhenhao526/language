@@ -1,0 +1,6 @@
+{
+  "status": "invalidated",
+  "reason": "Audit matched the initial over-closed implementation; its numerical pass does not validate the registered self-retaining route.",
+  "superseded_by": "audit_closed_probe_fi_002",
+  "training_updates": 0
+}

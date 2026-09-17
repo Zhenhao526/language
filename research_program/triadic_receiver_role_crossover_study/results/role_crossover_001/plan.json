@@ -1,0 +1,169 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-17T03:48:03.228987+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "proposal_count": 16,
+    "intent_count": 2,
+    "actions_per_actor": 17,
+    "action_logits": 18,
+    "evaluation_batch_size": 8192,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704,
+      66705,
+      66706,
+      66707,
+      66708
+    ],
+    "roles": [
+      "A",
+      "B",
+      "C"
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "replace_A_new_receiver_PL_static_live",
+      "replace_A_new_receiver_PL_static_silent",
+      "replace_A_new_receiver_PL_rematched_live",
+      "replace_A_new_receiver_PL_rematched_silent",
+      "replace_B_new_receiver_PL_static_live",
+      "replace_B_new_receiver_PL_static_silent",
+      "replace_B_new_receiver_PL_rematched_live",
+      "replace_B_new_receiver_PL_rematched_silent",
+      "replace_C_new_receiver_PL_static_live",
+      "replace_C_new_receiver_PL_static_silent",
+      "replace_C_new_receiver_PL_rematched_live",
+      "replace_C_new_receiver_PL_rematched_silent"
+    ],
+    "task": "receiver_role_crossover_on_altpair_coordination",
+    "source_observation": "PL_own_need_and_public_layout_only",
+    "source_policy": "factorized neutral/engage source checkpoint",
+    "adaptation_modules": [
+      "selected_role_sender1",
+      "selected_role_sender2",
+      "selected_role_action"
+    ],
+    "frozen_modules": [
+      "the other six modules"
+    ],
+    "optimizer": "Adam; zero gradients supplied for the six frozen modules",
+    "pairing": "same source checkpoint, fresh initialization, world uniforms, batch indices, message uniforms and rematch assignments for all roles and live/silent within each seed/schedule",
+    "evaluation": "two fixed train layouts at checkpoints; all heldout layouts at final",
+    "no_model_calls": true,
+    "no_external_model": true,
+    "no_llm": true,
+    "no_vision_model": true
+  },
+  "source_prepared_sha256": "2aef668e0998de65ab37b8371e72510318ca391accaaa37d763d37e5e11fe4b1",
+  "source_code_sha256": {
+    "research_program/triadic_receiver_role_crossover_study/__init__.py": "3aa6fecf2b37f92cd5d8db45fff311b6f886f814e58c46b039787ca2d69d3482",
+    "research_program/triadic_receiver_role_crossover_study/design.py": "7fff36a01e9b9d1ef56c9284f857aab73b16b9245fbd2431976a949c27aa92a4",
+    "research_program/triadic_receiver_role_crossover_study/runner.py": "6f4a8624a68c5f7375a73c765d53f8b43a0d3ea714d8a18f10a6f67ad4879560",
+    "research_program/triadic_receiver_role_crossover_study/plan.md": "6ebda78e8c27260d34baa71f8b29f1c63cdfe30dfab9def5f7eb5aa70ed1673c",
+    "research_program/triadic_receiver_role_crossover_study/README.md": "490bd4d59a8c60df70a7de53efa3f3a62321cf3635e9c798f6b0a63796edf118",
+    "research_program/triadic_receiver_role_crossover_study/tests/test_design.py": "7744be71d15bca080e57bc5b85ed44e96db5277dc6430dcc54676fe8e935ec5b",
+    "research_program/triadic_receiver_role_crossover_study/tests/test_runner.py": "7940a42e6e912239ae934e77a9089820e73548fb95bb0185d88b785be57b2833",
+    "research_program/triadic_factorized_neutral_altpartner_study/design.py": "9b4284dc2cd2bdd95e65e6ee7787d583e23e55293c46d78e1bf728e41fd2dd16",
+    "research_program/triadic_factorized_neutral_altpartner_study/kernel.py": "7ae7498b46b311277587f0dcc935d0b0e7a6abfb9a83b61fc0e51205e439e9a5",
+    "research_program/triadic_factorized_neutral_altpartner_study/remap.py": "6551b0e72149c31a9a485a4d49b5d67ddbbf05ac45298e8803612633a866e2b6",
+    "research_program/triadic_factorized_neutral_altpartner_study/runner.py": "b6bd2626edf7bcf1a24d49ca338061488fd1ce0eee1323ce64202a5d603262cb",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "source_artifacts_sha256": {
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/prepared.json": "2aef668e0998de65ab37b8371e72510318ca391accaaa37d763d37e5e11fe4b1",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/results.json": "478f7d561672fd93ca2b7babc108093081db6416e4b0bacf548697ed4788a399",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66701_static_altpair_factorized_strict_PL_live/result.json": "e6c441f281dd84fc85dc1b5570478969fc46f08ab24ee4de36fdc1229da2bf1f",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66701_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "21f9d5c89ddaeaf2ccb72aceb50239d8a1ebf3c51215025be902ddde1ad3d247",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66701_rematched_altpair_factorized_strict_PL_live/result.json": "bb22f38217c652b6bb0b82c59a6aafd489e96801f76ae1112b9f295a0927c06c",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66701_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "3cd2cbffe9f0913491c1fcd84d3d13da28d0b8344cd6f47e8ea6dfc600b8846d",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66702_static_altpair_factorized_strict_PL_live/result.json": "6a5aebe7108fe5bdc798bfe3a68a8274daddcb7e71e57840bbdad1700f1b2566",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66702_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "cdd982863671dfa0767cde507d0fdd54bfdd7b00501c74e7e2a0b67b3a8a21fa",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66702_rematched_altpair_factorized_strict_PL_live/result.json": "956f5e53d51c69d0ec3404b24ae5edcfc4d5251fb776d81a00b06890a451567c",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66702_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "46b2fdc5407116e5c26d9b1bb8b49debb66cc01c6e8da0bea9cca673c6078c61",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66703_static_altpair_factorized_strict_PL_live/result.json": "2c29f69e306b1f951a20e20603e7ac8d12893c3adae987f2668826be40ccd454",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66703_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "1dcc82b2cee700bd9ecd79ba0f0cfcc689f1ad7c4f8b1034f703189f9d197ca4",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66703_rematched_altpair_factorized_strict_PL_live/result.json": "19b7f61f0a649f37bf27565c1b8f740cf87b231c1dad02cfb80835c1827cd88b",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66703_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "7a58955a53204f2827d3618971c60bc84844ebdae791d8473f433ffd2fe9edff",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66704_static_altpair_factorized_strict_PL_live/result.json": "86be7e3d6d600794c78cc4b5bf088acbe14c70a93088d64aa947c032133a3715",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66704_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "0697f173048d39f6683b6055293cd1503271f258b5bb75fa05c14a4dae405c17",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66704_rematched_altpair_factorized_strict_PL_live/result.json": "644408e525df499f5ca06bc85961c4af74603a3c5edbd9988bba54b477cb5444",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66704_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "c93bdab967197de913cfb3c134727d697416623022650b921623bfd6f8042e24",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66705_static_altpair_factorized_strict_PL_live/result.json": "f9210d757c5bc20be4710fb81ec31dd65197e4239e94826235d6654c601c2662",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66705_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "880c465e5b59d1adcce6a9b876f3d921da7c0a4fe7a78df4ce8320d89d5b472a",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66705_rematched_altpair_factorized_strict_PL_live/result.json": "19b9644c0a679b4acf2984698c54c4af3d0d95a1ff6c49d6f1fab13456e9c126",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66705_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "1314225ea670ed3f484b69d3e8c234ab91f0c45c6feb10f409caecfefafc207a",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66706_static_altpair_factorized_strict_PL_live/result.json": "a4e8f9d0ab65e664bec0ee0ea3863687b75308e96425052e2f9fe31b9288a1bc",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66706_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "7c8dc55150cad4e11bc0b6abdeea484418b7f747364191d1f3d3dd3ec6ffaf38",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66706_rematched_altpair_factorized_strict_PL_live/result.json": "7939a03fbbf66caa982cc6f86992ad25688d77daab090a9f4450baf71f048063",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66706_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "ed15880d4f741af2616b4e6eb88626f4ea8923e3522c5b8b133aeeaa8e3561d9",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66707_static_altpair_factorized_strict_PL_live/result.json": "94366feedf13abfdece469c455b23acdc433fba9a02bb4baa2612a340f79d3d4",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66707_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "b51f73e5a7ecc3a76dc225c59d489dbcf5ebf0e857d7bf65aa7d4cddf12bc710",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66707_rematched_altpair_factorized_strict_PL_live/result.json": "46ba6ac1e29156d647ba4b7b55a021221f6b81ec5f356b3aec22684f9ea2f513",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66707_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "177bd7573b599a67ec7b0fa3c5a43687ab384e15c175ccb42b29118d177f89a4",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66708_static_altpair_factorized_strict_PL_live/result.json": "29adf6f213be972e24655d730d1eb830d7f30d71e6e34185a2080c2a3755f80d",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66708_static_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "28218996a8de6ed1d1fd7984a988f169e5f7f7a671329474e711ead269f1cd33",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66708_rematched_altpair_factorized_strict_PL_live/result.json": "5336299e540268e44208cd15ae3358394a8039a598839755e7854df5f4d9cc6f",
+    "research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001/execution/seed_66708_rematched_altpair_factorized_strict_PL_live/checkpoint_6000.npz": "3354e400af2fe7aed05b9fc525e4f6278965b16270f6d15da69fbf610c47d5fd"
+  },
+  "prepared_sha256": "bdbb46c1d2662006e5c33eb0773992fa975cba2958fc626392c62f4b6eb5cc64",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true,
+  "scientific_question": "Can a freshly initialized receiver/participant recover a frozen pair's task protocol from task feedback, and does packet routing change that trajectory?"
+}

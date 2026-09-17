@@ -1,0 +1,4 @@
+tutorialStep:none
+chatVisibility:2
+heldItemTooltips:false
+advancedItemTooltips:false

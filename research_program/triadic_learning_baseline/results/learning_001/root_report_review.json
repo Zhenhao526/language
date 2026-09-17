@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "reviewed_at_utc": "2026-09-15T15:02:41.499532+00:00",
+  "report_sha256": "40a21091a53327d38831c9531dd462a8f3809ec0c53507957d464348d68fe168",
+  "review_scope": [
+    "Primary table values checked against full results and summary.",
+    "Constant actions distinguished from probability/hidden input invariance.",
+    "Native reward, full success and rounded stochastic quantities separated.",
+    "Four seed teams and one split distinguished; all failures retained.",
+    "Static Nash result distinguished from soft-policy training causation and novelty.",
+    "Execution audit passed; zero optimizer replays and actual audit forward samples disclosed.",
+    "New local artifact links verified and figure visually checked."
+  ],
+  "local_links_checked": 65,
+  "missing_links": [],
+  "reviewed_document_sha256": {
+    "research_program/triadic_learning_baseline/结果与下一步.md": "40a21091a53327d38831c9531dd462a8f3809ec0c53507957d464348d68fe168",
+    "research_program/triadic_learning_baseline/README.md": "532bc24ce72e1c6ba93b8889072063ea1a94bbb8b0bb66b775a8f3df37e41939",
+    "research_program/README.md": "0a2a062e8df3da40de7137dcd38e7b2b6196e09fc81845d31525e7e5a6b1cea0",
+    "research_program/进展账本.md": "629ffa8be51482399e8ebf46bcb4bf07d9dde179780f8f2888fc54a544095e37",
+    "research_program/visual_confirmation_frame/curation/后续取得准备与跨框重合.md": "5133326ff1b42f34c47db51010380d5ba63e02e4addac1e98595343d818d1706"
+  },
+  "execution_audit_sha256": "aeb1a5a1ec3bcd1a30ae5a3b7924f7f1dc29e847bc1cffffecf11b79e310814a",
+  "formal_runs_added_by_review": 0
+}

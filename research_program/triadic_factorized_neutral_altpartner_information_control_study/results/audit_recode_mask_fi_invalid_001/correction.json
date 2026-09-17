@@ -1,0 +1,5 @@
+{
+  "status": "invalidated",
+  "reason": "Independent audit exposed that the route helper could overwrite own/silent zero cross blocks for symbol/position transforms. No verification.json was released; the execution result used analytic own aliases and was unaffected. Route logic was corrected before rerunning the audit.",
+  "optimizer_updates": 0
+}

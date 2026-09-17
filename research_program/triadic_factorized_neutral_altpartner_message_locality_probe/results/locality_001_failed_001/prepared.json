@@ -1,0 +1,102 @@
+{
+  "schema": "triadic_factorized_neutral_altpartner_message_locality_v1",
+  "config": {
+    "schema": "triadic_factorized_neutral_altpartner_message_locality_v1",
+    "source_experiment": "triadic_factorized_neutral_altpartner_information_control_study/fi_001",
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704,
+      66705,
+      66706,
+      66707,
+      66708,
+      66709,
+      66710,
+      66711,
+      66712,
+      66713,
+      66714,
+      66715,
+      66716
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "trained_channels": [
+      "live",
+      "own"
+    ],
+    "modes": [
+      "natural",
+      "cross_closed",
+      "symbol_permutation",
+      "position_rotation",
+      "position_reverse",
+      "mask_sender_A",
+      "mask_sender_B",
+      "mask_sender_C"
+    ],
+    "metrics": [
+      "q_rate",
+      "conditional_q_rate",
+      "target_pair_legal_rate",
+      "proposal_legal_rate",
+      "physical_execution_rate"
+    ],
+    "new_layout_worlds": 56160,
+    "alphabet_size": 8,
+    "tokens_per_window": 4,
+    "windows": 2,
+    "symbol_permutation": [
+      3,
+      7,
+      1,
+      6,
+      0,
+      4,
+      2,
+      5
+    ],
+    "position_orders": {
+      "position_rotation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "position_reverse": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    "route_definition": "self payload is retained; transforms and masks affect only cross-agent payload; cross_closed zeros all visibility bits",
+    "rollout_definition": "greedy messages; transformed first-window route feeds second-window senders; transformed second-window route feeds action head",
+    "training_updates": 0,
+    "optimizer_updates": 0,
+    "model_calls": 0,
+    "interpretation_boundary": "post-hoc task-policy mechanism probe; no word, lexicon, compositionality or language-origin claim"
+  },
+  "source_sha256": {
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/__init__.py": "cab055305dd471d93bd76c968726f70924cededad6ce19844d1b3a15085a5afb",
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/runner.py": "20cf142d494410b9851b092adcad77922953bf6c6c031a091708108bb26458a5",
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/audit.py": "25bf78b2cc981fd5afd075fbbd6ed5feb1bb3f8984db3c70a331a7ddddbba592",
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/plan.md": "5355a9358659094f3c570a490a16d41269897a6279a08656fc981f2c077856b4",
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/README.md": "aabe8c1ebbeb7ae0556cfa99629af6c8a895ee91e9b3150feaf6373b3908a0f1",
+    "research_program/triadic_factorized_neutral_altpartner_message_locality_probe/tests/test_probe.py": "5fac9eb4a0a142beb01b9b3d808a462464ed4fff6d3ba8fcfa38dd48085ab081"
+  },
+  "input_sha256": {
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001/plan.json": "b43c465c3a48332d7502213d2bebc8fe167af31562985734ae41eacf7bb72384",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001/prepared.json": "ec5ef5310ee6c882a20db7d024799601f10b75e4152cb25cff961ba6aa154077",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001/freeze.json": "9eb6719fbc0379f8faa2c2d5edd1bd2e168d8d68648a6e9525d4fef872c8066c",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001/execution/results.json": "b9de9fd18d66aab8d26bafa3dacafe2ffd027624c21e80352409d412f49ae66a",
+    "research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001/execution/status.json": "29f86559fd28586bfb766b13602758cc89a7965e9d00dffca1e8d78fc650b2bb"
+  },
+  "prepared_at": "2026-09-16T23:44:19.664191+00:00",
+  "no_training": true,
+  "no_model_calls": true
+}

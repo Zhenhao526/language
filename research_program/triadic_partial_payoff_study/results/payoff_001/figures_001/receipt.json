@@ -1,0 +1,61 @@
+{
+  "status": "figures_generated_pending_visual_inspection",
+  "at": "2026-09-16T02:44:33.544126+00:00",
+  "run": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001",
+  "out": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/figures_001",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/results.json": "0d0fd3bbea91eae728384b0bffc4e040f250193004465451305eb56d451615e2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/status.json": "33ca23ac5ca2ec68a7d377526c6523514165a48ac3f87eefb3e697d410186589",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/plan.json": "99b9663dfae02868692d53707ad5b7db40b7f2ee31c951edf2fd68f05859f33f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/prepared.json": "580131dda23a0572a62e8c6b52c8133877ce571e8e36f306cb0bdc3a77625352",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/freeze.json": "a678005c5b7b5a91af50a38b390f0219ecfb626077ce01716e6fbeffd1ab7d8d"
+  },
+  "plot_source_sha256": "99632ce94f2c043dee5db60cabe80e58125d9b36fe95eede0ef8ef1af2c80c03",
+  "outputs": {
+    "endpoint_cells_and_role_DiD.png": {
+      "sha256": "13eb8781752a82faebbb220f62f5fcbafd0599d0f64bfa2e440da17b93db126e",
+      "bytes": 275688
+    },
+    "endpoint_cells_and_role_DiD.pdf": {
+      "sha256": "adafb7c7e02ca06453b094dce3a5682eb85eddc57c3a22d033a7d650472953e8",
+      "bytes": 28399
+    },
+    "six_checkpoint_role_and_success.png": {
+      "sha256": "c6512c6b11ebbe65f84dc71e2c2180b310bbe23b21a49640f2b0219db87e86ca",
+      "bytes": 287525
+    },
+    "six_checkpoint_role_and_success.pdf": {
+      "sha256": "713fd7d31a2e11f12e692db5955b4f33d8364be875a3cb31b54306852d49e99d",
+      "bytes": 36549
+    },
+    "natural_closed_all_policies.png": {
+      "sha256": "a7e177949eed020043ea28b4aece7a1ae70b8dc60f5af75a498356d08fc22164",
+      "bytes": 220105
+    },
+    "natural_closed_all_policies.pdf": {
+      "sha256": "592d25f3a719fafbd0f0daa25c56cfb2c6ecfd02b3fbc74fba614c4807adde06",
+      "bytes": 32228
+    },
+    "figure_data.json": {
+      "sha256": "d5b32425dadc046e59f6196871cf7dcefd2c1898ba53b730ffa974612ca4e76a",
+      "bytes": 75184
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "scope": {
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "model_parameter_loads": 0,
+    "npz_data_files_read": 0,
+    "training_logs_read": 0,
+    "completed_policy_records": 24,
+    "figures_png": 3,
+    "figures_pdf": 3,
+    "visual_inspection_performed": false
+  },
+  "primary_mean_role_DiD": 0.0
+}

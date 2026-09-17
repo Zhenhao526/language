@@ -1,0 +1,87 @@
+{
+  "status": "passed_json_comparison",
+  "source_sha256": {
+    "research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/verification.json": "39447f7ac1410bcbee0d518b62d84a74974350270e89ea2adecf6b72334197a8",
+    "research_program/triadic_context_transfer_study/results/transfer_001/summary_001/summary.json": "f53e385768c3f479c2742736c707b37e9e4d8a2a783e77bb1c6bf386d5408f18",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/seed_51101.json": "7753b7305b2765b83e969ffd69fe6339ff3e87044263da9be3a07936ea5536b4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/seed_51102.json": "ad1e9b9483d476167511701ed378bc4021ef2ba58ac35801a944e98b92af2d1d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/seed_51103.json": "03f1a412038b8a983aa18647119803b816e19ad31cd8ece43493ade02aad213b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_context_transfer_study/results/transfer_001/audit_execution_001/seed_51104.json": "f4510a94fe672a9979bcbfa3bfbe886c277504827c0c62dd0e3a7f7b7e509df4"
+  },
+  "comparison_source_sha256": "e50a50a1f940617f7f4072bc265658c55d31b1f08210945bbc024c847dd262af",
+  "absolute_tolerance": 2e-11,
+  "comparisons_by_family": {
+    "weight_mass": 1152,
+    "remote_arm": 14336,
+    "remote_contrast": 4096,
+    "contrast_common_gate": 512,
+    "control": 7168,
+    "paired": 336
+  },
+  "total_scalar_comparisons": 27600,
+  "max_absolute_error_by_family": {
+    "weight_mass": 1.7763568394002505e-15,
+    "remote_arm": 1.9872992140790302e-14,
+    "remote_contrast": 3.219646771412954e-15,
+    "contrast_common_gate": 1.9872992140790302e-14,
+    "control": 2.1760371282653068e-14,
+    "paired": 5.273559366969494e-16
+  },
+  "max_absolute_error": 2.1760371282653068e-14,
+  "largest_error_labels": {
+    "weight_mass": "51101/PL_silent/train/all_other/remote_same_both/kind",
+    "remote_arm": "51103/LL_silent/new_needs/all_other/remote_same_both/destination/C_gate_mass",
+    "remote_contrast": "51103/PL_live/new_needs/all_other/contrast/destination/native_reward",
+    "contrast_common_gate": "51103/LL_silent/new_needs/all_other/destination",
+    "control": "51101/PL_silent/new_needs/sham_both/destination/copy_same_actual_donor",
+    "paired": "new_needs_and_layouts/all_other/51103/PL_live/counterfactual_apt"
+  },
+  "coverage": {
+    "policies": 16,
+    "partitions": 4,
+    "remote_supports": 2,
+    "remote_modes_and_contrast": 3,
+    "control_modes": 2,
+    "axes": 3,
+    "macros": true,
+    "common_arm_metrics": {
+      "counterfactual_apt": "target_apt",
+      "current_apt": "current_apt",
+      "counterfactual_probability": "target_probability",
+      "current_probability": "current_probability",
+      "native_reward": "native_reward",
+      "native_full_success": "native_team_full",
+      "counterfactual_reward": "counterfactual_reward",
+      "counterfactual_full_success": "counterfactual_team_full",
+      "listener_action_changed": "listener_action_changed",
+      "natural_current_apt": "natural_current_apt",
+      "C_gate_mass": "conservative_gate",
+      "C_counterfactual_apt": "conservative_target_apt",
+      "copy_same_actual_donor": "action_equals_donor_same",
+      "copy_opposite_actual_donor": "action_equals_donor_opposite"
+    },
+    "common_contrast_metrics": {
+      "counterfactual_apt": "target_apt",
+      "counterfactual_probability": "target_probability",
+      "C_counterfactual_apt": "conservative_target_apt",
+      "current_apt": "current_apt",
+      "native_reward": "native_reward",
+      "native_full_success": "native_team_full",
+      "counterfactual_reward": "counterfactual_reward",
+      "counterfactual_full_success": "counterfactual_team_full"
+    },
+    "paired_seeds": [
+      51101,
+      51102,
+      51103,
+      51104
+    ]
+  },
+  "limits": [
+    "Only the common numerical intersection of the independently computed saved audit and official JSON summary is compared.",
+    "No new neural forward, NPZ read, training, producer metrics call, or inference from private analysis.",
+    "Official by_direction and by_sender_listener summaries, message-change metrics, donor-observation diagnostics and separate copy-correctness baselines are outside this JSON numerical comparison."
+  ],
+  "completed_at": "2026-09-15T19:35:47.680536+00:00",
+  "elapsed_seconds": 0.39710329100489616
+}

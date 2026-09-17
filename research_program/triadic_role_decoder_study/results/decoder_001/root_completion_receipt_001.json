@@ -1,0 +1,51 @@
+{
+  "at": "2026-09-16T03:29:37.578388+00:00",
+  "status": "root_checks_passed",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/结果与下一步.md": "d0aa907665549552ab9d0b660d1397af7b852f541ace7e1cb9313cd5e9bd5a38",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/README.md": "5bad8da052c0944ac4e8d6773154fdf3577c3950f9e5584a175e18d1e7dc54d3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/plan.json": "9cf2995a75acb9cd5d69d36897019299bb9123095b684922345b3ae41ddc9f41",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/execution/results.json": "3091280846d9dfe812bd92e856cde30f8d9891ce3159e9463a2f5c047ecc95e6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/audit_execution_001/verification.json": "884db6fd8bb2886673932cb4860a309b4246c1a5aec9ae1dbdeb41c30b8a4308",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/summary_001/descriptive_summary.json": "41c4764f70f6a44ce434328c2f95c95c278fbac2492ef94b8819fc12ae86be4a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/figures_002/figure_receipt.json": "b29bab5ae33bf9de012f5794745d2a5db77c94d60233aff5d040a9df6d620dae",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/figures_002/visual_review_001.json": "ceca21c021a5974f275cc640533eba8de991ff370f1b70b43c7971ed961c7873",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/下一步实验草案.md": "e30695c1a57ab0c674031ec5e2cf67d69f8168a0ee7c701d795d25dc46cd6c7b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/candidate_static_003.json": "456696fbb6be1bd6105851f9871fe248375d4c2a371cb41fa5dde3c9579fa1b7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/review.md": "1a43b4b7bd630f17c6d8ba7d5e706fce51cbc4d7abbb9613b2f5b4ff11a54132"
+  },
+  "main_session": {
+    "id": 6465,
+    "exit_code": 0,
+    "elapsed_seconds": 257.19098608300555
+  },
+  "audit_session": {
+    "id": 93220,
+    "exit_code": 0,
+    "elapsed_seconds": 120.94902462500613,
+    "final_tool_chunk": "df3716"
+  },
+  "summary_session": {
+    "id": 9325,
+    "exit_code": 0,
+    "final_tool_chunk": "629e68"
+  },
+  "final_figures_session": {
+    "id": 6282,
+    "exit_code": 0,
+    "final_tool_chunk": "cd42da"
+  },
+  "frozen_main_verification_chunk": "7c454a",
+  "root_aggregate_comparison_chunk": "4ab519",
+  "checks": {
+    "primary_main_audit_summary_exact_equal": true,
+    "local_links_checked": 28,
+    "broken_local_links": 0,
+    "final_pngs_actually_viewed": 3,
+    "figure_revision_data_identical": true,
+    "pdf_raster_review": false
+  },
+  "new_qwen_calls": 0,
+  "reciprocal_candidate_formal_training_started": false,
+  "goal_complete": false
+}

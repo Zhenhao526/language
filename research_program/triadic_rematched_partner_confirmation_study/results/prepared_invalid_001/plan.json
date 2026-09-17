@@ -1,0 +1,130 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-16T18:51:12.441008+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "actions_per_actor": 17,
+    "worker_count": 4,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        17
+      ]
+    },
+    "seeds": [
+      66301,
+      66302,
+      66303,
+      66304,
+      66305,
+      66306,
+      66307,
+      66308,
+      66309,
+      66310,
+      66311,
+      66312,
+      66313,
+      66314,
+      66315,
+      66316
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "payoffs": [
+      "partial"
+    ],
+    "rules": [
+      "strict"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "static_partial_strict_PL_live",
+      "static_partial_strict_PL_silent",
+      "rematched_partial_strict_PL_live",
+      "rematched_partial_strict_PL_silent"
+    ],
+    "partitions": [
+      "train",
+      "heldout_pair",
+      "heldout_pair_new_layout",
+      "seen_control_new_layout"
+    ],
+    "task": "random_partner_rematching_social_relation_generalization",
+    "heldout_pair_rotation": "(seed-66301) mod 3 over AB,AC,BC",
+    "rematching": "rematched: independent uniform six-way permutation of need ownership for every training batch world; static: canonical ownership",
+    "training_objective": "mean_log_expected_payoff_plus_original_action_entropy; sender_two_trajectory_LOO",
+    "payoff_intervention": "partial: native 0/.5/1 retained; no payoff factor in this isolation batch",
+    "observation": "PL_own_need_and_public_layout_only; other_need_blocks_and_FI_flag_zero",
+    "primary": "heldout_pair_target_actor_action_rematched_by_communication_interaction_centered_time_AUC",
+    "pairing": "same initial parameters, world uniforms, batch indices and message uniforms across four arms within each seed",
+    "evaluation": "complete heldout pair on train layouts at six checkpoints; new-layout heldout pair and seen-pair controls at final",
+    "selection": "fixed16 new seeds ×2 exposure schedules ×2 communication channels ×6000 updates; no early stopping",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_rematched_partner_confirmation_study/__init__.py": "ae329e47221b018359d1b3c454654f2f7b328a2903d11e875b22366e5fe26a00",
+    "research_program/triadic_rematched_partner_confirmation_study/design.py": "7e9bbbb728ae28b53892dc582b07188bf1d4042b17b979aa92b5c441ed390203",
+    "research_program/triadic_rematched_partner_confirmation_study/remap.py": "983a4a0194093578b7fe9ebdcfc7f580ceb5ff11d7ab801fb87e9d9ad5658874",
+    "research_program/triadic_rematched_partner_confirmation_study/metrics.py": "2b6828267fb865bdfc2c47a6e3b5970d08f39a1270602586ea8980df40c85ef1",
+    "research_program/triadic_rematched_partner_confirmation_study/runner.py": "1947d7bae58c27d9746cc0f2d7e9d5ef38062c3a4e65676ce7ff3a235968087d",
+    "research_program/triadic_rematched_partner_confirmation_study/plan.md": "39182cba35af3d0c0316a480d5c447e67a3a8f44760c48b2f06a2dd223f11157",
+    "research_program/triadic_rematched_partner_confirmation_study/README.md": "312136c8d2f40d599853e13911000112704a0021ae76a7a58ab74e8a7612ed8c",
+    "research_program/triadic_rematched_partner_confirmation_study/tests/test_design.py": "7481eccde2da336d99504634866f7eeb5faf63c815e9a628c8ce4d01aeb8e736",
+    "research_program/triadic_factorial_payoff_study/runner.py": "8c99d3558bdbda04084ea11512c3ea4f6109a6fc305b36a3263c42ba6d774278",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_reciprocal_execution_study/kernel.py": "6070b2a263634a7259137f7bf6bda0249acd4bd2b357c574e57a141eebf11df9",
+    "research_program/triadic_need_response_study/cases.py": "b4ba2f23144ba7ca8c2849c608fea91ad971e673112ae8c164824d487f52daed",
+    "research_program/triadic_factorial_formation_study/factor_cases.py": "4591fd18ae47fc86be6f763f19e82852ab917408a65edc50837dc8aea433a7c0"
+  },
+  "prepared_sha256": "ae1a79a53cd6be5e022a27e7ca52bdb10ecd3d756385747b08644e894699210e",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}

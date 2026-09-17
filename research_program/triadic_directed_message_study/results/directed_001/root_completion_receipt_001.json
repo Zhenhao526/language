@@ -1,0 +1,31 @@
+{
+  "status": "completed_research_increment_goal_remains_active",
+  "at": "2026-09-16T05:09:15.108815+00:00",
+  "files_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/结果与下一步.md": "27e80f34f1f1510aa547a46d408b272d21ec7d14d35bd2f9032b03aecbbdf6e5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/report_review_001.json": "39675c4b6296bb2ec20e803759098cfd2e9053541945c8cb201ba5a7aae7ec14",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/interpretation_review_001.md": "b796041e5e53b765cc1503fa9a11f377e35b277c695c8984b9c77911434f39ee",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/next_question_review.md": "62076086232a2e0f40f6507c1e70a5b96d013e6fb4ec2f46015a57ef40b2e8f5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/literature_sources_001.json": "0d7bf449d0dd62039350252db19b0d4dd1f1bc68f5dd7f237ddb24bea65ccdbf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/execution/results.json": "d47b47aa0eaca03ac5f269334efe0f5dafe3beb22f4395c2bfea6a34dda495f3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/audit_execution_001/verification.json": "06fcd0496ec2115cd72906c4577c33f03aa90125843f167d77d7ec2a6c36c06c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/analysis_001/summary.json": "58114f4caa4d16c89b10fd1e56bf3c2449450ca00ac358303cc524cfafcac9a1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/receipt.json": "e97ddc6e47505848356301c73d0a295d48393adc22df2b090b8defe009e48192",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/root_visual_review_001.json": "37cbce7fbcae306f3abb92280ffafabb840465be6f8d03a926f3f6cbc04a737f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/root_execution_receipt_001.json": "4ba96c51d5f9a85ee487741688b307e271c42b7552d831c87d242b60dd9accf4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/root_report_wording_receipt_001.json": "72ea115888c189a8433725637a1123f731d5784aec47d8b613215dfdfde7cf1c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/README.md": "7b9148b7a0381dcfb03d8d7412fab4926c08788796a93be67994e5bacbcef2a4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/进展账本.md": "27289f01604e552646c079f3983d5770152e9c30e64e5aa28f5b09a08662e4d2"
+  },
+  "main_and_audit_passed": true,
+  "summary_primary_exact_match": true,
+  "root_viewed_both_pngs": true,
+  "formal_source_verify": {
+    "tool_chunk": "5b08dc",
+    "exit_code": 0
+  },
+  "new_training_updates": 0,
+  "new_Qwen_calls": 0,
+  "future_candidates_executed": false,
+  "paper_level_objective_achieved": false
+}

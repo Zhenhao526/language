@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_rematched_direction_probe/results/probe_004",
+  "policy_rows": 64,
+  "case_rows": 9704448,
+  "natural_worlds": 3234816,
+  "model_forwards": 58374144,
+  "optimizer_updates": 0,
+  "max_abs_error": 0.0,
+  "sham_rows": 192,
+  "live_intervention_rows": 4876800,
+  "silent_intervention_rows": 0,
+  "posthoc": true,
+  "four_arm_grid": true
+}

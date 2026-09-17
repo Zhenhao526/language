@@ -1,0 +1,22 @@
+{
+  "axis_case_counts": {
+    "destination_L_R": 144,
+    "kind_wood_fiber": 48,
+    "length_short_long": 48
+  },
+  "backgrounds_per_case": 36,
+  "candidate": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
+  "case_weighting": "equal axis, then equal directed case, then equal heldout layout×owner background",
+  "cases": 240,
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "controls": "PI-silent rows are exact closed-route aliases; no new training",
+  "directed_cases": 240,
+  "eligibility": "unique ecology; listener full-success action sets disjoint; no participation/wait switch; exactly one sender need axis changes",
+  "intervention": "transplant selected sender's source endpoint first-window message to target cross-viewers; target self-view and all other sender messages remain natural",
+  "partition": "heldout_layouts",
+  "schema": "triadic_unique_fixed_role_semantic_transfer_manifest_v1",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/results/partner_001"
+}

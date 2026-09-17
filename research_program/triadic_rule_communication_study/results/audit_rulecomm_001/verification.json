@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_communication_study/results/rulecomm_001",
+  "plan_sha256": "4aa001fa337c0802141a3d0a455922220571879f1be21adb0149fbebaef56eda",
+  "prepared_sha256": "c54da71538cfc54b168eb8218553f99d453ff664a613efaf6dfb311dfeb4f4db",
+  "runs": 128,
+  "checkpoint_evaluations": 768,
+  "final_evaluations": 128,
+  "trajectory_worlds": 129392640,
+  "final_worlds": 7188480,
+  "model_forwards": 1229230080,
+  "optimizer_updates": 768000,
+  "paired_training_log_rows": 48000,
+  "max_abs_error": 0.0,
+  "checkpoint_replayed": true,
+  "final_replayed": true,
+  "array_hashes_verified": true,
+  "paired_streams_verified": true,
+  "rematch_histograms_verified": true,
+  "no_external_model": true,
+  "no_llm": true,
+  "no_vision_model": true,
+  "independent_seed_reports": [
+    {
+      "seed": 66801,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66802,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66803,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66804,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66805,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66806,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66807,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    },
+    {
+      "seed": 66808,
+      "max_error": 0.0,
+      "trajectory_worlds": 16174080,
+      "final_worlds": 898560,
+      "checkpoints": 96,
+      "finals": 16,
+      "log_rows": 96000
+    }
+  ]
+}

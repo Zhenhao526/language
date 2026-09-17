@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_confirmatory_study/results/role_crossover_confirm_001",
+  "runs": 96,
+  "checkpoint_evaluations": 576,
+  "final_evaluations": 96,
+  "compact_monitor_worlds": 10782720,
+  "final_worlds": 5391360,
+  "model_forwards": 145566720,
+  "adaptation_optimizer_updates": 576000,
+  "frozen_agent_optimizer_updates": 0,
+  "frozen_ab_checkpoints": 576,
+  "paired_training_log_rows": 288000,
+  "max_abs_error": 0.0,
+  "checkpoint_replayed": true,
+  "final_replayed": true,
+  "paired_streams_verified": true,
+  "frozen_role_parameter_invariant": true,
+  "cross_role_streams_verified": true,
+  "no_external_model": true,
+  "no_llm": true,
+  "no_vision_model": true
+}

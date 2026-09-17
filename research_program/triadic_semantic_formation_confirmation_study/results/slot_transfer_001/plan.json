@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-17T01:30:54.707197+00:00",
+  "masks": 16,
+  "no_optimizer_updates": true,
+  "no_training": true,
+  "prepared_sha256": "d820df93b7f18e4588e5ccc9ac3634a156c81a112c8768bc088d74df85f24294",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_sha256": {
+    "candidate.json": "9eceae7b931f46b4da70fc0c0a1546e373d574e2ff1a537a73d58e20952e9e80",
+    "manifest.json": "d71cbec13817a04c8a753937da7b90c13bafe4582df2b90581f9fcee966eef25",
+    "prepared.json": "d820df93b7f18e4588e5ccc9ac3634a156c81a112c8768bc088d74df85f24294",
+    "source_execution_results.json": "6b40823ecc8af1dbdb02901e05bcf789b94f83830e797628959df4dcd8283331",
+    "source_freeze.json": "2d90b7e1f734fae056e87b8858b7107e25847fd3411c58a6ebe05f8587483ddb",
+    "source_prepared.json": "c4e8584a9a4a94cca4f5accbff2ad5f74ab505ef3e9f92b0146026b0160b69d9"
+  },
+  "status": "prepared_without_policy_reads"
+}

@@ -1,0 +1,198 @@
+{
+  "qa_completed": true,
+  "html": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/replays/capability_full_information/replay.html",
+  "html_sha256": "a865eb27bdb5d4285f9b7d4c4067068506f7313ce3cea5dfd55966ff342497b4",
+  "browser": "Installed Chrome; fresh headless browser and contexts; no user profile; GPU rendering disabled",
+  "playwright_version": "1.62.1",
+  "require_completed_requested": true,
+  "expected_cases_requested": 2,
+  "checks": [
+    {
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "steps": 5,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 10,
+      "exact_observation_checks": 10,
+      "exact_message_comparisons": 5,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "steps": 5,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 10,
+      "exact_observation_checks": 10,
+      "exact_message_comparisons": 5,
+      "navigation_passed": true,
+      "overflow": false
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "browser-736-full_information-g17-ep2-top.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "top"
+    },
+    {
+      "file": "browser-736-full_information-g17-ep2-messages.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "messages"
+    },
+    {
+      "file": "browser-736-full_information-g17-ep2-agents.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "agents"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-top.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "top"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-messages.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "messages"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-agents.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "agents"
+    }
+  ],
+  "errors": [],
+  "snapshot_run_name": "capability_full_information",
+  "snapshot_generated_at": "2026-09-15T16:08:13.526927+08:00",
+  "snapshot_run_status": "completed",
+  "run_completed_at_snapshot": true,
+  "unique_steps_in_snapshot": 17,
+  "unique_cases_in_snapshot": 2,
+  "display_source_update": {
+    "source": "qwen_language_v3/replay_snapshot.py",
+    "source_sha256": "7d028f3edc3532153b5d59ea7d054bb3bd7e0af190acb1be84a4b54fbf2806be",
+    "changes": [
+      "此前已将木材显示标签改为可搬运",
+      "本次只将无封路状态及完整信息说明改为本版道路永久开放、无道路事件"
+    ],
+    "previous_html_sha256": "7a71ea2cee3bf1a6a2825a6ab4962a7304fd8829b08624b5284ca52076cb8416",
+    "embedded_experiment_data_unchanged_excluding_generated_at": true,
+    "raw_observation_json_unchanged": true,
+    "previous_qa_directory": "../browser_qa_before_road_label"
+  },
+  "frozen_core_integrity": {
+    "frozen_manifest": "qwen_language_v3/results/20260915_152343/core_source_frozen.json",
+    "files_checked": 7,
+    "all_current_and_snapshot_hashes_match": true,
+    "files": {
+      "environment.py": {
+        "expected_sha256": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+        "current_sha256": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+        "snapshot_sha256": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81"
+      },
+      "agents.py": {
+        "expected_sha256": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+        "current_sha256": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+        "snapshot_sha256": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f"
+      },
+      "backend.py": {
+        "expected_sha256": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+        "current_sha256": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+        "snapshot_sha256": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23"
+      },
+      "protocol.py": {
+        "expected_sha256": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+        "current_sha256": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+        "snapshot_sha256": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7"
+      },
+      "run.py": {
+        "expected_sha256": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+        "current_sha256": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+        "snapshot_sha256": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b"
+      },
+      "probe.py": {
+        "expected_sha256": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+        "current_sha256": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+        "snapshot_sha256": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3"
+      },
+      "execute_locked_pipeline.py": {
+        "expected_sha256": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f",
+        "current_sha256": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f",
+        "snapshot_sha256": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f"
+      }
+    }
+  },
+  "manual_screenshot_review": {
+    "files": [
+      "browser-320-full_information-g17-ep2-agents.png",
+      "browser-320-full_information-g17-ep2-messages.png",
+      "browser-320-full_information-g17-ep2-top.png",
+      "browser-736-full_information-g17-ep2-agents.png",
+      "browser-736-full_information-g17-ep2-messages.png",
+      "browser-736-full_information-g17-ep2-top.png"
+    ],
+    "all_six_reviewed": true,
+    "result": "320/736px 的 top/messages/agents 六张截图均人工查看，中文、原始广播、可搬运标签、无道路事件文案、完整信息标识和成功交付状态可读。"
+  },
+  "post_display_update_tests": {
+    "command": "python3 -m unittest qwen_language_v3.tests.test_replay_snapshot -v",
+    "passed": 3,
+    "seconds": 0.047,
+    "note": "本次只修改回放展示；report_suite.py 未由本代理改动，根代理此前已通过 report_suite 的9项相关测试。"
+  }
+}

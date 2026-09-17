@@ -1,0 +1,11 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Three PNG/PDF figures inspected with view_image; labels, scales and zero reference are readable.",
+  "source": "execution/results.json",
+  "figures": [
+    "conditional_q_endpoint.png",
+    "conditional_q_interaction_forest.png",
+    "conditional_q_interaction_trajectories.png"
+  ]
+}

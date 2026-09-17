@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "session_id": 5695,
+  "exit_code": 0,
+  "actual_launch_count": 1,
+  "observed_at": "2026-09-15T19:19:39.602968+00:00",
+  "result_sha256": "5c610cd4f2e79d479ca3859e7e7628d93fbfa270415c539b282407baece914bc",
+  "elapsed_seconds": 1321.373887041933,
+  "completed_at": "2026-09-15T19:18:57.974196+00:00",
+  "plan_sha256": "af051fa46aedb4653210c47587010d0b0e0e6d971a92f81bc61f2a98d96245c5",
+  "actual_intervention_files": 1536,
+  "silent_aliases": 1536,
+  "new_intervention_worlds": 184135680,
+  "new_network_samples": 1104814080,
+  "parameter_loads": 8,
+  "training_updates": 0
+}

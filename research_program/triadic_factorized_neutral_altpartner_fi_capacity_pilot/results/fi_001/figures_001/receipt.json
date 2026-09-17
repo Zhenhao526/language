@@ -1,0 +1,9 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Both PNG figures were opened and checked for readable labels, complete axes, and absence of clipping.",
+  "figures": [
+    "fi_capacity_endpoint.png",
+    "fi_capacity_trajectories.png"
+  ]
+}

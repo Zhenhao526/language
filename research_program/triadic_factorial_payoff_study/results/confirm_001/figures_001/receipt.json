@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source": "research_program/triadic_factorial_payoff_study/results/confirm_001",
+  "probe": "research_program/triadic_factorial_payoff_study/results/confirm_001/cross_split_probe_003",
+  "outputs": [
+    "trajectory_partner_rate.png",
+    "trajectory_partner_rate.pdf",
+    "interaction_comparison.png",
+    "interaction_comparison.pdf",
+    "cross_split_seed_forest.png",
+    "cross_split_seed_forest.pdf"
+  ],
+  "model_calls": 0,
+  "optimizer_updates": 0,
+  "visual_review": "passed"
+}

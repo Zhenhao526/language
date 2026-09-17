@@ -1,0 +1,181 @@
+{
+  "completed": false,
+  "private_reasoning": false,
+  "groups": {
+    "17": {
+      "interaction": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "first_half": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "second_half": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "message_counts": {},
+      "character_counts": {},
+      "mean_message_chars": null
+    },
+    "29": {
+      "interaction": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "first_half": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "second_half": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "message_counts": {},
+      "character_counts": {},
+      "mean_message_chars": null
+    }
+  },
+  "calibration": {
+    "n": 16,
+    "A": 12,
+    "B": 8,
+    "overall": 6,
+    "success_rate": 0.375,
+    "unique_worlds": 16
+  },
+  "evaluations": {
+    "zero_interaction": {
+      "original": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "empty": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "permuted": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      }
+    },
+    "17": {
+      "original": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "empty": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "permuted": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      }
+    },
+    "29": {
+      "original": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "empty": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      },
+      "permuted": {
+        "n": 0,
+        "A": 0,
+        "B": 0,
+        "overall": 0,
+        "success_rate": null,
+        "unique_worlds": 0
+      }
+    }
+  },
+  "inference": {
+    "calls": 17,
+    "seconds": 11.148209248145577,
+    "median_seconds": 0.28188333299476653,
+    "p95_seconds": 2.669871833000798,
+    "peak_mlx_memory_gb": 10.105569934,
+    "max_prompt_tokens": 355,
+    "invalid_calls": [],
+    "private_reasoning_calls": 0,
+    "private_reasoning_seconds": 0,
+    "private_reasoning_generation_tokens": 0,
+    "private_reasoning_length_truncations": 0,
+    "private_reasoning_truncated_call_ids": [],
+    "private_reasoning_by_role": {
+      "A": {
+        "calls": 0,
+        "length_truncations": 0
+      },
+      "B": {
+        "calls": 0,
+        "length_truncations": 0
+      },
+      "C": {
+        "calls": 0,
+        "length_truncations": 0
+      }
+    }
+  },
+  "audit_warnings": []
+}

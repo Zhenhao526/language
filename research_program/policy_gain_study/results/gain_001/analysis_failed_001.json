@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "observed_utc": "2026-09-15T12:49:51+00:00",
+  "recorded_utc": "2026-09-15T12:51:32.671133+00:00",
+  "command": "redesign_v0.3/deployment/.venv/bin/python research_program/policy_gain_study/analysis.py --batch research_program/policy_gain_study/results/gain_001 --probe research_program/policy_gain_study/results/gain_001/probe --out research_program/policy_gain_study/results/gain_001/analysis",
+  "session_id": 31803,
+  "exit_code": 1,
+  "exception": "ValueError: Probe decoder differs from logits",
+  "location": "analysis.py:280, exact equality of all lookup fields",
+  "source_sha256": "5d020fcb22c11eebbcbcccd41b8c227d8c55275ce92478205f17bc185296bd7a",
+  "analysis_output_created": false,
+  "training_or_probe_failure": false
+}

@@ -1,0 +1,89 @@
+{
+  "status_at_freeze": "prepared_not_executed",
+  "created_at": "2026-09-15T14:08:52.959482+00:00",
+  "route": "triadic_action_interface_v1",
+  "source_run": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01",
+  "source_cap_plan_sha256": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8",
+  "source_cap_audit_sha256": "2c01a09de1f70edcde94be8928db29376782f3c79bf29e5a600e18fa82f274a5",
+  "sources_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/action_interface.py": "e9940e42d72f2d8ee3a130ad4516081bdb94dabd41ebf95a0c6a6bb685f4a1a0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/interface_backend.py": "4c4ba8e53fb35ad0abc59166484922bf92af5c3293ea79786c8e9e4dadaecfa2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/plan.md": "67d36e6ce75e9360d9db65b690574164427dc08f77e3da088b5ba4815369d06b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/tests/test_action_interface.py": "59b6fa2e1a28db7bb85b2084be9d4088606a6d003314d51b1997d7c2b8590bfb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_capability.py": "86283b901c3a9f6dbcf5250ec753962a0759f8634defb0fa5e845b65be20efd4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/qwen_execution_diagnostic.py": "b9507d06125a3da8864b2dba463e217aebeff494aa06c6036db56dee00069d68",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23"
+  },
+  "source_artifact_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/plan.json": "ac0dfac541c27070a60ed6f616e5366957b65b2e6f401f2aa68d637415d2a2b8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/freeze.json": "ae5ef34d7b47cc063b562657fba8a45492914582aa0858f3198dcadc1680e05e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/prepared_cases.json": "c17cd72fc85a35fe4fddd6b08b3008bb4cf3c49e5ede3fa23d33b75df8d12fac",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/fake_backend_audit.json": "a95bfa788ae28b935e117ea514b4d0887529decd0b808038b4b51fbcb1c6c18d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/started.json": "74c12e9b99da3995a9a2e6000309ef75c72b3e61d8d919e4f5e62f35a8a04de3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/results.json": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/status.json": "86945389ca2e651da7f9840a5e218248ccac16463ae6a2a1e5469bf2ab813ff2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/trials.jsonl": "fe80857da870414e3659e16c80c14ca9257142d12326eb68929a51dc825a7348",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/inference.jsonl": "713d0138c16229566747440fee810b3657fbca1232c405e295126d197f0efd26",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/histories_after.json": "5c7c5197e5240378f1fc9c786dddd139177058c1886019a3075ceb0521312828",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/backend_stats.json": "44f4bd65739979501871c0ded7d360922140cd8a4e9f255e3931148a2ffa4dd3"
+  },
+  "prior_state_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/histories_after.json": "5c7c5197e5240378f1fc9c786dddd139177058c1886019a3075ceb0521312828",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/results.json": "f7749c25770eb4e7e1e4fe301017f803dee0c1cb8763b4f2fdbcf2ce11e2cc48",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_CAP_01/execution/status.json": "86945389ca2e651da7f9840a5e218248ccac16463ae6a2a1e5469bf2ab813ff2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/results/20260915_EXEC_01/execution/results.json": "3b730a6e6694ffd4156e693e6f3931a7d294db77f1913f9ac24331f7a6750604",
+    "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_gates.json": "183b128704651b94cbe14e52284ca6bacb06360880154f2ad55716b8fa57f4ba"
+  },
+  "prior_state_receipt_sha256": "c21a265597c88ad08619680e9820eb5b74d0faf8f3c0f4e6f26f93f23e2ae6c4",
+  "prepared_cases_sha256": "866f6c9d97f6339e04b164647f8b5bec93af083af178e05176c6cb540d65b47d",
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "prepare_runtime": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "packages": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0",
+      "tokenizers": "0.23.2",
+      "numpy": "2.5.3"
+    }
+  },
+  "groups": [
+    401,
+    402,
+    403
+  ],
+  "scene_seeds": [
+    20260917011,
+    20260917012,
+    20260917013,
+    20260917014
+  ],
+  "arms": [
+    "number",
+    "semantic"
+  ],
+  "trials_per_arm": 12,
+  "max_calls": 288,
+  "common_broadcast_calls": 144,
+  "action_calls_per_arm": 72,
+  "formal_max_tokens": 16,
+  "private_analysis_max_tokens": 256,
+  "natural_message_max_tokens": 96,
+  "private_analysis_request": "先用不超过120个汉字作私有分析：根据可见观察和已收到的互动记录，考虑本次决策。他人看不到此分析，分析不保存为后续记忆。不要假定未给定的共享符号含义已获伙伴理解。核对可选动作编号与动作描述；只依据自己的可见信息选择。",
+  "formal_instructions": {
+    "number": "只输出你选择的一个本地动作编号，不要解释。",
+    "semantic": "只输出你选择的那一项的完整动作原文，与菜单中的动作文字完全一致；不要编号或解释。"
+  },
+  "history_mode": "empty_each_trial_no_feedback_to_future",
+  "execution_order": "All12 common two-window dialogues, then all number actions, then all semantic actions; fixed A/B/C order with synchronous barriers",
+  "analysis_policy": "Repeated same input, seed and temperature0 in each arm; exact36-pair postcheck. No shared cache or new memory.",
+  "semantic_gate": "12/12 full_success plus exact analysis replay and integrity checks; never updates old gates or starts symbols",
+  "scope": "Whole formal output interface including tokenization/length/greedy branching, not a pure index-translation cause;4 semantic draws x3 generation repetitions",
+  "model_calls_at_prepare": 0,
+  "new_weight_loads_at_prepare": 0,
+  "tokenizer_only_at_prepare": true,
+  "weight_provenance": "Bound audited CAP metadata and download receipt; sizes checked by source verifier, no full weight rehash here"
+}

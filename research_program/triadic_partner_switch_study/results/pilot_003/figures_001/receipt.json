@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-16T14:11:59.556620+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/plot_results.py": "ebcb2b080ca299848e835d0eced9a418b29d151e85c2958b811f02cab404bede",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/summary_001/summary.json": "e68b8113804a96a4b1ca715e055cabb80e5167cfe7518159c1e462e16b049657"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0,
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/01_partner_switch_trajectory.pdf": "d3d53c91a401a589a881b488dcd797a453f2259e2f72c38bef16b766e5339ce7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/01_partner_switch_trajectory.png": "2f4b596ebe9938e9314259964919150dbcbffc4b7f5d8a3205b443daed233ea4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/02_partner_switch_interaction.pdf": "1ec8ea94e8e61c78816dff33743d30c93f77127dab147d9eedffeb9667c6a53c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/02_partner_switch_interaction.png": "219eb06fed2699ddc209bf6822559d604ed6f95bde246116e6775800e12f568f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/03_partner_switch_primary.pdf": "4ec76a77dc575595f7f5600e436397896061b0c7a63dfbb4d86e5317d204e344",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/03_partner_switch_primary.png": "9b9777d07042277e095e8ab98a127b09c42cbf585a66c0d792b1239df7b5d58c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003/figures_001/plot_data.json": "f336980de562146f79eaef5643a74e6225dba70878aa072dd26b626ca6cd15f0"
+  },
+  "status": "passed",
+  "visual_review": "Pending actual PNG inspection."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Reviewed the conditional-Q trajectory and final execution/neutral bar chart; axes, labels, zero baseline, and values are readable.",
+  "source": "execution/results.json",
+  "figures": [
+    "conditional_q_by_cancel.png",
+    "execution_neutral_final.png"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "status": "completed",
+  "at": "2026-09-16T03:18:42.529391+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/execution/status.json": "7a00328e54b9880b150c6a8ed80eb3030c4c38e11aec5d4cce09cce08c3d5721",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/execution/results.json": "3091280846d9dfe812bd92e856cde30f8d9891ce3159e9463a2f5c047ecc95e6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/plan.json": "9cf2995a75acb9cd5d69d36897019299bb9123095b684922345b3ae41ddc9f41",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/prepared.json": "fdd24e5519a74b04d0527a4edd3ea855238981945c7f0776a004efe1e2956d54",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/freeze.json": "34ed9b1809b42a4b497933a619cab6336331b28f009f6d462bd463abbc629569",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/results.json": "0d0fd3bbea91eae728384b0bffc4e040f250193004465451305eb56d451615e2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/plan.json": "99b9663dfae02868692d53707ad5b7db40b7f2ee31c951edf2fd68f05859f33f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/audit_execution_001/verification.json": "b270398c609132623d83b01fb6e7fe65077688af013a0b36aa83e501436cbf97",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a50_PL_live/final_new_layouts_natural.npz": "f640e18eacdc3f0e7430fa612ce65927080297f16ada07ccae9a6b86b18bd7bd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a50_PL_live/final_new_needs_natural.npz": "73f44aae0225835726a95626d8712c6504bc3d10f6dfd76988fbb67d313c2553",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a50_PL_live/final_new_needs_and_layouts_natural.npz": "ce4251441d3454c75d7143f2b4d538ced9355b70d2c1bdc5ef4dcc8e06301f49",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a50_PL_live/final_train_natural.npz": "5f2558c7ebf3178afbc224bccd16c453a202ca0a668e022a3cdd18dd1dd8a725",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a10_PL_live/final_new_layouts_natural.npz": "1043274e171fe1299a6517cb0b2001fd75b5a6f86f8e580f2f8e6560e457b5b1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a10_PL_live/final_new_needs_natural.npz": "b1bf06f0732a1409d35bbb37b1888b23325d43150d7764ffe9a36ecc5b045d35",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a10_PL_live/final_new_needs_and_layouts_natural.npz": "681b377c8ece8eb3b335b50bf8e9bbbb4e3dc651aee42d78ba95e90e03d2a4c7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53101_a10_PL_live/final_train_natural.npz": "f768e31f646f67d94829760d421fbacd2726a2ef53fcd28fc42c912f46eccf0c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a50_PL_live/final_new_layouts_natural.npz": "6ad0c3f8a60edbb0d608133d33147f465b2c2df9a027bb49474bb4672f45dac6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a50_PL_live/final_new_needs_natural.npz": "816f25ac59651ba9035bdb19625e0ca3768f11c0bf8144fcb0c013c9974d9f60",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a50_PL_live/final_new_needs_and_layouts_natural.npz": "9a4f8e29a0ff37cea4c5d30b508024764cc8782b921de19df2f6a511af6c6aa7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a50_PL_live/final_train_natural.npz": "8f1b276df6709562c758b5bb11f9d7b376e6cb8729b0c9ee1c97dac8204ae803",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a10_PL_live/final_new_layouts_natural.npz": "3ba5bdf00eacdca9f000c06ffdce8e57051494a1be65798eb48502667898a468",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a10_PL_live/final_new_needs_natural.npz": "245d78c55ae584ced8d0cf59f121fdc7910c1ae750770a146e55970fb134cc1e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a10_PL_live/final_new_needs_and_layouts_natural.npz": "ad244889a8ed78b3a077933e6fcba41ac31be0719109c06f2792daaca94e26a9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53102_a10_PL_live/final_train_natural.npz": "e8190618abf997ac276854bb2ffb684070fc80d46f3af6a89a7dab913698a035",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a50_PL_live/final_new_layouts_natural.npz": "04e09a134d98da9b455b8db3506fdfd960725cf8ff92e2e237e62dea2ec8dcfa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a50_PL_live/final_new_needs_natural.npz": "1302b3a0e884e567590ce174c722284a57fd8a8346409449d6519d1e1dfa7cde",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a50_PL_live/final_new_needs_and_layouts_natural.npz": "c15c4a6f9cd14ec8fbc361fb92b14ee01dde85d169ecbc9ccfae386510358f3c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a50_PL_live/final_train_natural.npz": "8b3a2d6e7ef503d47e9861fcd458d0de621a3543ece5c3044096ef4c32360aba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a10_PL_live/final_new_layouts_natural.npz": "b3f75d398a79de6414aa6e3358319b885219db36562d00f35f30b3acea60565a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a10_PL_live/final_new_needs_natural.npz": "dfd8ea850fa688c8ad0ba11178df32d3e1296fd3fbcf517d19e1fe81fa982b89",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a10_PL_live/final_new_needs_and_layouts_natural.npz": "7904dd5afaa52ecdbc8b9f60ac2ba96332e285fa8ad887f180914180e2e4279c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53103_a10_PL_live/final_train_natural.npz": "700c4e6858bbee4146d655011916079654ca8cfa1067e64960d416859b9af7f8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a50_PL_live/final_new_layouts_natural.npz": "9b9213b93f6af282624f5bce7edc183c228698d100d0717c680eaeb6f80f335e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a50_PL_live/final_new_needs_natural.npz": "3a09f8de6f220cd2b9f6d36c47db972954a0918759fe4b16f6f472f6a4c0f56f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a50_PL_live/final_new_needs_and_layouts_natural.npz": "681ff754945dcb2449f6e2643dceda7bd3849d4b70845fe47ac0e9a2ec9b3ab7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a50_PL_live/final_train_natural.npz": "e20c0712908a28e1765fb8c945175aa08fb4137510f57af2475d821ad0824fc4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a10_PL_live/final_new_layouts_natural.npz": "99b37f251d8d66775459f2aeda3864d82ea3bd3048eb9f6bfe36b0617a203afa",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a10_PL_live/final_new_needs_natural.npz": "e2d75deca6e877f03e10e2f82ed4c4823e6ebd236163de76f4077ec64fea3808",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a10_PL_live/final_new_needs_and_layouts_natural.npz": "317227094ae3f4137099eb7de70e091582719de47d48919cda172592e8d54fdf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/results/payoff_001/execution/seed_53104_a10_PL_live/final_train_natural.npz": "69d5537e99a237e91134088d88aab96f0ffdf63384af82b5ea7f6a64f5a83599"
+  },
+  "script_sha256": "3e35fa3dfae07e0c65591dae869e0094b32cd0e0706cb6e45efd2cb6c9dd0643",
+  "outputs": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_role_decoder_study/results/decoder_001/summary_001/descriptive_summary.json": "41c4764f70f6a44ce434328c2f95c95c278fbac2492ef94b8819fc12ae86be4a"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "scope": {
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "npz_arrays_loaded": 0,
+    "bound_old_final_npz_files_hashed": 32,
+    "main_actual_evaluation_records_checked": 1176,
+    "main_probabilities_recomputed": false,
+    "primary_exact_equals_main": true
+  },
+  "primary": {
+    "metric": "joint_role_accuracy_final_minus_initial",
+    "partition": "new_needs_and_layouts",
+    "protocol_seed_blocks": [
+      {
+        "old_seed": 53101,
+        "payoffs": [
+          {
+            "payoff": "a50",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3208818697729988,
+                  "Final": 0.28686902628434885
+                },
+                "final_minus_initial": -0.03401284348864997,
+                "final_minus_own": 0.225918458781362,
+                "final_minus_bound": -0.08409871565113503,
+                "initial_minus_bound": -0.05008587216248506
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3209752090800478,
+                  "Final": 0.2850769115890084
+                },
+                "final_minus_initial": -0.0358982974910394,
+                "final_minus_own": 0.2236409796893668,
+                "final_minus_bound": -0.08589083034647549,
+                "initial_minus_bound": -0.04999253285543609
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.3175216547192354,
+                  "Final": 0.299357825567503
+                },
+                "final_minus_initial": -0.01816382915173237,
+                "final_minus_own": 0.23676448626045404,
+                "final_minus_bound": -0.07160991636798086,
+                "initial_minus_bound": -0.053446087216248495
+              }
+            ],
+            "mean_final_minus_initial": -0.029358323377140578
+          },
+          {
+            "payoff": "a10",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3208818697729988,
+                  "Final": 0.325828853046595
+                },
+                "final_minus_initial": 0.004946983273596162,
+                "final_minus_own": 0.26487828554360815,
+                "final_minus_bound": -0.045138888888888895,
+                "initial_minus_bound": -0.05008587216248506
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3209752090800478,
+                  "Final": 0.3284796893667861
+                },
+                "final_minus_initial": 0.007504480286738335,
+                "final_minus_own": 0.26704375746714454,
+                "final_minus_bound": -0.042488052568697754,
+                "initial_minus_bound": -0.04999253285543609
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.3175216547192354,
+                  "Final": 0.33936305256869775
+                },
+                "final_minus_initial": 0.021841397849462374,
+                "final_minus_own": 0.2767697132616488,
+                "final_minus_bound": -0.03160468936678612,
+                "initial_minus_bound": -0.053446087216248495
+              }
+            ],
+            "mean_final_minus_initial": 0.011430953803265623
+          }
+        ],
+        "mean_final_minus_initial": -0.008963684786937477
+      },
+      {
+        "old_seed": 53102,
+        "payoffs": [
+          {
+            "payoff": "a50",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3600097072879331,
+                  "Final": 0.3209378733572282
+                },
+                "final_minus_initial": -0.0390718339307049,
+                "final_minus_own": 0.25998730585424135,
+                "final_minus_bound": -0.0500298685782557,
+                "initial_minus_bound": -0.010958034647550796
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3663194444444444,
+                  "Final": 0.2788231780167264
+                },
+                "final_minus_initial": -0.08749626642771802,
+                "final_minus_own": 0.21738724611708482,
+                "final_minus_bound": -0.09214456391875747,
+                "initial_minus_bound": -0.004648297491039455
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.3540359916367981,
+                  "Final": 0.28761574074074076
+                },
+                "final_minus_initial": -0.06642025089605735,
+                "final_minus_own": 0.2250224014336918,
+                "final_minus_bound": -0.08335200119474312,
+                "initial_minus_bound": -0.016931750298685766
+              }
+            ],
+            "mean_final_minus_initial": -0.06432945041816009
+          },
+          {
+            "payoff": "a10",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3600097072879331,
+                  "Final": 0.2855996117084827
+                },
+                "final_minus_initial": -0.07441009557945039,
+                "final_minus_own": 0.22464904420549583,
+                "final_minus_bound": -0.08536813022700118,
+                "initial_minus_bound": -0.010958034647550796
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3663194444444444,
+                  "Final": 0.2600993130227001
+                },
+                "final_minus_initial": -0.1062201314217443,
+                "final_minus_own": 0.19866338112305854,
+                "final_minus_bound": -0.11086842891278376,
+                "initial_minus_bound": -0.004648297491039455
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.3540359916367981,
+                  "Final": 0.298069743130227
+                },
+                "final_minus_initial": -0.055966248506571115,
+                "final_minus_own": 0.23547640382317803,
+                "final_minus_bound": -0.07289799880525688,
+                "initial_minus_bound": -0.016931750298685766
+              }
+            ],
+            "mean_final_minus_initial": -0.07886549183592194
+          }
+        ],
+        "mean_final_minus_initial": -0.07159747112704101
+      },
+      {
+        "old_seed": 53103,
+        "payoffs": [
+          {
+            "payoff": "a50",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.385752688172043,
+                  "Final": 0.12817353643966548
+                },
+                "final_minus_initial": -0.25757915173237755,
+                "final_minus_own": 0.06722296893667862,
+                "final_minus_bound": -0.2427942054958184,
+                "initial_minus_bound": 0.014784946236559127
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3864994026284349,
+                  "Final": 0.09102449223416965
+                },
+                "final_minus_initial": -0.29547491039426527,
+                "final_minus_own": 0.02958856033452808,
+                "final_minus_bound": -0.27994324970131423,
+                "initial_minus_bound": 0.015531660692951033
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.38325119474313024,
+                  "Final": 0.10655615292712067
+                },
+                "final_minus_initial": -0.27669504181600957,
+                "final_minus_own": 0.04396281362007169,
+                "final_minus_bound": -0.2644115890083632,
+                "initial_minus_bound": 0.012283452807646367
+              }
+            ],
+            "mean_final_minus_initial": -0.2765830346475508
+          },
+          {
+            "payoff": "a10",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.385752688172043,
+                  "Final": 0.37507467144563916
+                },
+                "final_minus_initial": -0.010678016726403838,
+                "final_minus_own": 0.31412410394265233,
+                "final_minus_bound": 0.004106929510155288,
+                "initial_minus_bound": 0.014784946236559127
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3864994026284349,
+                  "Final": 0.39385454002389486
+                },
+                "final_minus_initial": 0.007355137395459954,
+                "final_minus_own": 0.3324186081242533,
+                "final_minus_bound": 0.022886798088410987,
+                "initial_minus_bound": 0.015531660692951033
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.38325119474313024,
+                  "Final": 0.3986335125448029
+                },
+                "final_minus_initial": 0.015382317801672651,
+                "final_minus_own": 0.3360401732377539,
+                "final_minus_bound": 0.027665770609319018,
+                "initial_minus_bound": 0.012283452807646367
+              }
+            ],
+            "mean_final_minus_initial": 0.004019812823576256
+          }
+        ],
+        "mean_final_minus_initial": -0.13628161091198726
+      },
+      {
+        "old_seed": 53104,
+        "payoffs": [
+          {
+            "payoff": "a50",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3656100657108722,
+                  "Final": 0.31604689366786143
+                },
+                "final_minus_initial": -0.04956317204301075,
+                "final_minus_own": 0.25509632616487454,
+                "final_minus_bound": -0.054920848267622446,
+                "initial_minus_bound": -0.005357676224611696
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3683915770609319,
+                  "Final": 0.3245221027479092
+                },
+                "final_minus_initial": -0.04386947431302268,
+                "final_minus_own": 0.26308617084826763,
+                "final_minus_bound": -0.04644563918757466,
+                "initial_minus_bound": -0.0025761648745519783
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.366636798088411,
+                  "Final": 0.3208071983273596
+                },
+                "final_minus_initial": -0.04582959976105139,
+                "final_minus_own": 0.25821385902031063,
+                "final_minus_bound": -0.050160543608124275,
+                "initial_minus_bound": -0.004330943847072888
+              }
+            ],
+            "mean_final_minus_initial": -0.04642074870569494
+          },
+          {
+            "payoff": "a10",
+            "probes": [
+              {
+                "probe_seed": 55101,
+                "accuracies": {
+                  "Own": 0.06095056750298686,
+                  "FI": 1.0,
+                  "Initial": 0.3656100657108722,
+                  "Final": 0.3131907108721625
+                },
+                "final_minus_initial": -0.052419354838709686,
+                "final_minus_own": 0.25224014336917566,
+                "final_minus_bound": -0.05777703106332138,
+                "initial_minus_bound": -0.005357676224611696
+              },
+              {
+                "probe_seed": 55102,
+                "accuracies": {
+                  "Own": 0.061435931899641576,
+                  "FI": 1.0,
+                  "Initial": 0.3683915770609319,
+                  "Final": 0.3231220131421744
+                },
+                "final_minus_initial": -0.04526956391875747,
+                "final_minus_own": 0.26168608124253284,
+                "final_minus_bound": -0.04784572879330945,
+                "initial_minus_bound": -0.0025761648745519783
+              },
+              {
+                "probe_seed": 55103,
+                "accuracies": {
+                  "Own": 0.06259333930704898,
+                  "FI": 1.0,
+                  "Initial": 0.366636798088411,
+                  "Final": 0.3364135304659498
+                },
+                "final_minus_initial": -0.030223267622461192,
+                "final_minus_own": 0.2738201911589008,
+                "final_minus_bound": -0.03455421146953408,
+                "initial_minus_bound": -0.004330943847072888
+              }
+            ],
+            "mean_final_minus_initial": -0.042637395459976114
+          }
+        ],
+        "mean_final_minus_initial": -0.044529072082835526
+      }
+    ],
+    "mean_difference": -0.06534295972720032
+  },
+  "old_policy_checks": {
+    "policies": 8,
+    "fixed_pairs": 8,
+    "all_partition_one_third": 8
+  }
+}

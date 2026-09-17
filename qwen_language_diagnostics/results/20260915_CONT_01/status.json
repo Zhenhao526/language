@@ -1,0 +1,82 @@
+{
+  "status": "completed",
+  "completed": "2026-09-15T17:54:16.696086+08:00",
+  "model_calls": 180,
+  "arms": [
+    {
+      "arm_id": "original_history",
+      "start_t": 8,
+      "end_t": 11,
+      "new_steps": 3,
+      "engine_status": "running",
+      "end_reason": "observation_limit",
+      "success": false,
+      "score": 0.0,
+      "delivered_units": 0,
+      "required_units": 2,
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "model_calls": 90,
+      "seconds": 641.2452668750193,
+      "history_lengths_after": {
+        "A": 11,
+        "B": 11,
+        "C": 11
+      }
+    },
+    {
+      "arm_id": "reset_history",
+      "start_t": 8,
+      "end_t": 11,
+      "new_steps": 3,
+      "engine_status": "running",
+      "end_reason": "observation_limit",
+      "success": false,
+      "score": 0.5,
+      "delivered_units": 1,
+      "required_units": 2,
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 1
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "model_calls": 90,
+      "seconds": 282.11927883303724,
+      "history_lengths_after": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      }
+    }
+  ],
+  "symbolic_started": false
+}

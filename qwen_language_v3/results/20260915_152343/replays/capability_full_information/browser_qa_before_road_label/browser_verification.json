@@ -1,0 +1,126 @@
+{
+  "qa_completed": true,
+  "html": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/replays/capability_full_information/replay.html",
+  "html_sha256": "7a71ea2cee3bf1a6a2825a6ab4962a7304fd8829b08624b5284ca52076cb8416",
+  "browser": "Installed Chrome; fresh headless browser and contexts; no user profile; GPU rendering disabled",
+  "playwright_version": "1.62.1",
+  "require_completed_requested": true,
+  "expected_cases_requested": 2,
+  "checks": [
+    {
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "steps": 5,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 10,
+      "exact_observation_checks": 10,
+      "exact_message_comparisons": 5,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "1",
+      "steps": 12,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 24,
+      "exact_observation_checks": 24,
+      "exact_message_comparisons": 12,
+      "navigation_passed": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "steps": 5,
+      "episode_completed_in_snapshot": true,
+      "states_checked": 10,
+      "exact_observation_checks": 10,
+      "exact_message_comparisons": 5,
+      "navigation_passed": true,
+      "overflow": false
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "browser-736-full_information-g17-ep2-top.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "top"
+    },
+    {
+      "file": "browser-736-full_information-g17-ep2-messages.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "messages"
+    },
+    {
+      "file": "browser-736-full_information-g17-ep2-agents.png",
+      "width": 736,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "agents"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-top.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "top"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-messages.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "messages"
+    },
+    {
+      "file": "browser-320-full_information-g17-ep2-agents.png",
+      "width": 320,
+      "condition": "full_information",
+      "group": "17",
+      "episode": "2",
+      "step": 5,
+      "part": "agents"
+    }
+  ],
+  "errors": [],
+  "snapshot_run_name": "capability_full_information",
+  "snapshot_generated_at": "2026-09-15T16:04:57.137518+08:00",
+  "snapshot_run_status": "completed",
+  "run_completed_at_snapshot": true,
+  "unique_steps_in_snapshot": 17,
+  "unique_cases_in_snapshot": 2
+}

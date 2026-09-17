@@ -1,0 +1,11 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001",
+  "figures": [
+    "target_pair_interaction_trajectories.png",
+    "target_pair_endpoint.png",
+    "target_pair_interaction_forest.png"
+  ],
+  "visual_notes": "Three PNG/PDF figures opened and checked: labels, axes, legend, confidence band and endpoint bars render without clipping or overlap."
+}

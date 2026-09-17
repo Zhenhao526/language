@@ -1,0 +1,112 @@
+{
+  "requested": "user_pause",
+  "batch_pid": 69651,
+  "owned_processes_at_pause": [
+    {
+      "pid": 69652,
+      "cmd": [
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/.venv-env/bin/python",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/run_calibration.py",
+        "--controller",
+        "vpt",
+        "--scenario",
+        "movement",
+        "--seed",
+        "101",
+        "--steps",
+        "1200",
+        "--food",
+        "8",
+        "--output-dir",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/runs/vpt_dev_v2_movement_s101"
+      ]
+    },
+    {
+      "pid": 69653,
+      "cmd": [
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/.venv-env/bin/python",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/run_calibration.py",
+        "--controller",
+        "vpt",
+        "--scenario",
+        "movement",
+        "--seed",
+        "102",
+        "--steps",
+        "1200",
+        "--food",
+        "8",
+        "--output-dir",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/runs/vpt_dev_v2_movement_s102"
+      ]
+    },
+    {
+      "pid": 69670,
+      "cmd": [
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/deployment/.venv/bin/python",
+        "-u",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/policy_worker.py",
+        "--device",
+        "mps"
+      ]
+    },
+    {
+      "pid": 69680,
+      "cmd": [
+        "/bin/bash",
+        "/var/folders/5_/ntz2wp6d1x7_tqznqv5mxfpw0000gn/T/tmpb1acen_0/MCP-Reborn/launchClient.sh",
+        "-port",
+        "12358",
+        "-env",
+        "-runDir",
+        "/var/folders/5_/ntz2wp6d1x7_tqznqv5mxfpw0000gn/T/tmpb1acen_0/MCP-Reborn/run",
+        "-replaceable"
+      ]
+    },
+    {
+      "pid": 69695,
+      "cmd": [
+        "java",
+        "-XstartOnFirstThread",
+        "-Xmx4G",
+        "-jar",
+        "build/libs/mcprec-6.13.jar",
+        "--envPort=12358"
+      ]
+    },
+    {
+      "pid": 69668,
+      "cmd": [
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/deployment/.venv/bin/python",
+        "-u",
+        "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/policy_worker.py",
+        "--device",
+        "mps"
+      ]
+    },
+    {
+      "pid": 69681,
+      "cmd": [
+        "/bin/bash",
+        "/var/folders/5_/ntz2wp6d1x7_tqznqv5mxfpw0000gn/T/tmp_kvwdu22/MCP-Reborn/launchClient.sh",
+        "-port",
+        "12341",
+        "-env",
+        "-runDir",
+        "/var/folders/5_/ntz2wp6d1x7_tqznqv5mxfpw0000gn/T/tmp_kvwdu22/MCP-Reborn/run",
+        "-replaceable"
+      ]
+    },
+    {
+      "pid": 69688,
+      "cmd": [
+        "java",
+        "-XstartOnFirstThread",
+        "-Xmx4G",
+        "-jar",
+        "build/libs/mcprec-6.13.jar",
+        "--envPort=12341"
+      ]
+    }
+  ]
+}

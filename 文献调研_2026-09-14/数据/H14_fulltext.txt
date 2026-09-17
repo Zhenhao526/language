@@ -1,0 +1,1636 @@
+PAGE 1
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+1 
+ 
+Title: What enables human language? A bio-cultural framework 
+Authors: Inbal Arnon1*, Liran Carmel2, Nicolas Claidière3,4,5, W. Tecumseh Fitch6, Susan 
+Goldin-Meadow7, Simon Kirby8, Kazuo Okanoya9, Limor Raviv10,11, Lucie Wolters12, Simon E. 
+Fisher*13,14 
+Affiliations:  5 
+1 Department of Psychology, The Hebrew University of Jerusalem, Jerusalem, Israel.  
+2 Department of Genetics, The Alexander Silberman Institute of Life Sciences, The Hebrew 
+University of Jerusalem, Jerusalem, Israel.  
+3 Centre de recherche en psychologie et neuroscience, UMR7077, Université Aix -
+Marseille/CNRS, Marseille, France.  10 
+4 Station de Primatologie-Celphedia, CNRS UAR846, Rousset, France.  
+5 Institute for Language, Communication and the Brain, Université Aix-Marseille, CNRS, Aix-
+en-Provence, France. 
+6 Department of Behavioral and Cognitive Biology, University of Vienna, Austria. 
+7 Departments of Psychology and Comparative Human Development, University of Chicago, 15 
+USA 
+8 Centre for Language Evolution, University of Edinburgh, Edinburgh, UK.  
+9 Advanced Comprehensive Research Organization, Teikyo University, Tokyo, Japan. 
+10 LEADS group, Max Planck Institute for Psycholinguistics, Nijmegen, The Netherlands. 
+11 Donders Center for Cognition, Radboud University, Nijmegen, the Netherlands 20 
+12 Department of Cognitive and Brain Sciences, The Hebrew University of Jerusalem, 
+Jerusalem, Israel. 
+13 Language and Genetics Department, Max Planck Institute for Psycholinguistics, Nijmegen, 
+The Netherlands. 
+14 Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, The 25 
+Netherlands. 
+*Corresponding author. Email: inbal.arnon@mail.huji.ac.il, simon.fisher@mpi.nl 
+ 
+Abstract: Explaining the origins of language is a key challenge in understanding ourselves as a 
+species. We present an empirical  framework that draws on synergies across fields to facilitate 30 
+robust studies of language evolution. The approach is multi -faceted, seeing language emergence 
+as dependent on the convergence of multiple capacities, each with their own evolutionary 
+trajectories. It is explicitly bio -cultural, recognising and incorporati ng the importance of both 
+biological preparedness and cultural transmission, as well as interactions between them. We 
+illustrate this approach through three case studies examining the evolution of different facets 35 
+involved in human language (vocal production learning, linguistic structure, social underpinnings). 
+
+PAGE 2
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+2 
+ 
+Main Text: Human language is a distinctive trait of our species, yet its origins are still not 
+understood (1–4). The lack of any fossil record of the first language(s), together with many 
+unknowns about human evolution and animal communication have led some to conclude that this 
+question is scientifically intractable (5). We propose instead that studying language evolution lies 
+well within the scope of scientific enquiry, when new sources of data and theoretical perspectives 5 
+are incorporated. We present an empirical bio -cultural framework  for research on language 
+evolution, applying it to three case studies, each examining a different facet involved in human 
+language. Our aim is neither to comprehensively review the many existing theories, nor to 
+advocate our own special one, but to set an  agenda for future interdisciplinary research, 
+highlighting promising avenues.  10 
+This approach is multi -faceted in seeing language emergence as dependent on convergence of 
+multiple capacities (physical, cognitive, social, cultural), each with its own developmental and 
+evolutionary trajectories (see (6, 7)). Proposed facets include those related to production and 
+perception of signals (e.g., vocal learning), systematic organisation of language (e.g., linguistic 
+structure), and communicative motivations (e.g., aspects of social behaviour). A facet does not 15 
+have to be unique to humans or to language to offer explanatory value: Like the evolution of other 
+complex biological systems (e.g., the eye), the emergence of language can be explained by 
+modifications and recombination of ancestral infrastructures, and exaptation of existing structures 
+(8–10). This reflects a move away from “silver bullet” views of language evolution (e.g. (11, 12)), 
+where human uniqueness is defined by just one explanatory factor (e.g., a single genetic mutation). 20 
+Although such accounts have been historically prolific, persisting in some academic discourse and 
+popular science writing, they are untenable in light of modern biology. Considerable evidence 
+from multiple sources indicates that no one thing itself was enough to “give us language” or “make 
+us human” (13–15). The multi -faceted perspective calls for empirical investigations of larger 
+historical windows. While common wisdom was that language is unique to anatomically modern 25 
+humans, appearing on the Homo sapiens  lineage within the past 50 -150kyr (e.g. (11, 12)), 
+contemporary data suggest that deeper evolutionary timescales, of hundreds of thousands (perhaps 
+millions) of years, are more plausible (13, 16–18). Even if the language system as we know it in 
+present-day humans only emerged recently, different facets may have evolved over longer 
+timescales, under different selective pressures.  30 
+Our approach is also bio-cultural, recognizing and incorporating both biological preparedness and 
+cultural processes, and the interactions between them, as key factors in language emergence. 
+Understanding biological preparedness, including innate learning mechanisms and biases, is 
+necessary to explain the uniqueness of human language, and helps guide comparative research on 
+non-human species. However, no human infant develops a fully structured language in isolation: 35 
+such languages arise only after extended social and communicative interaction (e.g., (19, 20)). 
+Over generations, learners progressively systematize language through communication and 
+cultural transmission (21–23), processes shaped by properties of the individual and the community 
+(24–26). Computational simulations, experiments , and real-word cases of emergence identified 
+specific cultural processes necessary for structured language to emerge. One reason non -human 40 
+species lack human-like language may be their limited biological capacity to support these cultural 
+processes. Importantly, biology and culture can interact in complex  non-intuitive ways. For 
+example, the emergence of more complex communication systems can increase selective pressure 
+on the cognitive mechanisms required to learn and produce complex signals. This could result in 
+virtuous cycles of gene-culture coevolution (Fig. 1), making iterated bio-cultural processes central 45 
+to understanding language emergence. Crucially, both classes of phenomena, biological and 
+
+PAGE 3
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+3 
+cultural, along with their interactions, can be empirically investigated in humans, non -human 
+animals, and simulated/artificial agents (27). 
+5 
+Figure 1.  Gene-culture co -evolution model. Interacting processes operating on different timescales, from 
+milliseconds to millennia, shape language emergence. (A) Processes of language use operate at the shortest 
+timescale, as individuals comprehend and produce utterances in ongoing conversation. Learning to form these 
+utterances (learning sounds, words, and rules) happens over a lifetime of exposure to the language of the community. 
+Zooming out further, the structure of a sp ecific language emerges and changes through cultural evolution, as 10 
+knowledge of language is passed from one generation to the next. Finally, the cognitive and anatomical machinery 
+that allows humans to learn and use language has been subject to genetic evolution over the course of human evolution. 
+The processes of biological and cultural evolution interact to produce a dual-inheritance system (28, 29). Features of 
+languages are inherited culturally, and the mechanisms that support such cultural inheritance are themselves inherited 
+genetically. These processes may interact in complex and interesting ways, studied using mathematical and 15 
+computational models that include all three timescales: individual learning and use; cultural evolution; biological 
+evolution. (B) One prominent approach, iterated Bayesian learning (30, 31) treats learning as a process of inductive 
+inference, combining utterances that the learner observes with a prior bias favouring particular types of languages. 
+
+
+PAGE 4
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+4 
+Cultural evolution is modelled as a process in which the languages inferred by one generation provide data observed 
+by the next generation of learners. Iterated Bayesian learning allows us to compute expected results of cultural 
+evolution for any hypothesi sed prior bias learners might have, along with a model of how language is used for 
+communication (32). This approach has been extended to the full dual -inheritance model by assuming that priors for 
+learners are shaped by their genes, and these genes are selected based on communicative effectiveness of the 5 
+individuals in the population (33). One striking finding is that the existence of cultural evolution tends to weaken 
+inductive biases in language learning (33). Cultural evolution amplifies weak biases in individual learners, such that 
+weak biases have the same outcome at the population level as strong constraints would. If strong biases are costly to 
+maintain (e.g. by being more subject to mutation pressure), t hen weak biases are the inevitable consequence. This is 
+surprising given previous work on the evolution of learning, which suggests the opposite: that learning can make 10 
+evolution of innate constraints more likely (34). 
+Bio-cultural and multi-faceted perspectives are increasingly appreciated in discussions of language 
+evolution, but there is a need to integrate them in a unifying framework, and show concrete 
+examples of how that advances understanding. We demonstrate appl ication of an integrated 
+framework through three case studies, targeting different facets important for language emergence: 15 
+(1) Vocal production learning: the ability to modify vocalisations based on experience, critical for
+acquiring spoken language; (2) Language structure: the systematic ways in which linguistic
+elements relate to one another, underlying the productivity of h uman language; and (3) Social
+underpinnings: behaviours and processes that facilitate social interaction, enabling cultural
+transmission of language. These are not claimed as the sole or primary facets relevant to language20 
+evolution, but used to illustrate the value of a bio-cultural framework.
+Case study 1: Vocal production learning 
+Human language is inherently multi-modal, expressible via speech, sign, writing or touch (35, 36). 
+However, when available, speech is the primary modality across societies. Its acquisition depends 
+on auditory-guided vocal production learning (VPL): the ability of an organism to flexibly enlarge 25 
+and modify its repertoire of vocalisations based on auditory experiences (37, 38). VPL is critical 
+for learning the sounds and open -ended vocabulary of language. Non -human primates appear 
+much more limited than humans in their capacity to produce new vocalisations, but these abilities 
+have emerged in other species, including subsets of birds, bats, cetaceans, pinnipeds, and elephants 
+(38). There is increasing evidence that the independent appearance of VPL on different branches 30 
+of the evolutionary tree involves deep homology (39, 40), a phenomenon where convergently 
+evolved traits recruit similar underlying genetic regulatory mechanisms across species (41). This 
+aligns with the idea that some facets of language rely on ancient genetic and neural infrastructures, 
+modified and recombined to enable more complex systems/abilities. The relevance of deep 
+homology for understanding VPL is illustrated by studies of the FOXP2 gene. 35 
+FOXP2 was originally discovered by using human genetics tools (Table 1) to investigate the 
+biological bases of developmental speech and language disorders (42). Given adequate exposure 
+to spoken language (and in absence of sensory disorders), most children become proficient 
+language users within the first years of life. However, there are unusual cases where this process 
+goes awry. Before the advent of molecular methods, studies comparing identical and non-identical 40 
+twins, and documenting recurrence of cases within families, suggested that genetic factors play a 
+role in these otherwise unexplained disorders, without pinpointing the genes involved (43). In 
+2001, a rare pathogenic DNA variation in FOXP2 was found to disturb development of the 
+coordinated sequencing of mouth and face movements underlying proficient speech (childhood 
+apraxia of speech) in a large family, known as the KE family (44) (Fig. 2A). Multiple independent 45 
+cases of people carrying FOXP2 disruptions were since reported, with developmental speech 
+deficits being the most consistent consequence (45).  
+
+PAGE 5
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+5 
+Table 1: Identifying genetic links to language through genomic studies in modern humans. Researchers can investigate genetics of relevant pathologies (childhood 
+apraxia of speech, developmental language disorders, etc.) by identifying genetic correlates of individual differences in language-related skills in the general population, 
+exploiting advances in molecular methods and analytic approaches (46).  
+Type of DNA 
+variation 
+Biological impact Molecular methods Typical study designs Examples from the literature Linking to evolution 
+Rare gene 
+disruptions 
+Rarely, a change at a 
+single genetic locus 
+can be sufficient to 
+substantially derail 
+language 
+development. 
+Advances in next-
+generation 
+sequencing now allow 
+rapid reading of 
+almost all of a 
+person’s genome at 
+high resolution at a 
+fraction of the cost of 
+classical methods. 
+Pathogenic variants can be identified by 
+analysing DNA of relatives in 
+multigenerational families where multiple 
+individuals have a developmental 
+speech/language disorder. 
+The first rare gene variants in 
+childhood apraxia of speech were 
+discovered by studying a three-
+generation family, before the 
+advent of next-generation 
+sequencing (44). 
+The evolutionary history of 
+genes implicated in 
+speech/language disorders 
+can be retraced, by 
+comparing to versions 
+found in extinct archaic 
+hominins and extant apes, 
+and testing for evidence of 
+Darwinian selection at 
+these genomic loci on the 
+lineage leading to Homo 
+sapiens (47, 48). 
+A complementary approach investigates de 
+novo cases of disorder (where 
+parents/siblings are unaffected) to identify 
+pathogenic DNA variants that are only 
+present in the affected child. 
+Whole genome sequencing in 
+speech apraxia has since 
+identified pathogenic de novo 
+disruptions of multiple candidate 
+genes, with regulatory roles in 
+early brain development (49). 
+Common 
+variation 
+Many studies focus 
+on single-nucleotide 
+polymorphisms 
+(SNPs) found at >1% 
+frequency in general 
+population. Any one 
+SNP by itself has little 
+impact, but 
+combinations of 
+many such variants 
+across the genome 
+may jointly explain a 
+significant proportion 
+of trait variance. 
+High-throughput low-
+cost genotyping 
+technologies, like 
+DNA microarrays, 
+make it possible to 
+capture allelic 
+variation at millions 
+of SNPs in large 
+samples. 
+These technologies 
+fuelled the rise of 
+genome-wide 
+association studies 
+(GWASs) that 
+systematically screen 
+vast numbers of 
+SNPs, testing each for 
+a relationship with a 
+trait of interest. 
+One GWAS design is a case/control study 
+assessing contributions of common DNA 
+variation to a disorder (or categorical trait). 
+GWAS designs can also identify associations 
+of SNPs with individual differences in 
+quantitative traits. Since the effect size of 
+one SNP may be tiny, cohorts of tens (even 
+hundreds) of thousands of people are 
+needed to give adequate power while 
+adjusting for substantial multiple-testing. 
+In a multicohort GWAS study of 
+individual differences in 
+quantitatively assessed reading- 
+and language-related skills, 
+involving <34,000 participants, 
+researchers could capture up to 
+26% of trait variability with 
+common DNA variation (50). 
+Findings on genetic 
+contributions to individual 
+differences in language-
+related skills and/or neural 
+infrastructure in living 
+humans can be integrated 
+with information about 
+evolutionary signatures 
+across the genome, over a 
+range of different 
+timescales in primate and 
+hominin history. For 
+example, a UK Biobank 
+study used this approach to 
+uncover effects of human-
+gained regulatory elements 
+on left-hemisphere brain 
+regions related to speech, 
+among other findings (47, 
+48). 
+Studies of genetic associations with 
+language-related traits can be extended to 
+individual differences in brain structure and 
+function, assessed with neuroimaging. Effect 
+sizes of individual SNPs are small even for 
+traits measured with MRI (51). With 
+availability of neuroimaging and DNA data in 
+large biobanking resources it is now possible 
+to carry out GWAS studies of neural circuits 
+involved in language processing. 
+GWAS investigations of structural 
+and functional connectivity in the 
+brains of ~30-32,000 participants 
+in the UK Biobank have given 
+new insights into how genetic 
+variants contribute to language-
+related circuits in the human 
+brain (52, 53). 
+
+PAGE 6
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+6 
+Figure 2. Investigating evolution of vocal production learning with  tools of molecular genetics: FOXP2 as an 
+example. (A) The starting point was a three-generation family, the KE family, in which half of the relatives (shaded 
+symbols) were affected by a neurodevelopmental disorder primarily involving childhood apraxia of speech, 
+accompanied by expressive and receptive language deficits (top). The affected relatives carried a change of one DNA 5 
+letter (nucleotide) in the FOXP2 gene (44). This small change in DNA alters the amino -acid sequence, and hence 
+shape, of a key part of the regulatory protein that FOXP2 encodes, stopping it from functioning in its normal way. 
+Advances in DNA sequencing led to identification of >28 additional individuals (from 17 families) carrying different 
+pathogenic single -nucleotide variants of FOXP2, with problems in speech development being the most common 
+feature found in these cases (45). As shown in the bottom of the panel, while pathogenic variants were sometimes 10 
+inherited from affected parents, in many of the cases they arose de novo in children with unaffected parents. (B) 
+Comparisons of DNA sequences across different species (comparative genomics) identified versions of FOXP2 in 
+distantly related vertebrates including mammals, birds, reptiles, fish, and amphibians (40, 54), showing that the gene 
+has a deep evolutionary history. Against this background, integration of findings from extant apes and extinct archaic 
+hominins revealed that changes in the amino-acid sequence of the encoded protein occurred on the Homo lineage after 15 
+splitting from chimpanzees/bonobos (55). (C) Researchers engineered mouse models that carry the same pathogenic 
+variant that causes speech problems in the KE family. Investigations of these mice reported motor -skill learning 
+deficits (56), reduced plasticity in the striatum (part of the basal ganglia) (57), disturbed intracellular ‘protein motors’ 
+in striatal neurons (58), and loss of neuronal homeostasis in deep -layer cortical neurons (59) among other findings. 
+(D) Moving to songbirds, lentivirus-mediated RNA interference has been used to reduce activity of FoxP2 (the avian20 
+equivalent of FOXP2) in Area X, a key nucleus in the basal ganglia of male zebra finches. Such studies uncovered
+effects of the gene on song learning and the control of song variability, potentially mediated by changes in
+dopaminergic signalling (60–62). (E) When researchers used genetic manipulations to introduce hominin amino-acid
+substitutions of FOXP2 into mice, they observed regional changes in dopamine levels and increased plasticity in the
+striatum (63). Motor-skill learning and vocal behaviours of adult male mice were unaffected according to one study25 
+(64), but later investigations of female and male vocalisations in social contexts found that the partially “humanized”
+mice used higher frequencies and more complex syllable types (65). Another study of these mice uncovered different
+patterns of striatal -dependent stimulus-response association learning (66). Overall, this suite of human and animal
+model studies shows how genes involved in VPL can be empirically investigated across species to give new insights
+into evolutionary pathways.30 
+
+
+PAGE 7
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+7 
+Once FOXP2 was identified in humans, researchers looked for versions of the gene in other 
+species, retracing its evolutionary history. Cross-species DNA comparisons (Fig. 2B) revealed that 
+FOXP2 is not unique to humans, but evolutionarily ancient, with similar versions in disparate 
+vertebrates including mammals, birds, reptiles, fish, and amphibians (40, 54). There is high 
+species-wide concordance in the places where this gene is active in the developing/adult central 5 
+nervous system, including in subsets of neurons in the cortex/pallium, basal ganglia, thalamus, and 
+cerebellum. These findings suggested that contributions of FOXP2 to human speech may be built 
+on ancient evolutionary pathways involved in motor-skill learning and vocal behaviours (67). Such 
+deep evolutionary conservation means that genetic manipulations of versions of FOXP2 in non-
+human species can help elucidate its functions, and how these influence brain plasticity and 10 
+behaviour (68, 69). 
+For instance, though mice have very limited VPL capacities (70), valuable insights were gained 
+from mouse models engineered to carry FOXP2 disruptions known to cause speech disorders in 
+humans (Fig. 2C). Mice carrying the pathogenic variant of the KE family show motor -skill 
+learning deficits, and altered neuronal properties in basal ganglia and cortex (56–59), among other 15 
+findings. Investigating non-human animals that are vocal learners, such as songbirds, is even more 
+revealing (Fig, 2D). Male zebra finches sing structured songs comprising vocal elements 
+(syllables) arranged in a stereotyped sequence, which they learn as juveniles by listening to adult 
+males (69). During this developmental period of plasticity, FoxP2 (the avian version of FOXP2) 
+has elevated activity in Area X, a basal ganglia structure that is crucial for VPL (69). 20 
+Experimentally reducing FoxP2 Area-X activity interferes with song -learning and variability, 
+potentially mediated by disturbed dopaminergic signalling (60–62). Thus, impacts of this gene on 
+brain plasticity linked to sensorimotor functions and motor -skill learning may have been 
+independently recruited towards VPL in disparate species (i.e. supporting speech in humans and 
+song in zebra finches). Most recently, g enome-wide investigations of >200 mammals with 25 
+different vocal-learning capacities pinpointed multiple additional genetic loci as candidates for 
+cross-species involvement in VPL (71). 
+Identifying genes contributing to VPL across species allows researchers to use a transformative 
+new data source to test hypotheses about language evolution: ancient DNA. In the last fifteen years, 
+it became possible to obtain high -quality sequence informat ion from nuclear genomes of 30 
+Neanderthals and Denisovans: extinct hominins that shared with modern humans a most recent 
+common ancestor ~600kyr ago  (72, 73). These archaic hominins existed until a few tens of 
+thousands of years ago, temporarily overlapping with Homo sapiens at sites across Eurasia (74). 
+Analysing ancient genomes enables detection of DNA variants that arose in modern humans after 
+our split from Neanderthals and Denisovans (75). It also enables detection of variants that we share 35 
+with archaic hominins, but that are distinct from those in extant non -human apes. These more 
+ancient variants arose after our split from chimpanzees/bonobos ~6 million years ago, but before 
+the split between modern and archaic humans (76). Applied to FOXP2, this approach identified 
+two amino-acid changes in the protein that it encodes, both arising on the Homo lineage during the 
+6Myr-600kyr time window (55). Researchers used genetic manipulations to introduce the hominin 40 
+amino-acid substitutions into mice, observing varied effects on vocal behaviours and basal ganglia 
+functions (63–66) (Fig. 2E). Thus, by identifying evolutionary variants in genes implicated in 
+facets of language and introducing them into non-human animals, we can investigate whether these 
+variants affect brains and behaviour in ways that might be relevant to language emergence. Despite 
+this promise, we stress that no single genetic change is by itself sufficient to yield a vocal-learning 45 
+brain (77).  
+
+PAGE 8
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+8 
+Evolution acts not only through genetically -specified changes to protein structure and function, 
+but also by modifying where and when genes/proteins are active in development and adulthood 
+(78, 79). These effects are mediated by a wide variety of regulatory elements in the genome. Many 
+of the DNA variants distinguishing us from other extant apes and extinct hominins may lie within 
+such elements. For example, among primates FOXP2 shows human -specific expression in 5 
+microglia, the primary immune cells of the brain, although the regulatory elements responsible for 
+this specificity are not yet described (80). Moreover, innovations in paleoepigenetics take 
+advantage of degradation processes in ancient DNA to reconstruct patterns of methylation, a 
+chemical modification that helps mediate changes in gene activity without changing DNA 
+sequence itself. This approa ch revealed changes in gene regulation differentiating 10 
+Neanderthals/Denisovans from modern humans (81). Several of these modern human -specific 
+gene-expression changes are associated with genes that affect the face and voice, and may underlie 
+characteristics that are unique to modern humans (82). 
+Additional insights into VPL evolution come from considering developmental processes . Take 
+babbling: an early, self -initiated form of vocal production in infants that starts as simple and 15 
+repetitive verbal “play” but gradually approaches a mature form. Babbling -like behaviours have 
+been documented in humans, songbirds, parrots (83, 84), and vocal-learning bats (85, 86) but are 
+not common in species lacking VPL. Manual “babbling” is seen in hearing and deaf human babies 
+exposed to signed language from birth (87, 88), illustrating both the multimodality of language 
+and the role of babbling in language acquisition. Deaf babies also babble vocally, but this babbling 20 
+does not progress normally when appropriate input models are inaccessible (89), demonstrating 
+how biological preparedness and environmental input interact in language learning. 
+Babbling (termed ‘subsong’ in birds) is self -generated and self -rewarding, occurring without 
+immediate environmental triggers or exogenous rewards. Thus, part of the biological preparedness 
+for VPL includes an endogenous reward system, making vocal play en joyable to the young 25 
+organism without feedback from parents or others. Although little is known about the underlying 
+circuity in humans, recent evidence implicates endogenous reward in songbird vocal behaviours. 
+Avian song learning begins with a sensory learning period in whic h the bird stores auditory 
+templates of exemplars of its species’ song. This involves an endogenously rewarding listening 
+process (90, 91): juveniles selectively attend to and memorize songs of their own species indicating 30 
+that hearing them is intrinsically rewarding (91). Endogenous reward is key during the subsequent 
+sensory-motor learning period when spontaneous subsong is gradually adjusted, without external 
+feedback, to approach stored adult template(s) (92–96). Vocal practice correlates temporally with 
+neural expression of opioid markers and increased activity in reward systems (92), and blocking 
+dopamine receptors in the basal ganglia in young zebra finches impairs song copying (95). Later 35 
+in development, both infant babbling and bird subsong are impacted by social reinforcement (e.g. 
+(96)) but the early self -reinforcing stages are required to provide raw material for later, 
+exogenously directed, learning. Evolution of VPL may therefore depend both on changes to neural 
+circuits involved in learning and also those underlying endogenous reward. 
+40 
+Case study 2: The emergence of linguistic structure 
+Human language shows systematic structure at multiple levels and of multiple kinds. Elements can 
+be combined in productive ways, with the meaning of larger units composed of the meanings of 
+their parts (e.g., cat – cats – big cats). There is ongoing debate on how to define and quantify this 
+systematicity. Here, we classify a behaviour as systematic when it can be described more concisely 45 
+
+PAGE 9
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+9 
+as a set than as a collection of individual instances. “Grammars” in linguistics (in the most theory-
+neutral use of that term) refer to these shorter descriptions, and are possible because language is 
+systematic. For example, it is more concise to describe  formation of the regular English plural 
+using the rule “add -s to the singular form” than to list all plural forms. While prevalent in human 
+language, systematicity is rare in the vast majority of communication systems in nature. An 5 
+extensive literature investigates neural correlates of systematic language structure (see e.g. (35, 
+97)); comparing those circuits across humans and non -human primates offers ways to study their 
+evolution (e.g. (98–100)). While illuminating, this literature leaves open  how linguistic structure 
+first came about.  
+Over the past 25 years, various experimental and computational methods have been developed to 10 
+study origins of systematic linguistic structure (22, 101–104), and to ask how that structure is 
+shaped by cognitive and communicative pressures. Specifically, language must serve the 
+communicative needs of interacting language users, and be learnable by subsequent generations 
+of language users. Because language is culturally transmitted (passed on by being repeatedly 
+learned and used by multiple generations), its structure is impacted by the interplay of 15 
+communicative and cognitive forces. To illustrate, we here focus on one feature: combinatoriality, 
+the fact that language has units that can be recombined, at multiple levels of linguistic analysis  
+(24, 105–108). For instance, sounds can be combined into words, and words can be combined to 
+form sentences. 
+How did this combinatoriality emerge? We have no access to, or record of, hominin 20 
+communication systems preceding modern human languages. However, insights can come from 
+real-world cases of emergence (109) and lab-based studies recreating evolutionary processes in 
+miniature (25, 110, 111). Two real -world settings illuminate the pressures and biases impacting 
+the emergence of linguistic structure in modern -day humans. One is homesign: gesture systems 
+created by individuals whose hearing loss prevented them from accessing spoken language and  25 
+who were not exposed to sign language (112). Another is emerging sign languages, where novel 
+signed languages develop in communities with a high proportion of deaf individuals, lacking 
+access to an established signed language. An influential example is Nicaraguan Sign Language 
+(NSL), which spontaneously emerged when homesigners were first brought together in the mid -
+1980s (113). Examining how linguistic structure in such systems changes over time illustrates how 30 
+individual learning and cultural transmission impact the emergence of structure. 
+Researchers have documented and compared linguistic structure in solo language creators 
+(homesign); in homesigners who came together and formed the first NSL cohort (NSL1); and in 
+subsequent cohorts of signers who entered the community after the language began and were thus 
+exposed to a language model (NSL2, NSL3, etc.). Some linguistic structural properties are 35 
+observed in solo creators, irrespective of the specific cultural environment they were raised in. 
+Child homesigners in the USA, China, Turkey, and Nicaragua use gestures to refer to objects, 
+actions, and attributes, and combine them into strings characterised by consistent word order. For 
+example, gestures for the object of an action appear before gestures for the action, yielding ‘grape-
+eat’ as opposed to ‘eat -grape’ (112, 114) (Fig. 3). These same properties appear across societies, 40 
+without exposure to linguistic input, indicating shared human cognitive biases (e.g. hierarchical 
+structure: (115)). Other properties emerge only after homesigners come together to form NSL1 
+(e.g. a stable lexicon: (114)), highlighting the importance of communication with others in shaping 
+linguistic structure. Still other linguistic properties are not produced by homesigners or in NSL1, 
+but tend to appear only after the emerging sign languages are transmitted to new lear ners. For 45 
+
+PAGE 10
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+10 
+example, spatial modulations are rare in NSL1, but commonly used to indicate shared reference in 
+NSL2 (19). 
+A well-studied feature of NSL, relevant to combinatoriality, involves how complex motion events 
+are conveyed. Consider a ball bouncing down a hill. In early NSL cohorts, both the ball’s path 
+(downwards) and its movement manner (bouncing) are typically conveyed simultaneously ((113) 5 
+but see (116)). However, later cohorts typically segment path and manner into separate parts, 
+yielding a more combinatorial flexible system. Thus, transmission from one cohort to another 
+seems important for building and enhancing combinatoriality. In an experimental an alog of the 
+homesign situation, non -signing participants are asked to convey meanings with gesture and no 
+speech (117). When presented with complex motion events possessing manner and path 10 
+components, participants prefer to convey both aspects simultaneously even if expressed 
+separately in their spoken language   (118). However, gestures  and vocalisations  beginning as 
+holistic (e.g., simultaneously expressing motion and speed) become more segmented and 
+linearised during ongoing dyadic communication  (119–121).  
+Experiments can recreate processes of cultural evolution using a paradigm called iterated learning. 15 
+In these studies, a participant learns from the output of a previous participant in the experiment, 
+creating multiple simulated “generations” (22). When silent gestures get transmitted in this way, 
+there is a learning-driven preference for segmented manner and path. This preference is amplified 
+over generations (as in NSL2 (113)) so that more systematic and combinatorial behaviours emerge 
+(119, 121). More generally, productive units emerge during dyadic and group communication 20 
+paradigms (25, 120, 122, 123), a process enhanced by learning and transmission (32). The 
+combined findings illustrate that systems starting as a collection of wholes are gradually segmented 
+and analysed into productive parts, consistent with evolutionary approaches proposing a holistic 
+origin for language (124, 125). Further evidence for the role of whole-to-part learning comes from 
+first language acquisition (126, 127) and homesign creation (128, 129), where learners discover 25 
+parts from unanalyzed wholes (e.g. Ididit > I did it, (130)), in ways that facilitate the mastery and 
+emergence of systematic structure ((131, 132), Fig. 3). 
+Figure 3. Finding the right units. One of the challenges in studying communication in children and non -human 30 
+animals is zeroing in on the right unit of analysis. This is challenging because the units we use to code data are 
+influenced by hypotheses (explicit or implicit (133)), often based on our own categories. For example, when we 
+describe early child language, we typically attribute individuated words to the child ( left-hand panel). But we might 
+be wrong––a child might use a larger unit, treating several words as a single “chunk” (127, 134). Infants extract single 
+word units from the speech they hear, but they also extract larger units containing more than one lexical word (126, 35 
+
+
+PAGE 11
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+11 
+130). In fact, starting from larger units plays an important role in learning linguistic structure, particularly in learning 
+grammatical relations between words (126, 127, 131, 132), and in creating linguistic structure (129). One way to 
+validate the categories we use is to find systematic patterns based on those categories, providing indirect evidence for 
+the categories, and also for their level of representation. For instance, using semantic roles (patient, act, recipient, etc.) 
+to categorize homesigners’ gestures results in systematic orderings (patient-act, patient-recipient, act-recipient), which 5 
+validates coding at this level (135). But sometimes our coding system fails to produce systematic patterns. This may 
+be the time to scrap the system and start again, coding at a level smaller than the one previously used (middle panel). 
+For example, homesigners could vary thumb -to-finger distance so that the handshape in the gesture for banana -
+grasping is distinct from that in the gesture for spoon-grasping (as they are when these objects are actually grasped). 
+Alternatively, homesigners could use the same handshape in both gestures, introduc ing one larger category for 10 
+grasping objects <1 -inch in diameter. To discover the homesigner’s categories, we need to code in units that are 
+smaller than the units on which those categories are based; otherwise, the categories may be created by us, not the 
+child (128, 136). When we seek the right units in non -human communication (e.g., gestures in great apes (137)), the 
+challenge is greater, because we have limited insight into the categories relevant to non -human animals ( (138) and 
+must validate the categories in the animal itself (e.g., by using playback experiments, (139)). Nonetheless, the 15 
+approach of seeking out coherent patterns can also help reveal units in animal communication ( righthand panel). For 
+example, using transitional probabilities between syllables to segment humpback whale song (a cue used by human 
+infants to segment speech (140)) uncovered statistically coherent sub -sequences whose frequency distribution 
+followed a particular power law, also found in all human languages (141). This points to a striking similarity between 
+two evolutionarily distant species (whales and humans), united by having culturally transmitted communication 20 
+systems. Debates about how to detect the appropriate units continue (142), with new perspectives coming from 
+machine learning (143). In general, allowing for units at multiple levels of representation provides insight into 
+structure in child language, homesign, and animal communication (144). 
+Real-world language emergence and lab -based studies necessarily involve humans with modern 25 
+brains, but are nevertheless informative. Linguistic features evident in homesign provide insights 
+into products of biological evolution. Properties that homesigners fail to develop, but are found in 
+emerging sign languages, are good candidates for ones th at require cultural evolution to emerge  
+(20). With lab-based studies researchers can manipulate communicative and cognitive pressures 
+in ways that cannot be done in the real -world, to assess effects on emerging systems. Moreover, 30 
+computational simulations, not yet discussed (but see Fig. 1, and (145, 146)) allow investigation 
+of learning biases that may differ from those of modern humans. Importantly, it is still an open 
+question which, if any, capabilities underlying language structure are uniquely enhanced in 
+humans. One component hypothesised as highly developed in humans and weak or absent in other 
+species is “dendrophilia”, a domain-general proclivity to infer tree structures from data whenever 35 
+possible (147) (Fig. 4).  
+
+PAGE 12
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+12 
+Figure 4 . The origins of hierarchical structure - Dendrophilia or semantics?  An open question for the field 
+concerns which, if any, capabilities underlying language are uniquely enhanced in humans . One component 
+hypothesised as highly developed in humans and weak or absent in other species is “dendrophilia”, a domain-general 
+proclivity to infer tree structures from data whenever possible (147). Dendrophilia combines a domain -general 5 
+capacity to perceive hierarchical structures in stimuli with a strong preference to encode data into hierarchical 
+structures. (A) This preference is often studied using Artificial Grammar Learning (AGL) experiments where learners 
+are exposed to sequences of stimuli whose appearance is governed by an underlying hierarchical grammar. If learners 
+deduced the grammar, they should be able  to complete sequences in a way that conforms to it. Considerable 
+experimental evidence from cross -species AGL research supports dendrophilia as being both highly developed and 10 
+biologically canalised in humans, and reduced or absent in other species studied to date (6, 148, 149). For example, a 
+recent study found that, with adequate time and a consistent exogenous reward structure, macaque monkeys can learn 
+hierarchical structures based on meaningless spatial/motor sequences, but learning requiring many months and tens 
+of thousands of rewarded trials. In contrast, pre -school children learn these same systems rapidly, in as few as six 
+trials, with few/no errors (149). The presence of some hierarchical structure in homesign (case study 2) offers further 15 
+evidence of biological preparedness for dendrophilia in our species (115). However, the finding that linguistic structure 
+emerges gradually over generations indicates that cultural transmission is important for explaining hierarchical 
+structure in fully developed languages (as for birdsong). Some precursor(s) of dendrophilia may be present in the 
+motor and/or social domain in other primates, such as the perception and processing of complex dominance 
+hierarchies, as shown in baboons and other socially complex species (150–152). (B) The problem of acquiring and 20 
+using tree-like structures may be greatly reduced in contexts involving signal/meaning pairs (as in human language). 
+If semantics already possess hierarchical structure, and signals are mapped onto this hierarchical meaning space, it 
+may strongly bias the learner to impose or perceive tree structure in the signals themselves. Importantly, the existence 
+of hierarchical structure in human music (e.g. (153)), or similar systems like bird or whale song (e.g. (154)), where 
+signals do not map onto highly structured meanings, suggests that compositional semantic mappings are not necessary 25 
+(or solely responsible) for hierarchical structure to emerge. Similarly, in AGL experiments, humans readily perceive 
+hierarchical structure in meaningless visual strings (155, 156). Better understanding of the neural mechanisms 
+involved in structural learning, and innovative new methods to “tweak” reward structures in animals, can shed light 
+on origins of hierarchical structure not just in language but also other domains such as music and art. 
+So far, we illustrated impacts of learning, communication, and cultural transmission in creating 30 
+combinatorial structure in humans who are already biologically prepared for language. Roles of 
+biological evolution can be investigated using animal models.  Here, researchers control 
+preparedness via the choice of species, while experimentally manipulating social pressures and 
+
+
+PAGE 13
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+13 
+ 
+rewards. Two relevant models are songbirds and baboons, who differ from humans, and from each 
+other, in important ways. As introduced in case study 1, songbirds are vocal production learners, 
+with culturally transmitted song (157, 158). Songbirds are also among the few non-human animals 
+whose signalling exhibits combinatorial structure. Songs are constructed from individual elements 
+that are repeated and recombined (159). Despite their “instinct to learn” a species -typical song 5 
+(160), isolated songbirds deprived of appropriate input sing only a harsh, atonal “isolate song” 
+(159). When isolate songs are transmitted to successive generations of learners via iterated 
+learning, zebra finches  converge within a few generations on a novel (albeit well -formed and 
+species-typical) song exhibiting combinatorial structure (161). Even if this developmental process 
+is limited to one bird hearing its own songs played back after a delay, a more species-typical song 10 
+results (162). Transmission over generations/iterations seems crucial for emergence of elaborated 
+species-typical structure, whether the starting point is  isolate song in vocal -learning bird s, or 
+homesign in humans. 
+Songbirds are biologically prepared to learn and transmit songs. In contrast, despite powerful 
+learning abilities (163–165), non -human primates lack culturally transmitted communication 15 
+systems, and the combinatoriality of their gestural signalling is not as productive or widespread as 
+in humans or songbirds (166). Recent evidence indicates a degree of combinatoriality in 
+vocalizations of some ape/primate species  (167, 167, 168), though it is unclear whether they are 
+used communicatively. Experiments with captive  baboons suggest that systematically structured 
+behaviour can emerge in animals lacking it, if cultural transmission is supported externally (169). 20 
+In these studies, baboons are given exogenous rewards for reproducing randomly generated visual 
+patterns. Cultural transmission is experimentally simulated by providing patterns from one baboon 
+as input to another, creating an iterated learning design. Remarkably, systematically structured 
+patterns emerge over iterations : although  baboons lack biological preparedness for cultural 
+transmission, when transmission is supported externally, structured patterns emerge. These 25 
+experiments demonstrate that adding exogenous rewards for copying behaviour (present 
+endogenously in humans and songbirds) facilitates the emergence of systematicity.  
+ 
+Case study 3: Social underpinnings of language 
+Social interactions are key for first language acquisition, with individual learning typically 30 
+occurring within interactive contexts (170, 171). These interactions provide children with valuable 
+linguistic input, facilitating learning in various ways (172). Although infants can learn in non -
+communicative settings, and do so in experimental contexts (140, 173, 174), many aspects of 
+language learning are facilitated by social interaction (172). For instance, contingent maternal 
+responses yield more mature vocalisations in human infants (175). Similarly, learning of non -35 
+native phonetic sounds in infancy is enhanced by social interaction (176). Both homesign and 
+emerging sign languages (case study 2) are motivated by the need and desire for social 
+communication (although in homesign, the communications systems themselves are not shared 
+with others (177)). Later in development, there is evidence of bi -directional links between 
+language abilities and aspects of social cognition/interaction (178–180). Gains in prosocial 40 
+behaviours in early childhood (age 3 -to-5 years) are significantly associated with later gains in 
+verbal ability (age 5-to-11 years), and vice versa (181). Better language skills facilitate children’s 
+social–emotional competence, allowing formation of more prosocial, cooperative relationships 
+(181–185). Conversely, language difficulties often associate with increased difficulty with social 
+interactions (186–188).  45 
+
+PAGE 14
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+14 
+ 
+Social interaction contributes to individual learning in other species with culturally transmitted 
+communication systems. Although we stress the importance of endogenous reward during early 
+birdsong acquisition, exogenous reinforcement from social partners  is crucial in later learning, 
+maintenance, and modification of song (189, 190). Female cowbirds provide behavioural feedback 
+(wing-flaps) to courting males, influencing later use of particular syllables or syllable sequences 5 
+(189). When parent zebra finches give behavioural feedback, juveniles develop more accurate 
+copies of tutor song (190). Exogenous reward of vocal learning involves dopaminergic systems 
+(191, 192). Socially-tutored zebra finches show higher activity of dopaminergic neurons in the 
+ventral tegmental area, compared to birds who passively heard songs or untutored controls (191), 
+and optogenetically blocking dopaminergic input to song circuits during social tutoring impairs 10 
+song learning (96).  
+Beyond social underpinnings which enable cultural transmission of language, humans have a 
+strong, unparalleled internal drive to socially share information, including about inner states, 
+emotions and ideas, using language (“Mitteilungsbedürfnis”, (2)). Sharing for sharing’s sake is 
+prevalent in humans, but rare in non -human primates. Even language -trained apes, who master 15 
+aspects of human sign language, show limited interest in using this to express things other than 
+direct requests (193, 194). In contrast, our drive to share thoughts and feelings with others is so 
+strong that humans create a communication system de novo even if one is not available (case study 
+2).  
+The social context, together with our “mitteilungsbedürfnis”, make language learning and use 20 
+rewarding for humans. How might the evolution of reward mechanisms relate to emergence of 
+communication systems?  One evolutionary pathway of potential relevance is the process of 
+domestication. The Bengalese finch, a domesticated variant of a wild songbird, the white-rumped 
+munia (195–199), offers an example of relationships between changes in reward and 
+communication systems. As in many domesticates, stress hormone levels are significantly lower 25 
+in Bengalese finches compared to munias (197), and the former display less aggression (198) and 
+explore new environments faster than their wild counterparts (199). Intriguingly, Bengalese 
+finches produce songs with greater phonological and syntactic complexity than those of munias 
+(200). They are capable of learning munia songs, whereas munias struggle to master Bengalese 
+songs (195). Domesticated Bengalese show higher concentrations of cerebral oxytocin than their 30 
+wild ancestors (201, 202); oxytocin and dopaminergic reward systems are known to be closely 
+interconnected (203–205).  
+Did humans follow evolutionary pathways similar to those underlying animal domestication, 
+where less aggressive individuals that were more prone to cooperatively interact had greater 
+likelihood to survive and/or reproduce? According to the human self -domestication hypothesis, 35 
+such processes enhanced social learning and cultural transmission in humans (206–209). This 
+could generate virtuous cycles at the community-level: increased social reward for communication 
+favours emergence of more advanced forms of communication, enabling larger in-groups and more 
+interaction with non -kin, which results in even richer soc ial interaction. Some support for links 
+between greater communicative complexity and greater social complexity (operationalized by 40 
+larger group sizes, more dense networks, etc.) comes from multi -species comparative research, 
+from bats to primates (210, 211). Human experimental data provide suggestive evidence: artificial 
+languages evolving in larger micro -societies of interacting participants show more systematic 
+compositional structures, emerging faster and more consistently than in smaller groups (25). 
+ 45 
+
+PAGE 15
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+15 
+ 
+Discussion 
+Our case studies include diverse data sources (behavioural, neural, genetic, developmental), and 
+adopt broad comparative perspectives, with particular focus on humans, primates and songbirds. 
+They demonstrate how facets involved in language emergence can be insightfully studied in non-
+humans. No single method, tool or model holds all the answers, and investigations of different 5 
+facets may require different approaches. A common thread is that exaptation and recombination 
+of abilities present in non -humans, combined with intra - and inter -generational cultural 
+transmission, can yield linguistic capacities in our own species. VPL, crucial for acquiring spoken 
+language in humans, is a capacity that humans share with other species, appearing in diverse 
+branches of the vertebrate evolutionary tree. Social underpinnings needed for human language 10 
+transmission are documented in other species with culturally transmitted systems, but humans also 
+demonstrate communicative tendencies rarely observed in non -human animals (e.g., our 
+“mitteilungsbedürfnis”). Emergence of linguistic structure, a defining pr operty of human 
+language, involves a combination of biological, cognitive, and cultural conditions: While some (or 
+all) conditions are shared with various non -human species, the combination may be unique to 15 
+humans.  
+The case studies illustrate the value of explicit bio -cultural framing, showing how language 
+emerges dynamically at three  distinct but interacting levels: the individual (language acquisition 
+and use), the community (cultural evolution and historical language change), and the species 
+(biological evolution). The human ability to acquire and use language, and languages themselves, 20 
+result from multiple interactions, over time, among these levels, making all three important for 
+understanding language emergence. Biological evolution generates the biological preparedness to 
+acquire language shared by all human infants. Via individual learning in a social setting, the child 
+acquires the language(s) of their community, which themselves develop through dynamic 
+processes of cultural evolution. The ways in which these distinct levels interact, constrain, and 25 
+structure one another can be non -intuitive. Understanding them requires combinations of data, 
+models, and experiments.  
+A recurring theme  and promising avenue for future research, is the  role of biological reward 
+systems in language evolution . These systems include the motivation to communicate, and both 
+endogenous and exogenous reward for successful imitation and communication during language 30 
+acquisition, use, and transmission. Although it is currently impossible to “insert” endogenous 
+rewards for babbling into species that lack them, we can experimentally block such rewards, as 
+shown for songbirds (case study 1 (95)). Further, we can experimentally introduce exogenous 
+rewards to trigger learning in species that lack endogenous reward systems for the learned 
+behaviour; potentially “unmasking” cognitive capabilities that were previously unexpressed in that 35 
+species, as in baboon studies (case study 2 (212)). These experiments can empirically circumvent 
+the common criticism that investigating modern humans, who are already biologically prepared to 
+acquire language, reveals nothing about how key facets evolved. 
+An open issue concerns modality. Like many researchers, we see language as inherently multi -
+modal (36), and our case studies consider both spoken and signed languages. However, we have 40 
+not discussed possibilities that the use of visual and auditory modalities may emphasise different 
+types of structure. Because gestural capabilities of apes greatly exceed their vocal flexibility, some 
+researchers have suggested that human language origins may be found in gesture and/or sign 
+(“gestural protolanguage”), rather than speech (213–215), while others vehemently deny this (216, 
+217). The multi -faceted bio -cultural framework , combined with recent data showing that like 45 
+humans, primates are multi -modal communications (218–220) strongly suggest that gesture co -
+
+PAGE 16
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+16 
+ 
+existed with vocal communication, and eventually language, all along . Furthermore, vocal -
+learning abilities might have already been enhanced in archaic hominins like Neanderthals (case 
+study 1), although they likely lacked fully modern language. Thus, “which came first, sign or 
+speech?” is the wrong question. Productive future debate should centre on how gesture and speech 
+support one another, and why language (unlike, say, birdsong) is flexible enough to be conveyed 5 
+by radically different sensory systems. 
+ 
+References and Notes 
+1. M. H. Christiansen & S. Kirby, "Language evolution: The Hardest Problem in Science?" in 
+Language Evolution., M.H. Christiansen, & S. Kirby,eds. (OUP Oxford, 2003), pp. 1–15. 10 
+2. W. T. Fitch, The Evolution of Language (Cambridge University Press, 2010). 
+3. J. H. Stam, Inquiries Into the Origin of Language: The Fate of a Question (New York: 
+Harper & Row, 1976). 
+4. G. Révész, The Origins and Prehistory of Language (New York: Philosophical Library, 
+1956). 15 
+5. M. D. Hauser, C. Yang, R. C. Berwick, I. Tattersall, M. J. Ryan, J. Watumull, N. Chomsky, 
+& R. C. Lewontin, The mystery of language evolution. Frontiers in Psychology 5, (2014). 
+https://doi.org/10.3389/fpsyg.2014.00401. 
+6. W. T. Fitch, Empirical approaches to the study of language evolution. Psychonomic 
+Bulletin & Review 24, 3–33 (2017). https://doi.org/10.3758/s13423-017-1236-5. 20 
+7. E. H. Lenneberg, Biological Foundations of Language (New York: NY: Wiley, 1967). 
+8. S. J. Gould & E. S. Vrba, Exaptation-A Missing Term in the Science of Form. Paleobiology 
+8, 4–15 (1982). 
+9. W. T. Fitch, The Evolution of Syntax: An Exaptationist Perspective. Frontiers in 
+Evolutionary Neuroscience 3, (2011). https://doi.org/10.3389/fnevo.2011.00009. 25 
+10. S. E. Fisher & G. F. Marcus, The eloquent ape: genes, brains and the evolution of language. 
+Nature Reviews Genetics 7, 9–20 (2006). https://doi.org/10.1038/nrg1747. 
+11. R. G. Klein, The Dawn of Human Culture (Turner Publishing Company, 2007). 
+12. T. J. Crow, Schizophrenia as the price that Homo sapiens pays for language: a resolution of 
+the central paradox in the origin of the species. Brain Research Reviews 31, 118–129 30 
+(2000). https://doi.org/10.1016/S0165-0173(99)00029-6. 
+13. A. Bergström, C. Stringer, M. Hajdinjak, E. M. L. Scerri, & P. Skoglund, Origins of 
+modern human ancestry. Nature 590, 229–237 (2021). https://doi.org/10.1038/s41586-
+021-03244-5. 
+
+PAGE 17
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+17 
+ 
+14. K. Laland & A. Seed, Understanding Human Cognitive Uniqueness. Annual Review of 
+Psychology 72, 689–716 (2021). https://doi.org/10.1146/annurev-psych-062220-051256. 
+15. J. R. Hurford, The Origins of Grammar: Language in the Light of Evolution II (OUP 
+Oxford, 2012). 
+16. Y. Mathov, D. Batyrev, E. Meshorer, & L. Carmel, Harnessing epigenetics to study human 5 
+evolution. Current Opinion in Genetics & Development 62, 23–29 (2020). 
+https://doi.org/10.1016/j.gde.2020.05.023. 
+17. P. Skoglund & I. Mathieson, Ancient Genomics of Modern Humans: The First Decade. 
+Annual Review of Genomics and Human Genetics 19, 381–404 (2018). 
+https://doi.org/10.1146/annurev-genom-083117-021749. 10 
+18. Y. Liu, E. A. Bennett, & Q. Fu, Evolving ancient DNA techniques and the future of human 
+history. Cell 185, 2632–2635 (2022). https://doi.org/10.1016/j.cell.2022.06.009. 
+19. A. Senghas & M. Coppola, Children Creating Language: How Nicaraguan Sign Language 
+Acquired a Spatial Grammar. Psychological Science 12, 323–328 (2001). 
+https://doi.org/10.1111/1467-9280.00359. 15 
+20. S. Goldin-Meadow, What language creation can tell us about language evolution 
+(American Psychologist, 2025). 
+21. L. Raviv, A. Meyer, & S. Lev-Ari, Compositional structure can emerge without 
+generational transmission. Cognition 182, 151–164 (2019). 
+https://doi.org/10.1016/j.cognition.2018.09.010. 20 
+22. S. Kirby, H. Cornish, & K. Smith, Cumulative cultural evolution in the laboratory: An 
+experimental approach to the origins of structure in human language. Proceedings of the 
+National Academy of Sciences 105, 10681–10686 (2008). 
+https://doi.org/10.1073/pnas.0707835105. 
+23. Y. Motamedi, M. Schouwstra, K. Smith, J. Culbertson, & S. Kirby, Evolving artificial sign 25 
+languages in the lab: From improvised gesture to systematic sign. Cognition 192, 103964 
+(2019). https://doi.org/10.1016/j.cognition.2019.05.001. 
+24. S. Kirby & M. Tamariz, Cumulative cultural evolution, population structure and the origin 
+of combinatoriality in human language. Philosophical Transactions of the Royal Society 
+B: Biological Sciences 377, 20200319 (2022). https://doi.org/10.1098/rstb.2020.0319. 30 
+25. L. Raviv, A. Meyer, & S. Lev-Ari, Larger communities create more systematic languages. 
+Proceedings of the Royal Society B: Biological Sciences 286, 20191262 (2019). 
+https://doi.org/10.1098/rspb.2019.1262. 
+26. L. Raviv, A. Meyer, & S. Lev-Ari, The Role of Social Network Structure in the Emergence 
+of Linguistic Structure. Cognitive Science 44, e12876 (2020). 35 
+https://doi.org/10.1111/cogs.12876. 
+
+PAGE 18
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+18 
+ 
+27. K. Smith, How Culture and Biology Interact to Shape Language and the Language Faculty. 
+Topics in Cognitive Science 12, 690–712 (2020). https://doi.org/10.1111/tops.12377. 
+28. P. J. Richerson & R. Boyd, A dual inheritance model of the human evolutionary process I: 
+Basic postulates and a simple model. Journal of Social and Biological Structures 1, 127–
+154 (1978). 5 
+29. C. J. Lumsden & E. O. Wilson, Genes, Mind, And Culture - The Coevolutionary Process 
+(Harvard University Press, 1981). 
+30. S. Kirby, M. Dowman, & T. L. Griffiths, Innateness and culture in the evolution of 
+language. Proceedings of the National Academy of Sciences 104, 5241–5245 (2007). 
+31. T. L. Griffiths & M. L. Kalish, Language Evolution by Iterated Learning With Bayesian 10 
+Agents. Cognitive Science 31, 441–480 (2007). 
+https://doi.org/10.1080/15326900701326576. 
+32. S. Kirby, M. Tamariz, H. Cornish, & K. Smith, Compression and communication in the 
+cultural evolution of linguistic structure. Cognition 141, 87–102 (2015). 
+https://doi.org/10.1016/j.cognition.2015.03.016. 15 
+33. B. Thompson, S. Kirby, & K. Smith, Culture shapes the evolution of cognition. 
+Proceedings of the National Academy of Sciences 113, 4530–4535 (2016). 
+https://doi.org/10.1073/pnas.1523631113. 
+34. G. E. Hinton & S. J. Nowlan, How Learning Can Guide Evolution. Complex Systems I, 
+495–502 (1987). 20 
+35. P. Hagoort, The core and beyond in the language-ready brain. Neuroscience & 
+Biobehavioral Reviews 81, 194–204 (2017). 
+https://doi.org/10.1016/j.neubiorev.2017.01.048. 
+36. P. Hagoort & A. Özyürek, Extending the Architecture of Language From a Multimodal 
+Perspective. Topics in Cognitive Science (2024). https://doi.org/10.1111/tops.12728. 25 
+37. V. M. Janik & P. J. Slater, The different roles of social learning in vocal communication. 
+Animal Behaviour 60, 1–11 (2000). https://doi.org/10.1006/anbe.2000.1410. 
+38. S. C. Vernes, V. M. Janik, W. T. Fitch, & P. J. B. Slater, Vocal learning in animals and 
+humans. Philosophical Transactions of the Royal Society of London. Series B, Biological 
+Sciences 376, 20200234 (2021). https://doi.org/10.1098/rstb.2020.0234. 30 
+39. W. T. Fitch, "The Biology and Evolution of Language: “Deep Homology” and the 
+Evolution of Innovation" in Cognitive Neuroscience, Michael Gazzaniga, (The MIT Press, 
+2009), pp. 873–883. 
+40. C. Scharff & J. Petri, Evo-devo, deep homology and FoxP2: implications for the evolution 
+of speech and language. Philosophical Transactions of the Royal Society of London. Series 35 
+B, Biological Sciences 366, 2124–2140 (2011). https://doi.org/10.1098/rstb.2011.0001. 
+
+PAGE 19
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+19 
+ 
+41. N. Shubin, C. Tabin, & S. Carroll, Deep homology and the origins of evolutionary novelty. 
+Nature 457, 818–823 (2009). https://doi.org/10.1038/nature07891. 
+42. J. den Hoed & S. E. Fisher, Genetic pathways involved in human speech disorders. Current 
+opinion in genetics & development 65, 103–111 (2020). 
+https://doi.org/10.1016/j.gde.2020.05.012. 5 
+43. S. E. Fisher, C. S. L. Lai, & A. P. Monaco, Deciphering the genetic basis of speech and 
+language disorders. Annual review of neuroscience 26, 57–80 (2003). 
+https://doi.org/10.1146/annurev.neuro.26.041002.131144. 
+44. C. S. Lai, S. E. Fisher, J. A. Hurst, F. Vargha-Khadem, & A. P. Monaco, A forkhead-
+domain gene is mutated in a severe speech and language disorder. Nature 413, 519–523 10 
+(2001). https://doi.org/10.1038/35097076. 
+45. L. D. Morison, E. Meffert, M. Stampfer, I. Steiner-Wilke, B. Vollmer, K. Schulze, T. 
+Briggs, R. Braden, A. Vogel, D. Thompson-Lake, C. Patel, E. Blair, H. Goel, S. Turner, 
+U. Moog, A. Riess, F. Liegeois, D. A. Koolen, D. J. Amor, T. Kleefstra, S. E. Fisher, C. 
+Zweier, & A. T. Morgan, In-depth characterisation of a cohort of individuals with 15 
+missense and loss-of-function variants disrupting FOXP2. Journal of medical genetics 60, 
+597–607 (2023). https://doi.org/10.1136/jmg-2022-108734. 
+46. P. Deriziotis & S. E. Fisher, Speech and Language: Translating the Genome. Trends in 
+genetics: TIG 33, 642–656 (2017). https://doi.org/10.1016/j.tig.2017.07.002. 
+47. E. G. Atkinson, A. J. Audesse, J. A. Palacios, D. M. Bobo, A. E. Webb, S. Ramachandran, 20 
+& B. M. Henn, No Evidence for Recent Selection at FOXP2 among Diverse Human 
+Populations. Cell 174, 1424-1435.e15 (2018). https://doi.org/10.1016/j.cell.2018.06.048. 
+48. G. Alagöz, B. Molz, E. Eising, D. Schijven, C. Francks, J. L. Stein, & S. E. Fisher, Using 
+neuroimaging genomics to investigate the evolution of human brain structure. Proceedings 
+of the National Academy of Sciences of the United States of America 119, e2200638119 25 
+(2022). https://doi.org/10.1073/pnas.2200638119. 
+49. E. Eising, A. Carrion-Castillo, A. Vino, E. A. Strand, K. J. Jakielski, T. S. Scerri, M. S. 
+Hildebrand, R. Webster, A. Ma, B. Mazoyer, C. Francks, M. Bahlo, I. E. Scheffer, A. T. 
+Morgan, L. D. Shriberg, & S. E. Fisher, A set of regulatory genes co-expressed in 
+embryonic human brain is implicated in disrupted speech development. Molecular 30 
+Psychiatry 24, 1065–1078 (2019). https://doi.org/10.1038/s41380-018-0020-x. 
+50. E. Eising, N. Mirza-Schreiber, E. L. de Zeeuw, C. A. Wang, D. T. Truong, A. G. Allegrini, 
+C. Y. Shapland, G. Zhu, K. G. Wigg, M. L. Gerritse, B. Molz, G. Alagöz, A. Gialluisi, F. 
+Abbondanza, K. Rimfeld, M. van Donkelaar, Z. Liao, P. R. Jansen, T. F. M. Andlauer, T. 
+C. Bates, M. Bernard, K. Blokland, M. Bonte, A. D. Børglum, T. Bourgeron, D. Brandeis, 35 
+F. Ceroni, V. Csépe, P. S. Dale, P. F. de Jong, J. C. DeFries, J.-F. Démonet, D. Demontis, 
+Y. Feng, S. D. Gordon, S. L. Guger, M. E. Hayiou-Thomas, J. A. Hernández-Cabrera, J.-J. 
+Hottenga, C. Hulme, J. Kere, E. N. Kerr, T. Koomar, K. Landerl, G. T. Leonard, M. W. 
+Lovett, H. Lyytinen, N. G. Martin, A. Martinelli, U. Maurer, J. J. Michaelson, K. Moll, A. 
+P. Monaco, A. T. Morgan, M. M. Nöthen, Z. Pausova, C. E. Pennell, B. F. Pennington, K. 40 
+
+PAGE 20
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+20 
+ 
+M. Price, V. M. Rajagopal, F. Ramus, L. Richer, N. H. Simpson, S. D. Smith, M. J. 
+Snowling, J. Stein, L. J. Strug, J. B. Talcott, H. Tiemeier, M. P. van der Schroeff, E. 
+Verhoef, K. E. Watkins, M. Wilkinson, M. J. Wright, C. L. Barr, D. I. Boomsma, M. 
+Carreiras, M.-C. J. Franken, J. R. Gruen, M. Luciano, B. Müller-Myhsok, D. F. Newbury, 
+R. K. Olson, S. Paracchini, T. Paus, R. Plomin, S. Reilly, G. Schulte-Körne, J. B. 5 
+Tomblin, E. van Bergen, A. J. O. Whitehouse, E. G. Willcutt, B. St Pourcain, C. Francks, 
+& S. E. Fisher, Genome-wide analyses of individual differences in quantitatively assessed 
+reading- and language-related skills in up to 34,000 people. Proceedings of the National 
+Academy of Sciences of the United States of America 119, e2202764119 (2022). 
+https://doi.org/10.1073/pnas.2202764119. 10 
+51. J. Uddén, A. Hultén, K. Bendtz, Z. Mineroff, K. S. Kucera, A. Vino, E. Fedorenko, P. 
+Hagoort, & S. E. Fisher, Toward Robust Functional Neuroimaging Genetics of Cognition. 
+The Journal of Neuroscience: The Official Journal of the Society for Neuroscience 39, 
+8778–8787 (2019). https://doi.org/10.1523/JNEUROSCI.0888-19.2019. 
+52. Z. Sha, D. Schijven, S. E. Fisher, & C. Francks, Genetic architecture of the white matter 15 
+connectome of the human brain. Science Advances 9, eadd2870 (2023). 
+https://doi.org/10.1126/sciadv.add2870. 
+53. Y. Mekki, V. Guillemot, H. Lemaître, A. Carrión-Castillo, S. Forkel, V. Frouin, & C. 
+Philippe, The genetic architecture of language functional connectivity. NeuroImage 249, 
+118795 (2022). https://doi.org/10.1016/j.neuroimage.2021.118795. 20 
+54. S. E. Fisher & C. Scharff, FOXP2 as a molecular window into speech and language. Trends 
+in genetics: TIG 25, 166–177 (2009). https://doi.org/10.1016/j.tig.2009.03.002. 
+55. J. Krause, C. Lalueza-Fox, L. Orlando, W. Enard, R. E. Green, H. A. Burbano, J.-J. Hublin, 
+C. Hänni, J. Fortea, M. de la Rasilla, J. Bertranpetit, A. Rosas, & S. Pääbo, The derived 
+FOXP2 variant of modern humans was shared with Neandertals. Current biology: CB 17, 25 
+1908–1912 (2007). https://doi.org/10.1016/j.cub.2007.10.008. 
+56. M. Groszer, D. A. Keays, R. M. J. Deacon, J. P. De Bono, S. Prasad-Mulcare, S. Gaub, M. 
+G. Baum, C. A. French, J. Nicod, J. A. Coventry, W. Enard, M. Fray, S. D. M. Brown, P. 
+M. Nolan, S. Pääbo, K. M. Channon, R. M. Costa, J. Eilers, G. Ehret, J. N. P. Rawlins, & 
+S. E. Fisher, Impaired Synaptic Plasticity and Motor Learning in Mice with a Point 30 
+Mutation Implicated in Human Speech Deficits. Current Biology 18, 354–362 (2008). 
+https://doi.org/10.1016/j.cub.2008.01.060. 
+57. C. A. French, X. Jin, T. G. Campbell, E. Gerfen, M. Groszer, S. E. Fisher, & R. M. Costa, 
+An aetiological Foxp2 mutation causes aberrant striatal activity and alters plasticity during 
+skill learning. Molecular Psychiatry 17, 1077–1085 (2012). 35 
+https://doi.org/10.1038/mp.2011.105. 
+58. H.-Y. Kuo, S.-Y. Chen, R.-C. Huang, H. Takahashi, Y.-H. Lee, H.-Y. Pang, C.-H. Wu, A. 
+M. Graybiel, & F.-C. Liu, Speech- and language-linked FOXP2 mutation targets protein 
+motors in striatal neurons. Brain 146, 3542–3557 (2023). 
+https://doi.org/10.1093/brain/awad090. 40 
+
+PAGE 21
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+21 
+ 
+59. M. Druart, M. Groszer, & C. L. Magueresse, An Etiological Foxp2 Mutation Impairs 
+Neuronal Gain in Layer VI Cortico-Thalamic Cells through Increased GABAB/GIRK 
+Signaling. Journal of Neuroscience 40, 8543–8555 (2020). 
+https://doi.org/10.1523/JNEUROSCI.2615-19.2020. 
+60. S. Haesler, C. Rochefort, B. Georgi, P. Licznerski, P. Osten, & C. Scharff, Incomplete and 5 
+inaccurate vocal imitation after knockdown of FoxP2 in songbird basal ganglia nucleus 
+Area X. PLoS biology 5, e321 (2007). https://doi.org/10.1371/journal.pbio.0050321. 
+61. P. Norton, P. Barschke, C. Scharff, & E. Mendoza, Differential Song Deficits after 
+Lentivirus-Mediated Knockdown of FoxP1, FoxP2, or FoxP4 in Area X of Juvenile Zebra 
+Finches. The Journal of Neuroscience: The Official Journal of the Society for 10 
+Neuroscience 39, 9782–9796 (2019). https://doi.org/10.1523/JNEUROSCI.1250-19.2019. 
+62. L. Xiao, D. P. Merullo, T. M. I. Koch, M. Cao, M. Co, A. Kulkarni, G. Konopka, & T. F. 
+Roberts, Expression of FoxP2 in the basal ganglia regulates vocal motor sequences in the 
+adult songbird. Nature communications 12, (2021). https://doi.org/10.1038/s41467-021-
+22918-2. 15 
+63. W. Enard, The Molecular Basis of Human Brain Evolution. Current biology: CB 26, 
+R1109–R1117 (2016). https://doi.org/10.1016/j.cub.2016.09.030. 
+64. K. Hammerschmidt, C. Schreiweis, C. Minge, S. Pääbo, J. Fischer, & W. Enard, A 
+humanized version of Foxp2 does not affect ultrasonic vocalization in adult mice. Genes, 
+Brain and Behavior 14, 583–590 (2015). https://doi.org/10.1111/gbb.12237. 20 
+65. S. von Merten, C. Pfeifle, S. Künzel, S. Hoier, & D. Tautz, A humanized version of Foxp2 
+affects ultrasonic vocalization in adult female and male mice. Genes, Brain and Behavior 
+20, e12764 (2021). https://doi.org/10.1111/gbb.12764. 
+66. C. Schreiweis, U. Bornschein, E. Burguière, C. Kerimoglu, S. Schreiter, M. Dannemann, S. 
+Goyal, E. Rea, C. A. French, R. Puliyadi, M. Groszer, S. E. Fisher, R. Mundry, C. Winter, 25 
+W. Hevers, S. Pääbo, W. Enard, & A. M. Graybiel, Humanized Foxp2 accelerates learning 
+by enhancing transitions from declarative to procedural performance. Proceedings of the 
+National Academy of Sciences 111, 14253–14258 (2014). 
+https://doi.org/10.1073/pnas.1414542111. 
+67. S. E. Fisher, Evolution of language: Lessons from the genome. Psychonomic Bulletin & 30 
+Review 24, 34–40 (2017). https://doi.org/10.3758/s13423-016-1112-8. 
+68. C. A. French & S. E. Fisher, What can mice tell us about Foxp2 function?. Current Opinion 
+in Neurobiology 28, 72–79 (2014). https://doi.org/10.1016/j.conb.2014.07.003. 
+69. S. Wohlgemuth, I. Adam, & C. Scharff, FoxP2 in songbirds. Current Opinion in 
+Neurobiology 28, 86–93 (2014). https://doi.org/10.1016/j.conb.2014.06.009. 35 
+70. V. M. Janik & M. Knörnschild, Vocal production learning in mammals revisited. 
+Philosophical Transactions of the Royal Society B: Biological Sciences 376, 20200244 
+(2021). https://doi.org/10.1098/rstb.2020.0244. 
+
+PAGE 22
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+22 
+ 
+71. M. E. Wirthlin, T. A. Schmid, J. E. Elie, X. Zhang, A. Kowalczyk, R. Redlich, V. A. 
+Shvareva, A. Rakuljic, M. B. Ji, N. S. Bhat, I. M. Kaplow, D. E. Schäffer, A. J. Lawler, A. 
+Z. Wang, B. N. Phan, S. Annaldasula, A. R. Brown, T. Lu, B. K. Lim, E. Azim, Zoonomia 
+Consortium, N. L. Clark, W. K. Meyer, S. L. K. Pond, M. Chikina, M. M. Yartsev, A. R. 
+Pfenning, G. Andrews, J. C. Armstrong, M. Bianchi, B. W. Birren, K. R. Bredemeyer, A. 5 
+M. Breit, M. J. Christmas, H. Clawson, J. Damas, F. Di Palma, M. Diekhans, M. X. Dong, 
+E. Eizirik, K. Fan, C. Fanter, N. M. Foley, K. Forsberg-Nilsson, C. J. Garcia, J. Gatesy, S. 
+Gazal, D. P. Genereux, L. Goodman, J. Grimshaw, M. K. Halsey, A. J. Harris, G. Hickey, 
+M. Hiller, A. G. Hindle, R. M. Hubley, G. M. Hughes, J. Johnson, D. Juan, I. M. Kaplow, 
+E. K. Karlsson, K. C. Keough, B. Kirilenko, K.-P. Koepfli, J. M. Korstian, A. Kowalczyk, 10 
+S. V. Kozyrev, A. J. Lawler, C. Lawless, T. Lehmann, D. L. Levesque, H. A. Lewin, X. 
+Li, A. Lind, K. Lindblad-Toh, A. Mackay-Smith, V. D. Marinescu, T. Marques-Bonet, V. 
+C. Mason, J. R. S. Meadows, W. K. Meyer, J. E. Moore, L. R. Moreira, D. D. Moreno-
+Santillan, K. M. Morrill, G. Muntané, W. J. Murphy, A. Navarro, M. Nweeia, S. Ortmann, 
+A. Osmanski, B. Paten, N. S. Paulat, A. R. Pfenning, B. N. Phan, K. S. Pollard, H. E. 15 
+Pratt, D. A. Ray, S. K. Reilly, J. R. Rosen, I. Ruf, L. Ryan, O. A. Ryder, P. C. Sabeti, D. 
+E. Schäffer, A. Serres, B. Shapiro, A. F. A. Smit, M. Springer, C. Srinivasan, C. Steiner, J. 
+M. Storer, K. A. M. Sullivan, P. F. Sullivan, E. Sundström, M. A. Supple, R. Swofford, J.-
+E. Talbot, E. Teeling, J. Turner-Maier, A. Valenzuela, F. Wagner, O. Wallerman, C. 
+Wang, J. Wang, Z. Weng, A. P. Wilder, M. E. Wirthlin, J. R. Xue, & X. Zhang, Vocal 20 
+learning–associated convergent evolution in mammalian proteins and regulatory elements. 
+Science 383, eabn3263 (2024). https://doi.org/10.1126/science.abn3263. 
+72. V. Slon, F. Mafessoni, B. Vernot, C. de Filippo, S. Grote, B. Viola, M. Hajdinjak, S. 
+Peyrégne, S. Nagel, S. Brown, K. Douka, T. Higham, M. B. Kozlikin, M. V. Shunkov, A. 
+P. Derevianko, J. Kelso, M. Meyer, K. Prüfer, & S. Pääbo, The genome of the offspring of 25 
+a Neanderthal mother and a Denisovan father. Nature 561, 113–116 (2018). 
+https://doi.org/10.1038/s41586-018-0455-x. 
+73. F. Mafessoni, S. Grote, C. de Filippo, V. Slon, K. A. Kolobova, B. Viola, S. V. Markin, M. 
+Chintalapati, S. Peyrégne, L. Skov, P. Skoglund, A. I. Krivoshapkin, A. P. Derevianko, M. 
+Meyer, J. Kelso, B. Peter, K. Prüfer, & S. Pääbo, A high-coverage Neandertal genome 30 
+from Chagyrskaya Cave. Proceedings of the National Academy of Sciences of the United 
+States of America 117, 15132–15136 (2020). https://doi.org/10.1073/pnas.2004944117. 
+74. T. Higham, K. Douka, R. Wood, C. B. Ramsey, F. Brock, L. Basell, M. Camps, A. 
+Arrizabalaga, J. Baena, C. Barroso-Ruíz, C. Bergman, C. Boitard, P. Boscato, M. 
+Caparrós, N. J. Conard, C. Draily, A. Froment, B. Galván, P. Gambassini, A. Garcia-35 
+Moreno, S. Grimaldi, P. Haesaerts, B. Holt, M.-J. Iriarte-Chiapusso, A. Jelinek, J. F. Jordá 
+Pardo, J.-M. Maíllo-Fernández, A. Marom, J. Maroto, M. Menéndez, L. Metz, E. Morin, 
+A. Moroni, F. Negrino, E. Panagopoulou, M. Peresani, S. Pirson, M. de la Rasilla, J. Riel-
+Salvatore, A. Ronchitelli, D. Santamaria, P. Semal, L. Slimak, J. Soler, N. Soler, A. 
+Villaluenga, R. Pinhasi, & R. Jacobi, The timing and spatiotemporal patterning of 40 
+Neanderthal disappearance. Nature 512, 306–309 (2014). 
+https://doi.org/10.1038/nature13621. 
+
+PAGE 23
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+23 
+ 
+75. M. Kuhlwilm & C. Boeckx, A catalog of single nucleotide changes distinguishing modern 
+humans from archaic hominins. Scientific Reports 9, 8463 (2019). 
+https://doi.org/10.1038/s41598-019-44877-x. 
+76. Z. N. Kronenberg, I. T. Fiddes, D. Gordon, S. Murali, S. Cantsilieris, O. S. Meyerson, J. G. 
+Underwood, B. J. Nelson, M. J. P. Chaisson, M. L. Dougherty, K. M. Munson, A. R. 5 
+Hastie, M. Diekhans, F. Hormozdiari, N. Lorusso, K. Hoekzema, R. Qiu, K. Clark, A. 
+Raja, A. E. Welch, M. Sorensen, C. Baker, R. S. Fulton, J. Armstrong, T. A. Graves-
+Lindsay, A. M. Denli, E. R. Hoppe, P. Hsieh, C. M. Hill, A. W. C. Pang, J. Lee, E. T. 
+Lam, S. K. Dutcher, F. H. Gage, W. C. Warren, J. Shendure, D. Haussler, V. A. 
+Schneider, H. Cao, M. Ventura, R. K. Wilson, B. Paten, A. Pollen, & E. E. Eichler, High-10 
+resolution comparative analysis of great ape genomes. Science (New York, N.Y.) 360, 
+eaar6343 (2018). https://doi.org/10.1126/science.aar6343. 
+77. S. E. Fisher, Human Genetics: The Evolving Story of FOXP2. Current biology: CB 29, 
+R65–R67 (2019). https://doi.org/10.1016/j.cub.2018.11.047. 
+78. S. B. Carroll, Evolution at two levels: on genes and form. PLoS biology 3, e245 (2005). 15 
+https://doi.org/10.1371/journal.pbio.0030245. 
+79. M. C. King & A. C. Wilson, Evolution at two levels in humans and chimpanzees. Science 
+(New York, N.Y.) 188, 107–116 (1975). https://doi.org/10.1126/science.1090005. 
+80. S. Ma, M. Skarica, Q. Li, C. Xu, R. D. Risgaard, A. T. N. Tebbenkamp, X. Mato-Blanco, R. 
+Kovner, Ž. Krsnik, X. De Martin, V. Luria, X. Martí-Pérez, D. Liang, A. Karger, D. K. 20 
+Schmidt, Z. Gomez-Sanchez, C. Qi, K. T. Gobeske, S. Pochareddy, A. Debnath, C. J. 
+Hottman, J. Spurrier, L. Teo, A. G. Boghdadi, J. Homman-Ludiye, J. J. Ely, E. W. Daadi, 
+D. Mi, M. Daadi, O. Marín, P. R. Hof, M.-R. Rasin, J. Bourne, C. C. Sherwood, G. 
+Santpere, M. J. Girgenti, S. M. Strittmatter, A. M. M. Sousa, & N. Sestan, Molecular and 
+cellular evolution of the primate dorsolateral prefrontal cortex. Science 377, (2022). 25 
+https://doi.org/10.1126/science.abo7257. 
+81. D. Gokhman, E. Lavi, K. Prüfer, M. F. Fraga, J. A. Riancho, J. Kelso, S. Pääbo, E. 
+Meshorer, & L. Carmel, Reconstructing the DNA methylation maps of the Neandertal and 
+the Denisovan. Science (New York, N.Y.) 344, 523–527 (2014). 
+https://doi.org/10.1126/science.1250368. 30 
+82. D. Gokhman, M. Nissim-Rafinia, L. Agranat-Tamir, G. Housman, R. García-Pérez, E. 
+Lizano, O. Cheronet, S. Mallick, M. A. Nieves-Colón, H. Li, S. Alpaslan-Roodenberg, M. 
+Novak, H. Gu, J. M. Osinski, M. Ferrando-Bernal, P. Gelabert, I. Lipende, D. Mjungu, I. 
+Kondova, R. Bontrop, O. Kullmer, G. Weber, T. Shahar, M. Dvir-Ginzberg, M. Faerman, 
+E. E. Quillen, A. Meissner, Y. Lahav, L. Kandel, M. Liebergall, M. E. Prada, J. M. Vidal, 35 
+R. M. Gronostajski, A. C. Stone, B. Yakir, C. Lalueza-Fox, R. Pinhasi, D. Reich, T. 
+Marques-Bonet, E. Meshorer, & L. Carmel, Differential DNA methylation of vocal and 
+facial anatomy genes in modern humans. Nature Communications 11, 1189 (2020). 
+https://doi.org/10.1038/s41467-020-15020-6. 
+83. P. Marler, Birdsong and Speech Development: Could There Be Parallels?. American 40 
+Scientist 669–693 (1970). 
+
+PAGE 24
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+24 
+ 
+84. I. Pepperberg, K. J. Brese, & B. J. Harris, Solitary sound play during acquisition of English 
+vocalizations by an African Grey parrot (Psittacus erithacus): Possible parallels with 
+children’s monologue speech. Applied Psycholinguistics 12, 151–178 (1991). 
+85. A. A. Fernandez, L. S. Burchardt, M. Nagy, & M. Knörnschild, Babbling in a vocal 
+learning bat resembles human infant babbling. Science (New York, N.Y.) 373, 923–926 5 
+(2021). https://doi.org/10.1126/science.abf9279. 
+86. M. Knörnschild, O. Behr, & O. von Helversen, Babbling behavior in the sac-winged bat 
+(Saccopteryx bilineata). Die Naturwissenschaften 93, 451–454 (2006). 
+https://doi.org/10.1007/s00114-006-0127-9. 
+87. L. A. Petitto & P. F. Marentette, Babbling in the manual mode: evidence for the ontogeny 10 
+of language. Science (New York, N.Y.) 251, 1493–1496 (1991). 
+https://doi.org/10.1126/science.2006424. 
+88. L. A. Petitto, S. Holowka, L. E. Sergio, B. Levy, & D. J. Ostry, Baby hands that move to 
+the rhythm of language: hearing babies acquiring sign languages babble silently on the 
+hands. Cognition 93, 43–73 (2004). https://doi.org/10.1016/j.cognition.2003.10.007. 15 
+89. D. K. Oller, R. E. Eilers, D. H. Bull, & A. E. Carney, Prespeech Vocalizations of a Deaf 
+Infant. Journal of Speech, Language, and Hearing Research 28, 47–63 (1985). 
+https://doi.org/10.1044/jshr.2801.47. 
+90. R. Dooling & M. Searcy, Early perceptual selectivity in the swamp sparrow. Developmental 
+Psychobiology 13, (1980). 20 
+91. P. Adret, Operant conditioning, song learning and imprinting to taped song in the zebra 
+finch. Animal Behaviour 46, 149–159 (1993). 
+92. L. V. Riters, J. A. Spool, D. P. Merullo, & A. H. Hahn, Song practice as a rewarding form 
+of play in songbirds. Behavioural Processes 163, 91–98 (2019). 
+https://doi.org/10.1016/j.beproc.2017.10.002. 25 
+93. M. G. Kearney, T. L. Warren, E. Hisey, J. Qi, & R. Mooney, Discrete evaluative and 
+premotor circuits enable vocal learning in songbirds. Neuron 104, 559–575 (2019). 
+94. Y. Kim, S. Kwon, R. Rajan, C. Mori, & S. Kojima, Intrinsic motivation for singing in 
+songbirds is enhanced by temporary singing suppression and regulated by dopamine. 
+Scientific Reports 11, 20350 (2021). 30 
+95. E. Hisey, M. G. Kearney, & R. Mooney, A common neural circuit mechanism for internally 
+guided and externally reinforced forms of motor learning. Nature Neuroscience 21, 589–
+597 (2018). https://doi.org/10.1038/s41593-018-0092-6. 
+96. M. Tanaka, F. Sun, Y. Li, & R. Mooney, A mesocortical dopamine circuit enables the 
+cultural transmission of vocal behaviour. Nature 563, 117–120 (2018). 35 
+https://doi.org/10.1038/s41586-018-0636-7. 
+
+PAGE 25
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+25 
+ 
+97. E. Fedorenko, A. A. Ivanova, & T. I. Regev, The language network as a natural kind within 
+the broader landscape of the human brain. Nature Reviews Neuroscience 25, 289–312 
+(2024). https://doi.org/10.1038/s41583-024-00802-4. 
+98. J. Sierpowska, K. L. Bryant, N. Janssen, G. Blazquez Freches, M. Römkens, M. Mangnus, 
+R. B. Mars, & V. Piai, Comparing human and chimpanzee temporal lobe neuroanatomy 5 
+reveals modifications to human language hubs beyond the frontotemporal arcuate 
+fasciculus. Proceedings of the National Academy of Sciences 119, e2118295119 (2022). 
+https://doi.org/10.1073/pnas.2118295119. 
+99. G. Gallardo, C. Eichner, C. C. Sherwood, W. D. Hopkins, A. Anwander, & A. D. 
+Friederici, Morphological evolution of language-relevant brain areas. PLOS Biology 21, 10 
+e3002266 (2023). https://doi.org/10.1371/journal.pbio.3002266. 
+100. A. D. Friederici, R. M. Wittig, A. Anwander, C. Eichner, T. Gräßle, C. Jäger, E. Kirilina, I. 
+Lipp, A. Düx, L. J. Edwards, C. Girard-Buttoz, A. Jauch, K. S. Kopp, M. Paquette, K. J. 
+Pine, S. Unwin, D. B. M. Haun, F. H. Leendertz, R. McElreath, M. Morawski, P. Gunz, N. 
+Weiskopf, C. Crockford, EBC Consortium, D. Ashoff, K. Albig, B. Amarasekaran, S. 15 
+Angedakin, A. Anwander, C. Asiimwe, C. Bock, B. Blazey, A. Bernhard, J. C. Beehner, 
+L. Bailanda, R. Belais, T. J. Bergman, D. Böttcher, T. Bortolato, P. Carlier, J. Chantrey, C. 
+Crockford, D. Denk, T. Deschner, A. Düx, L. J. Edwards, C. Eichner, D. Encke, G. 
+Escoubas, M. Ettaj, P. Fedurek, K. Flores, A. Romero Florero, R. Franke, A. D. Friederici, 
+C. Girard-Buttoz, J. Gomez Fortun, T. Gräßle, E. Gruber-Dujardin, P. Gunz, S. 20 
+Hambrecht, F. Hansmann, J. Hartel, D. B. Haun, M. Henshall, C. Hobaiter, N. Hofman, J. 
+E. Jaffe, C. Jäger, A. Jauch, S. Karhemere, E. Kirilina, R. Klopfleisch, T. Knauf-Witzens, 
+K. Kopp, B. Lange, K. E. Langergraber, A. Lawrenz, K. Lee, F. H. Leendertz, I. Lipp, M. 
+Liptovszky, C. Patricia Lumbu, P. Makouloutou Nzassi, G. Landry Mamboundou 
+Kouima, K. Mätz-Rensing, R. McElreath, Z. Mezö, F. Minesi, S. Moittie, T. Møller, M. 25 
+Morawski, D. Morgan, M. Müller, T. Mugabe, M. Muller, K. Olofsson-Sannö, A. Ondzie, 
+E. Otali, M. Paquette, S. Pika, K. J. Pine, A. Pizarro, K. Pleh, S. Reichler-Danielowski, J. 
+Rendel, M. M. Robbins, K. Ruske, L. Samuni, C. Sanz, J. Schinköthe, A. Schüle, I. 
+Schwabe, K. Schwalm, A. Sebastiampillai, L. Southern, S. Speede, J. Steiner, M. F. 
+Stidworthy, M. Surbeck, C. A. Szentiks, T. Tanga, T. Loubser Theron, R. Ulrich, S. 30 
+Unwin, E. van de Waal, S. Walker, N. Weiskopf, G. Wibbelt, N. Widulin, H. Will, R. M 
+Wittig, K. Wood, E. Zaccarella, & K. Zuberbühler, Brain structure and function: a 
+multidisciplinary pipeline to study hominoid brain evolution. Frontiers in Integrative 
+Neuroscience 17, (2024). https://doi.org/10.3389/fnint.2023.1299087. 
+101. S. Kirby, Spontaneous evolution of linguistic structure-an iterated learning model of the 35 
+emergence of regularity and irregularity. IEEE Transactions on Evolutionary Computation 
+5, 102–110 (2001). https://doi.org/10.1109/4235.918430. 
+102. C. Kemp, Y. Xu, & T. Regier, Semantic Typology and Efficient Communication. Annual 
+Review of Linguistics 4, 109–128 (2018). https://doi.org/10.1146/annurev-linguistics-
+011817-045406. 40 
+
+PAGE 26
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+26 
+ 
+103. E. Gibson, R. Futrell, S. P. Piantadosi, I. Dautriche, K. Mahowald, L. Bergen, & R. Levy, 
+How Efficiency Shapes Human Language. Trends in Cognitive Sciences 23, 389–407 
+(2019). https://doi.org/10.1016/j.tics.2019.02.003. 
+104. K. Smith, How Language Learning and Language Use Create Linguistic Structure. Current 
+Directions in Psychological Science 31, 177–186 (2022). 5 
+https://doi.org/10.1177/09637214211068127. 
+105. B. De Boer, W. Sandler, & S. Kirby, New perspectives on duality of patterning: 
+Introduction to the special issue. Language and Cognition 4, 251–259 (2012). 
+https://doi.org/10.1515/langcog-2012-0014. 
+106. T. Verhoef, S. Kirby, & B. de Boer, Emergence of combinatorial structure and economy 10 
+through iterated learning with continuous acoustic signals. Journal of Phonetics 43, 57–68 
+(2014). 
+107. H. Little, K. Eryılmaz, & B. de Boer, Signal dimensionality and the emergence of 
+combinatorial structure. Cognition 168, 1–15 (2017). 
+https://doi.org/10.1016/j.cognition.2017.06.011. 15 
+108. G. Roberts, J. Lewandowski, & B. Galantucci, How communication changes when we 
+cannot mime the world: Experimental evidence for the effect of iconicity on 
+combinatoriality. Cognition 141, 52–66 (2015). 
+https://doi.org/10.1016/j.cognition.2015.04.001. 
+109. W. Sandler, C. Padden, & M. Aronoff, Emerging Sign Languages. Languages 7, (2022). 20 
+https://doi.org/10.3390/languages7040284. 
+110. T. C. Scott-Phillips & S. Kirby, Language evolution in the laboratory. Trends in Cognitive 
+Sciences 14, 411–417 (2010). https://doi.org/10.1016/j.tics.2010.06.006. 
+111. M. Tamariz, Experimental Studies on the Cultural Evolution of Language. Annual Review 
+of Linguistics 3, 389–407 (2017). https://doi.org/10.1146/annurev-linguistics-011516-25 
+033807. 
+112. S. Goldin-Meadow & C. Mylander, Spontaneous sign systems created by deaf children in 
+two cultures. Nature 391, 279–281 (1998). https://doi.org/10.1038/34646. 
+113. A. Senghas, S. Kita, & A. Özyürek, Children Creating Core Properties of Language: 
+Evidence from an Emerging Sign Language in Nicaragua. Science 305, 1779–1782 30 
+(2004). https://doi.org/10.1126/science.1100199. 
+114. S. Goldin-Meadow, D. Brentari, M. Coppola, L. Horton, & A. Senghas, Watching language 
+grow in the manual modality: Nominals, predicates, and handshapes. Cognition 136, 381–
+395 (2015). https://doi.org/10.1016/j.cognition.2014.11.029. 
+115. D. Hunsicker & S. Goldin-Meadow, Hierarchical structure in a self-created communication 35 
+system: Building nominal constituents in homesign. Language 88, 732–763 (2012). 
+https://doi.org/10.1353/lan.2012.0092. 
+
+PAGE 27
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+27 
+ 
+116. A. Senghas, A. Özyürek, & S. Goldin-Meadow, "Homesign as a way-station between co-
+speech gesture and sign language: the evolution of segmenting and sequencing" in Evol. 
+Emergence Lang. Evid. Inference, R. Botha, & M. Everaert,eds. (OUP Oxford, 2013), pp. 
+62–76. 
+117. S. Goldin-Meadow, W. C. So, A. Özyürek, & C. Mylander, The natural order of events: 5 
+How speakers of different languages represent events nonverbally. Proceedings of the 
+National Academy of Sciences 105, 9163–9168 (2008). 
+https://doi.org/10.1073/pnas.0710060105. 
+118. Ş. Özçalışkan, C. Lucero, & S. Goldin-Meadow, Does language shape silent gesture?. 
+Cognition 148, 10–18 (2016). https://doi.org/10.1016/j.cognition.2015.12.001. 10 
+119. Y. Motamedi, M. Schouwstra, & S. Kirby, An evolutionary approach to sign language 
+emergence: From state to process. Behavioral and Brain Sciences 40, e65 (2017). 
+https://doi.org/10.1017/S0140525X15003003. 
+120. J. Winters, S. Kirby, & K. Smith, Contextual predictability shapes signal autonomy. 
+Cognition 176, 15–30 (2018). https://doi.org/10.1016/j.cognition.2018.03.002. 15 
+121. S. Kirby, Y. Motamedi, L. Wolters, & K. Smith, Compositionality Arises From Iterated 
+Learning Despite a Preference for Holistic Signals: An Experimental Model of Sign 
+Language Emergence. Proceedings of the Joint Conference on Language Evolution 
+(JCoLE) 402–404 (2022). 
+122. J. Nölle, M. Staib, R. Fusaroli, & K. Tylén, The emergence of systematicity: How 20 
+environmental and communicative factors shape a novel communication system. 
+Cognition 181, 93–104 (2018). https://doi.org/10.1016/j.cognition.2018.08.014. 
+123. R. Selten & M. Warglien, The emergence of simple languages in an experimental 
+coordination game. Proceedings of the National Academy of Sciences 104, 7361–7366 
+(2007). https://doi.org/10.1073/pnas.0702077104. 25 
+124. A. Wray, Protolanguage as a holistic system for social interaction. Language & 
+Communication 18, 47–67 (1998). https://doi.org/10.1016/S0271-5309(97)00033-5. 
+125. S. Kirby, "Syntax without natural selection: How compositionality emerges from 
+vocabulary in a population of learners." in Evol. Emergence Lang. Soc. Funct. Orig. 
+Linguist. Form, (2000), pp. 303–323. 30 
+126. I. Arnon, The Starting Big approach to language learning. Journal of Child Language 48, 
+937–958 (2021). https://doi.org/10.1017/S0305000921000386. 
+127. I. Arnon & N. Snider, More than words: Frequency effects for multi-word phrases. Journal 
+of Memory and Language 62, 67–82 (2010). https://doi.org/10.1016/j.jml.2009.09.005. 
+128. S. Goldin-Meadow, C. Mylander, & C. Butcher, The resilience of combinatorial structure at 35 
+the word level: morphology in self-styled gesture systems. Cognition 56, 195–262 (1995). 
+https://doi.org/10.1016/0010-0277(95)00662-I. 
+
+PAGE 28
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+28 
+ 
+129. S. Goldin-Meadow & I. Arnon, Whole-to-part development in language creation. Trends in 
+Cognitive Sciences 29, 12–14 (2025). https://doi.org/10.1016/j.tics.2024.09.015. 
+130. B. Skarabela, M. Ota, R. O’Connor, & I. Arnon, ‘Clap your hands’ or ‘take your hands’? 
+One-year-olds distinguish between frequent and infrequent multiword phrases. Cognition 
+211, 104612 (2021). https://doi.org/10.1016/j.cognition.2021.104612. 5 
+131. I. Arnon & M. Ramscar, Granularity and the acquisition of grammatical gender: How 
+order-of-acquisition affects what gets learned. Cognition 122, 292–305 (2012). 
+https://doi.org/10.1016/j.cognition.2011.10.009. 
+132. N. Siegelman & I. Arnon, The advantage of starting big: Learning from unsegmented input 
+facilitates mastery of grammatical gender in an artificial language. Journal of Memory and 10 
+Language 85, 60–75 (2015). https://doi.org/10.1016/j.jml.2015.07.003. 
+133. E. Ochs, "Transcription as theory." in Dev. Pragmat., E. Ochs, & B. Schieffelin,eds. (New 
+York: Academic Press, 1979), pp. 43–72. 
+134. A. M. Peters, The Units of Language Acquisition (Cambridge: Cambridge University Press, 
+1983). 15 
+135. S. Goldin-Meadow, The resilience of language:  What gesture creation in deaf children can 
+tell us about how all children learn language. (New York: Psychology Press., 2003). 
+136. S. Goldin-Meadow, C. Mylander, & A. Franklin, How children make language out of 
+gesture: Morphological structure in gesture systems developed by American and Chinese 
+deaf children. Cognitive Psychology 55, 87–135 (2007). 20 
+https://doi.org/10.1016/j.cogpsych.2006.08.001. 
+137. C. Grund, G. Badihi, K. E. Graham, A. Safryghin, & C. Hobaiter, GesturalOrigins: A 
+bottom-up framework for establishing systematic gesture data across ape species. 
+Behavior Research Methods 56, 986–1001 (2024). https://doi.org/10.3758/s13428-023-
+02082-9. 25 
+138. Y. Prat, Animals Have No Language, and Humans Are Animals Too. Perspectives on 
+Psychological Science 14, 885–893 (2019). https://doi.org/10.1177/1745691619858402. 
+139. D. L. Cheney & R. M. Seyfarth, Baboon Metaphysics: The Evolution of a Social Mind 
+(University of Chicago Press, 2008). https://doi.org/10.7208/9780226102429. 
+140. J. R. Saffran, R. N. Aslin, & E. L. Newport, Statistical Learning by 8-Month-Old Infants. 30 
+Science 274, 1926–1928 (1996). https://doi.org/10.1126/science.274.5294.1926. 
+141. I. Arnon, S. Kirby, J. A. Allen, C. Garrigue, E. L. Carroll, & E. C. Garland, Whale song 
+shows language-like statistical structure. Science 387, 649–653 (2025). 
+https://doi.org/10.1126/science.adq7055. 
+142. Y. Yovel & O. Rechavi, AI and the Doctor Dolittle challenge. Current Biology 33, R783–35 
+R787 (2023). https://doi.org/10.1016/j.cub.2023.06.063. 
+
+PAGE 29
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+29 
+ 
+143. C. Rutz, M. Bronstein, A. Raskin, S. C. Vernes, K. Zacarian, & D. E. Blasi, Using machine 
+learning to decode animal communication. Science 381, 152–155 (2023). 
+https://doi.org/10.1126/science.adg7314. 
+144. C. Hobaiter, K. E. Graham, & R. W. Byrne, Are ape gestures like words? Outstanding 
+issues in detecting similarities and differences between human language and ape gesture. 5 
+Philosophical Transactions of the Royal Society B: Biological Sciences 377, 20210301 
+(2022). https://doi.org/10.1098/rstb.2021.0301. 
+145. S. Kirby, T. Griffiths, & K. Smith, Iterated learning and the evolution of language. Current 
+Opinion in Neurobiology 28, 108–114 (2014). https://doi.org/10.1016/j.conb.2014.07.014. 
+146. A. Cangelosi & D. Parisi, Simulating the Evolution of Language (Springer Science & 10 
+Business Media, 2012). 
+147. W. T. Fitch, Toward a computational framework for cognitive biology: Unifying 
+approaches from cognitive neuroscience and comparative cognition. Physics of Life 
+Reviews 11, 329–364 (2014). https://doi.org/10.1016/j.plrev.2014.04.005. 
+148. S. Ferrigno, S. J. Cheyette, S. T. Piantadosi, & J. F. Cantlon, Recursive sequence generation 15 
+in monkeys, children, U.S. adults, and native Amazonians. Science Advances 6, eaaz1002 
+(2020). https://doi.org/10.1126/sciadv.aaz1002. 
+149. X. Jiang, T. Long, W. Cao, J. Li, S. Dehaene, & L. Wang, Production of Supra-regular 
+Spatial Sequences by Macaque Monkeys. Current biology: CB 28, 1851-1859.e4 (2018). 
+https://doi.org/10.1016/j.cub.2018.04.047. 20 
+150. T. J. Bergman, J. C. Beehner, D. L. Cheney, & R. M. Seyfarth, Hierarchical Classification 
+by Rank and Kinship in Baboons. Science 302, 1234–1236 (2003). 
+https://doi.org/10.1126/science.1087513. 
+151. G. Schino, B. Tiddi, & E. P. Di Sorrentino, Simultaneous classification by rank and kinship 
+in Japanese macaques. Animal Behaviour 71, 1069–1074 (2006). 25 
+https://doi.org/10.1016/j.anbehav.2005.07.019. 
+152. O. Mascaro, N. Goupil, H. Pantecouteau, A. Depierreux, J.-B. Van der Henst, & N. 
+Claidière, Human and animal dominance hierarchies show a pyramidal structure guiding 
+adult and infant social inferences. Nature Human Behaviour 7, 1294–1306 (2023). 
+https://doi.org/10.1038/s41562-023-01634-5. 30 
+153. A. D. Patel, Language, music, syntax and the brain. Nature Neuroscience 6, 674–681 
+(2003). https://doi.org/10.1038/nn1082. 
+154. E. C. Garland & P. K. McGregor, Cultural Transmission, Evolution, and Revolution in 
+Vocal Displays: Insights From Bird and Whale Song. Frontiers in Psychology 11, (2020). 
+https://doi.org/10.3389/fpsyg.2020.544929. 35 
+
+PAGE 30
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+30 
+ 
+155. M. de J. D. Martins, Z. Muršič, J. Oh, & W. T. Fitch, Representing visual recursion does 
+not require verbal or motor resources. Cognitive Psychology 77, 20–41 (2015). 
+https://doi.org/10.1016/j.cogpsych.2015.01.004. 
+156. G. Westphal-Fitch, B. Giustolisi, C. Cecchetto, J. S. Martin, & W. T. Fitch, Artificial 
+Grammar Learning Capabilities in an Abstract Visual Task Match Requirements for 5 
+Linguistic Syntax. Frontiers in Psychology 9, (2018). 
+https://doi.org/10.3389/fpsyg.2018.01210. 
+157. J. Hyland Bruno, E. D. Jarvis, M. Liberman, & O. Tchernichovski, Birdsong Learning and 
+Culture: Analogies with Human Spoken Language. Annual Review of Linguistics 7, 449–
+472 (2021). https://doi.org/10.1146/annurev-linguistics-090420-121034. 10 
+158. H. Williams & R. F. Lachlan, Evidence for cumulative cultural evolution in bird song. 
+Philosophical Transactions of the Royal Society B: Biological Sciences 377, 20200322 
+(2022). https://doi.org/10.1098/rstb.2020.0322. 
+159. W. H. Thorpe, Bird-song: the biology of vocal communication and expression in birds. 
+(1961). 15 
+160. P. Marler, "The instinct to learn" in Epigenesis Mind Essays Biol. Cogn., (Psychology 
+Press, 2014), pp. 37–66. 
+161. O. Fehér, H. Wang, S. Saar, P. P. Mitra, & O. Tchernichovski, De novo establishment of 
+wild-type song culture in the zebra finch. Nature 459, 564–568 (2009). 
+https://doi.org/10.1038/nature07994. 20 
+162. O. Fehér, I. Ljubičić, K. Suzuki, K. Okanoya, & O. Tchernichovski, Statistical learning in 
+songbirds: from self-tutoring to song culture. Philosophical Transactions of the Royal 
+Society of London. Series B, Biological Sciences 372, 20160053 (2017). 
+https://doi.org/10.1098/rstb.2016.0053. 
+163. C. I. Petkov & C. ten Cate, Structured Sequence Learning: Animal Abilities, Cognitive 25 
+Operations, and Language Evolution. Topics in Cognitive Science 12, 828–842 (2020). 
+https://doi.org/10.1111/tops.12444. 
+164. C. Santolin & J. R. Saffran, Constraints on Statistical Learning Across Species. Trends in 
+Cognitive Sciences 22, 52–63 (2018). https://doi.org/10.1016/j.tics.2017.10.003. 
+165. B. Wilson, M. Spierings, A. Ravignani, J. L. Mueller, T. H. Mintz, F. Wijnen, A. van der 30 
+Kant, K. Smith, & A. Rey, Non-adjacent Dependency Learning in Humans and Other 
+Animals. Topics in Cognitive Science 12, 843–858 (2020). 
+https://doi.org/10.1111/tops.12381. 
+166. K. Zuberbühler, Combinatorial capacities in primates. Current Opinion in Behavioral 
+Sciences 21, 161–169 (2018). https://doi.org/10.1016/j.cobeha.2018.03.015. 35 
+167. C. Girard-Buttoz, E. Zaccarella, T. Bortolato, A. D. Friederici, R. M. Wittig, & C. 
+Crockford, Chimpanzees produce diverse vocal sequences with ordered and 
+
+PAGE 31
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+31 
+ 
+recombinatorial properties. Communications Biology 5, 410 (2022). 
+https://doi.org/10.1038/s42003-022-03350-8. 
+168. Q. Gallot, C. Depriester, S. Moran, & K. Zuberbühler, A non-human primate combinatorial 
+system for long-distance communication. iScience 27, (2024). 
+https://doi.org/10.1016/j.isci.2024.111172. 5 
+169. N. Claidière, K. Smith, S. Kirby, & J. Fagot, Cultural evolution of systematically structured 
+behaviour in a non-human primate. Proceedings of the Royal Society B: Biological 
+Sciences 281, (2014). https://doi.org/10.1098/rspb.2014.1541. 
+170. E. V. Clark, "Language is Acquired in Interaction" in Algebr. Struct. Nat. Lang., (CRC 
+Press, 2022). 10 
+171. M. Tomasello, The social bases of language acquisition. Social Development 1, 67–87 
+(1992). https://doi.org/10.1111/j.1467-9507.1992.tb00135.x. 
+172. S. R. Lytle & P. K. Kuhl, "Social Interaction and Language Acquisition" in Handbook 
+Psycholinguist., (John Wiley & Sons, Ltd, 2017), pp. 615–634. 
+https://doi.org/10.1002/9781118829516.ch27. 15 
+173. M. Babineau, R. Shi, & A. Christophe, 14-month-olds exploit verbs’ syntactic contexts to 
+build expectations about novel words. Infancy 25, 719–733 (2020). 
+https://doi.org/10.1111/infa.12354. 
+174. J. Gervain & J. F. Werker, Prosody cues word order in 7-month-old bilingual infants. 
+Nature Communications 4, 1490 (2013). https://doi.org/10.1038/ncomms2430. 20 
+175. M. H. Goldstein, A. P. King, & M. J. West, Social interaction shapes babbling: Testing 
+parallels between birdsong  and speech. Proceedings of the National Academy of Sciences 
+100, 8030–8035 (2003). https://doi.org/10.1073/pnas.1332441100. 
+176. P. K. Kuhl, F.-M. Tsao, & H.-M. Liu, Foreign-language experience in infancy: Effects of 
+short-term exposure and social interaction on phonetic learning. Proceedings of the 25 
+National Academy of Sciences 100, 9096–9101 (2003). 
+https://doi.org/10.1073/pnas.1532872100. 
+177. S. Goldin-Meadow, Thinking with Your Hands: The Surprising Science Behind How 
+Gestures Shape Our Thoughts (Hachette UK, 2023). 
+178. E. V. Clark, Conversational Repair and the Acquisition of Language. Discourse Processes 30 
+57, 441–459 (2020). https://doi.org/10.1080/0163853X.2020.1719795. 
+179. W. T. Fitch, L. Huber, & T. Bugnyar, Social Cognition and the Evolution of Language: 
+Constructing Cognitive Phylogenies. Neuron 65, 795–814 (2010). 
+https://doi.org/10.1016/j.neuron.2010.03.011. 
+
+PAGE 32
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+32 
+ 
+180. S. C. Levinson, "Interactional Foundations of Language: The Interaction Engine 
+Hypothesis" in Hum. Lang., P. Hagoort,ed. (The MIT Press, 2019), pp. 189–200. 
+https://doi.org/10.7551/mitpress/10841.003.0018. 
+181. D. I. Tsomokos & L. Raviv, A bidirectional association between language development and 
+prosocial behavior in childhood: Evidence from a longitudinal birth cohort in the United 5 
+Kingdom. Developmental Psychology (2024). https://doi.org/10.1037/dev0001875. 
+182. R. Ensor, D. Spencer, & C. Hughes, ‘You Feel Sad?’ Emotion Understanding Mediates 
+Effects of Verbal Ability and Mother–Child Mutuality on Prosocial Behaviors: Findings 
+from 2 Years to 4 Years. Social Development 20, 93–110 (2011). 
+https://doi.org/10.1111/j.1467-9507.2009.00572.x. 10 
+183. E. Longobardi, P. Spataro, A. Frigerio, & L. Rescorla, Gender differences in the 
+relationship between language and social competence in preschool children. Infant 
+Behavior and Development 43, 1–4 (2016). https://doi.org/10.1016/j.infbeh.2016.03.001. 
+184. E. Longobardi, P. Spataro, & C. Rossi-Arnaud, Direct and Indirect Associations of 
+Empathy, Theory of Mind, and Language with Prosocial Behavior: Gender Differences in 15 
+Primary School Children. The Journal of Genetic Psychology 180, 266–279 (2019). 
+https://doi.org/10.1080/00221325.2019.1653817. 
+185. V. Ornaghi, A. Pepe, & I. Grazzani, False-Belief Understanding and Language Ability 
+Mediate the Relationship between Emotion Comprehension and Prosocial Orientation in 
+Preschoolers. Frontiers in Psychology 7, (2016). 20 
+https://doi.org/10.3389/fpsyg.2016.01534. 
+186. M. Fujiki, B. Brinton, & C. M. Todd, Social Skills of Children With Specific Language 
+Impairment. Language, Speech, and Hearing Services in Schools 27, 195–202 (1996). 
+https://doi.org/10.1044/0161-1461.2703.195. 
+187. N. P. van den Bedem, J. E. Dockrell, P. M. van Alphen, S. V. Kalicharan, & C. Rieffe, 25 
+Victimization, Bullying, and Emotional Competence: Longitudinal Associations in 
+(Pre)Adolescents With and Without Developmental Language Disorder. Journal of 
+Speech, Language, and Hearing Research 61, 2028–2044 (2018). 
+https://doi.org/10.1044/2018_JSLHR-L-17-0429. 
+188. C. L. Forrest, J. L. Gibson, S. L. Halligan, & M. C. St Clair, A longitudinal analysis of early 30 
+language difficulty and peer problems on later emotional difficulties in adolescence: 
+Evidence from the Millennium Cohort Study. Autism & Developmental Language 
+Impairments 3, 2396941518795392 (2018). https://doi.org/10.1177/2396941518795392. 
+189. M. J. West & A. P. King, Female visual displays affect the development of male song in the 
+cowbird. Nature 334, 244–246 (1988). https://doi.org/10.1038/334244a0. 35 
+190. S. Carouso-Peck, O. Menyhart, T. J. DeVoogd, & M. H. Goldstein, Contingent parental 
+responses are naturally associated with zebra finch song learning. Animal Behaviour 165, 
+123–132 (2020). https://doi.org/10.1016/j.anbehav.2020.04.019. 
+
+PAGE 33
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+33 
+ 
+191. Y. Chen, L. E. Matheson, & J. T. Sakata, Mechanisms underlying the social enhancement 
+of vocal learning in songbirds. Proceedings of the National Academy of Sciences of the 
+United States of America 113, 6641–6646 (2016). 
+https://doi.org/10.1073/pnas.1522306113. 
+192. S. Yanagihara & Y. Yazaki-Sugiyama, Social interaction with a tutor modulates 5 
+responsiveness of specific auditory neurons in juvenile zebra finches. Behavioural 
+Processes 163, 32–36 (2019). https://doi.org/10.1016/j.beproc.2018.04.003. 
+193. P. M. Greenfield & E. S. Savage-Rumbaugh, Comparing communicative competence in 
+child and chimp: the pragmatics of repetition. Journal of Child Language 20, 1–26 (1993). 
+https://doi.org/10.1017/S0305000900009090. 10 
+194. C. Yang, Ontogeny and phylogeny of language. Proceedings of the National Academy of 
+Sciences 110, 6324–6327 (2013). https://doi.org/10.1073/pnas.1216803110. 
+195. M. Takahasi & K. Okanoya, Song Learning in Wild and Domesticated Strains of White-
+Rumped Munia, Lonchura striata, Compared by Cross-Fostering Procedures: 
+Domestication Increases Song Variability by Decreasing Strain-Specific Bias. Ethology 15 
+116, 396–405 (2010). https://doi.org/10.1111/j.1439-0310.2010.01761.x. 
+196. M. Takahasi, H. Yamada, & K. Okanoya, Statistical and Prosodic Cues for Song 
+Segmentation Learning by Bengalese Finches (Lonchura striata var. domestica). Ethology 
+116, 481–489 (2010). https://doi.org/10.1111/j.1439-0310.2010.01772.x. 
+197. K. Suzuki, H. Yamada, T. Kobayashi, & K. Okanoya, Decreased fecal corticosterone levels 20 
+due to domestication: a comparison between the white-backed Munia (Lonchura striata) 
+and its domesticated strain, the Bengalese finch (Lonchura striata var. domestica) with a 
+suggestion for complex song evolution. Journal of Experimental Zoology. Part A, 
+Ecological Genetics and Physiology 317, 561–570 (2012). 
+https://doi.org/10.1002/jez.1748. 25 
+198. K. Suzuki & K. Okanoya, Domestication effects on aggressiveness: Comparison of biting 
+motivation and bite force between wild and domesticated finches. Behavioural Processes 
+193, 104503 (2021). https://doi.org/10.1016/j.beproc.2021.104503. 
+199. K. Suzuki, M. Ikebuchi, H. Kagawa, T. Koike, & K. Okanoya, Effects of domestication on 
+neophobia: A comparison between the domesticated Bengalese finch (Lonchura striata 30 
+var. domestica) and its wild ancestor, the white-rumped munia (Lonchura striata). 
+Behavioural Processes 193, 104502 (2021). https://doi.org/10.1016/j.beproc.2021.104502. 
+200. E. Honda & K. Okanoya, Acoustical and Syntactical Comparisons between Songs of the 
+White-backed Munia (Lonchura striata) and Its Domesticated Strain, the Bengalese Finch 
+(Lonchura striata var. domestica). Zoological Science 16, 319–326 (1999). 35 
+https://doi.org/10.2108/zsj.16.319. 
+201. Y. Tobari, C. Theofanopoulou, C. Mori, Y. Sato, M. Marutani, S. Fujioka, N. Konno, K. 
+Suzuki, A. Furutani, S. Hakataya, C.-T. Yao, E.-Y. Yang, C.-R. Tsai, P.-C. Tang, C.-F. 
+Chen, C. Boeckx, E. D. Jarvis, & K. Okanoya, Oxytocin variation and brain region-
+
+PAGE 34
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+34 
+ 
+specific gene expression in a domesticated avian species. Genes, Brain and Behavior 21, 
+e12780 (2022). https://doi.org/10.1111/gbb.12780. 
+202. T. O’Rourke, P. T. Martins, R. Asano, R. O. Tachibana, K. Okanoya, & C. Boeckx, 
+Capturing the Effects of Domestication on Vocal Learning Complexity. Trends in 
+Cognitive Sciences 25, 462–474 (2021). https://doi.org/10.1016/j.tics.2021.03.007. 5 
+203. K. M. Kendrick, The Neurobiology of Social Bonds. Journal of Neuroendocrinology 16, 
+1007–1008 (2004). https://doi.org/10.1111/j.1365-2826.2004.01262.x. 
+204. T. M. Love, Oxytocin, motivation and the role of dopamine. Pharmacology Biochemistry 
+and Behavior 119, 49–60 (2014). https://doi.org/10.1016/j.pbb.2013.06.011. 
+205. O. J. Bosch & L. J. Young, "Oxytocin and Social Relationships: From Attachment to Bond 10 
+Disruption" in Behav. Pharmacol. Neuropept. Oxytocin, R. Hurlemann, & V. 
+Grinevich,eds. (Cham: Springer International Publishing, 2018), pp. 97–117. 
+https://doi.org/10.1007/7854_2017_10. 
+206. B. Hare, Survival of the Friendliest: Homo sapiens Evolved via Selection for Prosociality. 
+Annual Review of Psychology 68, 155–186 (2017). https://doi.org/10.1146/annurev-psych-15 
+010416-044201. 
+207. L. Progovac & A. Benítez-Burraco, From Physical Aggression to Verbal Behavior: 
+Language Evolution and Self-Domestication Feedback Loop. Frontiers in Psychology 10, 
+(2019). https://doi.org/10.3389/fpsyg.2019.02807. 
+208. L. Raviv & S. Kirby, "Self-domestication and the Cultural Evolution of Language" in Oford 20 
+Handbook Cultural Evolution, (2023). 
+209. J. Thomas & S. Kirby, Self domestication and the evolution of language. Biology & 
+Philosophy 33, 9 (2018). https://doi.org/10.1007/s10539-018-9612-8. 
+210. T. M. Freeberg, R. I. M. Dunbar, & T. J. Ord, Social complexity as a proximate and 
+ultimate factor in communicative complexity. Philosophical Transactions of the Royal 25 
+Society B: Biological Sciences 367, 1785–1801 (2012). 
+https://doi.org/10.1098/rstb.2011.0213. 
+211. L. Raviv, L. R. Peckre, & C. Boeckx, What is simple is actually quite complex: A critical 
+note on terminology in the domain of language and communication. Journal of 
+Comparative Psychology (2022). https://doi.org/10.1037/com0000328. 30 
+212. A. Formaux, D. Sperber, J. Fagot, & N. Claidière, Guinea baboons are strategic 
+cooperators. Science Advances 9, eadi5282 (2023). https://doi.org/10.1126/sciadv.adi5282. 
+213. G. W. Hewes, R. J. Andrew, L. Carini, H. Choe, R. A. Gardner, A. Kortlandt, G. S. Krantz, 
+G. McBride, F. Nottebohm, J. Pfeiffer, D. G. Rumbaugh, H. D. Steklis, M. J. Raliegh, R. 
+Stopa, A. Suzuki, S. L. Washburn, & R. W. Wescott, Primate Communication and the 35 
+Gestural Origin of Language [and Comments and Reply]. Current Anthropology 14, 5–24 
+(1973). https://doi.org/10.1086/201401. 
+
+PAGE 35
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+35 
+ 
+214. M. C. Corballis, From mouth to hand: Gesture, speech, and the evolution of right-
+handedness. Behavioral and Brain Sciences 26, 199–208 (2003). 
+https://doi.org/10.1017/S0140525X03000062. 
+215. M. A. Arbib, From monkey-like action recognition to human language: An evolutionary 
+framework for neurolinguistics. Behavioral and Brain Sciences 28, 105–124 (2005). 5 
+https://doi.org/10.1017/S0140525X05000038. 
+216. P. F. MacNeilage & B. L. Davis, The Frame/Content theory of evolution of speech: A 
+comparison with a gestural-origins alternative. Interaction Studies 6, 173–199 (2005). 
+https://doi.org/10.1075/is.6.2.03mac. 
+217. D. McNeill, How Language Began: Gesture and Speech in Human Evolution (Cambridge: 10 
+Cambridge University Press, 2012). 
+218. K. Liebal, M. Carpenter, & M. Tomasello, Young children’s understanding of cultural 
+common ground. British Journal of Developmental Psychology 31, 88–96 (2013). 
+https://doi.org/10.1111/j.2044-835X.2012.02080.x. 
+219. M. A. Arbib, K. Liebal, & S. Pika, Primate Vocalization, Gesture, and the Evolution of 15 
+Human Language. Current Anthropology 49, 1053–1076 (2008). 
+https://doi.org/10.1086/593015. 
+220. S. Goldin-Meadow & D. McNeill, "The role of gesture and mimetic representation in 
+making language the province of speech" in Descent Mind, M.C. Corballis, & S. Lea,eds. 
+(Oxford: Oxford University Press, 1999), pp. 155–172. 20 
+ 
+Acknowledgments: We thank the Israel Institute for Advanced Studies for providing the funds 
+that allowed us to convene this research group, and for creating a truly unique space for deep and 
+intense intellectual exploration. We thank the participants of the 2023 workshop on “The Origins 
+of human language: a multidisciplinary perspective” for stimulating and insightful discussions. 25 
+(https://iias.huji.ac.il/event/origins-language-multidisciplinary-perspective-research-group-
+conference). All remaining mistakes are our own.  
+ 
+Funding:  
+Israel Institute for Advanced Studies research group fellowship (all authors) 30 
+Israel Science Foundation grant 445/20 (IA) 
+Institute for Language Communication and the Brain (ILCB) through the Agence Nationale 
+de la Recherche grant ANR-16-CONV-0002 (NC) 
+ANR TECHNICION grant ANR-21-CE28-0023-02 (NC) 
+SCALUP grant ANR-21-CE28-0016-02 (NC) 35 
+Japan Society for the Promotion of Sciences and Ministry of Education grant JP23H05428 
+(KO) 
+Ministry of Education, Culture, Sports, Science and Technology grant #4903 (KO) 
+
+PAGE 36
+Submitted Manuscript: What enables human language? A bio-cultural framework 
+36 
+ 
+Max Planck Society (LR, SEF) 
+NIDCD grant R01 DC00491 (SGM) 
+ 
+Author contributions: 
+Conceptualization: All authors contributed. 5 
+Visualization: LW, SK, NC, LC, & SEF. 
+Funding acquisition: IA & LC secured the funds for the research fellowship that led to the 
+development of the paper. 
+Project administration: IA & SEF. 
+Writing – original draft: IA & SEF created the first draft of the paper structure and led the 10 
+introduction. Case studies were drafted by SEF, WTF (vocal production learning), SK, IA 
+(emergence of structure), and LR, NC (prosociality). WTF led the writing of the discussion. 
+Figures were drafted by LW, together with SK (Fig. 1), SEF (Fig. 2), SGM (Fi g. 3), and 
+WTF (Figure 4). Table was drafted by SEF.   
+Writing – review & editing: Led by IA & SEF, all authors contributed. 15 
+ 
+Competing interests: All authors declare they have no competing interests.  
+ 

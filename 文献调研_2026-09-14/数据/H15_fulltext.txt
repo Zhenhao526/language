@@ -1,0 +1,759 @@
+PAGE 1
+FORUM
+Linguistic Hybridization in the Emergence
+of Creoles
+Salikoko S. Mufwene
+University of Chicago
+Email: mufw@uchicago.edu
+Abstract
+In this article I show how ubiquitous hybridity is in cultures. It is enabled by layers of
+population movements and contacts since the dispersal of Homo sapiens out of Africa
+around 50,000 years ago. I demonstrate how hybridization has proceeded in the emer-
+gence of creole language varieties and show that the same process has also driven, for
+instance, the emergence and differential evolution of English and the speciation of Vulgar
+Latin into the Romance languages. Differences in outcomes are determined by the
+specificities of the contact ecologies, including population structure, differences in the
+demographic proportions of the populations in contact and power relations between
+them, as well as patterns of population growth, among other factors. I argue that hybridity
+is not unique to languages. It is conspicuous in other domains of culture, including cuisine,
+music, clothing fashions, and technologies, for example. I submit a uniformitarian
+approach inspired by evolutionary biology to better understand how hybridization
+occurs.
+Keywords: hybridity; hybridization; population structure; language contact; feature pool;
+competition; selection; feature recombination; ecology
+Introduction
+The emergence of creoles has been a controversial topic since these language
+varieties, spoken primarily by people of non-European descent in especially
+former plantation settlement colonies, caught the attention of European philol-
+ogists and genetic linguists in the late nineteenth century. Except for Herman
+Paul,
+1 these precursors of modern linguists then conceived of languages as
+© The Author(s), 2022. Published by Cambridge University Press. This is an Open Access article, distributed under
+the terms of the Creative Commons Attribution licence ( http://creativecommons.org/licenses/by/4.0), which
+permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited.
+1 Herman Paul, Prinzipien der Sprachgeschichte (Halle: Niemeyer, 1880); also see Herman Paul,
+Principles of the history of language , which was translated from the second edition of the original by
+H. A. Strong (London: Longmans, Green, and Co., 1891).
+The Cambridge Journal of Postcolonial Literary Inquiry (2023),
+10:1 ,7 4 –89; doi:10.1017/pli.2022.32
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 2
+comparable to biological organisms, which were expected to reproduce the
+features of their parents with the least deviations from them. Language ancestry
+was conceived of uniparentally, such that there was no convincing explanation
+for why Latin speciated into different Romance languages that are no longer
+mutually intelligible. The extent of cognates and of phonetic correspondences
+between the daughter languages was assumed to reflect degrees of genealogical
+kinship, though they are not informative regarding whether the correspon-
+dences were inherited from the parent or proto-language, whether they were
+jointly borrowed from a language other than the parent (therefore attributable
+to language contact), or whether they were homological evolutions.
+2
+Assuming that there were Newtonian physics-style regularities in the way
+that phonological changes occurred, neogrammarians then hypothesized“sound
+laws” that captured the patterns thereof but provided no explanation for why
+the changes occurred in the first place, let alone why speciation ensued from the
+changes. Dismissing or downplaying the role of language contact, the typical
+explanation for the speciation of Latin into the Romance languages was simply
+that migrations in different geographic directions would produce change. This is
+the same explanation provided for the diversification of Proto-Indo-European
+3
+into so many different Indo-European languages. As the relevant places where
+speakers of the protolanguages differed from one another, divergences occurred
+that differentiate the daughter languages not only from the protolanguage but
+also from one another. Although Romanists initiated the theory of substratum
+(borrowed from geology) in linguistics, they did not capitalize on the fact that
+indigenous languages in the relevant provinces of the Roman Empire had been
+spoken by the very people that shifted to Latin, and it is through them that the
+substrate influence took place.
+4 This is how language contact becomes relevant
+to historical and genetic linguistics. Still, Neogrammarians ’“ sound laws ”
+intended to capture regularities in these changes made no reference to language
+contact as an actuator of change.
+It is critical to also situate the earliest accounts of the emergence of creoles in
+the context of the colonization of the world outside Europe since the fifteenth
+century by especially Western Europeans but also Russia for parts of Asia. When,
+in the nineteenth century, Western Europeans schemed to expand their trade
+2 Antoine Meillet, “Note sur une difficulté générale de la grammaire comparée” (Genève: Slaktine, and
+Paris: Champion, 1900), reprinted in Linguistique historique et linguistique générale,3 6–43 (1982) ; Xavier
+Tremblay, “Grammaire comparée et grammaire historique: quelle réalité est reconstruite par la
+grammaire comparée?,” in Aryas, Aryens et Iraniens en Asie Centrale, eds. Gérard Fussman, Jeans Kellens,
+Henri-Paul Francfort, and Xavier Tremblay (Paris: Edition-Diffusion de Boaccard, 2005), 33 –180.
+3 This is a construct that was disputed by, for instance, Nikolai S. Trubetzkoy, “Gedanken über das
+Indogermanenproblem,” Acta Linguistica (1939): 1.81–89.
+4 According to the approach, later geological/language strata absorbed elements from the lower/
+earlier layers. Applied to language change, the analogy is that languages previously used by the same
+speakers exert substrate influence, albeit selectively, on languages learned later; see Salikoko
+S. Mufwene, The Ecology of Language Evolution (2001) and Language Evolution: Contact, competition and
+change (2008). Language boundaries are as porous as those of geological strata.
+The Cambridge Journal of Postcolonial Literary Inquiry 75
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 3
+colonies of Africa, Asia, and the Pacific into exploitation colonies, different from
+their settlement colonies of the New World, they came up with a convenient
+justification, namely, what the French called “la mission civilisatrice ” and the
+British “the white man ’s burden.” According to these colonizers, non-European
+populations, whom the Europeans intended to subjugate, were “less evolved ”
+and mentally inferior, therefore they had no civilizations. It was putatively the
+Europeans’ moral responsibility to “civilize” them. Their non-European lan-
+guages, to which the Europeans often referred as “jargons” (because they were
+not intelligible to them) were also considered“savage” and “primitive.” This was
+consistent with Schlegel ’s
+5 typological classification of languages, which posi-
+tioned the Indo-European languages at the top of the hierarchy.
+In this colonization context, creoles and pidgins were interpreted as “bastard
+tongues” (which Bickerton6 repeated in the title of his book), that is, corrupted
+versions of European languages in the mouths of the inferior humans.7 According
+to Hesseling, 8 they are the outcomes of the “misshaping” of the languages
+typically identified in creolistics as “lexifiers,” that is, the language that con-
+tributed the lion ’s share of the vocabulary to the new language (variety).
+Regarding Dutch in the colonies, Hesseling applied this explanation to, for
+instance, Negerhollands (in the Virgin Islands) but not to Afrikaans, spoken
+primarily by descendants of the Dutch in South Africa, although it too has
+diverged significantly from metropolitan Dutch and is considered a new lan-
+guage. Generally, influence from the “primitive languages” of the producers of
+these new vernaculars was then invoked as the explanation, on the assumption
+that population movement and contact had played no (significant) role in the
+successive speciation of the Indo-European languages among Europeans. And
+these new vernaculars (in the sense of the language varieties used for day-to-day
+communication, starting with the home) have since then been considered as
+mixed or hybrid, and therefore as anomalies not consistent with the neogram-
+marians’ account of change.
+In too simplistic a way, Thomason & Kaufman
+9 characterize creoles inaccu-
+rately as languages whose vocabularies have been inherited from their
+(European) lexifiers but the grammars from other sources. To be sure,
+5 Frederik von Schlegel, The Philosophy of History, in a Course of Lectures, Delivered at Vienna , trans.
+James Baron Robertson, Esq., 2nd ed. (London: Henry G. Bohn, 1846).
+6 Derek Bickerton, 2008. Bastard Tongues: A Trailblazing Linguist Finds Clues to Our Common Humanity
+in the World ’s Lowliest Languages (New York: Hill and Wang, 2008).
+7 See also Charles Baissac, Étude sur le patois créole mauricien (Nancy: Imprimerie Berger-Levrault,
+1880); Julien Vinson, “Créole,” in Dictionnaire des sciences anthropologiques et ethnologiques, ed. Adolphe
+Bertillon et al. (Paris: Doin, 1882); Lucien Adam, Les idiomes négro-aryens et malayo-aryens: essai
+d’hybridologie linguistique (Paris: Maisonneuve, 1883).
+8 Dirk Christiaan Hesseling, “Het Hollandisch in Zuid-Afrika, ” De Gids 61 (1897): 138 –62; Dirk
+Christiaan Hesseling, “Het Frans in Noord-Amerika en het Nederlands in Zuid-Afrika, ” De Gids 87
+(1923): 438–57; Dirk Christiaan Hesseling, On the Origin and Formation of Creoles: A Miscellany of Articles ,
+ed. and trans. Thomas L. Markey and Paul T. Roberge (Ann Arbor: Karoma Publishers, 1979).
+9 Sarah G. Thomason and Terrence Kaufman, Language Contact, Creolization, and Genetic Linguistics
+(Berkeley: University of California Press, 1988).
+76 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 4
+alternative accounts were provided. For instance, Coelho, 10 cited by Gilbert
+1986,11 invoked universals of second language acquisition as the explanation
+(involving distortions of the target language), while Schuchardt 12 argued that
+creoles were actually revealing the ways in which Indo-European languages had
+speciated. However, these alternative accounts were generally ignored until the
+second half of the twentieth century, when multiple hypotheses were formulated
+to account for their characteristics.
+To date, creolists are still divided regarding whether creoles and pidgins are
+the outcomes of exceptional language evolution. Adamant advocates of what
+DeGraff
+13 calls “creole exceptionalism” include Bakker et al.,14 McWhorter,15 and
+Parkvall;16 those of non-exceptionalism include Chaudenson, 17 Mufwene,18
+DeGraff,19 Aboh,20 and Aboh & DeGraff.21 Nonetheless, these advocates and other
+creolists agree that creoles are hybrid language varieties ( pace “Mixed
+Languages”)22 as underscored by the title of Aboh, 23 regardless of whether they
+should be considered as new nonstandard dialects of their lexifiers or separate
+languages altogether.
+24 Correlated with this issue is the question of whether
+10 F. A. Coelho, “Os dialectos romanicos ou neolatinos na Africa, Asia, e America, ” Bolletim da
+Sociedade de Geografia de Lisboa 2 (1880–1881): 129–96; 3 (1882): 451 –78; 6 (1886): 705 –55. Reprinted in
+Estudos linguisticos crioulos. Reedicao de artigos publicados no Boletim da Sociedade de Geografia de Lisboa,
+ed. Jorge Morais Barbosa (Lisbon: Academia Internacional da Cultura Portuguesa, 1 –234).
+11 Glenn Gilbert, “The Language Bioprogram Hypothesis: Déjà Vu?,” in Substrata versus universals in
+creole genesis, ed. Peter Muysken and Norval Smith (Amsterdam: John Benjamins, 1986), 15 –24.
+12 Hugo Schuchardt, Kreolische Studien I. Über das Negerportugiesiesche von S. Thomé (Vienna: Buch-
+handler der Kais, Akademie der Wissenschaften, 1882).
+13 Michel DeGraff, “Against Creole Exceptionalism, ” Language 79 (2003): 391 –410; Michel DeGraff,
+“Linguists’ Most Dangerous Myth: The Fallacy of Creole Exceptionalism,” Language in Society 34 (2005):
+533–51.
+14 Peter Bakker, Finn Borchsenius, Carsten Levisen, and Eeva Sippola, eds., Creole Studies: Phyloge-
+netic Approaches (Amsterdam: John Benjamins, 2017).
+15 John H. McWhorter, The Creole Debate (Cambridge: Cambridge University Press, 2018).
+16 Mikael Parkvall, Français tirailleur : Not Just a “Language of Power, ” Language Ecology 2 (2018):
+60–76.
+17 Robert Chaudenson, Des îles, des hommes, des langues: essais sur la créolisation linguistique et culturelle
+(Paris: L’Harmattan 1992); Robert Chaudenson,Creolization of Language and Culture(London: Routledge,
+2001).
+18 Salikoko S. Mufwene, The Ecology of Language Evolution (Cambridge: Cambridge University Press,
+2001); Salikoko S. Mufwene, Language Evolution: Contact, Competition and Change (London: Continuum
+Press, 2008).
+19 DeGraff, “Linguists’ Most Dangerous Myth. ”
+20 Enoch Olade Aboh, The Emergence of Hybrid Grammars: Language Contact and Change (Cambridge:
+Cambridge University Press, 2015).
+21 Enoch Aboh and Michel DeGraff, “A Null Theory of Creole Formation Based on Universal
+Grammar,” in The Oxford Handbook of Universal Grammar , ed. Ian Roberts (Oxford: Oxford University
+Press, 2017), 1 –67 (online).
+22 Felicity Meakins and Jesse Stewart, “Mixed Languages,” in The Cambridge Handbook of Language
+Contact, vol. 1: Multilingualism & Population Structure, eds. Salikoko S. Mufwene and Anna María Escobar
+(Cambridge: Cambridge University Press, 2022), 310 –43.
+23 Aboh, The Emergence of Hybrid Grammars.
+24 This is a sensitive political question that is best left to speakers of these varieties, though
+deciding one way or another does not change the debate about how they emerged (Mufwene, The
+The Cambridge Journal of Postcolonial Literary Inquiry 77
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 5
+creoles evolved directly from their lexifiers, without a break in the latter ’s
+transmission, or are the creations of new languages from intermediate pidgins
+(as “broken language varieties” without a grammar at their incipient stage; e.g.,
+Bickerton).
+25 Exceptionalists assume that there was a break in the transmission
+of the lexifier. It is, however, very likely that pidgins emerged in geographical
+complementary distribution with creoles, under differing contact conditions. 26
+They may even have evolved later than creoles. 27 According to Yakpo, 28 the
+English pidgins spoken in West Africa are nineteenth-century offshoots of Sierra
+Leone’s Krio (a creole that originated in Jamaica). In addition, Mufwene
+29 argues
+that, like creoles, pidgins did not start as broken languages but evolved by
+gradual divergence away from their lexifiers under the influence of the substrate
+languages. In the following, I focus on the question of hybridity in language,
+without any further references to where individual creolists stand regarding the
+emergence of creoles and pidgins.
+We must also bear in mind that academic interest in these vernaculars
+developed against the backdrop of the late-nineteenth-century European ideol-
+ogy of purity according to which hybrid species (such as the mule) and contact-
+based language varieties (especially creoles and pidgins) were considered as,
+respectively, degenerates and corruptions less fit for normal communication.
+This was an ironic hyperopia that prevented the relevant nineteenth-century
+European scholars from recognizing that English and the Romance languages
+were themselves the outcomes of language contact. Against this tradition, Bailey
+& Maroldt
+30 and Schlieben-Lange31 argue that these European languages can be
+considered as creoles too.
+Ecology of Language Evolution ). This is a response to Michael Aceto, “English in the Caribbean and the
+Central American Rim,” in The Cambridge Handbook of World Englishes , eds. Daniel Schreier, Marianne
+Hundt, and Edgar W. Schneider (Cambridge: Cambridge University Press, 185–209), who wonders why
+linguists continue to disenfranchise creoles in continuing the colonists’ legacy of disavowing them as
+sister sociolects of those spoken primarily by the European colonists themselves. Michel DeGraff,
+“Kreyòl Ayisyen, or Haitian Creole ( ‘Creole French’),” in Comparative Creole Syntax: Parallel Outlines of
+18 Creole Crammars , eds. John Holm and Peter Patrick (London: Battlebridge Publications, 2007),
+101–26, note 1, expresses a strong contrary position.
+25 Derek Bickerton, “The Language Bioprogram Hypothesis,” Behavioral and Brain Sciences 7 (1984):
+173–221.
+26 Mufwene, Language Evolution.
+27 Salikoko S. Mufwene, “Creoles and Pidgins: Why the Latter Are not the Ancestors of the
+Former,” in The Routledge Handbook of Language Contact , eds. Evangelia Adamou and Yaron Matras
+(London: Routledge, 2020), 300 –24.
+28 Kofi Yakpo, “Unity in Diversity: The Homogeneity of the Substrate and the Grammar of Space in
+the African and Caribbean English-Lexifier Creoles, ” in Language Contact in Africa and the African
+Diaspora in the Americas: In Honor of John V. Singler , eds. Cecilia Cutler, Zzjesdana Vrzi ć, and Philipp
+Angermeyer (Amsterdam: John Benjamins, 2017), 226 –51.
+29 Mufwene, “Creoles and Pidgins. ”
+30 Charles-James N. Bailey and Karl Maroldt, “The French lineage of English, ” in Pidgins—Creoles—
+Languages in Contact , ed. Jürgen Meisel (Tübingen: Narr, 1977), 21 –53.
+31 Brigitte Schlieben-Lange, “L’origine des langues romanes: un cas de créolisation?, ” in Pidgins—
+Creoles—Languages in Contact ,8 1–101.
+78 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 6
+Thus, in the nineteenth century, Schuchardt32 was exceptional in arguing that
+creoles, pidgins, and cases of language convergence (such in the Balkans) should
+actually prompt us to revisit critically the traditional uniparental account of the
+speciation of Indo-European languages based almost exclusively on the compar-
+ative method. As noted previously, this approach enabled genetic linguists to
+determine which languages were structurally more similar to, or different from,
+one another but not how the (dis)similarities of their structures emerged. In
+other words, structural kinship is not necessarily evidence of genealogical
+kinship. It should also become apparent that race has always had something to
+do with the account of the emergence of creoles as exceptional evolutions.
+33 As
+shown in Language Evolution,34 antecedents of this tradition can be identified in
+the reluctance of several European precursors of genetic linguists, in the early
+nineteenth century, to include Indic languages in the Indo-European family.
+Their reason was that speakers of Indic languages were less evolved than the
+Greeks, the Romans, and therefore Europeans in general, although indigenous
+scholarship on Sanskrit preceded that on Ancient Greek and Classical Latin.
+Hybridization of Language
+Hybridity in creoles would not have been considered as exceptional or anoma-
+lous if, since the early nineteenth century, languages and dialects had not been
+conceived of as organisms without internal variation. This position was also the
+consequence of the incorrect assumption that, as pointed out by Mufwene,
+35
+language “acquisition” or “transmission” is vertical and unidirectional, proceed-
+ing from caregivers and schoolteachers to children. The assumption overlooks
+how children keep up with and learn from one another in their respective play or
+peer groups. In any population, when it comes to culture, including language,
+there are innovators and copiers, with the roles changing according to forms and
+structures.
+36 As a matter of fact, interactions in peer groups appear to play a
+more important role in the ontogenetic development of competence in their
+vernaculars than interactions with caregivers. Language practitioners align with
+one another by age, gender, and, later on, by profession and lifestyle; and the
+desire to align with the others prompts them to learn from one another and,
+through competition and selection, to converge to group norms. After all,
+language “acquisition” does not end until one is incapacitated mentally and
+perhaps also anatomically. Also, despite several paradigm changes in linguistics
+32 Schuchardt, Kreolische Studien I ; Hugo Schuchardt, Slawo-Deutsches und Slawo-Italienisches (Graz:
+Leuschner & Lubesnky, 1884).
+33 Mufwene, The Ecology of Language Evolution ; DeGraff, “Against Creole Exceptionalism ”; DeGraff,
+“Linguists’ Most Dangerous Myth. ”
+34 Mufwene, Language Evolution, chap. 6.
+35 Mufwene, The Ecology of Language Evolution ; Mufwene, Language Evolution.
+36 William Croft, Explaining Language Change: An Evolutionary Approach (Germany: Longman, 2000).
+Mufwene, The Ecology of Language Evolution ; Mufwene, Language Evolution.
+The Cambridge Journal of Postcolonial Literary Inquiry 79
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 7
+since Ferdinand de Saussure, 37 it has been assumed that languages are social
+institutions that are learned intact from generation to generation with changes
+introduced in performance, the modern term for what de Saussure identified as
+parole (“speech”). The position presented here is at variance with this tradition.
+Even among native speakers only, languages are being reshaped several times
+over while they are used to meet communicative needs that can be new and need
+innovations or modifications of current patterns of use. Sometimes innovations
+are triggered by contact with other languages, just as native technologies can be
+modified under the influence of foreign technologies. Besides, adults learn some
+forms and structures from children too, especially among immigrants. There-
+fore, age is an epiphenomenon in language “transmission,” which is essentially
+horizontal, regardless of age and status.
+38
+In an effort to account for the mixed origins of structural features in creoles, I
+conceived of the construct of “feature pool, ” similar to that of “gene pool ” in
+biology, to explain by competition and selection how coexistent features and
+patterns from different languages in contact can be recombined into new
+linguistic systems.
+39 See The Emergence of Hybrid Grammars 40 for a detailed
+account.41 I identified the process that generates the new system as “feature
+recombination” (after the biological notion of “gene recombination”). This has
+been aptly fleshed out by Aboh42 focusing on Haitian Creole, which arose under a
+strong but non-exclusive influence of speakers of Gbe languages.
+37 Ferdinand de Saussure, Cours de linguistique générale , eds. Charles Bally and Albert Sechehaye in
+collaboration with Albert Riedlinger (Paris: Payot, 1916); translation by Wade Baskin,Course in General
+Linguistics (New York: McGraw-Hill, 1966).
+38 Mufwene, Language Evolution.
+39 Mufwene, The Ecology of Language Evolution.
+40 Aboh, The Emergence of Hybrid Grammars.
+41 Jeff Siegel’s The Emergence of Pidgin and Creole Languages (Oxford: Oxford University Press, 2008)
+refers to the same construct as “pool of variants, ” but the difference is merely terminological.
+Because I also invoked the “Founder Principle” to account for the substantial legacy of the founder
+population in shaping the features of creoles, Kouwenberg and Singler, “Are creoles a special type of
+language? Methodological issues in new approaches to an old question ” (in Advances in Language
+Contact: In Honour of Pieter Muysken , eds. Norval Smith, Tonjes Venstra, and Enoch O. Aboh
+(Amsterdam: John Benjamins, 2018), on pages 107 –58, unfortunately misinterpreted my approach
+as ignoring the contributions of “successive cohorts of newly arrived [enslaved people] during the
+plantation period.” This interpretation would be inconsistent with my position that creoles actually
+emerged gradually after the homestead period, when residential segregation became the norm
+during the plantation period. The feature pool is conceived of dynamically (even through time), just
+like the gene pool in biology, changing as individuals grow and populations evolve. Note also that the
+institutionalization of residential segregation did not seal off influence from the linguistic practices
+of the European colonists because there were contacts at the workplace, especially with the European
+indentured servants. In addition, the lexifiers were nonstandard varieties, even at the plantation
+mansion; see Barbara Lalla and Jean D ’Costa, Language in Exile: Three hundred years of Jamaican Creole
+(Tuscaloosa: University of Alabama Press, 1990). The origins of features in the pool are multiple, and
+not all structural features that distinguish creoles from their lexifiers need be traced only to the
+substrate languages. This is as true of creoles as of the Romance languages, for instance. There are
+features of French that may have originated in Frankish, just as there are features of Spanish that can
+be traced back to Arabic. Neither of these languages is part of the Celtic substrate in relation to Latin.
+42 Aboh, The Emergence of Hybrid Grammars.
+80 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 8
+It is in this context that I also thought of idiolects as hybrid linguistic systems
+at the level of individual practitioners. They are like offspring in animal biology,
+with the difference that I actually analogized languages with parasitic species in
+The Ecology of Language Evolution
+43 and then modified the analogy to viruses in
+Language Evolution. 44 This approach also made it possible to show the role of
+polyploidy in what, for convenience’s sake, I will continue to refer to as language
+transmission or acquisition. Unlike in animal biology, the learner (like the host in
+virology) gets different inputs, some of which are variants of one another, from
+the feature pool generated by the ensemble of the idiolects of individuals he/she
+has interacted with. Things become more complex at the population level, that of
+language or dialect, as different individuals have different interactional histories
+and the feature pool projected at the community level is a construct of conve-
+nience, which is an ensemble of individual practitioners’ feature pools. Welcome
+to complexity!
+If one adds to this explanation the fact that there is no modern language today
+that does not reflect ancestry in the contact of languages or dialects that
+generated new feature pools, then it should be evident that, like every idiolect,
+every language is a hybrid system (pace Meakins and Stewart).
+45 In Figure 1, every
+vertical arrow corresponds to an idiolect, a dialect, or a sociolect of the same
+language, while the lateral arrow corresponds to a/several separate language(s)
+coming in contact with the lexifier. Note that in the case of the creole vernac-
+ulars, the lexifier, corresponding to the vertical arrows in the figure, consisted of
+nonstandard dialects of English, Dutch, French, Portuguese, or Spanish. The
+dialects came in contact with one another (thereby evolving into colonial
+compromise varieties characterized askoinés) and with African languages spoken
+by the enslaved Africans in the settler plantations and maroon communities of
+the Caribbean (including Guyane and Surinam), in Palenque de San Basilio
+(Colombia), in Louisiana, and on the Mascarene islands in the Indian Ocean, or
+with indigenous languages on Pacific islands and in Australia. By comparison, in
+the case of the Romance languages, the lexifier consisted of various nonstandard
+dialects of Latin identified collectively as Vulgar Latin (literally, “Latin of the
+common people ”), while the substrate languages consisted of Celtic and other
+indigenous languages of the relevant provinces in the Roman Empire.
+To be sure, the feature pool from which each new language (variety) emerged
+was different, depending on its contact ecology, namely, which languages came
+in contact and at what time, what were the demographic strengths of their
+respective speakers, and how its local population structure facilitated interac-
+tions across ethnolinguistic boundaries. Population structure determines
+whether a particular population prevails politically, economically, or numeri-
+cally over (an)other population(s), whether the dominant population is inter-
+ested in learning the dominated population ’s language(s) or the latter group(s)
+bear(s) the burden of learning the former group ’s language, and whether things
+evolve in such a way that the dominated people also have to communicate among
+43 Mufwene, The Ecology of Language Evolution.
+44 Mufwene, Language Evolution.
+45 Meakins and Stewart, “Mixed Languages,” 310–43.
+The Cambridge Journal of Postcolonial Literary Inquiry 81
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 9
+themselves or across dominated ethnolinguistic groups in the dominant lan-
+guage.
+The latter conditions of social interactions are conducive to what is called
+language shift, with the heritage vernaculars being replaced by the new, dominant,
+or superstrate vernacular. The latter typically wins only a Pyrrhic victory because
+it is modified by influences from the substrate languages. The composition of the
+general population, regardless of whether it is residentially segregated, changes
+over time. If practitioners of the superstrate language are the majority, various
+factors may limit the extent to which elements from the substrate languages in
+the feature pool can influence the reshaping of the superstrate language. If,
+however, speakers of the substrate languages are the majority, their features can
+bear significantly on the selection of features into the emergent new language
+variety, especially if the overall population is residentially segregated. This was
+generally the case in the emergence of creoles and the Romance languages,
+regarding the divergence of their structures from those of their lexifiers. In the
+case of creoles, which emerged in exogenous colonies, factors such as the Founder
+Principle/Effect and patterns of population growth also influenced not only how
+much vocabulary was selected from the lexifier but also the extent to which
+structures of the latter ’s grammar were selected with or without modification
+during the feature recombination into a new, hybrid linguistic system.
+46
+Aboh47 has shown that even the substrate contributions can be modified
+during the feature recombination. As a matter of fact, Corne 48 had argued that,
+Figure 1 The Linguistic Feature Pool.
+46 Chaudenson, Des îles, des hommes, des langues: essais sur la créolisation linguistique et culturelle ;
+Salikoko S. Mufwene, “The Founder Principle in Creole Genesis, ” Diachronica 13 (1996): 83 –134;
+Mufwene, The Ecology of Language Evolution ; Chaudenson, Creolization of Language and Culture.
+47 Aboh, The Emergence of Hybrid Grammars.
+48 Chris Corne, From French to Creole: The Development of New Vernaculars in the French Colonial World
+(London: University of Westminster Press, 1999).
+82 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 10
+because languages do not differ completely or in all respects typologically,
+congruence of structures has usually played an important ecological role in
+favoring the selection of specific features during the restructuring of the rele-
+vant lexifiers into creoles. From a uniformitarian perspective, the same was true
+during the early evolution of English in England
+49 and has been true during the
+emergence of indigenized varieties of European languages in Europe ’s exploita-
+tion colonies of Africa and Asia, as noted previously. We must not overlook here
+the fact that in the latter case the majority of speakers of these colonial
+languages practice them typically as a second or umpteenth language in their
+repertoires, namely, as a lingua franca; only a small elite class uses them as their
+non-indigenous vernaculars. Hybridization has thus been a concomitant of the
+emergence of new language varieties from older ones, a fact that can be verified
+since antiquity, thanks to the invention of writing.
+Creoles and pidgins are certainly not exceptional, especially as it appears now
+that the main difference between these two kinds of language varieties lies not in
+how they developed but in the fact that the former have always functioned as
+vernaculars whereas the latter started as lingua francas between speakers of
+different languages. Both creoles and pidgins differ from the varieties claimed to
+have changed less drastically from their lexifiers in that the segregated popu-
+lation structures in which they emerged facilitated more extensive influence
+from the substrate languages. Note that the influences do not necessarily amount
+to features that were not attested in their lexifiers; very often they consist in
+favoring features of the lexifiers that were (partly) congruent with those of some
+substrate languages.
+50 In this respect, creoles and pidgins are similar to the
+colonial varieties of European languages characterized as indigenized, such as
+Indian and Nigerian Englishes and those identified as “français d ’Afrique” or
+“français africains. ” An important difference is that creoles and pidgins are
+outcomes of naturalistic, aka untutored, language learning, whereas the latter
+colonial varieties are outcomes of schooling. In both cases, the non-European
+learners have practiced the European languages in communication more among
+themselves than with heritage speakers of the lexifiers. These ecological condi-
+tions have enabled various xenolectal features to reinforce one another and to
+naturalize among the practitioners and to become entrenched as part of their
+new norms. According to Chinua Achebe,
+51 cited by Kachru,52 the allochthonous
+49 For instance, in English: The Language of the Vikings , Joseph Embley Emonds and Jan Terje
+Faarlund (Olomouc Modern Language Monographs, vol. 3 [Olomouc: Palacký University, 2014) argue
+that Middle English bore heavy influence from Old Norse. This would have been a consequence of the
+Dane Law and the fact that the languages in contact were Germanic. It is noteworthy that by their
+own count 50 percent of the Germanic vocabulary of Middle English is shared by both Old English and
+Old Norse; 33 percent is from Old English only, and 1 percent from Old Norse only. Students of Celtic
+Englishes have also argued that Celtic elements can be identified even in Old English, that is, before
+varieties such as Irish English emerged during the phase of Modern English; Mufwene, “Creoles and
+Pidgins.”
+50 Corne, From French to Creole.
+51 Chinua Achebe, “The English Language and the African Writer, ” Insight (October/December
+1966): 20.
+52 Braj B. Kachru, World Englishes and Culture Wars (Cambridge: Cambridge University Press, 2017).
+The Cambridge Journal of Postcolonial Literary Inquiry 83
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 11
+speakers have domesticated the “masters’” languages to where these have been
+adapted to their communicative needs or traditions, although, to be sure,
+Africans and Asians use these languages primarily to serve communicative
+functions introduced by the colonizers.
+53
+In the bigger uniformitarian picture, the difference in hybridization lies in the
+varying extents to which xenolectal features, be they substratal or adstratal,
+have mixed with those of the lexifier (see, e.g., Clements 54 in the case of colonial
+Portuguese varieties). From geographical and chronological perspectives, vary-
+ing population structures have produced differing feature pools in which com-
+petition and selection have operated. Variation in the timing and rigidity of
+segregation or degrees of integration accounts for structural differences among
+the colonial varieties of the European languages. I will now explain this in the
+next section.
+Why the New Varieties of European Languages Differ (So Much) from
+One Another
+The hypothesis of language hybridization in the case of creoles was inspired by
+the presence in these new vernaculars of structures not attested (to the same
+extent) even in the seventeenth- and eighteenth-century varieties of their
+lexifiers. These include, among several others: 1) the lack of articles and the
+decoupling of number and demonstratives (which express definiteness) in
+Haitian Creole (French based); 2) the fact that nominal number is not expressed
+by a suffix, while adjectives behave like verbs in predicative function in Carib-
+bean English creoles; and 3) the fact that generic reference is expressed by a bare
+noun (without a determiner or an affix) and the prominence of serial predicate
+constructions in virtually all the creoles lexified by Western European languages.
+The following examples illustrate these characteristics:
+(1)
+Lack of articles in Haitian Creole (ifyon is analyzed as the quantifier“one,”
+and indeed it functions syntactically like other quantifiers, occupying a
+prenominal position):
+chat la “cat
+DEF” (“the cat”); chat la yo “cat DEF PL” (“the cats”); chat sa yo
+“cat DEM PL” (“those cats”); chat yo (“cat PL”) “cats” (INDEFINITE REFERENCE);
+chat “cats” (GENERIC REFERENCE ); yon chat “one/a cat”55
+53 Salikoko S. Mufwene, “Multilingualism and Super-Diversity: Some Historical and Contrastive
+Perspectives,” in The Cambridge handbook of Language Contact , vol. 2: Multilingualism in Population
+Structure, eds. Salikoko S. Mufwene and Anna María Escobar (Cambridge: Cambridge University Press,
+2022), 145–71.
+54 J. Clancy. Clements, “The Expansion and Evolution of Portuguese,” in The Cambridge Handbook of
+Language Contact, vol. 1: Population movement and language change , eds. Salikoko S. Mufwene and Anna
+María Escobar (Cambridge: Cambridge University Press, 2022), 459 –504.
+55 The following abbreviations stand for: DEF “definite,” SG “singular,” PL “plural,” DEM
+“demonstrative.”
+84 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 12
+(2) Nominal number and predicative adjectives in Caribbean English creoles:
+di bway “the boy”; di bway dem “the boy PL” (“the boys”); Bill (an) dem
+“Bill and his associates/family” (with the dem expressing the ASSOCIATIVE
+PLURAL in this case); di big bway “the big boy ”; di bway big “the boy
+[is] big”; di bway de big “the boy [is being/acting] big ” (similar to “the
+boy is being noisy ”)
+(3) Prominence of serial verb constructions:
+Uh tell um come kyah me to da hospital (Gullah)
+I told him [to] come [and] drive me to the hospital.
+Mennen timoun yo vini wè m (Haitian Creole
+56)
+lead child DEF-PL come see 1 SG
+Bring the children to see me.
+Hybridization is evident from the fact the structures of these constructions
+also include patterns inherited from the lexifier, such as the basic Subject-Verb-
+Object word order in (3), the prenominal position of the article in (2), and even
+the position of the definiteness marker and the demonstrative in (1). Considering
+that several African languages, especially those of the Bantu family, do not have a
+significant category of
+ADJECTIVE, what is evident here is that the category has been
+selected from the lexifier, but the predicative pattern without a copula before the
+adjective is definitely influenced by some of the substrate languages, particularly
+those of the Kwa family. To be sure, there are some partial congruent patterns
+between the lexifiers and some substrate languages, for instance, in the following
+English construction in which the copula is not used before the adjective ready:
+(4) She arrived ready for the new job.
+The point is that creoles are not exceptional in displaying such hybridity.
+Emonds and Faarlund
+57 show that some features of Middle English that have
+been kept even in Modern English reflect influence from Old Norse. They include:
+the use of auxiliary modals such as will and shall to express future; double modal
+constructions such as should may (precendents of might could and the like in, for
+instance, American Southern English); the use of have þ
+PAST PARTICIPLE for past
+tense in nonfinite clauses, as in will have served ; and stranded prepositions in
+relative clauses and questions, as in the topic that Mary wrote about. Given the
+contact history of the birth and evolution of English, it would be surprising if it
+bore no influence of the languages that Anglian and, subsequently, Old English
+came in contact with. Thus, we may say that the nonheritage features produced
+in, for instance, the indigenized English varieties of Scottland, Ireland, Africa, and
+Asia instantiate repetitions of history process-wise. The same account applies to
+56 DeGraff, “Kreyòl Ayisyen, or Haitian Creole ( ‘Creole French’).”
+57 Emonds and Faarlund, The Language of the Vikings.
+The Cambridge Journal of Postcolonial Literary Inquiry 85
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 13
+the emergence of the Romance languages, which exhibit features not typical of
+Latin, such as articles and finite subordinate clauses instead of tensed infinitival
+subordinate clauses attested in Latin.
+The uniparental model of language speciation shows adequately the outcomes
+of contact-induced restructuring processes, though we must note that the
+Stammbaum (or cladogram) representing varying degrees of kinship in a lan-
+guage family (e.g., Bantu or Indo-European), designed on principles of taxonomy,
+has erased the processes themselves. The nineteenth-century ideology of lan-
+guage purity, which fostered the neogrammarians ’ rules of regularity of change
+and the disenfranchising of creoles as contact-based “bastard languages, ” was
+colonial fiction that reflects the dismissal of the significance of language contact
+in the evolution and speciation of Indo-European languages.
+The history of mankind since the dispersal out of Africa has been marked by
+layers of migrations and contacts between the migrant populations at different
+stages. Hybridity should be the default in the emergence of modern languages,
+none of which can be traced directly to the protolanguages that developed in
+Africa before the dispersal of Homo sapiens out of the continent about
+50,000 years ago. Migrations in different directions within and across continents,
+especially those associated with imperial expansions since antiquity complicate
+the picture. For instance, Latin (whose origins remain obscure) was influenced by
+contact with the Celtic languages, which triggered its speciation into the
+Romance languages, but the latter were also shaped by contact with Arabic in
+the case of Spanish and with Frankish in the case of French; and then the ensuing
+modern varieties of the Romance languages were modified by contacts with
+non-European languages in the colonies. Hybridity also obtains in the ontoge-
+netic development of language, usually referred to as “language acquisition. ”
+The effect of polyploidy, combined with the uniqueness of the interactional
+histories of every speaker or signer, is quite obvious here, although differences
+between idiolects shaped by these factors are often subtle. This is the conse-
+quence of mutual accommodations among speakers and overlaps in the learners’
+interactional histories. No new speaker or signer is a replica of any of the
+different individuals from whom they have copied (by approximations) various
+features of their idiolects.
+We must also note that languages are cultural phenomena and hybridity is
+pervasive in cultures, and more so at this age of increased worldwide globaliza-
+tion effected by increased long-distance migrations and improved telecommu-
+nication. Visual arts, music styles, literary conventions, culinary practices,
+clothing fashions, and material technologies (including our mobile phones), to
+mention just a few, have evolved by hybridization of ideas, revealing osmosis
+between culture boundaries. The challenge is always to extricate the elements
+that have been selected from the different cultural practices in contact that have
+shaped the emergent fashions, styles, conventions, and so on in the relevant
+cultural domains. For instance, in novels written in English by Nigerian writers,
+what are —relative to the British conventions —the nonheritage structures as
+well as lexical items and discourse strategies that are patterned on Nigerian
+cultural (including linguistic) traditions that make the productions Nigerian?
+One can ask the same question about literary productions in Anglophone North
+86 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 14
+America. Much of the so-called “postcolonial” literature (although I wonder to
+what extent Canada and the United States are postcolonial politically) instanti-
+ates hybridization. Authors from different nations who write in European
+languages reflect the indigenization of these languages as they bear influence
+from the cultural ecologies to which they have been adapted.
+58
+Artistic hybridization can be detected quite easily in the domain of music. For
+instance, European instruments and rhythms have mixed well with some African
+musical traditions in the Americas and the Caribbean to produce syncretic
+musical styles such as Reggae, Calypso, Salsa, Zydeco, and the Blues. On the
+other hand, the adoption of some of these musical styles back in Africa has come
+along with reindigenization, so that Reggae and Salsa in West Africa have a
+particular local touch, as does the adaptation of Reggae to North African beat,
+just as also Jazz is (re-)Africanized in South Africa.
+Culinary hybridization is so pervasive that I ’m sure there must be several
+publications on the subject matter. I will just mention here what my travels to
+different places, thanks to my research on creoles, has made so evident to me. The
+globalized spice trade since the time the Arabs and Chinese connected Asia and
+Europe, long before the European colonial expansion, spread various spices around
+the world, notably peppers. African cuisines hybridized from this cultural contact.
+The slave trade took Africans to the Americas and the Caribbean, as well as to
+several (other) islands of the Atlantic and the Indian Ocean. Forming critical
+masses in these settlements and sometimes constituting majority populations,
+the Africans produced hybrid cuisines with noticeable African influence, especially
+in Brazil and the Caribbean, though one cannot deny, for instance, Portuguese
+input in Brazil, just like the French input in Louisiana. East Indian influence is also
+noticeable in Caribbean islands where large numbers of Indian contract laborers
+were brought after the abolition of slavery. And one can go on and on to show how
+extensive hybridization has been in the culinary domain, including African Amer-
+ican “soul food” and in fact the American Southern cuisine.
+Conclusions
+It appears that cultural hybridization is a ubiquitous and natural way of social
+life, as populations that come in contact learn from one another. As Wang (2022)
+formulates it for languages (based on the situation in China):
+Each language is a mixed bag of sounds, words, idioms, & constructions of
+various sizes, a product of many millennia of historical development. Its
+content comes from a diversity of heterogenous sources, different cultural
+& multiple linguistic environments.
+59
+58 Salikoko S. Mufwene, The Indigenization of English in North America, ” in World Englishes:
+Problems, Properties, Prospects, eds. Thomas Hoffmann and Lucia Siebers (Amsterdam: John Benjamins,
+2009), 353–68.
+59 William S-Y Wang, “Words and Genes and Their Complementary Tales” (paper presented at the
+Workshop on Population Movements, Language Contact in East Asia and Southeast Asia, and
+Evolutionary Linguistics, the University of Chicago Center in Hong Kong, June 8, 2022).
+The Cambridge Journal of Postcolonial Literary Inquiry 87
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 15
+Hybridization starts with how individuals develop their respective versions of
+their communal cultural practices (which are not identical), display inter-
+individual variation, and reflect the counterpart of the outcome of polyploidy
+in biology. At the population level, it is a more complex process, as it proceeds
+through individuals learning first- or secondhand from practitioners of the other
+culture, the accommodations they make to one another, and the competition-
+and-selection-based emergence of communal norms within the borrowing pop-
+ulation.
+Creole cultures, including the language varieties called “creoles,” have defi-
+nitely made us more aware of hybridization as an outcome of population contact,
+which enables contacts of languages and, generally, of cultures. However,
+contacts are not a peculiarity of creoles alone. As a matter of fact, an open-
+minded and broader look at the outcomes of population movements (including
+colonization ventures) and the ensuing contacts should prompt us to ask what
+distinguishes creole vernaculars and cultures from other languages and cultures.
+Should differences between these linguistic and cultural categories be articu-
+lated dichotomously or in terms of degrees? Schuchardt
+60 appears to have been
+correct in arguing in the case of creole vernaculars that they are prompting us to
+revisit the evolutions of their lexifiers themselves, to realize that they too were
+hybrid phenomena produced by language contact. Languages as particular
+aspects of cultures, which are “acquired” through learning by inference, are
+telling us that specific cultures anywhere in the world have not escaped hybrid-
+ization. We must of course bear in mind that some of the mixed features are
+reshaped during the process of integration into new systems.
+At the same time, cultures are dynamic and in the state of flux, repeatedly
+being adapted to their changing ecologies, natural and social, owing largely to
+migrations at different times in history. This state of affairs accounts for the
+changing weights of the contributions from different sources. New inputs change
+the composition of the contact “feature pool ” in which competition drives
+ongoing “feature recombinations. ”
+61 Thus, one has to investigate the contact
+history of whatever phenomenon in some part of world they are interested in
+and uncover layers of influences within changing population structures. Where
+slavery was involved, one must periodize their academic narrative, identifying
+which populations came from where and when, what demographic strengths
+they represented in relation to one another at different times, and how they were
+inserted in the current socioeconomic structure, among other factors. It takes
+this kind of approach to understand, for instance, when and how the Vodun,
+Candomblé, and Santeria religious practices emerged and why Catholicism can
+still be recognized in them, albeit variably, as well as why they are not faithful
+replicas of the African traditions to which they can be traced back. This approach
+helps us better understand syncretisms as contact-induced evolutions of partic-
+ular cultural practices. We are indebted to creolistics for the role it has played in
+underscoring the fact that every evolution is local and must be accounted for in
+60 Schuchardt, Kreolische Studien I.
+61 Mufwene, The Ecology of Language Evolution; Mufwene, Language Evolution; Aboh, The Emergence of
+Hybrid Grammars.
+88 Salikoko S. Mufwene
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press
+
+PAGE 16
+reference to its specific periodized ecology of population movements and con-
+tacts, and, from the point of view of culture, also in reference to the specific
+population structures the contacts have engendered.
+Author biography. Salikoko S. Mufwene is the Edward Carson Waller Distinguished Service Professor
+of Linguistics and the College at the University of Chicago, where he also serves on the Committee of
+Evolutionary Biology. Member of the American Philosophical Society, his scholarship includes the
+phylogenetic emergence of languages and their speciation into new varieties such as creoles, as well
+as language vitality. His books includeThe Ecology of Language Evolution and Language Evolution: Contact,
+Competition and Change. He is the founding editor of Cambridge Approaches to Language Contact.
+Cite this article: Mufwene, Salikoko S. 2023. “Linguistic Hybridization in the Emergence of Creoles. ”
+The Cambridge Journal of Postcolonial Literary Inquiry 10,7 4–89. https://doi.org/10.1017/pli.2022.32
+The Cambridge Journal of Postcolonial Literary Inquiry 89
+https://doi.org/10.1017/pli.2022.32 Published online by Cambridge University Press

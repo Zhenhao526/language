@@ -1,0 +1,6 @@
+{
+  "status": "invalidated",
+  "reason": "This earlier read-only comparison used the generic aggregation_001 PL source rather than the audited alternative-partner aggregation_altpair_001; it is not used in the report.",
+  "superseded_by": "information_comparison_fi_001",
+  "no_training_updates": true
+}

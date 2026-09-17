@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001",
+  "runs": 64,
+  "checkpoint_evaluations": 384,
+  "compact_worlds": 64696320,
+  "model_forwards": 582266880,
+  "optimizer_updates": 0,
+  "no_optimizer_updates": true,
+  "trajectory_replayed": true,
+  "pairing_verified": true,
+  "max_abs_error": 0.0,
+  "factorized_action_replayed": true,
+  "legal_plan_multiplicity_verified": true,
+  "alternative_partner_support_verified": true,
+  "rematch_histograms_checked": true,
+  "rematched_permutation_assignments": 49152000
+}

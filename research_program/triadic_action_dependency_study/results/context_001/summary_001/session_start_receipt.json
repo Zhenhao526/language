@@ -1,0 +1,11 @@
+{
+  "status": "unique_summary_session_running",
+  "session_id": 39363,
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_action_dependency_study.summarize_results --results research_program/triadic_action_dependency_study/results/context_001/execution/results.json --out research_program/triadic_action_dependency_study/results/context_001/summary_001",
+  "receipt_recorded_at": "2026-09-15T18:21:25.321575+00:00",
+  "summary_started_artifact_mtime": "2026-09-15T18:20:11.831354+00:00",
+  "start_timestamp_scope": "mtime is the script-created started.json timestamp, not an asserted process launch timestamp",
+  "source_sha256": "fbf99ebd4ff68319eb98c6a5fc45ea245665a33b0b5e00b8d759ed434c18e803",
+  "neural_forward_calls": 0,
+  "automatic_retry": false
+}

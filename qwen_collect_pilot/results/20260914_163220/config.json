@@ -1,0 +1,117 @@
+{
+  "model": "mlx-community/Qwen3.5-9B-8bit",
+  "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "model_verification": {
+    "verified_at": "2026-09-14T16:32:20+0800",
+    "repository": "mlx-community/Qwen3.5-9B-8bit",
+    "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+    "files": [
+      {
+        "file": "README.md",
+        "bytes": 666
+      },
+      {
+        "file": "chat_template.jinja",
+        "bytes": 7756
+      },
+      {
+        "file": "config.json",
+        "bytes": 3331
+      },
+      {
+        "file": "model-00001-of-00002.safetensors",
+        "bytes": 5339522525,
+        "sha256": "0dcb3cdba0f43743875c861792685da5266aebcb58f7c0e345b9cd090bb0d289"
+      },
+      {
+        "file": "model-00002-of-00002.safetensors",
+        "bytes": 5087069898,
+        "sha256": "5abf861e7a13e7af805105270b2648634b41fda02238ae8ee1bd64628acce9b1"
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "bytes": 123593
+      },
+      {
+        "file": "preprocessor_config.json",
+        "bytes": 390
+      },
+      {
+        "file": "processor_config.json",
+        "bytes": 1300
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 19989343,
+        "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 1139
+      },
+      {
+        "file": "video_preprocessor_config.json",
+        "bytes": 385
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 6722759
+      }
+    ]
+  },
+  "rounds_per_group": 24,
+  "seeds": [
+    17,
+    29
+  ],
+  "alphabet": "@#%&",
+  "min_message_chars": 0,
+  "max_message_chars": 2,
+  "sender_temperature_during_interaction": 0.7,
+  "collector_temperature": 0,
+  "frozen_eval_temperature": 0,
+  "thinking": false,
+  "updates": "private context only; fixed model weights",
+  "private_contexts": [
+    "A",
+    "B",
+    "C"
+  ],
+  "fresh_kv_cache_per_inference": true,
+  "known_protocol_context_reused_in_experiment": false,
+  "evaluation": "all 16 worlds; no feedback; exact private-prompt memoization within frozen phase",
+  "hardware": {
+    "hardware": {
+      "machine_model": "Mac17,6",
+      "chip_type": "Apple M5 Max",
+      "physical_memory": "48 GB",
+      "number_processors": "proc 18:6:0:12"
+    },
+    "graphics": [
+      {
+        "sppci_model": "Apple M5 Max",
+        "sppci_cores": "40",
+        "spdisplays_metal": null
+      }
+    ]
+  },
+  "packages": {
+    "mlx": "0.32.2",
+    "mlx-lm": "0.31.3",
+    "transformers": "5.17.0",
+    "huggingface-hub": "1.31.0"
+  },
+  "code_sha256": {
+    "test_backend.py": "9ee726a41ece5ffe35b928a13d5f4cff7fc76051d64773b3dc34ce063fdd1734",
+    "verify_model.py": "f71a9ed1e0750200c333e7b9f53b0ec284f226d6721f5601efc05dc8f98c82d7",
+    "env.py": "878636400ac0d9d85e80a539605753b2f1ed5f2e3c166fd4ab71cee14a98351c",
+    "deploy.py": "4b96af6fc9dfc5576b74da2530dd4ff3295a327d521c7cdc706dbe016d5fea58",
+    "diagnose_calibration.py": "4f3ee8cf8425897cbd77f421b4ef6fe6138e9f3416a0aa002cc5819035a47518",
+    "test_env.py": "20b3c72f6b95a5c017db4d1828d217981462ad55ee3a001c9a81d058ae0587e4",
+    "agents.py": "d8a677fdaea3de8d207ae3215f1a5704049c96b17a8fdf47eb12d0f368aeea9a",
+    "model_backend.py": "022c01856dbfcf0b5f12c967524f4398a48b04c771f6c2dbc8c17757e7da21e8",
+    "run_pilot.py": "2252d094d75a79be78a59e45563db91f0c1cd0bd14b400d2f11968d4d470f916",
+    "analyze.py": "090f6456902861220aa5472e8dbfde219122a564529a6a80c3f389d1014b2f96",
+    "test_agents.py": "f002a8927f9fca7cd1b98d27318349bdc76cd394b7686aea727d53d49a04a7b6"
+  }
+}

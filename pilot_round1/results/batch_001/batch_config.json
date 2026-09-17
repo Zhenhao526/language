@@ -1,0 +1,57 @@
+{
+  "batch": "001",
+  "created_utc": "2026-09-14T05:14:59.189772+00:00",
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "steps_per_run": 24000,
+  "eval_every": 2000,
+  "eval_n": 512,
+  "final_eval_n": 2048,
+  "history_length": 4,
+  "rollout": 32,
+  "learning_rate": 0.002,
+  "entropy": 0.03,
+  "visual_updates_per_agent": 250,
+  "visual_batch_size": 128,
+  "visual_required_accuracy": 0.9,
+  "visual_device": "mps",
+  "communication_device": "cpu",
+  "cpu_threads": 4,
+  "total_wall_budget_seconds": 3600,
+  "max_run_wall_seconds": 600,
+  "conditions": [
+    "H0",
+    "H1"
+  ],
+  "tasks": [
+    "emergent",
+    "fixed",
+    "no_comm"
+  ],
+  "no_comm_seeds": [
+    101
+  ],
+  "performance_confirmation": ">=0.90 at 3 consecutive scheduled frozen evaluations; report third checkpoint",
+  "interpretation": "exploratory pilot; independent dyad is replication unit; no significance claims from 3 seeds",
+  "backend_choice": "CPU main-loop 1.735s vs MPS 1.894s for 1024 sequential interactions; identical benchmark final accuracy. MPS used for batched visual preparation.",
+  "runtime": {
+    "torch": "2.14.0",
+    "python": "3.12.14",
+    "mps_built": true,
+    "mps_available": true,
+    "mps_fallback_env": "unset",
+    "numpy": "2.5.3",
+    "cpu_threads": 4
+  },
+  "source_sha256": {
+    "__init__.py": "02ed02e84e4a96ab559de555c0ac055c8095330d031af1d4a709303c0c121598",
+    "env.py": "7da17b673b706bf771b4a79d4685a028be8cf9dc8b6b92f4566a4d56882cfd38",
+    "model.py": "6f31055b0cd9bca377ac09cbcca25fb2a65e6885e07b4919490c06caae08e3fe",
+    "train.py": "eca5a3de9fb60ad4d64cb323d3f0cc746ccb9d147c45d679b30c41cfec2a3902",
+    "run_batch.py": "8a72393da71e2841333978db7676f72c9403550084e67b84136a5baa9209f242",
+    "requirements.lock.txt": "de1a0b4694afded60a5e34e3f7939ae22ca743652ed6e2c83117edff57e8bdb3"
+  }
+}

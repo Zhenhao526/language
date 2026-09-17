@@ -1,0 +1,56 @@
+{
+  "prepared_at": "2026-09-15T16:20:59.453560+08:00",
+  "source_run": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information",
+  "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+  "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+  "cases_sha256": "ea80329e1a14293b1921781a397dcd8f28cf02d9dd88cbb3aecfbe7184e1e60f",
+  "source_sha256": {
+    "qwen_language_diagnostics/__init__.py": "beb606ac2d6ab7dfa26cd78407562f505e1afb6af3110bd3f3b2c34da6dbfc7c",
+    "qwen_language_diagnostics/experiment.py": "38f571a3716d4e2096425ee4643d3cfcf9a3e490d181d5e8d0f4f312670db790",
+    "qwen_language_diagnostics/history_cases.py": "5531999fbf53983ec512b45b2abfcee761dd6612dee55e5d825d50776640c27e",
+    "qwen_language_v3/environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+    "qwen_language_v3/agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+    "qwen_language_v3/backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+    "qwen_language_v3/protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+    "qwen_language_v3/run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b",
+    "qwen_language_v3/probe.py": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+    "qwen_language_v3/execute_locked_pipeline.py": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f"
+  },
+  "source_records_sha256": {
+    "manifest.json": "dbfe29cbf6acaeceed27f96fe6a1873f34179283e2d5d740f7cdc69c10e43b17",
+    "steps.jsonl": "886a07e79c3c4be49cea30aa7e29637d161d9bdd2f85bf84492cfdadf5cb7f85",
+    "inference.jsonl": "22f15341f6d0a885cdd9c5a129a205ff91c1e930b25bc0e1a7e6b432e1d5be5a",
+    "episodes.jsonl": "e27fdd1a5ef684b6bfb354b082705343460b9d7f61a4ee71571effe89c4f49a0"
+  },
+  "sequence": [
+    "full_rules_four_questions",
+    "same_four_rule_card_only_if_any_formal_error",
+    "B_step2_original_then_empty_history",
+    "C_step9_original_then_empty_history"
+  ],
+  "model_parameters": {
+    "private_analysis_tokens": 256,
+    "private_analysis_temperature": 0,
+    "formal_temperature": 0,
+    "native_thinking": false,
+    "fresh_cache_every_call": true
+  },
+  "calls_without_card": 16,
+  "calls_with_card": 24,
+  "max_backend_calls": 24,
+  "rule_seed_shared_across_lengths_orders_and_cards": 20260915,
+  "card_intervention": "Replace the full rule text with the frozen carry-rule card; do not append.",
+  "history_intervention": "Only past private raw history is removed; all current broadcasts are retained.",
+  "no_retries": true,
+  "updates_source_histories": false,
+  "unlocked_symbol_experiment": false,
+  "interpretation_limits": [
+    "All R truth values are yes; passing does not exclude always-yes semantic response.",
+    "R is a synthetic rule judgment, not a physical cooperation or language formation task.",
+    "The two S states were selected after observing errors, not unbiased evaluation cases.",
+    "Short card changes content, length and salience together.",
+    "Deleting past history changes content and prompt length together.",
+    "Fixed other-agent actions do not establish renewed agreement or group learning.",
+    "A one-step score can stay unchanged even when transportation succeeds."
+  ]
+}

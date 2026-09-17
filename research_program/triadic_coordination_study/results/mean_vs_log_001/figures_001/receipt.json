@@ -1,0 +1,11 @@
+{
+  "status": "plotted_all_fixed_primary_pairs_and_checkpoints",
+  "source_sha256": "bb0ffacee9f3bd9a58533393226258c25eb8696d35c730b7d88e02f3a5cc8e87",
+  "script_sha256": "5ed1412f45d07094e5db6337bf0b3b067d771a171f3ab9a726fa13af5c9a61da",
+  "figures": {
+    "paired_objectives.svg": "297c607ed31533689c97c7c4ef3fb793de2b003ab1b20b801f9100c438c1a6ec",
+    "paired_objectives.png": "e1e9a329725918deed088b412573e57ca3a9ddabae7739b2bb6c5ef870575e80"
+  },
+  "visual_review_pending": true,
+  "training_or_forward_calls": 0
+}

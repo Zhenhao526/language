@@ -1,0 +1,1140 @@
+
+===PDF PAGE 1===
+RESEA RCH ARTICL E
+Social adaptation in multi-agent model of
+linguistic categorization is affected by
+network information flow
+Julian Zubek
+1
+, Michał Denkiewicz
+1,2
+, Juliusz Barański
+1
+, Przemysław Wro ´ blewski
+1
+,
+Joanna Rączaszek-Leona rdi
+2
+, Dariusz Plewczynski
+1,3
+*
+1 Centre of New Technolo gies, University of Warsaw , Warsaw, Poland, 2 Faculty of Psycho logy, University of
+Warsaw, Warsaw, Poland, 3 Faculty of Mathem atics and Information Science, Warsaw Univers ity of
+Technolo gy, Warsaw, Poland
+* d.plewcz ynski@cen t.uw.edu.pl
+Abstract
+This paper explores how information flow properties of a network affect the formation of cat-
+egories shared between individuals, who are communicating through that network. Our
+work is based on the established multi-agent model of the emergence of linguistic catego-
+ries grounded in external environmen t. We study how network information propagation effi-
+ciency and the direction of information flow affect categorization by performing simulations
+with idealized network topologies optimizing certain network centrality measures. We mea-
+sure dynamic social adaptation when either network topology or environment is subject to
+change during the experiment, and the system has to adapt to new conditions. We find that
+both decentralized network topology efficient in information propagation and the presence
+of central authority (information flow from the center to peripheries) are beneficial for the for-
+mation of global agreement between agents. Systems with central authority cope well with
+network topology change, but are less robust in the case of environment change. These
+findings help to understand which network properties affect processes of social adaptation.
+They are important to inform the debate on the advantages and disadvantages of central-
+ized systems.
+Introduction
+To study phenomena such as convention sharing, cultural transmission and language evolu-
+tion researchers are employing multi-agent modeling [1–5]. Such methods allow simulating
+processes which naturally unfold on very slow time-scales. With computational models it is
+possible to formulate hypotheses as to how the observed properties of language—such as cate-
+gories and vocabulary structure—have evolved over time. Realistic models of this kind have to
+include social factors and limitations, which influence the language structure [6, 7]. But which
+specific factors are important in this context and when is their influence visible? In our work
+we contribute to answering this question by studying the effects of social network topology in
+a multi-agent model of categorization. Through simulations, we investigate the impact of
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 1 / 25
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Zubek J, Denkiewicz M, Barański J,
+Wro ´ blewski P, Rączasze k-Leonardi J, Plewczynski
+D (2017) Social adaptation in multi-agent model of
+linguistic categorizati on is affected by
+network information flow. PLoS ONE 12(8):
+e0182490. https://d oi.org/10.1371/j ournal.
+pone.018249 0
+Editor: Frederic Amblard, Universite Toulouse 1
+Capitole, FRANCE
+Received: December 5, 2016
+Accepted: July 19, 2017
+Published: August 15, 2017
+Copyright: © 2017 Zubek et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricte d use, distribu tion, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availabilit y Statement: Software used to run
+the simulations and experimenta l data are freely
+available for download from: https://github. com/
+CogSys/co g-abm (open source Python
+implementa tion, OS independen t).
+Funding: This study was financed by Polish
+National Science Centre (http://www.n cn.gov.pl/):
+grant number 2015/16/T/S T6/00493 to JZ and
+grant numbers 2014/15/B/S T6/05082 and 2013/
+09/B/NZ2/ 00121 to DP. JZ was co-suppor ted by
+
+===PDF PAGE 2===
+information flow in the network on the quality of the evolved language categories and the sta-
+bility of the shared communication system in the face of socio-environmental change.
+Our starting point is a multi-agent model of categorization developed by Steels and Bel-
+paeme [2]. It strength lies in grounding the evolved categories in external stimuli, providing a
+link between language and environment. It was originally used to explore the cultural evolu-
+tion of color categories and vocabulary. The building blocks of this model are simple interac-
+tion protocols called language games [8]. Language games are designed to represent
+ecologically important tasks involving language usage. In such game agents interact with each
+other according to their roles, and afterwards an outcome in the form of communicative suc-
+cess or failure is determined. Each agent adjusts its categories while playing language games in
+order to maximize its own communicative success. This gradually leads to the emergence of
+global system of categories shared on the population level. Similarly to the original Steels and
+Belpaeme’s work, in our simulations agents learn to discriminate and name objects based on
+their colors. Random color samples from Munsell color chips encoded numerically in CIE
+LAB space constitute an environment. A system of categories describing the environment is
+evolved during each simulation.
+Network topology determines which agents can interact with each other directly. In the
+original model a fully connected network was used imposing no restrictions on agents’ com-
+munication. This is not a realistic assumption: communication in both artificial and social sys-
+tems has its costs. It is restricted by geographical, technological, and social factors. We model
+such restrictions by introducing specific network topologies. Then we ask what properties of
+such restricted network topologies are desirable for constructing a system of categories useful
+for communication, which would be robust under perturbations but also flexible, i.e., able to
+dynamically adapt to varying environmental conditions [7]. In our experiments both the struc-
+ture of the stimuli (environmental constraints) and the network topology (communication
+constraints) are prone to change. We address three different questions:
+1. How fast, given a certain network topology, the system of categories and vocabulary can
+achieve global agreement within the whole population?
+2. Can a system of categories evolved using a particular communication network topology be
+adapted when the topology changes so that unrestricted communication between all agents
+is made possible (fully connected network)?
+3. Can an already evolved system of categories be adapted and retrained when the distribution
+of stimuli occurring in the environment changes? Does the effectiveness of re-training
+depend on the topology of the network?
+The first question is connected to the static situation when the circumstances do not
+change. The second question is related to change in internal circumstances of the system oper-
+ation. The third question concerns change in external circumstances. Together they provide a
+comprehensive account of the issues of social adaptation.
+There are existing studies analyzing the impact of network properties, such as size or aver-
+age node degree, on vocabulary transmission [3, 9, 10]. We are interested in studying the prop-
+erties related to the concept of network centrality. It can be intuitively understood as the
+existence of nodes with large influence on the rest of the network (e.g. influential individuals
+in a social group). Network centrality is an established concept in social studies and has been
+applied to explain a wide variety of phenomena, such as functioning of an organization [11],
+decision-making [12, 13], or spread of innovation [14]. Centrality is closely related to network
+flow [15]. We study two aspects of centrality: topological centrality, connected with number of
+steps needed to propagate information through the network, and centralization of authority,
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 2 / 25
+the research fellowship within Project “Informa tion
+technologi es: Research and their interdiscipl inary
+application s” within Human Capital Operationa l
+Programme financed by European Social Fund
+(http://ec. europa.eu/e sf/), agreement number UDA
+POKL.04.01 .01-00-051/ 10-00. This work was co-
+supported by the Foundation for Polish Science
+(TEAM to DP). The funders had no role in study
+design, data collection and analysis, decision to
+publish, or preparation of the manuscript.
+Competing interests : The authors have declared
+that no competing interests exist.
+
+===PDF PAGE 3===
+connected with the direction of information flow. According to our hypothesis, decentralized
+network topologies in which information propagation requires smaller number of steps should
+allow to evolve a consistent set of linguistic categories faster. On the other hand, introducing
+central authority (forcing information flow from the center toward peripheries) should impose
+the consistency of categories through the network structure.
+To verify our hypotheses we perform experiments with 8 network topologies originally
+used in social computing experiments by Mason and Watts [16]. All of these networks
+have uniform node degree 3, but they differ in centrality: each network either maximizes or
+minimizes certain centrality measure. This results in 4 decentralized networks topologies and
+4 centralized topologies. These networks have well-defined theoretical properties and were
+already studied in social context. To study the effect of the centralization of authority we
+include star network topology as a special case of centralized network. In this context we ana-
+lyze different directions of information flow in a network by considering different roles of the
+central agent in interactions. It can be mostly active (star speaker), when it authoritatively
+forces its own categories on other agents, mostly passive (star hearer), when it learns the cate-
+gories of others, or its role can be balanced (star balanced). Using such operationalization we
+demonstrate that the two aspects of network centrality—topological centrality and centraliza-
+tion of authority—affects the dynamics of categorization system differently. We stress that
+both aspects of centrality are important factors to be recognized and distinguished.
+Experiment design
+The foundation of our research was an agent-based model of categorization utilizing language
+games developed by Steels and Belpaeme [2] (see Section “Language games model”). During
+the simulations randomly selected pairs of agents engaged in guessing game, in which one of
+the agents had an active role (speaker) and the other a passive role (hearer). A simplified ver-
+sion of guessing game in which there was no categorization of stimuli, only naming, was nam-
+ing game. We used this variant as an alternative model to test the universality of our results.
+Each game could result either in success or a failure (see Section “Language games”). The base
+measure of agent performance was the fraction of successful guessing games for a given agent
+over the last 50 games of that agent. Mean value over a population of agents represented their
+agreement in categorizing stimuli, and was called communication success (CS). By analyzing
+CS it was possible to say how fast the population reaches an agreement.
+To answer questions formulated in the introduction we used three experimental designs:
+1. To answer question 1) we let the agents learn categories while engaging in interactions
+according to a specific network topology (optimizing network specific communicative suc-
+cess—CS
+S
+), but at the same time we measured their communicative success in a fully con-
+nected network (global communicative success—CS
+G
+). Network topologies in which both
+high CS
+S
+and high CS
+G
+are achieved were deemed effective in category transmission.
+2. Answering question 2) required changing the network topology during the experiment. In
+the first phase (625 iterations per network node) agents interacted according to a specific
+network topology, then in the second phase (another 625 iterations per node) they were
+allowed to retrain their categories with no restrictions on interaction (fully connected net-
+work). During both phases CS
+S
+on the restricted topology and CS
+G
+on the fully connected
+network were measured. Achieving high CS
+G
+after the second phase of the experiment
+without compromising CS
+S
+was a sign that the system of categories developed in the first
+phase was easily adaptable to unrestricted communication scenario.
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 3 / 25
+
+===PDF PAGE 4===
+3. Question 3) is connected with changing the environment structure while holding the net-
+work topology constant. In the first phase (625 iterations per network node) agents learn to
+categorize stimuli drawn from distribution A, then in the second phase (another 625 itera-
+tions per node) they retrain their categories using stimuli drawn from distribution B. Distri-
+butions A and B differed significantly (see Section “Environments”). Communicative
+success is measured using specific network topology and the stimuli from distributions A
+(CS
+A
+) and B (CS
+B
+) separately. Achieving high CS
+B
+after the second phase of the experiment
+without compromising CS
+A
+is a sign that the system of categories developed in the first
+phase was able to adapt to a new environment (adaptiveness) while retaining previous
+knowledge (retention).
+Design 1) is the standard procedure which was applied in the previous simulational studies
+regarding convention sharing and forming of categories [2, 4, 9]. Designs 2) and 3) allow
+studying more dynamic properties of the system when the conditions of its operation change.
+Change of topology may be looked upon as a representation of an internal organizational
+change, for example when the institution is reorganized and a new hierarchy is introduced.
+Question whether such transition is easier when the starting point is some specific topology
+remains an interesting topic in organization science [13].
+As for the external environment change a vivid metaphor is a tribe of nomads, which is
+moving from one climate zone to another. Suddenly they encounter different fauna and flora
+species and have to coordinate their activity in different set of circumstances than before. To
+cope with that they have to adapt their language, which involves modifying the vocabulary and
+the set of categories. The open question is whether network topology affects this process.
+Network properties
+In all our experiments a system trained from the beginning using fully connected network
+topology, as in the original Steels and Belpaeme [2] experiment, was used as a baseline. Since
+fully connected network provides a direct link between any two nodes, we expected it to pro-
+duce the best consensus. Our research hypotheses concerned properties of the more specific
+network topologies.
+The first hypothesis was that the efficiency of information propagation in a network is ben-
+eficial for building consensus in the three above described scenarios. Possibility to propagate
+local solutions in a decentralized network should lead to faster convergence. We tested 8 net-
+works either centralized or decentralized according to different centrality measures: between-
+ness [17], closeness [18], clustering [19], constraint [20].
+The second hypothesis concerned the direction of information flow. Basing on the predic-
+tions from organizational science [13], we expected that networks in which information is
+propagated from the center to peripheries (centralized authority) will be more homogeneous
+and achieve better consensus, but at the expense of some robustness and flexibility. To study
+these effects we used simple star topology in three different variants:
+• star speaker—central node has a chance of becoming the speaker in any guessing game it
+plays proportional to its node degree. For the degree d probability of becoming the speaker
+is
+d   1
+d
+. Here information flows from the center to the peripheries. Central node acts as an
+authoritative figure enforcing its point of view on the rest of the population.
+• star hearer—central node has a chance of becoming the hearer in any guessing game it plays
+proportional to its node degree. For the degree d probability of becoming the hearer is
+d   1
+d
+.
+Here information flows from the peripheries to the center. Central node is a translator medi-
+ating between other agents.
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 4 / 25
+
+===PDF PAGE 5===
+• star balanced—central node has equal chances of becoming either speaker or hearer. The
+information flow is balanced.
+Regarding the environment, it is known from the previous research that the distribution of
+stimuli influences the evolved set of categories [21]. We constructed environments A and B in
+such a way to assure their diversity while not keeping them completely disjoint (see Section
+“Environments”). It was expected that systems trained on environment A would perform
+worse on stimuli drawn from environment B, but than can be retrained and adapted to the
+new environment.
+Materials and methods
+Language games model
+As a stimulus we understand a vector of numeric values, functioning as a real-world reference
+for agents’ communication (in our case a point in the CIE LAB color space). Stimuli are drawn
+from a certain distribution called environment. Each agent maps any stimuli it receives onto its
+own internal set of categories which initially are arbitrary labels devoid of any intrinsic mean-
+ing. Agent adds new categories to its set during the simulation. The particular categories
+used by different agents are completely independent. An agent maps its categories to a set of
+words—tokens that are shared between agents during a linguistic game.
+The simulation consists of a number of iterations. In each iteration two agents interact by
+playing a guessing game. The interaction uses four stimuli sampled from the environment, one
+of which is arbitrarily marked as the topic. One of the agents takes the role of a speaker, who
+has to communicate to the other—the hearer—which of the stimuli is the topic. It accom-
+plishes this by telling a word it associates with the topic. The hearer then picks the stimulus it
+thinks is best described by that word (in the given set of stimuli), and if it is the topic, the lan-
+guage game is considered successful. Vocabularies and internal categories of both participating
+agents are updated depending on the outcome of the game.
+Allowing specific network topologies and dynamic changes in topology and environment
+structure are modifications with respect to the original model [2].
+Agent architecture
+Architecture of an agent is depicted schematically by Fig 1. Each agent consists of a stimuli cat-
+egorization system and a lexicon, which maps words to categories. Categorization is imple-
+mented using adaptive networks model similar to SUSTAIN categorization model [22]. Each
+category recognized by an agent is represented by one adaptive network. An adaptive network
+is composed of multiple reactive units—specialized in detection of a single stimulus and sti-
+muli similar to it. Activation function of each unit is determined by Gaussian function and has
+the following form:
+z
+u
+ðx Þ ¼ e
+ 
+1
+2s
+2
+X
+n
+i¼1
+ðx
+i
+  m
+i
+Þ
+2
+where x is an input stimuli, m is a vector of unit’s weights, and σ
+2
+is the scaling parameter of
+the kernel (in our experiment σ = 1). Reactive units have weights representing their impor-
+tance for the category. The output of the whole adaptive network for a category C has the
+form:
+f
+C
+ðx Þ ¼
+X
+u2C
+w
+u
+z
+u
+ðx Þ
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 5 / 25
+
+===PDF PAGE 6===
+where w
+u
+is the weight of a particular reactive unit. An agent performs classification by assign-
+ing a stimulus to the category with the largest reaction scores. In the case of misclassification,
+agent adds a new reactive unit to the network.
+An agent uses associative memory network (lexicon) to relate its internal categories to
+known words. Each category can be associated with multiple words and vice versa, each associ-
+ation having certain strength. When agent is looking for a category associated with a given
+word, it chooses a category which has the strongest association with that word. Analogously,
+while choosing a word for a given category, the one with the strongest association with the cat-
+egory is chosen.
+Language games
+In each iteration of the simulation a selected pair of agents plays guessing game. One agent is
+the speaker and the other is the hearer, they act according to their roles. Agents’ adaptive net-
+works and lexicons are modified during the game depending on their interaction with each
+other and with the environment. A distinguished component of guessing game is a special solo
+game called discrimination game. A simplified variant of the game played by two agents which
+does not contain discrimination game is called naming game (also: ungrounded naming game).
+This game uses only the lexical layer without the categorization layer. All specific parameters
+of language games, such as the number of stimuli etc., followed the original experiment of
+Steels and Belpaeme [2].
+Discrimination game
+1. Agent is presented a set of four stimuli with one distinguished stimuli—a topic. Euclidean
+distance between all possible pairs of stimuli is guaranteed to exceed the value 50.
+2. If agent assigns the topic to a different category than the rest of the stimuli game result is
+SUCCESS.
+3. Otherwise game result is FAILURE (see below for consequences of the success and failure
+of the discrimination game).
+Fig 1. Archite cture of an agent.
+https://d oi.org/10.1371/j ournal.pon e.0182490.g0 01
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 6 / 25
+
+===PDF PAGE 7===
+Guessing game
+1. Stimuli are drawn and speaker plays discrimination game. C
+s
+is the category to which the
+topic was classified. v is the word with the strongest association with C
+s
+. If there is no word
+associated with C
+s
+, a new word is created.
+2. Hearer chooses category C
+h
+with the strongest association with v and points to the stimulus
+which matches C
+h
+the best.
+3. If speaker is able to name the topic (using the word v) and hearer points to it correctly:
+• Game result is SUCCESS.
+• Speaker increases association strength between C
+s
+and v by 0.1.
+• Speaker decreases association strengths between v and categories other than C
+s
+by 0.1.
+• Hearer increases association strength between C
+h
+and v by 0.1.
+• Hearer decreases association strength between C
+h
+and words other than v by 0.1.
+• Adaptive networks of both agents are modified: weights of all reactive units in topic’s cate-
+gory are increased by βz
+u
+(x
+t
+). x
+t
+is topic, β is learning rate (in our experiments β = 1).
+4. Else:
+• Game result is FAILURE.
+• If speaker cannot discriminate between the topic and other stimuli then:
+ Speaker modifies his adaptive network. If its communicative success is larger than 0.95,
+the topic is added as a new reactive unit to the category to which it was classified. Other-
+wise, a new category with a single reactive unit centered at the topic is created.
+ Weights w
+u
+of all reactive units in speaker’s adaptive networks are decreased
+(forgetting).
+• If hearer does not know the word v then:
+ Hearer plays discrimination game, and in case of failure modifies its adaptive network.
+If its communicative success is larger than 0.95, the topic is added as a new reactive unit
+to the category to which it was classified. Otherwise, a new category with a single reactive
+unit centered at the topic is created.
+ Topic’s category from the discrimination game is associated with word v with the initial
+strength 0.5.
+ Weights w
+u
+of all reactive units in hearer’s adaptive networks are decreased (forgetting).
+• If hearer does not point out the topic correctly then:
+ Speaker decreases strength of association between v and C
+s
+by 0.1.
+ Hearer decreases strength of association between v and C
+h
+by 0.1.
+ Hearer modifies its adaptive network. If its communicative success is larger than 0.95,
+the topic is added as a new reactive unit to the category to which it was classified. Other-
+wise, a new category with a single reactive unit centered at the topic is created.
+ Weights w
+u
+of all reactive units in hearer’s adaptive networks are decreased (forgetting).
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 7 / 25
+
+===PDF PAGE 8===
+Naming game
+1. Stimuli are drawn and speaker chooses a word v which has the strongest association with
+topic (if there is no word associated with topic, a new word is created).
+2. Hearer points to the stimulus with the strongest association with v.
+3. If hearer points to the topic correctly:
+• Game result is SUCCESS.
+• Speaker increases association strength between the topic and v by 0.1.
+• Speaker decreases association strengths between v and stimuli other than the topic 0.1.
+• Hearer increases association strength between the topic and v by 0.1.
+• Hearer decreases association strength between the topic and words other than v by 0.1.
+4. Else:
+• Game result is FAILURE.
+• If hearer does not know the word v then:
+ Hearer associates the topic with word v with the initial strength 0.5.
+• If hearer does not point out the topic correctly then:
+ Speaker decreases strength of association between v and the topic by 0.1.
+ Hearer decreases strength of association between v and the topic by 0.1.
+Social network and information flow
+To analyze the role of network centrality in the evolution of categories we used 8 network
+topologies with 16 nodes of degree 3 embodying different centrality characteristics, as
+described by Mason and Watts [16]. Based on their centrality four of them are called “central-
+ized” and four “decentralized”. Following the procedure used by the authors we also con-
+structed max avg bet and min avg bet networks of other sizes (8, 12, 24, 32, 48) to ensure
+generalization of results.
+Role of the direction of network flow was analyzed using simplistic star topology (1 central
+node connected to n neighbors) in three variants: star speaker (higher chance of central node
+acting as speaker), star hearer (higher chance of central node acting as hearer), star balanced
+(central node has equal chances of becoming speaker and hearer). We constructed such net-
+works for n = 8, 12, 16, 24, 32, 48.
+In all experiments a fully connected network was used as a baseline. Various graph proper-
+ties of these networks are given by Table 1. Network topologies for n = 16 are presented visu-
+ally as Figs A–C in S1 Appendix.
+Environments
+As in Steels and Belpaeme [2] study, in our experiments stimuli were drawn at random from
+the set of 1269 Munsell color chips. In the experimental condition with environment change
+we generated two additional sets of 600 chips based on the original one. We modeled the two
+environments following family resemblance structure with one focal point and stimuli distrib-
+uted around the focal point according to three-dimensional normal distribution. Such
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 8 / 25
+
+===PDF PAGE 9===
+structures are argued to underline many naturally occurring categories [23, 24], and are rela-
+tively simple and universal. Environment A was drawn from a distribution centered at point
+p
+1
+= (L = 66.97, a = 18.65, b = 38.36), environment B was drawn from a distribution centered
+at point p
+2
+= (L = 46.24, a = −16.46, b = −1.41). Variables were uncorrelated, scale in each
+dimension was 10 times bigger than the difference between p
+1
+and p
+2
+. This procedure gener-
+ated two environments containing similar stimuli spanning across whole color space but
+occurring with different frequencies. Fig 2 presents distributions of L, a, b values in these
+environments.
+For naming game we used simple environment consisting of 16 discrete stimuli. Here also
+two variants of the environment—A and B—were prepared having 5 stimuli in common. Sti-
+muli were distinguishable for agents but otherwise identical (there was no internal structure of
+the stimuli).
+Table 1. Structural properties of netwo rk topologies used in experi ments. The columns : Closenes s, Betweenn ess and Clustering represent average val-
+ues of respective measure across all nodes.
+Network size Topology Radius Diameter Closene ss Between ness Cluster ing
+8 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.59 0.11 0.00
+Max avg betweenne ss 3 3 0.56 0.13 0.50
+Min avg betweenness 2 2 0.64 0.10 0.12
+12 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.56 0.08 0.00
+Max avg betweenne ss 3 6 0.37 0.18 0.42
+Min avg betweenness 3 3 0.52 0.09 0.00
+16 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.55 0.06 0.00
+Max avg betweenne ss 5 9 0.27 0.20 0.44
+Min avg betweenness 3 3 0.45 0.09 0.00
+Max max closeness 3 5 0.41 0.10 0.06
+Min avg clustering 3 4 0.44 0.09 0.00
+Max var constraint 3 6 0.39 0.12 0.25
+Max avg clustering 6 6 0.31 0.16 0.50
+Min max closenes s 5 9 0.27 0.20 0.37
+Max max betweenness 3 6 0.31 0.17 0.37
+24 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.53 0.04 0.00
+Max avg betweenne ss 8 15 0.17 0.23 0.46
+Min avg betweenness 4 4 0.39 0.07 0.00
+32 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.52 0.03 0.00
+Max avg betweenne ss 11 21 0.13 0.23 0.47
+Min avg betweenness 4 4 0.34 0.06 0.00
+48 Fully connect ed 1 1 1.00 0.00 1.00
+Star 1 2 0.52 0.02 0.00
+Max avg betweenne ss 16 32 0.09 0.24 0.42
+Min avg betweenness 5 6 0.29 0.05 0.00
+https://do i.org/10.1371/j ournal.pone .0182490.t001
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 9 / 25
+
+===PDF PAGE 10===
+Results
+Global agreement of categorization system
+The first experiment concerned the ability of different topologies to reach global agreement.
+We were interested if a categorization system induced by a given topology constituted a good
+basis for communication between all agents. Since in a single iteration only two agents interact,
+in order to give larger networks equal chance to propagate information, we decided that the
+number of iterations should scale with the number of nodes. Hence, all network topologies
+were trained for 625 simulation iterations per node (5000 for network size 8, 7500 for size 12,
+10000 for size 16, 15000 for size 24, 20000 for size 32, 30000 for size 48) using the same set of
+stimuli. We ensured that after this number of iterations performance of fully connected net-
+work converged by comparing obtained CS
+G
+scores with those measured at the previous occa-
+sion, and not finding statistically significant differences (see Table 2). For each topology and
+size the simulation was repeated 10 times.
+Figs 3 and 4 (first half of each plot, before topology change) present the evolution of CS
+S
+and CS
+G
+during the simulation, for different topologies and network sizes. The general trend is
+consistent with the expectations: for each topology CS
+S
+is higher than CS
+G
+, CS
+G
+is lower than
+the baseline CS
+G
+of the fully connected topology.
+For network size 16 we used the original network topologies introduced in Mason’s experi-
+ment. We found differences in CS
+G
+between decentralized and centralized networks. Topolo-
+gies max avg bet, max avg clust, max max bet, min max clos perform visibly worse than max var
+cons, min avg bet, min avg clust and max max clos. The order of topologies according to CS
+G
+is
+identical to their order according to betweenness centrality measure. The highest scores were
+Fig 2. Histogra ms of L, a, b values for stimuli in environmen ts A and B.
+https://d oi.org/10.1371/j ournal.pon e.0182490.g0 02
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 10 / 25
+
+===PDF PAGE 11===
+obtained for min avg bet topology and the lowest for max avg bet, both optimizing between-
+ness. We chose these topologies as the most representative, and in the experiments with other
+network sizes only these two topologies were used. The results were consistent for all network
+sizes: the topology with smaller betweenness always outperformed the other one.
+To determine statistical significance of these observations, in each simulation we collected
+CS
+G
+scores of various topologies at the point of topology change (625 iterations per node). The
+results are presented as Fig D in S1 Appendix. Separately for each network size (8, 12, 16, 24,
+32, 48) we compared the properties of each topology. In the case of star topology, the three
+modes of interaction (star balanced, star hearer, star speaker) were treated as different topolo-
+gies. For each network size we conducted one-way ANOVA comparing the CS
+G
+scores of dif-
+ferent topologies. Bartlett’s test was used to check the assumption of equal variances between
+groups. Even though for some network sizes there were significant differences in variances, we
+decided to proceed normally because of very large differences in means. All ANOVA tests
+were highly significant (p < 0.001, see Table 3). Each ANOVA was followed by a post-hoc
+analysis, using Tukey’s honest significance test. We used critical values of the test statistic to
+visualize significant differences between groups [25]. These visualizations are presented as Fig
+E in S1 Appendix. The previously described differences between topologies were indeed
+significant.
+For network size 16 we also conducted a separate ANOVA, using all 4 centralized and all 4
+decentralized networks from Mason’s study. We verified that the variances of scores for differ-
+ent topologies are similar with Bartlett’s test (χ
+2
+= 8.52, p = 0.29, null hypothesis that the vari-
+ances are equal was not rejected). Then we performed one-way ANOVA test and obtained F(7,
+72) = 63.95, p < 0.001, which was sufficient to state significance difference between topologies.
+Post-hoc analysis was performed using Tukey’s honest significance test, the results are visual-
+ized as Fig F in S1 Appendix.
+As can be seen on Figs 3 and 4, there are large differences between the three modes of inter-
+action for the star topology. When the central node performs mostly role of the hearer CS
+G
+is
+very low, while CS
+S
+is comparable with the other modes of communication for small networks,
+and for larger networks (size 32 and 48) it visibly degenerates after some time. This suggests
+that the central agent is flexible enough to successfully communicate with its peers—without
+forming global consensus—as long as the number of peers is relatively small. As the number of
+peers grow, so does the number of categories the central node is required to learn while per-
+forming role of the hearer—it is “pulled” simultaneously in different directions which prevents
+it from forming stable categorization system.
+When the central node performs mostly role of the speaker, CS
+G
+grows very fast and almost
+approaches the level of fully connected topology. CS
+S
+in smaller networks is similar for all
+Table 2. Results of paired t-test for convergen ce of CS
+G
+for fully connecte d topology : Scores after 625
+iterations per node are compar ed with scores measur ed at the previo us occasion. There were no signif-
+icant differences .
+Network size t(9) p
+8 0.3687 0.7209
+12 1.1239 0.2901
+16 1.5202 0.1628
+24 -0.9338 0.3748
+32 -0.7363 0.4803
+48 0.1118 0.9134
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 2
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 11 / 25
+
+===PDF PAGE 12===
+modes of interactions but in larger networks star speaker performs worse than balanced star
+which in turn performs worse than max avg bet and min avg bet topologies. This means that
+forcing centrally designed categorization on a larger number of agents becomes more difficult,
+even though it remains a good strategy to build global consensus.
+Fig 3. Network specific communica tive success (CS
+S
+) and global communi cative success (CS
+G
+) for different networks,
+before and after topology change (the change occurs after 625 iterations per node).
+https://d oi.org/10.1371/j ournal.pon e.0182490.g0 03
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 12 / 25
+
+===PDF PAGE 13===
+Adaptation to new network topology
+In the second experiment the categorization systems trained with specific network topologies
+for 625 iterations per node were further retrained for another 625 iterations per node, but
+using the fully connected topology. Once again, each simulation was repeated 10 times.
+A similar analysis as in the previous experiment was conducted—for each network size we
+compared the CS
+G
+of each topology, this time at the end of the second phase, after retraining
+Fig 4. Network specific communica tive success (CS
+S
+) and global communi cative success (CS
+G
+) for different networks,
+before and after topology change (the change occur s after 625 iterations per node).
+https://do i.org/10.1371/j ournal.pone .0182490.g0 04
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 13 / 25
+
+===PDF PAGE 14===
+on the fully connected topology (i.e., after 1250 iterations per node). We used Bartlett’s test to
+check equality of variances, and then applied ANOVA followed by a pairwise Tukey HSD test.
+Again, star balanced, star hearer, star speaker were treated as distinct topologies. ANOVA
+results are provided in Table 4, and the data is visualized as Fig G in S1 Appendix. Results of
+Tukey HSD test are visualized as Fig H in S1 Appendix.
+Figs 3 and 4 present the evolution of CS
+G
+and CS
+S
+during the simulation. All the systems
+were flexible enough to adapt to the new circumstances and improve their CS
+G
+to be on the
+same level as the baseline CS
+G
+of the fully connected network. This was achieved at the expense
+of a drop of CS
+S
+to the baseline level. There were no apparent differences between different
+Mason’s topologies, which suggests that centrality of the network used in the first phase does
+not have an impact on the learning in the second phase.
+An interesting effect was observed for star speaker topology and larger networks: the perfor-
+mance benefit visible in the first phase propagates to the second phase as well. System which
+was initially trained using star speaker topology has larger CS
+G
+in the second phase than the
+baseline system trained from the beginning using fully connected topology. This comes at the
+expense of CS
+S
+, which drops below baseline level. Such memory-like effects of increased learn-
+ing and increased forgetting means that the initially learned structure of categories influences
+further learning trajectory.
+Adaptation to new environment
+Similar experiments were performed for the environment change condition, where we
+observed how robust different network topologies are in their adaptation to new stimuli
+distribution. We used two different environments A and B, as described in Materials section.
+During the first 625 simulation iterations per node agents were trained on stimuli from
+environment A, and during the next 625 iterations—on stimuli from environment B. Local
+communicative success was calculated separately during the whole experiment for two envi-
+ronments (CS
+A
+and CS
+B
+). In this simulation, the network topology was held constant (but vari-
+ous topologies were tested). For each network topology and size, the simulation was repeated
+Table 3. ANOVA results for each network size: CS
+G
+after 625 iterations per node.
+Network size F(5, 54) ANOVA p Bartlett p
+8 30.1 < 0.001 0.024
+12 108.1 < 0.001 0.084
+16 248.3 < 0.001 0.017
+24 526.6 < 0.001 0.068
+32 940.2 < 0.001 0.067
+48 511.7 < 0.001 < 0.001
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 3
+Table 4. ANOVA results for each network size: CS
+G
+after topology change (1250 iterations per node).
+Network size F(5, 54) ANOVA p Bartlett p
+8 1.7 0.143 0.134
+12 5.4 < 0.001 0.982
+16 8.7 < 0.001 0.934
+24 63.2 < 0.001 0.807
+32 110.9 < 0.001 0.289
+48 103.4 < 0.001 0.748
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 4
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 14 / 25
+
+===PDF PAGE 15===
+10 times. Results are presented as Figs 5 and 6. For network size 16, performance of all net-
+works with node degree 3 was very similar. We decided to use only max avg bet and min avg
+bet topologies in other experiments, and for the sake of visibility only these two topologies are
+presented on the plots.
+Fig 5. Commu nicative success (CS) calculated on environm ent A and environmen t B for different network topologies. First
+half of the plot corresponds to a system learning in environ ment A and the second to the system learning in environ ment B.
+https://d oi.org/10.1371/j ournal.pon e.0182490.g0 05
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 15 / 25
+
+===PDF PAGE 16===
+Again, we can observe that network specific CS for all topologies is higher than in the case
+of fully connected topology. This applies both to CS
+A
+and CS
+B
+. In the second part of the experi-
+ment there is a rapid learning of stimuli from environment B, and the ability to categorize sti-
+muli from environment A deteriorates only very slightly. Interestingly, for star topology and
+larger network sizes this decrease in CS
+A
+is much more prominent: star performance drops
+to the baseline level and star speaker drops even lower. Performance of star hearer again
+Fig 6. Commun icative success (CS) calculated on environme nt A and environmen t B for different network topologies. First
+half of the plot corresponds to a system learning in environ ment A and the second to the system learning in environ ment B.
+https://do i.org/10.1371/j ournal.pone .0182490.g0 06
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 16 / 25
+
+===PDF PAGE 17===
+deteriorates for larger networks, in the case of network size 48 even before the shift in environ-
+ment structure.
+This observation was verified through statistical tests as before. We tested differences
+between CS
+A
+for different topologies at the end of the simulation (1250 iterations per node),
+for each network size separately. The distributions of CS
+A
+are shown in Fig I in S1 Appendix.
+The results are summarized in Table 5. Only in the case of the smallest network (8 nodes) the
+resulting model was not significant. Pairwise differences in terms of Tukey’s plots are pre-
+sented as Fig J in S1 Appendix.
+The differences between different topology properties are exacerbated for larger networks.
+This is to be expected, as the centrality measures exhibit the same behavior, e.g., the between-
+ness measure for the min avg bet and max avg bet is 0.13 vs 0.10 for network of size 8, 0.20 vs
+0.09 for size 16, and 0.24 vs 0.05 for size 48 (see Table 1). The analysis of those dependencies is
+beyond the scope of this paper.
+These analyses show that categorizations produced with star balanced and star speaker
+topologies are unstable, and when the system is retrained with new data—forgetting occurs.
+Categorization layer vs lexical layer
+We wanted to verify which of the discovered effects are due to the categorization layer of our
+model and which can be observed with the lexical layer alone. In other words: are the networks
+topologies which allow to establish common categories also helpful in establishing common
+vocabulary in a simplified scenario? Are the obtained results universal or model specific? With
+these questions in mind we repeated all the experiments using naming game instead of guess-
+ing game as the cornerstone of our simulation. The environment was replaced accordingly
+(see section Materials). We stuck to the rule of running 625 simulation iterations for each net-
+work node.
+Results of the topology shift experiment are presented by Figs 7 and 8. The task is easier
+than in the case of guessing game and almost all network topologies reach the maximum possi-
+ble performance (1.0). Perfect CS
+G
+score naturally leads to perfect CS
+S
+score. Relations between
+topologies in terms of CS
+G
+are preserved: min avg bet performs better than max avg bet, star
+speaker is quicker to reach maximum performance than star, star hearer performs the worst.
+Here star hearer is unable to reach maximum performance in terms of CS
+S
+score. Very slight
+forgetting effect is visible for max avg bet and min avg bet topologies in larger networks. For
+other topologies this effect is not observed, presumably because of the ceiling effect. Statistical
+analysis, analogous to those from previous experiments, were conducted for the CS
+G
+measure
+after first phase (625 iterations per node); The results are in the Table 6.
+Results of the environment shift experiment are presented by Figs 9 and 10. Here the adap-
+tation is very similar for all network topologies except star hearer topology, which does not
+reach maximum performance. The ANOVA results are presented in Table 7.
+Table 5. ANOVA results for each network size: CS
+A
+after environmen t change (1250 iterations per
+node).
+Network size F(5, 54) ANOVA p Bartlett p
+8 2.8 0.025 0.351
+12 11.3 < 0.001 0.797
+16 15.8 < 0.001 < 0.001
+24 46.0 < 0.001 0.017
+32 339.2 < 0.001 0.066
+48 327.7 < 0.001 < 0.001
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 5
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 17 / 25
+
+===PDF PAGE 18===
+To sum up, effects concerning speed of information propagation (building global consen-
+sus) in relation to network centrality and the direction of information flow were visible in the
+limited experimental situation where only the lexical layer was used. Memory-like effects con-
+nected with adaptation and forgetting were visible only when the full model with categoriza-
+tion layer was used.
+Fig 7. Network specific communica tive success (CS
+S
+) and global communi cative success (CS
+G
+) for different networks
+before and after topology change, for the naming game only scenario.
+https://do i.org/10.1371/j ournal.pon e.0182490.g0 07
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 18 / 25
+
+===PDF PAGE 19===
+Discussion
+The results obtained in the above experiments allow for a discussion of the effects of various
+properties of network topologies manifested in different conditions. Regarding the question
+concerning transmission of categories through the network we can conclude that it is indeed
+related to network centrality. High communication efficiency of network topology, indicated
+by centrality measures, leads to a better global agreement. This is visible as a gap between
+Fig 8. Network specific success (CS
+S
+) and global communica tive succes s (CS
+G
+) for different networks before and after
+topology change, for the naming game only scenario.
+https://do i.org/10.1371/j ournal.pone .0182490.g0 08
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 19 / 25
+
+===PDF PAGE 20===
+decentralized and centralized networks global communicative success. Among the centrality
+measures betweenness was the most informative with regard to global communicative success.
+It is a promising measure to include in further studies.
+Apart from network centrality we also analyzed the direction of information flow in a net-
+work. In star speaker, information flows from the central node towards the peripheries. This
+reflects the situation of a central authority imposing words on other nodes, leading to their fast
+transmission, which is indicated by large global agreement. Star hearer has lower global agree-
+ment, indicating (relative) lack of common vocabulary, while the symmetric case of star bal-
+anced topology has intermediate properties. Interestingly however, in terms of network
+specific success, all three star topologies are similar to each other for small networks, and for
+larger networks star speaker performs worse than star balanced. This shows that global unifica-
+tion of symbols (vocabulary) is not necessary for successful communication between local
+neighbors to occur.
+Our findings are consistent with the results of Fagyal et al. [26] who constructed a multi-
+agent model to investigate linguistic change and the role of central nodes in a network. They
+confirmed that central nodes were able to influence consensus formation in the network only
+if they had enough authority, i.e. the information flows from the center to peripheries. This
+reassures us that the direction information flow is an important factor to include in studies on
+consensus formation. It may explain some discrepancies in previously published research. In
+simulations by Richie et al. [10] star topology was characterized by slower convergence of
+vocabulary than fully connected topology, while Gong et al. [9] reported that agents connected
+through star topology reached consensus faster than in the case of fully connected topology.
+We suggest that the difference may be due to different direction of information flow assumed
+by the authors.
+A broader perspective on information flow properties was given by the second part of the
+experiment, when network topology was changed to a fully connected network. After the
+topology change, differences in global communicative success disappeared for all but the star
+speaker topology. In this topology, trained agents not only adapted swiftly to fully connected
+network in the second phase, but also reached performance superior to agents trained with
+fully connected topology from the beginning. It is worth to stress that global consensus pro-
+duced by star speaker topology in the first phase was already very high, and it probably helped
+to steer the category formation process in the second phase in the right direction.
+The general message of both simulational studies of categorization [2, 9] and experiments
+with human subjects in social networks [27] is that global consensus can be produced in a dis-
+tributed manner without any central authority. Our results show that central authority may be
+nevertheless beneficial for improved coordination. Using authority to build initial skeleton of
+category system, and then polishing the categories during unrestricted interactions proved to
+be a successful strategy.
+Table 6. ANOVA results for each network size: CS
+G
+after environ ment change (1250 iterations per
+node), for the naming game only scenario.
+Network size F(5, 54) ANOVA p Bartlett p
+8 124.7 < 0.001 < 0.001
+12 606.8 < 0.001 < 0.001
+16 2179.0 < 0.001 < 0.001
+24 5033.9 < 0.001 < 0.001
+32 10403.6 < 0.001 < 0.001
+48 35335.4 < 0.001 < 0.001
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 6
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 20 / 25
+
+===PDF PAGE 21===
+Another properties studied in our experiments were adaptiveness and retention of network
+performance in the case of environment change. Star topologies are characterized by lower
+retention as compared to uniform-degree topologies—after switching to new environment
+their performance on the stimuli from the old one deteriorates.
+Our results give some general answers regarding the question of desirable properties of net-
+work topology in a constructed system. Lack of centralization in topological sense, which helps
+efficient information propagation, is useful for building consensus. Centralization of authority,
+Fig 9. Commun icative success (CS) calculated on environme nt A and environmen t B for different network topologies, for
+the naming game only scenario .
+https://do i.org/10.1371/j ournal.pon e.0182490.g0 09
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 21 / 25
+
+===PDF PAGE 22===
+understood as information flow from the center to peripheries, may also lead to very good
+consensus but when the conditions change the dynamics of adaptation of such system will be
+different. In our experiments star speaker topology represented the case of strong central
+authority, which improved efficiency (high global communicative success) at the cost of
+smaller retention in the environmental change experiment. We stress that those two notions of
+centralization are fundamentally different and should not be confused.
+Fig 10. Commun icative success (CS) calculated on environm ent A and environmen t B for different network topologies, for
+the naming game only scenario .
+https://do i.org/10.1371/j ournal.pone .0182490.g0 10
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 22 / 25
+
+===PDF PAGE 23===
+This fits into a broader discussion on the merits of centralized vs decentralized systems. On
+the technical level engineers speak about advantages of decentralized software solutions. It is
+visible for instance in the context of resource management in distributed computational grids,
+where centralized systems are perceived as easier to construct but less robust and less flexible
+[28, 29]. On the higher level there is an old debate on decentralizing information systems [30].
+Hugoson [31] claims that centralized systems are often introduced as a way to ensure consis-
+tency and order, but as the systems grow they are becoming very hard to manage, and adapt to
+the changing needs. Decision making processes within an organization can also be subject to
+centralization. According to Andrews et al. [12] organizations with highly centralized author-
+ity focus more on improving the efficiency of their existing operation, while decentralized
+organizations exhibit greater flexibility in their constant search of new opportunities [12].
+Those examples come from different domains with their own characteristics but there is a sin-
+gle common theme: a trade-off between controlling internal dynamics of the system (ensuring
+consistency and consensus) and maintaining flexibility when facing a change in external con-
+ditions. Systems with centralized authority, like star speaker topology in our experiments, tend
+to cope with the internal changes better than with the external ones. The notion of internal vs
+external change may be useful for analyzing dynamical systems of this kind, and could be elab-
+orated upon in further works.
+Conclusions
+We have shown that the language games model can be used with a range of network topolo-
+gies, and is flexible enough to deal with environment or topology changes during the simula-
+tion. Topological network centrality and the direction of information flow were identified as
+two distinct factors with significant impact on the characteristics of the evolved categorization
+system.
+Fully connected network topology proved to be the most effective in transmission of cate-
+gories. On the local level however, more restricted topologies achieved high network specific
+communicative success without forming global agreement. Since in real-world situations the
+fully connected topology can be prohibitively expensive, this result may be informative for
+designing similar systems, under the assumption that communication effectiveness, rather
+than the exact category transmission, is required.
+Our results reinforce confidence in the usefulness of the language games model in studying
+language phenomena, also in more realistic, non-static context. In turn, further research based
+on multi-agent modeling and comparative paradigm can help to better understand the rela-
+tionship between properties of a system and circumstances that created it (e.g. network topol-
+ogy and its evolution). These factors can then be summarized as network centrality measures,
+like betweenness, allowing simple evaluation and comparison. Such experiments are a good
+Table 7. ANOVA results for each network size: CS
+A
+after environmen t change (1250 iterations per
+node), for the naming game only scenario.
+Network size F(5, 54) ANOVA p Bartlett p
+8 2.8 0.025 0.351
+12 11.3 < 0.001 0.797
+16 15.8 < 0.001 < 0.001
+24 46.0 < 0.001 0.017
+32 339.2 < 0.001 0.066
+48 327.7 < 0.001 < 0.001
+https://d oi.org/10.1371/j ournal.pon e.0182490.t00 7
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 23 / 25
+
+===PDF PAGE 24===
+way of preliminary hypotheses testing, which informs research of real communicative systems,
+both natural and artificially designed.
+Supporting information
+S1 Appendix. Supporting figures.
+(PDF)
+Author Contributions
+Conceptualization: JRL, DP.
+Data curation: JB, PW.
+Formal analysis: JZ.
+Funding acquisition: DP.
+Investigation: JZ, JB.
+Methodology: JZ, JB, PW, DP.
+Project administration: JZ, DP.
+Resources: JB, PW, DP.
+Software: PW.
+Supervision: JZ, DP.
+Validation: MD.
+Visualization: JZ.
+Writing – original draft: JZ, MD, JB, PW.
+Writing – review & editing: JRL, DP.
+References
+1. Christiansen MH, Kirby S. Language evolution : consensus and controver sies. Trends in Cognitiv e Sci-
+ences. 2003; 7(7):300–3 07. https://doi.or g/10.1016/ S1364-661 3(03)0013 6-0 PMID: 12860188
+2. Steels L, Belpaeme T. Coordin ating perceptu ally grounded categori es through language: a case study
+for colour. The Behavioral and Brain Sciences. 2005; 28(4):469– 489; discus sion 489–529. https:// doi.
+org/10.1017/ S0140525X 05000087 PMID: 162097 71
+3. Baronchelli A, Felici M, Loreto V, Caglioti E, Steels L. Sharp transitio n towards shared vocabular ies in
+multi-agen t systems. Journal of Statistical Mechanic s: Theory and Experiment . 2006; 2006(06):
+P06014. https://do i.org/10.1088 /1742-5468/ 2006/06/P060 14
+4. Puglisi A, Baronche lli A, Loreto V. Cultural route to the emerge nce of linguisti c categori es. Proceedings
+of the National Academy of Sciences of the United States of America. 2008; 105(23 ):7936–7940 .
+https://doi.or g/10.107 3/pnas.08 02485105 PMID: 185230 14
+5. Gong T, Shuai L, Zhang M. Modellin g language evolution : Examples and predictions . Physics of Life
+Reviews. 2014; 11(2):280– 302. https://doi.or g/10.1016/ j.plrev.2013.11 .009 PMID: 24286718
+6. Labov W. Principles of Linguistic Change, Social Factors . Wiley; 2001.
+7. Lupyan G, Dale R. Language Structure Is Partly Determined by Social Structure. PLOS ONE. 2010;
+5(1):e8559 . https://doi. org/10.1371/j ournal.pone .000855 9 PMID: 20098492
+8. Wittgenstein L. Philoso phical investigatio ns. New York: Macmillan; 1953.
+9. Gong T, Baronc helli A, Puglisi A, Loreto V. Exploring the Roles of Complex Networks in Linguistic Cate-
+gorization. Artificial Life. 2011; 18(1):107– 121. https://doi.or g/10.1162/ artl_a_0005 1 PMID: 22035084
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 24 / 25
+
+===PDF PAGE 25===
+10. Richie R, Yang C, Coppola M. Modeling the Emerge nce of Lexicons in Home sign Systems. Topics in
+Cognitive Science. 2014; 6(1):183–1 95. https://doi.or g/10.1111/t ops.12076 PMID: 24482343
+11. Freeman LC. Centrality in social networks concept ual clarification. Social networks. 1978; 1(3):
+215–239. https:// doi.org/10.10 16/0378 -8733(78)90021 -7
+12. Andrews R, Boyne GA, Law J, Walker RM. Centraliza tion, Organizatio nal Strategy , and Public Service
+Performanc e. Journal of Public Administration Researc h and Theory. 2009; 19(1):57–8 0. https://doi.
+org/10.1093/ jopart/mum 039
+13. Hollenbe ck JR, Ellis APJ, Humphrey SE, Garza AS, Ilgen DR. Asymmet ry in structural adaptati on: The
+differential impact of centralizi ng versus decentra lizing team decision- making structures. Organiza tional
+Behavior and Human Decisio n Processes. 2011; 114(1):64– 74. https://doi.or g/10.101 6/j.obhdp.2010 .
+08.003
+14. Ibarra H. Network Centrality, Power, and Innovation Involvement: Determinan ts of Technica l and
+Administr ative Roles. The Academy of Managemen t Journal . 1993; 36(3):471– 501. https:// doi.org/10.
+2307/25658 9
+15. Borgatti SP. Centrality and network flow. Social Networks. 2005; 27(1):55–7 1. https://doi.or g/10.101 6/j.
+socnet.2004 .11.008
+16. Mason W, Watts DJ. Collaborative learning in networks . Proceedings of the National Academy of Sci-
+ences. 2012; 109(3):764 –769. https://doi.or g/10.1073/ pnas.111006 9108
+17. Freeman LC. A Set of Measures of Centrality Based on Betweenn ess. Sociometr y. 1977; 40(1):35.
+https://doi.or g/10.230 7/3033543
+18. Beaucha mp MA. An improved index of centrality. Behavioral Science. 1965; 10(2):161– 163. https:// doi.
+org/10.1002/ bs.38301002 05 PMID: 14284290
+19. Watts DJ, Strogatz SH. Collectiv e dynamics of ‘small-w orld’ networks . Nature. 1998; 393(6684) :
+440–442. https:// doi.org/10.10 38/3091 8 PMID: 9623998
+20. Burt RS. Structural Holes: The Social Structur e of Competition. Harvard University Press; 2009.
+21. Plewczyn ski D, Łukasik M, Kurdej K, Zubek J, Rakowski F, Rączasz ek-Leonardi J. Generic Framew ork
+for Simulation of Cognitive Systems: A Case Study of Color Category Boundarie s. In: Gruca DA, Cza-
+cho ´ rski T, Kozielski S, editors. Man-Machin e Interactio ns 3. No. 242 in Advances in Intelligent Systems
+and Computing. Springer Internat ional Publishing; 2014. p. 385–39 3.
+22. Love BC, Medin DL, Gurecki s TM. SUSTAIN: a network model of category learning. Psychologi cal
+Review. 2004; 111(2):309 –332. https:// doi.org/10.10 37/0033-295 X.111.2 .309 PMID: 150659 12
+23. Rosch EH. Natural categories. Cognitive Psychology. 1973; 4(3):328–3 50. https://doi.or g/10.101 6/
+0010-0285( 73)90017- 0
+24. Rosch EH, Mervis CB. Family resemblanc es: Studies in the internal structure of categories . Cognitive
+psychology . 1975; 7(4):573–6 05. https://d oi.org/10.101 6/0010-0285 (75)90024 -9
+25. Hochberg Y, Tamhane AC. Stepwise Procedures for Pairwise and More General Comparisons among
+All Treatmen ts. In: Multiple Comparison Proced ures. John Wiley & Sons, Inc.; 1987. p. 110–133.
+26. Fagyal Z, Swarup S, Escobar AM, Gasser L, Lakkaraju K. Centers and peripherie s: Network roles in
+language change. Lingua. 2010; 120(8):206 1–2079. https://doi.or g/10.101 6/j.lingua.201 0.02.001
+27. Centola D, Baronchelli A. The spontane ous emerge nce of convention s: An experimen tal study of cul-
+tural evolution . Proceedings of the National Academy of Sciences. 2015; 112(7):198 9–1994 . https://doi.
+org/10.1073/ pnas.141883 8112
+28. Krystek M, Kurowski K, Oleksiak A, Rządca K. Comparison Of Centralize d And Decent ralized Schedul-
+ing Algorithms Using GSSIM Simulation Enviro nment. In: Gorlatch S, Fragopoulou P, Priol T, editors.
+Grid Computing. Springer US; 2008. p. 185–196.
+29. Peregud G, Zubek J, Ganzha M, Paprzyck i M. Implementin g an eXAT-based distribu ted monitorin g sys-
+tem prototype. Comp uter Science and Informatio n System s. 2012; 9(3):1249– 1285. https://doi.or g/10.
+2298/CSIS 120108028P
+30. King JL. Centralize d Versus Decentrali zed Comp uting: Organizatio nal Considera tions and Manage-
+ment Options. ACM Comput Surv. 1983; 15(4):319– 349. https:// doi.org/10.11 45/289.2 90
+31. Hugoson MA
+¨
+. Centralize d versus Decentrali zed Informatio n Systems. In: Impagliazzo J, Ja ¨ rvi T, Paju
+P, editors. History of Nordic Computing 2. No. 303 in IFIP Advances in Information and Commun ication
+Technolo gy. Springer Berlin Heidelberg; 2007. p. 106–115.
+Social adaptati on in multi-agent model of linguistic categoriza tion
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.01824 90 August 15, 2017 25 / 25

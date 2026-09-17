@@ -1,0 +1,23 @@
+{
+  "status": "generated_awaiting_visual_review",
+  "at": "2026-09-16T05:35:48.365938+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/summary.json": "99e45d8baebc0d80e7ac66e4510b9d7287cd2a0bd96b19f50e5b0e2f7fa0014f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/summary_001/receipt.json": "8bf728be9ce28ec5b7056e2bb9a34255a7739270686756d6ce48be4de2522d60",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/execution/results.json": "e9b5f078c185948126ba446d5d04eaaf71d293544216ce3a9a54929d5d943cc1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/plot_results.py": "7dd89dfac29acb8c3c9a00ef97d7ce4eb09417b516e2bcff778e238b4e7875bc"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/figures_001/01_full_success_flow.png": "a76977bd3e792493b4bbf880f0308b396b296f704607a9c81cb15a6c324c2976",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_flow_study/results/flow_001/figures_001/01_full_success_flow.pdf": "ff879729610ef9afe481732d5799ce29bc8501b12dd246884e78a65d64c37941"
+  },
+  "figure_count": 1,
+  "panels": 2,
+  "png_count": 1,
+  "pdf_count": 1,
+  "npz_reads": 0,
+  "model_forwards": 0,
+  "scope": "All four society seeds on complete double holdout. Other domains, nine strata, reward, execution and semantic responses remain in summary JSON.",
+  "units": "Left: probability percentages; right: signed probability differences in percentage points. No inferred intervals or world-level uncertainty bars.",
+  "visual_review": "Pending actual PNG inspection; PDF not separately rasterized."
+}

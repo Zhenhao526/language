@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "actual_launch_count": 1,
+  "session_id": 95679,
+  "exit_code": 0,
+  "completion_observed_at": "2026-09-15T18:20:43.149914+00:00",
+  "main_elapsed_seconds": 511.64456116606016,
+  "completed_run_count": 24,
+  "plan_sha256": "df5036145a1bea258a40d6e0a65b66a09c6c188b311b732c954429b6eb38fcba",
+  "results_sha256": "021cef0cbbf18a1532100d3c6058f04520ffa66a83a18aa10b8b9c53e2e6d2b0",
+  "launch_receipt_sha256": "4560ab3144ca904b76d1699c7ea7d791a515d65363e481acba0b4c5b673c57fa",
+  "source": "terminal completion observed through original write_stdin handle; results.json"
+}

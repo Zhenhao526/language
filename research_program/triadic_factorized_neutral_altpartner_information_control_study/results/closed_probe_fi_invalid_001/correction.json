@@ -1,0 +1,7 @@
+{
+  "status": "invalidated",
+  "reason": "Initial closed route removed self payloads as well as cross-agent payloads; it did not implement the registered intervention.",
+  "superseded_by": "closed_probe_fi_002",
+  "training_updates": 0,
+  "checkpoint_files_unchanged": true
+}

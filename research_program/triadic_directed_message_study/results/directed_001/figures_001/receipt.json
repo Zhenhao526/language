@@ -1,0 +1,25 @@
+{
+  "status": "generated_awaiting_visual_review",
+  "at": "2026-09-16T05:05:27.322121+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/analysis_001/summary.json": "58114f4caa4d16c89b10fd1e56bf3c2449450ca00ac358303cc524cfafcac9a1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/analysis_001/receipt.json": "5fafaa12de73f15469047595d62a37ca10245c0159ed5a08efcba85d3cd2a67f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/execution/results.json": "d47b47aa0eaca03ac5f269334efe0f5dafe3beb22f4395c2bfea6a34dda495f3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/plot_results.py": "645d1d5b9e561aca1eee40a699a5b43b250e455c070decc5ead20c1e739f1e99"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/01_checkpoint_L_D.png": "17b1aa304a715a9a7d07e7f591196b71bce7df09a9f3c864a6a7c820d19192bd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/01_checkpoint_L_D.pdf": "15c82f617bfdf9196789fa355f1c4582b1581f986958ea6aa65b73ed71da3205",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/02_final_nine_strata_L.png": "0aaa1c77c6de26127ed831dc0af70ee5bc9c0d457e093732af9c4f41f68678fe",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/figures_001/02_final_nine_strata_L.pdf": "250de1713a8675e4dc92df33106d55a2de9be47e9407cf30e75c8b64f7f2f301"
+  },
+  "figure_count": 2,
+  "png_count": 2,
+  "pdf_count": 2,
+  "primary_exact_match": true,
+  "npz_reads": 0,
+  "model_forwards": 0,
+  "scale": "Original probability contrasts multiplied by 100 and labeled percentage points, not percent success.",
+  "scope": "Fixed complete double holdout only; all four seeds, both checkpoints, all nine final strata. Other partitions retained in source summary.",
+  "visual_review": "Pending actual PNG inspection; PDF not separately rasterized."
+}

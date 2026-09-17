@@ -1,0 +1,11 @@
+{
+  "source_results_sha256": "adccf9c28959382aac3f2f5c332f6ce8fef2641203cd26aac7c0d02a1aaeab4b",
+  "plot_code_sha256": "0cb5f7d7453b796aaea9df9b19b6ccf1836d589050b53334190353ca71f22940",
+  "matplotlib": "3.11.2",
+  "all_seeds_included": true,
+  "source_measure": "greedy_full_success_rate on fixed monitoring states",
+  "files": {
+    "learning_trajectories.svg": "7ae929e93cabcb42b5c6b8cb1c469fba015c0a6b0681fa4790a1cae333c8506f",
+    "learning_trajectories.png": "8b9e6a5771b3e64e04d2ddc1076e8baba26496d36b66e42685f1660e51fce5f0"
+  }
+}

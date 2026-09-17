@@ -1,0 +1,9 @@
+{
+  "cases": 2568,
+  "model_calls": 0,
+  "optimizer_updates": 0,
+  "plan_sha256": "b83831a5bdaea0837b6b6c4817f8150b7cdd9a5cc39ae0f39423886c2d681e08",
+  "policy_blocks": 128,
+  "prepared_sha256": "742e6965471f3bae66909cdf0147e4378e7f3143a5e37cd4ff45648d5cfad82a",
+  "status": "prepared_static_only"
+}

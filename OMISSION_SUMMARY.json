@@ -1,0 +1,1350 @@
+{
+  "omitted_count": 419325,
+  "omitted_bytes": 113272064264,
+  "large_file_count": 166,
+  "by_top_level": {
+    "SYNC_INVENTORY.tsv": {
+      "files": 1,
+      "bytes": 3807,
+      "reasons": {
+        "binary_or_unlisted": 1
+      }
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 1020,
+      "reasons": {
+        "binary_or_unlisted": 1
+      }
+    },
+    ".sync_stage_paths": {
+      "files": 1,
+      "bytes": 760232,
+      "reasons": {
+        "binary_or_unlisted": 1
+      }
+    },
+    "文献调研_2026-09-14": {
+      "files": 53,
+      "bytes": 175412624,
+      "reasons": {
+        "binary_or_unlisted": 1,
+        "non_current_figure": 52
+      }
+    },
+    "redesign_v0.39": {
+      "files": 2233,
+      "bytes": 484340973,
+      "reasons": {
+        "old_result_detail": 103,
+        "binary_or_unlisted": 2128,
+        "non_current_figure": 2
+      }
+    },
+    "qwen_language_v3": {
+      "files": 56,
+      "bytes": 17185009,
+      "reasons": {
+        "binary_or_unlisted": 9,
+        "generated_result_detail": 35,
+        "non_current_figure": 12
+      }
+    },
+    "redesign_v0.37": {
+      "files": 2023,
+      "bytes": 280882492,
+      "reasons": {
+        "old_result_detail": 115,
+        "binary_or_unlisted": 1906,
+        "non_current_figure": 2
+      }
+    },
+    "redesign_v0.30": {
+      "files": 2426,
+      "bytes": 1772515307,
+      "reasons": {
+        "binary_or_unlisted": 2094,
+        "old_result_detail": 326,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.31": {
+      "files": 2215,
+      "bytes": 1694350414,
+      "reasons": {
+        "binary_or_unlisted": 2046,
+        "old_result_detail": 165,
+        "non_current_figure": 4
+      }
+    },
+    "redesign_v0.36": {
+      "files": 5534,
+      "bytes": 1808071969,
+      "reasons": {
+        "old_result_detail": 405,
+        "binary_or_unlisted": 5127,
+        "non_current_figure": 2
+      }
+    },
+    "redesign_v0.38": {
+      "files": 9065,
+      "bytes": 2972308382,
+      "reasons": {
+        "old_result_detail": 696,
+        "binary_or_unlisted": 8367,
+        "non_current_figure": 2
+      }
+    },
+    "qwen_language_v2": {
+      "files": 161,
+      "bytes": 85472684,
+      "reasons": {
+        "binary_or_unlisted": 24,
+        "non_current_figure": 34,
+        "generated_result_detail": 103
+      }
+    },
+    "redesign_v0.6": {
+      "files": 1319,
+      "bytes": 1818564305,
+      "reasons": {
+        "binary_or_unlisted": 993,
+        "old_result_detail": 318,
+        "non_current_figure": 8
+      }
+    },
+    "redesign_v0.8": {
+      "files": 1477,
+      "bytes": 2113944643,
+      "reasons": {
+        "binary_or_unlisted": 1102,
+        "old_result_detail": 367,
+        "non_current_figure": 8
+      }
+    },
+    "redesign_v0.9": {
+      "files": 1714,
+      "bytes": 1146633078,
+      "reasons": {
+        "binary_or_unlisted": 1462,
+        "non_current_figure": 40,
+        "old_result_detail": 212
+      }
+    },
+    "redesign_v0.7": {
+      "files": 1352,
+      "bytes": 1846971779,
+      "reasons": {
+        "binary_or_unlisted": 1001,
+        "old_result_detail": 343,
+        "non_current_figure": 8
+      }
+    },
+    "redesign_v0.25": {
+      "files": 535,
+      "bytes": 512842970,
+      "reasons": {
+        "binary_or_unlisted": 429,
+        "old_result_detail": 102,
+        "non_current_figure": 4
+      }
+    },
+    "qwen_language_diagnostics": {
+      "files": 83,
+      "bytes": 13616809,
+      "reasons": {
+        "binary_or_unlisted": 13,
+        "generated_result_detail": 70
+      }
+    },
+    "redesign_v0.22": {
+      "files": 135,
+      "bytes": 20427774,
+      "reasons": {
+        "binary_or_unlisted": 82,
+        "old_result_detail": 48,
+        "non_current_figure": 5
+      }
+    },
+    "redesign_v0.14": {
+      "files": 1184,
+      "bytes": 1081819238,
+      "reasons": {
+        "binary_or_unlisted": 833,
+        "old_result_detail": 343,
+        "non_current_figure": 8
+      }
+    },
+    "redesign_v0.13": {
+      "files": 2613,
+      "bytes": 3024345276,
+      "reasons": {
+        "old_result_detail": 474,
+        "binary_or_unlisted": 2133,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.47": {
+      "files": 62281,
+      "bytes": 3071576923,
+      "reasons": {
+        "old_result_detail": 2630,
+        "binary_or_unlisted": 59650,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.40": {
+      "files": 11656,
+      "bytes": 3679178130,
+      "reasons": {
+        "old_result_detail": 684,
+        "binary_or_unlisted": 10971,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.12": {
+      "files": 3753,
+      "bytes": 1851117774,
+      "reasons": {
+        "binary_or_unlisted": 3318,
+        "old_result_detail": 429,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.15": {
+      "files": 1064,
+      "bytes": 1134976954,
+      "reasons": {
+        "binary_or_unlisted": 722,
+        "old_result_detail": 334,
+        "non_current_figure": 8
+      }
+    },
+    "redesign_v0.23": {
+      "files": 3143,
+      "bytes": 3018930568,
+      "reasons": {
+        "old_result_detail": 355,
+        "binary_or_unlisted": 2778,
+        "non_current_figure": 10
+      }
+    },
+    "redesign_v0.24": {
+      "files": 1057,
+      "bytes": 1063332096,
+      "reasons": {
+        "binary_or_unlisted": 906,
+        "old_result_detail": 147,
+        "non_current_figure": 4
+      }
+    },
+    "redesign_v0.48": {
+      "files": 109152,
+      "bytes": 10734240220,
+      "reasons": {
+        "old_result_detail": 3558,
+        "binary_or_unlisted": 105593,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.41": {
+      "files": 4681,
+      "bytes": 513683571,
+      "reasons": {
+        "binary_or_unlisted": 4446,
+        "old_result_detail": 234,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.46": {
+      "files": 62281,
+      "bytes": 3078950007,
+      "reasons": {
+        "old_result_detail": 2630,
+        "binary_or_unlisted": 59650,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.33": {
+      "files": 2557,
+      "bytes": 2310237238,
+      "reasons": {
+        "binary_or_unlisted": 2371,
+        "old_result_detail": 182,
+        "non_current_figure": 4
+      }
+    },
+    "redesign_v0.34": {
+      "files": 3687,
+      "bytes": 3027264145,
+      "reasons": {
+        "binary_or_unlisted": 3426,
+        "old_result_detail": 257,
+        "non_current_figure": 4
+      }
+    },
+    "pilot_round1": {
+      "files": 99,
+      "bytes": 76278407,
+      "reasons": {
+        "generated_result_detail": 29,
+        "non_current_figure": 33,
+        "binary_or_unlisted": 37
+      }
+    },
+    "redesign_v0.35": {
+      "files": 3602,
+      "bytes": 230096459,
+      "reasons": {
+        "old_result_detail": 181,
+        "binary_or_unlisted": 3419,
+        "non_current_figure": 2
+      }
+    },
+    "redesign_v0.32": {
+      "files": 4313,
+      "bytes": 3366839471,
+      "reasons": {
+        "binary_or_unlisted": 4053,
+        "old_result_detail": 252,
+        "non_current_figure": 8
+      }
+    },
+    "logs": {
+      "files": 22,
+      "bytes": 794584,
+      "reasons": {
+        "binary_or_unlisted": 22
+      }
+    },
+    "research_program": {
+      "files": 11498,
+      "bytes": 21690681524,
+      "reasons": {
+        "binary_or_unlisted": 4386,
+        "non_current_figure": 396,
+        "generated_result_detail": 6709,
+        "large_prose_or_source": 7
+      }
+    },
+    "redesign_v0.5": {
+      "files": 1497,
+      "bytes": 1560353961,
+      "reasons": {
+        "binary_or_unlisted": 1149,
+        "old_result_detail": 336,
+        "non_current_figure": 12
+      }
+    },
+    "redesign_v0.3": {
+      "files": 22863,
+      "bytes": 2277546429,
+      "reasons": {
+        "non_current_figure": 162,
+        "binary_or_unlisted": 22701
+      }
+    },
+    "redesign_v0.4": {
+      "files": 6460,
+      "bytes": 7973343225,
+      "reasons": {
+        "binary_or_unlisted": 5634,
+        "non_current_figure": 116,
+        "old_result_detail": 710
+      }
+    },
+    "qwen_collect_pilot": {
+      "files": 45,
+      "bytes": 4420071,
+      "reasons": {
+        "binary_or_unlisted": 24,
+        "generated_result_detail": 21
+      }
+    },
+    "paper_program": {
+      "files": 563,
+      "bytes": 958955204,
+      "reasons": {
+        "binary_or_unlisted": 379,
+        "non_current_figure": 180,
+        "large_prose_or_source": 4
+      }
+    },
+    "redesign_v0.43": {
+      "files": 26017,
+      "bytes": 3325483636,
+      "reasons": {
+        "old_result_detail": 900,
+        "binary_or_unlisted": 25116,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.44": {
+      "files": 94,
+      "bytes": 78267934,
+      "reasons": {
+        "old_result_detail": 21,
+        "binary_or_unlisted": 72,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.21": {
+      "files": 1639,
+      "bytes": 2123269446,
+      "reasons": {
+        "binary_or_unlisted": 1461,
+        "old_result_detail": 166,
+        "non_current_figure": 12
+      }
+    },
+    "redesign_v0.26": {
+      "files": 218,
+      "bytes": 92629735,
+      "reasons": {
+        "binary_or_unlisted": 196,
+        "old_result_detail": 20,
+        "non_current_figure": 2
+      }
+    },
+    "redesign_v0.19": {
+      "files": 4273,
+      "bytes": 829611515,
+      "reasons": {
+        "binary_or_unlisted": 3759,
+        "old_result_detail": 502,
+        "non_current_figure": 12
+      }
+    },
+    "redesign_v0.10": {
+      "files": 1561,
+      "bytes": 1728597043,
+      "reasons": {
+        "binary_or_unlisted": 1295,
+        "old_result_detail": 260,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.17": {
+      "files": 1113,
+      "bytes": 1214202271,
+      "reasons": {
+        "binary_or_unlisted": 741,
+        "non_current_figure": 12,
+        "old_result_detail": 360
+      }
+    },
+    "redesign_v0.28": {
+      "files": 3143,
+      "bytes": 2272107294,
+      "reasons": {
+        "binary_or_unlisted": 2783,
+        "old_result_detail": 356,
+        "non_current_figure": 4
+      }
+    },
+    "redesign_v0.45": {
+      "files": 20808,
+      "bytes": 1024119600,
+      "reasons": {
+        "old_result_detail": 901,
+        "binary_or_unlisted": 19906,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.42": {
+      "files": 158,
+      "bytes": 58640719,
+      "reasons": {
+        "old_result_detail": 84,
+        "binary_or_unlisted": 73,
+        "non_current_figure": 1
+      }
+    },
+    "redesign_v0.16": {
+      "files": 1957,
+      "bytes": 2205491997,
+      "reasons": {
+        "binary_or_unlisted": 1419,
+        "old_result_detail": 523,
+        "non_current_figure": 15
+      }
+    },
+    "redesign_v0.29": {
+      "files": 1118,
+      "bytes": 840258251,
+      "reasons": {
+        "binary_or_unlisted": 983,
+        "old_result_detail": 129,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.11": {
+      "files": 2201,
+      "bytes": 3225098584,
+      "reasons": {
+        "binary_or_unlisted": 2016,
+        "old_result_detail": 179,
+        "non_current_figure": 6
+      }
+    },
+    "redesign_v0.27": {
+      "files": 305,
+      "bytes": 80312172,
+      "reasons": {
+        "old_result_detail": 15,
+        "binary_or_unlisted": 288,
+        "non_current_figure": 2
+      }
+    },
+    "redesign_v0.18": {
+      "files": 1602,
+      "bytes": 25796778,
+      "reasons": {
+        "binary_or_unlisted": 1408,
+        "old_result_detail": 189,
+        "non_current_figure": 5
+      }
+    },
+    "redesign_v0.20": {
+      "files": 2663,
+      "bytes": 1654909543,
+      "reasons": {
+        "binary_or_unlisted": 2423,
+        "non_current_figure": 12,
+        "old_result_detail": 228
+      }
+    }
+  },
+  "large_files": [
+    {
+      "path": "文献调研_2026-09-14/论文/03_LLM与评价/2025_Perez_When LLMs Play the Telephone Game Cultural Attractors as Conceptual Tools to Evaluate LLMs in Multi-turn Settings.pdf",
+      "bytes": 39090323,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "文献调研_2026-09-14/论文/04_理论与形成过程/2022_deBoer_Hysteresis in Language Emergence and Evolution - complete JCoLE proceedings.pdf",
+      "bytes": 47621129,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "redesign_v0.36/results/iterated_001/runs.json",
+      "bytes": 21760790,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.38/results/transfer_001/runs.json",
+      "bytes": 36218504,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "qwen_language_v2/results/calibration_complete_rules_20260914/inference.jsonl",
+      "bytes": 22776829,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "qwen_language_v2/results/pilot_immediate_delayed_20260914/inference.jsonl",
+      "bytes": 40188693,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.6/results/recombination_001/protocol_analysis.json",
+      "bytes": 44650696,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.6/results/recombination_001/analysis/summary.json",
+      "bytes": 97839699,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.8/results/complementarity_001/protocol_analysis.json",
+      "bytes": 50804275,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.8/results/complementarity_001/analysis/summary.json",
+      "bytes": 154717457,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.9/results/adaptation_001/protocol_analysis.json",
+      "bytes": 48868857,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.7/results/binding_001/protocol_analysis.json",
+      "bytes": 44582114,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.7/results/binding_001/analysis/summary.json",
+      "bytes": 101821154,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.47/results/reset_granularity_001/reset_granularity_analysis.json",
+      "bytes": 188569072,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.12/results/receiver_001/receiver_analysis.json",
+      "bytes": 60197644,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.12/results/receiver_001/analysis_versions/receiver_analysis_fa54493153ea.json",
+      "bytes": 60197644,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.48/results/coadaptation_001/completion_manifest.json",
+      "bytes": 33798714,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.48/results/coadaptation_001/coadaptation_analysis.json",
+      "bytes": 309371748,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.46/results/cross_schedule_001/cross_schedule_analysis.json",
+      "bytes": 191305383,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53103_a50/final_train.npz",
+      "bytes": 27150079,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_FI/final_train.npz",
+      "bytes": 32000005,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53101_a10/final_train.npz",
+      "bytes": 26229252,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Initial_protocol_53104/final_train.npz",
+      "bytes": 30135916,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Initial_protocol_53103/final_train.npz",
+      "bytes": 30605890,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53103_a10/final_train.npz",
+      "bytes": 31308845,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Initial_protocol_53102/final_train.npz",
+      "bytes": 27405240,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53101_a50/final_train.npz",
+      "bytes": 25480767,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53104_a50/final_train.npz",
+      "bytes": 26016545,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_FI/final_train.npz",
+      "bytes": 31982997,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53104_a10/final_train.npz",
+      "bytes": 25262785,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Initial_protocol_53103/final_train.npz",
+      "bytes": 30606183,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53104_a50/final_train.npz",
+      "bytes": 26002415,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Initial_protocol_53104/final_train.npz",
+      "bytes": 30135947,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Initial_protocol_53102/final_train.npz",
+      "bytes": 27403726,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53104_a10/final_train.npz",
+      "bytes": 25259877,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Initial_protocol_53102/final_train.npz",
+      "bytes": 27403718,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53101_a10/final_train.npz",
+      "bytes": 26211952,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53103_a50/final_train.npz",
+      "bytes": 27177792,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Final_protocol_53101_a50/final_train.npz",
+      "bytes": 25480051,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Initial_protocol_53104/final_train.npz",
+      "bytes": 30136052,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Initial_protocol_53103/final_train.npz",
+      "bytes": 30606447,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Final_protocol_53103_a10/final_train.npz",
+      "bytes": 31327843,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55103_Initial_protocol_53101/final_train.npz",
+      "bytes": 28763145,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53104_a50/final_train.npz",
+      "bytes": 26016438,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53101_a50/final_train.npz",
+      "bytes": 25483667,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53103_a50/final_train.npz",
+      "bytes": 27140883,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53103_a10/final_train.npz",
+      "bytes": 31317316,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53101_a10/final_train.npz",
+      "bytes": 26220744,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Initial_protocol_53101/final_train.npz",
+      "bytes": 28761792,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_FI/final_train.npz",
+      "bytes": 31982120,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55102_Initial_protocol_53101/final_train.npz",
+      "bytes": 28763256,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_role_decoder_study/results/decoder_001/execution/probe_55101_Final_protocol_53104_a10/final_train.npz",
+      "bytes": 25254602,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/receiver_coverage_trajectory_v06_20260915_py312/execution/records.jsonl",
+      "bytes": 44850577,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_private_partner_study/results/private_001/summary_001/summary.json",
+      "bytes": 50127707,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_private_partner_study/results/private_001/audit_execution_001/verification.json",
+      "bytes": 23849224,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_private_partner_study/results/private_001/execution/results.json",
+      "bytes": 23767924,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_semantic_probe_study/results/content_001/summary_001/完整分层指标.csv",
+      "bytes": 696010895,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/execution/seed_43101_train_responses.npz",
+      "bytes": 51424843,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/execution/seed_43102_train_responses.npz",
+      "bytes": 51358856,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/execution/seed_43103_train_responses.npz",
+      "bytes": 51299040,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_coordination_study/endpoint_probability_diagnostic/results/endpoint_001/execution/seed_43104_train_responses.npz",
+      "bytes": 51300469,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/triadic_factorial_payoff_study/results/confirm_001/execution/results.json",
+      "bytes": 163841891,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_rule_formation_study/results/formation_001/summary_001/summary.json",
+      "bytes": 1686182783,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_rule_formation_study/results/formation_001/execution/results.json",
+      "bytes": 425188866,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_action_dependency_study/results/context_001/summary_001/完整分层指标.csv",
+      "bytes": 118150494,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "research_program/codebook_audit_v06_20260915/codebook_audit.json",
+      "bytes": 23972318,
+      "reason": "large_prose_or_source"
+    },
+    {
+      "path": "research_program/triadic_partner_switch_study/results/pilot_003/aggregation_001/results.json",
+      "bytes": 33440511,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_factorial_formation_study/results/factorial_001/correction_001/results.json",
+      "bytes": 3661510249,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_factorial_formation_study/results/factorial_001/execution/results.json",
+      "bytes": 1704697264,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_factorial_formation_study/results/factorial_001_corrected/execution/results.json",
+      "bytes": 3661530703,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_factorial_formation_study/results/semantic_transfer_heldout_001/execution/results.json",
+      "bytes": 1168868218,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/codebook_factor_coverage_v06_20260915/factor_coverage.json",
+      "bytes": 30496005,
+      "reason": "large_prose_or_source"
+    },
+    {
+      "path": "research_program/triadic_symbol_recode_study/results/recode_001/execution/results.json",
+      "bytes": 46260117,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_random_symbol_ensemble_study/results/ensemble_001/execution/results.json",
+      "bytes": 92569039,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_public_codebook_study/results/public_codebook_002/execution/results.json",
+      "bytes": 482614460,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/summary_001/summary.json",
+      "bytes": 30872835,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/execution/seed_51104_result.json",
+      "bytes": 35829964,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/execution/seed_51101_result.json",
+      "bytes": 35829964,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/execution/seed_51102_result.json",
+      "bytes": 35829963,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/execution/results.json",
+      "bytes": 143317835,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_context_transfer_study/results/transfer_001/execution/seed_51103_result.json",
+      "bytes": 35829964,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_packet_identity_control_study/results/control_001/execution/results.json",
+      "bytes": 30719258,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_semantic_formation_confirmation_study/results/slot_transfer_001/execution/results.json",
+      "bytes": 84201198,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_local_structure_control_study/results/local_001/execution/results.json",
+      "bytes": 46291279,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "research_program/triadic_need_response_study/results/response_001/result.json",
+      "bytes": 51097673,
+      "reason": "generated_result_detail"
+    },
+    {
+      "path": "redesign_v0.3/文献/2026_Pal_SwarmWorld - Stigmergic technological evolution in societies of language-model agents.pdf",
+      "bytes": 20306769,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-6.8.1-bin.zip",
+      "bytes": 107843470,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/zulu8.tar.gz",
+      "bytes": 106151769,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/zulu8.96.0.205-ca-jdk8.0.504-macosx_x64/Contents/Home/src.zip",
+      "bytes": 53158768,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/zulu8.96.0.205-ca-jdk8.0.504-macosx_x64/Contents/Home/jre/lib/rt.jar",
+      "bytes": 66603220,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9-all.zip",
+      "bytes": 113472562,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/kotlin-compiler-embeddable-1.2.41.jar",
+      "bytes": 27678017,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/caches/modules-2/files-2.1/org.openpnp/opencv/3.4.2-0/8f81edf25d942f1d246f20e8a31ddd0d5958ddf6/opencv-3.4.2-0.jar",
+      "bytes": 105650073,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/caches/modules-2/files-2.1/dev.gradleplugins/gradle-api/4.9/f8da1118de388bf6b4eae9332db61beb1f329a6/gradle-api-4.9.jar",
+      "bytes": 112789926,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/caches/forge_gradle/mcp_repo/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/server/downloadServer/server.jar",
+      "bytes": 37962360,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/caches/forge_gradle/mcp_repo/de/oceanlabs/mcp/mcp_config/1.16.5-20210115.111550/joined/downloadServer/server.jar",
+      "bytes": 37962360,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-cache/caches/jars-8/27b845a97672da5fb860debcd14e3cd2/fastutil-8.3.1.jar",
+      "bytes": 45978980,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/runtime/gradle-6.8.1/lib/kotlin-compiler-embeddable-1.4.20-patched-for-gradle-6.8.1.jar",
+      "bytes": 44940180,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/.venv-env/lib/python3.11/site-packages/cv2/cv2.abi3.so",
+      "bytes": 33684352,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.3/calibration/.venv-env/lib/python3.11/site-packages/numpy/.dylibs/libopenblas64_.0.dylib",
+      "bytes": 22560912,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/results.json",
+      "bytes": 25012311,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s404/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s606/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s808/protocol_reference.pt",
+      "bytes": 25917101,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s707/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s909/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s808/protocol_reference.pt",
+      "bytes": 25917101,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s606/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s404/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s505/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s1001/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s404/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s808/protocol_reference.pt",
+      "bytes": 25917101,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s606/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s606/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s808/protocol_reference.pt",
+      "bytes": 25917101,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s404/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s1001/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s707/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s909/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s1001/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s505/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s505/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s909/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s707/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s808/protocol_reference.pt",
+      "bytes": 25917101,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s909/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s707/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s1001/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s505/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s404/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s505/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s1001/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/both_learn_s707/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/all_plastic_s909/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/behavior_frozen_s606/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/listener_only_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/mechanism_001/sender_only_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/rotating_to_rotating_s202/protocol_reference.pt",
+      "bytes": 25917421,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_rotating_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_fixed_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_fixed_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_fixed_s202/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/rotating_to_rotating_s303/protocol_reference.pt",
+      "bytes": 25917421,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/rotating_to_rotating_s101/protocol_reference.pt",
+      "bytes": 25917421,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_rotating_s303/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "redesign_v0.4/results/contact_001/fixed_to_rotating_s101/protocol_reference.pt",
+      "bytes": 25917037,
+      "reason": "binary_or_unlisted"
+    },
+    {
+      "path": "paper_program/visual_confirmation_v1/pixel_workflow_002/blind/1e0495e5e2cf_full.png",
+      "bytes": 30050515,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "paper_program/visual_confirmation_v1/pixel_workflow_002/blind/949105893fe9_full.png",
+      "bytes": 31063969,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "paper_program/visual_confirmation_v1/pixel_workflow_003/blind/1e7c50ebf1a5_full.png",
+      "bytes": 43587034,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "paper_program/visual_confirmation_v1/pixel_workflow_001/blind/503c231e059b_full.png",
+      "bytes": 23626099,
+      "reason": "non_current_figure"
+    },
+    {
+      "path": "redesign_v0.43/results/permutation_001/permutation_analysis.json",
+      "bytes": 176148067,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.43/results/permutation_001/runs.json",
+      "bytes": 212750933,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.45/results/newcomer_adaptation_001/newcomer_adaptation_analysis.json",
+      "bytes": 59631810,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.16/results/branches_001/branches_analysis.json",
+      "bytes": 22941431,
+      "reason": "old_result_detail"
+    },
+    {
+      "path": "redesign_v0.16/results/branches_001/analysis_versions/before_display_revision/branches_analysis.json",
+      "bytes": 22941431,
+      "reason": "old_result_detail"
+    }
+  ]
+}

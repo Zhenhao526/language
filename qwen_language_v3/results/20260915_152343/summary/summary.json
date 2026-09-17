@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-15T16:04:57.105959+08:00",
+  "runs": [
+    {
+      "name": "capability_full_information",
+      "directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information",
+      "manifest": {
+        "schema_version": 1,
+        "phase": "calibration",
+        "conditions": [
+          "full_information"
+        ],
+        "groups": [
+          17
+        ],
+        "episodes_per_group": 2,
+        "scenarios": [
+          {
+            "episode": 1,
+            "seed": 92015,
+            "variant": 0
+          },
+          {
+            "episode": 2,
+            "seed": 92038,
+            "variant": 22
+          }
+        ],
+        "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+        "alphabet": "@#%&*+=~",
+        "max_message_symbols": 32,
+        "per_agent_step_symbols": 64,
+        "windows": 4,
+        "private_analysis_max_tokens": 256,
+        "private_analysis_temperature": 0,
+        "message_temperature": 0.7,
+        "action_temperature": 0,
+        "natural_message_max_tokens": 96,
+        "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+        "history_mode": "independent_episodes",
+        "environment_family": "river_valley_v0.3",
+        "ecology_changes": [
+          "all wood initially processed",
+          "no axe or tool operations",
+          "roads always open"
+        ],
+        "source_sha256": {
+          "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+          "analyze.py": "fa62f5a550adc2f4c77503d83566cd9a4e600df0deacb7672c369a4c96b93b8d",
+          "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+          "environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+          "execute_locked_pipeline.py": "84bd58b5414220c77be80cbaf43272b3cbbfcf527631e2cc9c01652a513b4e0f",
+          "inspect_run.py": "a586202183aa343f51c44267320369ad036021255722b8a5acf97a4eb35f437a",
+          "probe.py": "74e97dda0d3f3bd46b6c3e89d14dc170822880906035a9a93d648c6262255cd3",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "replay_snapshot.py": "2f85683151f960631f684b7870bb70c785eef6a3553340f0f986adad962acf87",
+          "report_suite.py": "10a65aa99ec3ff9b9ecd77f1ef242240bb28fad5e4a5c755ebb9de32ff548f9a",
+          "run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b"
+        },
+        "controls": "independent histories; natural language is not bandwidth matched",
+        "created": "2026-09-15T15:23:43.356151",
+        "preregistered_order": "group then episode then alternating condition order",
+        "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+      },
+      "status": {
+        "status": "completed",
+        "backend": {
+          "calls": 510,
+          "load_seconds": 3.242175874998793,
+          "inference_seconds": 2468.720485502854,
+          "generation_tokens_by_mode": {
+            "private_analysis": 27294,
+            "natural_message": 6309,
+            "action": 102
+          },
+          "max_prompt_tokens": 13173,
+          "peak_mlx_memory_gb": 10.96469364
+        }
+      },
+      "source_version": {
+        "snapshot_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/code_snapshot",
+        "core_file_sha256": {
+          "environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+          "agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f",
+          "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "run.py": "eff1e4fa3f8803b43d95c32381646e9c0f39b87a212ed1de110ede45ae4dcd7b"
+        },
+        "core_snapshot_sha256": "fa35b7f0055d13918d74da788a587804bf1f1d7ad5ced7dd8e7f216a8fda2d93",
+        "missing_core_files": [],
+        "model_path_recorded": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit_recorded": "16daa4818c54ce5f5436f929d52542eb65bbed9d"
+      },
+      "episodes": [
+        {
+          "phase": "calibration",
+          "condition": "full_information",
+          "group": "17",
+          "episode": "1",
+          "seed": 92015,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.0,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.0,
+          "recorded_episode_seconds": 1890.5574202500284,
+          "actions": {
+            "action_kind_counts": {
+              "carry_together": 1,
+              "drop": 5,
+              "move": 8,
+              "pickup": 7,
+              "wait": 15
+            },
+            "successful_action_kind_counts": {
+              "drop": 5,
+              "move": 8,
+              "pickup": 7,
+              "wait": 15
+            },
+            "actions_recorded": 36,
+            "wait_actions": 15,
+            "failed_nonwait_actions": 1,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 7,
+            "pickup_attempts": 7,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 0,
+            "delivery_actor_attempts": 0,
+            "newly_delivered_units_from_states": 0,
+            "processing_observed": false,
+            "accepted_delivery_observed": false
+          },
+          "record_status": "已有任务段完成记录"
+        },
+        {
+          "phase": "calibration",
+          "condition": "full_information",
+          "group": "17",
+          "episode": "2",
+          "seed": 92038,
+          "variant": 22,
+          "completion_recorded": true,
+          "final_score": 1.0,
+          "final_steps": 5,
+          "success": true,
+          "steps_recorded": 5,
+          "last_step_recorded": 5,
+          "complete_inference_records": 150,
+          "last_progress_score_not_final": 1.0,
+          "recorded_episode_seconds": 578.6483307079179,
+          "actions": {
+            "action_kind_counts": {
+              "carry_together": 2,
+              "deliver": 2,
+              "deliver_together": 2,
+              "drop": 1,
+              "move": 3,
+              "pickup": 3,
+              "wait": 2
+            },
+            "successful_action_kind_counts": {
+              "carry_together": 2,
+              "deliver": 2,
+              "deliver_together": 2,
+              "drop": 1,
+              "move": 3,
+              "pickup": 3,
+              "wait": 2
+            },
+            "actions_recorded": 15,
+            "wait_actions": 2,
+            "failed_nonwait_actions": 0,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 3,
+            "pickup_attempts": 3,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 4,
+            "delivery_actor_attempts": 4,
+            "newly_delivered_units_from_states": 3,
+            "processing_observed": false,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        }
+      ],
+      "actions_all_recorded_steps": {
+        "action_kind_counts": {
+          "carry_together": 3,
+          "deliver": 2,
+          "deliver_together": 2,
+          "drop": 6,
+          "move": 11,
+          "pickup": 10,
+          "wait": 17
+        },
+        "successful_action_kind_counts": {
+          "carry_together": 2,
+          "deliver": 2,
+          "deliver_together": 2,
+          "drop": 6,
+          "move": 11,
+          "pickup": 10,
+          "wait": 17
+        },
+        "actions_recorded": 51,
+        "wait_actions": 17,
+        "failed_nonwait_actions": 1,
+        "actions_missing_boolean_feedback": 0,
+        "wait_actions_with_false_feedback": 0,
+        "holding_observed": true,
+        "successful_pickups": 10,
+        "pickup_attempts": 10,
+        "successful_processing_actions": 0,
+        "processing_attempts": 0,
+        "accepted_delivery_actor_actions": 4,
+        "delivery_actor_attempts": 4,
+        "newly_delivered_units_from_states": 3,
+        "processing_observed": false,
+        "accepted_delivery_observed": true
+      },
+      "timing": {
+        "inference_records": 510,
+        "reported_backend_calls": 510,
+        "invalid_output_records": 0,
+        "uninterrupted_call_records": 510,
+        "uninterrupted_call_records_with_time": 510,
+        "uninterrupted_seconds_sum": 2468.720485502854,
+        "interrupted_call_ids": [],
+        "interrupted_call_records_observed": 0,
+        "interrupted_calls_reported": [],
+        "interrupted_active_seconds": null,
+        "recorded_backend_inference_seconds": 2468.720485502854,
+        "recorded_episode_seconds_sum": 2469.2057509579463,
+        "peak_mlx_memory_gb": 10.96469364,
+        "model_load_seconds": 3.242175874998793,
+        "generation_tokens_by_mode": {
+          "private_analysis": 27294,
+          "natural_message": 6309,
+          "action": 102
+        },
+        "power_pause_record": null,
+        "stopped_with_unfinished_episode": false,
+        "timing_limit": "调用耗时合计为原始记录的perf_counter时长，不等于整个任务的墙钟总时长。"
+      },
+      "symbol_statistics_references": [],
+      "existing_report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/report.md",
+      "existing_analysis": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information/analysis.json",
+      "probe_reports": [],
+      "warnings": []
+    }
+  ],
+  "interpretation_limits": [
+    "校准与符号先导分开，不将控制条件的自然语言成绩算作符号语言的形成。",
+    "最终完成度只取episodes.jsonl的任务段完成记录；进行中分数不作最终结果。",
+    "独立重复单位是群体；同群体任务段、动作和消息不能当作独立群体。",
+    "消息长度、重复和主体自述不能确认共同意义、组合性、语法或误解修复。"
+  ],
+  "language_evidence_not_confirmed_by_this_summary": [
+    "跨情境的共同意义及稳定理解，且区分发送者编码与伙伴理解。",
+    "预先固定留出组合中的首次理解，排除测试中重新协商。",
+    "在独立确认情境中对熟悉片段替换/重组所得的选择性行为改变。",
+    "成对情境中的关系与参与者敏感性，排除整场景编号。",
+    "对特定可观察误解的回应干预及选择性修复。",
+    "新成员学习、文化传递和代际变化。"
+  ]
+}

@@ -1,0 +1,2276 @@
+
+===PDF PAGE 1===
+Accepted: 29 November 2024 / Published online: 21 December 2024
+© The Author(s) 2024
+  Julian Zubek
+j.zubek@uw.edu.pl
+1 Human Interactivity and Language Lab, Faculty of Psychology, University of Warsaw, Stawki 
+5/7, 00-183 Warsaw, Poland
+2 Department of Informatics, University of Sussex, Brighton, United Kingdom
+Models of symbol emergence in communication: a 
+conceptual review and a guide for avoiding local minima
+Julian Zubek1 · Tomasz Korbak2 · Joanna Rączaszek-Leonardi1
+Artificial Intelligence Review (2025) 58:65
+https://doi.org/10.1007/s10462-024-11048-y
+Abstract
+Computational simulations are a popular method for testing hypotheses about the emer -
+gence of symbolic communication. This kind of research is performed in a variety of 
+traditions including language evolution, developmental psychology, cognitive science, 
+artificial intelligence, and robotics. The motivations for the models are different, but 
+the operationalisations and methods used are often similar. We identify the assumptions 
+and explanatory targets of the most representative models and summarise the known 
+results. We claim that some of the assumptions—such as portraying meaning in terms of 
+mapping, focusing on the descriptive function of communication, and modelling signals 
+with amodal tokens—may hinder the success of modelling. Relaxing these assumptions 
+and foregrounding the interactions of embodied and situated agents allows one to sys -
+tematise the multiplicity of pressures under which symbolic systems evolve. In line with 
+this perspective, we sketch the road towards modelling the emergence of meaningful 
+symbolic communication, where symbols are simultaneously grounded in action and 
+perception and form an abstract system.
+Keywords Emergent communication · Signalling games · Symbol grounding · 
+Compositionality · Computational simulations · Linguistics · Ecological psychology
+1 3
+
+===PDF PAGE 2===
+J. Zubek et al.
+1 Introduction
+Symbolic nature is commonly thought to demarcate human communication from commu -
+nication in most other species (Deacon 1997; Beecher 2021).1 Human languages exhibit 
+unparalleled flexibility and constitute the basis for other symbolic systems crucial for mod-
+ern human cognition (e.g. formal systems such as mathematical notation). Thus, the prob -
+lem of the emergence of symbolic communication systems with formal properties from 
+continuous interactions in a continuous (analog) world is central to theories of cognition. 
+Over the last three decades, this problem has been tackled using computational models, 
+which has made the theories more internally coherent and more comparable and classifiable. 
+Most communication emergence models involve simulated agents that exchange messages 
+over a communication channel while acting in some environment (Ohmer and Cuskley 
+2023). These agents are typically rewarded for successfully achieving specific goals related 
+to communication, leading to the development of efficient communication protocols.
+In the present paper, we offer a critical review of agent-based communication emergence 
+models relevant to the symbol emergence problem. The overall logic of the paper is as 
+follows: we recognise that models are grounded in different domains of inquiry—from phi-
+losophy to linguistics to robotics—and motivated by questions pertinent to those domains 
+(Sect. 2). We subsequently describe several concrete models representative of the multitude 
+of works that have appeared over the last three decades (Sect. 3). The scope of what is being 
+modelled ranges from highly abstract models rooted in evolutionary game theory to embod-
+ied simulations with agents navigating complex environments. We evaluate the models in 
+terms of their merits and shortcomings, which helps us to pinpoint their underlying common 
+assumptions about the communication process and to identify those that hinder progress 
+towards modelling the emergence of structured and contextually-flexible symbolic systems 
+(Sect. 4). We identify three such assumptions: 
+1. Taking the existence of discrete symbols for granted.
+2. Assuming that the referring or world-descriptive function is the main function of 
+communication.
+3. Adopting the mapping metaphor as the relation between symbolic forms and their 
+meanings.As we claim in this paper, the communication emergence field is in a local 
+minimum created by this particular set of assumptions underlying extant modelling 
+efforts. We argue that certain properties of the communication process are currently 
+taken for granted, while crucial aspects of language remain unexplored. The paper’s 
+main claim is that progress does not hinge on complexifying agents’ internal archi -
+tectures for computational efficiency, enriching tasks or environments, nor creatively 
+composing models. Instead, to escape the local minimum, we must closely examine 
+and potentially suspend the three core assumptions. We propose relaxing these assump-
+tions while recognising multiple sources of communication complexity arising from 
+individual, social, cultural, and evolutionary pressures (Sect. 5). Only by combining 
+1 There are arguments that animals such as domestic dogs (Olney 2013) or chimpanzees (Cissewski and 
+Luncz 2021) may learn to understand and use symbolic references to some extent. Deacon ( 1997) believes 
+that it is possible with a special training procedure, but in principle does not occur in animal communica -
+tion systems found in nature. At the same time, he recognises that animal communication is continuous with 
+human communication with respect to other types of signs (icons and indices).
+1 3
+65 Page 2 of 40
+
+===PDF PAGE 3===
+Models of symbol emergence in communication: a conceptual review…
+these sources can we avoid a local minimum stemming from a one-dimensional treat -
+ment of communication as an optimisation process with a single goal. We demonstrate 
+that suspending the aforementioned assumptions and recognising the emergent nature 
+of signals and symbols within coordinative dynamics facilitates identifying sources of 
+complexity of linguistic structures, the interactions of these sources, and their relative 
+contributions to symbol emergence. These postulates are realised by a certain strain of 
+embodied simulations (Sect. 6). By opening this possibility, we hope to establish novel 
+explanatory targets for models and new avenues for research on emergent symbolic 
+communication.
+Before we proceed, we will discuss some historical influences that have shaped current 
+communication emergence models. The first influence concerns the notion of symbol itself 
+and its evolution over time. As Deacon ( 2011b) observed, historically the term “symbol” 
+was applied almost exclusively to language utterances, inscriptions, graphical markings, 
+etc., created specifically to represent something. The overarching idea was that symbols are 
+created culturally according to some convention. Congruently, in Peircean semiotics, sym -
+bols are a particular class of signs (along with icons and indices) whose meanings are deter-
+mined by referring to a general law (Peirce 1903). The law has to be applicable to a wider 
+class of signs, not just to single instances (symbols are general), and the person interpreting 
+a symbolic sign has to assume that the originator of the sign adheres to this law (symbols 
+are conventional).2 For example, a specific word belongs to a grammatical category (a gen-
+eral class), and we presume that a user of this word comprehends grammatical conventions 
+rather than simply reproducing memorised phrases. This is the notion of symbol we have in 
+mind when we write about symbol emergence in this paper. However, throughout the 20th 
+century, emphasis shifted, and the concepts of generality and conventionality of symbols 
+became somewhat conflated. The distinguishing feature of symbols became the arbitrari -
+ness of the connection between symbol and its referent (Deacon 2011b). Then, in some 
+technical disciplines, symbols began to be narrowly understood as discrete tokens that can 
+be manipulated formally and constitute parts of a code—a mapping between symbols from 
+two distinct domains. As we will argue later, existing models of emergent communication 
+use the term “symbol” in various ways but demonstrate a tendency to slip into this last, 
+technical understanding. This tendency is discussed extensively by Taniguchi et al. (2019), 
+consistently with our views.
+The second influence on communication emergence modelling is the view of communi-
+cation imposed by the influential work of Shannon in the mid-20th century and strengthened 
+by the facilitation of computational modelling that such a perspective carries. Most models 
+portray communication as a method of conveying messages from an information source 
+to a destination via signals transmitted over a communication channel (Shannon 1948). 
+In Shannon’s words, “The fundamental problem of communication is that of reproducing 
+at one point either exactly or approximately a message selected at another point” (ibid., p. 
+378). This highlights the problem of message transmission as central to communication. For 
+a long time, the “meanings” of messages were not emphasised and were usually simplified 
+as a mapping between symbols and objects in the agent environment, which realises the 
+2 Peircean categories are notoriously abstract and challenging to interpret, compounded by Peirce’s develop-
+ment of these concepts over multiple decades across various manuscripts. Consequently, multiple interpreta-
+tions of Peirce’s semiotics exist; for context, see Liszka et al. (2006).
+1 3
+Page 3 of 40 65
+
+===PDF PAGE 4===
+J. Zubek et al.
+“grounding” of symbols (congruent with the narrow, technical notion of symbol that we 
+describe above) (Harnad 1990). The idea of a message-object mapping, which represents 
+meaning, mirrors the idea of a message-signal mapping central to information theory (where 
+a “signal” is an element of the code used for transmission and a “message” is what is trans-
+mitted with the code).
+However, the fathers of information theory were convinced that the term “communica -
+tion” should have a broader meaning. As Weaver (1949) put it, “The word communication 
+will be used here in a very broad sense to include all of the procedures by which one mind 
+may affect another” (ibid., p. 10). Weaver’s definition resonates with pragmatic accounts 
+of meaning that focus on influencing agent actions rather than representing the world. In 
+human communication, we often use existing conventions to effectively influence another 
+person. For example, I can signal a person to come closer or stay away using conventional 
+gestures. Conventions are central to the broader notion of symbol present in semiotics. We 
+find a formal treatment of conventions in Lewis’ signalling game (from now on the LSG; 
+Lewis (1969))–the third historical source of assumptions concerning the communication 
+process.
+Based on game theory, Lewis demonstrated that a conventional communication protocol 
+emerges as an equilibrium when two agents—sender and receiver—are rewarded for suc -
+cessful coordination; it is rational for the two agents to stick to the convention, even if the 
+convention itself is arbitrary. This was Lewis’ solution to the problem of meaning creation 
+by convention. The LSG can be formally defined as a game between a sender s : I→M , 
+who sends a message m ∈M  upon observing an input i ∈I , and a receiver r : M→A , 
+who takes an action a ∈A  upon receiving a message m ∈M . A payoff is given to both the 
+sender and the receiver depending on the sender’s input and the receiver’s action.
+Notably, in the original formulation of the LSG, information-theoretical tools were not 
+used, and Shannon’s communication theory was not cited as a reference. Later, the two 
+approaches were integrated by Skyrms ( 2010), who subsumed the LSG into the general 
+information-theoretical schema for communication. He interpreted signals as probabilistic 
+events that carry quantifiable information and simultaneously perform coordinative func -
+tion. However, this reinterpretation undermine some of the pragmatic inclinations of Lewis’ 
+original work. Skyrms noted that in many situations the LSG can be discussed equivalently 
+in terms of information flow and coordination, but he preferred the first perspective, which 
+reversed Lewis’ original emphasis.3 This made it easy to once more conflate signalling with 
+information transmission and to see the LSG as part of the meaning-mapping enterprise.
+The resulting framework, realised by many computational models, can be illustrated by 
+the example used by Wittgenstein (Wittgenstein 1953; Correia 2020), where a builder uses 
+building stones of various shapes and asks his assistant to pass a stone of a particular shape. 
+These kinds of structured interactions are simulated with artificial agents, whose behaviour 
+is governed by internal adaptive mechanisms (for example, weight updates in neural net -
+works). At first, agents choose from their predetermined sets of behaviours and signals at 
+random. Each episode of the game has consequences for the agents (for instance, passing a 
+right or wrong stone), which determines their reward, and, in turn, makes them update both 
+their behavioural and signalling predispositions. In this way, signals become conventions in 
+3 In Lewis (1969), the word “information” appears 11 times, and the word “coordination” appears 138 times; 
+in Skyrms ( 2010), the word “information” appears 358 times, and the word “coordination” appears seven 
+times.
+1 3
+65 Page 4 of 40
+
+===PDF PAGE 5===
+Models of symbol emergence in communication: a conceptual review…
+Lewis’ sense, resulting in the individual coupling of signals to agents’ behaviours (policies) 
+and the sharing of this coupling among agents. This adaptation process is thus a coevolution 
+within a population rather than a simple optimisation of individual fitness. Computational 
+simulations demonstrate how such iterative adaptation can lead to the emergence of stable 
+communication systems.
+Existing work on emergent communication has repeatedly demonstrated the possibility 
+of a conventionalised mapping from a set of discrete signals to a set of objects emerg -
+ing without any central authority. Optimal mapping can be learnt in various settings and 
+with different agent architectures and adaptation mechanisms (Spike et al. 2017). However, 
+natural languages, owing to their richness and expressiveness, do not resemble simple bidi-
+rectional mappings. They include parts of speech that are not easily mapped to objects or 
+events, they involve complex syntax and grammar, they exploit ubiquitous nuances and 
+ambiguities, they allow speculative conversations on abstract entities, and they crucially 
+depend on interaction in time. These properties are visible in everyday verbal interactions, 
+which are full of ambiguity and often involve repair sequences (imagine asking the clerk 
+at a store for a certain object and receiving a puzzled look followed by a clarification ques-
+tion) (Dingemanse et al. 2015).
+Much work is still needed to build an adequate account of these phenomena within the 
+field of language emergence modelling. This is not to say that efforts are not being made to 
+develop the field and understand the complexity of the problem of the emergence of sym -
+bolic communication—for reviews see Hutchins and Johnson ( 2009); Lazaridou and Bar -
+oni (2020); Lipowska and Lipowski (2022); Ohmer and Cuskley (2023); Brandizzi (2023); 
+Galke and Raviv ( 2024); Boldt and Mortensen ( 2024); Peters et al. ( 2024). The present 
+review differs from the previous work that aimed to summarise modelling efforts in that it 
+strives to identify and examine the very foundations of the assumed phenomenon of sym -
+bolic communication, which most works seem to take for granted. Previous reviews were 
+very helpful in identifying the missing sources of symbolic structure, which were revealed 
+by gradually including aspects of developmental and interactive contexts of communica -
+tion, such as learning bottlenecks, task structuring, kinds of collaboration, and the richness 
+and complexity of the perceptual information. Nevertheless, the overall “skeletal dynamics” 
+of the models remain similar (Ohmer and Cuskley 2023) and, as we claim above, rooted in 
+the information-theoretic interpretation of signalling games.
+One of the most conceptually advanced early reviews of the models of communication 
+emergence was presented by Hutchins and Johnson (2009). They rightly point out that mod-
+els rarely address the heart of the problem, because they are explicitly seeking a mapping 
+between predefined symbols and predefined meanings (“references”). Only some models 
+allow for the emergence of meanings in interactions (e.g. Steels and Belpaeme 2005) and 
+only a small proportion of these seek to show the true emergence, which requires that both 
+the meanings and the signalling systems emerge in interactions from scratch (Marocco and 
+Nolfi 2007; Hazlehurst and Hutchins 1998; Lieck and Rohrmeier 2021).
+Hutchins and Johnson advocate the latter approach and show that the problem of signal 
+emergence involves the problem of distinguishing signalling behaviours from the ongoing 
+flow of interaction. They illustrate this with an analysis of signal emergence in chimpan -
+zees interaction, where infants begin to reenact frozen fragments of movement trajectories 
+that appeared in previous interactions as communicative “gestures.” The authors observe a 
+“remove between forms and meaning” as these gestures diverge from the original trajecto-
+1 3
+Page 5 of 40 65
+
+===PDF PAGE 6===
+J. Zubek et al.
+ries. They outline various dimensions of this divergence, and suggest how these distinctions 
+could be implemented in computational models of communication emergence. However, 
+the relation of mapping itself (between the forms and meanings) is not questioned even in 
+this very deep conceptual analysis.
+Remaining in the aforementioned local minimum, which involves a mapping metaphor, 
+hinders efforts to scale up from simple games to structured communication systems utilised 
+by agents for flexibly coordinating dynamic interactions within their environments. Review-
+ing existing models leads us to the critical claim that a deep rethinking of foundational 
+assumptions is necessary. It also leads to a constructive claim that recent developments in 
+cognitive science, linguistics, and linguistic anthropology, which emphasise the primacy 
+of action and co-action for the theory of cognition and language (Di Paolo et al. 2018), 
+foreground interaction (Dingemanse et al. 2023) and coordinative dynamics (Tognoli et al. 
+2020), allow for a reformulation of the communication process itself. These developments 
+also provide opportunities for scaling up. They enable communication to be grounded anew 
+in biological information processes (Pattee 1969, 1982; Deacon 2011a; Rączaszek-Leonardi 
+and Kelso 2008) and symbolic communication to be viewed as interaction-dominant and 
+pragmatics-oriented (Kempson et al. 2000; Rączaszek-Leonardi 2016; Gregoromichelaki 
+and Kempson 2019). Making this shift of perspective could help overcome the prevalent 
+tendency to perceive communication as relying on mapping between amodal signs 4 and 
+bound meanings, primarily geared towards world description.
+2 Modelling traditions and explanatory targets
+Computational models of the emergence of communication come from various research tra-
+ditions, reflecting their theoretical goals, definitions, and methods (e.g. Hutchins and John-
+son 2009; Lazaridou and Baroni 2020; Lipowska and Lipowski 2022; Ohmer and Cuskley 
+2023; Galke and Raviv 2024). No single publication can do justice to their recent prolif -
+eration. We roughly group them by discipline to draw the reader’s attention to different 
+explanatory roles assigned to simulations. These arise from differences in the perspectives 
+on language in general and the place, role, and nature of language within human cognition 
+and behaviour. We selected models from various disciplines to showcase the diversity of 
+explanatory targets across research areas. The (admittedly simplified) picture in Fig. 1 illus-
+trates some of the commitments and explanatory targets of the models in different scientific 
+disciplines (the division of the domains is an idealisation). As illustrated, some explanatory 
+targets are shared by multiple disciplines.
+Philosophical reflection on the nature of language and its relation to thought is prob -
+ably as old as philosophy itself (Seuren 1998). The goal of naturalising truth and meaning 
+is to show how these concepts can be understood as natural phenomena without resort -
+ing to metaphysics that allow immaterial ideas to exist separately from physical reality. 
+In this context, game-theoretic models have been used in research on social conventions, 
+normativity, and semantic information,5 starting with the influential work of Lewis (1969). 
+4 We use the term “amodal” in this paper to mean “devoid of form.” Amodal signs lack physical or perceptual 
+properties.
+5 We use the term “semantic information” to distinguish between information with semantic meaning and, 
+for instance, purely correlational information as a quantity in information theory. See Floridi ( 2010) for a 
+1 3
+65 Page 6 of 40
+
+===PDF PAGE 7===
+Models of symbol emergence in communication: a conceptual review…
+He formalised the notion of convention, which arises in the interaction of agents. In his 
+formalism, the sender has to communicate the state of the world to the receiver by emitting 
+discrete signals, upon which the receiver produces a reaction. If the receiver’s reaction is 
+adequate given the state of the world, this is beneficial for both agents. Mutual benefit make 
+the agents stick to the established convention of linking signals with states of the world, 
+even if those links are arbitrary.
+Lewis’ original motivation was to provide a game-theoretic explication of the notion 
+of truth by convention (solving Quine’s (1936) problem). His ideas influenced many other 
+authors, who subsequently studied this formalism using computer simulations. The simplest 
+implementation of the LSG consists of disembodied agents passing discrete tokens. No 
+structured signals or environmental constraints are simulated. The goal is not to faithfully 
+portray actual communication processes but rather to support certain philosophical positions 
+by demonstrating the theoretical possibility of the bottom-up emergence of conventions. In 
+recent years, this thread has been developed to account for more complex communication 
+processes (Skyrms 2010; Barrett and Skyrms 2017; Barrett et al. 2019; Korbak et al. 2021; 
+Ohmer and Cuskley 2023).
+discussion of this term.
+Fig. 1 Different scientific disciplines and the roles they assign to emergent communication models
+ 
+1 3
+Page 7 of 40 65
+
+===PDF PAGE 8===
+J. Zubek et al.
+In linguistics, computational models of language emergence are used to ask various 
+questions. Explaining the structure of natural languages  means a) describing the regulari -
+ties or “rules” that natural languages follow and b) explaining how these regularities emerge 
+in the process of language evolution. Unlike biological evolution, language as such (before 
+writing) leaves no “fossils”, so the communicative systems of early humans (or hominids) 
+are difficult to uncover. Therefore, agent-based simulations became attractive tools for test-
+ing hypotheses about the origins of language and possible evolutionary trajectories, both 
+on biological and cultural time scales (Smith et al. 2003). The goals are theoretical: models 
+concern various aspects of language, such as the evolution of lexemes and systematic varia-
+tion of syntax or vocabulary (Nowak and Krakauer (1999); for a review, see, e.g., Ferri et al. 
+(2018); Grifoni et al. ( 2016)). Compared to the philosophical tradition, simulations devel -
+oped within evolutionary linguistics tend to be more focused on language structure. The 
+simulation results are (often) compared with the empirical data to assess their plausibility 
+as models of language evolution and change (Brighton et al. 2005a, b; Parisi et al. 2008; De 
+Boer and Zuidema 2010).
+Cognitive psychologists are also interested in studying cognitive processes underlying 
+language use (language learning, understanding and production). They ask questions about 
+what cognitive capabilities are required to effectively learn and use language and how lan -
+guage influences other cognitive processes, such as memory, categorisation, and reasoning. 
+These questions can be answered with the help of computational models of language emer-
+gence or language learning that elucidate in detail the cognitive structures of an individual 
+agent.
+For example, Elman (1993) explored the relation between language learning and memory 
+capacity, showing that a simple recurrent neural network successfully learns the structure 
+of complex sentences only if it starts with a limited memory and only gradually “matures” 
+to its full capabilities. A prominent group of models explored the structure of perceptual 
+categories of an individual as shaped by a communication system emerging within a popula-
+tion (Steels and Belpaeme 2005; Baronchelli et al. 2015; Steels 2015). Then, the interest in 
+cognitive science shifted from purely individualistic processes to more interactive phenom-
+ena (Deacon 1997; Brighton et al. 2005a, b; Rączaszek-Leonardi 2009). As a result, some 
+models explored interactive factors within social environments or various demographic 
+characteristics, such as population size and social structure, on language evolution (V ogt 
+2009; Dale and Lupyan 2012; Zubek et al. 2017).
+Another problem studied by cognitive psychology is seeking the sources, reasons, and 
+mechanisms of discretisation, that is, perceiving continuous spaces through discrete cat -
+egories. We view this as a subproblem of categorical perception. In the context of com -
+munication emergence, discretisation can occur in both the domains of forms (signals used 
+for communication) and meanings (concepts being communicated). At the level of forms, 
+the self-organisation of the vowel system under communicative pressures was proposed 
+by Lindblom et al. ( 1984) and de Boer ( 2001), while Oudeyer ( 2005) modelled the emer -
+gence of discrete vocalisations. At the level of semantics, a conceptual model was proposed 
+by Gärdenfors, where discrete concepts were represented as convex regions in continuous 
+conceptual spaces (Gärdenfors 2004). Feldman ( 2012) discussed the circumstances under 
+which such representations are viable. A principled abstract model of form discretisation in 
+a form-meaning mapping within communication was presented by Lieck and Rohrmeier 
+(2021). In this model, forms and meanings originated in different spaces, and simulations 
+1 3
+65 Page 8 of 40
+
+===PDF PAGE 9===
+Models of symbol emergence in communication: a conceptual review…
+showed several conditions that may lead to form discretisation in signal transmission sce -
+narios. Similar processes were also explored by Geffen Lan et al. ( 2020). Such discretisa-
+tion processes can be seen as part of the problem of symbolic emergence, where forms are 
+perceived as different instances of the same token and distinct from other tokens. Taniguchi 
+et al. (2023) proposed that the simultaneous alignment of discrete categories and negotiation 
+of their names in a population of agents can be treated as a single probabilistic generative 
+model, making it a case of distributed Bayesian inference. This is an argument for viewing 
+the emergence of discrete categories in communication systems as a collective-level phe -
+nomenon rather than an individualistic cognitive process (Taniguchi 2024).
+Emergent communication models have also experienced a recent surge in interest in the 
+machine learning and artificial intelligence (AI) community. Initial goals of the AI pro -
+gramme included replicating the cognitive processes necessary to develop human-level 
+intelligence and use natural language the way humans do. Nowadays the field has more 
+pragmatic orientation, and focuses on developing artificial agents capable of flexible and 
+goal-directed language use. Recently, there has been a lot of progress in natural language 
+processing (NLP) using semi-supervised models using large quantities of existing data 
+(such as large language models). There are concerns that language learned in this way is not 
+properly grounded and does not integrate well with agent’s actions in the world (Mordatch 
+and Abbeel 2018). Chat-based large language models fine-tuned using human feedback and 
+reinforcement learning provide some pragmatic grounding; there are also some works that 
+attempt to use multi-modal corpora of text aligned with images to visually ground language 
+understanding (e.g. Peng et al. 2023; Liu et al. 2023). Harnad (2024) discusses conceptual 
+limitations of these approaches, as they still attempt to ground the language “top-down” 
+starting from huge volumes of data instead of agent’s sensorimotor experience.
+In contrast to data-driven NLP models, emergent communication models involve simu -
+lated agents engaging in interactions in order to evolve their own communication protocols 
+in a bottom-up manner. Much research has attempted to replicate the basic structure of natu-
+ral languages, often targeting language compositionality. Studying compositionality aligns 
+with the goal of studying cognitive processes underlying language use , although the AI 
+community, in comparison to cognitive psychology community, puts a greater emphasis on 
+the practical results of the simulations rather than their theoretical underpinnings. Lazaridou 
+et al. ( 2018) demonstrated that agents trained with reinforcement learning can solve the 
+LSG in which input is given as raw pixel images, not symbolic tokens. Emerged protocols 
+have displayed some degree of a systematic structure, but they were not perfectly compo -
+sitional. Moreover, these protocols were quite fragile, as small changes in input stimuli or 
+vocabulary size led to different organisation of the communication. Several other studies 
+focused on the circumstances under which a more structured language appears (Mordatch 
+and Abbeel 2018; Andreas 2019; Chaabouni et al. 2020).
+Some other models originating in the AI community are even more directly motivated 
+by natural language processing and understanding . The work of Kottur et al. ( 2017) on 
+emergent dialogue is to some extent motivated by the work on visually-grounded conversa-
+tional systems (Mostafazadeh et al. 2017). The formulation of the problem in Lazaridou et 
+al. (2017) is motivated by image captioning (Karpathy and Fei-Fei 2017). Lee et al. (2018) 
+proposed using the LSG as a blueprint to train a system translating between two natural 
+languages without parallel corpora and instead using visual input to ground meanings. 
+The potential applications of emergent communication research in building explainable AI 
+1 3
+Page 9 of 40 65
+
+===PDF PAGE 10===
+J. Zubek et al.
+(Doshi-Velez and Kim 2017) are another active area of research. The idea is to translate a 
+communication protocol emerging between agents into a natural language such as English. 
+For visually grounded approaches, this can be done using labelled images by relying on 
+visual semantics determined by the class hierarchy of the images (Lazaridou et al. 2017). 
+Another approach is to align English utterances in an emergent communication protocol 
+with respect to the effects they exert on a trained receiver (Lazaridou et al. 2020).
+The trend of making simulations more realistic and embodied has been taken even further 
+in artificial life and cognitive robotics communities. In this tradition, agents are autonomous 
+mobile robots (usually simulated in silico to some extent). This means their interactions 
+with the environment are usually much richer than in other traditions. These interactions are 
+given central focus and communication emergence is treated as another layer of the intricate 
+web of interactions. The goal is to achieve functional communication in an environment, and 
+this environment should ultimately be an actual physical environment, not just a simulation.
+To some degree, this goal could be achieved by teaching agents a preexisting language, 
+but many researchers are also interested in how an efficient language specifically tailored 
+to a given environment can evolve on its own. In such models, agents’ communication is 
+intertwined with the rest of their activities, often involving exploring the environment and 
+searching for food or other agents (Floreano et al. 2007; Grouchy et al. 2016; Schulz et al. 
+2012). Stress is placed primarily on the robustness of emerging communication protocols 
+and minimal starting assumptions, as communication should scale up to realistic environ -
+ments. Some works in this tradition have aimed to explain basic aspects of animal commu-
+nication in different evolutionary scenarios (Floreano et al. 2007; Mitri et al. 2009), while 
+others have targeted phenomena characteristic of human languages, such as its productivity, 
+presence of grammatical structures, and the focal role of dialogue (Grouchy et al. 2016; 
+Schulz et al. 2012).
+In contrast to other domains, signals appearing in robotics models are often modulated 
+by multiple factors and are not fully controlled by agents. For example, in Floreano et al. 
+(2007), communication was realised through light signals whose colours were regulated by 
+the sender and properties that depended on the physics of the environment (e.g. directional-
+ity, the possibility of being obscured by obstacles). This level of complexity emerging from 
+non-trivial embodiment sets this tradition apart from purely computational AI modelling, 
+which typically relies on simpler simulated environments with fewer degrees of freedom 
+(we will discuss the role of embodiment in more detail later in this paper).
+In conclusion, each discipline that includes communication in its area of interest has 
+explanatory targets that depend on its general nature and goals. Models are designed to 
+address various aspects of communication and language emergence, sometimes using dif -
+ferent techniques. AI is the domain in which we see the greatest proliferation of models and 
+in which most novel techniques appear and the domain where research is often motivated 
+by concrete engineering problems and not the theory of language per se. Novel modelling 
+techniques are applied across domains; however, they are already tinted by the specific 
+assumptions adopted within the AI community. For instance, computer science treats sym-
+bols just as any discrete elements that can be subject to formal manipulations, and this view 
+is often—implicitly or explicitly—adopted in communication emergence models.
+Meanwhile, recent advances in the respective fields that are interested in the theory of 
+language emergence (developmental linguistics, language evolution, and enactivism) have 
+seeped into computational models rather slowly. Consequently, designed models often rely 
+1 3
+65 Page 10 of 40
+
+===PDF PAGE 11===
+Models of symbol emergence in communication: a conceptual review…
+on a simplified treatment of basic problems, which are the core of more theoretically rich 
+approaches. Moreover, modelling results cannot be easily incorporated into constructed 
+theories. One example is the way the term “compositionality” is often treated in the com -
+munication emergence literature, which diverges from the original notion present in the 
+philosophy of language (Rorot and Rączaszek-Leonardi 2023). Here, cognitive science, 
+integrating multiple disciplines from linguistics to psychology to anthropology to computer 
+science, could well serve as a bridge between the domains. Importantly, with its recent “eco-
+logical turn” toward action-oriented and situated cognition, cognitive science may integrate 
+processes on biological, developmental, and dialogical time-scales (Rączaszek-Leonardi 
+2003; Christiansen and Chater 2022).
+We align ourselves with the positions of such ecological cognitive science. From this 
+perspective, we point out how the lack of flow of ideas between domains might slow down 
+the progress of computational modelling as a significant aid for the theoretical models of 
+communication and language emergence. In the following, we describe concrete examples 
+of models which best illustrate the various theoretical goals. We will show their advantages 
+and contributions. However, we will also indicate that some of the simplifications they make 
+concern the basic assumptions about the process of communication and are incompatible 
+with theories of language that put greater emphasis on interactions within the environment.
+3 From Lewis’ signalling game to embodied simulations
+Despite having different areas of focus, all of the above domains use agent-based models to 
+simulate communication emergence. As a blueprint for the analysis of all kinds of model -
+ling efforts, we adopt the LSG. It provides a minimal interactive communicative setting and 
+delimits a broad class of models, capturing the essential elements of the problem of conven-
+tion—or signal-based social coordination. It is recognised and sometimes explicitly built 
+upon across various disciplines, from philosophy and anthropology to psychology, biology, 
+economics, and so on. Choosing a common blueprint further facilitates the comparison of 
+the models on a conceptual level in terms of modifications to this basic scheme for various 
+reasons, which can be evaluated as welcome or unwelcome from a theoretical point of view. 
+Showing their basic compatibility with the LSG should also reveal that they share limita -
+tions inherent in the blueprint itself if such limitations are present.
+The LSG consists of two agents, a sender and a receiver, a set of states of nature (stimuli), 
+a set of signals, and a set of responses. A sender observes a state of nature, sends a signal to 
+the receiver, and the receiver chooses a response. There is a unique correct response given 
+the state of nature unknown to the receiver. If the receiver chooses the correct response, 
+both the sender and the receiver are rewarded. In the course of learning (or evolution), the 
+agents converge to a Nash equilibrium, which could be either a perfect solution when the 
+communication is unambiguous and the receiver always chooses the correct response or a 
+partial pooling equilibrium when different objects are signalled with one signal. The perfect 
+solution occurs when the agents have agreed upon an unambiguous mapping from states 
+of nature to signals and from signals to responses. Lewis called such solutions signalling 
+systems.
+The original interpretation of the LSG involved rational agents maximising their reward. 
+Skyrms (2010) later reinterpreted it in terms of evolutionary game theory: he demonstrated 
+1 3
+Page 11 of 40 65
+
+===PDF PAGE 12===
+J. Zubek et al.
+that signalling systems may emerge through simple replicator dynamics (which may repre-
+sent both biological and cultural evolution). He proposed that the information present in the 
+signalling system is sufficient to provide a general account of semantic meaning. According 
+to Skyrms, meaning emerges in the symmetry breaking of converging to one signalling 
+system (out of several possible systems).6 Each signal can be assigned a descriptive mean -
+ing (when an external observer estimates the probability of the sender perceiving a certain 
+stimulus given the signal) and indicative meaning (when an external observer estimates 
+the probability of the receiver performing a certain action given the signal). Such meaning 
+is a property of the overall signalling system and does not presuppose that the sender and 
+receiver are rational agents introducing any kind of meaning of their own.
+Several other problems in philosophy and social science can be formalised in terms of 
+LSGs. For example, the labour market can be modelled in terms of employees (senders) 
+who signal their ability to employers (receivers) through educational credentials (signals) 
+(Spence 1973). Similarly, voter ignorance and the spread of misinformation can be mod -
+elled in terms of people (senders) maintaining or spreading false beliefs (signals) to signal 
+their group identities or political affiliations (Funkhouser 2017).
+Barrett and Skyrms (2017) considered generalised LSGs consisting of multiple subgames 
+organised through a self-assembly. As a simple example, they give alarm calls emitted by 
+animals. At first, a particular alarm call is emitted in the presence of a specific predator. Then, 
+upon hearing an alarm call, an individual might learn to repeat the same call to warn others 
+even without spotting the predator. Barrett and Skyrms discuss two mechanisms involved 
+in the self-assembly process. First is called template transfer, which involves using adapta-
+tions that emerged in the context of one game in another game. Template transfer assumes 
+the historicity of the evolution or learning process giving rise to signalling systems—previ -
+ous adaptations pave the way for the new ones. The second mechanism is modular com -
+position, which is based on recursively nested games, in which a simpler game becomes a 
+part of a more complex one. The two mechanisms are not mutually exclusive, and usually 
+work together. A variety of social, cognitive, and semiotic phenomena can be understood 
+in terms of generalised signalling games, including logical inference (Barrett and Skyrms 
+2017; LaCroix 2022), information integration in a network of agents (Barrett et al. 2019), 
+functional specialisation, and communication structuring (Barrett et al. 2018).
+3.1 Beyond Lewis’ signalling game
+Most of the recent models of emergent communication can be seen as extensions of the LSG 
+concerning particular elements: stimuli, signals, responses, or reward/learning mechanisms 
+(which all necessitate changes in agent architecture). Below, we review various models, 
+from the simplest extensions to complex embodied models, which significantly diverge 
+from the original structure of the LSG. We do not intend to provide a comprehensive review. 
+Our choice of models is dictated by their popularity and their relevance to the problem of the 
+emergence of symbolic communication.
+In our overview, we discuss how these models aim to explain different sources of com -
+munication complexity connected to a) the internal structure of signals, b) the structure of 
+the environment, c) the structure of actions in the environment and types of control intro -
+6 Here, “symmetry breaking” means that initially, all possible solutions are equiprobable, but once a slight 
+tendency appears to favour one signal over the other the system starts evolving towards a particular solution.
+1 3
+65 Page 12 of 40
+
+===PDF PAGE 13===
+Models of symbol emergence in communication: a conceptual review…
+duced by signals, and d) the structure of rewards. The selected models and their properties 
+are presented in Table 1. In the next sections, we discuss them in detail starting from rela -
+tively simple formal models and moving towards embodied simulations in realistic environ-
+ments. Throughout, we refer to the LSG as a blueprint and demonstrate how the presented 
+models deviate from its structure (as reflected by section titles).
+3.2 Compound signals and noise
+The first step in studying interesting phenomena related to natural language evolution is to 
+extend the LSG by adopting compound signals consisting of multiple tokens. A good exam-
+ple is the influential work by Nowak and Krakauer (1999), who studied the dynamics of the 
+evolution of mono- and polysyllabic words and two-word expressions. They investigated 
+whether compound expressions would be evolutionarily preferred to simple words using 
+evolutionary game theory. They constructed a fitness function related to communicative 
+success and identified language structures that optimise this function. The function included 
+factors such as perceptual noise in the signal space (risk of confusing similar syllables) and 
+uneven payoffs for successfully communicating different concepts (for example, signals 
+warning against dangers of different magnitudes). The authors demonstrated that smaller 
+and partially ambiguous lexicons are optimal under certain circumstances. This result might 
+explain why the vocabulary size in natural languages does not grow ad infinitum but stabi -
+lises at a certain optimal size.
+They further studied compound expressions formed according to rudimentary “gram -
+mar”, which restricted the space of valid utterances. These compound expressions allowed 
+the agents to exceed the previous vocabulary limits without a negative impact on commu -
+nicative success. All simulations were kept at an abstract level. The authors demonstrated 
+what sorts of languages are optimal but did not simulate the emergence of actual communi-
+cation properties. Their work is a valuable demonstration of the role of noise and the com -
+plex structure of tasks that lead to uneven rewards in shaping the language structure. These 
+factors align well with our ecological perspective and inspired subsequent work (Kuciński 
+et al. 2021).
+3.3 Compositional signals via vertical transmission
+The interaction between sender and receiver in the standard LSG is horizontal in that, ini -
+tially, neither the sender nor the receiver knows any meaningful signals and the conven -
+tion emerges between them. In terms of language evolution, this may represent emerging 
+conventions between peers, but not cultural language transmission from one generation to 
+another. In order to target this phenomenon, Kirby ( 2001) developed an iterated learning 
+model, which inspired a large body of research over the years (Kirby et al. 2014).
+In the iterated learning model, a student (receiver) observes a set of stimulus-signal 
+mappings generated by a teacher (sender) from the previous generation. Signals are com -
+pound multisyllabic utterances, and stimuli are objects described by the composition of 
+stable properties. The produced stimulus-signal pairs become a learning sample for the 
+next sender, which produces a learning sample for yet another sender, and so on. When the 
+student is unable to learn all stimulus-signal pairs from the previous generation perfectly, 
+vertical transfer introduces a bottleneck shaping the structure of language. Iterated learning 
+1 3
+Page 13 of 40 65
+
+===PDF PAGE 14===
+J. Zubek et al.
+Model Discipline Environ-
+ment 
+(stimuli)
+Signals Available 
+actions
+Rewards 
+and learning 
+mechanism
+Results/
+explanatory 
+target
+Lewis 
+(1969)
+Philosophy Discrete 
+tokens
+Discrete tokens Discrete tokens A spe-
+cific response 
+rewarded
+Stabi-
+lisation 
+of social 
+conventions
+Nowak 
+and 
+Krakau-
+er 
+(1999)
+Linguistics Discrete 
+tokens
+Sets of tokens 
+(compound ex-
+pressions), risk 
+of confusion
+Discrete tokens Different re-
+wards are given 
+depending on 
+the response
+Evolution-
+ary origins 
+of phono-
+logical and 
+gram-
+matical 
+structures
+Smith 
+et al. 
+(2003)
+Linguistics Binary vec-
+tors: com-
+binations of 
+properties
+Sets of tokens 
+(compound 
+expressions)
+– Learning 
+mapping after 
+the previous 
+generation in 
+a supervised 
+manner
+Origins of 
+systematic 
+structure
+Batali 
+(1998)
+Linguistics Binary vec-
+tors: simple 
+predicates
+Sequences 
+of tokens 
+(compound 
+expressions)
+Binary vectors: 
+reconstructed 
+predicates
+The sender 
+tries to predict 
+the receiver’s 
+responses 
+internally 
+(obverter). The 
+receiver learns 
+from the sender 
+in a super-
+vised manner. 
+Roles change 
+periodically.
+Emer-
+gence of 
+systematic 
+structure in 
+sequences 
+of variable 
+length
+Jaques 
+et al. 
+(2019)
+Artificial 
+intelligence
+2D grid 
+world with 
+simple 
+objects 
+encoded 
+as binary 
+vectors
+Discrete tokens Movement in 
+the environment
+The number of 
+collected food 
+items is re-
+warded, group 
+reward
+Emergence 
+of com-
+munica-
+tion under 
+intrinsic 
+social 
+influence 
+motivation
+Steels 
+and Bel-
+paeme 
+(2005)
+Cognitive 
+psychology
+Sets of 
+numerical 
+vectors 
+represent-
+ing colours 
+(available 
+to the 
+sender and 
+receiver), 
+marked 
+stimulus 
+(avail-
+able to the 
+sender)
+Discrete tokens 
+from an infinite 
+set
+Choosing the 
+correct stimulus
+Specific re-
+sponse reward-
+ed, supervised 
+learning of new 
+word forms
+Emerging 
+commu-
+nication 
+stabilising 
+category 
+formation
+Table 1 Models of emergent communication discussed in the paper, their origin in various traditions, and 
+their characteristics in terms of the basic template of the LSG. The models were selected to display various 
+interaction scenarios considered as communicative situations in the model. We ordered them according to 
+their abstractness from idealised formal models to embodied simulations/mobile robots
+1 3
+65 Page 14 of 40
+
+===PDF PAGE 15===
+Models of symbol emergence in communication: a conceptual review…
+Model Discipline Environ-
+ment 
+(stimuli)
+Signals Available 
+actions
+Rewards 
+and learning 
+mechanism
+Results/
+explanatory 
+target
+Laz-
+aridou 
+et al. 
+(2017)
+Artificial 
+intelligence
+Sets of 
+numerical 
+vectors: 
+raw RGB 
+images
+Sets of tokens 
+(compound 
+expressions)
+Choosing the 
+correct stimulus
+Specific 
+response is 
+rewarded
+The signal-
+ling system 
+is grounded 
+in raw vi-
+sual input
+Can-
+gelosi 
+(1999, 
+2001)
+Linguistics & 
+philosophy
+2D grid 
+world with 
+objects 
+encoded as 
+binary vec-
+tors (avail-
+able to 
+sender and 
+receiver; 
+the receiver 
+gets per-
+ceptual 
+noise)
+Sets of tokens 
+(compound 
+expressions)
+Discrete 
+movement 
+in a grid-like 
+environment 
+and discrete 
+response tokens
+Locating food 
+and avoiding 
+poison are 
+rewarded in 
+evolution, the 
+speaker is not 
+rewarded
+Symbolic 
+mode of 
+reference - 
+transfer of 
+symbol-
+symbol 
+relations 
+to new 
+vocabularies
+Schulz 
+et al. 
+(2012)
+Robotics 2D realistic 
+environ-
+ment, own 
+position 
+in the en-
+vironment 
+(available 
+to the 
+sender 
+and the 
+receiver)
+Sets of tokens 
+(compound 
+expressions)
+Continuous 
+movement in 
+the environ-
+ment (available 
+to sender and 
+receiver)
+Meeting at 
+the appointed 
+location is 
+rewarded
+Construct-
+ing abstract 
+location 
+concepts 
+grounded 
+in spatial 
+experience
+Loula 
+et al. 
+(2010)
+Linguistics & 
+philosophy
+2D grid 
+world, 0–1 
+presence 
+of nearby 
+objects of 
+various 
+classes 
+(avail-
+able to all 
+agents)
+Discrete tokens 
+from a large set
+Choice of 
+high-level, 
+predefined 
+behaviour: 
+wandering, 
+fleeing, etc. 
+(available to all 
+agents)
+Hebbian learn-
+ing of associa-
+tions (classical 
+conditioning)
+Shift 
+between 
+different 
+forms of 
+signification 
+within an 
+ecological 
+niche
+Mor-
+datch 
+and 
+Abbeel 
+(2018)
+Artificial 
+intelligence
+2D envi-
+ronment, 
+(shared by 
+the sender 
+and the 
+receiver), 
+marked tar-
+get object 
+and action 
+(available 
+to sender)
+Sets of tokens 
+(compound 
+expressions)
+Continuous 
+movement in 
+the environment
+Explicit error 
+feedback
+System-
+atic signal 
+structure is 
+grounded 
+in action 
+structure
+Table 1 (continued) 
+1 3
+Page 15 of 40 65
+
+===PDF PAGE 16===
+J. Zubek et al.
+model was mathematically analysed using evolutionary game theory (Brighton 2002) and 
+implemented in computational simulations. Iterated learning intends to explain the system-
+atic structure of natural languages.
+Smith et al. ( 2003) constructed a simulation in which they represented agents as sim -
+ple neural networks consisting of two layers of binary neurons. The first layer represented 
+binary object properties (each object either had or did not have a particular property). Mean-
+while, the second layer represented the presence of specific components in the utterance 
+(each utterance was an unordered set of components). The connections between neurons 
+were reinforced based on the object-utterance pairs present in the learning input. Then, a set 
+of utterances for new objects was produced.
+A transmission bottleneck was implemented as follows: agents from the new generation 
+observed only a subset of utterances produced by agents of the previous generation. They 
+demonstrated that under these circumstances compositional languages—in which indi -
+vidual syllables in an utterance are systematically mapped to object properties—emerge. 
+Importantly, Kirby et al. ( 2008) replicated the same schema in an experiment involving 
+human participants and obtained similar results.
+These studies consistently show that a transmission bottleneck introduces evolutionary 
+pressure for selecting languages that are relatively easy to learn, which leads to the structuri-
+sation of meanings. Structured meanings are fundamentally different from the compound 
+expressions with protogrammar analysed by Nowak and Krakauer ( 1999). In that work, 
+grammar defined only the structure of an utterance, demanding that the word of a particular 
+class appears at a particular position in a sentence, which was in principle independent of 
+the word’s meaning. The structure of the compound expressions in Smith et al. (2003) was 
+not restricted, but the way agents referred to the properties of objects was systematic: dif -
+ferent parts of the expression referred to different properties of objects. This can be called 
+compositionality in terms of meanings but without specific grammar (Rorot and Rączaszek-
+Leonardi 2023).
+Models based on vertical language transmission can be seen as orthogonal to the horizon-
+tal LSG. They do not include a coordination problem, but rather a memorisation problem: 
+Model Discipline Environ-
+ment 
+(stimuli)
+Signals Available 
+actions
+Rewards 
+and learning 
+mechanism
+Results/
+explanatory 
+target
+Flo-
+reano 
+et al. 
+(2007)
+Robotics 2D envi-
+ronment 
+(shared by 
+all agents)
+Light emitted 
+by physical 
+robots
+Continuous 
+movement in 
+the environ-
+ment (available 
+to all agents)
+Locating food 
+and avoiding 
+poison are 
+rewarded in 
+evolution, the 
+speaker is not 
+rewarded
+Commu-
+nication 
+strategies 
+evolve 
+under dif-
+ferent kin 
+structures
+Grouchy 
+et al. 
+(2016)
+Robotics & 
+linguistics
+2D envi-
+ronment 
+(shared by 
+all agents)
+Continuous 
+scalar
+Continuous 
+movement in 
+the environ-
+ment (available 
+to all agents)
+No explicit 
+rewards, two 
+agents produc-
+ing offspring 
+upon contact
+The emer-
+gence of a 
+complex 
+mode of 
+signification 
+with signal-
+signal 
+relations
+Table 1 (continued) 
+1 3
+65 Page 16 of 40
+
+===PDF PAGE 17===
+Models of symbol emergence in communication: a conceptual review…
+agents learn the signalling protocol by observing examples rather than through interaction. 
+Vertical and horizontal approaches can be seen as complementary, and some models explic-
+itly combine vertical iterated learning with the horizontal LSG. Such a combination of ver-
+tical and horizontal transfer was implemented by periodically resetting the weights of the 
+neural networks of some agents (clearing their memory; Li and Bowling ( 2019); Cogswell 
+et al. (2020)) or by having the agents passively observe the communication protocols of the 
+previous generation (Ren et al. 2020).
+3.4 Social reasoning facilitating communication
+A different line of work looks for pressures for structured communication in pragmatic 
+social reasoning, which is involved in language generation and comprehension. In formal 
+linguistics, this kind of reasoning is usually approached using the Bayesian Rational Speech 
+Act framework (Frank and Goodman 2012). The central idea is to introduce a pragmatic 
+sender, which takes into account the receiver’s perspective and chooses a signal that has the 
+highest probability of being correctly understood. Then, a pragmatic receiver may consider 
+the pragmatic sender’s perspective, and so on.
+We recognise that a similar idea was introduced in the communication emergence lit -
+erature by Batali ( 1998), who attempted to explain the origin of the structure of natural 
+languages. His simulations preserved the basic sender-receiver structure of the LSG, but the 
+sender used its own language comprehension module to predict the receiver’s responses. 
+Based on these predictions, it generated a signal that would be easy to interpret—an 
+approach dubbed “obverter” (Oliphant and Batali 1997). The population of agents learnt 
+in a self-supervised manner: a pair of randomly selected agents interacted in each round. 
+The sender acted as a teacher for the receiver, and, importantly, the roles were periodically 
+swapped. The language that emerged had compositional properties similar to the language 
+emerging in the experiments by Smith et al. ( 2003), as some parts of the signal sequence 
+had systematic meanings. Furthermore, the agents were able to generalise and communicate 
+novel combinations of meanings not present in the training set.
+The obverter mechanism uses the same signal-meaning mapping for language genera -
+tion and comprehension. This guarantees that agents are internally consistent and use the 
+language they learnt in the receiver role when they assume the speaker role. It can be inter-
+preted as a rudimentary form of social reasoning: the sender produces the signal, which has 
+the highest probability of mapping to the desired object if the sender itself were to interpret 
+this signal. Imagine that the receiver is the source of the language, and the sender attempts 
+to learn the language of the receiver (the obverter mechanism makes the sender explic -
+itly adjust to the receiver). Within a single round of the game the sender is able to learn 
+only a single association at best, which makes language transfer imperfect. As the roles are 
+assigned at random, in the next round, the sender may become a new receiver and a source 
+of language for a new sender, further propagating its learning biases. Exchanging sender-
+receiver roles effectively creates a transmission chain with a learning bottleneck similar to 
+the iterated learning setting (Smith et al. 2003). Such a transmission chain constitutes a pres-
+sure for a systematic communication protocol. The obverter mechanism was implemented 
+in modern neural networks by Choi et al. (2018) and Bogin et al. (2019), who also observed 
+an increase in compositionality.
+1 3
+Page 17 of 40 65
+
+===PDF PAGE 18===
+J. Zubek et al.
+More complex mechanisms of social reasoning have also been explored. A good example 
+is the work of Jaques et al. (2019), who introduced the concept of social influence as an aux-
+iliary reward for agents communicating to solve a sequential social dilemma. The authors 
+presented a measure of social influence which incorporated counterfactual reasoning: an 
+agent considered the alternative signals it could have sent and the plausible actions the 
+other agent could have taken in this alternative world. Based on that, the first agent assessed 
+whether actions of the other agent were contingent on its signalling or would have been 
+taken regardless of the signal value.
+In one variant of their simulations, agents’ used their own assessment of whether their 
+signals were influential to estimate their social influence reward. In order to achieve this, 
+one agent predicted the actions of the other agent using a specialised internal model trained 
+in a supervised manner. Unlike in Batali (1998), the model of the other agent was separated 
+from the main model that controlled the actions of the agent. The authors did not focus on 
+the signal structure, but showed that supporting communication with counterfactual reason-
+ing leads to faster convergence, higher cumulative rewards, and higher mutual information 
+between signals and actions. Even if agents did not have an explicit communication chan -
+nel, influence rewards incentivised them to develop an ostensive communication protocol 
+by pointing out important locations by staying still at these locations. This pointing behav -
+iour emerged because, from the beginning, agents viewed their actions as means to not 
+only achieve their immediate goals but also to influence others. The dual meaning of the 
+action—performative and communicative—followed the dual structure of the reward func -
+tion including both task performance and social influence.
+The results of these simulations suggest that some aspects of social reasoning are neces-
+sary to introduce pressures for communication relevance and the ease of interpretability (in 
+line with Grice’s maxims of conversation (Grice 1975)), which drive language evolution. 
+Consequently, agents might require certain cognitive preadaptations for social cooperation 
+or scaffolding in the form of existing social relations in order to establish a nontrivial com-
+munication protocol.
+3.5 Bidirectional influences between perception and communication
+Harnad ( 1990) posed the famous symbol grounding problem, which asks how symbols 
+(which he understood as elements of the symbol system that are subject to formal syntactic 
+manipulations) can refer to anything in the outside world. He suggested that when natural 
+languages are being developed and learned, symbols are initially grounded in basic per -
+ceptual processes, and then more abstract learned or innate categories are formed around 
+perceptual features.
+Among works in communication emergence that explicitly address the symbol ground -
+ing problem, the work of Steels and Belpaeme (2005) stands out as particularly comprehen-
+sive. The authors used a variant of a language game, which they called a guessing game. 
+Similar to the standard LSG, it involved a sender and a receiver communicating the proper-
+ties of the presented stimuli: vectors of real numbers representing colours. In contrast to the 
+standard LSG, in which there is no context, here the sender was presented a single “target” 
+stimulus in the context of three other “distractor” stimuli. The stimuli were drawn at ran -
+dom. The only restriction was that the target had to be sufficiently distinct from distractors–
+this was determined by the size of just-noticeable difference between colours as estimated 
+1 3
+65 Page 18 of 40
+
+===PDF PAGE 19===
+Models of symbol emergence in communication: a conceptual review…
+in human-subject studies. The receiver was presented with both the sender signal and the 
+same set of stimuli, and its task was to correctly choose the target stimulus. Each agent 
+used a lexicon module—a mapping between discrete categories and words—and an adap -
+tive categorisation module responsible for forming categories in a continuous perceptual 
+space. The lexicon was updated whenever a previously unknown word was encountered. 
+Successful communication required the coordination of both vocabulary and perceptual cat-
+egories. In the simulation, a population of agents interacted randomly with each other freely 
+exchanging sender and receiver roles. No colour categorisation was designed as “correct”.
+The authors demonstrated how a conventionalised categorisation of the colour stimuli 
+may emerge through linguistic interaction. The vocabulary was also shared within the popu-
+lation and-through the categorisation module-grounded in the perceptual properties of the 
+stimuli. Similar models were used to study how aspects such as innate perceptual biases 
+(Baronchelli et al. 2015; Ohmer et al. 2022) or the topology of a social network (Centola 
+and Baronchelli 2015; Zubek et al. 2017) affect the formation of categories. Further work 
+by Steels (2015) brought guessing game schema to the context of developmental robotics, 
+where simulated agents were replaced with physically embodied robots. Spranger ( 2016) 
+extended the model and used it to demonstrate the emergence of spatial language. These 
+models are unique because they demonstrate that both signal-category associations and the 
+perceptual categories themselves can be subject to conventions formed bottom-up through 
+interaction.
+3.6 Signals grounded in raw sensory inputs
+The advent of convolutional neural networks made it feasible to introduce more realistic 
+visual stimuli into communication emergence models, substituting discrete tokens from the 
+basic LSG with images. Some of the first works exploring this path were conducted by Laz-
+aridou et al. (2017) and Lazaridou et al. (2018). The departure from pre-processed symbolic 
+tokens input (e.g. encoding an object as a binary vector) in favour of raw visual input (i.e. 
+arrays of RGB pixels) requires the sender to deal with entangled input and decompose it into 
+relevant factors of variation (e.g. shape and colour) on its own. Lazaridou et al. (2017) dem-
+onstrated that a model trained using reinforcement learning learned to successfully play a 
+referential game (although, it was not fully trained end-to-end as it used a pretrained module 
+to extract image features). Moreover, Lazaridou et al. (2018) observed that when compound 
+signals were used, emergent communication protocols were, on average, more systematic 
+for symbolic object representations than for raw pixel inputs. Communication protocols 
+emerging with visual input did not always capture interpretable, concept-level properties 
+of visual scenes presented to the agents. Instead, agents learned to successfully distinguish 
+images while overfitting to the inscrutable low-level relational properties of images.
+Bouchacourt and Baroni (2018) demonstrated that agents can solve guessing games with 
+high accuracy even when the input data contains no conceptual content at all-for example, 
+when images comprise random noise sampled from a Gaussian distribution. Researchers 
+discovered ways to foster more systematic communication protocols with visual input, for 
+instance, by increasing the number of available targets (Mu and Goodman 2021). How-
+ever, the overall conclusion is that realistic visual input alone does not contribute to the 
+structure of language. Systematic structures must be present in the way agents perceive the 
+environment.
+1 3
+Page 19 of 40 65
+
+===PDF PAGE 20===
+J. Zubek et al.
+3.7 Multi-task learning: actions beyond signalling
+Embedding the LSG in a realistic context requires that the agents are able to perform actions 
+other than emitting signals. Then, the structure of the emerging communication protocol 
+could be influenced by the demands of simultaneous signalling and acting in the environ -
+ment. Among works exploring this matter, we have chosen the model presented by Can -
+gelosi (1999, 2001) as particularly interesting, since it grounds computational simulations 
+in a deeper semiotic theory produced by Deacon ( 1997) (which is his own reinterpretation 
+of Peircean semiotics). Deacon views communication emergence as a multi-stage process, 
+during which one type of sign is transformed into another. He distinguishes between iconic 
+signs grounded through perceived similarity, indexical signs grounded in spatio-temporal 
+contingencies, and symbolic signs, which are grounded primarily in relations with other 
+signs. According to his proposal, indices can be transformed into symbols through weak -
+ening sign-referent associations (think: word and concrete objects in the world) while 
+strengthening sign-sign associations (think: syntactic rules). Symbols can thus be viewed as 
+denoting more abstract relations that can be transferred between contexts.
+Cangelosi attempted to simulate this process in a population of agents foraging for mush-
+rooms of different types. Agents were rewarded for correctly identifying a mushroom type 
+based on unreliable perceptual input and a signal produced by their peers. The identifica -
+tion meant correctly classifying a mushroom as either edible or inedible, and, in the case of 
+edible mushrooms, classifying its subtype. Each agent was controlled by a separate neural 
+network. Networks were evolved through a simple genetic algorithm (population learning) 
+and fine-tuned using backpropagation (individual learning). The agent network had separate 
+output layers responsible for identifying mushrooms and producing signals, and a hidden 
+layer was shared between these two tasks.
+Communication had a structure similar to the basic signalling game, in which an agent 
+foraging for mushrooms was the receiver, and its parent from the previous genetic algo -
+rithm generation was the sender. The sender was presented with a true vector of perceptual 
+properties of a given mushroom and produced a two-component signal. The receiver was 
+presented with a noisy version of the vector of mushroom properties and the sender’s signal. 
+It had a double task of correctly identifying the mushroom (rewarded in the evolutionary 
+timescale) and recreating the sender’s signal (trained with backpropagation in a supervised 
+manner). This elaborate setup led to the emergence of a systematic communication protocol 
+with disentangled mushroom properties.
+To check the generalisation capabilities of these systems, Cangelosi applied a test based 
+on Deacon’s interpretation of the classic experiments of teaching language to chimpanzees 
+(Savage-Rumbaugh and Rumbaugh 1978; Savage-Rumbaugh et al. 1980). The rationale for 
+this is as follows: let us assume that we know some basic vocabulary in one language. Then, 
+some new foreign vocabulary is introduced in a grounded manner, albeit for a limited num-
+ber of examples. Next, the learner is presented with combinations of words in the foreign 
+language that allow them to recognise a familiar grammatical rule. Afterwards, the learner 
+should be able to correctly use the foreign words in combinations, even if they were not 
+introduced explicitly for all examples.
+This schema was replicated 1–1 with the neural networks. The trained network repre -
+sented the properties of mushrooms A and B with independent symbols. Cangelosi retrained 
+the network using backpropagation to substitute existing symbols for property A for two-
+1 3
+65 Page 20 of 40
+
+===PDF PAGE 21===
+Models of symbol emergence in communication: a conceptual review…
+thirds of mushrooms with new symbols. Then, he introduced new symbols for property 
+B and taught the network how symbols for properties A and B are composed together in 
+two-component signals. Finally, he introduced new symbols for property A for the remain-
+ing third of the mushrooms. At this point, the network was able to correctly associate all 
+symbols A and B even though this association was explicitly given only for two-thirds of 
+mushrooms.
+This kind of generalisation goes beyond the generalisation of responses to new stimuli; 
+this is a systematic transfer of relations formed between one group of symbols to a new 
+group (in accordance with Deacon’s semiotic framework). Using the terms of Barrett and 
+Skyrms ( 2017), we consider this an example of template transfer, by which the stimuli 
+remain the same but the response repertoire changes. Cangelosi et al. (2002) interpreted this 
+generalisation as a process of “symbolic theft”, by which preexisting grounded symbols and 
+the relations between them are used to ground new ones. We suspect that the agents’ ability 
+to transfer the structure of relations to new symbols is a consequence of the simultaneous 
+involvement of both sender and receiver in classification and signalling tasks. This involve-
+ment forced them to disentangle relevant factors of variability in the environment in their 
+internal representations. However, this was not tested directly in the original work.7
+3.8 Modelling an ecological niche for communication
+Some of the models inspired by artificial life research have focused more on the role of the 
+ecology and how it may shape a niche in which communication evolves than on the archi -
+tecture of or interactions between individual agents. One study of this kind was conducted 
+by Loula et al. (2010). They were inspired by the ecology of vervet monkeys-animals with a 
+particularly sophisticated set of alarm calls. In the simulation, a group of herbivore creatures 
+explored a 2D environment looking for edible plants while avoiding predators. Contrary to 
+the basic LSG, signalling behaviours existed within the natural ecology of the simulated 
+environment, going beyond static sender-receiver interactions. Simulated creatures could 
+see nearby objects, hear vocalisations, and select predefined actions based on their percep -
+tion and internal drives (hunger, fear, boredom, etc.). Actions were high-level behaviours, 
+such as scanning the environment, wandering, fleeing, hiding, climbing a tree, and vocalis-
+ing. The communication was not limited to sender-receiver pairs: any creature within the 
+vicinity was able to hear a vocalisation and react to it (possibly with another vocalisation).
+No particular reaction was distinguished as “correct”. Systematic associations between 
+vocalisations (signals) and predator types (meanings) were spontaneously self-organised 
+through Hebbian learning of associations between stimuli in this ecology. The authors dem-
+onstrated how the emergence of signals transforms ecology. At first, creatures reacted to 
+signals by scanning their environment for potential predators: all signals were interpreted 
+as general alarm calls signalling danger. Later, when signals were well learnt, the creatures 
+took actions adequate for the predator type (fleeing, hiding, or climbing a tree) immediately 
+after hearing the signal without ever seeing the predator. Moreover, the creatures repeated 
+the signal they just heard to warn the others. This is consistent with the example of signal -
+ling game self-assembly given by Barrett and Skyrms (2017).
+7 In Cangelosi’s simulations, agents also moved in a 2D environment and had to approach a mushroom before 
+picking it up. However, since they did not have any memory, their movement trajectory did not influence their 
+classifications or contribute to the structure of their communication.
+1 3
+Page 21 of 40 65
+
+===PDF PAGE 22===
+J. Zubek et al.
+Loula et al. ( 2010) demonstrated a shift between different forms of signification, by 
+which the same signals gradually changed meaning and started referring to entities not 
+directly present. Such a shift is possible by grounding communication in a sufficiently rich 
+ecology. Complexification of an ecological niche might be a necessary step on the road 
+towards symbolic communication from simpler signals.
+3.9 Embodied and situated communication
+In the vanilla LSG, all actions are discrete: the model abstracts away from the dynamics of 
+action in a continuous environment. If we were to take embodiment more seriously, in line 
+with the proposition of ecological approaches to cognition (Rączaszek-Leonardi 2024), we 
+would have to consider the spatio-temporal characteristics of the processes of acting and 
+signalling as viable sources of communication structure. We have selected two examples of 
+works pursuing this direction.
+The first is the work by Mordatch and Abbeel ( 2018), which is well-known in the AI 
+community. In their simulation, a 2D continuous space was populated with agents and 
+coloured landmarks. Agents could move in the space and emit discrete signals, and their 
+policies were represented by a recurrent neural network (all agents shared the same policy 
+network). Each agent was given private information about the action the other agent must 
+undertake, so agents had to instruct one another. The agents were trained with backpropaga-
+tion to communicate to the other agent the correct action (e.g. GOTO) and object that this 
+action must target (e.g. BLUE).8 The communication protocol that emerged in the simula -
+tions had a compositional verb-noun structure. Compositionality was encouraged through 
+a soft limit on vocabulary size that made agents reuse already known words (introducing a 
+new word was penalised).
+The ability of an agent to move freely contrasts with dominant settings, according to 
+which the sender passively observes a stimulus (independently of any actions it can under -
+take) and the receiver waits for a message to undertake an action. The fact that the sender 
+could move enabled nonverbal communication as the receiver used, for example, the gaze 
+direction or physical movement of the sender to inform its actions. Moreover, according 
+to the authors, the physical properties of the environment and agent communication (e.g. 
+actions and utterances that take time to accomplish) shaped the syntactic structure of the 
+utterances. In the communication protocol that emerged, the GOTO action type signal was 
+uttered before the landmark signal, allowing the receiver to “prepare” for further actions by 
+moving to an advantageous central position among the landmarks before starting to move 
+towards the specific one.
+The second example of a work exploring a rich and structured environment as a potential 
+source of structure appearing in language comes from the robotics tradition. Floreano et al. 
+(2007) employed a swarm of mobile robots that navigated their way through a 2D space to 
+discover a food source and avoid a poison source. The robots were controlled by neural net-
+works evolved through an evolutionary algorithm, in which fitness was determined by their 
+8 The authors remarked that agents could, in principle, be trained using reinforcement learning, but for practi-
+cal reasons, they decided against it. Instead, they built a fully differentiable system consisting of two agents 
+and their environment, and they trained it end-to-end using backpropagation. Gumbel-Softmax was used to 
+make the discrete communication channel differentiable. The training was supervised in the sense that the 
+training signal contained information about correct actions, but it did not contain information about correct 
+signals - goal-signal associations emerged spontaneously.
+1 3
+65 Page 22 of 40
+
+===PDF PAGE 23===
+Models of symbol emergence in communication: a conceptual review…
+food intake. They could emit light signals, which helped other robots locate food, but this 
+created competition for resources: spatial limitation of the environments allowed only a lim-
+ited number of robots to feed at the same time. Contrary to the standard LSG, there were no 
+sender-receiver roles, no turn-taking, and no explicit reward for successful communication. 
+The results indicate that cooperative communication can emerge among kin groups even 
+if signalling is costly for individuals. More varied behaviours, such as the emergence of 
+deceptive communication in groups of nonrelated robots, were also observed. Importantly, 
+the values and costs of communication in these experiments were not arbitrarily introduced 
+but emerged from the properties of the environment.
+Based on these two examples, we conclude that embodied simulations add many degrees 
+of freedom to the model, making it more difficult to analyse while also allowing for new, 
+often unexpected, pressures that enable communication structure to emerge. Such pressures 
+might be essential for moving towards symbolic communication.
+3.10 Combining concepts across games
+Some works in robotics examine communication emergence in even more structured envi -
+ronments. As an example, we present the work of Schulz et al. ( 2012), which is both tech-
+nically sophisticated and theoretically ambitious. They experimented with mobile robots, 
+which navigated a natural environment (office space) and learned to refer to specific loca -
+tions within that environment. The robots could move freely in their environment and con -
+struct private maps of the space based on visual stimuli and self-motion odometry (using 
+the RatSLAM algorithm (Milford and Wyeth 2010)). The map for each agent was slightly 
+different, as it reflected each agent’s individual experience.
+When two robots met, they were able to hear unique signals that they emitted, and they 
+engaged in sender-receiver guessing games inspired by Steels and Belpaeme ( 2005). The 
+structure of these games was explicitly programmed by the authors and was independent of 
+the agents’ motor activities. The only aspect that was modified through the games was the 
+association map between signals and spatial locations in the private map. The new element 
+was that the agents played a sequence of progressively more structured games and that the 
+concepts acquired through these games were interrelated.
+They started by playing a where-are-we game in which they named the location of their 
+meeting. After a few games, the agents had conventionalised the lexicons of location names 
+grounded in their private spatial maps. Then, the researchers made the robots play two new 
+games, how-far and what-direction, using grounded location names. In the how-far game, 
+two locations were named and the robots had to negotiate words to express the distance 
+between them. In the what-direction game, three locations were named and the robots coor-
+dinated terms to express an angle between the two locations from the point of view of the 
+third. After they coordinated their lexicons, they were able to use both location names and 
+relational vocabulary to successfully play go-to games when they arranged to meet at a 
+specific location. Then, in the where-is-there game, the agents used the relational vocabu -
+lary to name the locations they had not yet visited. The labels established during this last 
+game remained abstract until the agents were able to discover previously unknown locations 
+through exploration.
+The achievement of this model is a particularly clear presentation of two different meth-
+ods of grounding vocabulary. The first was direct grounding in the experiences of spatial 
+1 3
+Page 23 of 40 65
+
+===PDF PAGE 24===
+J. Zubek et al.
+locations. The second was indirect grounding in the relations between already established 
+concepts. Schulz et al. (2012) demonstrated how this more advanced type of grounding can 
+be achieved when simpler games are combined using a modular composition schema (Bar-
+rett and Skyrms 2017). Combining games required a progressive complexification of agent 
+interactions (here, explicitly encoded in the structure of guessing games) and a conceptual 
+space allowing meaningful operations on concepts (here, spatial maps of the environment). 
+Such double grounding is a compelling idea in cognitive science and may be indispensable 
+for abstract concepts to emerge (Rączaszek-Leonardi and Zubek 2023).
+3.11 Situated coordinative dialogue
+The LSG is structured to portray a descriptive function of communication: the sender 
+describes the state of affairs unknown to the receiver. The communication is unidirectional 
+and follows knowledge asymmetry. Only a few models depart from this assumption. Among 
+them, we recognise the work of Grouchy et al. (2016), which stands out due to the original 
+modelling techniques used. The authors modelled a scenario involving no external states 
+to communicate; the scenario only contained agents that coordinated their movements in a 
+continuous 2D space to meet each other.
+They simulated colonies of mobile robots with controllers evolved through genetic pro -
+gramming (evolved controllers were later transferred to physical robots: e-pucks). The con-
+trollers took the form of ordinary differential equations that defined the relationship between 
+robot sensors and actuators. The robots could not see each other but could hear signals 
+emitted by nearby peers. The robots communicated by emitting sounds (the communica -
+tion channel was continuous and one-dimensional). Whenever two robots met in space, 
+they crossed their genetic material and produced offspring. There was no explicit reward 
+or fitness function, but the reproduction mechanism favoured robots that were able to find 
+each other more efficiently, which, in turn, applied evolutionary pressure on emitting and 
+interpreting sounds, thereby developing an efficient communication system.
+Most populations of robots evolved communication systems in which the emitted signals 
+corresponded to the robot’s position in one of the two dimensions. Some populations used 
+this communication strategy for a while but later on evolved more complex strategies, by 
+which the signals emitted by two robots became co-dependent: a signal emitted by one robot 
+was modulated by the signal emitted by the other robot. The dialogical communication 
+established between the two robots became a dynamic control structure, which facilitated 
+their meeting. The two modes of communication depended on each other since the dialogi-
+cal communication strategy emerged from the simpler one. Conceptually, this resembles the 
+modular composition of signalling games proposed by Barrett and Skyrms (2017), although 
+here, the signalling structure is fully emergent, without explicit roles, rewards, and so on.
+Grouchy et al.’s model remains original, as it challenges many assumptions common in 
+communication emergence models: a) it uses continuous signals instead of discrete signs, b) 
+it does not reward agents explicitly, and c) it explores a form of communication that is less 
+about representing states of the world and more about the dynamic coordination of behav -
+iour. Concerning b) and c), the model by Floreano et al. (2007) is similar.
+1 3
+65 Page 24 of 40
+
+===PDF PAGE 25===
+Models of symbol emergence in communication: a conceptual review…
+4 Emergence, function of communication, and the mapping metaphor
+The structure of existing models reveals commendable efforts to investigate various facets 
+of the communication emergence problem. These models have demonstrated stable com -
+munication protocol formation under diverse circumstances (Spike et al. 2017). The proto-
+cols are efficient, as they enable agents to carry out tasks effectively, and some simulations 
+highlight the benefits of explicit signalling compared to a situation without a designated 
+communication channel (e.g. Jaques et al. 2019; Mordatch and Abbeel 2018). Emergent 
+protocols often allow for generalisation to new contexts (e.g. Cangelosi 2001; Schulz et al. 
+2012) and display a certain degree of systematicity (or compositionality) (e.g. Mordatch and 
+Abbeel 2018; Chaabouni et al. 2020).
+The iterated learning model provides a convincing explanation for the basic compo -
+sitionality of natural languages as a solution to the transmission bottleneck and language 
+learnability problem (Kirby et al. 2014, 2015). Recent advancements fuelled by the imple -
+mentation of deep neural networks (Lazaridou and Baroni 2020; Chaabouni et al. 2022) 
+enhanced individual agents’ cognitive capabilities, which contributed to more biologically 
+authentic simulations. Agents are now able to handle more realistic inputs such as images 
+(Lazaridou et al. 2018), navigate more intricate environments, including social environ -
+ments (Batali 1998; Jaques et al. 2019), and align their signals with basic English vocabu -
+lary (Lazaridou et al. 2020).
+Despite these advancements, some questions about the emergence and evolution of sym-
+bolic communication remain open. These include the emergence of discrete signs from ordi-
+nary actions in interactions, the trajectory necessary for such signs to evolve into symbols 
+embedded within a network of symbol-symbol relations, the contextual plasticity of sym -
+bols, and, in connection with this, non-trivial compositionality (aspects of compositional -
+ity beyond the logical intersection of two sets (Steinert-Threlkeld 2020)). The adoption of 
+specialised neural network architectures, such as convolutional neural networks (LeCun et 
+al. 1989), long short-term memory networks (Hochreiter and Schmidhuber 1997) or trans-
+formers (Vaswani et al. 2017) have allowed agents to process more realistic inputs or longer 
+sequences of tokens. However, this alone does not address the fundamental questions above.
+It is telling that, while a great many works use the term “language emergence” or “com-
+munication emergence”, only a few have attempted to define this term more precisely, apply 
+a specific theory of emergence, and discuss which aspects of the simulation are emergent 
+and which are straightforward consequences of the assumed model structure (Di Paolo 
+1997; Hutchins and Johnson 2009; Loula et al. 2010). Taking this into account, we suggest 
+that progress is hindered not by the lack of sophisticated computational architectures but by 
+the lack of reflection upon some basic assumptions behind language emergence modelling.
+We identify several gross categories of simplifications, which-while useful in addressing 
+concrete engineering problems or concrete isolated theoretical questions-might obscure the 
+essential properties of symbolic communication that need to be addressed in a successful 
+explanatory model: 
+1. Lack of emergence. In existing models, communication rarely truly emerges, as symbols 
+are predefined and given as discrete numbers or vectors. They usually form a separate 
+modality distinct from the perceptual input, which is already designed for communica-
+tion by the model structure. The problem of the conventionalisation of discrete signals 
+1 3
+Page 25 of 40 65
+
+===PDF PAGE 26===
+J. Zubek et al.
+and symbols emerging from interactions is excluded. The existence of discrete symbols 
+is presupposed rather than explained. Agents’ actions also tend to be discrete and devoid 
+of dynamics, preventing the emergence of new forms of organisation. This assumption 
+is somewhat relaxed in only a couple of models (pointing and “gaze” direction in Mor-
+datch and Abbeel (2018), movement and use of light properties for communication in 
+Floreano et al. (2007), and continuous signals and movement in Grouchy et al. (2016)).
+2. Limiting the function of communication. In most of the existing models, communica -
+tion has a single function which is explicitly rewarded. The focus on the descriptive 
+function of communication is evident in settings where there is knowledge asymmetry 
+between agents, and one agent is rewarded for passing certain information about the 
+world to the other. The imperative or coordinative function of communication concern-
+ing the regulation of the ongoing interaction (for example, by eliciting certain behav -
+iours of the interaction partner) is subordinate to the descriptive function (as in Schulz 
+et al. (2012), where robots first learn descriptive communication and then use it impera-
+tively). A notable exception is the model of Grouchy et al. (2016), which demonstrates 
+how coordination can be independent of the description of the external environment.
+3. Mapping metaphor. The meaning of language is reduced to mapping discrete signals 
+to discrete referents. The meaning-mapping assumption is visible in the basic LSG, in 
+which the reward is maximised when the emerging signals can be uniquely mapped 
+to the states of the world. Compositionality is understood in terms of more complex 
+structured mappings (Korbak et al. 2020). In the simplified environments adopted by 
+most simulations, actions performed by agents and action history do not significantly 
+contribute to the meaning of communication. An effort to break free from the map -
+ping metaphor is visible in Loula et al. (2010), where emerging meaning is understood 
+as a transformation of the ecological niche rather than simple mapping. Moreover, in 
+Grouchy et al. ( 2016), signals allow functional coordination without mapping to spe -
+cific referents.All these simplifications are in line with the basic structure of the LSG 
+as seen through the lenses of Shannon’s information transmission (Skyrms 2010). They 
+can be viewed as interdependent; for instance, a mapping metaphor assumes the exis -
+tence of discrete signals and referents, thereby strengthening the notion that they are 
+preexisting rather than emerging in the process of communication as well. Similarly, if 
+we consider the fundamental role of communication to be descriptive, building a word-
+meaning mapping emerges as a logical solution. Although some existing models depart 
+from these simplifications (usually not all three of them at once) the simplifications hold 
+surprisingly strong in general. We assume that this is due to a widespread approach to 
+symbols, which treats them as something “given”, existing independently of meaning, 
+similar to unbound variables in a computer program ready to be associated with some 
+values. Symbols are thus perceived as discrete abstract entities with formal properties 
+that can be manipulated.
+Years of dominance of the information processing and computer metaphor in the cognitive 
+sciences have resulted in thinking about symbols as necessary assumptions before con -
+structing explanations. This makes it easy to forget that their existence also needs to be 
+explained. Consequently, models focus on how we can manipulate symbols, combine them, 
+and decipher their meaning or “ground” them. However, the problem of the emergence of 
+complex communication essentially includes the problem of symbol emergence: how do 
+1 3
+65 Page 26 of 40
+
+===PDF PAGE 27===
+Models of symbol emergence in communication: a conceptual review…
+they come into being in the first place? What kinds of meaningful relations do they require 
+to be described as symbols (Rączaszek-Leonardi et al. 2018)?
+Using abstract symbols with arbitrary meanings as a starting point is also limiting because 
+it puts the burden of structuring communication on the conventions created from scratch by 
+the agents and realised by their internal architectures, while the role of interactions with a 
+richly structured environment is neglected or limited. In the real world, forces from multiple 
+sources shape and structure communication. For instance, the physical properties of signals 
+also partly determine their meanings (like the light direction in Floreano et al. (2007)), and 
+situated agents can only communicate effectively within a certain distance (as in Loula et al. 
+(2010)). Neglecting the ways symbols might be created in interactions within a particular 
+ecology obscures these sources of complexity, leaving us only with the simplified view of 
+communication meaning as mapping from symbols to features (Rączaszek-Leonardi and 
+Deacon 2018).
+5 Sources of communication complexity
+Following the above review and the summary of theoretical considerations, we have identi-
+fied some of the most important sources of communication complexity explored by different 
+models. We discuss which of them could be explored in more depth in order to relax three 
+simplifying assumptions identified in the previous section.
+5.1 Perceptual grounding
+Grounding language in perception sets most emergent communication models apart from 
+distributional semantic approaches, by which language meaning is derived solely from word 
+co-occurrences. In perceptually grounded models, the agent’s perception plays a crucial 
+role in shaping language structure. For instance, in Steels and Belpaeme (2005), vocabulary 
+structure was influenced by agents’ perceptual capabilities defined in terms of the size of 
+just-noticeable difference between colours. Smaller size of the just-noticeable difference led 
+to a larger number of perceptual categories and larger vocabulary. To explore the effects of 
+perceptual grounding, some models employ realistic stimuli (e.g. images represented as raw 
+RGB pixel arrays, as demonstrated in Lazaridou et al. (2018)), and incorporate realistic per-
+ceptual systems, including multimodality, limitations of an agent’s senses, and perceptual 
+noise, among others Evtimova et al. (2018); Hoang et al. (2024).
+Making an agent’s perception more realistic increases the complexity of the model, 
+but it does not guarantee that a more structured and systematic communication protocol 
+will emerge. In fact, as shown in Lazaridou et al. ( 2018), communication protocols trained 
+with image input were less structured than those with symbolic tokens input. As long as 
+perceived stimuli-however complex-are objects that are mapped to signals, perceptually 
+grounded models do not solve our issues connected with the mapping metaphor.
+5.2 Sensorimotor grounding
+Another level is grounding language not only in passive perception, but in experiences 
+gained from active exploration of the environment (active perception, Gibson (1966)). Such 
+1 3
+Page 27 of 40 65
+
+===PDF PAGE 28===
+J. Zubek et al.
+grounding requires an embodied agent capable of nontrivial actions that affect states of the 
+world that later affect the perception of the agent (closing the sensorimotor loop). Simple 
+extensions of the signalling game model or machine learning models inspired by image 
+captioning or question answering tasks preclude that. Sensorimotor grounding is possible 
+in embodied simulations, such as Mordatch and Abbeel ( 2018), where agents move in the 
+environment and perform sequences of actions, which in turn opens up additional pos -
+sibilities for language complexification. Research in robotics has shown that agents with 
+closed sensorimotor loops and relatively simple perceptual input are able to evolve interest-
+ing communication systems (Floreano et al. 2007). With sensorimotor grounding, agents 
+can use communication to directly coordinate their actions. More complex sensorimotor 
+grounding can potentially be a way to move away from the meaning-mapping metaphor and 
+from the descriptive function of communication, as suggested by experiments with infants 
+and embodied robots (Wrede et al. 2009; Rohlfing et al. 2016; Lyon et al. 2016).
+5.3 Properties of sign vehicles
+Communication complexity can also be induced by the physical properties of sign vehicles 
+(signals) used in communication. As we observed before, many models utilise discrete and 
+amodal signs and do not explore physicality of signs as a dimension of communication 
+complexity at all (they treat symbols as given, not emergent). Some models follow the typi-
+cal sender-receiver schema but introduce noise into the signal space (Nowak and Krakauer 
+1999; Kuciński et al. 2021) or allow for discrete signals to emerge from a continuous signal 
+space (Geffen Lan et al. 2020; Lieck and Rohrmeier 2021)-these could be treated as the first 
+steps in this direction.
+In embodied models where signals have physical vehicles, such as the model of Flo -
+reano et al. ( 2007), which uses light signals, the properties of vehicles and the properties 
+of the perceptual systems of agents interact. This interaction imposes new constraints on 
+the agents’ interaction scenarios-for example, communication may be possible only in the 
+vicinity of another agent. In addition, physical sign vehicles allow us to explore aspects 
+of iconicity—the similarity between a sign vehicle and its referent (be it an object, action, 
+event, etc.)—which cannot be studied using amodal signs (Hutchins and Johnson 2009). 
+The complexification of sign vehicles is necessary to eliminate the assumption concerning 
+the pre-existence of discrete symbols and allow them to emerge (Taniguchi et al. 2016).
+5.4 Complexity of the environment
+It is generally recognised that a sufficiently complex environment is necessary for complex 
+communication to emerge. Within the basic LSG schema, the degrees of freedom of signals 
+are limited by the degrees of freedom of stimuli. Simulations that deal with natural images 
+as stimuli explore this dimension of complexity. However, as demonstrated by Bouchacourt 
+and Baroni (2018), using complex stimuli does not automatically lead to meaningful con -
+ceptual representations in agents.
+With the recent success of large language models, some researchers speculate that simply 
+increasing the size and variability of training data could bring the internal representations of 
+models closer to interpretable concepts. Recent works demonstrate that meaningful spatio-
+temporal and truth-false relations can be recovered from language model activations using 
+1 3
+65 Page 28 of 40
+
+===PDF PAGE 29===
+Models of symbol emergence in communication: a conceptual review…
+linear probes (Gurnee and Tegmark 2024; Marks and Tegmark 2024). According to the Pla-
+tonic representation hypothesis (Huh et al. 2024), as training data grows, representations of 
+models trained on different tasks and modalities (vision and language) converge towards a 
+shared statistical model of reality. This could have implications for grounded language mod-
+els building associations across modalities. However, it does not directly address our main 
+points regarding the mapping metaphor, and thus increasing training data alone is unlikely 
+to lead to genuine symbolic reference.
+Another dimension of environment complexity found in more embodied simulations is 
+the inherent environmental dynamics: how does the state and/or changes in the environment 
+affect the agents, and how the agents, in turn, affect the environment? All simulations that 
+incorporate agent movement tap into this dimension. In more dynamic environments, it is 
+easier to release assumptions concerning the descriptive function of communication and 
+meaning-mapping. Naturally, environmental complexity can be exploited only if it aligns 
+with the perceptual and sensorimotor capabilities of the agents.
+Finally, the environment may be fully observable—when the agent has full access to the 
+environment’s state—or only partially observable. Even embodied simulations in the style 
+of Mordatch and Abbeel ( 2018) tend to prefer fully observable environments, which are 
+easier for agents to learn in and have less ambiguous communication. The ambiguity intro-
+duced by partially observable environments may add to the complexity of communication 
+and help to further relax meaning-mapping assumptions (Gregoromichelaki and Kempson 
+2019; Rączaszek-Leonardi et al. 2014).
+5.5 Agents’ architecture and learning mechanism
+The agents’ policies are constrained by the agents’ architecture (e.g. feed-forward or recur-
+rent neural network, set of stimuli-response rules, differential equation), among other 
+things. Humans possess certain cognitive biases, one notable example being the limita -
+tions of working memory (Baddeley 2003). As established by the No-Free-Lunch Theorem 
+(Wolpert 1996), every learning algorithm has a preference for specific problem types and 
+consequently introduces biases that favour certain communication protocols over others. 
+The strength of these biases may be moderated by the flexibility of the algorithm. In con -
+trast to a simple neural network without a hidden layer, as employed in the work of Smith 
+et al. (2003), which can only represent additively linear influences of object properties on 
+signal components, a multilayer network, used in more recent studies (Ren et al. 2020), 
+can represent a broader range of relationships. The introduction of the transformer neural 
+network architecture (Vaswani et al. 2017) has revolutionised natural language processing 
+based on extensive language corpora; however, this architecture carries its own biases that 
+may not align well with human cognition. Some studies have pointed out that transform -
+ers possess limited capabilities in modelling formal languages and generalising relations 
+to out-of-distribution data (Hahn 2020; Wang and Steinert-Threlkeld 2023). Generally, we 
+anticipate that novel network architectures will prove beneficial for learning relationships 
+in more intricate task structures. However, they do not directly address our issues with the 
+three simplifying assumptions.
+Another point of concern is the agents’ learning mechanism (e.g. supervised learning, 
+reinforcement learning, evolutionary algorithm) and its biological realism. For example, 
+Mordatch and Abbeel (2018) used direct weight sharing between agents and the full knowl-
+1 3
+Page 29 of 40 65
+
+===PDF PAGE 30===
+J. Zubek et al.
+edge of the dynamics of the environment in their optimisation procedure. They backpropa-
+gate loss directly through the full model, making it a case of supervised learning. Such a 
+procedure is very efficient but raises the question whether it does not circumvent some 
+important challenges in language learning that shape language structure (in accordance with 
+the pressure for language learnability (Brighton et al. 2005a, b)). On the other side of the 
+spectrum there are models such as Schulz et al. (2012) and Loula et al. (2010) that used spe-
+cialised vocabulary learning mechanisms, where only signal associations were updated, and 
+other aspects of agents’ activity (i.e., locomotion) were not learnable. Such compartmentali-
+sation of agents’ learning may prevent the emergence of more interesting phenomena, where 
+behaviour and signalling forms a single, tightly-coupled system (Grouchy et al. 2016).
+5.6 Communication function, agent goals and autonomy
+Obviously, communication can only evolve if it is useful. Seemingly, there is no single uni-
+versal function of communication in the natural world. Communication appears in different 
+forms, both when communicating individuals have a common goal and when the goals are 
+different, in the context of cooperation between individuals and competition between them, 
+both as faithful and as deceptive communication (Wacewicz and Żywiczyński 2018). In 
+computational simulations, these aspects are usually modelled as the fitness/cost function. 
+In the basic signalling game, successful communication is the ultimate goal and is rewarded 
+directly and symmetrically. Meanwhile, in Cangelosi (2001) and Floreano et al. (2007), it is 
+only a means to successfully locate food, and the rewards are different for the speaker and 
+the receiver. Most models consider cooperative scenarios, although some explore the condi-
+tions under which deceptive communication emerges (e.g. Mitri et al. 2009).
+Grouchy et al. ( 2016) included no explicit cost function at all. Instead, artificial agents 
+were allowed to reproduce whenever two of them met in the same place (analogue of sexual 
+reproduction). Communication arose from evolutionary pressure. We argue that, compared 
+to other types of simulations, agents in this kind of simulation have more autonomy and a 
+better chance of evolving a communication system beyond the expectations of the modeller. 
+This kind of autonomy may help relax the assumptions concerning discrete symbols and the 
+descriptive function of communication.
+5.7 Social adaptations and social relationships
+Somewhat related to the above, pressures on the structure of communication arise from liv-
+ing in a society. Social pressures may come in two varieties: special adaptations of individu-
+als to live in a society or social scaffolding that shapes the interactions between individuals. 
+Adaptations for social behaviour in the form of mechanisms loosely inspired by the Theory 
+of Mind (and following the Rational Speech Act framework (Frank and Goodman 2012)) 
+are included in some models of emergent communication (Batali 1998; Jaques et al. 2019; 
+Bard et al. 2020). These mechanisms use agents’ internal cognitive modules to explicitly 
+predict the behaviour of another agent. This basic schema can be studied with only two 
+agents present. While introducing such mechanisms does not lift the meaning-mapping 
+assumption, it makes the mapping truly bi-directional, as signal production includes the 
+consideration of signal interpretation.
+1 3
+65 Page 30 of 40
+
+===PDF PAGE 31===
+Models of symbol emergence in communication: a conceptual review…
+Furthermore, social structures, such as social networks (Baronchelli et al. 2006; Zubek 
+et al. 2017), social ecology (Loula et al. 2010), and kinship structures (Floreano et al. 2007; 
+Mitri et al. 2009), have also been demonstrated to be significant in shaping emerging sig -
+nals. These effects can only be investigated within a larger population comprising diverse 
+agents.9 It is crucial to consider individual differences among the agents, as these variations 
+introduce ambiguity in communication and differentiate the games the agents play. Particu-
+lar types of social network topology might make the whole system more susceptible to ran-
+dom fluctuations (Raviv et al. 2020). The experiments by Floreano et al. (2007) suggest that 
+it is evolutionary advantageous to disclose certain pieces of information with related agents 
+while concealing this information from unrelated agents. More intricate social interactions 
+are necessary to incorporate varied functions of communication contingent upon social rela-
+tions and scaffold the emergence of symbols from continuous actions (Rączaszek-Leonardi 
+2016; Rączaszek-Leonardi et al. 2018).
+5.8 Historicity of interactions
+As with all complex evolving phenomena, natural languages bear the mark of their long 
+history of evolution. The current shape of the communication system may reflect preadapta-
+tions to past evolutionary pressures which are no longer present. At the level of individual 
+language learning, there is a historical trajectory of language development that undergoes 
+different stages. Historicity understood in this way is explored only by a couple of models 
+of emergent communication. The paradigm of iterated learning Kirby et al. ( 2014), which 
+models vertical language transmission, taps into some aspects of historicity and the infor -
+mation bottleneck associated with it. In Schulz et al. ( 2012), language games were played 
+in a certain order, and the terms grounded using previous games were used in subsequent 
+games. In other research, Zubek et al. (2017) studied the reactions of a population of agents 
+to a certain trajectory of changes in the environment and demonstrated that the structure of 
+language categories is affected by history. Korbak et al. (2021) presented a developmentally 
+motivated model in which an agent undergoes two stages of learning, which helps it develop 
+a compositional language. We view this form of historicity as necessary for language to 
+move away from a simple description of what is present in the environment and become 
+more abstract, relaxing the assumptions of the descriptive function of communication and 
+meaning-mapping.
+6 Strongly embodied models combine multiple sources of complexity
+As seen in the previous section, there are multiple sources of structure in emerging com -
+munication protocols. While some of them can be explored independently to answer specific 
+questions and disentangle relative influences of different factors, we expect that specific 
+properties of symbolic communication may arise as emergent effects of a combination of 
+multiple factors (Rączaszek-Leonardi and Deacon 2018). Thus, models targeting the emer-
+gence of symbols should avoid over-simplifications that prevent these factors from inter -
+acting, as this in turn may prevent the emergence of certain phenomena. Of course, it is 
+9 We can talk about a population only when agents truly differ. This is precluded by models that use direct 
+neural network weight sharing between agents, as in Mordatch and Abbeel (2018).
+1 3
+Page 31 of 40 65
+
+===PDF PAGE 32===
+J. Zubek et al.
+infeasible and impractical to build a model that is realistic in every possible dimension; 
+models are only useful as abstractions of reality (Ohmer and Cuskley 2023). We observe 
+that a certain strain of embodied simulations naturally combines multiple sources of com -
+munication complexity.
+First, we must specify what we mean by “embodied simulations”. Often, any model or 
+theory that considers an influence of bodily factors on cognition is labelled as “embodied”. 
+However, from the perspective of ecological psychology, this is a misconception (Wilson 
+and Golonka 2013). “Embodiment”, in a stronger sense, means that cognition is no longer 
+realised by the agent alone but by the relations between the agent and the environment. The 
+environment has to be sufficiently rich and endowed with its own dynamics. Embodied 
+agents’ actions are always situated within some ecological context and impact the environ-
+ment; in turn, the environment provides feedback for the agent. Calls for the ecological 
+realism of the simulations must not be conflated with biological realism. Simulations are 
+typically considered biologically realistic when parts of agents’ cognitive architecture are 
+inspired by the brain’s anatomy or replicate functions attributed to human cognition (such 
+as the Theory of Mind module). From our perspective, ecological realism consisting of suf-
+ficiently complex interactions with the environment is at least equally important. Quoting 
+Mace (2017), “ask not what’s in your head, but what your head is inside of”. Agents together 
+with their environment form complex dynamic systems and should be modelled as such 
+(Castro 2019).
+Simulations have already used simple agents in rich environments, which combine mul-
+tiple sources of communication complexity and relax at least some of the three assumptions 
+concerning communication emergence modelling identified in Sect. 4. For instance, in Flo-
+reano et al.’s (2007), physical space constraints (the inability of multiple robots to occupy 
+the same spot) affected the socio-ecological function of communication. In this work, the 
+robots had to locate and attach themselves to a food source, but the limited space allowed a 
+limited number of robots to feed simultaneously. Thus, communicating the location of food 
+posed the risk that another agent would exploit the scarce resource. This implicit cost of 
+communication, depending on the evolutionary selection mechanisms, resulted in various 
+communication strategies, from honest signalling to deceptive communication (Mitri et al. 
+2009). In some cases, the robots also learnt to exploit the physical properties of the medium 
+of communication, as they hid emitted light signals from the other robots by hiding behind 
+the food source (Lehman et al. 2018). This is an example of signalling-dependent emergent 
+behaviour, which could not evolve in a simpler environment and demonstrates the complex 
+bidirectional relation between signalling, behaviour, and the environment. The role of sig -
+nals in these simulations goes beyond simply referring to objects or actions and involves 
+guiding actions in the continuous environment (lifting the meaning-mapping assumption).
+The environment adopted by Grouchy et al. (2016) was minimalistic in that it was devoid 
+of any objects apart from the agents. Still, the agents were situated in the sense that they 
+could freely move in a continuous space and use their own locations as a context for com -
+munication. Importantly, the emitted signals were continuous and interpreted as such (lift -
+ing the assumption about preexisting discrete signs). The continuity of signals opened new 
+possibilities for meaning emergence, as the signal intensity could convey information on the 
+distance in space (basic iconic form of significance). What emerged was not a static signal-
+referent mapping, which can be used to interpret only previously encountered signals, but 
+a dynamical structure using signals to control agent actions allowing for generalisation. 
+1 3
+65 Page 32 of 40
+
+===PDF PAGE 33===
+Models of symbol emergence in communication: a conceptual review…
+Ultimately, this led to a dialogical form of communication by which the signals of both 
+agents became entangled. We view the direction of simulating situated dialogue in a dynam-
+ical environment as potentially fruitful, as it enables functional communication to emerge 
+with no obvious information asymmetry between the sender and receiver or straightforward 
+descriptive interpretation (Bancerek and Zubek 2023) (lifting the assumption about com -
+munication function).
+Situatedness is also naturally connected with aspects of perceptual and sensorimotor 
+grounding. It has been shown that situating agents in more complex environments benefits 
+systematic generalisation. Although they did not directly address the problem of language 
+emergence, Hill et al. (2020) presented a model in which they studied the effects of embodi-
+ment on language comprehension. Their agent had to navigate through the environment 
+and perform actions according to the instructions given as a sentence in natural language. 
+They demonstrated that (i) egocentric perspective (as opposed to third-person view), (ii) 
+3D simulated environments (as opposed to 2D grid worlds), and (iii) active perception (as 
+opposed to perceiving the stimuli statically) incentivised the agent to factorise experience 
+and behaviours into pragmatically motivated reusable chunks, leading to better generalisa -
+tion as shown in experiments isolating factors (i)–(iii).
+These results explain previous results showing a low systematic generalisation in recur -
+rent neural networks trained on symbolically encoded stimuli from a single modality (Lake 
+and Baroni 2017). Hill et al. (2020) hypothesised that this effect arises because richer expe-
+rience is a form of implicit data augmentation. This result suggests that the human capacity 
+to exploit the structure of the world, when learning to generalise in systematic ways, could 
+be replicated in artificial neural networks if such networks are given access to a rich, interac-
+tive, multimodal stream of stimuli that adequately matches the experience of an embodied 
+human learner (Bisk et al. 2020).
+Strongly embodied models simultaneously integrate multiple sources of communicative 
+complexity and alleviate the three identified assumptions commonly found in communica -
+tion emergence models. We believe that by pursuing this approach and constructing simula-
+tions incorporating non-trivial agent-environment relations, yet maintaining simplicity for 
+the sake of analysis, we can provide a more accurate portrayal of the initial challenges 
+faced by ecological communication systems before they evolve into more abstract and sym-
+bolic forms. Strongly embodied simulations facilitate modelling iconic signs, whose form 
+resemble the structure of actions they control, or indexical signs, which are meaningfully 
+embedded within dynamic streams of events (Deacon 1997; Hutchins and Johnson 2009). 
+Incorporating icons and indices as basic classes of signs would open up possibilities for 
+modelling the emergence of symbolic signs following the “ungrounding” path, wherein 
+signs gain symbolic properties gradually as they become less reliant on their immediate con-
+text and more dependent on systematic sign-sign relations (Rączaszek-Leonardi and Dea -
+con 2018). Placing an agent within a complex ecology that encompasses not only physical 
+environment interactions but also intricate social dynamics may promote the development 
+of properly symbolic communication systems (Rączaszek-Leonardi et al. 2018).
+1 3
+Page 33 of 40 65
+
+===PDF PAGE 34===
+J. Zubek et al.
+7 Conclusion
+Models of communication emergence come from multiple traditions, which explains the 
+differences in terminology and emphasis. The lack of a systematic understanding of the 
+assumptions underlying various models creates a barrier preventing researchers from one 
+domain from using the theoretical insights developed in other domains. We hope that our 
+review will help build a systematic understanding.
+As our analysis clarifies, many pressures shape communication signs and symbols, and 
+building a model means bracketing some of them out. Sometimes, however, the bracketing 
+process is too heavy and too hasty, and it may remove the vital elements of the explanation. 
+Perhaps the fascination with one particular kind of language game involving a sender, a 
+receiver, and clearly distinguished referents made us forget that people play many different 
+games (Berne 1964). We propose a change to a dynamic perspective that advocates embod-
+ied and situated models, allows the historicity of communication systems to be recognised, 
+and does not presuppose the existence of readily distinguishable symbols. This perspective 
+extends the role of language from describing the world to controlling interactions. We have 
+systematically argued that the mapping metaphor cannot adequately explain the meaning 
+and role of language and should thus not form the foundation of communication emergence 
+models. Instead, models in which meaning emerges through interactions of situated agents 
+in an ecological niche could take on a more central role.
+Author contributions JZ, TK, and JRL contributed to the conception, writing and editing of the manuscript.
+Funding This work was funded by the National Science Centre, Poland (OPUS 15 grant, 2018/29/B/
+HS1/00884). The funding source had no role in the data collection or manuscript preparation processes.
+Declarations
+Conflict of interest The authors declare no competing interests.
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as 
+you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons 
+licence, and indicate if changes were made. The images or other third party material in this article are 
+included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. 
+If material is not included in the article’s Creative Commons licence and your intended use is not permitted 
+by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+Andreas J (2019) Measuring compositionality in representation learning. International conference on learn -
+ing representations
+Baddeley A (2003) Working memory and language: an overview. J Commun Disorders 36(3):189–208
+Bancerek M, Zubek J (2023) The emergence of coordinative dialogue-pragmatic context in multi-agent com-
+munication. Proceedings of the annual meeting of the cognitive science society (V ol. 45)
+Bard N, Foerster JN, Chandar S, Burch N, Lanctot M, Song HF, Parisotto E, Dumoulin V , Moitra S, Hughes 
+E, Dunning I, Mourad S, Larochelle H, Bellemare MG, Bowling M (2020) The Hanabi challenge: a new 
+frontier for AI research. Artif Intell 280:103216
+1 3
+65 Page 34 of 40
+
+===PDF PAGE 35===
+Models of symbol emergence in communication: a conceptual review…
+Baronchelli A, Dall’Asta L, Barrat A, Loreto V (2006) Topology-induced coarsening in language games. 
+Phys Rev E: Statis Phys Plasmas Fluids Related Interdiscip Topics 73(1):015102
+Baronchelli A, Loreto V , Puglisi A (2015) Individual biases, cultural evolution, and the statistical nature of 
+language universals: the case of colour naming systems. PLOS ONE 10(5):e0125019
+Barrett JA, Skyrms B (2017) Self-assembling games. Br J Philos Sci 68(2):329–353
+Barrett JA, Skyrms B, Cochran C (2018) Hierarchical models for the evolution of compositional language. 
+PhilSci
+Barrett JA, Skyrms B, Mohseni A (2019) Self-assembling networks. Br J Philos Sci 70(1):301–325
+ Batali, J (1998). Computational Simulations of the Emergence of Grammar. J. Hurford, C. Knight & M. 
+Studdert-Kennedy (Eds.), Approaches to the Evolution of Language: Social and Cognitive bases (pp. 
+405–426). Cambridge University Press.
+Beecher MD (2021) Why are no animal communication systems simple languages? Front Psychol 12:602635
+Berne E (1964) Games people play: the psychology of human relationships. Grove Press, New York
+Bisk Y , Holtzman A, Thomason J, Andreas J, Bengio Y , Chai J, Lapata M, Lazaridou A, May J, Nisnevich A, 
+Pinto N, Turian J (2020) Experience grounds language. B. Webber, T. Cohn, Y . He, and Y . Liu (Eds.), 
+Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP) 
+(pp. 8718–8735). Online: Association for Computational Linguistics
+Bogin B, Geva M, Berant J (2019) Emergence of communication in an interactive world with consistent 
+speakers (No. arXiv:1809.00549). arXiv
+Boldt B, Mortensen DR (2024) A review of the applications of deep learning-based emergent communica -
+tion. Transactions on Machine Learning Research
+Bouchacourt D, Baroni M (2018) How agents see things: On visual representations in an emergent language 
+game. Riloff E, Chiang D, Hockenmaier J, Tsujii J (Eds.), Proceedings of the 2018 conference on 
+empirical methods in natural language processing (pp. 981–985). Brussels, Belgium
+Brandizzi N (2023) Toward more human-like AI communication: a review of emergent communication 
+research. IEEE Access 11:142317–142340. https://doi.org/10.1109/ACCESS.2023.3339656
+Brighton H (2002) Compositional syntax from cultural transmission. Artif Life 8(1):25–54
+Brighton H, Kirby S, Smith K (2005a) Cultural selection for learnability: three principles underlying the view 
+that language adapts to be learnable. In: Brighton H, Kirby S, Smith K, Tallerman M (eds) Language 
+origins: perspectives on evolution. Oxford University Press, Brussels, pp 291–309
+Brighton H, Smith K, Kirby S (2005b) Language as an evolutionary system. Phys Life Rev 2(3):177–226
+Cangelosi A (1999) Modeling the evolution of communication: from stimulus associations to grounded sym-
+bolic associations. In: Goos G, Hartmanis J, van Leeuwen J, Floreano D, Nicoud J-D, Mondada F (eds) 
+Advances in artificial life, vol 1674. Springer, Berlin, pp 654–663
+Cangelosi A (2001) Evolution of communication and language using signals, symbols, and words. IEEE 
+Trans Evol Comput 5(2):93–101
+Cangelosi A, Greco A, Harnad S (2002) Symbol grounding and the symbolic theft hypothesis. In: Cangelosi 
+A, Parisi D (eds) Simulating the evolution of language. Springer, London, pp 191–210
+Castro R (2019) Open research problems: systems dynamics, complex systems. In: Zeigler BP, Muzy A, Kof-
+man E (eds) Theory of modeling and simulation. Academic Press, Cambridge
+Centola D, Baronchelli A (2015) The spontaneous emergence of conventions: an experimental study of cul-
+tural evolution. Proc Natl Acad Sci 112(7):1989–1994
+Chaabouni R, Kharitonov E, Bouchacourt D, Dupoux E, Baroni M (2020) Compositionality and generaliza-
+tion in emergent languages. Jurafsky D, Chai J, Schluter N, Tetreault J (Eds.), Proceedings of the 58th 
+annual meeting of the association for computational linguistics (pp. 4427–4442). Online
+Chaabouni R, Strub F, Altché F, Tarassov E, Tallec C, Davoodi E, Mathewson KW, Tieleman O, Lazaridou A, 
+Piot B (2022) Emergent communication at scale. International conference on learning representations
+Choi E, Lazaridou A, de Freitas N (2018) Compositional obverter communication learning from raw visual 
+input (No. arXiv:1804.02341). arXiv
+Christiansen MH, Chater N (2022) The language game: how improvisation created language and changed the 
+world. Basic Books, New York
+Cissewski J, Luncz LV (2021) Symbolic signal use in wild chimpanzee gestural communication?: a theoreti-
+cal framework. Front Psychol 12:718414
+Cogswell M, Lu J, Lee S, Parikh D, Batra D (2020) Emergence of compositional language with deep genera-
+tional transmission (No. arXiv:1904.09067). arXiv
+Correia JPFeV (2020) Meaningful play: signaling games in light of later Wittgenstein (Unpublished doctoral 
+dissertation). Universidade do Porto, Porto, Portugal
+Dale R, Lupyan G (2012) Understanding the origins of morphological diversity: the linguistic niche hypoth-
+esis. Adv Complex Syst 15:1150017
+de Boer B (2001) The origins of vowel systems. Oxford University Press, Oxford
+1 3
+Page 35 of 40 65
+
+===PDF PAGE 36===
+J. Zubek et al.
+De Boer B, Zuidema W (2010) Multi-agent simulations of the evolution of combinatorial phonology. Adap-
+tive Behav 18(2):141–154
+Deacon TW (1997) The symbolic species. Norton, New York
+Deacon TW (2011a) Incomplete nature: how mind emerged from matter. Norton, New York
+Deacon TW (2011b) The symbol concept. In: Gibson KR, Tallerman M (eds) The oxford handbook of lan -
+guage evolution. Oxford University Press, Oxford
+Di Paolo E (1997) An investigation into the evolution of communication. Adaptive Behav 6(2):285–324
+Di Paolo E, Cuffari EC, De Jaegher H (2018) Linguistic bodies: the continuity between life and language. 
+The MIT Press, Cambridge
+Dingemanse M, Roberts SG, Baranova J, Blythe J, Drew P, Floyd S, Gisladottir RS, Kendrick KH, Levinson 
+SC, Manrique E, Rossi G, Enfield NJ (2015) Universal principles in the repair of communication prob-
+lems. PLOS ONE 10:1–15
+Dingemanse M, Liesenfeld A, Rasenberg M, Albert S, Ameka FK, Birhane A, Bolis D, Cassell J, Clift R, Cuf-
+fari E, De Jaegher H, Novaes CD, Enfield NJ, Fusaroli R, Gregoromichelaki E, Hutchins E, Konvalinka 
+I, Milton D, Rączaszek-Leonardi J, Reddy V , Rossano F, Schlangen D, Seibt J, Stokoe E, Suchman L, 
+Vesper C, Wheatley T, Wiltschko M (2023) Beyond single-mindedness: a figure-ground reversal for the 
+cognitive sciences. Cognit Sci 47(1):e13230
+Doshi-Velez F, Kim B (2017) Towards a rigorous science of interpretable machine learning (No. 
+arXiv:1702.08608). arXiv
+Elman JL (1993) Learning and development in neural networks: the importance of starting small. Cognition 
+48(1):71–99
+Evtimova K, Drozdov A, Kiela D, Cho K (2018) Emergent communication in a multi-modal, multi-step 
+referential game. International conference on learning representations. Vancouver
+Feldman J (2012) Symbolic representation of probabilistic worlds. Cognition 123(1):61–83
+Ferri F, D’Ulizia A, Grifoni P (2018) Computational models of language evolution: challenges and future 
+perspectives. J Univ Comput Sci 24:1345–1377
+Floreano D, Mitri S, Magnenat S, Keller L (2007) Evolutionary conditions for the emergence of communica-
+tion in robots. Curr Biol 17(6):514–519
+Floridi L (2010) Semantic information. In: Floridi L (ed) Information: very short introduction. Oxford Uni -
+versity Press, Oxford, pp 48–59
+Frank MC, Goodman Noah D (2012) Predicting pragmatic reasoning in language games. Science 
+336(6084):998–998
+Funkhouser E (2017) Beliefs as signals: a new function for belief. Philos Psychol 30(6):809–831
+Galke L, Raviv L (2024) Emergent communication and learning pressures in language models: a language 
+evolution perspective (No. arXiv:2403.14427). arXiv
+Gärdenfors P (2004) Conceptual spaces: the geometry of thought. MIT Press, Cambridge
+Geffen Lan N, Chemla E, Steinert-Threlkeld S (2020) On the Spontaneous Emergence of Discrete and Com-
+positional Signals. Jurafsky D, Chai J, Schluter N, Tetreault J (Eds.), Proceedings of the 58th annual 
+meeting of the association for computational linguistics (pp. 4794–4800). Online: Association for Com-
+putational Linguistics
+Gibson JJ (1966) The Senses considered as perceptual systems. Houghton Mifflin
+Gregoromichelaki E, Kempson R (2019) Procedural syntax. In: Scott K, Clark B, Carston R (eds) Relevance, 
+pragmatics and interpretation. Cambridge University Press, Cambridge, pp 187–202
+Grice HP (1975) Logic and conversation. Syntax Semant 3:41–58
+Grifoni P, D’Ulizia A, Ferri F (2016) Computational methods and grammars in language evolution: a survey. 
+Artif Intell Rev 45(3):369–403
+Grouchy P, D’Eleuterio GMT, Christiansen MH, Lipson H (2016) On the evolutionary origin of symbolic 
+communication. Sci Rep 6(1):34615
+Gurnee W, Tegmark M (2024) Language models represent space and time (No. arXiv:2310.02207). arXiv
+Hahn M (2020) Theoretical limitations of self-attention in neural sequence models. Trans Assoc Comput 
+Linguist 8:156–171
+Harnad S (1990) The symbol grounding problem. Phys D: Nonlinear Phenom 42(1):335–346
+Harnad S (2024) Language writ large: Llms, chatgpt, grounding, meaning and understanding. 
+arXiv:2402.02243
+Hazlehurst B, Hutchins E (1998) The emergence of propositions from the co-ordination of talk and action in 
+a shared world. Lang Cognit Proc 13(2–3):373–424
+Hill F, Lampinen A, Schneider R, Clark S, Botvinick M, McClelland JL, Santoro A (2020) Environmental 
+drivers of systematicity and generalization in a situated agent. International conference on learning 
+representations
+Hoang NL, Taniguchi T, Hagiwara Y , Taniguchi A (2024) Emergent communication of multimodal deep 
+generative models based on Metropolis-Hastings naming game. Front Robot AI 10:1290604
+1 3
+65 Page 36 of 40
+
+===PDF PAGE 37===
+Models of symbol emergence in communication: a conceptual review…
+Hochreiter S, Schmidhuber J (1997) Long short-term memory. Neural Computation, 9(8)
+Huh M, Cheung B, Wang T, Isola P (2024) Position: the platonic representation hypothesis. Salakhutdinov 
+R et al (Eds.), Proceedings of the 41st international conference on machine learning (V ol. 235, pp. 
+20617–20642). PMLR. https://proceedings.mlr.press/v235/huh24a. h tml
+Hutchins E, Johnson CM (2009) Modeling the emergence of language as an embodied collective cognitive 
+activity. Topics Cognit Sci 1(3):523–546
+Jaques N, Lazaridou A, Hughes E, Gulcehre C, Ortega PA, Strouse DJ, Leibo JZ, de Freitas N (2019) Social 
+influence as intrinsic motivation for multi-agent deep reinforcement learning. International conference 
+on machine learning
+Karpathy A, Fei-Fei L (2017) Deep visual-semantic alignments for generating image descriptions. IEEE 
+Trans Pattern Anal Mach Intell 39(4):664–676
+Kempson R, Meyer-Viol W, Gabbay DM (2000) Dynamic syntax: the flow of language understanding. 
+Wiley-Blackwell, Oxford
+Kirby S (2001) Spontaneous evolution of linguistic structure-an iterated learning model of the emergence of 
+regularity and irregularity. IEEE Trans Evol Comput 5(2):102–110
+Kirby S, Cornish H, Smith K (2008) Cumulative cultural evolution in the laboratory: an experimental 
+approach to the origins of structure in human language. Proc Natl Acad Sci 105(31):10681–10686
+Kirby S, Griffiths T, Smith K (2014) Iterated learning and the evolution of language. Curr Opinion Neurobiol 
+28:108–114
+Kirby S, Tamariz M, Cornish H, Smith K (2015) Compression and communication in the cultural evolution 
+of linguistic structure. Cognition 141:87–102
+Korbak T, Zubek J, Rączaszek-Leonardi J (2020) Measuring non-trivial compositionality in emergent com -
+munication. (No. arXiv:2010.15058). arXiv
+Korbak T, Zubek J, Kuciński Ł, Miłoś P, Rączaszek-Leonardi J (2021) Interaction history as a source of 
+compositionality in emergent communication. Interaction Studies 22(2):212–243
+Kottur S, Moura JMF, Lee S, Batra D (2017) Natural language does not emerge ‘naturally’ in multi-agent 
+dialog. Conference on empirical methods in natural language processing
+Kuciński Ł, Korbak T, Kołodziej P, Miłoś P (2021) Catalytic role of noise and necessity of inductive biases 
+in the emergence of compositional communication. Adv Neural Inform Proc Syst 34:23075–23088
+LaCroix T (2022) Using Logic to Evolve More Logic: Composing Logical Operators via Self-Assembly. The 
+British Journal for the Philosophy of Science 73(2):407–437
+Lake B, Baroni M (2017) Generalization without Systematicity: On the Compositional Skills of Sequence-to-
+Sequence Recurrent Networks. International Conference on Machine Learning
+Lazaridou A, Baroni M (2020) Emergent Multi-Agent Communication in the Deep Learning Era (No. 
+arXiv:2006.02419). arXiv
+Lazaridou A, Peysakhovich A, Baroni M (2017) Multi-agent cooperation and the emergence of (natural) 
+language. International conference on learning representations
+Lazaridou A, Hermann KM, Tuyls K, Clark S (2018) Emergence of Linguistic Communication from Refer-
+ential Games with Symbolic and Pixel Input (No. arXiv:1804.03984). arXiv
+Lazaridou A, Potapenko A, Tieleman O (2020) Multi-agent communication meets natural language: syner -
+gies between functional and structural language learning
+LeCun Y , Boser B, Denker JS, Henderson D, Howard RE, Hubbard W, Jackel LD (1989) Backpropagation 
+applied to handwritten zip code recognition. Neural Comput 1(4):541–551
+Lee J, Cho K, Weston J, Kiela D (2018) Emergent translation in multi-agent communication (No. 
+arXiv:1710.06922). arXiv
+Lehman J, Clune J, Misevic D (2018) The surprising creativity of digital evolution. ALIFE 2018: The 2018 
+conference on artificial life (pp. 55–56). MIT Press
+Lewis DK (1969) Convention: a philosophical study. Wiley, Cambridge
+Li F, Bowling M (2019) Ease-of-teaching and language structure from emergent communication. Wallach H, 
+Larochelle H, Beygelzimer A, dAlché-Buc F, Fox E, Garnett R (Eds.), Advances in neural information 
+processing systems (V ol. 32). Curran Associates, Inc
+Lieck R, Rohrmeier M (2021) Discretisation and continuity: the emergence of symbols in communication. 
+Cognition 215:104787
+Lindblom B, Macneilage P, Studdert-Kennedy M (1984) Self-organizing processes and the explanation of 
+phonological universals. In: Butterworth B, Comrie B, Dahl Ö (eds) Explanations for language univer-
+sals. Mouton, Berlin, pp 181–203
+Lipowska D, Lipowski A (2022) Emergence and evolution of language in multi-agent systems. Lingua. Int 
+Rev General Linguist. Revue internationale de linguistique générale 272:103331
+1 3
+Page 37 of 40 65
+
+===PDF PAGE 38===
+J. Zubek et al.
+Liszka JJ, Battistella E, Haley M (2006) Linguistics and semiotics ii: C. s. peirce’s influence on 20th-century 
+linguistics. In: Auroux S, Koerner EFK, Niederehe H-J, Versteegh K (eds) An international handbook 
+on the evolution of the study of language from the beginnings to the present. De Gruyter Mouton, 
+Berlin, pp 2589–2599
+Liu H, Li C, Wu Q, Lee YJ (2023) Visual instruction tuning. arXiv:2304.08485
+Loula A, Gudwin R, El-Hani CN, Queiroz J (2010) Emergence of self-organized symbol-based communica-
+tion in artificial creatures. Cognit Syst Res 11(2):131–147
+Lyon C, Nehaniv CL, Saunders J, Belpaeme T, Bisio A, Fischer K, Förster F, Lehmann H, Metta G, Mohan 
+V , Morse A, Nolfi S, Nori F, Rohlfing K, Sciutti A, Tani J, Tuci E, Wrede B, Zeschel A, Cangelosi A 
+(2016) Embodied language learning and cognitive bootstrapping: methods and design principles. Int J 
+Adv Robot Syst 13(3):105
+Mace W (2017) James Gibson’s strategy for perceiving: ask not what’s in your head, but what your head is 
+inside of. In: Shaw R, Bransford J (eds) Perceiving, acting and knowing: toward an ecological psychol-
+ogy. Routledge, London, pp 43–65
+Marks S, Tegmark M (2024) The geometry of truth: emergent linear structure in large language model repre-
+sentations of true/false datasets (No. arXiv:2310.06824). arXiv
+Marocco D, Nolfi S (2007) Emergence of communication in embodied agents evolved for the ability to solve 
+a collective navigation problem. Connect Sci 19(1):53–74
+Milford M, Wyeth G (2010) Persistent navigation and mapping using a biologically inspired SLAM system. 
+Int J Robot Res 29(9):1131–1153
+Mitri S, Floreano D, Keller L (2009) The evolution of information suppression in communicating robots with 
+conflicting interests. Proc Natl Acad Sci 106(37):15786–15790
+Mordatch I, Abbeel P (2018) Emergence of grounded compositional language in multi-agent populations. 
+Proceedings of the AAAI conference on artificial intelligence (V ol. 32)
+Mostafazadeh N, Brockett C, Dolan B, Galley M, Gao J, Spithourakis GP, Vanderwende L (2017) Image-
+grounded conversations: multimodal context for natural question and response generation (No. 
+arXiv:1701.08251). arXiv
+Mu J, Goodman N (2021) Emergent communication of generalizations. Adv Neural Inform Proc Syst 
+34:17994–18007
+Nowak MA, Krakauer DC (1999) The evolution of language. Proc Natl Acad Sci 96(14):8028–8033
+Ohmer X, Cuskley C (2023) Communication games: modeling language evolution through dyadic agent 
+interactions. OSF
+Ohmer X, Marino M, Franke M, König P (2022) Mutual influence between language and perception in multi-
+agent communication games. PLoS Comput Biol 18(10):e1010658
+Oliphant M, Batali J (1997) Learning and the emergence of coordinated communication. Center Res Lang 
+Newsl 11(1):1–46
+Olney AM (2013) Symbolic, indexical, and iconic communication with domestic dogs. HUMANA.MENTE 
+J Philos Studies 6(24):79–98
+Oudeyer P-Y (2005) From holistic to discrete speech sounds: the blind snowflake-maker hypothesis. In: Tall-
+erman M (ed) Language origins: perspectives on evolution. Oxford University Press, Oxford
+Parisi D, Antinucci F, Natale F, Cecconi F (2008) Simulating the expansion of farming and the differentia -
+tion of European languages. In: Laks B, Serge Cleuziou J-P, Encreve P (eds) Origin and evolution of 
+languages: approaches, models, paradigms. London, Equinox
+Pattee H (1969) How does a molecule become a message. Dev Biol Suppl 3:1–16
+Pattee H (1982) Cell psychology: an evolutionary approach to the symbol-matter problem. Cognit Brain 
+Theory 5(4):325–341
+Peirce CS (1903) Syllabus: syllabus of a course of lectures at the Lowell Institute beginning 1903, Nov. 23. 
+On Some Topics of Logic. MS [R] 478
+Peng Z, Wang W, Dong L, Hao Y , Huang S, Ma S, Wei F (2023) Kosmos-2: grounding multimodal large 
+language models to the world. arXiv:2306.14824
+Peters J, de Puiseau CW, Tercan H, Gopikrishnan A, Carvalho GALD, Bitter C, Meisen T (2024) A survey on 
+emergent language (No. arXiv:2409.02645). arXiv
+Quine WV (1936) Truth by convention. Philosophical essays for Alfred North Whitehead (pp. 90–124). 
+London: Longmans, Green & Co
+Rączaszek-Leonardi J (2003) The interrelation of time scales in a description of language. Views V oices 
+1(2):93–108
+Rączaszek-Leonardi J (2009) Metodologiczne podstawy współczesnej psycholingwistyki. In: Stalmaszc -
+zyk P (ed) Metodologie językoznawstwa. Współczesne tendencje i kontrowersje. Lexis, Kraków, pp 
+236–251
+Rączaszek-Leonardi J (2016) How does a word become a message? An illustration on a developmental time-
+scale. New Ideas Psychol 42:46–55
+1 3
+65 Page 38 of 40
+
+===PDF PAGE 39===
+Models of symbol emergence in communication: a conceptual review…
+Rączaszek-Leonardi J (2024) What dynamic approaches have taught us about cognition and what they have 
+not: on values in motion and the importance of replicable forms. Topics Cognit Sci.  h t t p s : / / d o i . o r g / 1 0 . 
+1 1 1 1 / t o p s . 1 2 7 0 9       
+Rączaszek-Leonardi J, Kelso JS (2008) Reconciling symbolic and dynamic aspects of language: toward a 
+dynamic psycholinguistics. New Ideas Psychol 26(2):193–207
+Rączaszek-Leonardi J, Dębska A, Sochanowicz A (2014) Pooling the ground: understanding and coordina -
+tion in collective sense making. Front Psychol. https://doi.org/10.3389/fpsyg.2014.01233
+Rączaszek-Leonardi J, Deacon TW (2018) Ungrounding symbols in language development: implications 
+for modeling emergent symbolic communication in artificial systems. 2018 Joint IEEE 8th interna -
+tional conference on development and learning and epigenetic robotics (ICDL-EpiRob) (pp. 232–237). 
+Tokyo: IEEE
+Rączaszek-Leonardi J, Nomikou I, Rohlfing KJ, Deacon TW (2018) Language development from an ecologi-
+cal perspective: ecologically valid ways to abstract symbols. Ecol Psychol 30(1):39–73
+Raviv L, Meyer A, Lev-Ari S (2020) The role of social network structure in the emergence of linguistic 
+structure. Cognit Sci 44(8):e12876
+Rączaszek-Leonardi J, Zubek J (2023) Is love an abstract concept? A view of concepts from an interaction-
+based perspective. Philos Trans Royal Soc B 378(1870):20210356
+Ren Y , Guo S, Labeau M, Cohen SB, Kirby S (2020) Compositional languages emerge in a neural iterated 
+learning model. International conference on learning representations
+Rohlfing KJ, Wrede B, V ollmer A-L, Oudeyer P-Y (2016) An alternative to mapping a word onto a concept 
+in language acquisition: pragmatic frames. Front Psychol. https://doi.org/10.3389/fpsyg.2016.00470
+Rorot W, Rączaszek-Leonardi J (2023) Understanding “Compositionality” in research on language emer -
+gence. Proceedings of the annual meeting of the cognitive science society (V ol. 45)
+Savage-Rumbaugh ES, Rumbaugh DM (1978) Symbolization, language, and chimpanzees: a theoretical 
+reevaluation based on initial language acquisition processes in four young Pan troglodytes. Brain Lang 
+6(3):265–300
+Savage-Rumbaugh ES, Rumbaugh DM, Smith ST, Lawson J (1980) Reference: the linguistic essential. Sci-
+ence 210(4472):922–925
+Schulz R, Wyeth G, Wiles J (2012) Beyond here-and-now: extending shared physical experiences to shared 
+conceptual experiences. Adapt Behav 20(5):360–387
+Seuren P (1998) Western linguistics: an historical introduction. Wiley, Hoboken
+Shannon CE (1948) A mathematical theory of communication. Bell Syst Tech J 27(3):379–423
+Skyrms B (2010) Signals: evolution, learning, and information. Oxford University Press, Oxford
+Smith K, Kirby S, Brighton H (2003) Iterated learning: a framework for the emergence of language. Artif 
+Life 9(4):371–386
+Spence M (1973) Job market signaling. Quarterly J Econ 87(3):355–374
+Spike M, Stadler K, Kirby S, Smith K (2017) Minimal requirements for the emergence of learned signaling. 
+Cognit Sci 41(3):623–658
+Spranger M (2016) The evolution of grounded spatial language. Language Science Press, Berlin
+Steels L (2015) The Talking Heads experiment: origins of words and meanings. Language Science Press, 
+Berlin
+Steels L, Belpaeme T (2005) Coordinating perceptually grounded categories through language: a case study 
+for colour. Behav Brain Sci 28(4):469–489
+Steinert-Threlkeld S (2020) Toward the emergence of nontrivial compositionality. Philos Sci 87(5):897–909
+Taniguchi T (2024) Collective predictive coding hypothesis: symbol emergence as decentralized bayesian 
+inference. Front Robot A I:11. https://doi.org/10.3389/frobt.2024.1353870
+Taniguchi T, Nagai T, Nakamura T, Iwahashi N, Ogata T, Asoh H (2016) Symbol emergence in robotics: a 
+survey. Adv Robot 30(11–12):706–728. https://doi .org/10.108 0/01691864. 2016.116 4622
+Taniguchi T, Ugur E, Hoffmann M, Jamone L, Nagai T, Rosman B, Matsuka T, Iwahashi N, Oztop E, Piater 
+J, Wörgötter F (2019) Symbol emergence in cognitive developmental systems: a survey. IEEE Trans 
+Cognit Dev Syst 11(4):494–516. https://doi.org/10.1109/TCDS.2018.2867772
+Taniguchi T, Yoshida Y , Matsui Y , Le Hoang N, Taniguchi A, Hagiwara Y (2023) Emergent communication 
+through metropolis-hastings naming game with deep generative models. Adv Robot 37(19):1266–1282. 
+https:   //d oi. or g/10 .1080/01 6918 64.20 23.2260856
+Tognoli E, Zhang M, Fuchs A, Beetle C, Kelso JAS (2020) Coordination dynamics: a foundation for under-
+standing social behavior. Front Human Neurosci. https://doi.org/10.3389/fnhum.2020.00317
+Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser Ł, Polosukhin I (2017) Atten -
+tion is all you need. Proceedings of the 31st international conference on neural information processing 
+systems (pp. 6000–6010). Red Hook, NY , USA: Curran Associates Inc
+V ogt P (2009) Modeling interactions between language evolution and demography. Human Biol 
+81(2–3):237–258
+1 3
+Page 39 of 40 65
+
+===PDF PAGE 40===
+J. Zubek et al.
+Wacewicz S, Żywiczyński P (2018) Language origins: fitness consequences, platform of trust, cooperation, 
+and turn-taking. Interaction Studies 19(1–2):167–182
+Wang S, Steinert-Threlkeld S (2023) Evaluating transformer’s ability to learn mildly context-sensitive lan -
+guages. Belinkov Y , Hao S, Jumelet J, Kim N, McCarthy A, Mohebbi H (Eds.) Proceedings of the 6th 
+BlackboxNLP workshop: analyzing and interpreting neural networks for NLP (pp. 271–283). Singa -
+pore: Association for Computational Linguistics
+Weaver W (1949) Recent contributions to the mathematical theory of communication. The mathematical 
+theory of communication. University of Illinois Press: Champaign
+Wilson AD, Golonka S (2013) Embodied cognition is not what you think it is. Front Psychol.  h t t p s : / / d o i . o r g 
+/ 1 0 . 3 3 8 9 / f p s y g . 2 0 1 3 . 0 0 0 5 8       
+Wittgenstein L (1953) Philosophical investigations. Basil Blackwell, Oxford
+Wolpert D (1996) The lack of a priori distinctions between learning algorithms. Neural Comput 8:1341–1390
+Wrede B, Rohlfing KJ, Hanheide M, Sagerer G (2009) Towards learning by interacting. In: Sendhoff B, 
+Körner E, Sporns O, Ritter H, Doya K (eds) Creating brain-like intelligence: from basic principles to 
+complex intelligent systems. Springer, Berlin, pp 139–150
+Zubek J, Denkiewicz M, Barański J, Wróblewski P, Rączaszek-Leonardi J, Plewczynski D (2017) Social 
+adaptation in multi-agent model of linguistic categorization is affected by network information flow. 
+PLOS ONE 12(8):e0182490
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+1 3
+65 Page 40 of 40

@@ -1,0 +1,13 @@
+{
+  "artifacts_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_payoff_study/results/confirm_001/audit_001/verification.json": "27ae0860a759a7e1942e52e20763a551157345e58b917f00d6155c38084ea31f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_payoff_study/results/confirm_001/plan.json": "9c3079f6faf237e8d5cb2b63d38499f058e85fc00e8be2ce870a9bfe97c07c27",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_payoff_study/results/confirm_001/prepared.json": "34a83ce2f77c709378c7b36e915921d6e55fbcb93403164e89a58ae1770611a2"
+  },
+  "evaluations": 1152,
+  "neural_forwards": 0,
+  "optimizer_updates": 0,
+  "status": "passed",
+  "verification_sha256": "27ae0860a759a7e1942e52e20763a551157345e58b917f00d6155c38084ea31f",
+  "worlds": 326356992
+}

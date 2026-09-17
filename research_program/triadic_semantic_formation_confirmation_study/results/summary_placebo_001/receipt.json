@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-17T01:22:50.185669+00:00",
+  "input_files": 9,
+  "model_forward_samples": 414720,
+  "optimizer_updates": 0,
+  "outputs": {
+    "summary.json": "5992effceca32f334f63062f4cb4af016203f48750d80d4da9f4c3049005e734",
+    "汇总表.md": "8141f5e2be81bee5b94b7ff1772084432ee4d10aadf60b13bfac27e943ba5750"
+  },
+  "script_sha256": "fe096375888f826a31f4fcad9670c2f315b6857d7b4ca596d877713b9ffa66d1",
+  "status": "completed"
+}

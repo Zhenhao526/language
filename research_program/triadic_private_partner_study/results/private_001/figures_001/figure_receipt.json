@@ -1,0 +1,39 @@
+{
+  "additional_model_forward_samples": 0,
+  "at": "2026-09-16T04:25:00.201152+00:00",
+  "closed_channel_additional_policy_fits": 0,
+  "figure_data_sha256": "2dd6b54a2ba81ba689cc119ae956f8a592ee895b7a1e4ad0862659ae2267700a",
+  "independent_paired_seed_blocks": 4,
+  "outputs": {
+    "01_full_partner_response.pdf": {
+      "bytes": 34839,
+      "sha256": "5d384709aa8bdc62a71acb8d4be2d0ee1a40036d3af7b9988e0b5756f95a21f3"
+    },
+    "01_full_partner_response.png": {
+      "bytes": 333226,
+      "sha256": "93be172d707071352bdafe110e96a8fa3b0d38da3a8845e2d88f398e95fce91a"
+    },
+    "02_monitor_and_complete_endpoint.pdf": {
+      "bytes": 31532,
+      "sha256": "935d0bb3168dff9b54a189269c6867155c0e2c3ddf9245f42dff6d9414731900"
+    },
+    "02_monitor_and_complete_endpoint.png": {
+      "bytes": 212673,
+      "sha256": "367e581cbb7f7bd892d10c95c015177d7ca8a0147388573a03aca7e0301aadd8"
+    }
+  },
+  "plan_sha256": "b5126ca468e16a41db4ee9e96c77f0a7e465c3c2123589d2f423911fc5bf5555",
+  "plot_source_sha256": "5ec0ab893c76a8a36363bcd3385c8629e31fef137e13dc1e1b0c46c331f8060d",
+  "policy_fits": 8,
+  "read_scope": "Only completed execution/results.json; no NPZ, checkpoint, training log, model or kernel import.",
+  "runtime": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_result_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_private_partner_study/results/private_001/execution/results.json",
+  "source_result_sha256": "4d80f8395a94a1bedbbbd27a4b287d011db88dbe9cf97ecef4b1e9540fe19f0e",
+  "status": "generated_visual_inspection_pending",
+  "training_updates": 0,
+  "visual_inspection_performed": false
+}

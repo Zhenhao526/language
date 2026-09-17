@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_fi_capacity_pilot/results/fi_001",
+  "information": "FI",
+  "policy_rows": 32,
+  "checkpoint_rows": 192,
+  "train_worlds": 32348160,
+  "final_worlds": 1797120,
+  "model_forwards": 307307520,
+  "optimizer_updates": 0,
+  "max_abs_error": 0.0,
+  "paired_streams": true,
+  "full_information_flag_verified": true,
+  "four_arm_grid": true
+}

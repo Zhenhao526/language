@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T05:05:11.663150+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/plan.json": "0e880e120b264a7acebb06ec149eab0dc620810ba33a4939bbeaa842a7b05e1b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/prepared.json": "9eecde16340e5d14dc02a60bc162435582d7a9c3b3a9be6cc4609727d6602dff",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/freeze.json": "4db560465e086bc750373b3b2d7719ae5d1176b654338730567c5f5bc7e21045",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/execution/results.json": "d47b47aa0eaca03ac5f269334efe0f5dafe3beb22f4395c2bfea6a34dda495f3",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/analysis.py": "189215adb5b945aee9a64ba52e2220060e58ee1e58d994f554717117a72e48a1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/test_analysis.py": "bdfb1de5de02f005308125b275c7c75b7bf73d515c09fc942afe0cf6abfbc268"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_directed_message_study/results/directed_001/analysis_001/summary.json": "58114f4caa4d16c89b10fd1e56bf3c2449450ca00ac358303cc524cfafcac9a1"
+  },
+  "primary_exact_match": true,
+  "counts": {
+    "independent_societies": 4,
+    "policy_states": 8,
+    "partition_records": 32,
+    "stratum_records": 288,
+    "time_partition_summaries": 8,
+    "paired_seed_partitions": 16,
+    "target_time_marginals": 12
+  },
+  "npz_reads": 0,
+  "checkpoint_loads": 0,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "scope": {
+    "input": "Completed JSON and bound plan/prepared/freeze JSON only; no NPZ or model access.",
+    "validation": "Stored JSON arithmetic and completeness checks. Does not replay neural outputs, physical settlement or individual group/background arrays.",
+    "units": "Probabilities and probability differences on their original 0..1 or -1..1 scales. Multiply differences by 100 only to display percentage points.",
+    "main": "Final complete double-holdout L, mean of four independent policy seeds; D and final-minus-initial L remain auxiliary.",
+    "positive_fraction": "Equal-nine-stratum average of positive-L group/background fractions; raw pooled fractions are explicitly separate.",
+    "marginals": "Within seed, equal mean over the three sender or axis strata; then equal mean of four seeds.",
+    "repeated_measurements": "Groups, backgrounds, recipients and both checkpoints are not new independent societies.",
+    "physical_records": "Cross/sham physical summaries use repeated intervention cells, not natural full-world task denominators. Reused final natural records may omit a physical summary.",
+    "interpretation": "Positive aggregate L does not imply all four effects positive in every group; negative L limits this stronger W1 cross-layout recipient-selectivity test, not all communication or language."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "behavioral_metrics_replayed": true,
+  "evaluations": 1152,
+  "factor_metrics_replayed": true,
+  "no_model_calls": true,
+  "no_training_updates": true,
+  "pairing_verified": true,
+  "physical_settlement_replayed": true,
+  "plan_sha256": "9c3079f6faf237e8d5cb2b63d38499f058e85fc00e8be2ce870a9bfe97c07c27",
+  "prepared_sha256": "34a83ce2f77c709378c7b36e915921d6e55fbcb93403164e89a58ae1770611a2",
+  "runs": 128,
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_payoff_study/results/confirm_001",
+  "status": "passed",
+  "truth_replayed": true,
+  "unique_evaluation_paths": 1152,
+  "worlds": 326356992
+}

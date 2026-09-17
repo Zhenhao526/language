@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "session_id": 39363,
+  "exit_code": 0,
+  "elapsed_seconds": 140.7622433329234,
+  "receipt_recorded_at": "2026-09-15T18:23:32.379381+00:00",
+  "summary_sha256": "95b61d165b43966ac997b77895fea9b081530873874b225336fc5ff911bb6fa8",
+  "counts": {
+    "unique_npz_analyses": 1008,
+    "natural_analyses": 672,
+    "live_closed_analyses": 336,
+    "silent_closed_aliases": 336,
+    "logical_cells": 1344,
+    "full_endpoint_analyses": 144,
+    "monitor_analyses": 864,
+    "saved_worlds_analyzed": 32514048,
+    "neural_forwards": 0,
+    "training": 0
+  },
+  "automatic_retry": false,
+  "neural_forward_calls": 0
+}

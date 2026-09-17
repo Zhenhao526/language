@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-09-14",
+  "records": 58,
+  "downloaded_records": 51,
+  "missing_ids": [
+    "H01",
+    "H03",
+    "N11",
+    "L05",
+    "R05",
+    "R08",
+    "X03"
+  ],
+  "report_pages": 15,
+  "report_references": 48,
+  "pdf_sha256": "de388b9f13b6cab8b11386d7bea56f3b0d44fb3561f7c4181372b7082f0e0969",
+  "visual_qa": "终稿全部15页已检查；前4页与已核版本PNG哈希一致，5–15页重新逐页检查。无缺字、裁切、标题孤行或页码重叠。",
+  "validation": "PDF格式/页数/SHA-256、文献去重、题名核验、报告引文编号、本地链接已检查。",
+  "scope_note": "R07为会议摘要，下载件为完整会议录；未取得PDF不等于论文无效或不存在。"
+}

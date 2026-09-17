@@ -1,0 +1,798 @@
+{
+  "comparisons": [
+    {
+      "case_id": "g401_e1",
+      "agent": "A",
+      "calls": [
+        145,
+        217
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e1",
+      "agent": "B",
+      "calls": [
+        147,
+        219
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e1",
+      "agent": "C",
+      "calls": [
+        149,
+        221
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e2",
+      "agent": "A",
+      "calls": [
+        151,
+        223
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e2",
+      "agent": "B",
+      "calls": [
+        153,
+        225
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e2",
+      "agent": "C",
+      "calls": [
+        155,
+        227
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e3",
+      "agent": "A",
+      "calls": [
+        157,
+        229
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e3",
+      "agent": "B",
+      "calls": [
+        159,
+        231
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e3",
+      "agent": "C",
+      "calls": [
+        161,
+        233
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e4",
+      "agent": "A",
+      "calls": [
+        163,
+        235
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e4",
+      "agent": "B",
+      "calls": [
+        165,
+        237
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g401_e4",
+      "agent": "C",
+      "calls": [
+        167,
+        239
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e1",
+      "agent": "A",
+      "calls": [
+        169,
+        241
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e1",
+      "agent": "B",
+      "calls": [
+        171,
+        243
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e1",
+      "agent": "C",
+      "calls": [
+        173,
+        245
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e2",
+      "agent": "A",
+      "calls": [
+        175,
+        247
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e2",
+      "agent": "B",
+      "calls": [
+        177,
+        249
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e2",
+      "agent": "C",
+      "calls": [
+        179,
+        251
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e3",
+      "agent": "A",
+      "calls": [
+        181,
+        253
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e3",
+      "agent": "B",
+      "calls": [
+        183,
+        255
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e3",
+      "agent": "C",
+      "calls": [
+        185,
+        257
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e4",
+      "agent": "A",
+      "calls": [
+        187,
+        259
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e4",
+      "agent": "B",
+      "calls": [
+        189,
+        261
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g402_e4",
+      "agent": "C",
+      "calls": [
+        191,
+        263
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e1",
+      "agent": "A",
+      "calls": [
+        193,
+        265
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e1",
+      "agent": "B",
+      "calls": [
+        195,
+        267
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e1",
+      "agent": "C",
+      "calls": [
+        197,
+        269
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e2",
+      "agent": "A",
+      "calls": [
+        199,
+        271
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e2",
+      "agent": "B",
+      "calls": [
+        201,
+        273
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e2",
+      "agent": "C",
+      "calls": [
+        203,
+        275
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e3",
+      "agent": "A",
+      "calls": [
+        205,
+        277
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e3",
+      "agent": "B",
+      "calls": [
+        207,
+        279
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e3",
+      "agent": "C",
+      "calls": [
+        209,
+        281
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e4",
+      "agent": "A",
+      "calls": [
+        211,
+        283
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e4",
+      "agent": "B",
+      "calls": [
+        213,
+        285
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    },
+    {
+      "case_id": "g403_e4",
+      "agent": "C",
+      "calls": [
+        215,
+        287
+      ],
+      "equal": {
+        "messages": true,
+        "output": true,
+        "prompt_sha256": true,
+        "seed": true,
+        "temperature": true,
+        "mode": true,
+        "valid": true,
+        "fresh_cache": true,
+        "native_thinking": true,
+        "finish_reason": true,
+        "prompt_tokens": true,
+        "generation_tokens": true
+      }
+    }
+  ],
+  "exact": true,
+  "scope": "Only these36 private analyses; formal prompts/grammars intentionally differ. No retry on mismatch."
+}

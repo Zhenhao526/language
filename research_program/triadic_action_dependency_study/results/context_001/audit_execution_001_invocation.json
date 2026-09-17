@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-09-15T18:20:39.161115+00:00",
+  "command": [
+    "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/.venv/bin/python",
+    "-m",
+    "research_program.triadic_action_dependency_study.audit_execution",
+    "--run",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001",
+    "--out",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/audit_execution_001"
+  ],
+  "audit_source_sha256": "20f1be8c017a53874346d1e8865620586d56de4128580b1e428c27899a30e96d",
+  "parent_pid": 55371,
+  "automatic_retry": false
+}

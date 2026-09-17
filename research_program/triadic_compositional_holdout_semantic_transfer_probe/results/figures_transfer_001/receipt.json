@@ -1,0 +1,14 @@
+{
+  "files": [
+    "semantic_transfer.png",
+    "semantic_transfer.pdf"
+  ],
+  "sha256": {
+    "semantic_transfer.pdf": "eab9cae2f0bb45ca39feddd9c67cdc31dcfda9883f9e488dffe88b52c05f18e6",
+    "semantic_transfer.png": "4a0190555ef9742e63d306997cffc5ef618790f45aa373e843179586fc6bff85"
+  },
+  "status": "rendered",
+  "summary_sha256": "b4ab921a1771297f9d85ae5d53909784bd16a26b8804b73eb38be739bce60914",
+  "visual_review": "passed",
+  "visual_review_note": "PNG inspected at high detail; bars, error bars, axes and labels render correctly."
+}

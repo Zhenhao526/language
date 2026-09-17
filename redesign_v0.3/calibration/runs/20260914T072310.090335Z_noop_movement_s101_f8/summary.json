@@ -1,0 +1,355 @@
+{
+  "observations": 161,
+  "completed_steps": 160,
+  "termination": "step_budget",
+  "horizontal_displacement_blocks": 0.0,
+  "horizontal_path_blocks": 0.0,
+  "distinct_horizontal_grid_cells": 1,
+  "log_blocks_mined_delta": 0,
+  "logs_picked_up_delta": 0,
+  "logs_inventory_net": 0,
+  "first_log_pickup_observation": null,
+  "bread_inventory_net": 0,
+  "bread_native_use_stat_delta": 0,
+  "maximum_food_level_increase": 0.0,
+  "first_bread_use_observation": null,
+  "model_or_controller_use_action_count": 0,
+  "initial_state": {
+    "inventory": {},
+    "equipped_items": {
+      "chest": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "feet": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "head": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "legs": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "mainhand": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "offhand": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      }
+    },
+    "life_stats": {
+      "air": 300,
+      "food": 20,
+      "is_alive": true,
+      "life": 20.0,
+      "saturation": 0.0,
+      "score": 0,
+      "xp": 0
+    },
+    "location_stats": {
+      "biome_id": 0,
+      "biome_rainfall": 0.5,
+      "biome_temperature": 0.5,
+      "can_see_sky": true,
+      "is_raining": false,
+      "light_level": 15,
+      "pitch": 0.0,
+      "sea_level": 63,
+      "sky_light_level": 0.71,
+      "sun_brightness": 0.94,
+      "xpos": 0.5,
+      "yaw": 90.0,
+      "ypos": 64.0,
+      "zpos": 0.5
+    },
+    "use_item": {},
+    "drop": {},
+    "pickup": {},
+    "break_item": {},
+    "craft_item": {},
+    "mine_block": {},
+    "damage_dealt": {},
+    "entity_killed_by": {},
+    "kill_entity": {},
+    "full_stats": {},
+    "calibration_init": {
+      "schema": "calibration_native_init_v1",
+      "summary": "Calib_movement_seed_101",
+      "applied_once": true,
+      "applied": true,
+      "generator": "native world generator with local drawn arena; FlatWorldGenerator not implemented",
+      "server_execution_thread": "Render thread",
+      "server_thread_verified": true,
+      "server_tick": 2,
+      "draw_primitives": 5,
+      "requested_writes_including_overlap": 40362,
+      "final_unique_positions": 40344,
+      "verified_block_types": 40344,
+      "block_mismatches": 0,
+      "verification_failures": 0,
+      "drawing": [
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:air",
+          "x1": -20,
+          "y1": 64,
+          "z1": -20,
+          "x2": 20,
+          "y2": 85,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:stone",
+          "x1": -20,
+          "y1": 62,
+          "z1": -20,
+          "x2": 20,
+          "y2": 62,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:grass_block",
+          "x1": -20,
+          "y1": 63,
+          "z1": -20,
+          "x2": 20,
+          "y2": 63,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:dirt",
+          "x1": 7,
+          "y1": 64,
+          "z1": 6,
+          "x2": 9,
+          "y2": 64,
+          "z2": 8
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:dirt",
+          "x1": -9,
+          "y1": 64,
+          "z1": -8,
+          "x2": -7,
+          "y2": 64,
+          "z2": -6
+        }
+      ],
+      "x": 0.5,
+      "y": 64.0,
+      "z": 0.5,
+      "yaw": 90.0,
+      "pitch": 0.0,
+      "health": 20.0,
+      "max_health": 20.0,
+      "food": 20,
+      "saturation": 0.0,
+      "selected_hotbar_slot": 0,
+      "selected_slot": 0,
+      "day_time": 6000,
+      "do_daylight_cycle": false,
+      "do_mob_spawning": false,
+      "do_weather_cycle": false,
+      "weather": "clear",
+      "phase": "initialization before existing bootstrap frames; evaluator must check reset observation too"
+    }
+  },
+  "final_state": {
+    "inventory": {},
+    "equipped_items": {
+      "chest": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "feet": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "head": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "legs": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "mainhand": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      },
+      "offhand": {
+        "damage": 0,
+        "maxDamage": 0,
+        "type": "air"
+      }
+    },
+    "life_stats": {
+      "air": 300,
+      "food": 20,
+      "is_alive": true,
+      "life": 20.0,
+      "saturation": 0.0,
+      "score": 0,
+      "xp": 0
+    },
+    "location_stats": {
+      "biome_id": 0,
+      "biome_rainfall": 0.5,
+      "biome_temperature": 0.5,
+      "can_see_sky": true,
+      "is_raining": false,
+      "light_level": 15,
+      "pitch": 0.0,
+      "sea_level": 63,
+      "sky_light_level": 0.71,
+      "sun_brightness": 0.94,
+      "xpos": 0.5,
+      "yaw": 90.0,
+      "ypos": 64.0,
+      "zpos": 0.5
+    },
+    "use_item": {},
+    "drop": {},
+    "pickup": {},
+    "break_item": {},
+    "craft_item": {},
+    "mine_block": {},
+    "damage_dealt": {},
+    "entity_killed_by": {},
+    "kill_entity": {},
+    "full_stats": {
+      "play_one_minute": 181,
+      "time_since_death": 181,
+      "time_since_rest": 181
+    },
+    "env_info": {
+      "isGuiOpen": false,
+      "location_stats": {
+        "biome_id": 0,
+        "biome_rainfall": 0.5,
+        "biome_temperature": 0.5,
+        "can_see_sky": true,
+        "is_raining": false,
+        "light_level": 15,
+        "pitch": 0.0,
+        "sea_level": 63,
+        "sky_light_level": 0.71,
+        "sun_brightness": 0.94,
+        "xpos": 0.5,
+        "yaw": 90.0,
+        "ypos": 64.0,
+        "zpos": 0.5
+      }
+    },
+    "calibration_init": {
+      "schema": "calibration_native_init_v1",
+      "summary": "Calib_movement_seed_101",
+      "applied_once": true,
+      "applied": true,
+      "generator": "native world generator with local drawn arena; FlatWorldGenerator not implemented",
+      "server_execution_thread": "Render thread",
+      "server_thread_verified": true,
+      "server_tick": 2,
+      "draw_primitives": 5,
+      "requested_writes_including_overlap": 40362,
+      "final_unique_positions": 40344,
+      "verified_block_types": 40344,
+      "block_mismatches": 0,
+      "verification_failures": 0,
+      "drawing": [
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:air",
+          "x1": -20,
+          "y1": 64,
+          "z1": -20,
+          "x2": 20,
+          "y2": 85,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:stone",
+          "x1": -20,
+          "y1": 62,
+          "z1": -20,
+          "x2": 20,
+          "y2": 62,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:grass_block",
+          "x1": -20,
+          "y1": 63,
+          "z1": -20,
+          "x2": 20,
+          "y2": 63,
+          "z2": 20
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:dirt",
+          "x1": 7,
+          "y1": 64,
+          "z1": 6,
+          "x2": 9,
+          "y2": 64,
+          "z2": 8
+        },
+        {
+          "primitive": "DrawCuboid",
+          "type": "minecraft:dirt",
+          "x1": -9,
+          "y1": 64,
+          "z1": -8,
+          "x2": -7,
+          "y2": 64,
+          "z2": -6
+        }
+      ],
+      "x": 0.5,
+      "y": 64.0,
+      "z": 0.5,
+      "yaw": 90.0,
+      "pitch": 0.0,
+      "health": 20.0,
+      "max_health": 20.0,
+      "food": 20,
+      "saturation": 0.0,
+      "selected_hotbar_slot": 0,
+      "selected_slot": 0,
+      "day_time": 6000,
+      "do_daylight_cycle": false,
+      "do_mob_spawning": false,
+      "do_weather_cycle": false,
+      "weather": "clear",
+      "phase": "initialization before existing bootstrap frames; evaluator must check reset observation too"
+    }
+  },
+  "native_wood_chain_observed": false,
+  "native_food_chain_observed": false,
+  "wood_chain_scoring_scope": "Requires mined, picked-up, and positive log inventory net; subsequent complete crafting may produce a conservative false negative and must be audited separately.",
+  "movement_observed": false,
+  "interpretation": "Descriptive single episode only; script actions validate the interface and never count as model evidence. Resource consequences alone do not demonstrate consequence-sensitive choice."
+}

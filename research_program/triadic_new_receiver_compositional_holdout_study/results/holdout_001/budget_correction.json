@@ -1,0 +1,12 @@
+{
+  "status": "accounting_correction_only",
+  "frozen_budget_total_forward_module_samples": 981780480,
+  "measured_total_forward_module_samples": 1007659008,
+  "omitted_component": "all-needs control monitor trajectory evaluations",
+  "omitted_worlds": 2875392,
+  "omitted_forward_module_samples": 25878528,
+  "corrected_control_trajectory_forward_module_samples": 45287424,
+  "source_execution_measured_budget": "execution/results.json",
+  "data_or_training_changed": false,
+  "explanation": "The frozen budget() counted control heldout trajectories and control finals, but omitted control monitor trajectories. measured_budget() and the independent audit count both control partitions."
+}

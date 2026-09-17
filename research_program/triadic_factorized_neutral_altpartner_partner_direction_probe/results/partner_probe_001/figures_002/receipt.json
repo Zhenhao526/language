@@ -1,0 +1,9 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Both PNG figures were opened and checked for readable labels, complete axes, and absence of clipping; the forest legend reports five decimal places because the partner-edge effect is near zero.",
+  "figures": [
+    "partner_direction_conditions.png",
+    "partner_direction_forest.png"
+  ]
+}

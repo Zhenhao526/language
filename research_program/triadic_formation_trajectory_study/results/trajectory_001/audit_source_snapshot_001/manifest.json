@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-16T02:12:45.429861+00:00",
+  "sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/audit_execution.py": "496a416d29ad67b8f0a454396f82d71d945ccbfad401856a2fc33826b9ba0be2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_formation_trajectory_study/tests/test_audit.py": "e11658b4ddaacb840e06987a24754d38fc58997f4d1a8fb636e56192003e07cc"
+  },
+  "plan_sha256": "74b718f41764e7ee8ce636c5107d7f811cbd4a522a2cfa1f6c712ba4be092ca4",
+  "preflight_agent_report": "13 tests + 15 subtests passed; synthetic only; final receipt to follow"
+}

@@ -1,0 +1,281 @@
+{
+  "passed": true,
+  "errors": [],
+  "initialization_receipt": {
+    "schema": "calibration_native_init_v1",
+    "summary": "Calib_wood_seed_101",
+    "applied_once": true,
+    "applied": true,
+    "generator": "native world generator with local drawn arena; FlatWorldGenerator not implemented",
+    "server_execution_thread": "Render thread",
+    "server_thread_verified": true,
+    "server_tick": 2,
+    "draw_primitives": 24,
+    "requested_writes_including_overlap": 40536,
+    "final_unique_positions": 40344,
+    "verified_block_types": 40344,
+    "block_mismatches": 0,
+    "verification_failures": 0,
+    "drawing": [
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:air",
+        "x1": -20,
+        "y1": 64,
+        "z1": -20,
+        "x2": 20,
+        "y2": 85,
+        "z2": 20
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:stone",
+        "x1": -20,
+        "y1": 62,
+        "z1": -20,
+        "x2": 20,
+        "y2": 62,
+        "z2": 20
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:grass_block",
+        "x1": -20,
+        "y1": 63,
+        "z1": -20,
+        "x2": 20,
+        "y2": 63,
+        "z2": 20
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": -5,
+        "y1": 67,
+        "z1": -2,
+        "x2": -1,
+        "y2": 68,
+        "z2": 2
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": -4,
+        "y1": 69,
+        "z1": -1,
+        "x2": -2,
+        "y2": 69,
+        "z2": 1
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": 6,
+        "y1": 67,
+        "z1": 5,
+        "x2": 10,
+        "y2": 68,
+        "z2": 9
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": 7,
+        "y1": 69,
+        "z1": 6,
+        "x2": 9,
+        "y2": 69,
+        "z2": 8
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": -10,
+        "y1": 67,
+        "z1": -9,
+        "x2": -6,
+        "y2": 68,
+        "z2": -5
+      },
+      {
+        "primitive": "DrawCuboid",
+        "type": "minecraft:oak_leaves",
+        "x1": -9,
+        "y1": 69,
+        "z1": -8,
+        "x2": -7,
+        "y2": 69,
+        "z2": -6
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -3,
+        "y1": 64,
+        "z1": 0,
+        "x2": -3,
+        "y2": 64,
+        "z2": 0
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -3,
+        "y1": 65,
+        "z1": 0,
+        "x2": -3,
+        "y2": 65,
+        "z2": 0
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -3,
+        "y1": 66,
+        "z1": 0,
+        "x2": -3,
+        "y2": 66,
+        "z2": 0
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -3,
+        "y1": 67,
+        "z1": 0,
+        "x2": -3,
+        "y2": 67,
+        "z2": 0
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -3,
+        "y1": 68,
+        "z1": 0,
+        "x2": -3,
+        "y2": 68,
+        "z2": 0
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": 8,
+        "y1": 64,
+        "z1": 7,
+        "x2": 8,
+        "y2": 64,
+        "z2": 7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": 8,
+        "y1": 65,
+        "z1": 7,
+        "x2": 8,
+        "y2": 65,
+        "z2": 7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": 8,
+        "y1": 66,
+        "z1": 7,
+        "x2": 8,
+        "y2": 66,
+        "z2": 7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": 8,
+        "y1": 67,
+        "z1": 7,
+        "x2": 8,
+        "y2": 67,
+        "z2": 7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": 8,
+        "y1": 68,
+        "z1": 7,
+        "x2": 8,
+        "y2": 68,
+        "z2": 7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -8,
+        "y1": 64,
+        "z1": -7,
+        "x2": -8,
+        "y2": 64,
+        "z2": -7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -8,
+        "y1": 65,
+        "z1": -7,
+        "x2": -8,
+        "y2": 65,
+        "z2": -7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -8,
+        "y1": 66,
+        "z1": -7,
+        "x2": -8,
+        "y2": 66,
+        "z2": -7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -8,
+        "y1": 67,
+        "z1": -7,
+        "x2": -8,
+        "y2": 67,
+        "z2": -7
+      },
+      {
+        "primitive": "DrawBlock",
+        "type": "minecraft:oak_log",
+        "x1": -8,
+        "y1": 68,
+        "z1": -7,
+        "x2": -8,
+        "y2": 68,
+        "z2": -7
+      }
+    ],
+    "x": 0.5,
+    "y": 64.0,
+    "z": 0.5,
+    "yaw": 90.0,
+    "pitch": 2.3,
+    "health": 20.0,
+    "max_health": 20.0,
+    "food": 20,
+    "saturation": 0.0,
+    "selected_hotbar_slot": 0,
+    "selected_slot": 0,
+    "day_time": 6000,
+    "do_daylight_cycle": false,
+    "do_mob_spawning": false,
+    "do_weather_cycle": false,
+    "weather": "clear",
+    "phase": "initialization before existing bootstrap frames; evaluator must check reset observation too"
+  },
+  "geometry_verified_from_native_receipt": true,
+  "geometry_note": "Receipt verifies block types at initialization; initial image and reset state independently record what the actor actually receives after native bootstrap ticks."
+}

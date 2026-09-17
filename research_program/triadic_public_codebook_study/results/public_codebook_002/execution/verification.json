@@ -1,0 +1,2319 @@
+{
+  "audited_at": 1789628014.395448,
+  "auditor_hotfix_sha256": "a184015719f837744322b171ee9f8be357f0bf3ca2ec3b8ded75f4a964ea0a38",
+  "elapsed_seconds": 466.5902043749811,
+  "evaluations": 288,
+  "imports_producer_runner": false,
+  "imports_producer_wire": false,
+  "max_abs_error": 0.0,
+  "output": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002",
+  "plan_sha256": "2c4b517f2739d07fa993b803bacd4d21bf9969ed29424cd442055fbc6dbe64d5",
+  "reports": [
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68101_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68102_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68103_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68104_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68105_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68106_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68107_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_silent/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_identity_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_public_live/final_new_layouts.npz",
+      "worlds": 139968
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_0000.npz",
+      "label": "trajectory_0000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_0000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_0100.npz",
+      "label": "trajectory_0100",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_0100_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_0500.npz",
+      "label": "trajectory_0500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_0500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_1500.npz",
+      "label": "trajectory_1500",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_1500_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_3000.npz",
+      "label": "trajectory_3000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_3000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_6000.npz",
+      "label": "trajectory_6000",
+      "max_abs_error": 0.0,
+      "partition": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/trajectory_6000_new_needs_and_layouts.npz",
+      "worlds": 53568
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_6000.npz",
+      "label": "final_train",
+      "max_abs_error": 0.0,
+      "partition": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/final_train.npz",
+      "worlds": 419904
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_6000.npz",
+      "label": "final_new_needs",
+      "max_abs_error": 0.0,
+      "partition": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/final_new_needs.npz",
+      "worlds": 160704
+    },
+    {
+      "checkpoint": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/checkpoint_6000.npz",
+      "label": "final_new_layouts",
+      "max_abs_error": 0.0,
+      "partition": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_public_codebook_study/results/public_codebook_002/execution/seed_68108_private_live/final_new_layouts.npz",
+      "worlds": 139968
+    }
+  ],
+  "results_sha256": "cb88efb46d710ff807b6e5d8dc7a18632d9c804a4abc82c477bd35e866d6c589",
+  "status": "verified"
+}

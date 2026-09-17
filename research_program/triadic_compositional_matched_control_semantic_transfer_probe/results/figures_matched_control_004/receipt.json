@@ -1,0 +1,14 @@
+{
+  "files": [
+    "matched_control.png",
+    "matched_control.pdf"
+  ],
+  "sha256": {
+    "matched_control.pdf": "8a0ecfdfa4afe52bf7f1dc897982b3718cff54885b94afdc4ee593f43cfbc1b6",
+    "matched_control.png": "8b4fee0335fc987ad1fd71fcfb1d330c66cf4ec5ce687a0ff954a972356de953"
+  },
+  "status": "rendered",
+  "summary_sha256": "a2e040e51a2a565fe1f1a96d25bbc74a09e8c1d771a8edc99784bf08c90d106e",
+  "visual_review": "passed",
+  "visual_review_note": "PNG inspected at high detail; bars, error bars, axes and labels render correctly."
+}

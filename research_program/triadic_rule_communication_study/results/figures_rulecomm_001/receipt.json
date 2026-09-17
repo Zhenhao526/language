@@ -1,0 +1,27 @@
+{
+  "status": "created",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_rule_communication_study/results/rulecomm_001",
+  "pngs": [
+    "absolute_q_and_execution.png",
+    "execution_vs_selection_decomposition.png",
+    "information_communication_interaction.png",
+    "rule_communication_interaction.png",
+    "target_pair_gain_trajectories.png"
+  ],
+  "pdfs": [
+    "absolute_q_and_execution.pdf",
+    "execution_vs_selection_decomposition.pdf",
+    "information_communication_interaction.pdf",
+    "rule_communication_interaction.pdf",
+    "target_pair_gain_trajectories.pdf"
+  ],
+  "visual_review": "passed",
+  "model_forwards": 0,
+  "figure_sha256": {
+    "absolute_q_and_execution.png": "13af44ccbd1e7f656b75ffa4bf240e5d1ad528832d01f7973f4e01d7db546a93",
+    "execution_vs_selection_decomposition.png": "b1759932b6b92289e633cfbbf12057e1009040ed89f4838792ae708ee02ce9e3",
+    "information_communication_interaction.png": "029a6f72dd8b1e71dedc15f2560814c7255b0e9b650a723eab1c0e433a744cb6",
+    "rule_communication_interaction.png": "127f37324acab0b62ad38734f5dd900b226e90aa3c791d162ef7c6b1a0f37e2f",
+    "target_pair_gain_trajectories.png": "dc9008ca4172048136edaaf367da35bc857c1be22acfad16f49b44e58a1612d6"
+  }
+}

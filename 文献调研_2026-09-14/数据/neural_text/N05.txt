@@ -1,0 +1,619 @@
+
+===PDF PAGE 1===
+Anti-efﬁcient encoding in emergent communication
+Rahma Chaabouni1,2, Eugene Kharitonov1, Emmanuel Dupoux1,2 and Marco Baroni1,3
+1Facebook AI Research
+2Cognitive Machine Learning (ENS - EHESS - PSL Research University - CNRS - INRIA)
+3ICREA
+{rchaabouni,kharitonov,dpx,mbaroni}@fb.com
+Abstract
+Despite renewed interest in emergent language simulations with neural networks,
+little is known about the basic properties of the induced code, and how they
+compare to human language. One fundamental characteristic of the latter, known
+as Zipf’s Law of Abbreviation (ZLA), is that more frequent words are efﬁciently
+associated to shorter strings. We study whether the same pattern emerges when two
+neural networks, a “speaker” and a “listener”, are trained to play a signaling game.
+Surprisingly, we ﬁnd that networks develop an anti-efﬁcient encoding scheme,
+in which the most frequent inputs are associated to the longest messages, and
+messages in general are skewed towards the maximum length threshold. This anti-
+efﬁcient code appears easier to discriminate for the listener, and, unlike in human
+communication, the speaker does not impose a contrasting least-effort pressure
+towards brevity. Indeed, when the cost function includes a penalty for longer
+messages, the resulting message distribution starts respecting ZLA. Our analysis
+stresses the importance of studying the basic features of emergent communication
+in a highly controlled setup, to ensure the latter will not depart too far from human
+language. Moreover, we present a concrete illustration of how different functional
+pressures can lead to successful communication codes that lack basic properties of
+human language, thus highlighting the role such pressures play in the latter.
+1 Introduction
+There is renewed interest in simulating language emergence among neural networks that interact
+to solve a task, motivated by the desire to develop automated agents that can communicate with
+humans [e.g., Havrylov and Titov, 2017, Lazaridou et al., 2017, 2018, Lee et al., 2018]. As part
+of this trend, several recent studies analyze the properties of the emergent codes [e.g., Kottur et al.,
+2017, Bouchacourt and Baroni, 2018, Evtimova et al., 2018, Lowe et al., 2019, Graesser et al., 2019].
+However, these analyses generally consider relatively complex setups, when very basic characteristics
+of the emergent codes have yet to be understood. We focus here on one such characteristic, namely
+the length distribution of the messages that two neural networks playing a simple signaling game
+come to associate to their inputs, in function of input frequency.
+In his pioneering studies of lexical statistics, George Kingsley Zipf noticed a robust trend in human
+language that came to be known as Zipf’s Law of Abbreviation (ZLA): There is an inverse (non-
+linear) correlation between word frequency and length [Zipf, 1949, Teahan et al., 2000, Sigurd et al.,
+2004, Strauss et al., 2007]. Assuming that shorter words are easier to produce, this is an efﬁcient
+encoding strategy, particularly effective given Zipf’s other important discovery that word distributions
+are highly skewed, following a power-law distribution. Indeed, in this way language approaches
+an optimal code in information-theoretic terms [Cover and Thomas, 2006]. Zipf, and many after
+him, have thus used ZLA as evidence that language is shaped by functional pressures toward effort
+33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada.
+
+===PDF PAGE 2===
+minimization [e.g., Piantadosi et al., 2011, Mahowald et al., 2018, Gibson et al., 2019]. However,
+others [e.g., Mandelbrot, 1954, Miller et al., 1957, Ferrer i Cancho and del Prado Martín, 2011, del
+Prado Martín, 2013] noted that some random-typing distributions also respect ZLA, casting doubts
+on functional explanations of the observed pattern.
+We study a Speaker network that gets one out of 1K distinct one-hot vectors as input, randomly
+drawn from a power-law distribution (so that frequencies are extremely skewed, like in natural
+language). Speaker transmits a variable-length message to a Listener network. Listener outputs
+a one-hot vector, and the networks are rewarded if the latter is identical to the input. There is no
+direct supervision on the message, so that the networks are free to create their own “language”.
+The networks develop a successful communication system that does not exhibit ZLA, and is indeed
+anti-efﬁcient, in the sense that all messages are long, and the most frequent inputs are associated to
+the longest messages. Interestingly, a similar effect is observed in artiﬁcial human communication
+experiments, in conditions in which longer messages do not demand extra effort to speakers, so that
+they are preferred as they ease the listener discrimination task [Kanwal et al., 2017]. Our Speaker
+network, unlike humans, has no physiological pressure towards brevity [Chaabouni et al., 2019],
+and our Listener network displays an a priori preference for longer messages. Indeed, when we
+penalize Speaker for producing longer strings, the emergent code starts obeying ZLA. We examine
+the implications of our ﬁndings in the Discussion.
+2 Setup
+2.1 The game
+We designed a variant of the Lewis signaling game [Lewis, 1969] in which the input distribution
+follows a power-law distribution. We think of these inputs as a vocabulary of distinct abstractword
+types, to which the agents will assign speciﬁc word forms while learning to play the game. We leave
+it to further research to explore setups in which word type and form distributions co-evolve [Ferrer i
+Cancho and Díaz-Guilera, 2007]. Formally, the game proceeds as follows:
+1. The Speaker network receives one of 1K distinct one-hot vectors as inputi. Inputs are not
+drawn uniformly, but, like in natural language, from a power-law distribution. That is, the
+rth most frequent inputir has probability 1
+r×∑1000
+k=1
+1
+k
+to be sampled, withr∈ J1,..., 1000K.
+Consequently, the probability of sampling the 1st input is 0.13 while the probability of
+sampling the 1000th one is 1000 times lower.
+2. Speaker chooses a sequence of symbols from its alphabetA ={s1,s 2...,s a−1, eos} of size
+|A| = a to construct a message m, terminated as soon as Speaker produces the ‘end-of-
+sequence’ token eos. If Speaker has not yet emitted eos at max_len− 1, it is stopped and
+eos is appended at the end of its message (so that all messages are sufﬁxed witheos and no
+message is longer than max_len).
+3. The Listener network consumes m and outputs ˆi.
+4. The agents are successful if i = ˆi, that is, Listener reconstructed Speaker’s input.
+The game is implemented using the EGG toolkit [Kharitonov et al., 2019], and the code can be found
+at https://github.com/facebookresearch/EGG/tree/master/egg/zoo/channel.
+2.2 Architectures
+As standard in current emergent-language simulations [e.g., Lazaridou et al., 2018], both agents
+are implemented as single-layer LSTMs [Hochreiter and Schmidhuber, 1997]. Speaker’s input is a
+1K-dimensional one-hot vectori, and the output is a sequence of symbols, deﬁning messagem. This
+sequence is generated as follows. A linear layer maps the input vector into the initial hidden state
+of Speaker’s LSTM cell. Next, a special start-of-sequence symbol is fed to the cell. At each step of
+the sequence, the output layer deﬁnes a Categorical distribution over the alphabet. At training time,
+we sample from this distribution. During evaluation, we select the symbol greedily. Each selected
+symbol is fed back to the LSTM cell. The dimensionalities of the hidden state vectors are part of the
+hyper-parameters we explore (Appendix A.1). Finally, we initialize the weight matrices of our agents
+2
+
+===PDF PAGE 3===
+with a uniform distribution with support in [− 1√input_size, 1√input_size], where input_size is the
+dimensionality of the matrix input (Pytorch default initialization).
+Listener consumes the entire message m, including eos. After eos is received, Listener’s hidden
+state is passed through a fully-connected layer with softmax activation, determining a Categorical
+distribution over 1K indices. This distribution is used to calculate the cross-entropy loss w.r.t. the
+ground-truth input,i.
+The joint Speaker-Listener architecture can be seen as a discrete auto-encoder [Liou et al., 2014].
+2.3 Optimization
+The architecture is not directly differentiable, as messages are discrete-valued. In language emergence,
+two approaches are dominantly used: Gumbel-Softmax relaxation [Maddison et al., 2016, Jang et al.,
+2016] and REINFORCE [Williams, 1992]. We also experimented with the approach of Schulman et al.
+[2015], combining REINFORCE and stochastic backpropagation to estimate gradients. Preliminary
+experiments showed that the latter algorithm (to be reviewed next) results in the fastest and most
+stable convergence, and we used it in all the following experiments. However, the main results we
+report were also observed with the other algorithms, when successful.
+We denote by θs and θl the Speaker and Listener parameters, respectively.L is the cross-entropy loss,
+that takes the ground-truth one-hot vectori and Listener’s outputL(m) distribution as inputs. We
+want to minimize the expectation of the cross-entropy loss EL(i,L (m)), where the expectation is
+calculated w.r.t. the joint distribution of inputs and message sequences. The gradient of the following
+surrogate function is an unbiased estimate of the gradient∇θs∪θl EL(i,L (m)):
+E [L(i,L (m; θl)) + ({L(i,L (m; θl)}− b) logPs(m|θs)] (1)
+where{·} is the stop-gradient operation,Ps(m|θs) is the probability of producing the sequencem
+when Speaker is parameterized with vector θs, andb is a running-mean baseline used to reduce the
+estimate variance without introducing a bias. To encourage exploration, we also apply an entropy
+regularization term [Williams and Peng, 1991] on the output distribution of the speaker agent.
+Effectively, under Eq. 1, the gradient of the loss w.r.t. the Listener parameters is found via conventional
+backpropagation (the ﬁrst term in Eq. 1), while Speaker’s gradient is found with a REINFORCE-like
+procedure (the second term). Once the gradient estimate is obtained, we feed it into the Adam [Kingma
+and Ba, 2014] optimizer. We explore different learning rate and entropy regularization coefﬁcient
+values (Appendix A.1).
+We train agents for 2500 episodes, each consisting of 100 mini-batches, in turn including 5120 inputs
+sampled from the power-law distribution with replacement. After training, we present to the system
+each input once, to compute accuracy by giving equal weight to all inputs, independently of amount
+of training exposure.
+2.4 Reference distributions
+As ZLA is typically only informally deﬁned, we introduce 3 reference distributions that display
+efﬁcient encoding and arguably respect ZLA.
+2.4.1 Optimal code
+Based on standard coding theory [Cover and Thomas, 2006], we design an optimal code (OC)
+guaranteeing the shortest average message length given a certain alphabet size and the constraint that
+all messages must end with eos. The shortest messages are deterministically associated to the most
+frequent inputs, leaving longer ones for less frequent ones. The length of the message associated to
+an input is determined as follows. LetA ={s1,s 2...sa−1, eos} be the alphabet of sizea andir be
+therth input when ranked by frequency. Thenir is mapped to a message of length
+lir =min{n :
+n∑
+k=1
+(a− 1)k−1≥r} (2)
+3
+
+===PDF PAGE 4===
+For instance, ifa = 3, then there is only one message of length 1 (associated to the most frequent
+referent), 2 of length 2, 4 of length 3 etc.1 Section 2 of Ferrer i Cancho et al. [2013] presents a proof
+of how this encoding is the maximally efﬁcient one.
+2.4.2 Monkey typing
+Natural languages respect ZLA without being as efﬁcient as OC. It has been observed thatMonkey
+typing (MT) processes, whereby a monkey hits random typewriter keys including a space character,
+produce word length distributions remarkably similar to those attested in natural languages [Simon,
+1955, Miller et al., 1957]. We thus adapt a MT process to our setup, as a less strict benchmark for
+network efﬁciency.2
+We ﬁrst sample an input without replacement according to the power-law distribution, then generate
+the message to be associated with it. We repeat the process until all inputs are assigned a unique
+message. The message is constructed by letting a monkey hit thea keys of a typewriter uniformly
+at random (p = 1/a), subject to these constraints: (i) The message ends when the monkey hits eos.
+(ii) A message cannot be longer than a speciﬁed lengthmax_len. If the monkey has not yet emitted
+eos at max_len− 1, it is stopped and eos is appended at the end of the message. (iii) If a generated
+message is identical to one already used, it is rejected and another is generated.
+For a given lengthl, there are only (a− 1)l−1 different messages. Moreover, for a random generator
+with the max_len constraint, the probability of generating a message of lengthl is:
+Pl =p× (1−p)l−1, ifl< max_len andPmax_len = (1−p)max_len−1 (3)
+From these calculations, we derive two qualitative observations about MT. First, as we ﬁxmax_len
+and increasea (decreasep = 1/a), more generated messages will reach max_len. Second, when
+a is small and max_len is large (as in early MT studies where max_len was inﬁnite), a ZLA-like
+distribution emerges, due to the ﬁnite number of different messages of lengthl. Indeed, for any l
+less than max_len,Pl strictly decreases as l grows. Then, for given inputs, the monkey is likely
+to start by generating messages of the most probable length (that is, 1). As we exhaust all unique
+messages of this length, the process starts generating messages of the next probable length (i.e., 2)
+and so on. Figure A.1 in Appendix A.2 conﬁrms experimentally that our MT distribution respects
+ZLA fora≤ 10 and various max_len.
+2.4.3 Natural language
+We ﬁnally consider word length distributions in natural language corpora. We used pre-compiled
+English, Arabic, Russian and Spanish frequency lists fromhttp://corpus.leeds.ac.uk/serge/,
+extracted from corpora of internet text containing between200M (Russian) and 16M words (Arabic).
+For direct comparability with input set cardinality in our simulations, we only looked at the distribution
+of the top 1000 most frequent words, after merging lower- and upper-cased forms, and removing
+words containing non-alphabetical characters. The resulting word frequency distributions obeyed
+power laws with exponents between−0.81 and−0.92 (we used−1 to generate our inputs). Alphabet
+sizes are as follows: 30 (English), 31 (Spanish), 47 (Russian), 59 (Arabic). These are larger than
+normative sizes, as unﬁltered Internet text will occasionally include foreign characters (e.g., accented
+letters in English text). Contrary to previous reference distributions, we cannot control max_len and
+alphabet size. We hence compare human and network distributions only in the adequate settings. In
+the main text, we present results for the languages with the smallest (English) and largest (Arabic)
+alphabets. The distributions of the other languages are comparable, and presented in Appendix A.3.
+3 Experiments
+3.1 Characterizing the emergent encoding
+We experiment with alphabet sizesa∈ [3, 5, 10, 40, 1000]. We chose mainly small alphabet sizes to
+minimize a potential bias in favor of long messages: For higha, randomly generating long messages
+becomes more likely, as the probability of outputting eos at random becomes lower. At the other
+1There is always only one message of length 1 (that is, eos), irrespective of alphabet size.
+2No actual monkey was harmed in the deﬁnition of the process.
+4
+
+===PDF PAGE 5===
+extreme, we also considera = 1000, where the Speaker could in principle successfully communicate
+using at most 2-symbol messages (as Speaker needs to produce eos). Finally,a = 40 was chosen to
+be close to the alphabet size of the natural languages we study (mean alphabet size: 41.75).
+After ﬁxinga, we choose max_len so that agents have enough capacity to describe the whole input
+space (|I| = 1000). For a givena and max_len, Speaker cannot encode more inputs than the message
+space size M max_len
+a = ∑max_len
+j=1 (a− 1)j−1. We experiment with max_len∈ [2, 6, 11, 30]. We
+couldn’t use higher values because of memory limitations. Furthermore, we studied the effect of
+D = M max_len
+a
+|I| . While making sure that this ratio is at least 1, we experiment with low values, where
+Speaker would have to use nearly the whole message space to successfully denote all inputs. We also
+considered settings with signiﬁcantly largerD, where constructing 1K distinct messages might be an
+easier task.
+We train models for each (max_len,a ) setting and agent hyperparameter choice (4 seeds per choice).
+We consider runs successful if, after training, they achieve an accuracy above99% on the full input
+set (i.e., less than 10 miss-classiﬁed inputs). As predicted, the higherD is, the more accurate the
+agents become. Indeed, agents need much largerD than strictly necessary in order to converge. We
+select for further analysis only those (max_len,a ) choices that resulted in more than 3 successful
+runs (mean number of successful runs across the reported conﬁgurations is25 out of 48). Moreover,
+we focus here on conﬁgurations withmax_len = 30, as the most comparable to natural language.3
+We present results for all selected conﬁgurations (conﬁrming the same trends) in Appendix A.4.
+Figure 1 shows message length distribution (averaged across all successful runs) as a function of
+input frequency rank, compared to our reference distributions. The MT results are averaged across
+25 different runs. We show the Arabic and English distributions in the plot containing the most
+comparable simulation settings (30, 40).
+Across conﬁgurations, we observe that Speaker messages greatly depart from ZLA. There is a clear
+general preference for longer messages, that is strongest for the most frequent inputs, where Speaker
+outputs messages of length max_len. That is, in the emergent encoding, more frequent words are
+longer, making the system obey a sort of “ anti-ZLA” (see Appendix A.6 for conﬁrmation that this
+anti-efﬁcient pattern is statistically signiﬁcant). Consequently, the emergent language distributions
+are well above all reference distributions, except for MT witha = 1000, where the large alphabet size
+leads to uniformly long words, for reasons discussed in Section 2.4.2. Finally, the lack of efﬁciency in
+emergent language encodings is also observed when inputs are uniformly distributed (see Appendix
+A.5).
+Although some animal signing systems disobey ZLA, due to speciﬁc environmental constraints [e.g.,
+Heesen et al., 2019], a large survey of human and animal communication did not ﬁnd any case of
+signiﬁcantlyanti-efﬁcient systems [Ferrer i Cancho et al., 2013], making our ﬁnding particularly
+intriguing.
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30messages length
+(a)max_len=30, a=5
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30messages length (b)max_len=30, a=10
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30messages length (c)max_len=30, a=40
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30messages length (d)max_len=30, a=1000
+emergent messages monkey typing optimal coding English Arabic
+Figure 1: Mean message length across successful runs as a function of input frequency rank, with
+reference distributions. For readability, we smooth natural language distributions by reporting the
+sliding average of 10 consecutive lengths.
+3Natural languages have no rigid upper bound on length, and 30 is the highest max_len we were able to train
+models for. Qualitative inspection of the respective corpora suggest that 30 is anyway a reasonable “soft” upper
+bound on word length in the languages we studied (longer strings are mostly typographic detritus).
+5
+
+===PDF PAGE 6===
+3.2 Causes of anti-efﬁcient encoding
+We explore the roots of anti-efﬁciency by looking at the behavior of untrained Speakers and Listeners.
+Earlier work conjectured that ZLA emerges from the competing pressures to communicate in a
+perceptually distinct and articulatorily efﬁcient manner [Zipf, 1949, Kanwal et al., 2017]. For our
+networks, there is a clear pressure from Listener in favour of ease of message discriminability, but
+Speaker has no obvious reason to save on “articulatory” effort. We thus predict that the observed
+pattern is driven by a Listener-side bias.
+3.2.1 Untrained Speaker behavior
+For eachi drawn from the power-law distribution without replacement, we get a messagem from
+90 distinct untrained Speakers (30 speakers for each hidden size in [100, 250, 500]). We experiment
+with 2 different association processes. In the ﬁrst, we associate the ﬁrst generatedm toi, irrespective
+of whether it was already associated to another input. In the second, we keep generating am fori
+until we get a message that was not already associated to a distinct input. The second version is closer
+to the MT process (see Section 2.4.2). Moreover, message uniqueness is a reasonable constraint,
+since, in order to succeed, Speakers need ﬁrst of all to keep messages denoting different inputs apart.
+Figure 2 shows that untrained Speakers have no prior toward outputting long sequences of symbols.
+Precisely, from Figure 2 we see that the untrained Speakers’ average message length coincides with
+the one produced by the random process deﬁned in Eq. 3 wherep = 1
+a.4 In other words, untrained
+Speakers are equivalent to a random generator with uniform probability over symbols.5 Consequently,
+when imposing message uniqueness, non-trained Speakers become identical to MT. Hence, Speakers
+faced with the task of producing distinct messages for the inputs, if vocabulary size is not too large,
+would naturally produce a ZLA-obeying distribution, that is radically altered in joint Speaker-Listener
+training.
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30
+messages length
+(a) max_len = 30, a = 3
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30
+messages length (b) max_len = 30, a = 5
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30
+messages length (c) max_len = 30, a = 40
+untrained Speaker with uniqueness constraint untrained Speaker monkey typing
+Figure 2: Average length of messages by input frequency rank for untrained Speakers, compared to
+MT. See Appendix A.7 for more settings.
+3.2.2 Untrained Listener behavior
+Having shown that untrained Speakers do not favor long messages, we ask next if the emergent
+anti-efﬁcient language is easier to discriminate by untrained Listeners than other encodings. To
+this end, we compute the average pairwise L2 distance of the hidden representations produced by
+untrained Listeners in response to messages associated to all inputs.6 Messages that are further apart
+in the representational space of the untrained Listener should be easier to discriminate. Thus, if
+Speaker associates such messages to the inputs, it will be easier for Listener to distinguish them.
+4Note that we did not use the uniqueness-of-messages constraint to deﬁnePl.
+5We veriﬁed that indeed untrained Speakers have uniform probability over the different symbols.
+6Results are similar if looking at the softmax layer instead.
+6
+
+===PDF PAGE 7===
+Speciﬁcally, we use 50 distinct untrained Listeners with 100-dimensional hidden size. 7 We test
+4 different encodings: (1) emergent messages (produced by trained Speakers) (2) MT messages
+(25 runs) (3) OC messages and (4) human languages. Note that MT is equivalent to untrained
+Speaker, as their messages share the same length and alphabet distribution (see Section 3.2.1). We
+study Listeners’ biases with max_len = 30 while varying a as messages are more distinct from
+reference distributions in that case (see Figure A.3 in Appendix A.4). Results are reported in Figure
+3. Representations produced in response to the emergent messages have the highest average distance.
+MT only approximates the emergent language fora = 1000, where, as seen in Figure 1 above, MT is
+anti-efﬁcient. The trained Speaker messages are hencea priori easier for non-trained Listeners. The
+length of these messages could thus be explained by an intrinsic Listener’s bias, as conjectured above.
+Also, interestingly, natural languages are not easy to process by Listeners. This suggests that the
+emergence of “natural” languages in LSTM agents is unlikely, without imposing ad-hoc pressures.
+5 10 40 1000
+alphabet size (log scale)
+0.30
+0.32
+0.34
+0.36
+0.38L2 distance
+emergent messages
+monkey typing
+optimal coding
+English
+Arabic
+Figure 3: Average pairwise distance between messages’ representation in Listener’s hidden space,
+across all considered non-trained Listeners. Vertical lines mark standard deviations across Listeners.
+3.2.3 Adding a length minimization pressure
+We next impose an artiﬁcial pressure on Speaker to produce short messages, to counterbalance
+Listener’s preference for longer ones. Speciﬁcally, we add a regularizer disfavoring longer messages
+to the original loss:
+L′(i,L (m),m ) =L(i,L (m)) +α×|m| (4)
+whereL(i,L (m)) is the cross-entropy loss used before,|.| denotes length, andα is a hyperparameter.
+The non-differentiable termα×|m| is handled seamlessly as it only depends on Speaker’s parameters
+θs (which specify the distribution of the messages m), and the gradient of the loss w.r.t. θs is
+estimated via a REINFORCE-like term (Eq. 1). Figure 4 shows emergent message length distribution
+under this objective, comparing it to other reference distributions in the most human-language-like
+setting: (max_len=30,a=40). The same pattern is observed elsewhere (see Appendix A.8, that also
+evaluates the impact of theα hyperparameter). The emergent messages clearly follow ZLA. Speaker
+now assigns messages of ascending length to the 40 most frequent inputs. For the remaining ones, it
+chooses messages with relatively similar, but notably shorter, lengths (always much shorter than MT
+messages). Still, the encoding is not as efﬁcient as the one observed in natural language (and OC).
+Also, when adding length regularization, we noted a slower convergence, with a smaller number of
+successful runs, that further diminishes whenα increases.
+3.3 Symbol distributions in the emergent code
+We conclude with a high-level look at what the long emergent messages are made of. Speciﬁcally,
+we inspect symbol unigram and bigram frequency distributions in the messages produced by trained
+Sender in response to the 1K inputs (the eos symbol is excluded from counts). For direct compa-
+rability with natural language, we report results in the (max_len=30,a=40) setting, but the patterns
+are general. We observe in Figure 5(a) that, even if at initialization Speaker starts with a uniform
+distribution over its alphabet (not shown here), by end of training it has converged to a very skewed
+one. Natural languages follow a similar trend, but their distributions are not nearly as skewed (see
+7We ﬁx this value because, unlike for Speaker, it has considerable impact on performance, with100 being
+the preferred setting.
+7
+
+===PDF PAGE 8===
+0 200 400 600 800 1000
+inputs sorted by frequency
+0
+5
+10
+15
+20
+25
+30messages length
+emergent messages
+emergent messages / length pressure
+monkey typing
+optimal coding
+English
+Arabic
+Figure 4: Mean length of messages across successful runs as a function of input frequency rank for
+max_len = 30,a = 40,α = 0.5. Natural language distributions are smoothed as in Fig. 1.
+Figure 8(a) in Appendix A.10 for entropy analysis). We then investigate message structure by looking
+at symbol bigram distribution. To this end, we build25 randomly generated control codes, constrained
+to have the same mean length and unigram symbol distribution as the emergent code. Intriguingly,
+we observe in Figure 5(b) a signiﬁcantly more skewed emergent bigram distribution, compared to the
+controls. This suggests that, despite the lack of phonetic pressures, Speaker is respecting “phonotactic”
+constraints that are even sharper than those reﬂected in the natural language bigram distributions
+(see Figure 8(b) in Appendix A.10 for entropy analysis). In other words, the emergent messages are
+clearly not built out of random unigram combinations. Looking at the pattern more closely, we ﬁnd
+the skewed bigram distribution to be due to a strong tendency to repeat the same character over and
+over, well beyond what is expected given the unigram symbol skew (see typical message examples
+in Appendix A.9). More quantitatively, across all runs with max_len=30, if we denote the 10 most
+probable symbols withs1,...,s 10, then we observeP (sr,s r)>P (sr)2 withr∈ J1,.., 10K, in more
+than 97.5% runs. We leave a better understanding of the causes and implications of these distributions
+to future work.
+top 30 Unigrams
+0
+5
+10
+15
+20
+25frequency in %
+Emergent messages
+English
+Arabic
+(a) Symbol unigram distributions
+top 50 Bigrams
+0.0
+2.5
+5.0
+7.5
+10.0
+12.5
+15.0
+17.5frequency in %
+Emergent messages
+Control messages
+English
+Arabic (b) Symbol bigram distributions
+Figure 5: Distribution of top symbol unigrams and bigrams (ordered by frequency) in different
+codes. Emergent and control messages are averaged across successful runs and different simulations
+respectively in the (max_len=30,a=40) setting.
+4 Discussion
+We found that two neural networks faced with a simple communication task, in which they have to
+learn to generate messages to refer to a set of distinct inputs that are sampled according to a power-law
+distribution, produce an anti-efﬁcient code where more frequent inputs are signiﬁcantly associated to
+longer messages, and all messages are close to the allowed maximum length threshold. The results are
+8
+
+===PDF PAGE 9===
+stable across network and task hyperparameters (although we leave it to further work to replicate the
+ﬁnding with different network architectures, such as transformers or CNNs). Follow-up experiments
+suggest that the emergent pattern stems from an a priori preference of the listener network for longer,
+more discriminable messages, which is not counterbalanced by a need to minimize articulatory effort
+on the side of the speaker. Indeed, when an artiﬁcial penalty against longer messages is imposed on
+the latter, we see a ZLA distribution emerging in the networks’ communication code.
+From the point of view of AI, our results stress the importance of controlled analyses of language
+emergence. Speciﬁcally, if we want to develop artiﬁcial agents that naturally communicate with
+humans, we want to ensure that we are aware of, and counteract, their unnatural biases, such as the one
+we uncovered here in favor of anti-efﬁcient encoding. We presented a proof-of-concept example of
+how to get rid of this speciﬁc bias by directly penalizing long messages in the cost function, but future
+work should look into less ad hoc ways to condition the networks’ language. Getting the encoding
+right seems particularly important, as efﬁcient encoding has been observed to interact in subtle ways
+with other important properties of human language, such as regularity and compositionality [Kirby,
+2001]. We also emphasize the importance of using power-law input distributions when studying
+language emergence, as the latter are a universal property of human language [Zipf, 1949, Baayen,
+2001] largely ignored in previous simulations, that assume uniform input distributions.
+ZLA is observed in all studied human languages. As mentioned above, some animal communication
+systems violate it [Heesen et al., 2019], but such systems are 1) limited in their expressivity; and
+2) do not display a signiﬁcantly anti-efﬁcient pattern. We complemented this earlier comparative
+research with an investigation of emergent language among artiﬁcial agents that need to signal a
+large number of different inputs. We found that the agents develop a successful communication
+system that does not exhibit ZLA, and is actually signiﬁcantly anti-efﬁcient. We connected this to an
+asymmetry in speaker vs. listener biases. This in turn suggests that ZLA in communication in general
+does not emerge from trivial statistical properties, but from a delicate balance of speaker and listener
+pressures. Future work should investigate emergent distributions in a wider range of artiﬁcial agents
+and environments, trying to understand which factors are determining them.
+5 Acknowledgments
+We would like to thank Fermín Moscoso del Prado Martín, Ramon Ferrer i Cancho, Serge Sharoff, the
+audience at REPL4NLP 2019 and the anonymous reviewers for helpful comments and suggestions.
+References
+Serhii Havrylov and Ivan Titov. Emergence of language with multi-agent games: Learning to
+communicate with sequences of symbols. In Proceedings of NIPS, pages 2149–2159, Long Beach,
+CA, 2017.
+Angeliki Lazaridou, Alexander Peysakhovich, and Marco Baroni. Multi-agent cooperation and the
+emergence of (natural) language. In Proceedings of ICLR Conference Track, Toulon, France, 2017.
+Published online: https://openreview.net/group?id=ICLR.cc/2017/conference.
+Angeliki Lazaridou, Karl Moritz Hermann, Karl Tuyls, and Stephen Clark. Emergence of linguistic
+communication from referential games with symbolic and pixel input. In Proceedings of ICLR
+Conference Track, Vancouver, Canada, 2018. Published online: https://openreview.net/
+group?id=ICLR.cc/2018/Conference.
+Jason Lee, Kyunghyun Cho, Jason Weston, and Douwe Kiela. Emergent translation in multi-agent
+communication. In Proceedings of ICLR Conference Track, Vancouver, Canada, 2018. Published
+online: https://openreview.net/group?id=ICLR.cc/2018/Conference.
+Satwik Kottur, José Moura, Stefan Lee, and Dhruv Batra. Natural language does not emerge ‘naturally’
+in multi-agent dialog. In Proceedings of EMNLP, pages 2962–2967, Copenhagen, Denmark, 2017.
+Diane Bouchacourt and Marco Baroni. How agents see things: On visual representations in an
+emergent language game. In Proceedings of EMNLP, pages 981–985, Brussels, Belgium, 2018.
+9
+
+===PDF PAGE 10===
+Katrina Evtimova, Andrew Drozdov, Douwe Kiela, and Kyunghyun Cho. Emergent communication
+in a multi-modal, multi-step referential game. In Proceedings of ICLR Conference Track, Vancou-
+ver, Canada, 2018. Published online: https://openreview.net/group?id=ICLR.cc/2018/
+Conference.
+Ryan Lowe, Jakob Foerster, Y-Lan Boureau, Joelle Pineau, and Yann Dauphin. On the pitfalls
+of measuring emergent communication. In Proceedings of AAMAS, pages 693–701, Montreal,
+Canada, 2019.
+Laura Graesser, Kyunghyun Cho, and Douwe Kiela. Emergent linguistic phenomena in multi-agent
+communication games. https://arxiv.org/abs/1901.08706, 2019.
+George Zipf. Human Behavior and the Principle of Least Effort . Addison-Wesley, Boston, MA,
+1949.
+William J Teahan, Yingying Wen, Rodger McNab, and Ian H Witten. A compression-based algorithm
+for chinese word segmentation. Computational Linguistics, 26(3):375–393, 2000.
+Bengt Sigurd, Mats Eeg-Olofsson, and Joost Van Weijer. Word length, sentence length and frequency–
+zipf revisited. Studia Linguistica, 58(1):37–52, 2004.
+Udo Strauss, Peter Grzybek, and Gabriel Altmann. Word length and word frequency. In Peter
+Grzybek, editor, Contributions to the Science of Text and Language, pages 277–294. Springer,
+Dordrecht, the Netherlands, 2007.
+Thomas Cover and Joy Thomas. Elements of Information Theory, 2nd ed. Wiley, Hoboken, NJ, 2006.
+Steven T Piantadosi, Harry Tily, and Edward Gibson. Word lengths are optimized for efﬁcient
+communication. Proceedings of the National Academy of Sciences, 108(9):3526–3529, 2011.
+Kyle Mahowald, Isabelle Dautriche, Edward Gibson, and Steven Piantadosi. Word forms are
+structured for efﬁcient use. Cognitive Science, 42:3116–3134, 2018.
+Edward Gibson, Richard Futrell Steven Piantadosi, Isabelle Dautriche, Kyle Mahowald, Leon Bergen,
+and Roger Levy. How efﬁciency shapes human language.Trends in Cognitive Science, 2019. In
+press.
+Benoit Mandelbrot. Simpie games of strategy occurring in communication through natural languages.
+Transactions of the IRE Professional Group on Information Theory, 3(3):124–137, 1954.
+George A Miller, E Newman, and E Friedman. Some effects of intermittent silence. American
+Journal of Psychology, 70(2):311–314, 1957.
+Ramon Ferrer i Cancho and Fermín Moscoso del Prado Martín. Information content versus word
+length in random typing. Journal of Statistical Mechanics: Theory and Experiment , 2011(12):
+L12002, 2011.
+Fermín Moscoso del Prado Martín. The missing baselines in arguments for the optimal efﬁciency of
+languages. In Proceedings of the Annual Meeting of the Cognitive Science Society, volume 35,
+2013.
+Jasmeen Kanwal, Kenny Smith, Jennifer Culbertson, and Simon Kirby. Zipf’s law of abbrevia-
+tion and the principle of least effort: Language users optimise a miniature lexicon for efﬁcient
+communication. Cognition, 165:45–52, 2017.
+Rahma Chaabouni, Eugene Kharitonov, Alessandro Lazaric, Emmanuel Dupoux, and Marco Baroni.
+Word-order biases in deep-agent emergent communication. In Proceedings of ACL, pages 5166–
+5175, Florence, Italy, 2019.
+David Lewis. Convention: A philosophical study, 1969.
+Ramon Ferrer i Cancho and Albert Díaz-Guilera. The global minima of the communicative energy of
+natural communication systems. Journal of Statistical Mechanics: Theory and Experiment, 2007
+(06):P06009, 2007.
+10
+
+===PDF PAGE 11===
+Eugene Kharitonov, Rahma Chaabouni, Diane Bouchacourt, and Marco Baroni. Egg: a toolkit for
+research on emergence of language in games. arXiv preprint arXiv:1907.00852, 2019.
+Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural Computation, 9(8):
+1735–1780, 1997.
+Cheng-Yuan Liou, Wei-Chen Cheng, Jiun-Wei Liou, and Daw-Ran Liou. Autoencoder for words.
+Neurocomputing, 139:84–96, 2014.
+Chris J Maddison, Andriy Mnih, and Yee Whye Teh. The concrete distribution: A continuous
+relaxation of discrete random variables. arXiv preprint arXiv:1611.00712, 2016.
+Eric Jang, Shixiang Gu, and Ben Poole. Categorical reparameterization with Gumbel-softmax. arXiv
+preprint arXiv:1611.01144, 2016.
+Ronald J Williams. Simple statistical gradient-following algorithms for connectionist reinforcement
+learning. Machine learning, 8(3-4):229–256, 1992.
+John Schulman, Nicolas Heess, Theophane Weber, and Pieter Abbeel. Gradient estimation using
+stochastic computation graphs. In Advances in Neural Information Processing Systems, pages
+3528–3536, 2015.
+Ronald J Williams and Jing Peng. Function optimization using connectionist reinforcement learning
+algorithms. Connection Science, 3(3):241–268, 1991.
+Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. arXiv preprint
+arXiv:1412.6980, 2014.
+Ramon Ferrer i Cancho, Antoni Hernández-Fernández, David Lusseau, Govindasamy Agoramoorthy,
+Minna J Hsu, and Stuart Semple. Compression as a universal principle of animal behavior.
+Cognitive Science, 37(8):1565–1578, 2013.
+Herbert A Simon. On a class of skew distribution functions. Biometrika, 42(3/4):425–440, 1955.
+Raphaela Heesen, Catherine Hobaiter, Ramon Ferrer-i Cancho, and Stuart Semple. Linguistic laws in
+chimpanzee gestural communication. Proceedings of the Royal Society B, 286(1896):20182900,
+2019.
+Simon Kirby. Spontaneous evolution of linguistic structure-an iterated learning model of the emer-
+gence of regularity and irregularity. IEEE Transactions on Evolutionary Computation , 5(2):
+102–110, 2001.
+Harald Baayen. Word Frequency Distributions. Kluwer, Dordrecht, The Netherlands, 2001.
+11

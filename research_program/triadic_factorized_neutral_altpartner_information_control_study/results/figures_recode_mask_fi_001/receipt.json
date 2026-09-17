@@ -1,0 +1,14 @@
+{
+  "figures": [
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_family_effects.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_family_effects.pdf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_transform_effects.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_transform_effects.pdf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_sender_effects.png",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/figures_recode_mask_fi_001/recode_sender_effects.pdf"
+  ],
+  "status": "passed",
+  "summary_sha256": "45bf7a84ce4ca65f87b234c6743e8d2d632453988bcd0d9c805d85a3c548d29f",
+  "visual_review": "passed",
+  "visual_review_notes": "Viewed all three PNGs; readable labels, error bars and zero reference lines; no clipping."
+}

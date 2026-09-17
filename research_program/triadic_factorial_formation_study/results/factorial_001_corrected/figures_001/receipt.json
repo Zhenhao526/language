@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "at": "2026-09-16T13:26:25.740654+00:00",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/summary_001/summary.json": "2301b3426ba4ab0db2feda990462e41b2721b811c0ec991f4392bba55d33ae25",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/summary_001/receipt.json": "3e7cb606edecc8e010810934c381b0db4d84f4a09e7187f2826fb49875747a3a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/plot_results.py": "0a49e08b48806655cedb8ec6cec61ef650edf158781748baa0417b9fc6a5450f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/metrics.py": "165841c44c58f40db3fd964774445d184ece73b7237c6622e6c4a76581b9406b"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/figures_001/plot_data.json": "8875b9be106d902dd138a9e537bbae032e78bf990532cb1e553d7e3a1f4b7f26",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/figures_001/01_factorial_trajectory.png": "eae5955bbc8f8ccd7bda879046e7ac1f1ce8b67de7edb0f58f7e022781fc2853",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/figures_001/01_factorial_trajectory.pdf": "a1a503df1b3feabe6e0754543d891c2aebc0413167ee025cb1ead3872ec04eb4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/figures_001/02_factorial_primary.png": "138958cf8001d6377836c7fa718abd7b00c3ffdbc60c72c876a11da9e116955f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected/figures_001/02_factorial_primary.pdf": "5d38a85331b0e8a11b346f1948933cdc8f72684337a6bc98700722dd0ad3efb1"
+  },
+  "model_forwards": 0,
+  "npz_reads": 0,
+  "visual_review": "Passed: root inspected 01_factorial_trajectory.png and 02_factorial_primary.png at high detail; axes, labels, legends and interval marker are legible."
+}

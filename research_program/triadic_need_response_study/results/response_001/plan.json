@@ -1,0 +1,331 @@
+{
+  "at": "2026-09-16T04:13:11.073520+00:00",
+  "budget": {
+    "endpoint_files": 32,
+    "new_model_calls": 0,
+    "new_network_forwards": 0,
+    "new_training_updates": 0,
+    "settlement_evaluations": 64
+  },
+  "endpoint_records": [
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_train.npz",
+      "seed": 57101,
+      "sha256": "71b087d481ad6c37c7e1092a32d377d447070ea78a4160dbb4ab740f1d744b12",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_needs.npz",
+      "seed": 57101,
+      "sha256": "159d15c1f6f867ddbb146ba9a5601bb4ad4ece8c951cf0fe060dcbefdfb55887",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_layouts.npz",
+      "seed": 57101,
+      "sha256": "2dc9847656aa49d59d4e53e31e78e47c6973ba0959c894dd8071fc1a0be6fb14",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57101,
+      "sha256": "c0158301cdcc05340457e3be6b5640ca2b7791edbe5203550ebcc68e7664948d",
+      "training_rule": "strict"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_train.npz",
+      "seed": 57101,
+      "sha256": "47f5a1d41f5a8e2d0ec32ca8cb1d292a7bef1f348f5ba8e68954ce1b40bb9def",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_needs.npz",
+      "seed": 57101,
+      "sha256": "6ea1963ca16d62de3cfeaa481b28bc49b00cf93d2161e725aab9bd2b0a90b80e",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_layouts.npz",
+      "seed": 57101,
+      "sha256": "4083474dcf1f56a351802a74b4c1c520b985dc528cb83b0a9c4d671f7c8de28b",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57101,
+      "sha256": "072b9d321c9b5359b89e44c35c73224b8e5c1f1043ab34878e9ee81f5a31be85",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_train.npz",
+      "seed": 57102,
+      "sha256": "e75115f60d7edf4607acd6b017903fd6cffc686c5df9f846d54b1a9dee729ebb",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_needs.npz",
+      "seed": 57102,
+      "sha256": "cf787adddd803c40062597a722e3b71ceb98d6887d82fd68ddf5853ebae09c4c",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_layouts.npz",
+      "seed": 57102,
+      "sha256": "deecc930db3cc2de86a4898789252c97cb31cc9f0c5a51d9d10f420e9dbe4bb6",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57102,
+      "sha256": "91d1b9880a9f97eb4e6e023c3ab162e75b69653bd55c1981fd2997b1074dbf13",
+      "training_rule": "strict"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_train.npz",
+      "seed": 57102,
+      "sha256": "4c3ea087f3a01ebee276b1c254422d82fcffcb552044e579f1a281b65a022840",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_needs.npz",
+      "seed": 57102,
+      "sha256": "1aae237c81c250a66dcb70ed82933acdc17496531f9352e2aebe3ebda370d2b5",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_layouts.npz",
+      "seed": 57102,
+      "sha256": "2de57fb401839f4494eb877c6ffc14b88af745847fa8ddb5aadb33bc29633520",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57102,
+      "sha256": "978e2498240b66e359bdf16d3c90119860f401e55b8143f9c504c1277ad1e9ba",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_train.npz",
+      "seed": 57103,
+      "sha256": "1c0b416223d5e5de14f3b8d3eceb8f219a0b340f852ae83f16938ec2ac9b00bf",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_needs.npz",
+      "seed": 57103,
+      "sha256": "4c560331e8bdc79bb5b0f8b46458780c46b91eec9d4f2bef5ba1d0ab261d7f49",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_layouts.npz",
+      "seed": 57103,
+      "sha256": "b9adf8ed2fa4158570f384925c162879ef4dbbab7036b637a82844b4efd09eb6",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57103,
+      "sha256": "bb4dc29494e9bde57310393373cd598c0e7d24b1f11663cb65080ec678c1a09f",
+      "training_rule": "strict"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_train.npz",
+      "seed": 57103,
+      "sha256": "ae6579e9f2662d1ce8769840a655aa3acc7c637287c5b4800b3a4d2602fca7c5",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_needs.npz",
+      "seed": 57103,
+      "sha256": "018569fea7ebde5fbee2c10abcea949a74711b8cf9fbec53c1f9ff8ad68a83af",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_layouts.npz",
+      "seed": 57103,
+      "sha256": "9f6596ce2e3cc1e0bf123946f26b55fef3ff674c3cbe751e3748d43204bd39a0",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57103,
+      "sha256": "f0794ec404a1343c53ca4bf9d06d14a96ba8975300580b02f5913950c0cd3bd9",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_train.npz",
+      "seed": 57104,
+      "sha256": "8956e9b8a78fb37b13e2ceaa1f30725d0220f6b34ac34ad3beff92c3628c17ef",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_needs.npz",
+      "seed": 57104,
+      "sha256": "2587c6b8c09b0ed7cc3d143d78d7de163f0c051ffd39b335e93bcdbd4889d3e2",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_layouts.npz",
+      "seed": 57104,
+      "sha256": "e16afbb21c2144d468546aa65bc83d7da027a1eed60ca9aeb75ab2f5cc039583",
+      "training_rule": "strict"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57104,
+      "sha256": "4102bf9fb1eabd3ff5f64845225a1e81eabe3aee8e6045462537c32b89d2b4dd",
+      "training_rule": "strict"
+    },
+    {
+      "part": "train",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_train.npz",
+      "seed": 57104,
+      "sha256": "c7f837b9fc75a72b63d0f4cbeeaab9bd7e509b0a35a84c30aa050389f4b6b255",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_needs.npz",
+      "seed": 57104,
+      "sha256": "fbbb62d6414a99c730063371bb70baf9f29e1f06c43008185cec4bb8fbf25c8f",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_layouts.npz",
+      "seed": 57104,
+      "sha256": "2c8bd8cd6217905077ad993b8d57fe8df71eafef24b765ae0b71ea1368ba0bb1",
+      "training_rule": "reciprocal"
+    },
+    {
+      "part": "new_needs_and_layouts",
+      "path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_needs_and_layouts.npz",
+      "seed": 57104,
+      "sha256": "a92126d0f1e998828d6921ee84974fd8f14231e9fe8d20985d7c58147da36147",
+      "training_rule": "reciprocal"
+    }
+  ],
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/audit_execution_001/verification.json": "a0c375dc60833f1b4ce911125454bc2ea2d94a13aab14bfc4d9a4856c82ae638",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/results.json": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_layouts.npz": "4083474dcf1f56a351802a74b4c1c520b985dc528cb83b0a9c4d671f7c8de28b",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_needs.npz": "6ea1963ca16d62de3cfeaa481b28bc49b00cf93d2161e725aab9bd2b0a90b80e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_new_needs_and_layouts.npz": "072b9d321c9b5359b89e44c35c73224b8e5c1f1043ab34878e9ee81f5a31be85",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_reciprocal_FI_silent/final_train.npz": "47f5a1d41f5a8e2d0ec32ca8cb1d292a7bef1f348f5ba8e68954ce1b40bb9def",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_layouts.npz": "2dc9847656aa49d59d4e53e31e78e47c6973ba0959c894dd8071fc1a0be6fb14",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_needs.npz": "159d15c1f6f867ddbb146ba9a5601bb4ad4ece8c951cf0fe060dcbefdfb55887",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_new_needs_and_layouts.npz": "c0158301cdcc05340457e3be6b5640ca2b7791edbe5203550ebcc68e7664948d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57101_strict_FI_silent/final_train.npz": "71b087d481ad6c37c7e1092a32d377d447070ea78a4160dbb4ab740f1d744b12",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_layouts.npz": "2de57fb401839f4494eb877c6ffc14b88af745847fa8ddb5aadb33bc29633520",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_needs.npz": "1aae237c81c250a66dcb70ed82933acdc17496531f9352e2aebe3ebda370d2b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_new_needs_and_layouts.npz": "978e2498240b66e359bdf16d3c90119860f401e55b8143f9c504c1277ad1e9ba",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_reciprocal_FI_silent/final_train.npz": "4c3ea087f3a01ebee276b1c254422d82fcffcb552044e579f1a281b65a022840",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_layouts.npz": "deecc930db3cc2de86a4898789252c97cb31cc9f0c5a51d9d10f420e9dbe4bb6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_needs.npz": "cf787adddd803c40062597a722e3b71ceb98d6887d82fd68ddf5853ebae09c4c",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_new_needs_and_layouts.npz": "91d1b9880a9f97eb4e6e023c3ab162e75b69653bd55c1981fd2997b1074dbf13",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57102_strict_FI_silent/final_train.npz": "e75115f60d7edf4607acd6b017903fd6cffc686c5df9f846d54b1a9dee729ebb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_layouts.npz": "9f6596ce2e3cc1e0bf123946f26b55fef3ff674c3cbe751e3748d43204bd39a0",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_needs.npz": "018569fea7ebde5fbee2c10abcea949a74711b8cf9fbec53c1f9ff8ad68a83af",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_new_needs_and_layouts.npz": "f0794ec404a1343c53ca4bf9d06d14a96ba8975300580b02f5913950c0cd3bd9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_reciprocal_FI_silent/final_train.npz": "ae6579e9f2662d1ce8769840a655aa3acc7c637287c5b4800b3a4d2602fca7c5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_layouts.npz": "b9adf8ed2fa4158570f384925c162879ef4dbbab7036b637a82844b4efd09eb6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_needs.npz": "4c560331e8bdc79bb5b0f8b46458780c46b91eec9d4f2bef5ba1d0ab261d7f49",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_new_needs_and_layouts.npz": "bb4dc29494e9bde57310393373cd598c0e7d24b1f11663cb65080ec678c1a09f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57103_strict_FI_silent/final_train.npz": "1c0b416223d5e5de14f3b8d3eceb8f219a0b340f852ae83f16938ec2ac9b00bf",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_layouts.npz": "2c8bd8cd6217905077ad993b8d57fe8df71eafef24b765ae0b71ea1368ba0bb1",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_needs.npz": "fbbb62d6414a99c730063371bb70baf9f29e1f06c43008185cec4bb8fbf25c8f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_new_needs_and_layouts.npz": "a92126d0f1e998828d6921ee84974fd8f14231e9fe8d20985d7c58147da36147",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_reciprocal_FI_silent/final_train.npz": "c7f837b9fc75a72b63d0f4cbeeaab9bd7e509b0a35a84c30aa050389f4b6b255",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_layouts.npz": "e16afbb21c2144d468546aa65bc83d7da027a1eed60ca9aeb75ab2f5cc039583",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_needs.npz": "2587c6b8c09b0ed7cc3d143d78d7de163f0c051ffd39b335e93bcdbd4889d3e2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_new_needs_and_layouts.npz": "4102bf9fb1eabd3ff5f64845225a1e81eabe3aee8e6045462537c32b89d2b4dd",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/seed_57104_strict_FI_silent/final_train.npz": "8956e9b8a78fb37b13e2ceaa1f30725d0220f6b34ac34ad3beff92c3628c17ef",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53"
+  },
+  "primary": "mean_four_reciprocal_trained_Q_minus_exact_shuffle_on_complete_double_holdout_reciprocal_settlement",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "schema": "triadic_need_response_v1",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/__init__.py": "fd98c9caf0e1366380bb205f451ee1226d2640c45d8583e2d40113c3d7345058",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment.py": "4e6250f5d7603dfca7736458b90b70910a5d057e253c96ab9b1e16a82635911e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/environment_dataset_preflight_001.json": "73e175834c8565c5a17ddc0fe995dd05593eed3f2cee047a33d8cd25eb72e42e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/main_preflight.json": "be8ba7be5e65257c3df6911fe4caf36e42930c6933857871bb26a1c4cc9aa7b9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/metrics.py": "c600cff54024891cf374eea3e1fcb01aae52d11df2111e80af522c6e350317cb",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/metrics_test_receipt.json": "c99d6c9ea3dd77852983f3c3474d2922577e1c58ce5e89a706eb2979172728b4",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/plan.md": "086a7c8a23c713b7091882d2d5ca32a32bef0b546c220b231615a2b9ed3ff741",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/runner.py": "1afad2ea3da70b6e84d4b4b16f6f45639781d348b956d7ff11e187c0e0fada61",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_dataset.py": "3a475f017b6c833bba92b2d296224577012290802bfacce4fb85b2024c763585",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_environment.py": "222650b19b72c58e12283a68d87b8b2a02c0671fe0035c3635dacf5d6b4d5437",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_metrics.py": "4272bca1e55b97570fbf2f2dc51d98b2255578c03b4856f98d798cd48cddffdc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_action_dependency_study/tests/test_runner.py": "4cf1a80b3ae52aca7eaef8057f939beb683b941cc30caec99e92e69b3bc975a6",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_coordination_study/runner.py": "9aad4e8bbcb71f645227908ddb05559d103cd919e264dfa5b4bc4eae9aeaba87",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/__init__.py": "6f84bd797c88e33e53d73ee375a2f620b06257674d7f0753e77c6d91f62368a9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/cases.py": "b4ba2f23144ba7ca8c2849c608fea91ad971e673112ae8c164824d487f52daed",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/cases_preflight_001.json": "abb331e17afd8ddf6a818f8fa4c1d1d2587e983448544829dbf312d3ac46668f",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/design_review.md": "7fcf4f657a6f4ec1b85df3ca4e38375b1d51cb29c8142b21e866b95f0bf4f9c7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/main_preflight.json": "b8b500b663342a4dcff8b5ce9d1f79e7b40610def215631ba601cb574cac8617",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/plan.md": "e819824a9f316009fc17697d4bbebce41d6b710ad7a2159b59d29ae9b733dd04",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/runner.py": "6dc16b5d864f7a6a2f3337cf2303ab09f5a2b0fcc580b8df21b542e7fc145b32",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/static_availability.json": "5268d4c33bf925f812c77035eca6f44c2441478bd2370352bbc0abe9a3900060",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/test_cases.py": "e482fcd831e41bebcba3901ecd323b68f377b21e6afed0330f0bc13f336e1df7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_need_response_study/test_runner.py": "5d161e1db63b629ca7ddd3fa60630284d37e91f6c70be2ae46af27034d549c57",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partial_payoff_study/utility.py": "67040e814d92a100729a9904f366709a3372872bf22d197c554343dbd91258f8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/__init__.py": "2fa5faa453da52a81915843cc0364afceb22083d81c1cd8eb0e142667daccc77",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/candidate_static_003.json": "456696fbb6be1bd6105851f9871fe248375d4c2a371cb41fa5dde3c9579fa1b7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/enumerate_candidate.py": "fc2213c1a5207968ed9e825326c803b4911627cbd59f163c5819b19250f8d99d",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/independent_bounds_review.py": "0d61b8d07b2c6b1921fed2754a0fb78016e086528407dac9aeeb5c18983258a2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/independent_bounds_review_001.json": "e4fe6a69434eb20b91143731549fef8429343f0b43502b6ede5e0d437ea79f04",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/review.md": "1a43b4b7bd630f17c6d8ba7d5e706fce51cbc4d7abbb9613b2f5b4ff11a54132",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/static_execution_history_001.json": "abe148e9ac59f321c1c7fcdad4de69a45815f79a1cd821bbe974c305675709b5",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_audit/候选规则静态审查.md": "bd342bb0b8f26c99f80964529f40d6b6031c1f7da94f61457ec02549d33992b2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/design_review.md": "792f31492324a79eba6955f550a89871f3969dc134f035d33fc4e29042215409",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/environment_preflight_001.json": "d4582153fa8dc4d71d852345ef87c130951acba808f331ba0c872ef66d65a6b9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/kernel.py": "6070b2a263634a7259137f7bf6bda0249acd4bd2b357c574e57a141eebf11df9",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/kernel_preflight_001.json": "9c4828112256e6eda5fc5db942308c41340bcd8160cc3e0368991620d08f5687",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/literature_sources.json": "c6df272facce3056f217e08abafebb6038a52d4c09364fe95ca9290c2527a932",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/main_preflight.json": "05db384730ab31dffa0847c6a979a1c6604b0a742f1725614a83ba6c198b3935",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/plan.md": "422e50e10b4a01522e10533c4c16c08638fd0ad53ba1f1316fabff86dc4292fc",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/runner.py": "0c25737af9a70c1376a3a2f91d870859e8fde545d39a0e277bcf68e87cfa7e67",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_environment.py": "9f413942d1f55ca622ff57690229461646992bf48c208c51c1343c5205c3a335",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_kernel.py": "248aa19b79ab29a99265f8b53860fd6aae0b2ffad8180fd878303c8c4d92c6b2",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/tests/test_runner.py": "4b5b1524bb4fa97182c4e4c9bd170da1f0a434b78e9090d53a0466f89c83d1ca",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_task/environment.py": "b2d49ab829edc92e77df527f5b470602c289cdf3ad7728d5e71f411c53582ef6"
+  },
+  "status": "prepared_without_endpoint_reads"
+}

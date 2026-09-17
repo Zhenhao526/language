@@ -1,0 +1,18 @@
+{
+  "behavioral_metrics_replayed": true,
+  "evaluations": 256,
+  "frozen_plan_sha256": "b8d1ce0631b9607f3a6d7c676cc36ada77148415e079ca41e2ed31f8722a00d5",
+  "frozen_prepared_sha256": "34ca0260a214290cafc34028adf0f93245320bdd2f9bc1ca67a7f3fe07fb6e7d",
+  "no_model_calls": true,
+  "no_training_updates": true,
+  "pairing_verified": true,
+  "physical_settlement_replayed": true,
+  "post_run_source_edit_note": "Plan binding is to the frozen hashes. After execution, only reducer compatibility edits were made: evaluator field behavior was renamed behavioral and the metric reader accepts both.",
+  "runs": 32,
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_switch_study/results/pilot_003",
+  "status": "passed",
+  "training_updates": 192000,
+  "truth_replayed": true,
+  "unique_evaluation_paths": 256,
+  "worlds": 61931520
+}

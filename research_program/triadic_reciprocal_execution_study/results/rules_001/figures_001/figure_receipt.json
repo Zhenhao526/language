@@ -1,0 +1,46 @@
+{
+  "additional_model_forward_samples": 0,
+  "at": "2026-09-16T03:47:32.807691+00:00",
+  "figure_data_sha256": "e874dd72740e525d7e0128325f4a2363110a16e778bf38e399c7144a84a3941c",
+  "independent_seed_blocks": 4,
+  "outputs": {
+    "01_execution_ability_paired.pdf": {
+      "bytes": 20119,
+      "sha256": "bcad1fe8af06d12cd3902a623d6210528919d0e0b52f81fca95dd317fd4e6b2d"
+    },
+    "01_execution_ability_paired.png": {
+      "bytes": 81022,
+      "sha256": "fece3f41fe7d6749157e1f1fd036ec40f8895de59609cdd9f68e47bd6f74568e"
+    },
+    "02_primary_and_cross_settlement.pdf": {
+      "bytes": 30624,
+      "sha256": "5e10975623f429cba4fbf8fcf11b012eefae24f0aa742e75ad0a961e790db833"
+    },
+    "02_primary_and_cross_settlement.png": {
+      "bytes": 202626,
+      "sha256": "fdde0dfaf5653ccf29f54afba5b8b8e19e7b2e4a8a8794303ba4379009867a43"
+    },
+    "03_monitor_execution_ability.pdf": {
+      "bytes": 27627,
+      "sha256": "310f7cd7a0a62eab0f35e765beefe4a9b2d2bd3759d02c53e7355646047bc5fd"
+    },
+    "03_monitor_execution_ability.png": {
+      "bytes": 187759,
+      "sha256": "5b0aaf97c2fae60ebae36eb2e16829d2dce830348d52363ce3b6d7c334beed97"
+    }
+  },
+  "plan_sha256": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+  "plot_source_sha256": "e66fb93e3280ed6cc0534240abc0b24d2df02e53490746b36d146d708f197fa4",
+  "policy_fits": 8,
+  "runtime": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_result_path": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/results.json",
+  "source_result_sha256": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+  "status": "generated_visual_inspection_pending",
+  "training_updates": 0,
+  "validation_scope": "Only completed aggregate JSON. No NPZ, model, training log, prepared plan or audit file is read.",
+  "visual_inspection_performed": false
+}

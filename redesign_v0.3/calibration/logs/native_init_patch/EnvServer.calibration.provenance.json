@@ -1,0 +1,13 @@
+{
+  "source": "/Users/xia/Documents/ChatGPT/\u8bed\u8a00/redesign_v0.3/calibration/vendor/minerl/minerl/MCP-Reborn/src/main/java/com/minerl/multiagent/env/EnvServer.java",
+  "before_sha256": "ea83babfbc764900ccda163d361ca9e9301b4c6103aa93fbe792b020742208e7",
+  "after_sha256": "723c5b8604b5c6cc23e91120ebf5160ddd314900a32d52546cf234a36b22ffca",
+  "scope": "Calib_ mission initialization and evaluator receipt only",
+  "policy_modified": false,
+  "resource_mechanics_modified": false,
+  "flat_world_generator_implemented": false,
+  "java_compilation_verified_by_this_script": false,
+  "minecraft": "1.16.5",
+  "mcp_snapshot": "20201028-1.16.3",
+  "mapping_source": "https://maven.minecraftforge.net/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip"
+}

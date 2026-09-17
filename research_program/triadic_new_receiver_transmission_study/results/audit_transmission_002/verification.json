@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_new_receiver_transmission_study/results/transmission_002",
+  "runs": 32,
+  "checkpoint_evaluations": 192,
+  "final_evaluations": 32,
+  "compact_monitor_worlds": 3594240,
+  "final_worlds": 1797120,
+  "model_forwards": 48522240,
+  "adaptation_optimizer_updates": 192000,
+  "frozen_agent_optimizer_updates": 0,
+  "frozen_ab_checkpoints": 192,
+  "paired_training_log_rows": 96000,
+  "max_abs_error": 0.0,
+  "checkpoint_replayed": true,
+  "final_replayed": true,
+  "paired_streams_verified": true,
+  "frozen_A_B_parameter_invariant": true,
+  "no_external_model": true,
+  "no_llm": true,
+  "no_vision_model": true
+}

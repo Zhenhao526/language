@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_neutral_action_study/results/pilot_001",
+  "policy_rows": 32,
+  "checkpoint_rows": 192,
+  "final_rows": 32,
+  "worlds": 31781376,
+  "model_forwards": 286032384,
+  "optimizer_updates": 0,
+  "max_abs_error": 0.0,
+  "all_cancel_settlement_checked": true,
+  "action_count": 18,
+  "cancel_rewards": [
+    0.0,
+    0.1
+  ],
+  "rematched_assignments": 24576000
+}

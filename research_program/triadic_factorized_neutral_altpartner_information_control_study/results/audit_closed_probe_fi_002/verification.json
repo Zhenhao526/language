@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/fi_001",
+  "probe": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_information_control_study/results/closed_probe_fi_002",
+  "policy_rows": 64,
+  "evaluations": 128,
+  "worlds": 7188480,
+  "model_forwards": 64696320,
+  "optimizer_updates": 0,
+  "no_optimizer_updates": true,
+  "checkpoint_hashes_checked": 64,
+  "rows_replayed": 128,
+  "max_abs_error": 0.0,
+  "route_modes": [
+    "live",
+    "own",
+    "closed"
+  ],
+  "first_window_preserved": true,
+  "intervention": "closed retains self payloads but removes cross-agent payloads and all visibility bits from second-window routing; policy is replayed without updates",
+  "probe_results_sha256": "b794271daf2171f81df7258f83cb7de7897df7fd82aa879df0846842fba3586d"
+}

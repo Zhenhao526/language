@@ -1,0 +1,1611 @@
+{
+  "states": {
+    "S0": {
+      "seed": 92015,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 8,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "林地",
+        "C": "林地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": "o07"
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "营地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": null,
+          "processed": true,
+          "carriers": [
+            "B"
+          ],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物10",
+          "o01": "物12",
+          "o02": "物7",
+          "o03": "物20",
+          "o04": "物77",
+          "o05": "物35",
+          "o06": "物32",
+          "o07": "物14"
+        },
+        "B": {
+          "o00": "物144",
+          "o01": "物153",
+          "o02": "物171",
+          "o03": "物154",
+          "o04": "物108",
+          "o05": "物179",
+          "o06": "物143",
+          "o07": "物155"
+        },
+        "C": {
+          "o00": "物284",
+          "o01": "物202",
+          "o02": "物297",
+          "o03": "物294",
+          "o04": "物268",
+          "o05": "物275",
+          "o06": "物223",
+          "o07": "物231"
+        }
+      },
+      "last_feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 8,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "拿取成功。",
+          "step": 8,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": true,
+          "result": "放下成功。",
+          "step": 8,
+          "done": false
+        }
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "S1": {
+      "seed": 92015,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 9,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "营地",
+        "C": "营地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": "o00"
+        },
+        "B": {
+          "tool": null,
+          "cargo": "o07"
+        },
+        "C": {
+          "tool": null,
+          "cargo": "o00"
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": null,
+          "processed": true,
+          "carriers": [
+            "A",
+            "C"
+          ],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "营地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": null,
+          "processed": true,
+          "carriers": [
+            "B"
+          ],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物10",
+          "o01": "物12",
+          "o02": "物7",
+          "o03": "物20",
+          "o04": "物77",
+          "o05": "物35",
+          "o06": "物32",
+          "o07": "物14"
+        },
+        "B": {
+          "o00": "物144",
+          "o01": "物153",
+          "o02": "物171",
+          "o03": "物154",
+          "o04": "物108",
+          "o05": "物179",
+          "o06": "物143",
+          "o07": "物155"
+        },
+        "C": {
+          "o00": "物284",
+          "o01": "物202",
+          "o02": "物297",
+          "o03": "物294",
+          "o04": "物268",
+          "o05": "物275",
+          "o06": "物223",
+          "o07": "物231"
+        }
+      },
+      "last_feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "共同搬运成功。",
+          "step": 9,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": true,
+          "result": "共同搬运成功。",
+          "step": 9,
+          "done": false
+        }
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "M2_after": {
+      "seed": 92015,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 9,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "林地",
+        "C": "林地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": "o07"
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "营地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": null,
+          "processed": true,
+          "carriers": [
+            "B"
+          ],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物10",
+          "o01": "物12",
+          "o02": "物7",
+          "o03": "物20",
+          "o04": "物77",
+          "o05": "物35",
+          "o06": "物32",
+          "o07": "物14"
+        },
+        "B": {
+          "o00": "物144",
+          "o01": "物153",
+          "o02": "物171",
+          "o03": "物154",
+          "o04": "物108",
+          "o05": "物179",
+          "o06": "物143",
+          "o07": "物155"
+        },
+        "C": {
+          "o00": "物284",
+          "o01": "物202",
+          "o02": "物297",
+          "o03": "物294",
+          "o04": "物268",
+          "o05": "物275",
+          "o06": "物223",
+          "o07": "物231"
+        }
+      },
+      "last_feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": false,
+          "result": "动作没有发生。",
+          "step": 9,
+          "done": false
+        }
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    },
+    "S2": {
+      "seed": 92015,
+      "variant": 0,
+      "max_steps": 12,
+      "t": 10,
+      "roles": {
+        "collector": "A",
+        "wood": "C",
+        "partner": "B"
+      },
+      "layout": {
+        "wood_site": "林地",
+        "fiber_site": "河滩"
+      },
+      "positions": {
+        "A": "营地",
+        "C": "营地",
+        "B": "河滩"
+      },
+      "inventory": {
+        "A": {
+          "tool": null,
+          "cargo": null
+        },
+        "B": {
+          "tool": null,
+          "cargo": "o07"
+        },
+        "C": {
+          "tool": null,
+          "cargo": null
+        }
+      },
+      "known_closed": {
+        "A": [],
+        "B": [],
+        "C": []
+      },
+      "event": {
+        "kind": "none",
+        "enabled": false,
+        "at_step": null,
+        "edge": [],
+        "observer_site": null,
+        "occurred": false
+      },
+      "goals": [
+        {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 1
+        },
+        {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "quantity": 1,
+          "destination": "营地",
+          "delivered": 0
+        }
+      ],
+      "items": {
+        "o00": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "干",
+          "location": "营地",
+          "processed": true,
+          "carriers": [],
+          "delivered": true,
+          "target_for_witness": true
+        },
+        "o01": {
+          "kind": "木材",
+          "length": "长",
+          "condition": "湿",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o02": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "干",
+          "location": "林地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o03": {
+          "kind": "木材",
+          "length": "短",
+          "condition": "湿",
+          "location": "营地",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o04": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o05": {
+          "kind": "纤维",
+          "length": "短",
+          "condition": "湿",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": false
+        },
+        "o06": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": "河滩",
+          "processed": true,
+          "carriers": [],
+          "delivered": false,
+          "target_for_witness": true
+        },
+        "o07": {
+          "kind": "纤维",
+          "length": "长",
+          "condition": "干",
+          "location": null,
+          "processed": true,
+          "carriers": [
+            "B"
+          ],
+          "delivered": false,
+          "target_for_witness": true
+        }
+      },
+      "scenario_parameters": {
+        "family": "river_valley_v0.3",
+        "wood_attributes": [
+          "长",
+          "干"
+        ],
+        "fiber_attributes": [
+          "长",
+          "干"
+        ],
+        "wood_quantity": 1,
+        "fiber_quantity": 1,
+        "wood_destination": "营地",
+        "fiber_destination": "营地",
+        "wood_site": "林地",
+        "fiber_site": "河滩",
+        "tools_present": false,
+        "processing_required": false,
+        "roads_permanently_open": true,
+        "initial_positions": {
+          "A": "营地",
+          "C": "林地",
+          "B": "河滩"
+        },
+        "local_event": {
+          "kind": "none",
+          "enabled": false,
+          "at_step": null,
+          "edge": [],
+          "observer_site": null,
+          "occurred": false
+        },
+        "simplification_note": "processing prerequisite and its tool actions removed together; eight resources, no axe; not a pure processed-flag causal contrast",
+        "split": "engineering; no confirmatory train/test split assigned",
+        "factorial_note": "variant selects a deterministic family, not a fully crossed factorial design; wood quantity is fixed at 1"
+      },
+      "handles": {
+        "A": {
+          "o00": "物10",
+          "o01": "物12",
+          "o02": "物7",
+          "o03": "物20",
+          "o04": "物77",
+          "o05": "物35",
+          "o06": "物32",
+          "o07": "物14"
+        },
+        "B": {
+          "o00": "物144",
+          "o01": "物153",
+          "o02": "物171",
+          "o03": "物154",
+          "o04": "物108",
+          "o05": "物179",
+          "o06": "物143",
+          "o07": "物155"
+        },
+        "C": {
+          "o00": "物284",
+          "o01": "物202",
+          "o02": "物297",
+          "o03": "物294",
+          "o04": "物268",
+          "o05": "物275",
+          "o06": "物223",
+          "o07": "物231"
+        }
+      },
+      "last_feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "交付被接收。",
+          "step": 10,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 10,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": true,
+          "result": "交付被接收。",
+          "step": 10,
+          "done": false
+        }
+      },
+      "witness": [
+        {
+          "A": {
+            "kind": "move",
+            "destination": "河滩"
+          },
+          "B": {
+            "kind": "move",
+            "destination": "林地"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        },
+        {
+          "A": {
+            "kind": "pickup",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "carry_together",
+            "partner": "C",
+            "destination": "营地",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "carry_together",
+            "partner": "B",
+            "destination": "营地",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "move",
+            "destination": "营地"
+          },
+          "B": {
+            "kind": "deliver_together",
+            "partner": "C",
+            "item": "物144"
+          },
+          "C": {
+            "kind": "deliver_together",
+            "partner": "B",
+            "item": "物284"
+          }
+        },
+        {
+          "A": {
+            "kind": "deliver",
+            "item": "物32"
+          },
+          "B": {
+            "kind": "wait"
+          },
+          "C": {
+            "kind": "wait"
+          }
+        }
+      ]
+    }
+  },
+  "checks": {
+    "source": {
+      "run_dir": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v3/results/20260915_152343/capability_full_information",
+      "episode": 1,
+      "step": 9,
+      "agent": "C",
+      "seed": 92015,
+      "variant": 0,
+      "group": 17,
+      "manifest_sha256": "dbfe29cbf6acaeceed27f96fe6a1873f34179283e2d5d740f7cdc69c10e43b17",
+      "frozen_manifest_sha256": "29dcfae5aea1f61c30098fac9ad0bbed8c21e41230da95f0ce9edc853c724a05",
+      "steps_sha256": "886a07e79c3c4be49cea30aa7e29637d161d9bdd2f85bf84492cfdadf5cb7f85",
+      "source_line_sha256": "b9431c57814d2fe2b31fc03aff56b19981dcaaaff1420cae7efc06bd378a7995",
+      "source_state_sha256": "304e39c62c1c8d6e6de218da7074fa7c448b313b94966c26f33e994354d728e3",
+      "pure_source_sha256": {
+        "environment.py": "8c149d6effadad3cbe465c7d32f1962b1170b663b38ca251320bd12bfe551d81",
+        "agents.py": "f7d924ccbe210d01186dee7e989b7f2497055145aeea62e8682924e87fffc97f"
+      },
+      "source_observation_and_menu_match": true,
+      "source_step_replays_exactly": true,
+      "model_calls": 0
+    },
+    "M1": {
+      "truth": true,
+      "before_state_id": "S0",
+      "after_state_id": "S1",
+      "actions": {
+        "A": {
+          "kind": "carry_together",
+          "item": "物10",
+          "partner": "C",
+          "destination": "营地"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "carry_together",
+          "item": "物284",
+          "partner": "A",
+          "destination": "营地"
+        }
+      },
+      "feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "共同搬运成功。",
+          "step": 9,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": true,
+          "result": "共同搬运成功。",
+          "step": 9,
+          "done": false
+        }
+      },
+      "evaluated_facts": {
+        "both_carry_actions_succeeded": true,
+        "both_positions_are_camp": true,
+        "both_cargo_slots_hold_target": true,
+        "target_carriers_are_A_C": true,
+        "target_no_longer_on_ground": true
+      },
+      "before_state_sha256": "304e39c62c1c8d6e6de218da7074fa7c448b313b94966c26f33e994354d728e3",
+      "after_state_sha256": "9599de98eeddc0f83895b37b35725cb9f4eeba8be809c0ebf76eb75cd1ca8d10"
+    },
+    "M2": {
+      "truth": false,
+      "before_state_id": "S0",
+      "after_state_id": "M2_after",
+      "actions": {
+        "A": {
+          "kind": "wait"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "pickup",
+          "item": "物284"
+        }
+      },
+      "feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 9,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": false,
+          "result": "动作没有发生。",
+          "step": 9,
+          "done": false
+        }
+      },
+      "evaluated_facts": {
+        "single_pickup_is_in_menu": false,
+        "single_pickup_succeeded": false,
+        "C_cargo_holds_target": false,
+        "physical_positions_items_inventory_unchanged": true
+      },
+      "note": "Researcher-only invalid submission; World rejects the out-of-menu action. No model executed it.",
+      "before_state_sha256": "304e39c62c1c8d6e6de218da7074fa7c448b313b94966c26f33e994354d728e3",
+      "after_state_sha256": "532ab5b53843fdf5ea4eff0fe8e856c40be5dd7bce1b504f777c70b600ca4928"
+    },
+    "M3": {
+      "truth": false,
+      "before_state_id": "S1",
+      "after_state_id": "S1",
+      "actions": null,
+      "feedback": null,
+      "evaluated_facts": {
+        "both_positions_are_camp": true,
+        "target_goal_delivered": 0,
+        "target_goal_quantity": 1,
+        "target_item_delivered": false,
+        "score_unchanged_after_carry": true
+      },
+      "note": "Read-only claim about the actual current S1 delivery count, without a new step.",
+      "before_state_sha256": "9599de98eeddc0f83895b37b35725cb9f4eeba8be809c0ebf76eb75cd1ca8d10",
+      "after_state_sha256": "9599de98eeddc0f83895b37b35725cb9f4eeba8be809c0ebf76eb75cd1ca8d10"
+    },
+    "M4": {
+      "truth": true,
+      "before_state_id": "S1",
+      "after_state_id": "S2",
+      "actions": {
+        "A": {
+          "kind": "deliver_together",
+          "item": "物10",
+          "partner": "C"
+        },
+        "B": {
+          "kind": "wait"
+        },
+        "C": {
+          "kind": "deliver_together",
+          "item": "物284",
+          "partner": "A"
+        }
+      },
+      "feedback": {
+        "A": {
+          "action_succeeded": true,
+          "result": "交付被接收。",
+          "step": 10,
+          "done": false
+        },
+        "B": {
+          "action_succeeded": true,
+          "result": "等待。",
+          "step": 10,
+          "done": false
+        },
+        "C": {
+          "action_succeeded": true,
+          "result": "交付被接收。",
+          "step": 10,
+          "done": false
+        }
+      },
+      "evaluated_facts": {
+        "both_delivery_actions_succeeded": true,
+        "target_goal_units_added": 1,
+        "both_cargo_slots_released": true,
+        "target_item_delivered": true,
+        "target_carriers_empty": true
+      },
+      "before_state_sha256": "9599de98eeddc0f83895b37b35725cb9f4eeba8be809c0ebf76eb75cd1ca8d10",
+      "after_state_sha256": "053133470e1128718b513cdc5df8b4e296c2c7b0fcc29aff42dec74aff59c2ec"
+    }
+  },
+  "cases": [
+    {
+      "case_id": "M1_affirm_first",
+      "question_id": "M1",
+      "order": "affirm_first",
+      "truth": true,
+      "answers": [
+        "陈述符合环境规则",
+        "陈述不符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 0,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"agent\":\"C\",\"last_result\":{\"step\":8,\"result\":\"放下成功。\",\"action_succeeded\":true,\"done\":false},\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[]}],\"location\":\"林地\",\"steps_remaining\":4,\"task_board\":[{\"destination\":\"营地\",\"quantity\":1,\"condition\":\"干\",\"kind\":\"木材\",\"length\":\"长\",\"delivered\":0},{\"quantity\":1,\"condition\":\"干\",\"length\":\"长\",\"delivered\":0,\"kind\":\"纤维\",\"destination\":\"营地\"}],\"known_closed_roads\":[],\"all_current_closed_roads\":[],\"map\":[\"营地\",\"林地\",\"河滩\"],\"ground_items\":[{\"length\":\"长\",\"condition\":\"干\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物284\"},{\"length\":\"长\",\"condition\":\"湿\",\"handle\":\"物202\",\"kind\":\"木材\",\"processed\":true},{\"processed\":true,\"handle\":\"物297\",\"kind\":\"木材\",\"length\":\"短\",\"condition\":\"干\"}],\"step\":8,\"all_current_sites\":[{\"agents\":[\"B\"],\"location\":\"河滩\",\"items\":[{\"handle\":\"物275\",\"kind\":\"纤维\",\"condition\":\"湿\",\"length\":\"短\"},{\"handle\":\"物223\",\"condition\":\"干\",\"kind\":\"纤维\",\"length\":\"长\"},{\"carried_by\":[\"B\"],\"handle\":\"物231\",\"length\":\"长\",\"condition\":\"干\",\"kind\":\"纤维\"},{\"handle\":\"物268\",\"condition\":\"湿\",\"length\":\"短\",\"kind\":\"纤维\"}]},{\"items\":[{\"condition\":\"湿\",\"length\":\"长\",\"handle\":\"物202\",\"processed\":true,\"kind\":\"木材\"},{\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\",\"processed\":true,\"length\":\"长\"},{\"condition\":\"干\",\"processed\":true,\"length\":\"短\",\"handle\":\"物297\",\"kind\":\"木材\"}],\"agents\":[\"A\",\"C\"],\"location\":\"林地\"},{\"items\":[{\"condition\":\"湿\",\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"length\":\"短\"}],\"location\":\"营地\",\"agents\":[]}],\"carried_items\":[]},\"当前观察的直读\":{\"你现在的位置\":\"林地\",\"你现在实际携带\":\"无；你现在空手\",\"这里地上的物品\":\"物284：干长木材（已加工）；物202：湿长木材（已加工）；物297：干短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"本步A与C分别对林地地面上的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同搬运，两人互为搭档、目的地都选营地，B等待。判断以下陈述：本步结算后，A、C和这件木材都在营地，木材由A、C共同携带，并占双方各一个普通携带位。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述符合环境规则\"},{\"编号\":1,\"含义\":\"陈述不符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "本步A与C分别对林地地面上的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同搬运，两人互为搭档、目的地都选营地，B等待。判断以下陈述：本步结算后，A、C和这件木材都在营地，木材由A、C共同携带，并占双方各一个普通携带位。",
+      "state_id": "S0"
+    },
+    {
+      "case_id": "M1_deny_first",
+      "question_id": "M1",
+      "order": "deny_first",
+      "truth": true,
+      "answers": [
+        "陈述不符合环境规则",
+        "陈述符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 1,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"agent\":\"C\",\"last_result\":{\"step\":8,\"result\":\"放下成功。\",\"action_succeeded\":true,\"done\":false},\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[]}],\"location\":\"林地\",\"steps_remaining\":4,\"task_board\":[{\"destination\":\"营地\",\"quantity\":1,\"condition\":\"干\",\"kind\":\"木材\",\"length\":\"长\",\"delivered\":0},{\"quantity\":1,\"condition\":\"干\",\"length\":\"长\",\"delivered\":0,\"kind\":\"纤维\",\"destination\":\"营地\"}],\"known_closed_roads\":[],\"all_current_closed_roads\":[],\"map\":[\"营地\",\"林地\",\"河滩\"],\"ground_items\":[{\"length\":\"长\",\"condition\":\"干\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物284\"},{\"length\":\"长\",\"condition\":\"湿\",\"handle\":\"物202\",\"kind\":\"木材\",\"processed\":true},{\"processed\":true,\"handle\":\"物297\",\"kind\":\"木材\",\"length\":\"短\",\"condition\":\"干\"}],\"step\":8,\"all_current_sites\":[{\"agents\":[\"B\"],\"location\":\"河滩\",\"items\":[{\"handle\":\"物275\",\"kind\":\"纤维\",\"condition\":\"湿\",\"length\":\"短\"},{\"handle\":\"物223\",\"condition\":\"干\",\"kind\":\"纤维\",\"length\":\"长\"},{\"carried_by\":[\"B\"],\"handle\":\"物231\",\"length\":\"长\",\"condition\":\"干\",\"kind\":\"纤维\"},{\"handle\":\"物268\",\"condition\":\"湿\",\"length\":\"短\",\"kind\":\"纤维\"}]},{\"items\":[{\"condition\":\"湿\",\"length\":\"长\",\"handle\":\"物202\",\"processed\":true,\"kind\":\"木材\"},{\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\",\"processed\":true,\"length\":\"长\"},{\"condition\":\"干\",\"processed\":true,\"length\":\"短\",\"handle\":\"物297\",\"kind\":\"木材\"}],\"agents\":[\"A\",\"C\"],\"location\":\"林地\"},{\"items\":[{\"condition\":\"湿\",\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"length\":\"短\"}],\"location\":\"营地\",\"agents\":[]}],\"carried_items\":[]},\"当前观察的直读\":{\"你现在的位置\":\"林地\",\"你现在实际携带\":\"无；你现在空手\",\"这里地上的物品\":\"物284：干长木材（已加工）；物202：湿长木材（已加工）；物297：干短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"本步A与C分别对林地地面上的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同搬运，两人互为搭档、目的地都选营地，B等待。判断以下陈述：本步结算后，A、C和这件木材都在营地，木材由A、C共同携带，并占双方各一个普通携带位。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述不符合环境规则\"},{\"编号\":1,\"含义\":\"陈述符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "本步A与C分别对林地地面上的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同搬运，两人互为搭档、目的地都选营地，B等待。判断以下陈述：本步结算后，A、C和这件木材都在营地，木材由A、C共同携带，并占双方各一个普通携带位。",
+      "state_id": "S0"
+    },
+    {
+      "case_id": "M2_affirm_first",
+      "question_id": "M2",
+      "order": "affirm_first",
+      "truth": false,
+      "answers": [
+        "陈述符合环境规则",
+        "陈述不符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 1,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"agent\":\"C\",\"last_result\":{\"step\":8,\"result\":\"放下成功。\",\"action_succeeded\":true,\"done\":false},\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[]}],\"location\":\"林地\",\"steps_remaining\":4,\"task_board\":[{\"destination\":\"营地\",\"quantity\":1,\"condition\":\"干\",\"kind\":\"木材\",\"length\":\"长\",\"delivered\":0},{\"quantity\":1,\"condition\":\"干\",\"length\":\"长\",\"delivered\":0,\"kind\":\"纤维\",\"destination\":\"营地\"}],\"known_closed_roads\":[],\"all_current_closed_roads\":[],\"map\":[\"营地\",\"林地\",\"河滩\"],\"ground_items\":[{\"length\":\"长\",\"condition\":\"干\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物284\"},{\"length\":\"长\",\"condition\":\"湿\",\"handle\":\"物202\",\"kind\":\"木材\",\"processed\":true},{\"processed\":true,\"handle\":\"物297\",\"kind\":\"木材\",\"length\":\"短\",\"condition\":\"干\"}],\"step\":8,\"all_current_sites\":[{\"agents\":[\"B\"],\"location\":\"河滩\",\"items\":[{\"handle\":\"物275\",\"kind\":\"纤维\",\"condition\":\"湿\",\"length\":\"短\"},{\"handle\":\"物223\",\"condition\":\"干\",\"kind\":\"纤维\",\"length\":\"长\"},{\"carried_by\":[\"B\"],\"handle\":\"物231\",\"length\":\"长\",\"condition\":\"干\",\"kind\":\"纤维\"},{\"handle\":\"物268\",\"condition\":\"湿\",\"length\":\"短\",\"kind\":\"纤维\"}]},{\"items\":[{\"condition\":\"湿\",\"length\":\"长\",\"handle\":\"物202\",\"processed\":true,\"kind\":\"木材\"},{\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\",\"processed\":true,\"length\":\"长\"},{\"condition\":\"干\",\"processed\":true,\"length\":\"短\",\"handle\":\"物297\",\"kind\":\"木材\"}],\"agents\":[\"A\",\"C\"],\"location\":\"林地\"},{\"items\":[{\"condition\":\"湿\",\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"length\":\"短\"}],\"location\":\"营地\",\"agents\":[]}],\"carried_items\":[]},\"当前观察的直读\":{\"你现在的位置\":\"林地\",\"你现在实际携带\":\"无；你现在空手\",\"这里地上的物品\":\"物284：干长木材（已加工）；物202：湿长木材（已加工）；物297：干短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"对于林地地面上的这件干长木材（你看到的句柄为物284），C可以先用普通单人拿取，把它放进自己的普通携带位，再在下一步与A共同搬运。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述符合环境规则\"},{\"编号\":1,\"含义\":\"陈述不符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "对于林地地面上的这件干长木材（你看到的句柄为物284），C可以先用普通单人拿取，把它放进自己的普通携带位，再在下一步与A共同搬运。",
+      "state_id": "S0"
+    },
+    {
+      "case_id": "M2_deny_first",
+      "question_id": "M2",
+      "order": "deny_first",
+      "truth": false,
+      "answers": [
+        "陈述不符合环境规则",
+        "陈述符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 0,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"agent\":\"C\",\"last_result\":{\"step\":8,\"result\":\"放下成功。\",\"action_succeeded\":true,\"done\":false},\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[]}],\"location\":\"林地\",\"steps_remaining\":4,\"task_board\":[{\"destination\":\"营地\",\"quantity\":1,\"condition\":\"干\",\"kind\":\"木材\",\"length\":\"长\",\"delivered\":0},{\"quantity\":1,\"condition\":\"干\",\"length\":\"长\",\"delivered\":0,\"kind\":\"纤维\",\"destination\":\"营地\"}],\"known_closed_roads\":[],\"all_current_closed_roads\":[],\"map\":[\"营地\",\"林地\",\"河滩\"],\"ground_items\":[{\"length\":\"长\",\"condition\":\"干\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物284\"},{\"length\":\"长\",\"condition\":\"湿\",\"handle\":\"物202\",\"kind\":\"木材\",\"processed\":true},{\"processed\":true,\"handle\":\"物297\",\"kind\":\"木材\",\"length\":\"短\",\"condition\":\"干\"}],\"step\":8,\"all_current_sites\":[{\"agents\":[\"B\"],\"location\":\"河滩\",\"items\":[{\"handle\":\"物275\",\"kind\":\"纤维\",\"condition\":\"湿\",\"length\":\"短\"},{\"handle\":\"物223\",\"condition\":\"干\",\"kind\":\"纤维\",\"length\":\"长\"},{\"carried_by\":[\"B\"],\"handle\":\"物231\",\"length\":\"长\",\"condition\":\"干\",\"kind\":\"纤维\"},{\"handle\":\"物268\",\"condition\":\"湿\",\"length\":\"短\",\"kind\":\"纤维\"}]},{\"items\":[{\"condition\":\"湿\",\"length\":\"长\",\"handle\":\"物202\",\"processed\":true,\"kind\":\"木材\"},{\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\",\"processed\":true,\"length\":\"长\"},{\"condition\":\"干\",\"processed\":true,\"length\":\"短\",\"handle\":\"物297\",\"kind\":\"木材\"}],\"agents\":[\"A\",\"C\"],\"location\":\"林地\"},{\"items\":[{\"condition\":\"湿\",\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"length\":\"短\"}],\"location\":\"营地\",\"agents\":[]}],\"carried_items\":[]},\"当前观察的直读\":{\"你现在的位置\":\"林地\",\"你现在实际携带\":\"无；你现在空手\",\"这里地上的物品\":\"物284：干长木材（已加工）；物202：湿长木材（已加工）；物297：干短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"对于林地地面上的这件干长木材（你看到的句柄为物284），C可以先用普通单人拿取，把它放进自己的普通携带位，再在下一步与A共同搬运。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述不符合环境规则\"},{\"编号\":1,\"含义\":\"陈述符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "对于林地地面上的这件干长木材（你看到的句柄为物284），C可以先用普通单人拿取，把它放进自己的普通携带位，再在下一步与A共同搬运。",
+      "state_id": "S0"
+    },
+    {
+      "case_id": "M3_affirm_first",
+      "question_id": "M3",
+      "order": "affirm_first",
+      "truth": false,
+      "answers": [
+        "陈述符合环境规则",
+        "陈述不符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 1,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"step\":9,\"location\":\"营地\",\"last_result\":{\"action_succeeded\":true,\"result\":\"共同搬运成功。\",\"step\":9,\"done\":false},\"known_closed_roads\":[],\"all_current_sites\":[{\"agents\":[\"A\",\"C\"],\"items\":[{\"handle\":\"物294\",\"length\":\"短\",\"kind\":\"木材\",\"condition\":\"湿\",\"processed\":true},{\"kind\":\"木材\",\"carried_by\":[\"A\",\"C\"],\"condition\":\"干\",\"length\":\"长\",\"handle\":\"物284\",\"processed\":true}],\"location\":\"营地\"},{\"location\":\"林地\",\"items\":[{\"length\":\"短\",\"kind\":\"木材\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物297\"},{\"length\":\"长\",\"condition\":\"湿\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物202\"}],\"agents\":[]},{\"items\":[{\"condition\":\"湿\",\"handle\":\"物275\",\"kind\":\"纤维\",\"length\":\"短\"},{\"condition\":\"湿\",\"kind\":\"纤维\",\"length\":\"短\",\"handle\":\"物268\"},{\"condition\":\"干\",\"carried_by\":[\"B\"],\"kind\":\"纤维\",\"length\":\"长\",\"handle\":\"物231\"},{\"length\":\"长\",\"handle\":\"物223\",\"kind\":\"纤维\",\"condition\":\"干\"}],\"agents\":[\"B\"],\"location\":\"河滩\"}],\"map\":[\"营地\",\"林地\",\"河滩\"],\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[{\"processed\":true,\"carried_by\":[\"A\",\"C\"],\"length\":\"长\",\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\"}]}],\"steps_remaining\":3,\"ground_items\":[{\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"condition\":\"湿\",\"length\":\"短\"}],\"all_current_closed_roads\":[],\"carried_items\":[{\"kind\":\"木材\",\"length\":\"长\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物284\",\"carried_by\":[\"A\",\"C\"]}],\"task_board\":[{\"quantity\":1,\"kind\":\"木材\",\"delivered\":0,\"length\":\"长\",\"condition\":\"干\",\"destination\":\"营地\"},{\"destination\":\"营地\",\"kind\":\"纤维\",\"delivered\":0,\"length\":\"长\",\"quantity\":1,\"condition\":\"干\"}],\"agent\":\"C\"},\"当前观察的直读\":{\"你现在的位置\":\"营地\",\"你现在实际携带\":\"物284：干长木材（已加工）\",\"这里地上的物品\":\"物294：湿短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"当前A、C共同携带的这件干长木材（你看到的句柄为物284）已经到达营地，因此对应的木材交付需求已经计为完成。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述符合环境规则\"},{\"编号\":1,\"含义\":\"陈述不符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "当前A、C共同携带的这件干长木材（你看到的句柄为物284）已经到达营地，因此对应的木材交付需求已经计为完成。",
+      "state_id": "S1"
+    },
+    {
+      "case_id": "M3_deny_first",
+      "question_id": "M3",
+      "order": "deny_first",
+      "truth": false,
+      "answers": [
+        "陈述不符合环境规则",
+        "陈述符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 0,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"step\":9,\"location\":\"营地\",\"last_result\":{\"action_succeeded\":true,\"result\":\"共同搬运成功。\",\"step\":9,\"done\":false},\"known_closed_roads\":[],\"all_current_sites\":[{\"agents\":[\"A\",\"C\"],\"items\":[{\"handle\":\"物294\",\"length\":\"短\",\"kind\":\"木材\",\"condition\":\"湿\",\"processed\":true},{\"kind\":\"木材\",\"carried_by\":[\"A\",\"C\"],\"condition\":\"干\",\"length\":\"长\",\"handle\":\"物284\",\"processed\":true}],\"location\":\"营地\"},{\"location\":\"林地\",\"items\":[{\"length\":\"短\",\"kind\":\"木材\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物297\"},{\"length\":\"长\",\"condition\":\"湿\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物202\"}],\"agents\":[]},{\"items\":[{\"condition\":\"湿\",\"handle\":\"物275\",\"kind\":\"纤维\",\"length\":\"短\"},{\"condition\":\"湿\",\"kind\":\"纤维\",\"length\":\"短\",\"handle\":\"物268\"},{\"condition\":\"干\",\"carried_by\":[\"B\"],\"kind\":\"纤维\",\"length\":\"长\",\"handle\":\"物231\"},{\"length\":\"长\",\"handle\":\"物223\",\"kind\":\"纤维\",\"condition\":\"干\"}],\"agents\":[\"B\"],\"location\":\"河滩\"}],\"map\":[\"营地\",\"林地\",\"河滩\"],\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[{\"processed\":true,\"carried_by\":[\"A\",\"C\"],\"length\":\"长\",\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\"}]}],\"steps_remaining\":3,\"ground_items\":[{\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"condition\":\"湿\",\"length\":\"短\"}],\"all_current_closed_roads\":[],\"carried_items\":[{\"kind\":\"木材\",\"length\":\"长\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物284\",\"carried_by\":[\"A\",\"C\"]}],\"task_board\":[{\"quantity\":1,\"kind\":\"木材\",\"delivered\":0,\"length\":\"长\",\"condition\":\"干\",\"destination\":\"营地\"},{\"destination\":\"营地\",\"kind\":\"纤维\",\"delivered\":0,\"length\":\"长\",\"quantity\":1,\"condition\":\"干\"}],\"agent\":\"C\"},\"当前观察的直读\":{\"你现在的位置\":\"营地\",\"你现在实际携带\":\"物284：干长木材（已加工）\",\"这里地上的物品\":\"物294：湿短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"当前A、C共同携带的这件干长木材（你看到的句柄为物284）已经到达营地，因此对应的木材交付需求已经计为完成。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述不符合环境规则\"},{\"编号\":1,\"含义\":\"陈述符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "当前A、C共同携带的这件干长木材（你看到的句柄为物284）已经到达营地，因此对应的木材交付需求已经计为完成。",
+      "state_id": "S1"
+    },
+    {
+      "case_id": "M4_affirm_first",
+      "question_id": "M4",
+      "order": "affirm_first",
+      "truth": true,
+      "answers": [
+        "陈述符合环境规则",
+        "陈述不符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 0,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"step\":9,\"location\":\"营地\",\"last_result\":{\"action_succeeded\":true,\"result\":\"共同搬运成功。\",\"step\":9,\"done\":false},\"known_closed_roads\":[],\"all_current_sites\":[{\"agents\":[\"A\",\"C\"],\"items\":[{\"handle\":\"物294\",\"length\":\"短\",\"kind\":\"木材\",\"condition\":\"湿\",\"processed\":true},{\"kind\":\"木材\",\"carried_by\":[\"A\",\"C\"],\"condition\":\"干\",\"length\":\"长\",\"handle\":\"物284\",\"processed\":true}],\"location\":\"营地\"},{\"location\":\"林地\",\"items\":[{\"length\":\"短\",\"kind\":\"木材\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物297\"},{\"length\":\"长\",\"condition\":\"湿\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物202\"}],\"agents\":[]},{\"items\":[{\"condition\":\"湿\",\"handle\":\"物275\",\"kind\":\"纤维\",\"length\":\"短\"},{\"condition\":\"湿\",\"kind\":\"纤维\",\"length\":\"短\",\"handle\":\"物268\"},{\"condition\":\"干\",\"carried_by\":[\"B\"],\"kind\":\"纤维\",\"length\":\"长\",\"handle\":\"物231\"},{\"length\":\"长\",\"handle\":\"物223\",\"kind\":\"纤维\",\"condition\":\"干\"}],\"agents\":[\"B\"],\"location\":\"河滩\"}],\"map\":[\"营地\",\"林地\",\"河滩\"],\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[{\"processed\":true,\"carried_by\":[\"A\",\"C\"],\"length\":\"长\",\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\"}]}],\"steps_remaining\":3,\"ground_items\":[{\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"condition\":\"湿\",\"length\":\"短\"}],\"all_current_closed_roads\":[],\"carried_items\":[{\"kind\":\"木材\",\"length\":\"长\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物284\",\"carried_by\":[\"A\",\"C\"]}],\"task_board\":[{\"quantity\":1,\"kind\":\"木材\",\"delivered\":0,\"length\":\"长\",\"condition\":\"干\",\"destination\":\"营地\"},{\"destination\":\"营地\",\"kind\":\"纤维\",\"delivered\":0,\"length\":\"长\",\"quantity\":1,\"condition\":\"干\"}],\"agent\":\"C\"},\"当前观察的直读\":{\"你现在的位置\":\"营地\",\"你现在实际携带\":\"物284：干长木材（已加工）\",\"这里地上的物品\":\"物294：湿短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"本步A与C对当前共同携带的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同交付，两人互为搭档，B等待。判断以下陈述：本步结算后，这件木材的交付被接收，对应木材交付量增加一件，A和C的普通携带位都释放。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述符合环境规则\"},{\"编号\":1,\"含义\":\"陈述不符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "本步A与C对当前共同携带的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同交付，两人互为搭档，B等待。判断以下陈述：本步结算后，这件木材的交付被接收，对应木材交付量增加一件，A和C的普通携带位都释放。",
+      "state_id": "S1"
+    },
+    {
+      "case_id": "M4_deny_first",
+      "question_id": "M4",
+      "order": "deny_first",
+      "truth": true,
+      "answers": [
+        "陈述不符合环境规则",
+        "陈述符合环境规则"
+      ],
+      "choices": [
+        0,
+        1
+      ],
+      "correct_choice": 1,
+      "prompt": [
+        {
+          "role": "system",
+          "content": "你是本题中的C。依据以下完整环境规则和当前状态判断陈述。\n你们三人共同在12个物理动作步内完成营地任务板的两项交付需求，三人能力相同。\n【目标与计数】交付物的种类、长短、干湿必须同时与同一项需求完全一致，且在该项指定地点交付。可搬运不等于符合需求。quantity是本段累计需要的物品件数；每件物品算一个单位，两人共同搬一件仍只算一个单位。数量为2时需要两件不同物品。\n【观察与地图】营地、林地、河滩两两有道路，所有道路在本任务中永久双向开放，每次移动一步到达相邻地点。你只直接观察所在地的地面物品、同地伙伴的可见状态、自己的携带物和动作结果。任务板只在营地可读，正文是本段固定需求，不显示异地交付进度，再次查看不会增加需求。伙伴广播不是环境保证的事实。物品句柄只对自己有效，伙伴对同一物品使用不同句柄；动作编号也可能随观察改变。\n【动作与时间】每人每步只能选一个当前菜单动作，三人的动作按本步开始时的物理状态同时结算。不能让自己的本步动作依赖伙伴本步尚未完成的移动、拿取或交接。拿取、移动、放下、交付分别占一步；广播不执行物理动作。菜单表示可以尝试，不保证满足需求或合作成功。\n【物品与携带】所有木材从开始就已可搬运，无需加工；本轮没有加工操作、斧具或其他工具，也没有改变物品种类、长短、干湿的操作。每人只有一个普通物品携带位。所有纤维无论长短、干湿均可单人拿取，短木材也可单人拿取，各占一个普通位。长木材必须两人共同搬运，占双方各自的普通位；开始共同搬运时双方普通位必须空闲。共同负载期间，只能等待或对该负载共同搬运、共同卸下、共同交付，不能独立移动、拿取或交接其他物品。\n【共同动作】两人在本步开始时同地，分别选同一物品、互为搭档的同一种共同动作；共同搬运还须选相同目的地。任一项不匹配，共同动作不发生，失败结果不透露伙伴实际选择。共同搬运成功时两人和物品一起移动一步，到达后仍共同携带。共同卸下把物品放在当地、释放双方普通位，但不计交付。共同交付成功才释放负载并计入需求；当地地面上的长木材也可由两个普通位空闲的人直接共同交付。\n【交接与争抢】未处于共同负载时，可把自己携带的物品交给同地伙伴；接收者普通位须空闲，且本步选择等待，双方各占本步动作。多个合法交接同时指向同一接收者时全部失败；多人同时拿取同一件地面物品时也全部失败。\n【交付结果】纤维和短木材须由自己携带后选单人交付。拿到物品、运到指定地点或放在指定地点，都不自动完成交付。只有“交付被接收”才计入完成量；接收后物品退出可操作物品，释放相应携带位。拒收不改变物品原来的携带或地面状态。若本步开始时某项需求仍有缺额，本步全部匹配交付均可接收，但计分最多达到所需总数；之后动作步不再接收该项超额物品。同一物品不能重复计分。\n【反馈与结束】你只获得自己可见的动作结果，不直接获得伙伴未公开的反馈或未执行动作。失败消耗一步，不给正确目标或计划。全部需求完成则提前结束，否则第12步后结束；结束时三人获得实际完成的目标单位比例。以完成单位最多为先，同完成度下越早完成越好。\n本题是独立的完整信息判断：你可查看以C自己的句柄表示的各地点当前状态和需求；待判断动作仍受物理规则限制。"
+        },
+        {
+          "role": "user",
+          "content": "{\"题目说明\":\"这是一次性动作语义判断，不执行物理动作。陈述中给定的伙伴动作是题目假设，不是实际通信或已发生的行动。\",\"你自己的历史\":[],\"当前私有观察\":{\"step\":9,\"location\":\"营地\",\"last_result\":{\"action_succeeded\":true,\"result\":\"共同搬运成功。\",\"step\":9,\"done\":false},\"known_closed_roads\":[],\"all_current_sites\":[{\"agents\":[\"A\",\"C\"],\"items\":[{\"handle\":\"物294\",\"length\":\"短\",\"kind\":\"木材\",\"condition\":\"湿\",\"processed\":true},{\"kind\":\"木材\",\"carried_by\":[\"A\",\"C\"],\"condition\":\"干\",\"length\":\"长\",\"handle\":\"物284\",\"processed\":true}],\"location\":\"营地\"},{\"location\":\"林地\",\"items\":[{\"length\":\"短\",\"kind\":\"木材\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物297\"},{\"length\":\"长\",\"condition\":\"湿\",\"kind\":\"木材\",\"processed\":true,\"handle\":\"物202\"}],\"agents\":[]},{\"items\":[{\"condition\":\"湿\",\"handle\":\"物275\",\"kind\":\"纤维\",\"length\":\"短\"},{\"condition\":\"湿\",\"kind\":\"纤维\",\"length\":\"短\",\"handle\":\"物268\"},{\"condition\":\"干\",\"carried_by\":[\"B\"],\"kind\":\"纤维\",\"length\":\"长\",\"handle\":\"物231\"},{\"length\":\"长\",\"handle\":\"物223\",\"kind\":\"纤维\",\"condition\":\"干\"}],\"agents\":[\"B\"],\"location\":\"河滩\"}],\"map\":[\"营地\",\"林地\",\"河滩\"],\"nearby_agents\":[{\"agent\":\"A\",\"visible_carried_items\":[{\"processed\":true,\"carried_by\":[\"A\",\"C\"],\"length\":\"长\",\"kind\":\"木材\",\"handle\":\"物284\",\"condition\":\"干\"}]}],\"steps_remaining\":3,\"ground_items\":[{\"kind\":\"木材\",\"handle\":\"物294\",\"processed\":true,\"condition\":\"湿\",\"length\":\"短\"}],\"all_current_closed_roads\":[],\"carried_items\":[{\"kind\":\"木材\",\"length\":\"长\",\"processed\":true,\"condition\":\"干\",\"handle\":\"物284\",\"carried_by\":[\"A\",\"C\"]}],\"task_board\":[{\"quantity\":1,\"kind\":\"木材\",\"delivered\":0,\"length\":\"长\",\"condition\":\"干\",\"destination\":\"营地\"},{\"destination\":\"营地\",\"kind\":\"纤维\",\"delivered\":0,\"length\":\"长\",\"quantity\":1,\"condition\":\"干\"}],\"agent\":\"C\"},\"当前观察的直读\":{\"你现在的位置\":\"营地\",\"你现在实际携带\":\"物284：干长木材（已加工）\",\"这里地上的物品\":\"物294：湿短木材（已加工）\",\"读取说明\":\"地上的物品还没有拿到手中。拿取和移动是不同动作，广播中的计划不等于动作已经执行。carried_items只列你实际携带的物品。\"},\"当前已可见广播\":[],\"待判断陈述\":\"本步A与C对当前共同携带的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同交付，两人互为搭档，B等待。判断以下陈述：本步结算后，这件木材的交付被接收，对应木材交付量增加一件，A和C的普通携带位都释放。\",\"答案选项\":[{\"编号\":0,\"含义\":\"陈述不符合环境规则\"},{\"编号\":1,\"含义\":\"陈述符合环境规则\"}]}"
+        }
+      ],
+      "seed": 20260916,
+      "statement": "本步A与C对当前共同携带的同一件干长木材（你看到的句柄为物284），用各自的句柄提交共同交付，两人互为搭档，B等待。判断以下陈述：本步结算后，这件木材的交付被接收，对应木材交付量增加一件，A和C的普通携带位都释放。",
+      "state_id": "S1"
+    }
+  ]
+}

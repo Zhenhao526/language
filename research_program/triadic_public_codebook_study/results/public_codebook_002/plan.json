@@ -1,0 +1,36 @@
+{
+  "created_at": 1789625957.532254,
+  "inputs_sha256": {
+    "research_program/triadic_action_dependency_study/results/context_001/freeze.json": "d87be03c52e100b4e8fa4f9b938be955609089fd4b5e961c63f6c00ea8247cbd",
+    "research_program/triadic_action_dependency_study/results/context_001/plan.json": "df5036145a1bea258a40d6e0a65b66a09c6c188b311b732c954429b6eb38fcba",
+    "research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "research_program/triadic_reciprocal_execution_study/results/rules_001/freeze.json": "5c72e53c1466e6c55060ad34b6cb788fdd8344f62c273273a51f866073fd8cdd",
+    "research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53"
+  },
+  "no_external_model": true,
+  "prepared_sha256": "999d5b65e3b2f2a4bbf326939b469f31d2179f19cff91095a7b966923a176560",
+  "runtime": {
+    "numpy": "2.5.3",
+    "python": "3.12.14"
+  },
+  "source_sha256": {
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_action_dependency_study/results/context_001/freeze.json": "d87be03c52e100b4e8fa4f9b938be955609089fd4b5e961c63f6c00ea8247cbd",
+    "research_program/triadic_action_dependency_study/results/context_001/plan.json": "df5036145a1bea258a40d6e0a65b66a09c6c188b311b732c954429b6eb38fcba",
+    "research_program/triadic_action_dependency_study/results/context_001/prepared.json": "e555037fa8a9d72a2ef150a0d99d46e5a893139b2efa02314dffa3e2a001a299",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_need_response_study/cases.py": "b4ba2f23144ba7ca8c2849c608fea91ad971e673112ae8c164824d487f52daed",
+    "research_program/triadic_public_codebook_study/__init__.py": "92f865c272905618029441ace7cd4e23e9171e068ad522f926e6c17893c1fc8b",
+    "research_program/triadic_public_codebook_study/audit.py": "2da137ce3ceb2d5f6266889d4e3a8ee776a0297c9e7fd46d05b78bda084b4d7b",
+    "research_program/triadic_public_codebook_study/design.py": "a7632731e1dbb1542725f8cd81aff93aaaef796ec431630107bcd95084a1aa7c",
+    "research_program/triadic_public_codebook_study/plan.md": "6d891f1543e8108a7a15332baa33364e54f7e1f5754cdda74df6046ed49aa126",
+    "research_program/triadic_public_codebook_study/runner.py": "2f6f5b60627aceb7ee19aae8485b30e40d84da49bb198f3c7b3ebb96ab6bb635",
+    "research_program/triadic_public_codebook_study/wire.py": "19096813e272717427b448744d33430bd4a0c1d1e1b60bc56ce3c65682d1beed",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_reciprocal_execution_study/kernel.py": "6070b2a263634a7259137f7bf6bda0249acd4bd2b357c574e57a141eebf11df9",
+    "research_program/triadic_reciprocal_execution_study/results/rules_001/freeze.json": "5c72e53c1466e6c55060ad34b6cb788fdd8344f62c273273a51f866073fd8cdd",
+    "research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+    "research_program/triadic_rule_formation_study/runner.py": "9009af45511ef7ddb96089558c9023a7567ce8934303a539c1043858ab9bc64a"
+  },
+  "status": "prepared_without_training"
+}

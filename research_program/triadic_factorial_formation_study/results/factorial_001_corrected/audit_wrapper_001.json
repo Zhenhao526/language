@@ -1,0 +1,27 @@
+{
+  "status": "provenance_only",
+  "purpose": "Document the compatibility wrapper used to replay the frozen audit against the JSON/NPZ-only corrected result tree.",
+  "frozen_audit": "research_program/triadic_factorial_formation_study/audit.py",
+  "wrapper": "research_program/triadic_factorial_formation_study/audit_corrected.py",
+  "corrected_result": "research_program/triadic_factorial_formation_study/results/factorial_001_corrected/execution/results.json",
+  "runtime_injections": [
+    "Use the legacy platform, array_sha and core implementations so the frozen audit can reproduce its original environment.",
+    "Replace only factor_subset_independent with the elementwise endpoint comparison from correction.py.",
+    "Compare equivalent resolved paths as equal because corrected run directories point to immutable original assets through symlinks; all non-path recursive comparisons remain frozen."
+  ],
+  "scientific_scope": [
+    "No training, optimizer update, gradient or model-forward code was added by the wrapper.",
+    "All saved NPZ/checkpoint/log files remain immutable; the corrected result changes only the researcher-side response field and derived primary statistic.",
+    "The full replay reached the frozen audit's final scope assertion before the assertion's paired-versus-total log row mismatch was recovered by audit_corrected_scope_001."
+  ],
+  "failed_or_interrupted_audits_preserved": [
+    "audit_execution_001/interrupted.json",
+    "audit_corrected_001",
+    "audit_corrected_002",
+    "audit_corrected_003",
+    "audit_corrected_004",
+    "audit_corrected_005",
+    "audit_corrected_006/failure.json"
+  ],
+  "reason_frozen_source_was_not_edited": "The original audit and production outputs are retained for provenance; changing the frozen source in place would make the correction and its scope impossible to review against the original implementation."
+}

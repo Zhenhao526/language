@@ -1,0 +1,132 @@
+{
+  "seed": 28104,
+  "representation": "identity",
+  "updates": 2400,
+  "batch": 512,
+  "eval_n_per_agent": 9600,
+  "gate": 0.9,
+  "initial_sha256": "59674dad3b1a8ee12e92dad0455a74c4b3b4b474c64485432f223d8185ce9cae",
+  "common_initial_sha256": "d091e48a410f43b2f6e1e9d0d13f496bc80aef04b473979f303b6a9df3e2b4e1",
+  "input_transforms": [
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "fitted_agent_prefixes": [
+    "memory.",
+    "slot_phi."
+  ],
+  "probe_head": "96->96 Tanh->12, own demand selects six-site branch",
+  "optimizer": "Adam",
+  "learning_rate": 0.0007,
+  "entropy_coefficient": 0.02,
+  "entropy_off_after": 2100,
+  "training_world": "Full30 maps, scalar reward only, independent personal choices; no communication",
+  "prepared_source": {
+    "path": "/Users/xia/Documents/ChatGPT/语言/research_program/policy_gain_study/results/gain_001/prepared_28104.pt",
+    "sha256": "6df2eaa69c222b5e74c2321b4cd8cfa09c7ca6d53445cdbdf1ef418b8915e535"
+  },
+  "source_hashes": {
+    "camp.py": "21ad5ff2eecf871ff2e8e17e5623875f55d701e66302b741a46658c0cec81854",
+    "run_experiment.py": "485221ac4c90f69b88047f380edfaf4922973cff986c8bfa5c47e700cab13d62",
+    "run_controls.py": "38ef2921e9e57342bd79063af8bd33d0ee35db4b7352672937ac710f7b4ded73",
+    "固定执行方案.md": "cf3d92f5eb9755a83b11dcbd3f1792f5474203ce445624fc7b347ccf499996b4"
+  }
+}

@@ -1,0 +1,2156 @@
+{
+  "seed": 101,
+  "condition": "H0",
+  "task": "fixed",
+  "planned_steps": 24000,
+  "rollout": 32,
+  "eval_every": 2000,
+  "eval_n": 512,
+  "lr": 0.002,
+  "entropy": 0.03,
+  "wall_limit": 600,
+  "device": "cpu",
+  "codebook_for_fixed_control": [
+    1,
+    0,
+    3,
+    2
+  ],
+  "params_per_agent": 141926,
+  "pretrained_checkpoint_sha256": "3f04b6ec0ab3928e8ba0bf4bafe3a118f5abad8343ec342c2e8b4c8815f0c3f9",
+  "pretrain_accuracy": [
+    0.9990234375,
+    0.9970703125
+  ],
+  "visual_encoder": "prepared with reward-only matching, then frozen",
+  "history": "last 4 completed private episodes, updated chronologically after decisions",
+  "learning": "local REINFORCE with detached shared 0/1 reward; no cross-message gradients",
+  "steps": 24000,
+  "train_seconds": 41.44508345797658,
+  "main_loop_seconds": 37.64559658296639,
+  "evaluations": [
+    {
+      "accuracy": 0.189453125,
+      "cleared_accuracy": 0.189453125,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        0.2574626865671642,
+        0.11475409836065574
+      ],
+      "direction_cleared_accuracy": [
+        0.2574626865671642,
+        0.11475409836065574
+      ],
+      "direction_n": [
+        268,
+        244
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            63,
+            0,
+            0
+          ],
+          [
+            74,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            75
+          ],
+          [
+            0,
+            0,
+            56,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            57,
+            0,
+            0
+          ],
+          [
+            68,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            41
+          ],
+          [
+            0,
+            0,
+            78,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            1,
+            69,
+            4,
+            0
+          ],
+          [
+            0,
+            34,
+            29,
+            0
+          ],
+          [
+            49,
+            7,
+            0,
+            0
+          ],
+          [
+            29,
+            46,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            23,
+            0,
+            23,
+            22
+          ],
+          [
+            0,
+            0,
+            0,
+            57
+          ],
+          [
+            59,
+            3,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            12,
+            29
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 0
+    },
+    {
+      "accuracy": 0.99609375,
+      "cleared_accuracy": 0.99609375,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        0.9924812030075187,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        0.9924812030075187,
+        1.0
+      ],
+      "direction_n": [
+        266,
+        246
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            65,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            73
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            65,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ],
+          [
+            0,
+            0,
+            61,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            58,
+            2,
+            0
+          ],
+          [
+            65,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            73,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            65,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            61
+          ],
+          [
+            0,
+            0,
+            60,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 2000,
+      "train_accuracy": 0.946,
+      "seconds": 3.658555041998625
+    },
+    {
+      "accuracy": 0.998046875,
+      "cleared_accuracy": 0.998046875,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        0.9961538461538462
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        0.9961538461538462
+      ],
+      "direction_n": [
+        252,
+        260
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            66,
+            0,
+            0
+          ],
+          [
+            58,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            66
+          ],
+          [
+            0,
+            0,
+            62,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            49,
+            0,
+            0
+          ],
+          [
+            69,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            74
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            58,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            62
+          ],
+          [
+            0,
+            0,
+            66,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            69,
+            0,
+            0
+          ],
+          [
+            48,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            74,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 4000,
+      "train_accuracy": 0.9955,
+      "seconds": 6.745060624962207
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        268,
+        244
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            72,
+            0,
+            0
+          ],
+          [
+            72,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            56
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            66
+          ],
+          [
+            0,
+            0,
+            56,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            72,
+            0,
+            0
+          ],
+          [
+            72,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            56,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            56
+          ],
+          [
+            0,
+            0,
+            66,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 6000,
+      "train_accuracy": 0.996,
+      "seconds": 9.792257874971256
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        271,
+        241
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            59,
+            0,
+            0
+          ],
+          [
+            75,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            82
+          ],
+          [
+            0,
+            0,
+            55,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            56,
+            0,
+            0
+          ],
+          [
+            69,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            57
+          ],
+          [
+            0,
+            0,
+            59,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            75,
+            0,
+            0
+          ],
+          [
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            55
+          ],
+          [
+            0,
+            0,
+            82,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            69,
+            0,
+            0
+          ],
+          [
+            56,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            59
+          ],
+          [
+            0,
+            0,
+            57,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 8000,
+      "train_accuracy": 0.998,
+      "seconds": 12.862199458002578
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        242,
+        270
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            55,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            63
+          ],
+          [
+            0,
+            0,
+            63,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            63,
+            0,
+            0
+          ],
+          [
+            67,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            71
+          ],
+          [
+            0,
+            0,
+            69,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            55,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            63
+          ],
+          [
+            0,
+            0,
+            63,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            67,
+            0,
+            0
+          ],
+          [
+            63,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            69
+          ],
+          [
+            0,
+            0,
+            71,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 10000,
+      "train_accuracy": 0.9975,
+      "seconds": 15.953151958005037
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        261,
+        251
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            63,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            70
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ],
+          [
+            0,
+            0,
+            70,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            63,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            70,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            70
+          ],
+          [
+            0,
+            0,
+            60,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 12000,
+      "train_accuracy": 0.9985,
+      "seconds": 19.090863958001137
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        240,
+        272
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            54,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            72
+          ],
+          [
+            0,
+            0,
+            46,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            74,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            70,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            54,
+            0,
+            0
+          ],
+          [
+            68,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            72,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            74,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            70
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 14000,
+      "train_accuracy": 0.9975,
+      "seconds": 22.17719550000038
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        261,
+        251
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            69,
+            0,
+            0
+          ],
+          [
+            72,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            58
+          ],
+          [
+            0,
+            0,
+            62,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            49,
+            0,
+            0
+          ],
+          [
+            75,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            71
+          ],
+          [
+            0,
+            0,
+            56,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            72,
+            0,
+            0
+          ],
+          [
+            69,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            62
+          ],
+          [
+            0,
+            0,
+            58,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            75,
+            0,
+            0
+          ],
+          [
+            49,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            56
+          ],
+          [
+            0,
+            0,
+            71,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 16000,
+      "train_accuracy": 0.997,
+      "seconds": 25.28757291700458
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        251,
+        261
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            64,
+            0,
+            0
+          ],
+          [
+            62,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            62
+          ],
+          [
+            0,
+            0,
+            63,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            72,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            62,
+            0,
+            0
+          ],
+          [
+            64,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            63
+          ],
+          [
+            0,
+            0,
+            62,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            72
+          ],
+          [
+            0,
+            0,
+            68,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 18000,
+      "train_accuracy": 0.9965,
+      "seconds": 28.33951783296652
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        274,
+        238
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            66,
+            0,
+            0
+          ],
+          [
+            65,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            73
+          ],
+          [
+            0,
+            0,
+            70,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            43,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            56
+          ],
+          [
+            0,
+            0,
+            73,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            65,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            70
+          ],
+          [
+            0,
+            0,
+            73,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            66,
+            0,
+            0
+          ],
+          [
+            43,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            73
+          ],
+          [
+            0,
+            0,
+            56,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 20000,
+      "train_accuracy": 0.997,
+      "seconds": 31.427897749992553
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        259,
+        253
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            63
+          ],
+          [
+            0,
+            0,
+            84,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            74,
+            0,
+            0
+          ],
+          [
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            64
+          ],
+          [
+            0,
+            0,
+            54,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            84
+          ],
+          [
+            0,
+            0,
+            63,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            61,
+            0,
+            0
+          ],
+          [
+            74,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            54
+          ],
+          [
+            0,
+            0,
+            64,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 22000,
+      "train_accuracy": 0.9985,
+      "seconds": 34.53967912500957
+    },
+    {
+      "accuracy": 1.0,
+      "cleared_accuracy": 1.0,
+      "n": 512,
+      "n_trials": 512,
+      "direction_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_cleared_accuracy": [
+        1.0,
+        1.0
+      ],
+      "direction_n": [
+        263,
+        249
+      ],
+      "intervention_accuracy": null,
+      "intervention_follow_rate": null,
+      "original_accuracy_on_intervened": null,
+      "intervention_n": 0,
+      "intervention_n_trials": 0,
+      "intervention_follow_n_trials": 0,
+      "message_counts": [
+        [
+          [
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            66,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            75
+          ],
+          [
+            0,
+            0,
+            54,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            71,
+            0,
+            0
+          ],
+          [
+            62,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            51
+          ],
+          [
+            0,
+            0,
+            65,
+            0
+          ]
+        ]
+      ],
+      "response_counts": [
+        [
+          [
+            0,
+            66,
+            0,
+            0
+          ],
+          [
+            68,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            54
+          ],
+          [
+            0,
+            0,
+            75,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            62,
+            0,
+            0
+          ],
+          [
+            71,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            65
+          ],
+          [
+            0,
+            0,
+            51,
+            0
+          ]
+        ]
+      ],
+      "used_symbols": [
+        4,
+        4
+      ],
+      "reference_n": 0,
+      "reference_seed": null,
+      "reference_direction_n": null,
+      "reference_used_symbols": null,
+      "reference_message_to_class": null,
+      "reference_message_counts": null,
+      "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback",
+      "step": 24000,
+      "train_accuracy": 0.9985,
+      "seconds": 37.644622374966275
+    }
+  ],
+  "final_eval": {
+    "accuracy": 1.0,
+    "cleared_accuracy": 1.0,
+    "n": 2048,
+    "n_trials": 2048,
+    "direction_accuracy": [
+      1.0,
+      1.0
+    ],
+    "direction_cleared_accuracy": [
+      1.0,
+      1.0
+    ],
+    "direction_n": [
+      1029,
+      1019
+    ],
+    "intervention_accuracy": 0.0,
+    "intervention_follow_rate": 1.0,
+    "original_accuracy_on_intervened": 1.0,
+    "intervention_n": 2048,
+    "intervention_n_trials": 2048,
+    "intervention_follow_n_trials": 2048,
+    "message_counts": [
+      [
+        [
+          0,
+          229,
+          0,
+          0
+        ],
+        [
+          263,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          285
+        ],
+        [
+          0,
+          0,
+          252,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          276,
+          0,
+          0
+        ],
+        [
+          238,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          250
+        ],
+        [
+          0,
+          0,
+          255,
+          0
+        ]
+      ]
+    ],
+    "response_counts": [
+      [
+        [
+          0,
+          263,
+          0,
+          0
+        ],
+        [
+          229,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          252
+        ],
+        [
+          0,
+          0,
+          285,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          238,
+          0,
+          0
+        ],
+        [
+          276,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          0,
+          0,
+          250,
+          0
+        ]
+      ]
+    ],
+    "used_symbols": [
+      4,
+      4
+    ],
+    "reference_n": 1024,
+    "reference_seed": 10324343,
+    "reference_direction_n": [
+      509,
+      515
+    ],
+    "reference_used_symbols": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "reference_message_to_class": [
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ]
+    ],
+    "reference_message_counts": [
+      [
+        [
+          0,
+          122,
+          0,
+          0
+        ],
+        [
+          135,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          127
+        ],
+        [
+          0,
+          0,
+          125,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          144,
+          0,
+          0
+        ],
+        [
+          116,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          130
+        ],
+        [
+          0,
+          0,
+          125,
+          0
+        ]
+      ]
+    ],
+    "evaluation_mode": "greedy; fixed private training-end history; no parameter/history updates or feedback"
+  },
+  "stopped_by_time": false,
+  "process_peak_rss_bytes": 530333696
+}

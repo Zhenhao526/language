@@ -1,0 +1,11 @@
+# Keep future reruns out of the lightweight archive
+**/results/**/seed_*/
+**/*.npz
+**/*.npy
+**/*.jsonl
+**/*.safetensors
+**/*.pth
+**/*.pt
+**/weights/
+**/models/
+**/data/

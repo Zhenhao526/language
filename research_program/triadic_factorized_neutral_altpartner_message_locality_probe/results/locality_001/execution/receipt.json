@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "output_results_sha256": "e86583680e14525a3046f70cce374c52423a4de5332dc2ab8c3569153194ac48",
+  "rows": 512,
+  "worlds": 28753920,
+  "model_forwards": 258785280,
+  "optimizer_updates": 0,
+  "new_training": 0,
+  "elapsed_seconds": 94.97382520895917
+}

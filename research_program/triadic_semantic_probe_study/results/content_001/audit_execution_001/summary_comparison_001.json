@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "compared_at": "2026-09-15T17:33:34.852045+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/compare_audit_summary.py": "9ad7c3ee8a089c358907f3772beee5b91478d87842d9dce1c65add9fc7bbff52",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/audit_execution_001/verification.json": "33a35cf7b9cfb988cd26f5249dbf3cc7f805d5f1f8f28969fe5bf1e09e0c5656",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_probe_study/results/content_001/summary_001/summary.json": "b87b506dc3bbc2db59af29ea9eb90536c127e60517dac4e0a0f54be57819999d"
+  },
+  "reports_checked": 400,
+  "natural_reports": 192,
+  "two_direction_intervention_reports": 160,
+  "remote_window_contrasts": 48,
+  "checked_metric_fields": 7040,
+  "checked_scalar_entries": 37645,
+  "max_absolute_difference": 3.248512570053208e-13,
+  "absolute_tolerance": 2e-12,
+  "primary_seed_pairs": [
+    {
+      "seed": 49101,
+      "PI_silent": 0.0,
+      "PI_live": 0.005015432098765432,
+      "live_minus_silent": 0.005015432098765432
+    },
+    {
+      "seed": 49102,
+      "PI_silent": 0.0,
+      "PI_live": 0.056712962962962965,
+      "live_minus_silent": 0.056712962962962965
+    },
+    {
+      "seed": 49103,
+      "PI_silent": 0.0,
+      "PI_live": 0.047839506172839504,
+      "live_minus_silent": 0.047839506172839504
+    },
+    {
+      "seed": 49104,
+      "PI_silent": 0.0,
+      "PI_live": 0.11676954732510286,
+      "live_minus_silent": 0.11676954732510286
+    }
+  ],
+  "primary_equal_seed_mean": 0.05658436213991769,
+  "PI_live_heldout_remote_three_windows": {
+    "w1": {
+      "seed_values": [
+        0.008873456790123456,
+        0.07420267489711933,
+        0.06288580246913579,
+        0.11265432098765432
+      ],
+      "equal_seed_mean": 0.06465406378600823
+    },
+    "w2": {
+      "seed_values": [
+        -0.0032793209876543212,
+        0.0026363168724279824,
+        0.0032793209876543204,
+        0.019290123456790122
+      ],
+      "equal_seed_mean": 0.005481610082304526
+    },
+    "both": {
+      "seed_values": [
+        -0.0001929012345679018,
+        0.06301440329218107,
+        0.06249999999999999,
+        0.13824588477366256
+      ],
+      "equal_seed_mean": 0.06589184670781893
+    }
+  },
+  "new_network_forwards": 0,
+  "new_training_updates": 0,
+  "limits": [
+    "Compared every400 report at independent common per-axis and macro metrics, not every auxiliary stratum or row_metrics NPZ.",
+    "Natural both_teams_full maps to official both_team_full_success.",
+    "Independent weights sum directly; official metrics normalize within-axis weights, allowing floating-point last-bit differences.",
+    "Raw512 natural/intervention record identities, route SHA and full replay were checked in the separate audit."
+  ]
+}

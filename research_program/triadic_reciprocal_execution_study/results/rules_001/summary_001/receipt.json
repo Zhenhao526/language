@@ -1,0 +1,191 @@
+{
+  "status": "completed",
+  "at": "2026-09-16T03:48:06.150718+00:00",
+  "source_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/status.json": "341d683078f5706f64767f8502d3e0f1ca949783691f382650de20ec7f70c432",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/execution/results.json": "28dc1ee3ba9a6a460ad783b42f3d7faf6caef52d55be9753693122d894984a5e",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/plan.json": "59e9f8d3b2056538b339072867fde4c58b1478274d982e3158d1b4268edd0e53",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/prepared.json": "4bfeba14c0fb886c74264346f6e3163d710df7134581917e3ee3db04f0484c5a",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/freeze.json": "5c72e53c1466e6c55060ad34b6cb788fdd8344f62c273273a51f866073fd8cdd"
+  },
+  "script_sha256": "e58d87bb23988309c2d91feea1310a0e67910a2551e64d88a5234df1e8c2d3f5",
+  "outputs": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_reciprocal_execution_study/results/rules_001/summary_001/descriptive_summary.json": "3baf3074c1e88ce356d56f0faa284e4cf56d8ce97ffdfc479dc1b8ec83e962ef"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "scope": {
+    "npz_files_opened": 0,
+    "model_loads": 0,
+    "neural_forward_calls": 0,
+    "training_updates": 0,
+    "actual_evaluation_records": 224,
+    "cross_settlement_summary_references": 448,
+    "primary_exact_equals_main": true
+  },
+  "primary": {
+    "metric": "full_success_rate",
+    "partition": "new_needs_and_layouts",
+    "paired_seeds": [
+      {
+        "seed": 57101,
+        "contrasts": {
+          "full_success_rate": 0.030447281959378736,
+          "executed_partner_correct_rate": 0.12281586021505375,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.049703181003584174
+        },
+        "cells": {
+          "strict": {
+            "full_success_rate": 0.28274342891278376,
+            "executed_partner_correct_rate": 0.30495818399044206,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5644881272401434
+          },
+          "reciprocal": {
+            "full_success_rate": 0.3131907108721625,
+            "executed_partner_correct_rate": 0.4277740442054958,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6141913082437276
+          }
+        },
+        "full_success_cross_settlement": {
+          "strict": {
+            "strict": 0.28274342891278376,
+            "reciprocal": 0.28274342891278376
+          },
+          "reciprocal": {
+            "strict": 0.0,
+            "reciprocal": 0.3131907108721625
+          }
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.030447281959378736,
+          "strict_policy_mechanical_release": 0.0,
+          "common_strict_policy_difference": -0.28274342891278376,
+          "reciprocal_policy_mechanical_release": 0.3131907108721625
+        }
+      },
+      {
+        "seed": 57102,
+        "contrasts": {
+          "full_success_rate": 0.001997461170848258,
+          "executed_partner_correct_rate": 0.1022812126642772,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.0018014486260453655
+        },
+        "cells": {
+          "strict": {
+            "full_success_rate": 0.3130787037037037,
+            "executed_partner_correct_rate": 0.3142547789725209,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.626652105734767
+          },
+          "reciprocal": {
+            "full_success_rate": 0.315076164874552,
+            "executed_partner_correct_rate": 0.4165359916367981,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6284535543608124
+          }
+        },
+        "full_success_cross_settlement": {
+          "strict": {
+            "strict": 0.3130787037037037,
+            "reciprocal": 0.3130787037037037
+          },
+          "reciprocal": {
+            "strict": 0.0,
+            "reciprocal": 0.315076164874552
+          }
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.001997461170848258,
+          "strict_policy_mechanical_release": 0.0,
+          "common_strict_policy_difference": -0.3130787037037037,
+          "reciprocal_policy_mechanical_release": 0.315076164874552
+        }
+      },
+      {
+        "seed": 57103,
+        "contrasts": {
+          "full_success_rate": -0.008213859020310632,
+          "executed_partner_correct_rate": 0.06645758661887696,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": -0.0013907556750298866
+        },
+        "cells": {
+          "strict": {
+            "full_success_rate": 0.29127464157706096,
+            "executed_partner_correct_rate": 0.3180256869772999,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5756888440860215
+          },
+          "reciprocal": {
+            "full_success_rate": 0.2830607825567503,
+            "executed_partner_correct_rate": 0.38448327359617684,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.5742980884109916
+          }
+        },
+        "full_success_cross_settlement": {
+          "strict": {
+            "strict": 0.29127464157706096,
+            "reciprocal": 0.29127464157706096
+          },
+          "reciprocal": {
+            "strict": 0.0,
+            "reciprocal": 0.2830607825567503
+          }
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": -0.008213859020310632,
+          "strict_policy_mechanical_release": 0.0,
+          "common_strict_policy_difference": -0.29127464157706096,
+          "reciprocal_policy_mechanical_release": 0.2830607825567503
+        }
+      },
+      {
+        "seed": 57104,
+        "contrasts": {
+          "full_success_rate": 0.10248655913978497,
+          "executed_partner_correct_rate": 0.15602598566308246,
+          "proposal_role_success_rate": -0.3333333333333333,
+          "reward_mean": 0.09363799283154128
+        },
+        "cells": {
+          "strict": {
+            "full_success_rate": 0.2163978494623656,
+            "executed_partner_correct_rate": 0.2835274790919952,
+            "proposal_role_success_rate": 0.3333333333333333,
+            "reward_mean": 0.5312126642771804
+          },
+          "reciprocal": {
+            "full_success_rate": 0.31888440860215056,
+            "executed_partner_correct_rate": 0.43955346475507767,
+            "proposal_role_success_rate": 0.0,
+            "reward_mean": 0.6248506571087217
+          }
+        },
+        "full_success_cross_settlement": {
+          "strict": {
+            "strict": 0.2163978494623656,
+            "reciprocal": 0.2163978494623656
+          },
+          "reciprocal": {
+            "strict": 0.0,
+            "reciprocal": 0.31888440860215056
+          }
+        },
+        "decomposition": {
+          "common_reciprocal_policy_difference": 0.10248655913978497,
+          "strict_policy_mechanical_release": 0.0,
+          "common_strict_policy_difference": -0.2163978494623656,
+          "reciprocal_policy_mechanical_release": 0.31888440860215056
+        }
+      }
+    ],
+    "mean_difference": 0.03167936081242533
+  }
+}

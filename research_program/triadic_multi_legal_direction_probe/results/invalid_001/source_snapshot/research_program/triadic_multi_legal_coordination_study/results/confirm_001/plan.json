@@ -1,0 +1,116 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-16T19:36:08.010958+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "actions_per_actor": 17,
+    "worker_count": 4,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        17
+      ]
+    },
+    "seeds": [
+      66401,
+      66402,
+      66403,
+      66404,
+      66405,
+      66406,
+      66407,
+      66408,
+      66409,
+      66410,
+      66411,
+      66412,
+      66413,
+      66414,
+      66415,
+      66416
+    ],
+    "payoffs": [
+      "partial_multi"
+    ],
+    "rules": [
+      "strict"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "partial_multi_strict_PL_live",
+      "partial_multi_strict_PL_silent"
+    ],
+    "partitions": [
+      "train",
+      "new_layouts"
+    ],
+    "task": "multiple_legal_plan_coordination",
+    "training_objective": "mean_log_expected_reward_over_all_full_and_partial_legal_plans; sender_two_trajectory_LOO",
+    "observation": "PL_own_need_and_public_layout_only; other_need_blocks_and_FI_flag_zero",
+    "pairing": "same initial parameters, world uniforms and message uniforms across live/silent within each seed",
+    "evaluation": "two-legal-plan worlds on train layouts at six checkpoints; new-layout worlds at final",
+    "primary": "live_minus_silent_team_Q_centered_time_AUC_over_two_legal_plan_worlds",
+    "selection": "fixed16 new seeds ×2 communication channels ×6000 updates; no early stopping",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_multi_legal_coordination_study/__init__.py": "1d3c41ccbd2f7ed10a5f3131785656f624023c4ebb818a7e4d337edd6bd7bc7b",
+    "research_program/triadic_multi_legal_coordination_study/design.py": "9c01abcdeacdaa35f572eb567d4a873477373ad1354866aa58ce538071935f65",
+    "research_program/triadic_multi_legal_coordination_study/kernel.py": "c043d613244466bfce1da9a45a8c932eeaacd3fb127e586dfb6492e7995e735b",
+    "research_program/triadic_multi_legal_coordination_study/metrics.py": "7918b2f2069df9df296e99cc7019b7f0431827a237ccfb3db45b8fcc48493422",
+    "research_program/triadic_multi_legal_coordination_study/runner.py": "8bb098bde9786aa6374272d9937622d52b4cff27b8db9855bd451d95e15f8691",
+    "research_program/triadic_multi_legal_coordination_study/plan.md": "26e1796e9da66b08826dc96d11398587b326005d3278dffd2cfbfa42bced37f3",
+    "research_program/triadic_multi_legal_coordination_study/README.md": "4ab52de69ae992babafc241e52975a3a2f3d11a38f44a072ea520dd0241e3bf3",
+    "research_program/triadic_multi_legal_coordination_study/tests/test_design.py": "5fd170435026b28fc7d4202eb1ca81a9611def1cc55ccb256915a2764c07a90e",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a"
+  },
+  "prepared_sha256": "3c76a8181263a2ced8ef72d915fa6343756f53cf03b012ffcd7c2041d322a5cc",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "session_id": 2423,
+  "exit_code": 0,
+  "audit_invocations": 1,
+  "command": "qwen_collect_pilot/.venv/bin/python -m research_program.triadic_partner_ecology_study.audit_execution --run research_program/triadic_partner_ecology_study/results/partner_001 --out research_program/triadic_partner_ecology_study/results/partner_001/audit_execution_001",
+  "audit_source_sha256": "219ef7bb650e4ffa2e10681937cb3217e4869ec7aaa28665aae91797115cc2d4",
+  "verification_sha256": "2cfb2c3a2d441e7d64b73cca0a39c4ce4abfe16510407e7603d6081f1566b3f6",
+  "checked_at": "2026-09-15T16:49:07.214058+00:00",
+  "elapsed_seconds": 76.04268020798918,
+  "training_calls": 0,
+  "intermediate_checkpoint_neural_forwards": 0,
+  "automatic_retries": 0
+}

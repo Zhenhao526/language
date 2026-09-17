@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_multi_legal_coordination_study/results/confirm_001",
+  "runs": 32,
+  "checkpoint_evaluations": 192,
+  "compact_worlds": 30108672,
+  "model_forwards": 270978048,
+  "optimizer_updates": 0,
+  "no_optimizer_updates": true,
+  "trajectory_replayed": true,
+  "pairing_verified": true,
+  "max_abs_error": 0.0,
+  "legal_plan_multiplicity_verified": true
+}

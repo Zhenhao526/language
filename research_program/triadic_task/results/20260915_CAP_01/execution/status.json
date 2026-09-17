@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "trials": 12,
+  "calls": 216,
+  "gate": {
+    "rule": "all_twelve_full_success",
+    "passed": false,
+    "full_success_trials": 4,
+    "trials": 12,
+    "new_task_only": true,
+    "modifies_original_v3_gate": false,
+    "starts_symbolic_experiment": false
+  }
+}

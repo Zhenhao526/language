@@ -1,0 +1,11 @@
+{
+  "status": "generated",
+  "visual_review": "passed",
+  "visual_review_note": "Inspected all three PNGs individually; labels, axes, legends, and uncertainty bands are readable with no clipping.",
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorized_neutral_altpartner_study/results/altpair_001",
+  "figures": [
+    "target_pair_interaction_trajectories.png",
+    "target_pair_endpoint.png",
+    "target_pair_interaction_forest.png"
+  ]
+}

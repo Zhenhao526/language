@@ -1,0 +1,6 @@
+luna2020 downloaded_and_extracted 10
+garcia2022 downloaded_and_extracted 18
+slowik2021 failed None
+ri2023 downloaded_and_extracted 8
+kouwenhoven2024 downloaded_and_extracted 15
+imai2024 downloaded_and_extracted 14

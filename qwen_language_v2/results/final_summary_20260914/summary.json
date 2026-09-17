@@ -1,0 +1,1434 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-14T22:42:37.407975+08:00",
+  "runs": [
+    {
+      "name": "calibration_natural_20260914",
+      "directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_natural_20260914",
+      "manifest": {
+        "schema_version": 1,
+        "phase": "calibration",
+        "conditions": [
+          "natural"
+        ],
+        "groups": [
+          17
+        ],
+        "episodes_per_group": 1,
+        "scenarios": [
+          {
+            "episode": 1,
+            "seed": 6101,
+            "variant": 0
+          }
+        ],
+        "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+        "alphabet": "@#%&*+=~",
+        "max_message_symbols": 32,
+        "per_agent_step_symbols": 64,
+        "windows": 4,
+        "private_analysis_max_tokens": 256,
+        "private_analysis_temperature": 0,
+        "message_temperature": 0.7,
+        "action_temperature": 0,
+        "natural_message_max_tokens": 96,
+        "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+        "controls": "independent histories; natural language is not bandwidth matched",
+        "created": "2026-09-14T17:48:50.807003",
+        "preregistered_order": "group then episode then alternating condition order",
+        "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+      },
+      "status": {
+        "status": "completed",
+        "backend": {
+          "calls": 360,
+          "load_seconds": 1.4130381669965573,
+          "inference_seconds": 2889.834806363622,
+          "generation_tokens_by_mode": {
+            "private_analysis": 16784,
+            "natural_message": 5918,
+            "action": 72
+          },
+          "max_prompt_tokens": 10901,
+          "peak_mlx_memory_gb": 10.821022344
+        }
+      },
+      "source_version": {
+        "snapshot_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_natural_20260914/code_snapshot",
+        "core_file_sha256": {
+          "environment.py": "f27a9a6d2c50c2de97c84c91167c2840d7fbfd260fc1d4cf41d214324067baf8",
+          "agents.py": "f574dcab024f942a3e8b301784a6a8205ab3b66d6e6a51cef9bd945af74d2705",
+          "backend.py": "d1a507a08e493419ee77a271ed9053f7b5fec83dbe5eceef5373572d0ee5c231",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "run.py": "be2ced5550064f7a2efa5e981ba42972814faee07ef51fef4d443c27efb1553b"
+        },
+        "core_snapshot_sha256": "7a701acaf57a08335b75da3595118762262fb1b61ddc60e8d7647e270ef07a5f",
+        "missing_core_files": [],
+        "model_path_recorded": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit_recorded": "16daa4818c54ce5f5436f929d52542eb65bbed9d"
+      },
+      "episodes": [
+        {
+          "phase": "calibration",
+          "condition": "natural",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.0,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.0,
+          "recorded_episode_seconds": 2890.1141923340037,
+          "actions": {
+            "action_kind_counts": {
+              "move": 14,
+              "wait": 22
+            },
+            "successful_action_kind_counts": {
+              "move": 14,
+              "wait": 22
+            },
+            "actions_recorded": 36,
+            "wait_actions": 22,
+            "failed_nonwait_actions": 0,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": false,
+            "successful_pickups": 0,
+            "pickup_attempts": 0,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 0,
+            "delivery_actor_attempts": 0,
+            "newly_delivered_units_from_states": 0,
+            "processing_observed": false,
+            "accepted_delivery_observed": false
+          },
+          "record_status": "已有任务段完成记录"
+        }
+      ],
+      "actions_all_recorded_steps": {
+        "action_kind_counts": {
+          "move": 14,
+          "wait": 22
+        },
+        "successful_action_kind_counts": {
+          "move": 14,
+          "wait": 22
+        },
+        "actions_recorded": 36,
+        "wait_actions": 22,
+        "failed_nonwait_actions": 0,
+        "actions_missing_boolean_feedback": 0,
+        "wait_actions_with_false_feedback": 0,
+        "holding_observed": false,
+        "successful_pickups": 0,
+        "pickup_attempts": 0,
+        "successful_processing_actions": 0,
+        "processing_attempts": 0,
+        "accepted_delivery_actor_actions": 0,
+        "delivery_actor_attempts": 0,
+        "newly_delivered_units_from_states": 0,
+        "processing_observed": false,
+        "accepted_delivery_observed": false
+      },
+      "timing": {
+        "inference_records": 360,
+        "reported_backend_calls": 360,
+        "invalid_output_records": 0,
+        "uninterrupted_call_records": 359,
+        "uninterrupted_call_records_with_time": 359,
+        "uninterrupted_seconds_sum": 1456.2329206966097,
+        "interrupted_call_ids": [
+          "249"
+        ],
+        "interrupted_call_records_observed": 1,
+        "interrupted_calls_reported": [
+          {
+            "call": 249,
+            "seconds": 1433.6018856670125,
+            "label": {
+              "phase": "calibration",
+              "condition": "natural",
+              "group": 17,
+              "episode": 1,
+              "seed": 6101,
+              "step": 9,
+              "window": 2,
+              "agent": "B",
+              "stage": "analysis"
+            }
+          }
+        ],
+        "interrupted_active_seconds": null,
+        "recorded_backend_inference_seconds": 2889.834806363622,
+        "recorded_episode_seconds_sum": 2890.1141923340037,
+        "peak_mlx_memory_gb": 10.821022344,
+        "model_load_seconds": 1.4130381669965573,
+        "generation_tokens_by_mode": {
+          "private_analysis": 16784,
+          "natural_message": 5918,
+          "action": 72
+        },
+        "power_pause_record": {
+          "pid": 95306,
+          "paused_at_epoch": 1789380134.262837,
+          "paused_at_local": "2026-09-14T18:02:14.262838",
+          "battery_percent": 4,
+          "reason": "waiting for AC power",
+          "timing_note": "Host epoch pause includes possible system sleep; perf_counter durations are not directly comparable to epoch wall time. Do not blindly subtract pause_seconds from recorded inference/episode time. Identify the interrupted call and report uninterrupted calls separately; exact active time for the interrupted call is unavailable.",
+          "resumed_at_epoch": 1789384417.1960168,
+          "resumed_at_local": "2026-09-14T19:13:37.196018",
+          "pause_seconds": 4282.933179855347,
+          "interrupted_calls": [
+            {
+              "call": 249,
+              "seconds": 1433.6018856670125,
+              "label": {
+                "phase": "calibration",
+                "condition": "natural",
+                "group": 17,
+                "episode": 1,
+                "seed": 6101,
+                "step": 9,
+                "window": 2,
+                "agent": "B",
+                "stage": "analysis"
+              }
+            }
+          ]
+        },
+        "stopped_with_unfinished_episode": false,
+        "timing_limit": "中断调用的有效推理时间无法准确还原；未从perf_counter耗时减去epoch暂停时长。"
+      },
+      "symbol_statistics_references": [],
+      "existing_report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_natural_20260914/report.md",
+      "existing_analysis": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_natural_20260914/analysis.json",
+      "probe_reports": [],
+      "warnings": []
+    },
+    {
+      "name": "calibration_clarified_20260914",
+      "directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_clarified_20260914",
+      "manifest": {
+        "schema_version": 1,
+        "phase": "calibration",
+        "conditions": [
+          "natural",
+          "full_information"
+        ],
+        "groups": [
+          17
+        ],
+        "episodes_per_group": 1,
+        "scenarios": [
+          {
+            "episode": 1,
+            "seed": 6101,
+            "variant": 0
+          }
+        ],
+        "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+        "alphabet": "@#%&*+=~",
+        "max_message_symbols": 32,
+        "per_agent_step_symbols": 64,
+        "windows": 4,
+        "private_analysis_max_tokens": 256,
+        "private_analysis_temperature": 0,
+        "message_temperature": 0.7,
+        "action_temperature": 0,
+        "natural_message_max_tokens": 96,
+        "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+        "controls": "independent histories; natural language is not bandwidth matched",
+        "created": "2026-09-14T19:25:58.380834",
+        "preregistered_order": "group then episode then alternating condition order",
+        "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+      },
+      "status": {
+        "status": "stopped_for_rule_clarity",
+        "error_type": "KeyboardInterrupt",
+        "error": "",
+        "backend": {
+          "calls": 161,
+          "load_seconds": 1.8562603750033304,
+          "inference_seconds": 537.020300089207,
+          "generation_tokens_by_mode": {
+            "private_analysis": 8774,
+            "natural_message": 2739,
+            "action": 30
+          },
+          "max_prompt_tokens": 5624,
+          "peak_mlx_memory_gb": 10.478795338
+        },
+        "stop_reason": "Manual stop after identifying that the agent-facing rules should explicitly require kind/length/condition/destination to match and state fiber processing and joint carrying capacity. This is an incomplete capability control, not a completed failure score.",
+        "stopped_at": "2026-09-14T19:35:27.232895",
+        "completed_physical_steps": 5
+      },
+      "source_version": {
+        "snapshot_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_clarified_20260914/code_snapshot",
+        "core_file_sha256": {
+          "environment.py": "4a69aca827b4d0128262d4f81669d2d68bb21f33f25516916506a50dcfd283c4",
+          "agents.py": "618f958999642d9bcda01218a99b088a71fc9eb49cd49621f624b7a8b50a6be1",
+          "backend.py": "df9b153c06e4b9ffebbccda076b0bcbe95a82ebb358940a8b6fb2e1a5086be53",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "run.py": "f58c0daed472e4ead352461ab87ca3ba25148134e041d5d9ebf6d30b201cd6b8"
+        },
+        "core_snapshot_sha256": "e734d800b08f923e34b57893ef37fa0b88e3a4ad1ea50c83e1fc93285e2fbac7",
+        "missing_core_files": [],
+        "model_path_recorded": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit_recorded": "16daa4818c54ce5f5436f929d52542eb65bbed9d"
+      },
+      "episodes": [
+        {
+          "phase": "calibration",
+          "condition": "full_information",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": false,
+          "final_score": null,
+          "final_steps": null,
+          "success": null,
+          "steps_recorded": 0,
+          "last_step_recorded": null,
+          "complete_inference_records": 0,
+          "last_progress_score_not_final": null,
+          "recorded_episode_seconds": null,
+          "actions": {
+            "action_kind_counts": {},
+            "successful_action_kind_counts": {},
+            "actions_recorded": 0,
+            "wait_actions": 0,
+            "failed_nonwait_actions": 0,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": null,
+            "successful_pickups": 0,
+            "pickup_attempts": 0,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 0,
+            "delivery_actor_attempts": 0,
+            "newly_delivered_units_from_states": null,
+            "processing_observed": null,
+            "accepted_delivery_observed": null
+          },
+          "record_status": "尚无完整调用或动作记录"
+        },
+        {
+          "phase": "calibration",
+          "condition": "natural",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": false,
+          "final_score": null,
+          "final_steps": null,
+          "success": null,
+          "steps_recorded": 5,
+          "last_step_recorded": 5,
+          "complete_inference_records": 161,
+          "last_progress_score_not_final": 0.0,
+          "recorded_episode_seconds": null,
+          "actions": {
+            "action_kind_counts": {
+              "deliver": 1,
+              "move": 4,
+              "pickup": 2,
+              "wait": 8
+            },
+            "successful_action_kind_counts": {
+              "move": 4,
+              "pickup": 2,
+              "wait": 8
+            },
+            "actions_recorded": 15,
+            "wait_actions": 8,
+            "failed_nonwait_actions": 1,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 2,
+            "pickup_attempts": 2,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 0,
+            "delivery_actor_attempts": 1,
+            "newly_delivered_units_from_states": 0,
+            "processing_observed": false,
+            "accepted_delivery_observed": false
+          },
+          "record_status": "已中止，任务段未完成"
+        }
+      ],
+      "actions_all_recorded_steps": {
+        "action_kind_counts": {
+          "deliver": 1,
+          "move": 4,
+          "pickup": 2,
+          "wait": 8
+        },
+        "successful_action_kind_counts": {
+          "move": 4,
+          "pickup": 2,
+          "wait": 8
+        },
+        "actions_recorded": 15,
+        "wait_actions": 8,
+        "failed_nonwait_actions": 1,
+        "actions_missing_boolean_feedback": 0,
+        "wait_actions_with_false_feedback": 0,
+        "holding_observed": true,
+        "successful_pickups": 2,
+        "pickup_attempts": 2,
+        "successful_processing_actions": 0,
+        "processing_attempts": 0,
+        "accepted_delivery_actor_actions": 0,
+        "delivery_actor_attempts": 1,
+        "newly_delivered_units_from_states": 0,
+        "processing_observed": false,
+        "accepted_delivery_observed": false
+      },
+      "timing": {
+        "inference_records": 161,
+        "reported_backend_calls": 161,
+        "invalid_output_records": 0,
+        "uninterrupted_call_records": 161,
+        "uninterrupted_call_records_with_time": 161,
+        "uninterrupted_seconds_sum": 537.020300089207,
+        "interrupted_call_ids": [],
+        "interrupted_call_records_observed": 0,
+        "interrupted_calls_reported": [],
+        "interrupted_active_seconds": null,
+        "recorded_backend_inference_seconds": 537.020300089207,
+        "recorded_episode_seconds_sum": null,
+        "peak_mlx_memory_gb": 10.478795338,
+        "model_load_seconds": 1.8562603750033304,
+        "generation_tokens_by_mode": {
+          "private_analysis": 8774,
+          "natural_message": 2739,
+          "action": 30
+        },
+        "power_pause_record": null,
+        "stopped_with_unfinished_episode": true,
+        "timing_limit": "调用耗时合计为原始记录的perf_counter时长，不等于整个任务的墙钟总时长。"
+      },
+      "symbol_statistics_references": [],
+      "existing_report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_clarified_20260914/report.md",
+      "existing_analysis": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_clarified_20260914/analysis.json",
+      "probe_reports": [],
+      "warnings": [
+        "原分析器：episodes.jsonl不存在；尚无可分析的任务段记录。"
+      ],
+      "source_difference_from_previous": {
+        "previous_run": "calibration_natural_20260914",
+        "changed_files": [
+          "agents.py",
+          "backend.py",
+          "environment.py",
+          "run.py"
+        ],
+        "comparable_files": [
+          "agents.py",
+          "backend.py",
+          "environment.py",
+          "protocol.py",
+          "run.py"
+        ]
+      }
+    },
+    {
+      "name": "calibration_complete_rules_20260914",
+      "directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_complete_rules_20260914",
+      "manifest": {
+        "schema_version": 1,
+        "phase": "calibration",
+        "conditions": [
+          "natural",
+          "full_information"
+        ],
+        "groups": [
+          17
+        ],
+        "episodes_per_group": 1,
+        "scenarios": [
+          {
+            "episode": 1,
+            "seed": 6101,
+            "variant": 0
+          }
+        ],
+        "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+        "alphabet": "@#%&*+=~",
+        "max_message_symbols": 32,
+        "per_agent_step_symbols": 64,
+        "windows": 4,
+        "private_analysis_max_tokens": 256,
+        "private_analysis_temperature": 0,
+        "message_temperature": 0.7,
+        "action_temperature": 0,
+        "natural_message_max_tokens": 96,
+        "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+        "controls": "independent histories; natural language is not bandwidth matched",
+        "created": "2026-09-14T19:47:35.524113",
+        "preregistered_order": "group then episode then alternating condition order",
+        "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+      },
+      "status": {
+        "status": "completed",
+        "backend": {
+          "calls": 720,
+          "load_seconds": 1.2472837090026587,
+          "inference_seconds": 4069.60557860462,
+          "generation_tokens_by_mode": {
+            "private_analysis": 37545,
+            "natural_message": 13098,
+            "action": 145
+          },
+          "max_prompt_tokens": 14882,
+          "peak_mlx_memory_gb": 11.108348552
+        }
+      },
+      "source_version": {
+        "snapshot_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_complete_rules_20260914/code_snapshot",
+        "core_file_sha256": {
+          "environment.py": "d87d037125c5041d18b3166a48d565668ce335112f2a9880aee4f4f6919331af",
+          "agents.py": "618f958999642d9bcda01218a99b088a71fc9eb49cd49621f624b7a8b50a6be1",
+          "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "run.py": "f58c0daed472e4ead352461ab87ca3ba25148134e041d5d9ebf6d30b201cd6b8"
+        },
+        "core_snapshot_sha256": "1ee0b80bb4a8ed138e9144c1c50efa3c6760a3a0126edeea7935dcc4a1ed8916",
+        "missing_core_files": [],
+        "model_path_recorded": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit_recorded": "16daa4818c54ce5f5436f929d52542eb65bbed9d"
+      },
+      "episodes": [
+        {
+          "phase": "calibration",
+          "condition": "full_information",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.5,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.5,
+          "recorded_episode_seconds": 2042.8567033750005,
+          "actions": {
+            "action_kind_counts": {
+              "carry_together": 5,
+              "cut": 1,
+              "deliver": 5,
+              "deliver_together": 3,
+              "drop": 1,
+              "move": 12,
+              "pickup": 4,
+              "wait": 5
+            },
+            "successful_action_kind_counts": {
+              "cut": 1,
+              "deliver": 1,
+              "drop": 1,
+              "move": 12,
+              "pickup": 4,
+              "wait": 5
+            },
+            "actions_recorded": 36,
+            "wait_actions": 5,
+            "failed_nonwait_actions": 12,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 4,
+            "pickup_attempts": 4,
+            "successful_processing_actions": 1,
+            "processing_attempts": 1,
+            "accepted_delivery_actor_actions": 1,
+            "delivery_actor_attempts": 8,
+            "newly_delivered_units_from_states": 1,
+            "processing_observed": true,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        },
+        {
+          "phase": "calibration",
+          "condition": "natural",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.5,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.5,
+          "recorded_episode_seconds": 2027.505178249965,
+          "actions": {
+            "action_kind_counts": {
+              "cut": 1,
+              "deliver": 4,
+              "drop": 1,
+              "move": 10,
+              "pickup": 8,
+              "wait": 12
+            },
+            "successful_action_kind_counts": {
+              "cut": 1,
+              "deliver": 1,
+              "drop": 1,
+              "move": 10,
+              "pickup": 4,
+              "wait": 12
+            },
+            "actions_recorded": 36,
+            "wait_actions": 12,
+            "failed_nonwait_actions": 7,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 4,
+            "pickup_attempts": 8,
+            "successful_processing_actions": 1,
+            "processing_attempts": 1,
+            "accepted_delivery_actor_actions": 1,
+            "delivery_actor_attempts": 4,
+            "newly_delivered_units_from_states": 1,
+            "processing_observed": true,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        }
+      ],
+      "actions_all_recorded_steps": {
+        "action_kind_counts": {
+          "carry_together": 5,
+          "cut": 2,
+          "deliver": 9,
+          "deliver_together": 3,
+          "drop": 2,
+          "move": 22,
+          "pickup": 12,
+          "wait": 17
+        },
+        "successful_action_kind_counts": {
+          "cut": 2,
+          "deliver": 2,
+          "drop": 2,
+          "move": 22,
+          "pickup": 8,
+          "wait": 17
+        },
+        "actions_recorded": 72,
+        "wait_actions": 17,
+        "failed_nonwait_actions": 19,
+        "actions_missing_boolean_feedback": 0,
+        "wait_actions_with_false_feedback": 0,
+        "holding_observed": true,
+        "successful_pickups": 8,
+        "pickup_attempts": 12,
+        "successful_processing_actions": 2,
+        "processing_attempts": 2,
+        "accepted_delivery_actor_actions": 2,
+        "delivery_actor_attempts": 12,
+        "newly_delivered_units_from_states": 2,
+        "processing_observed": true,
+        "accepted_delivery_observed": true
+      },
+      "timing": {
+        "inference_records": 720,
+        "reported_backend_calls": 720,
+        "invalid_output_records": 0,
+        "uninterrupted_call_records": 720,
+        "uninterrupted_call_records_with_time": 720,
+        "uninterrupted_seconds_sum": 4069.60557860462,
+        "interrupted_call_ids": [],
+        "interrupted_call_records_observed": 0,
+        "interrupted_calls_reported": [],
+        "interrupted_active_seconds": null,
+        "recorded_backend_inference_seconds": 4069.60557860462,
+        "recorded_episode_seconds_sum": 4070.3618816249655,
+        "peak_mlx_memory_gb": 11.108348552,
+        "model_load_seconds": 1.2472837090026587,
+        "generation_tokens_by_mode": {
+          "private_analysis": 37545,
+          "natural_message": 13098,
+          "action": 145
+        },
+        "power_pause_record": null,
+        "stopped_with_unfinished_episode": false,
+        "timing_limit": "调用耗时合计为原始记录的perf_counter时长，不等于整个任务的墙钟总时长。"
+      },
+      "symbol_statistics_references": [],
+      "existing_report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_complete_rules_20260914/report.md",
+      "existing_analysis": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/calibration_complete_rules_20260914/analysis.json",
+      "probe_reports": [],
+      "warnings": [],
+      "source_difference_from_previous": {
+        "previous_run": "calibration_clarified_20260914",
+        "changed_files": [
+          "backend.py",
+          "environment.py"
+        ],
+        "comparable_files": [
+          "agents.py",
+          "backend.py",
+          "environment.py",
+          "protocol.py",
+          "run.py"
+        ]
+      }
+    },
+    {
+      "name": "pilot_immediate_delayed_20260914",
+      "directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914",
+      "manifest": {
+        "schema_version": 1,
+        "phase": "pilot",
+        "conditions": [
+          "immediate",
+          "delayed"
+        ],
+        "groups": [
+          17
+        ],
+        "episodes_per_group": 2,
+        "scenarios": [
+          {
+            "episode": 1,
+            "seed": 6101,
+            "variant": 0
+          },
+          {
+            "episode": 2,
+            "seed": 7558,
+            "variant": 31
+          }
+        ],
+        "model": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+        "alphabet": "@#%&*+=~",
+        "max_message_symbols": 32,
+        "per_agent_step_symbols": 64,
+        "windows": 4,
+        "private_analysis_max_tokens": 256,
+        "private_analysis_temperature": 0,
+        "message_temperature": 0.7,
+        "action_temperature": 0,
+        "natural_message_max_tokens": 96,
+        "history": "all own raw episodic observations/actions/feedback and delivered broadcasts; no analysis",
+        "controls": "independent histories; natural language is not bandwidth matched",
+        "created": "2026-09-14T20:55:30.674174",
+        "preregistered_order": "group then episode then alternating condition order",
+        "scope": "engineering and descriptive pilot; no statistical language-emergence claim"
+      },
+      "status": {
+        "status": "completed",
+        "backend": {
+          "calls": 1440,
+          "load_seconds": 1.9740996659966186,
+          "inference_seconds": 6344.544948088995,
+          "generation_tokens_by_mode": {
+            "private_analysis": 79176,
+            "message": 3671,
+            "action": 289
+          },
+          "max_prompt_tokens": 12648,
+          "peak_mlx_memory_gb": 10.928763528
+        }
+      },
+      "source_version": {
+        "snapshot_directory": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914/code_snapshot",
+        "core_file_sha256": {
+          "environment.py": "d87d037125c5041d18b3166a48d565668ce335112f2a9880aee4f4f6919331af",
+          "agents.py": "618f958999642d9bcda01218a99b088a71fc9eb49cd49621f624b7a8b50a6be1",
+          "backend.py": "0aa38e9c5a53c9f3275a8208912bfc356181839e7d338083570dd32c332c7e23",
+          "protocol.py": "2bc85ff7723459f09ea4aa1ba2020c19a2c042f8b5e6366431afa2ab1d80fab7",
+          "run.py": "f58c0daed472e4ead352461ab87ca3ba25148134e041d5d9ebf6d30b201cd6b8"
+        },
+        "core_snapshot_sha256": "1ee0b80bb4a8ed138e9144c1c50efa3c6760a3a0126edeea7935dcc4a1ed8916",
+        "missing_core_files": [],
+        "model_path_recorded": "/Users/xia/Documents/ChatGPT/语言/qwen_collect_pilot/models/Qwen3.5-9B-8bit",
+        "model_commit_recorded": "16daa4818c54ce5f5436f929d52542eb65bbed9d"
+      },
+      "episodes": [
+        {
+          "phase": "pilot",
+          "condition": "delayed",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.5,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.5,
+          "recorded_episode_seconds": 1115.1106492910185,
+          "actions": {
+            "action_kind_counts": {
+              "cut": 1,
+              "deliver": 1,
+              "deliver_together": 1,
+              "move": 18,
+              "pickup": 3,
+              "wait": 12
+            },
+            "successful_action_kind_counts": {
+              "cut": 1,
+              "deliver": 1,
+              "move": 18,
+              "pickup": 3,
+              "wait": 12
+            },
+            "actions_recorded": 36,
+            "wait_actions": 12,
+            "failed_nonwait_actions": 1,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 3,
+            "pickup_attempts": 3,
+            "successful_processing_actions": 1,
+            "processing_attempts": 1,
+            "accepted_delivery_actor_actions": 1,
+            "delivery_actor_attempts": 2,
+            "newly_delivered_units_from_states": 1,
+            "processing_observed": true,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        },
+        {
+          "phase": "pilot",
+          "condition": "delayed",
+          "group": "17",
+          "episode": "2",
+          "seed": 7558,
+          "variant": 31,
+          "completion_recorded": true,
+          "final_score": 0.6666666666666666,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.6666666666666666,
+          "recorded_episode_seconds": 2042.117016959004,
+          "actions": {
+            "action_kind_counts": {
+              "deliver": 3,
+              "drop": 4,
+              "move": 14,
+              "pickup": 10,
+              "wait": 5
+            },
+            "successful_action_kind_counts": {
+              "deliver": 2,
+              "drop": 4,
+              "move": 14,
+              "pickup": 8,
+              "wait": 5
+            },
+            "actions_recorded": 36,
+            "wait_actions": 5,
+            "failed_nonwait_actions": 3,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 8,
+            "pickup_attempts": 10,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 2,
+            "delivery_actor_attempts": 3,
+            "newly_delivered_units_from_states": 2,
+            "processing_observed": false,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        },
+        {
+          "phase": "pilot",
+          "condition": "immediate",
+          "group": "17",
+          "episode": "1",
+          "seed": 6101,
+          "variant": 0,
+          "completion_recorded": true,
+          "final_score": 0.5,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.5,
+          "recorded_episode_seconds": 1153.2739767080056,
+          "actions": {
+            "action_kind_counts": {
+              "carry_together": 2,
+              "cut": 1,
+              "deliver": 1,
+              "deliver_together": 4,
+              "drop": 1,
+              "move": 15,
+              "pickup": 3,
+              "wait": 9
+            },
+            "successful_action_kind_counts": {
+              "cut": 1,
+              "deliver": 1,
+              "drop": 1,
+              "move": 15,
+              "pickup": 3,
+              "wait": 9
+            },
+            "actions_recorded": 36,
+            "wait_actions": 9,
+            "failed_nonwait_actions": 6,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 3,
+            "pickup_attempts": 3,
+            "successful_processing_actions": 1,
+            "processing_attempts": 1,
+            "accepted_delivery_actor_actions": 1,
+            "delivery_actor_attempts": 5,
+            "newly_delivered_units_from_states": 1,
+            "processing_observed": true,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        },
+        {
+          "phase": "pilot",
+          "condition": "immediate",
+          "group": "17",
+          "episode": "2",
+          "seed": 7558,
+          "variant": 31,
+          "completion_recorded": true,
+          "final_score": 0.6666666666666666,
+          "final_steps": 12,
+          "success": false,
+          "steps_recorded": 12,
+          "last_step_recorded": 12,
+          "complete_inference_records": 360,
+          "last_progress_score_not_final": 0.6666666666666666,
+          "recorded_episode_seconds": 2035.2310217919876,
+          "actions": {
+            "action_kind_counts": {
+              "deliver": 4,
+              "move": 22,
+              "pickup": 4,
+              "wait": 6
+            },
+            "successful_action_kind_counts": {
+              "deliver": 2,
+              "move": 19,
+              "pickup": 4,
+              "wait": 6
+            },
+            "actions_recorded": 36,
+            "wait_actions": 6,
+            "failed_nonwait_actions": 5,
+            "actions_missing_boolean_feedback": 0,
+            "wait_actions_with_false_feedback": 0,
+            "holding_observed": true,
+            "successful_pickups": 4,
+            "pickup_attempts": 4,
+            "successful_processing_actions": 0,
+            "processing_attempts": 0,
+            "accepted_delivery_actor_actions": 2,
+            "delivery_actor_attempts": 4,
+            "newly_delivered_units_from_states": 2,
+            "processing_observed": false,
+            "accepted_delivery_observed": true
+          },
+          "record_status": "已有任务段完成记录"
+        }
+      ],
+      "actions_all_recorded_steps": {
+        "action_kind_counts": {
+          "carry_together": 2,
+          "cut": 2,
+          "deliver": 9,
+          "deliver_together": 5,
+          "drop": 5,
+          "move": 69,
+          "pickup": 20,
+          "wait": 32
+        },
+        "successful_action_kind_counts": {
+          "cut": 2,
+          "deliver": 6,
+          "drop": 5,
+          "move": 66,
+          "pickup": 18,
+          "wait": 32
+        },
+        "actions_recorded": 144,
+        "wait_actions": 32,
+        "failed_nonwait_actions": 15,
+        "actions_missing_boolean_feedback": 0,
+        "wait_actions_with_false_feedback": 0,
+        "holding_observed": true,
+        "successful_pickups": 18,
+        "pickup_attempts": 20,
+        "successful_processing_actions": 2,
+        "processing_attempts": 2,
+        "accepted_delivery_actor_actions": 6,
+        "delivery_actor_attempts": 14,
+        "newly_delivered_units_from_states": 6,
+        "processing_observed": true,
+        "accepted_delivery_observed": true
+      },
+      "timing": {
+        "inference_records": 1440,
+        "reported_backend_calls": 1440,
+        "invalid_output_records": 0,
+        "uninterrupted_call_records": 1440,
+        "uninterrupted_call_records_with_time": 1440,
+        "uninterrupted_seconds_sum": 6344.544948088995,
+        "interrupted_call_ids": [],
+        "interrupted_call_records_observed": 0,
+        "interrupted_calls_reported": [],
+        "interrupted_active_seconds": null,
+        "recorded_backend_inference_seconds": 6344.544948088995,
+        "recorded_episode_seconds_sum": 6345.732664750016,
+        "peak_mlx_memory_gb": 10.928763528,
+        "model_load_seconds": 1.9740996659966186,
+        "generation_tokens_by_mode": {
+          "private_analysis": 79176,
+          "message": 3671,
+          "action": 289
+        },
+        "power_pause_record": null,
+        "stopped_with_unfinished_episode": false,
+        "timing_limit": "调用耗时合计为原始记录的perf_counter时长，不等于整个任务的墙钟总时长。"
+      },
+      "symbol_statistics_references": [
+        {
+          "phase": "pilot",
+          "condition": "delayed",
+          "group": "17",
+          "statistics_from_existing_analysis": {
+            "message_rows": 288,
+            "nonempty_count": 288,
+            "nonempty_ratio": 1.0,
+            "length_all": {
+              "n": 288,
+              "mean": 5.246527777777778,
+              "min": 1.0,
+              "max": 12.0
+            },
+            "length_nonempty": {
+              "n": 288,
+              "mean": 5.246527777777778,
+              "min": 1.0,
+              "max": 12.0
+            },
+            "at_32_count": 0,
+            "over_32_count": 0,
+            "agent_steps_over_64": 0,
+            "invalid_character_counts": {},
+            "complete_four_window_agent_steps": 72,
+            "complete_four_window_agent_step_character_totals": {
+              "n": 72,
+              "mean": 20.98611111111111,
+              "min": 7,
+              "max": 29
+            }
+          }
+        },
+        {
+          "phase": "pilot",
+          "condition": "immediate",
+          "group": "17",
+          "statistics_from_existing_analysis": {
+            "message_rows": 288,
+            "nonempty_count": 288,
+            "nonempty_ratio": 1.0,
+            "length_all": {
+              "n": 288,
+              "mean": 5.5,
+              "min": 1.0,
+              "max": 11.0
+            },
+            "length_nonempty": {
+              "n": 288,
+              "mean": 5.5,
+              "min": 1.0,
+              "max": 11.0
+            },
+            "at_32_count": 0,
+            "over_32_count": 0,
+            "agent_steps_over_64": 0,
+            "invalid_character_counts": {},
+            "complete_four_window_agent_steps": 72,
+            "complete_four_window_agent_step_character_totals": {
+              "n": 72,
+              "mean": 22,
+              "min": 12,
+              "max": 28
+            }
+          }
+        }
+      ],
+      "existing_report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914/report.md",
+      "existing_analysis": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914/analysis.json",
+      "probe_reports": [
+        {
+          "report": "/Users/xia/Documents/ChatGPT/语言/qwen_language_v2/results/pilot_immediate_delayed_20260914/frozen_probe_ep1_step4/report.md",
+          "results": [
+            {
+              "condition": "delayed",
+              "group": 17,
+              "episode": 1,
+              "step": 4,
+              "arms": [
+                {
+                  "arm": "original",
+                  "actions": {
+                    "A": {
+                      "kind": "deliver",
+                      "item": "物96"
+                    },
+                    "B": {
+                      "kind": "wait"
+                    },
+                    "C": {
+                      "kind": "wait"
+                    }
+                  },
+                  "selections": {
+                    "A": {
+                      "id": 3,
+                      "description": "交付物96（干长纤维）",
+                      "action": {
+                        "kind": "deliver",
+                        "item": "物96"
+                      }
+                    },
+                    "B": {
+                      "id": 0,
+                      "description": "等待",
+                      "action": {
+                        "kind": "wait"
+                      }
+                    },
+                    "C": {
+                      "id": 0,
+                      "description": "等待",
+                      "action": {
+                        "kind": "wait"
+                      }
+                    }
+                  },
+                  "feedback": {
+                    "A": {
+                      "action_succeeded": true,
+                      "result": "交付被接收。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "B": {
+                      "action_succeeded": true,
+                      "result": "等待。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "C": {
+                      "action_succeeded": true,
+                      "result": "等待。",
+                      "step": 4,
+                      "done": false
+                    }
+                  },
+                  "score_before": 0.0,
+                  "score_after_one_step": 0.5,
+                  "score_delta": 0.5,
+                  "changed_from_recorded_agents": []
+                },
+                {
+                  "arm": "empty_text",
+                  "actions": {
+                    "A": {
+                      "kind": "deliver",
+                      "item": "物96"
+                    },
+                    "B": {
+                      "kind": "drop",
+                      "item": "物153"
+                    },
+                    "C": {
+                      "kind": "move",
+                      "destination": "营地"
+                    }
+                  },
+                  "selections": {
+                    "A": {
+                      "id": 3,
+                      "description": "交付物96（干长纤维）",
+                      "action": {
+                        "kind": "deliver",
+                        "item": "物96"
+                      }
+                    },
+                    "B": {
+                      "id": 1,
+                      "description": "放下物153（湿短纤维）",
+                      "action": {
+                        "kind": "drop",
+                        "item": "物153"
+                      }
+                    },
+                    "C": {
+                      "id": 1,
+                      "description": "前往营地",
+                      "action": {
+                        "kind": "move",
+                        "destination": "营地"
+                      }
+                    }
+                  },
+                  "feedback": {
+                    "A": {
+                      "action_succeeded": true,
+                      "result": "交付被接收。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "B": {
+                      "action_succeeded": true,
+                      "result": "放下成功。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "C": {
+                      "action_succeeded": true,
+                      "result": "移动成功。",
+                      "step": 4,
+                      "done": false
+                    }
+                  },
+                  "score_before": 0.0,
+                  "score_after_one_step": 0.5,
+                  "score_delta": 0.5,
+                  "changed_from_recorded_agents": [
+                    "B",
+                    "C"
+                  ]
+                }
+              ],
+              "original_reproduced_exactly": true,
+              "changed_agents": [
+                "B",
+                "C"
+              ]
+            },
+            {
+              "condition": "immediate",
+              "group": 17,
+              "episode": 1,
+              "step": 4,
+              "arms": [
+                {
+                  "arm": "original",
+                  "actions": {
+                    "A": {
+                      "kind": "deliver",
+                      "item": "物80"
+                    },
+                    "B": {
+                      "kind": "drop",
+                      "item": "物128"
+                    },
+                    "C": {
+                      "kind": "move",
+                      "destination": "营地"
+                    }
+                  },
+                  "selections": {
+                    "A": {
+                      "id": 3,
+                      "description": "交付物80（干长纤维）",
+                      "action": {
+                        "kind": "deliver",
+                        "item": "物80"
+                      }
+                    },
+                    "B": {
+                      "id": 1,
+                      "description": "放下物128（湿短纤维）",
+                      "action": {
+                        "kind": "drop",
+                        "item": "物128"
+                      }
+                    },
+                    "C": {
+                      "id": 1,
+                      "description": "前往营地",
+                      "action": {
+                        "kind": "move",
+                        "destination": "营地"
+                      }
+                    }
+                  },
+                  "feedback": {
+                    "A": {
+                      "action_succeeded": true,
+                      "result": "交付被接收。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "B": {
+                      "action_succeeded": true,
+                      "result": "放下成功。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "C": {
+                      "action_succeeded": true,
+                      "result": "移动成功。",
+                      "step": 4,
+                      "done": false
+                    }
+                  },
+                  "score_before": 0.0,
+                  "score_after_one_step": 0.5,
+                  "score_delta": 0.5,
+                  "changed_from_recorded_agents": []
+                },
+                {
+                  "arm": "empty_text",
+                  "actions": {
+                    "A": {
+                      "kind": "move",
+                      "destination": "林地"
+                    },
+                    "B": {
+                      "kind": "drop",
+                      "item": "物128"
+                    },
+                    "C": {
+                      "kind": "move",
+                      "destination": "河滩"
+                    }
+                  },
+                  "selections": {
+                    "A": {
+                      "id": 1,
+                      "description": "前往林地",
+                      "action": {
+                        "kind": "move",
+                        "destination": "林地"
+                      }
+                    },
+                    "B": {
+                      "id": 1,
+                      "description": "放下物128（湿短纤维）",
+                      "action": {
+                        "kind": "drop",
+                        "item": "物128"
+                      }
+                    },
+                    "C": {
+                      "id": 2,
+                      "description": "前往河滩",
+                      "action": {
+                        "kind": "move",
+                        "destination": "河滩"
+                      }
+                    }
+                  },
+                  "feedback": {
+                    "A": {
+                      "action_succeeded": true,
+                      "result": "移动成功。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "B": {
+                      "action_succeeded": true,
+                      "result": "放下成功。",
+                      "step": 4,
+                      "done": false
+                    },
+                    "C": {
+                      "action_succeeded": true,
+                      "result": "移动成功。",
+                      "step": 4,
+                      "done": false
+                    }
+                  },
+                  "score_before": 0.0,
+                  "score_after_one_step": 0.0,
+                  "score_delta": 0.0,
+                  "changed_from_recorded_agents": [
+                    "A",
+                    "C"
+                  ]
+                }
+              ],
+              "original_reproduced_exactly": true,
+              "changed_agents": [
+                "A",
+                "C"
+              ]
+            }
+          ]
+        }
+      ],
+      "warnings": [],
+      "source_difference_from_previous": {
+        "previous_run": "calibration_complete_rules_20260914",
+        "changed_files": [],
+        "comparable_files": [
+          "agents.py",
+          "backend.py",
+          "environment.py",
+          "protocol.py",
+          "run.py"
+        ]
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "校准与符号先导分开，不将控制条件的自然语言成绩算作符号语言的形成。",
+    "最终完成度只取episodes.jsonl的任务段完成记录；进行中分数不作最终结果。",
+    "独立重复单位是群体；同群体任务段、动作和消息不能当作独立群体。",
+    "消息长度、重复和主体自述不能确认共同意义、组合性、语法或误解修复。"
+  ],
+  "language_evidence_not_confirmed_by_this_summary": [
+    "跨情境的共同意义及稳定理解，且区分发送者编码与伙伴理解。",
+    "预先固定留出组合中的首次理解，排除测试中重新协商。",
+    "在独立确认情境中对熟悉片段替换/重组所得的选择性行为改变。",
+    "成对情境中的关系与参与者敏感性，排除整场景编号。",
+    "对特定可观察误解的回应干预及选择性修复。",
+    "新成员学习、文化传递和代际变化。"
+  ]
+}

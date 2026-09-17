@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T14:28:07.404033+00:00",
+  "all_behavior_inputs_unchanged": true,
+  "analysis_source_unchanged": true,
+  "independent_settlements": 24,
+  "public_message_agent_codings": 72,
+  "action_output_menu_mappings": 72,
+  "paired_actions": 36,
+  "paired_trials": 12,
+  "model_calls": 0,
+  "neural_forward_calls": 0,
+  "private_inference_logs_read": false,
+  "files_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/results/interface_001/public_text_codings.json": "efe2c851c24207aa5d2bf2b6c1ba27f3e5512ec045395e35ddae87f0d748d0de",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/results/interface_001/behavior_001/behavior.json": "e7b8cef747313d7c83a460da1519821a8d22b5a726c7c00b62d3d99831848228",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/results/interface_001/behavior_001/行为核对.md": "66a154fcd2fa0a4ed6633b6ab147e3c4972556282f5aea3d04606f14bcebf153",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/results/interface_001/behavior_001/behavior_findings.json": "64d1269dcb5d8b93b7b615d530a50cc474a503a94340fd1d57593d74e801d2e7",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/interaction_ecology_study/results/interface_001/behavior_001/行为解释.md": "d2308970d61e73789f3456627680f47d4ee3c8bd43a0f4a569e40e28497cb643"
+  },
+  "analysis_source_sha256": "a0d5bdf7e8654a9d9562e13c46046fec5506c715cf6a7a3aee6dcb58e8417453"
+}

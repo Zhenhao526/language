@@ -1,0 +1,47 @@
+{
+  "aligned": "source endpoint first-window message shown to target cross-viewers; target self-view retained; W2/action and settlement recomputed",
+  "axis_case_counts": {
+    "destination": 552,
+    "kind": 1008,
+    "length": 1008
+  },
+  "backgrounds_per_case": 36,
+  "cases": 2568,
+  "channels": [
+    "live",
+    "silent"
+  ],
+  "directed_edges": 2568,
+  "no_training_by_probe": true,
+  "partition": "heldout_both",
+  "placebo": "cyclic source-message donor within axis×changed_person×direction; message marginal preserved and source-demand alignment broken",
+  "policy_blocks": 128,
+  "regimes": [
+    "factorial_holdout",
+    "saturated"
+  ],
+  "rules": [
+    "strict",
+    "reciprocal"
+  ],
+  "schema": "factorial_heldout_semantic_transfer_manifest_v1",
+  "seeds": [
+    62101,
+    62102,
+    62103,
+    62104,
+    62105,
+    62106,
+    62107,
+    62108,
+    62109,
+    62110,
+    62111,
+    62112,
+    62113,
+    62114,
+    62115,
+    62116
+  ],
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001_corrected"
+}

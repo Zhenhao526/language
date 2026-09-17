@@ -1,0 +1,23 @@
+{
+  "seed": 202,
+  "condition": "H0",
+  "task": "emergent",
+  "planned_steps": 24000,
+  "rollout": 32,
+  "eval_every": 2000,
+  "eval_n": 512,
+  "lr": 0.002,
+  "entropy": 0.03,
+  "wall_limit": 600,
+  "device": "cpu",
+  "codebook_for_fixed_control": null,
+  "params_per_agent": 141926,
+  "pretrained_checkpoint_sha256": "b04bb1da9d4652f9260f6b7d9a11e08b83f1d28d16a2cfc0a910114946c6f93a",
+  "pretrain_accuracy": [
+    0.9931640625,
+    0.998046875
+  ],
+  "visual_encoder": "prepared with reward-only matching, then frozen",
+  "history": "last 4 completed private episodes, updated chronologically after decisions",
+  "learning": "local REINFORCE with detached shared 0/1 reward; no cross-message gradients"
+}

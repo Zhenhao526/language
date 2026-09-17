@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_results_sha256": "c7aad793a78749f7da4ece0d5c85caeb44be9b3b89a8121ad05334ee1a453c15",
+  "verification_sha256": "fcc2754a5468fec9526ee109bba7a8338f641adf4aeb0d9e07e94733cd555ebb",
+  "model_forwards": 47093760,
+  "optimizer_updates": 0,
+  "posthoc": true
+}

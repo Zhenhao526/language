@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "visual_review": "passed",
+  "figures": {
+    "conflict_vs_global_contrast.pdf": "48f3a2b9a798a2e5079f328b26cb6a195f32bc6b267d3e7e1effd175805af50d",
+    "conflict_vs_global_contrast.png": "7e718e9697a87c2bfbbf865b528b9c22124c6e8f31a6954bb91eae91f8941fcf",
+    "control_trajectories.pdf": "6dce6e7a4dab3b9860976b98bc649f7cfa27880b634353da40e868e6ed4b82d9",
+    "control_trajectories.png": "f49059aa584ae6ae2832fbd5970c80601a737739b5d84220094c20710a0569c0",
+    "endpoint_control_contrasts.pdf": "1d5988e3247032f5ea7b642747c3f83288acb48f603ca64fbe812d15cbcb7aa9",
+    "endpoint_control_contrasts.png": "f21d47c480c5c7d645f949a9d819602e350cd812c58573af9f2cd163b2d1561e"
+  },
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_global_reward_control_study/results/global_002"
+}\n

@@ -1,0 +1,25 @@
+{
+  "axis_case_counts": {
+    "destination_L_R": 144,
+    "kind_wood_fiber": 48,
+    "length_short_long": 48
+  },
+  "backgrounds_per_case": 36,
+  "candidate": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_partner_ecology_study/next_semantic_static_001/demand_pairs.json",
+  "cases": 240,
+  "conditions": [
+    "PI_live",
+    "PI_silent"
+  ],
+  "intervention": "aligned source endpoint first-window message shown to target cross-viewers; W2/action recomputed for PI-live",
+  "no_training_by_probe": true,
+  "partition": "heldout_layouts",
+  "schema": "triadic_semantic_formation_confirmation_transfer_manifest_v1",
+  "seeds": [
+    49301,
+    49302,
+    49303,
+    49304
+  ],
+  "source": "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_semantic_formation_confirmation_study/results/confirmation_001"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "correction_status": "completed_json_npz_only",
+  "inputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001/execution/results.json": "10f2879e0f41eb73c69c1f4fe1bced9759d69f7f84554057a31f557fb4620d74",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/correction.py": "583308d02220434dd710e338001fe066cf25b426c0bcee55b961b1dbbf8c5de8",
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/metrics.py": "165841c44c58f40db3fd964774445d184ece73b7237c6622e6c4a76581b9406b"
+  },
+  "outputs_sha256": {
+    "/Users/xia/Documents/ChatGPT/语言/research_program/triadic_factorial_formation_study/results/factorial_001/correction_001/results.json": "3f9db994d5303aa23d97effd312e1fcc59459e18d21e025cf8eef1e59987a1fc"
+  },
+  "changed_evaluation_records": 638,
+  "npz_reads": 1280,
+  "model_forwards": 0,
+  "gradients": 0,
+  "optimizer_updates": 0
+}

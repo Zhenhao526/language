@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "reviewed_at": "2026-09-15T14:30:31.456182+00:00",
+  "main_report_sha256": "a4face8f54681374f0a5ff87a05931849cf63fce4ac261dee90a975e22d5a4db",
+  "read_only_review": true,
+  "new_model_calls": 0,
+  "audit_reruns": 0,
+  "sources_sha256": {
+    "独立核验.json": "055e5dd57fd400f95affaa89aa429c4a9391d15c9dc9809b89a3b5b3a8870953",
+    "behavior_001/behavior.json": "e7b8cef747313d7c83a460da1519821a8d22b5a726c7c00b62d3d99831848228",
+    "behavior_001/behavior_findings.json": "64d1269dcb5d8b93b7b615d530a50cc474a503a94340fd1d57593d74e801d2e7",
+    "execution/backend_stats.json": "0b07157ba963f47b289ca0218d34ca6ea481eef25edde66607ff16424f0adfc7",
+    "execution/snapshots.jsonl": "a9ed4c56dcef35d13cb842d4f02bcaee10577b1345fb2414a4dff7b5162af479"
+  },
+  "checks": {
+    "both_arms_4_of_12_and_all12_rewards_equal": true,
+    "35_of36_actions_identical_and_only_C_partner_change": true,
+    "seven_solo_A_failures_one_overload_and_four_AB_successes_per_arm": true,
+    "288_calls_36_analysis_pairs_108_seeds_and62_hash_checks": true,
+    "six_private_analysis_truncations_no_formal_truncation": true,
+    "time_memory_tokens_and1542_max_prompt_match": true,
+    "three_text_agreement_cases_are_posthoc_proposal_coding_not_commitment_or_causality": true,
+    "raw_second_window_messages_read_for_g401_e1_g401_e3_g403_e2": true,
+    "same_four_of12_as_old_CAP_not_claimed_replication": true,
+    "whole_interface_contrast_not_unique_index_translation_cause": true,
+    "no_symbol_formation_or_all_partner_roles_claim": true
+  },
+  "issues": [],
+  "scope_note": "Final narrative consistency review only; no audit/model rerun. Literature links and parallel material download byte checks remain root responsibilities."
+}

@@ -1,0 +1,127 @@
+{
+  "status": "prepared_without_training",
+  "created_at": "2026-09-16T21:26:01.017229+00:00",
+  "config": {
+    "updates": 6000,
+    "batch_size": 256,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      1500,
+      3000,
+      6000
+    ],
+    "features": 54,
+    "dtype": "float64",
+    "learning_rate": 0.001,
+    "global_gradient_clip": 5.0,
+    "entropy_initial": 0.001,
+    "entropy_zero_after_updates": 1000,
+    "sender_entropy_coefficient": 0,
+    "trajectories_per_state": 2,
+    "sender_windows": 2,
+    "sender_tokens_per_window": 4,
+    "alphabet_size": 8,
+    "actions_per_actor": 18,
+    "cancel_action_index": 17,
+    "cancel_rewards": [
+      0.0,
+      0.1
+    ],
+    "cancel_protocol": "all three cancel",
+    "worker_count": 4,
+    "multiprocessing_start_method": "spawn",
+    "blas_threads_per_worker": 1,
+    "dimensions": {
+      "sender1": [
+        54,
+        64,
+        64,
+        32
+      ],
+      "sender2": [
+        153,
+        64,
+        64,
+        32
+      ],
+      "action": [
+        252,
+        64,
+        64,
+        18
+      ]
+    },
+    "seeds": [
+      66701,
+      66702,
+      66703,
+      66704
+    ],
+    "schedules": [
+      "static",
+      "rematched"
+    ],
+    "payoffs": [
+      "partial_multi"
+    ],
+    "rules": [
+      "strict"
+    ],
+    "lives": [
+      "live",
+      "silent"
+    ],
+    "conditions": [
+      "static_cancel00_partial_multi_strict_PL_live",
+      "static_cancel00_partial_multi_strict_PL_silent",
+      "static_cancel10_partial_multi_strict_PL_live",
+      "static_cancel10_partial_multi_strict_PL_silent",
+      "rematched_cancel00_partial_multi_strict_PL_live",
+      "rematched_cancel00_partial_multi_strict_PL_silent",
+      "rematched_cancel10_partial_multi_strict_PL_live",
+      "rematched_cancel10_partial_multi_strict_PL_silent"
+    ],
+    "partitions": [
+      "train",
+      "new_layouts"
+    ],
+    "task": "multi_legal_coordination_with_explicit_neutral_outcome",
+    "rematching": "rematched: independent uniform six-way need-owner permutation per sampled world; static: identity assignment",
+    "training_objective": "mean_log_expected_reward_over_24_transport_plans_plus_all_cancel_protocol; sender_two_trajectory_LOO",
+    "observation": "PL_own_need_and_public_layout_only; other_need_blocks_and_FI_flag_zero",
+    "primary": "cancel_reward_by_communication_interaction_on_Q_conditional_on_physical_execution_centered_time_AUC",
+    "pairing": "same initial parameters, world uniforms, batch indices, message uniforms and rematch permutations across paired arms",
+    "evaluation": "canonical two-legal-plan worlds on train layouts at six checkpoints; new-layout worlds at final",
+    "selection": "exploratory four-seed pilot; no early stopping or seed selection",
+    "automatic_followon_experiment": false
+  },
+  "source_sha256": {
+    "research_program/triadic_multi_legal_neutral_action_study/__init__.py": "6d6a9bbe7e6f7542cde061e81b82f02df6c1f02c7629fea5d9d7cb763e72f41c",
+    "research_program/triadic_multi_legal_neutral_action_study/design.py": "3750fad10b3b82861039fe6e03b7a4e90e6c1f118dca7c10df10e428a6ef37e5",
+    "research_program/triadic_multi_legal_neutral_action_study/core18.py": "14f39974cbae079ef9ac386c5b9395732cc9a67db4cb965038449ead47b1bc25",
+    "research_program/triadic_multi_legal_neutral_action_study/environment.py": "d8600eba304f1c01f115c9a836110ae04bfaf08d174d9a283e9d116a177560e1",
+    "research_program/triadic_multi_legal_neutral_action_study/kernel.py": "c921a4c24d257d1277505f8a1742b466396253d8e63cfa95a162dc66bfe7da7a",
+    "research_program/triadic_multi_legal_neutral_action_study/remap.py": "26bbcfb7d0773bde9b066b631ddb27b9a0a5d3bf5655c6b1f023c2b0329f5f7b",
+    "research_program/triadic_multi_legal_neutral_action_study/metrics.py": "271cc2911c61d6609e8a4e42a3a7f689a505c3e466ae3c49788790af6e610457",
+    "research_program/triadic_multi_legal_neutral_action_study/runner.py": "20df09484411baf17e6572fe7f5677afbb3819cdf63af02bd52cde7e90c6eea6",
+    "research_program/triadic_multi_legal_neutral_action_study/plan.md": "17c155af0764c25c6008b0fcd6c2526bacb3f822f036c2326948d1e1292f83ef",
+    "research_program/triadic_multi_legal_neutral_action_study/README.md": "998e795bf5e86f8feb80d997d0574251ccff565bbc9865129c8ec1757aaed7e0",
+    "research_program/triadic_multi_legal_neutral_action_study/tests/test_design.py": "614fe1fa9f1d9f06124a2a8a9f0c945994e6048bf618d7f6cda3546e18623624",
+    "research_program/triadic_multi_legal_neutral_action_study/tests/test_kernel.py": "7cdca9eab0bdfdf2cef93cc67bfe095e1e97144fb99de2f8b891d541763a61a9",
+    "research_program/triadic_action_dependency_study/dataset.py": "fff75edc398fd589e0d55fc5fd47f6075e4edd6fa3e7b4793e02875f8bab6a10",
+    "research_program/triadic_multi_legal_rematched_confirmation_study/design.py": "49d8f4b321601903fc937c2c4b7e2e26f587225418a638d2ae52ccaa0fca9638",
+    "research_program/triadic_reciprocal_execution_study/environment.py": "6395f574ce8e379adec1594404a857321a7eee4b6f6b661686502e006faaf763",
+    "research_program/triadic_message_study/runner.py": "5299c99bb92f3e18f8fae969347084c631a66f78e635d2abc4609c476cb9ae60",
+    "research_program/triadic_learning_baseline/runner.py": "1f3cae631bc15e8f2004e27187370fcc8f9448ac6f99495e867c6ac40e2e0d6a",
+    "research_program/triadic_rematched_partner_confirmation_study/remap.py": "983a4a0194093578b7fe9ebdcfc7f580ceb5ff11d7ab801fb87e9d9ad5658874"
+  },
+  "prepared_sha256": "a0a7eb63f9df653e512d04433c7909bba15b6bc6de2f45a2220ddc6fa1d038ae",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "no_model_calls": true,
+  "no_training_updates": true
+}
