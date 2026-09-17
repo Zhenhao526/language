@@ -7,10 +7,10 @@
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
   "current_experiment": {
-    "package": "research_program/compositional_signaling_study",
-    "prepared": "research_program/compositional_signaling_study/results/formal_20260917/prepared.json",
-    "audit": "research_program/compositional_signaling_study/results/formal_20260917/audit.json",
-    "aggregate": "research_program/compositional_signaling_study/results/formal_20260917/aggregate.json",
+    "package": "research_program/generation_transmission_study",
+    "prepared": "research_program/generation_transmission_study/results/formal_20260917/prepared.json",
+    "audit": "research_program/generation_transmission_study/results/formal_20260917/audit.json",
+    "aggregate": "research_program/generation_transmission_study/results/formal_20260917/aggregate.json",
     "summary": "研究报告_共同符号形成机制_2026-09-17.md"
   },
   "omission_policy": [
@@ -51,6 +51,19 @@
         "plan_sha256": "f9c110f73144a6d9c1a4a7a50de3fa9639e54a27e2ec74172f1da1b0a55473ed",
         "audit_sha256": "408a0b0a43510efbca3de9c520546cb27d6511e32338fb5a1d4215153eb5a2f0",
         "compact_results_sha256": "4e22698c9f0fc0da12aff226c9ae5d6d645d1f3893cb97c680b0d525b5cc3bcf",
+        "raw_process_files_omitted": true
+      },
+      "generation_transmission_study": {
+        "source": "research_program/generation_transmission_study",
+        "compact_results": "research_program/generation_transmission_study/results/formal_20260917",
+        "parent_runs": 8,
+        "child_runs": 48,
+        "conditions": 6,
+        "updates_per_run": 3000,
+        "prepared_sha256": "846bffe310ddbe16231298f6315ae0b28701fefd2097a867e51f59e67cde338b",
+        "plan_sha256": "972c1d69baad7827c524b147ec77fa7ca9d4a217fcbd799c495c29eda5940f5d",
+        "audit_sha256": "6c95e30c22cc0004efd94b303cbe15ddceba5399e4544791bdff53b57f87141f",
+        "compact_results_sha256": "a5cdaf0af19978774505785ea577c63fe2d414f25b4bcacf8c1e371832cebbfe",
         "raw_process_files_omitted": true
       }
     },

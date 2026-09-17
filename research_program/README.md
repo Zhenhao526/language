@@ -1,3 +1,5 @@
+- **最新完成[新成员加入与协议传递](generation_transmission_study/README.md)：**8 个 rotating-hidden parent、48 个替换 child run（worker/sender × live/silent/scrambled），每个 run 3000 次更新；新 worker 的 live−silent 为 +59.8 pp（95% t CI [+54.0,+65.6]），新 sender 为 +48.4 pp（[+32.9,+63.9]），两类 live 子代均恢复 parent 的 0.800 回报。独立审计通过 168,000 条日志、56 个终点 checkpoint、48,000 行三通道配对轨迹，`max_abs_replay_error=0`；只能解释为离散协议传递，不等于自然语言。
+
 - **最新完成[双因子消息长度与组合性筛查](compositional_signaling_study/README.md)：**8 个 seed × 10 conditions、每条件 3000 次更新共 80 个正式 run；轮换隐藏 factorized 的 held-out live−silent 为 +25.0 pp，dual2 槽位重组−natural 为 −11.7 pp（95% t 区间不跨零），说明共享整体码本先于可重组词法。独立审计通过 240,000 条训练日志、80 个终点 checkpoint 和 120,000 对配对轨迹；完整过程文件已省略，压缩结果与审计收据保留在 `compositional_signaling_study/results/formal_20260917/`。
 
 # 持续研究记录
