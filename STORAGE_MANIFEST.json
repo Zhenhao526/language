@@ -2,9 +2,9 @@
   "generated_at_local": "2026-09-18",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit": "ea95e84fa5bef45da5c75e8ed8edfb6bca7ace56",
+  "remote_commit": "5ad5d381cac1c0a9f624b05ac20182033be55859",
   "remote_main_verified": true,
-  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix",
+  "scope": "current signaling source, action-dependent timing, compositional protocol transmission, held-out combination recovery, receiver representation controls, multi-generation protocol transmission, noise repair, ternary capacity extension, frozen plans, compact results, audit receipts and final report, capacity-matched redundancy, shared-parity redundancy and rejected design receipts, balanced repetition-pressure formal matrix and superseded unbalanced-pilot receipt, eight-meaning capacity-pressure formal matrix, ecological-factorization formal matrix, compact archive, replay audit and new-combination analysis",
   "retained_paths": {
     "research_program/action_dependent_signaling_study": {
       "files": 23,
@@ -93,6 +93,10 @@
     "research_program/meaning_capacity_study": {
       "files": 20,
       "bytes": 7067868
+    },
+    "research_program/ecological_factorization_study": {
+      "files": 20,
+      "bytes": 1648983
     }
   },
   "compact_archives": {
@@ -159,6 +163,10 @@
     "research_program/meaning_capacity_study/results/formal_20260918": {
       "files": 8,
       "bytes": 7011461
+    },
+    "research_program/ecological_factorization_study/results/formal_20260918": {
+      "files": 8,
+      "bytes": 1581444
     }
   },
   "raw_execution_trees": {
@@ -521,6 +529,116 @@
       "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "passed"
+    },
+    "/private/tmp/eco_smoke_prepared": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_smoke_out": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_smoke_prepared2": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_smoke_out2": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_bench_p": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_bench_o": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_long_p": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_long_o": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/efs_long_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/efs_long": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/efs_long_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/efs_long_aggregate.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/efs_long_aggregate.md": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_prepared": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part1": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part2": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part3": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_merged": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part1_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part2_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/eco_formal_part3_audit.json": {
+      "present": false,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
+    },
+    "/private/tmp/language_sync_check": {
+      "present": true,
+      "removed_in_batch": "2026-09-18",
+      "audit": "formal shard replay passed"
     }
   },
   "temporary_raw_trees_removed": [
@@ -642,7 +760,29 @@
     "/private/tmp/mcs_smoke_analysis.md",
     "/private/tmp/mcs_smoke_audit.json",
     "/private/tmp/mcs_smoke_out",
-    "/private/tmp/mcs_smoke_prepared"
+    "/private/tmp/mcs_smoke_prepared",
+    "/private/tmp/eco_smoke_prepared",
+    "/private/tmp/eco_smoke_out",
+    "/private/tmp/eco_smoke_prepared2",
+    "/private/tmp/eco_smoke_out2",
+    "/private/tmp/eco_bench_p",
+    "/private/tmp/eco_bench_o",
+    "/private/tmp/eco_long_p",
+    "/private/tmp/eco_long_o",
+    "/private/tmp/efs_long_prepared",
+    "/private/tmp/efs_long",
+    "/private/tmp/efs_long_audit.json",
+    "/private/tmp/efs_long_aggregate.json",
+    "/private/tmp/efs_long_aggregate.md",
+    "/private/tmp/eco_formal_prepared",
+    "/private/tmp/eco_formal_part1",
+    "/private/tmp/eco_formal_part2",
+    "/private/tmp/eco_formal_part3",
+    "/private/tmp/eco_formal_merged",
+    "/private/tmp/eco_formal_part1_audit.json",
+    "/private/tmp/eco_formal_part2_audit.json",
+    "/private/tmp/eco_formal_part3_audit.json",
+    "/private/tmp/language_sync_check"
   ],
   "tracked_paths_pruned_in_commit": 8338,
   "historical_cleanup_estimate_bytes": 3687981411,
@@ -1120,5 +1260,45 @@
       "present": false,
       "removed_in_batch": "2026-09-18"
     }
+  },
+  "latest_batch": {
+    "name": "ecological_factorization_20260918",
+    "remote_commit": "5ad5d381cac1c0a9f624b05ac20182033be55859",
+    "archive": "research_program/ecological_factorization_study/results/formal_20260918",
+    "archive_stats": {
+      "files": 8,
+      "bytes": 1581444
+    },
+    "audit": "passed",
+    "raw_execution_retained": false,
+    "raw_paths": [
+      "/private/tmp/eco_smoke_prepared",
+      "/private/tmp/eco_smoke_out",
+      "/private/tmp/eco_smoke_prepared2",
+      "/private/tmp/eco_smoke_out2",
+      "/private/tmp/eco_bench_p",
+      "/private/tmp/eco_bench_o",
+      "/private/tmp/eco_long_p",
+      "/private/tmp/eco_long_o",
+      "/private/tmp/efs_long_prepared",
+      "/private/tmp/efs_long",
+      "/private/tmp/efs_long_audit.json",
+      "/private/tmp/efs_long_aggregate.json",
+      "/private/tmp/efs_long_aggregate.md",
+      "/private/tmp/eco_formal_prepared",
+      "/private/tmp/eco_formal_part1",
+      "/private/tmp/eco_formal_part2",
+      "/private/tmp/eco_formal_part3",
+      "/private/tmp/eco_formal_merged",
+      "/private/tmp/eco_formal_part1_audit.json",
+      "/private/tmp/eco_formal_part2_audit.json",
+      "/private/tmp/eco_formal_part3_audit.json",
+      "/private/tmp/language_sync_check"
+    ],
+    "retained_package_stats": {
+      "files": 20,
+      "bytes": 1648983
+    },
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18.json"
   }
 }
