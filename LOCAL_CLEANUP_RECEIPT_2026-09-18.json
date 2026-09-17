@@ -78,5 +78,30 @@
     "/private/tmp/language_sync_check"
   ],
   "retention_policy": "retain source, frozen plan, compact result, audit, report and local NumPy runtime; remove raw logs, checkpoints, merged execution trees and temporary clones after remote verification",
-  "git_history_preserved": true
+  "git_history_preserved": true,
+  "all_raw_paths_absent": true,
+  "deleted_now": [
+    "/private/tmp/eco_smoke_prepared",
+    "/private/tmp/eco_smoke_out",
+    "/private/tmp/eco_smoke_prepared2",
+    "/private/tmp/eco_smoke_out2",
+    "/private/tmp/eco_bench_p",
+    "/private/tmp/eco_bench_o",
+    "/private/tmp/eco_long_p",
+    "/private/tmp/eco_long_o",
+    "/private/tmp/efs_long_prepared",
+    "/private/tmp/efs_long",
+    "/private/tmp/efs_long_audit.json",
+    "/private/tmp/efs_long_aggregate.json",
+    "/private/tmp/efs_long_aggregate.md",
+    "/private/tmp/eco_formal_prepared",
+    "/private/tmp/eco_formal_part1",
+    "/private/tmp/eco_formal_part2",
+    "/private/tmp/eco_formal_part3",
+    "/private/tmp/eco_formal_merged",
+    "/private/tmp/eco_formal_part1_audit.json",
+    "/private/tmp/eco_formal_part2_audit.json",
+    "/private/tmp/eco_formal_part3_audit.json",
+    "/private/tmp/language_sync_check"
+  ]
 }

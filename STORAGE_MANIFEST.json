@@ -531,42 +531,42 @@
       "audit": "passed"
     },
     "/private/tmp/eco_smoke_prepared": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_smoke_out": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_smoke_prepared2": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_smoke_out2": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_bench_p": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_bench_o": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_long_p": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
     "/private/tmp/eco_long_o": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     },
@@ -636,7 +636,7 @@
       "audit": "formal shard replay passed"
     },
     "/private/tmp/language_sync_check": {
-      "present": true,
+      "present": false,
       "removed_in_batch": "2026-09-18",
       "audit": "formal shard replay passed"
     }
@@ -1299,6 +1299,7 @@
       "files": 20,
       "bytes": 1648983
     },
-    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18.json"
+    "cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-18.json",
+    "verified_paths_absent": true
   }
 }
