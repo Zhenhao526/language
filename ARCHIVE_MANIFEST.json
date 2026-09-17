@@ -147,6 +147,7 @@
         "parent_checkpoint_arrays_omitted": true
       }
     },
-    "latest_remote_commit": "ec79f50388ed97ff3670b330c64108b905d20084"
+    "latest_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497",
+    "cleanup_verified_after_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497"
   }
 }
