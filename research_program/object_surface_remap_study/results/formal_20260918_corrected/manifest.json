@@ -81,5 +81,6 @@
     "/private/tmp/osr_remap_v4_part2",
     "/private/tmp/osr_remap_v4_part3"
   ],
-  "raw_execution_retained_locally": false
+  "raw_execution_retained_locally": false,
+  "receipt_excluded_from_manifest": "receipt.json"
 }
