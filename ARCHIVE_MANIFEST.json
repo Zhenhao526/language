@@ -7,11 +7,11 @@
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
   "current_experiment": {
-    "package": "research_program/triadic_global_reward_control_study",
-    "prepared": "research_program/triadic_global_reward_control_study/results/global_002",
-    "audit": "research_program/triadic_global_reward_control_study/results/audit_global_002",
-    "summary": "research_program/triadic_global_reward_control_study/results/summary_global_002",
-    "figures": "research_program/triadic_global_reward_control_study/results/figures_global_002"
+    "package": "research_program/compositional_signaling_study",
+    "prepared": "research_program/compositional_signaling_study/results/formal_20260917/prepared.json",
+    "audit": "research_program/compositional_signaling_study/results/formal_20260917/audit.json",
+    "aggregate": "research_program/compositional_signaling_study/results/formal_20260917/aggregate.json",
+    "summary": "研究报告_共同符号形成机制_2026-09-17.md"
   },
   "omission_policy": [
     "per-run seed_* directories",
@@ -39,6 +39,19 @@
         "runs": 128,
         "prepared_sha256": "e05eae8c46007867151e6e2bb0cf5ea529a405ee46f181d95979e351e2d65bb0",
         "plan_sha256": "f49fb9a816f13318f502c878bb4d5e4736b6a76e1ee6cffdb0adb80565fd7d5d"
+      },
+      "compositional_signaling_study": {
+        "source": "research_program/compositional_signaling_study",
+        "compact_results": "research_program/compositional_signaling_study/results/formal_20260917",
+        "runs": 80,
+        "seeds": 8,
+        "conditions": 10,
+        "updates_per_run": 3000,
+        "prepared_sha256": "36534104aeda37c56b42969bbcecf98340a1ba480ea405a4bb6f64b5e5227411",
+        "plan_sha256": "f9c110f73144a6d9c1a4a7a50de3fa9639e54a27e2ec74172f1da1b0a55473ed",
+        "audit_sha256": "408a0b0a43510efbca3de9c520546cb27d6511e32338fb5a1d4215153eb5a2f0",
+        "compact_results_sha256": "4e22698c9f0fc0da12aff226c9ae5d6d645d1f3893cb97c680b0d525b5cc3bcf",
+        "raw_process_files_omitted": true
       }
     },
     "raw_process_files_omitted": true,

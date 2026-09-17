@@ -1,3 +1,5 @@
+- **最新完成[双因子消息长度与组合性筛查](compositional_signaling_study/README.md)：**8 个 seed × 10 conditions、每条件 3000 次更新共 80 个正式 run；轮换隐藏 factorized 的 held-out live−silent 为 +25.0 pp，dual2 槽位重组−natural 为 −11.7 pp（95% t 区间不跨零），说明共享整体码本先于可重组词法。独立审计通过 240,000 条训练日志、80 个终点 checkpoint 和 120,000 对配对轨迹；完整过程文件已省略，压缩结果与审计收据保留在 `compositional_signaling_study/results/formal_20260917/`。
+
 # 持续研究记录
 
 - **2026-09-17 表格机制确认：** [tabular signaling](tabular_signaling_study/README.md) 完成 144 个正式 run（8 个 seed；PI/FI、记忆、容量、任务和 live/silent 因子），并通过独立回放。held-out 中 recurrent＋abundant＋PI＋persistent 的 live−silent 为 **+25.95 pp**（t(7) CI [+24.87,+27.03]），natural−permuted 为 **+26.28 pp**（[+24.85,+27.72]）；FI 和 stateless 的 from-scratch silent 对照接近零，switching 未见稳定留出泛化。完整紧凑汇总在 `tabular_signaling_study/results/formal_20260917/`。

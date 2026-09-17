@@ -3,6 +3,7 @@
 - [完整研究报告](研究报告_共同符号形成机制_2026-09-17.md)
 - [tabular signaling 正对照](research_program/tabular_signaling_study/README.md)
 - [population signaling 伙伴生态](research_program/population_signaling_study/README.md)
+- [compositional signaling 组合性筛查](research_program/compositional_signaling_study/README.md)
 - [同步与本地清理说明](SYNC_2026-09-17.md)
 
 本节指向本次同步后可复核的源代码、冻结方案、紧凑轨迹和审计收据；旧条目保留作为历史过程记录。
