@@ -3,7 +3,7 @@
   "timestamp_local": "2026-09-17",
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
-  "remote_commit_verified_after_sync": "c8604842a796b6d77de4fe38345817f32d674aaf",
+  "remote_commit_verified_after_sync": "89090ef8ba51d5ba2dff4e317237cb741d149282",
   "remote_main_verified": true,
   "compact_archives_verified": {
     "research_program/action_dependent_signaling_study/results/formal_20260917": {
@@ -452,7 +452,7 @@
         "kind": "tree"
       }
     ],
-    "verified_after_remote_commit": "c8604842a796b6d77de4fe38345817f32d674aaf",
+    "verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
     "current_batch": {
       "removed_file_count": 1932,
       "removed_bytes": 2330409104,

@@ -306,7 +306,7 @@
     "local_removed_file_count": 39,
     "local_removed_bytes": 8261481457,
     "local_retained_bytes": 117467360,
-    "cleanup_verified_after_remote_commit": "c8604842a796b6d77de4fe38345817f32d674aaf",
+    "cleanup_verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
     "pending_designs": {},
     "invalid_design_records": {
       "research_program/error_correcting_signaling_study/results/invalid_20260917": {
@@ -470,8 +470,8 @@
         "max_abs_replay_error": 0.0
       }
     },
-    "latest_remote_commit": "c8604842a796b6d77de4fe38345817f32d674aaf",
-    "cleanup_verified_after_remote_commit": "c8604842a796b6d77de4fe38345817f32d674aaf",
+    "latest_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
+    "cleanup_verified_after_remote_commit": "89090ef8ba51d5ba2dff4e317237cb741d149282",
     "post_sync_cleanup_bytes": 8261481457,
     "post_sync_cleanup_verified": true,
     "pending_designs": {},
