@@ -1,16 +1,16 @@
 {
   "created_from": "/Users/xia/Documents/ChatGPT/语言",
   "created_at": "2026-09-17",
-  "file_count": 11264,
-  "copied_bytes": 327509047,
+  "file_count": 11364,
+  "copied_bytes": 336123710,
   "omitted_count": 419325,
   "omitted_bytes": 113272064264,
   "large_file_count": 166,
   "current_experiment": {
-    "package": "research_program/receiver_representation_study",
-    "prepared": "research_program/receiver_representation_study/results/formal_20260917/prepared.json",
-    "audit": "research_program/receiver_representation_study/results/formal_20260917/audit.json",
-    "aggregate": "research_program/receiver_representation_study/results/formal_20260917/aggregate.json",
+    "package": "research_program/ternary_composition_study",
+    "prepared": "research_program/ternary_composition_study/results/formal_20260917/prepared.json",
+    "audit": "research_program/ternary_composition_study/results/formal_20260917/audit.json",
+    "aggregate": "research_program/ternary_composition_study/results/formal_20260917/aggregate.json",
     "summary": "研究报告_共同符号形成机制_2026-09-17.md"
   },
   "omission_policy": [
@@ -107,26 +107,127 @@
         "compact_results_sha256": "1b298df41b705026bbe45bc44baca2a05ca81d5bf7fe0029ab3f88c0436b7c2a",
         "raw_process_files_omitted": true,
         "parent_checkpoint_arrays_omitted": true
-      }
-    },
-    "raw_process_files_omitted": true,
-    "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained.",
-    "local_cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-17.json",
-    "storage_manifest": "STORAGE_MANIFEST_2026-09-17.json",
-    "local_removed_file_count": 12239,
-    "local_removed_bytes": 3687981411,
-    "local_retained_bytes": 110190738,
-    "cleanup_verified_after_remote_commit": "e140ca78e27403fb9ac95cecce877cefacfd793d"
-  },
-  "latest_sync_2026-09-17": {
-    "packages": {
-      "研究报告_共同符号形成机制_2026-09-17.md": {
-        "source": "研究报告_共同符号形成机制_2026-09-17.md",
-        "compact_results": "研究报告_共同符号形成机制_2026-09-17.md/results/formal_20260917",
+      },
+      "multi_generation_transmission_study": {
+        "source": "research_program/multi_generation_transmission_study",
+        "compact_results": "research_program/multi_generation_transmission_study/results/formal_20260917",
+        "source_files": 20,
+        "source_bytes": 473773,
+        "archive_files": 11,
+        "archive_bytes": 429349,
+        "prepared_sha256": "2dd7ea6200a13bc8b1619607822ac99b48fb44d55a87eb9fdb0f6d45f9e60e2b",
+        "plan_sha256": "ceb9ab3678c3fb1c64a813177d2b95f69da0a3736fe75002cd3cf0c34b8b3d57",
+        "freeze_sha256": "5fff55986b50d01e9dc20c45f514c23185218c7ab10bb919011ba3973b8754e4",
+        "audit_sha256": "10c2a3d3eb8563aa7d76d6d4f6fb7640f5086e92163ba162e67bcbb50dc8477c",
+        "aggregate_sha256": "017d6b5fe48b8d750d6b2a8e0111c10b27e02f02a95826a6fac15f2d26ff788d",
+        "compact_results_sha256": "bacdde927137c75cb426f89fda61fee0d40c41a0162ba82757306d32638aac6e",
+        "raw_process_files_omitted": true,
+        "stage_runs": 108,
+        "parent_seeds": 9,
+        "lineages": 2,
+        "generations": 2,
+        "updates_per_stage": 3000,
+        "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+        "branch_stratified_analysis_sha256": "11f4d0c0ca1d7da03e288d7cf59bbcbc0d38dc6e6b88af3df64ce1d8e6bb8c57"
+      },
+      "multi_generation_chain_study": {
+        "source": "research_program/multi_generation_chain_study",
+        "compact_results": "research_program/multi_generation_chain_study/results/formal_20260917",
+        "source_files": 21,
+        "source_bytes": 3352646,
+        "archive_files": 11,
+        "archive_bytes": 3303018,
+        "prepared_sha256": "d58b9980c7e885bbe8ac92ffb2add457af2357a8d25d3f0b66002f720a6f447a",
+        "plan_sha256": "5ce61ba729e4a22a85b1628b20ecedb8a95bc6eda0147c2fad9a01c4c2ab4338",
+        "freeze_sha256": "c5328547c1b5356396c30dc10b17b758ade962514035c2e99c0961b0a80baaf8",
+        "audit_sha256": "54e74260a734a5e1076615f0d42c734c1d96752edd550c988f1fa8c4d5bedbec",
+        "aggregate_sha256": "924fa68989c4e154c020390e7175949bba00029627d9ea571dafad2a4d5dc1bc",
+        "compact_results_sha256": "d4099ceba5be0cfbd7e0d2a54a4e10b75b8cf824f56c4b3236669dba17ccfb49",
+        "raw_process_files_omitted": true,
+        "chains": 128,
+        "events": 384,
+        "parent_seeds": 32,
+        "generations": 3,
+        "updates_per_event": 3000,
+        "training_log_rows": 1152000,
+        "paired_channel_trajectory_rows": 576000,
+        "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
+        "stratified_analysis_sha256": "ff12209e407a10b698203426a08021776f74895b8a75ef837e012654527156a9"
+      },
+      "noise_repair_study": {
+        "source": "research_program/noise_repair_study",
+        "compact_results": "research_program/noise_repair_study/results/formal_20260917",
+        "source_files": 18,
+        "source_bytes": 526368,
+        "archive_files": 9,
+        "archive_bytes": 480182,
+        "prepared_sha256": "31a58d12c6fc158de200c6c690e74f3cb3fda13cccf5b551595f2fd404429fbd",
+        "plan_sha256": "4d878b7a73a14e9c19e122c8312abad52a6ac99595fe344205fd217e12d89a65",
+        "freeze_sha256": "3369c7e09498927f5381b981b360d365cb29cf4abb74b210719e3ecf50591893",
+        "audit_sha256": "652e07969683314eb6397a3e9b784d14f567c8523b56fef9c77402edd8c5d428",
+        "aggregate_sha256": "d0bcecc852d3a4e0e490647f09d4edf8805d90000b11be67d60f3bcb8f6fd47b",
+        "compact_results_sha256": "fa17b3f7022e8f641010efdaf990993cd443a5dd226d4c5bb398f10d01f5b4d8",
+        "raw_process_files_omitted": true,
+        "runs": 144,
+        "parent_seeds": 9,
+        "adaptations": [
+          "worker_only",
+          "coadapt"
+        ],
+        "representations": [
+          "joint_history",
+          "slot_local"
+        ],
+        "noise_rates": [
+          0.0,
+          0.1,
+          0.25,
+          0.4
+        ],
+        "updates_per_run": 3000,
+        "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50"
+      },
+      "ternary_composition_study": {
+        "source": "research_program/ternary_composition_study",
+        "compact_results": "research_program/ternary_composition_study/results/formal_20260917",
+        "source_files": 19,
+        "source_bytes": 786700,
+        "archive_files": 8,
+        "archive_bytes": 749112,
+        "prepared_sha256": "c3618ee90197eaad76de83703264ce956d7d601c8d0d9016c7e9de93e537bfb5",
+        "plan_sha256": "c6f76e3a5c8ac355a4018e4d0c0acc05abd68887e7972d49c07a207a4e9290a0",
+        "freeze_sha256": "5b03319cddfcd51dd9b7acf42b0d9cde7a2821008beb249dc79ccf18224c6466",
+        "audit_sha256": "09e74fda10373fd15415b73f8c6b0b95b64e7a9100ea449364b8ecbd2da8e4f4",
+        "aggregate_sha256": "ec65b249b714dcb88bf691306c3a42968d1f352fe7c44c337a8a7227a46f8a26",
+        "compact_results_sha256": "8411f39be6938651f94207fb9de1a82027fcbbc5185a02aa68cf6a2ba22213ce",
+        "raw_process_files_omitted": true,
+        "runs": 144,
+        "seeds": 9,
+        "forms": [
+          "mono9",
+          "tri3"
+        ],
+        "tasks": [
+          "factorized",
+          "entangled"
+        ],
+        "protocols": [
+          "simultaneous",
+          "staged"
+        ],
+        "channels": [
+          "live",
+          "silent"
+        ],
+        "updates_per_run": 3000,
+        "training_log_rows": 432000,
+        "paired_channel_trajectory_rows": 216000
+      },
+      "receiver_representation_study": {
+        "source": "research_program/receiver_representation_study",
+        "compact_results": "research_program/receiver_representation_study/results/formal_20260917",
         "runs": 256,
         "seeds": 32,
-        "conditions": 8,
-        "updates_per_run": 3000,
         "representations": [
           "joint_history",
           "slot_local"
@@ -135,21 +236,127 @@
           "full",
           "leave_one_out"
         ],
+        "updates_per_run": 3000,
         "prepared_sha256": "88b4ba9b5990c8ac41b1878e47ffe49362ef8ea56cf56c77c2903ae48f651ea7",
         "plan_sha256": "f698d72df799c8c8b339e9446a49a18e3ca0ba86cc1444cea447230e689db235",
+        "freeze_sha256": "7b15203ee241b3c7d49b66cf8cd0ddc5dec954b5c55ad3eefb9bce7acd4f9e78",
         "audit_sha256": "ea5782a91c8ab324979ed7a1b072bc10411faba85771a762be13b12cfab31c3f",
         "aggregate_sha256": "d4e1486bb002848cb8b499b3267423bce87467ac07809c41a6b2bba2d07a5c99",
         "compact_results_sha256": "299cc47f5ee4fc700cf9bd4f22df4ccb6b223f81a1e4ad28092f928a733c38e5",
-        "parent_analysis_sha256": "b6c5169c19f69e59bd348a51b2b83231036f07131ee1b03dfe8fdc389e865e50",
-        "parent_rebuild_verification_sha256": "2c767f251b1e61d8b24652b8ac6f7ae5f11973ead05791ad5105217c886f5d85",
-        "full_support_control": true,
-        "raw_process_files_omitted": true,
-        "parent_checkpoint_arrays_omitted": true
+        "raw_process_files_omitted": true
       }
     },
-    "latest_remote_commit": "9ce96c026aea69444c899f053b3aac08ede941e9",
-    "cleanup_verified_after_remote_commit": "7bc8068dd5f71ef08e28758e4f523e7a3c643497",
-    "post_sync_cleanup_bytes": 4408627848,
+    "raw_process_files_omitted": true,
+    "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained.",
+    "local_cleanup_receipt": "LOCAL_CLEANUP_RECEIPT_2026-09-17.json",
+    "storage_manifest": "STORAGE_MANIFEST.json",
+    "local_removed_file_count": 2847,
+    "local_removed_bytes": 1522439761,
+    "local_retained_bytes": 36194332,
+    "cleanup_verified_after_remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674"
+  },
+  "latest_sync_2026-09-17": {
+    "packages": {
+      "tabular_signaling_study": {
+        "source": "research_program/tabular_signaling_study",
+        "compact_results": "research_program/tabular_signaling_study/results/formal_20260917",
+        "prepared_sha256": "c3b0ce55fff533a9519eb705640ea1bf72c510e9b6cff9dd2b74aa6ae73ca05c",
+        "audit_sha256": null,
+        "aggregate_sha256": null,
+        "compact_results_sha256": null
+      },
+      "population_signaling_study": {
+        "source": "research_program/population_signaling_study",
+        "compact_results": "research_program/population_signaling_study/results/formal_20260917",
+        "prepared_sha256": "e05eae8c46007867151e6e2bb0cf5ea529a405ee46f181d95979e351e2d65bb0",
+        "audit_sha256": null,
+        "aggregate_sha256": null,
+        "compact_results_sha256": null
+      },
+      "compositional_signaling_study": {
+        "source": "research_program/compositional_signaling_study",
+        "compact_results": "research_program/compositional_signaling_study/results/formal_20260917",
+        "prepared_sha256": "36534104aeda37c56b42969bbcecf98340a1ba480ea405a4bb6f64b5e5227411",
+        "audit_sha256": "408a0b0a43510efbca3de9c520546cb27d6511e32338fb5a1d4215153eb5a2f0",
+        "aggregate_sha256": null,
+        "compact_results_sha256": "4e22698c9f0fc0da12aff226c9ae5d6d645d1f3893cb97c680b0d525b5cc3bcf"
+      },
+      "generation_transmission_study": {
+        "source": "research_program/generation_transmission_study",
+        "compact_results": "research_program/generation_transmission_study/results/formal_20260917",
+        "prepared_sha256": "846bffe310ddbe16231298f6315ae0b28701fefd2097a867e51f59e67cde338b",
+        "audit_sha256": "6c95e30c22cc0004efd94b303cbe15ddceba5399e4544791bdff53b57f87141f",
+        "aggregate_sha256": null,
+        "compact_results_sha256": "a5cdaf0af19978774505785ea577c63fe2d414f25b4bcacf8c1e371832cebbfe"
+      },
+      "action_dependent_signaling_study": {
+        "source": "research_program/action_dependent_signaling_study",
+        "compact_results": "research_program/action_dependent_signaling_study/results/formal_20260917",
+        "prepared_sha256": "aecfdc5d09c5f4b3cf51f98ee682b1f8aed93df46d823e9a38e67cf52cedcb1c",
+        "audit_sha256": "72b22b115756c91bf2d774ae5223e8530881cb1b86c9dd6f6605c6146fa82d84",
+        "aggregate_sha256": null,
+        "compact_results_sha256": "a8976450e64caa83c1434fc12fefcaf14aa6136abee1b9208df04dabe540b213"
+      },
+      "generation_compositional_transmission_study": {
+        "source": "research_program/generation_compositional_transmission_study",
+        "compact_results": "research_program/generation_compositional_transmission_study/results/formal_20260917",
+        "prepared_sha256": "5395302d3481bf63c82a671e0579dfc39ad4eb6d77284449e31fbda6836f056a",
+        "audit_sha256": "03df24f81629a5de665eec994af36e7ff3d7a9d04fd97c21e1e0b16982447a65",
+        "aggregate_sha256": null,
+        "compact_results_sha256": "035b63cd71e7d9a56ff11072c9c85975e8d32648cc7805af20cc519e53d8c073"
+      },
+      "heldout_composition_study": {
+        "source": "research_program/heldout_composition_study",
+        "compact_results": "research_program/heldout_composition_study/results/formal_20260917",
+        "prepared_sha256": "a3709d71e15a2037421fa6f50e8de52277a06843d854d7c2600df673ab8739d2",
+        "audit_sha256": "314cfac73037ec6dea6eaa1cae85939e358a2ccdff19a7518f17a1cdb086da52",
+        "aggregate_sha256": null,
+        "compact_results_sha256": "1b298df41b705026bbe45bc44baca2a05ca81d5bf7fe0029ab3f88c0436b7c2a"
+      },
+      "multi_generation_transmission_study": {
+        "source": "research_program/multi_generation_transmission_study",
+        "compact_results": "research_program/multi_generation_transmission_study/results/formal_20260917",
+        "prepared_sha256": "2dd7ea6200a13bc8b1619607822ac99b48fb44d55a87eb9fdb0f6d45f9e60e2b",
+        "audit_sha256": "10c2a3d3eb8563aa7d76d6d4f6fb7640f5086e92163ba162e67bcbb50dc8477c",
+        "aggregate_sha256": "017d6b5fe48b8d750d6b2a8e0111c10b27e02f02a95826a6fac15f2d26ff788d",
+        "compact_results_sha256": "bacdde927137c75cb426f89fda61fee0d40c41a0162ba82757306d32638aac6e"
+      },
+      "multi_generation_chain_study": {
+        "source": "research_program/multi_generation_chain_study",
+        "compact_results": "research_program/multi_generation_chain_study/results/formal_20260917",
+        "prepared_sha256": "d58b9980c7e885bbe8ac92ffb2add457af2357a8d25d3f0b66002f720a6f447a",
+        "audit_sha256": "54e74260a734a5e1076615f0d42c734c1d96752edd550c988f1fa8c4d5bedbec",
+        "aggregate_sha256": "924fa68989c4e154c020390e7175949bba00029627d9ea571dafad2a4d5dc1bc",
+        "compact_results_sha256": "d4099ceba5be0cfbd7e0d2a54a4e10b75b8cf824f56c4b3236669dba17ccfb49"
+      },
+      "noise_repair_study": {
+        "source": "research_program/noise_repair_study",
+        "compact_results": "research_program/noise_repair_study/results/formal_20260917",
+        "prepared_sha256": "31a58d12c6fc158de200c6c690e74f3cb3fda13cccf5b551595f2fd404429fbd",
+        "audit_sha256": "652e07969683314eb6397a3e9b784d14f567c8523b56fef9c77402edd8c5d428",
+        "aggregate_sha256": "d0bcecc852d3a4e0e490647f09d4edf8805d90000b11be67d60f3bcb8f6fd47b",
+        "compact_results_sha256": "fa17b3f7022e8f641010efdaf990993cd443a5dd226d4c5bb398f10d01f5b4d8"
+      },
+      "ternary_composition_study": {
+        "source": "research_program/ternary_composition_study",
+        "compact_results": "research_program/ternary_composition_study/results/formal_20260917",
+        "prepared_sha256": "c3618ee90197eaad76de83703264ce956d7d601c8d0d9016c7e9de93e537bfb5",
+        "audit_sha256": "09e74fda10373fd15415b73f8c6b0b95b64e7a9100ea449364b8ecbd2da8e4f4",
+        "aggregate_sha256": "ec65b249b714dcb88bf691306c3a42968d1f352fe7c44c337a8a7227a46f8a26",
+        "compact_results_sha256": "8411f39be6938651f94207fb9de1a82027fcbbc5185a02aa68cf6a2ba22213ce"
+      },
+      "receiver_representation_study": {
+        "source": "research_program/receiver_representation_study",
+        "compact_results": "research_program/receiver_representation_study/results/formal_20260917",
+        "prepared_sha256": "88b4ba9b5990c8ac41b1878e47ffe49362ef8ea56cf56c77c2903ae48f651ea7",
+        "audit_sha256": "ea5782a91c8ab324979ed7a1b072bc10411faba85771a762be13b12cfab31c3f",
+        "aggregate_sha256": "d4e1486bb002848cb8b499b3267423bce87467ac07809c41a6b2bba2d07a5c99",
+        "compact_results_sha256": "299cc47f5ee4fc700cf9bd4f22df4ccb6b223f81a1e4ad28092f928a733c38e5"
+      }
+    },
+    "latest_remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674",
+    "cleanup_verified_after_remote_commit": "2a86881e6e967ad001ce469dd35193699b75e674",
+    "post_sync_cleanup_bytes": 1522439761,
     "post_sync_cleanup_verified": true
   }
 }
