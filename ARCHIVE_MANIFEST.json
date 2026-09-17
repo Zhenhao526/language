@@ -21,5 +21,27 @@
     "runtime environments",
     "old generated result details; retain reports/receipts/manifests"
   ],
-  "omission_details": "OMISSION_SUMMARY.json"
+  "omission_details": "OMISSION_SUMMARY.json",
+  "latest_sync_2026_09_17": {
+    "report": "研究报告_共同符号形成机制_2026-09-17.md",
+    "sync_note": "SYNC_2026-09-17.md",
+    "packages": {
+      "tabular_signaling_study": {
+        "source": "research_program/tabular_signaling_study",
+        "compact_results": "research_program/tabular_signaling_study/results/formal_20260917",
+        "runs": 144,
+        "prepared_sha256": "c3b0ce55fff533a9519eb705640ea1bf72c510e9b6cff9dd2b74aa6ae73ca05c",
+        "plan_sha256": "0850f3b05a7a4b8e1438e3578d6ec02afbfb190fe1fc9111ae61c00eb32764df"
+      },
+      "population_signaling_study": {
+        "source": "research_program/population_signaling_study",
+        "compact_results": "research_program/population_signaling_study/results/formal_20260917",
+        "runs": 128,
+        "prepared_sha256": "e05eae8c46007867151e6e2bb0cf5ea529a405ee46f181d95979e351e2d65bb0",
+        "plan_sha256": "f49fb9a816f13318f502c878bb4d5e4736b6a76e1ee6cffdb0adb80565fd7d5d"
+      }
+    },
+    "raw_process_files_omitted": true,
+    "raw_process_files_note": "Per-run training logs, checkpoint arrays and merged execution results remain omitted; compact samples, hashes and audit receipts are retained."
+  }
 }

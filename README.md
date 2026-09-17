@@ -1,3 +1,12 @@
+# 当前路线（2026-09-17）
+
+- [完整研究报告](研究报告_共同符号形成机制_2026-09-17.md)
+- [tabular signaling 正对照](research_program/tabular_signaling_study/README.md)
+- [population signaling 伙伴生态](research_program/population_signaling_study/README.md)
+- [同步与本地清理说明](SYNC_2026-09-17.md)
+
+本节指向本次同步后可复核的源代码、冻结方案、紧凑轨迹和审计收据；旧条目保留作为历史过程记录。
+
 # 语言诞生研究
 
 - **最新完成[接收者角色 C−A 单槽与符号重编码确认探针](/Users/xia/Documents/ChatGPT/语言/research_program/triadic_receiver_role_crossover_confirmatory_slot_recode_probe/单槽重编码_结果与下一步.md)：**在独立确认终点的 A/C 两个角色、8 个种子、`static/rematched × live/silent` 共 64 个冻结策略块上，把供体首窗包拆成四个单槽，并加入两种固定八符号双射。整包 aligned−placebo 计划转移为 A **+8.221/+6.891 pp**、C **+3.329/+1.984 pp**；单槽缩小到约 **+0.30–+1.86 pp**，没有单槽复现整包幅度；`recode_add1/xor4` 的 A、C 点估计均为负。C−A 整包 **−4.899 pp**（t(7) CI [−8.485,−1.314]），单槽约−0.68至−1.19 pp，重编码约+0.81 pp但区间跨零。独立审计重放4,866,048行、2,433,024条live，`max_abs_error=0`；新权威批次无优化更新、无外部模型调用。结果支持当前冻结接口依赖整包、槽位和绝对 token 身份的窄机制解释，仍不能称词义、组合语法或语言起源。
