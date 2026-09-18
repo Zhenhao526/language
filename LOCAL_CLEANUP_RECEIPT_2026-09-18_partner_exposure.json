@@ -117,5 +117,12 @@
     "path": "research_program/partner_exposure_study/results/formal_20260918/results.json",
     "bytes": 1807618,
     "sha256": "3dd484f81842ef7106a4fa2af35e73db184d857cf4e941edb3bd8fa8e6583118"
-  }
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/partner_exposure_study/results/formal_20260918/results.json",
+      "bytes_removed": 1807618,
+      "removed": true
+    }
+  ]
 }

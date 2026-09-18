@@ -9,8 +9,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1279,
-      "sha256": "cd508119f51d8af75cd33ad38d2576e64db0e2db3b6139cb95fd586c37b59acc"
+      "bytes": 1379,
+      "sha256": "dba3595c71166ecac97c6ff948858b908f7f89c5c2eb8fb374ea6e5988caff7a"
     },
     {
       "path": "aggregate.json",
@@ -24,8 +24,8 @@
     },
     {
       "path": "audit.json",
-      "bytes": 619,
-      "sha256": "e405a55697cea9a230a43829dd9c7f20dae6ccb714d7c86d27577b22d7c1c799"
+      "bytes": 610,
+      "sha256": "00c43bcd029dbfdcda2ef5a23dc0b8c02a053f5b5f2a40d22cf3f5774aa565bf"
     },
     {
       "path": "execution_plan.json",
@@ -59,7 +59,7 @@
     }
   ],
   "file_count": 10,
-  "payload_bytes": 152390,
+  "payload_bytes": 152481,
   "manifest_excludes_self": true,
   "audit": "passed",
   "parent_runs": 72,

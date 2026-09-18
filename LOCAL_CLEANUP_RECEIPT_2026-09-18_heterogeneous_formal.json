@@ -176,5 +176,12 @@
     "path": "research_program/heterogeneous_grounding_study/results/formal_20260918/results.json",
     "bytes": 2773816,
     "sha256": "18a60dfd1b7625c0c68560e5f68d2c24f0b62d74f8124b288b9d2c81bd37cbc7"
-  }
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/heterogeneous_grounding_study/results/formal_20260918/results.json",
+      "bytes_removed": 2773816,
+      "removed": true
+    }
+  ]
 }

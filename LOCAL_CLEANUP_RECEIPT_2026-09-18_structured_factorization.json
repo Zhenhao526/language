@@ -116,5 +116,12 @@
     "path": "research_program/structured_factorization_study/results/formal_20260918/results.json",
     "bytes": 2902693,
     "sha256": "d26a69f81aff10ef99ee55edd768cc410cc7284eff74697cfc4df585bed8c1c1"
-  }
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/structured_factorization_study/results/formal_20260918/results.json",
+      "bytes_removed": 2902693,
+      "removed": true
+    }
+  ]
 }

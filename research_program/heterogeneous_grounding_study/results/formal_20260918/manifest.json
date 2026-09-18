@@ -9,8 +9,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 970,
-      "sha256": "9464adb74a19c33ae5d54d99090b0b867f28f3e7591fdf3e797d5f504d2b2939"
+      "bytes": 1065,
+      "sha256": "4c2a088da90979e4e47c58e554463e08fd840fd957327ee86ca425e01e429ce4"
     },
     {
       "path": "aggregate.json",
@@ -79,7 +79,7 @@
     }
   ],
   "file_count": 14,
-  "payload_bytes": 806811,
+  "payload_bytes": 806906,
   "manifest_excludes_self": true,
   "remote_base_commit": "558f6d04cbeeb2379cd384ee11fd77cc671d099f",
   "full_results_retained_in_remote_tree": true,

@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 1049,
-      "sha256": "746274cb17d5e4c2e238b401acd1870f59cca384ac4645d27332f739d6c05a3a"
+      "bytes": 1140,
+      "sha256": "efe546516e455230a39c3940f2ebd6b6ff0329beff00d4e999fc0452959d90e8"
     },
     {
       "path": "aggregate.json",
@@ -75,6 +75,6 @@
     }
   ],
   "remote_payload_bytes": 489867,
-  "payload_bytes": 183620,
+  "payload_bytes": 183711,
   "manifest_excludes_self": true
 }

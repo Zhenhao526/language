@@ -92,5 +92,12 @@
     "path": "research_program/object_surface_transfer_study/results/formal_20260918/results.json",
     "bytes": 489867,
     "sha256": "99d6c2c01c79f6a56db0b91724a56cf2281413d3fe1cf9d8f27cdeaa4d88be7d"
-  }
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/object_surface_transfer_study/results/formal_20260918/results.json",
+      "bytes_removed": 489867,
+      "removed": true
+    }
+  ]
 }

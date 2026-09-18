@@ -146,5 +146,12 @@
     "path": "research_program/community_merge_study/results/formal_20260918/results.json",
     "bytes": 5252837,
     "sha256": "0aab80f305a300db3be2e0bee31dd6d406ce0c1cfae2139d4b002c8d2261f35e"
-  }
+  },
+  "deleted_local_results": [
+    {
+      "path": "research_program/community_merge_study/results/formal_20260918/results.json",
+      "bytes_removed": 5252837,
+      "removed": true
+    }
+  ]
 }
