@@ -124,5 +124,8 @@
       "bytes_removed": 1807618,
       "removed": true
     }
-  ]
+  ],
+  "archive": "research_program/partner_exposure_study/results/formal_20260918",
+  "archive_manifest_sha256": "d81820a86e4482540b79eb6841062e056ed06c1fb2fa5a69fbdc8b1463b943bc",
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

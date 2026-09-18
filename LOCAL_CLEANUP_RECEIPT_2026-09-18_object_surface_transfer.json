@@ -4,7 +4,7 @@
   "root": "/Users/xia/Documents/ChatGPT/语言",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
   "archive": "research_program/object_surface_transfer_study/results/formal_20260918",
-  "archive_manifest_sha256": "be796fa6ce62d807c40355b4860d33ccf6f4dc1b1fe20bcc6871f9d68ba1583f",
+  "archive_manifest_sha256": "cebe6e1ec453a07396692c363357b1013e25410c8203d725954a0f00f7f28468",
   "audit": "passed",
   "raw_execution_retained": false,
   "raw_paths_absent": true,
@@ -99,5 +99,6 @@
       "bytes_removed": 489867,
       "removed": true
     }
-  ]
+  ],
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }

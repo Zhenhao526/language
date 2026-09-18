@@ -5,7 +5,7 @@
   "reason": "retain source, frozen design, compact formal archive and audit while removing raw community-merge execution trees and superseded diagnostics from local storage",
   "remote_repository": "git@github.com:Zhenhao526/language.git",
   "source_commit": "ec3b9e19bb262b3b84eb7e64b3d22aa43e44c9ab",
-  "archive": "/Users/xia/Documents/ChatGPT/语言/research_program/community_merge_study/results/formal_20260918",
+  "archive": "research_program/community_merge_study/results/formal_20260918",
   "archive_manifest_verified": true,
   "audit_status": "passed",
   "raw_execution_retained": false,
@@ -153,5 +153,7 @@
       "bytes_removed": 5252837,
       "removed": true
     }
-  ]
+  ],
+  "archive_manifest_sha256": "1ad6e3343695c74b9d20629f8910bf191f073d64923717449ac9f8a6c95e2fd7",
+  "remote_parent_commit_verified": "731ccdef98da1a7ef511c1aecc6cf00fa62527df"
 }
